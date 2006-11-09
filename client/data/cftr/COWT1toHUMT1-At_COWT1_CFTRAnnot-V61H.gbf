@@ -1,0 +1,3481 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Homo Sapiens CFTR Region">
+  <!-- Features converted from ATA format -->
+  <computational_analysis id="CELERA:30000103856808">
+    <date day="15" month="03" year="2004"></date>
+    <program>At:cow_CFTR_anno</program>
+    <version>2.6</version>
+    <type>BLASTN_HIT</type>
+    <result_set id="CELERA:30000103856809">
+      <description>COWT1|CAV2  Full HUMT1:0 URU 71.0 100.0 2236 913 495 3149 3149 2342 48 3 2727 2727 0 0 0 0 0 0 COWT1|0 /transcript_uid=COWT1|CAV2</description>
+      <result_span id="CELERA:30000103856810">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAV2-1  Good  HUMT1:0 URU 84.1 100.0 280 53 7 333 333 326 4 1 328 328 0 0 0 0 0 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>125908</start>
+            <end>126236</end>
+          </span>
+          <alignment>
+            gggActAgggTcTCGcgggcCgggTaAcAggagccAGcagcgggaagcAgccgccgcccgggcc-----gCgctGggcgaggcgaggCggggcggggccgggcAcGacgggaaggggaAgccgcgcggGccCggagccgcGccgcAccagccCggctgcaTcCAccgcTcaccaagCgcCgcgatggggctggagacCgagaaggcggaTgtCcagctcttcatggacgacgactcctacagccGccacagcAgcGtcgaTtacgcAgaccccgaCaagttcgTggacCcAgGcAGCgaccgAgatccccacAggctcaactcgcatctcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>329134</start>
+            <end>329465</end>
+          </span>
+          <alignment>
+            gggGctCgggAcGGCcgggcTggg-aGcTggagccCAcagcgggaagcGgccgccgcccgggccTCGCAgGgctAggcgaggcgaggGggggcggggccgggcGcTacgggaaggggaGgccgcgcggAccGggagccgcAccgcGccagccGggctgcaGcGGccgcGcaccaag-gcTgcgatggggctggagacGgagaaggcggaCgtAcagctcttcatggacgacgactcctacagccAccacagcGgcCtcgaGtacgcCgaccccgaGaagttcgCggacTcGgAcCAGgaccgGgatccccacCggctcaactcgcatctcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="84.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAV2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856811">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAV2-2  Good  HUMT1:0 U 90.4 100.0 170 18 0 188 188 188 1 1 188 188 0 0 0 0 0 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>126559</start>
+            <end>126747</end>
+          </span>
+          <alignment>
+            GtgggAttcgaggatgtgatTgcagagccAgtgTctacgcactcctttgacaaagtgtggatctgcagccaCgcTctAtttgaaatGagcaaataTgtGatCtacaagttcctgacggtgttcctggcTattcccTtggcTttcGCtgcgggaattctctttgccaccctcagctgtctgcaTatctg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>329793</start>
+            <end>329981</end>
+          </span>
+          <alignment>
+            CtgggCttcgaggatgtgatCgcagagccGgtgActacgcactcctttgacaaagtgtggatctgcagccaTgcCctCtttgaaatCagcaaataCgtAatGtacaagttcctgacggtgttcctggcCattcccCtggcCttcATtgcgggaattctctttgccaccctcagctgtctgcaCatctg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="90.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAV2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856812">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAV2-3  Good  HUMT1:0 URU 68.0 100.0 1786 842 488 2628 2628 1828 43 1 2211 2211 0 0 0 0 0 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>131177</start>
+            <end>133388</end>
+          </span>
+          <alignment>
+            gattAtaatgccttttgtaaagacctgcctaatggtCctgccttcagtgcagacaatatggaagagtgtgacagatgttGtcattgcCccattgtgtacgagcAtaggacgCAgcttctcttctgtcagcctgcaactgagccaCgattgaatacttggGccccaggtcCAgagatCTggatac------------ttgttTttataacataaaagcacTactgttctgttAattCccCaActgttcAaattaagaaaGctattaagatgGgcaaccacatGtag-aatgtttattgGcagAtcttttcaaataatgcttttctaattaaAagccaaGgatttcGtatctaactttAtaaTcagaattatTcagCa----gGcaAcaAttaATtttaaaggcagGcagttttTTctttagtacaaAGgtatGcattttataatgatgaaTCtGtaatgatCaagggaTatttctCt-CaaaCactacaatagttttGtgTacaactGcTcGtAaaaaTatgGAatttcCtatt----------tttttactctggAagtaatactttttaaa--acctttGcaGataAagtcaTGggGatactTag-aGataAGatAatAc---aaa--gATCCTacaaaagTa-------atGatagGGGctCt--------------caaataaatGtgaaaAtagattcatgaaaaCAtGttcctttaaaTAGGGtattgttAAcTtacaggTAtatttaacaagaGgtttcaAtCtactgtatattttgtagttaTtGtaaatgttgcCctaatcagattgTttTaaagcaCACt--ttatatttGtTAtCttgTactaatatatAGaaGGagtaaatgtaTctTccaTaagg--aacttcattggtGagattgcactgtCcAgattaCAtaagcatAtg--catcttctttggTaatTGaaTGtaaaagagAgataTacaaGgctttTCtttctTactCttccaagTGaaatcCtGaaatgtttCatgGcTAatGtttATctggctgtgatct-----taatAcaAaCctaaCtGAtatttCAtctaAgagatTAtttctGtctTgtagttaAaaattaaTCctgtAtTcTgcattc---ttaTtgtTtcTctttacCttcaagtaatattggtgctattAaaTaACAtttaAaAtaaTGgCtaTttctgatacttAagtacaatttcaGctacagtAattcatgtaTTAaCTTcagCAAagttgtTaacttATTgggTCCGTGctactgaGctaTGTatATataaaTtaaaaaGtaaTagctacaaactttCaagatAttAtctaatatAAgt-tTtaCTGcacagTataaaAttattcttAtTattttTgGactgtagagtcctatttcagtgtTatgaGtcactgttg-tttTaaaaatctc--tatt------------------------------------------------------------------------------------------------------------------------ctaaa----------------------------------------------------------------------aTaat--------------aggc------------------------------------------------------------------------------------------------------------ct-------------------acat------aaaaGCTgtctataatgtgagtGgttaActaTaatttacacaCcCtaaaagtgtgtCaatgctCaaatttcagaattacTatcagaacTtAGattAacattcctttAaataGTTtCataGAtgacaaCtCCTCATTCagTGACAattaatTTTattttCcCaaGtTTcTaAgactggtgaatataaaGgatgattgaactggaatTCtaCtggggaAcCaaGcaaatgaatgattaaattatgaagctTatatccttttgaaggtagCtAcaaagagaTTtttTcaaaactgTcTtaggTcattgTagcatcAttagaAAACacTc-tCatGat--cAttaCagcatTaTTTctca-tttgacAatatGgatAttaCtatgttagtCAaaaaggtcaatcagTctcatgactttatagttatACcttAtattt-aaGaTGtttttAaAacatATttggAtatgtCATtTGaGcaaaaGTatttgattaataaaatatctatttAaataaatCatgGCTTctatcTtttcaaaTagcAaGTTTTTTCAAAttggcaagttttaaaGccaaaatataCaTacatagtCACAtaaAaaaaAAcCTAtCAacttGtAAcaagtaGacTATatgaTttTcttatttctgaaTagCaTtgAtCaTCttcaaaatCaCtttttattgagatttGTcattaactattttAtttcaGagactGaaattttgtaccaagtGGaCcTaggTttCatgtacaaaTatgttgGttCttttatttgTgAGtggggAAgaggtGGGtgatgGTGGgacttTcCcAgTatCTataataaaC
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>335504</start>
+            <end>338061</end>
+          </span>
+          <alignment>
+            gattTtaatgccttttgtaaagacctgcctaatggtTctgccttcagtgcagacaatatggaagagtgtgacagatgttAtcattgcTccattgtgtacgagcGtaggacgATgcttctcttctgtcagcctgcaactgagccaGgattgaatacttggAccccaggtcTGgagatTGggatacTGTAATACTTCTttgttAttataacataaaagcacCactgttctgttCattTccTaGctgttcTaattaagaaaActattaagatgAgcaaccacatTtagAaatgtttattgAcagGtcttttcaaataatgcttttctaattaaTagccaaAgatttcAtatctaactttGtaaCcagaattatAcagTaAGTTgAcaCcaCttaGAtttaaaggcagAcagttttG-ctttagtacaaTAgtatAcattttataatgatgaaCTtAtaatgatTaagggaCatttctAtAAaaaTactacaatagttttAtgCacaactTcCcAtTaaaa-atgAGatttcTtattTGTTTGTCTGtttttactctggGagtaatactttttaaaTTacctttAcaTataTagtcaCTggCatactGagAaTataCAatGatCcTGGaaaTTgCAGTAacaaaagCaCACAACGatTatagTAActAtAAGATACAATAAAAcaaataaatAtgaaaGtagattcatgaaaaTGtAttcctttaaaA----tattgttTTcCtacaggCCtatttaacaagaTgtttcaTtTtactgtatattttgtagttaAtAtaaatgttgcTctaatcagattgCttAaaagcaTTTtTAttatatttAtGTtGttgAactaatatatGAaaTAagtaaatgtaGctCccaCaaggTAaacttcattggtAagattgcactgtTcTgattaTGtaagcatTtgTAcatcttctttggAaatAAaaGAtaaaagagCgataCacaaAgctttCTtttctAactTttccaagCAaaatc-tAaaatgtttTatgAc--atTttt--ctggctgtgatctTAAAAtaatTcaTaTctaaAtAGtatttTGtctaGgagatGCtttctCtctAgtagttaGaaattaaATctgtGt-cAgcattcCTAttaAtgtCtcActttacTttcaagtaatattggtgctattTaaCaT--tttaCaGtaaATgTtaCttctgatacttTagtacaatttcaActacagtGattcatgtaGAGaGA-cagGGGagttgtCaactt---ggg------ctactgaActaC--atGCataaaCtaaaaaCtaaCagctacaaactttTaagat-ttCtctaatatTGgtAtGtaA--cacagGataaaGttattcttGtCatttt-gAactgtagagtcctatttcagtgtGatgaAtcactgttgCtttGaaaaatctcATtattTCTGGGCCGGGCATGGTGGCTCACCCCTGTAATCCCAGCACTTTGGGAGGCCAAGGCGGGTGGATCATGAGGTCAGGAGATCAAGACCATCCTGGCCAACATGGTGATACCCCGTCTCTActaaaAATACAAAAAAATTAGTTGGGCATGGTGGCATGCACCTGTAGTCCCAGCTACCTGGGAGGCTGAGGCAGGaGaatTGCTTGAACCTGGGaggcAGAGGTTGCAGTGAGCCAAAATCATGCCACTGCACTCCCGCCTGGCAACAGAGCAAGAGTCTGTCTCAAAAAAAAAAAGAAAAAAAGAAAAAAAGAAAAAAGAAAAATctCATTATTTCAAAATGATAGacatATACCAaaaaCAAgtctataatgtgagtAgtta-ctaAaatttacacaTcTtaaaagtgtgtAaatgctTaaatttcagaattacCatcagaacCtCAattGacattcctttGaataCGCtAataAGtgacaaAtA-------ag-----attaatAAGattttTcAaaAtCGcCaGgactggtgaatataaaTgatgattgaactggaatAAtaTtggggaCcAaaTcaaatgaatgattaaattatgaagctCatatccttttgaaggtagTtGcaaagagaCAttt-caaaactgCcCtaggCcattgCagcatcCttagaTGGGacGcAtAatCatTAcCttaAagcatCaCCActcaTtttgacCatatAgatTttaTtatgttagtTTaaaaggtcaatcagCctcatgactttatagttatGTcttGtatttAaaAaCAtttttTaTacat--ttggTtatgtTGAtAAaCcaaaaACatttgattaataaaatatctatttGaataaatTatgAG--ctatcCtttcaaaCagcTa-----------ttggcaagttttaaaCccaaaatataTaCacatagtTCTGtaaTaaaa--cTGTtTGacttCt--caagta-ac---atgaCttCcttatttctgaaCagTaCtgGtTaCTttcaaaatGaAtttttattgagatttTCcattaactatttt-tttcaAagactCaaattttgtaccaagtAAaTcCaggCttTatgtacaaaCatgttgTttGttttatttgGgGCtgggg--gaggtATAtgatgAGCAgactt-cTcGgAatTCataataaaT
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="68.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAV2-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856813">
+      <description>COWT1|CAV1  Full HUMT1:0 URU 84.6 100.0 2337 424 125 2761 2761 2484 42 3 2693 2693 0 0 0 0 1 0 COWT1|1 /transcript_uid=COWT1|CAV1</description>
+      <result_span id="CELERA:30000103856814">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAV1-1  Good  HUMT1:0 URU 83.1 100.0 275 56 23 331 331 306 5 1 331 331 0 0 0 0 1 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>154157</start>
+            <end>154488</end>
+          </span>
+          <alignment>
+            gAgTgaaacgCtTtcTcGtTgctctTGActcCctgcgggcTctccccgccctctgctgccaTaaccttggggatgtgcctagacccggcTcagcGcacAtccCggccaaccgcgagcagaacaaaccCttggcggAGAgccaggaggctccctcccagccaccgccccccCACCCGGCCGCCtcACCCTcagcgcctttttttTTTTTTcTcccatacaatacaagatcttccttcctcagttcccttaaaTcacagcccagggaaaTctAcCcaGagtCttcaAccagccacgAgccagAatgtcGgggggcaaatacgtagactcAgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>354318</start>
+            <end>354626</end>
+          </span>
+          <alignment>
+            gGgAgaaacgTtCtcAc-tCgctctCTGctcGctgcgggcGctccccgccctctgctgccaGaaccttggggatgtgcctagacccggcGcagcAcacGtccGggccaaccgcgagcagaacaaaccTttggcggGCGgccaggaggctccctcccagccaccgcccccc------------tc-----cagcgcctttttttC-----cCcccatacaatacaagatcttccttcctcagttcccttaaaGcacagcccagggaaaCctCcTcaCagtTttcaTccagccacgGgccagCatgtcTgggggcaaatacgtagactcGgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="83.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAV1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856815">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAV1-2  Good  HUMT1:0 U 92.7 100.0 153 12 0 165 165 165 1 1 165 165 0 0 0 0 1 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>155935</start>
+            <end>156100</end>
+          </span>
+          <alignment>
+            ggacatctctacacTgttcccatccgggaacagggcaacatctacaagcccaacaacaaggcTatggcagaGgaAAtgaAcgagaagcaagtgtacgacgcgcacaccaaggagatAgaTctggtcaaccgcgacccCaaGcaTctcaacgaCgacgtggtcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>356058</start>
+            <end>356223</end>
+          </span>
+          <alignment>
+            ggacatctctacacCgttcccatccgggaacagggcaacatctacaagcccaacaacaaggcCatggcagaCgaGCtgaGcgagaagcaagtgtacgacgcgcacaccaaggagatCgaCctggtcaaccgcgacccTaaAcaCctcaacgaTgacgtggtcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAV1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856816">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAV1-3  Good  HUMT1:0 URU 84.3 100.0 1909 356 102 2265 2265 2013 36 1 2197 2197 0 0 0 0 1 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>187779</start>
+            <end>189976</end>
+          </span>
+          <alignment>
+            attgaTtttgaagatgtgattgcagaaccagaaggAacacacagtttCgaTggcatCtggaaggccagcttcaccaccttcactgtgacAaaGtactggttttaccgTttgctgtctgccctctttggcatcccAatggcactcatctggggcatttacttTgccattctctctttcctgcacatctgggcagttgtaccatgcattaagagTttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccTtctgtgacccGctGtttgaGgctAttggCaaaatattcagcaatAtccgcatcaacACgcagaaagaaatataaatgacatttcaaggatagaagtataTAtgGttCtttCttccCttttaattttcTCAgtgccGattt-------caagttgctaGtaTagcaacaGCAtatgaa-tgaatt-tcCtggttCaGaaCaaaGaTatcactCtctcagtCttcataaCtattatTtTtctCCtctgagctattGGGtTGtctGtGttGggGGTTgtctgaaCttttaaaacccatttaaa-----------aTAtttttCttt-catTtggat----catTgTCCtattggctgagatatgaacCtattgttAaaagAtaaCttgagagaaatatgaagaactgaggaggaaa------------aaaagaacTaacaacctcaactgcctGTtcTaaaatgtCgAtcattttatgGtaagggaagTattcAAGTATTCcaggCtatTgTcaCTgagtgtacaGAtatgtgggcag-ttttAagcaaactc--ttcccTctg---aagTGTttagtgAattGctgccattcactGTaGtGatTcaAtGggatcTagtgatcTtCaTcaagttagaaaacataa---tctg----cAcatgat----ctaTtgccttact-ttcttgaaGttttaacctGtgataGAtActTgtATgcctgGatatttgttaCAtagatGaTaaCacctAagtgccttcctgttCtCcaGGttttccttttAaaatagggtcCaCctcaTcaactTTcAttaggtcagcagcctTcctgaagaccaaaattagaaAaAtccatTacctagttCtTcaCAcTtAtttctgactcCAagAtaTGgGAtcAgAtgaagTtcaTGtctgTActtGatcACAcaacatctttatccAtaTGgggtatggtCCacaTCagccTCatTaaatgaattaaGgtgAaTAaatGgggcCAagcCctc--tgggctggcagAAGtggaagccaActttccctgcctctcaCTaGctgaatgaggtcagcatgtctattcagcttcgtttattttcaagaataatcacgctttcctgaCtccaaactaatccatcaccggggtggtttagtggctGaacattgtgttcccTtttcagctgatcagtgggcctccGGggaAgggctCAtaaaatggaggccattgtgtgagActGtcagagttgTtgcaaaTGtgacccctTcAAaTtaaagcacttgcaacTgCctgttatgctgtgacacatggcccctccccctgccaCgagctttggacTtaaGccaagcGtcActttgcTcagaGagaagatgggggaggaggcagtaat-aaaagatGgaGgtaAttttgctggaataaAttcaaattcttctgaaTtcaaactgaggaatttTacctgtaaacctgagtcAtacagaaagctgcctggtaCatccaaaagctttttattcctcctgctcataGtAAgattctTccCtGggggactttAtTttTaaccttcagttatgCttttAtttCcatacacCtGttAgaaTtctgcttgGtttCTTTTTttgcctcttccagtTttcctgGcactttaatCGccaacctgttacctaTttAgGTtttCtgca-ttaaaacagacactggcatggaCatagttttacttttaaactgtgtacataactgaaaatgtActatactgAataAtttttaaGtgAaaag-tTtttttatctttatatgaGgaaaatcacttGggaaatTgTtttgtgattcaatctgtaaactgtgtatCccaagacatgtctgttctaTatagatgcttaTtccctTGtgcaaatcaaGtGctggtccaaaagaCtgctgaaattttTatatgcttactg--atattttacaCttttttTatcTtgcatgtcctgta------aTaagTctAcacaataaaaatgtttaacAgtt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>388479</start>
+            <end>390710</end>
+          </span>
+          <alignment>
+            attgaCtttgaagatgtgattgcagaaccagaaggGacacacagtttTgaCggcatTtggaaggccagcttcaccaccttcactgtgacGaaAtactggttttaccgCttgctgtctgccctctttggcatcccGatggcactcatctggggcatttacttCgccattctctctttcctgcacatctgggcagttgtaccatgcattaagagCttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccGtctgtgacccActCtttgaAgctGttggGaaaatattcagcaatGtccgcatcaacTTgcagaaagaaatataaatgacatttcaaggatagaagtataCCtgAttTttt-ttcc-ttttaattttcCTGgtgccAatttCAAGTTCcaagttgctaAtaCagcaacaATTtatgaaTtgaattAtcTtggttGaAaaTaaaAaGatcactTtctcagtTttcataaGtattatGtCtct--tctgagctatt---tCAtctAtTttTggCA--gtctgaaTttttaaaacccatttaaaTTTTTTTCCTTaCCtttttAtttGcatGtggatCAACcatCgCTTtattggctgagatatgaacAtattgttGaaagGtaaTttgagagaaatatgaagaactgaggaggaaaAAAAAAAAAAAGaaaagaacCaacaacctcaactgcctACtcCaaaatgtTgGtcattttatgTtaagggaagAattc--------caggGtatGgCcaTGgagtgtacaAGtatgtgggcagAttttCagcaaactcTTttcccActgTTTaagGAGttagtgGattActgccattcactTCa-tAatCcaGtAggatcCagtgatcCtTa-caagttagaaaacataaTCTtctgCCTTcTcatgatCCAActaAtgccttactCttcttgaaAttttaacctAtgataTTtTct-gt--gcctgAatatttgttaTGtagatAaCaaGacctCagtgccttcctgttTtTcaCAttttccttttCaaatagggtcTaActcaGcaactCGcTttaggtcagcagcctCcctgaagaccaaaattagaaTa-tccatGacctagttTtCcaTGcGtGtttctgactcTGagCtaCAgAGtcTgGtgaagCtcaCTtctgGGcttCatcTGGcaacatctttatccGtaGTgggtatggtTGacaCTagccCAatGaaatgaattaaAgtgGaCCaatAgggcTGagcTctcTGtgggctggcagTCCtggaagccaGctttccctgcctctcaTCaActgaatgaggtcagcatgtctattcagcttcgtttattttcaagaataatcacgctttcctgaAtccaaactaatccatcaccggggtggtttagtggctCaacattgtgttcccAtttcagctgatcagtgggcctccAAggaGgggctG-taaaatggaggccattgtgtgagCctAtcagagttgCtgcaaaCCtgacccctGcTCaGtaaagcacttgcaacCgTctgttatgctgtgacacatggcccctccccctgccaGgagctttggacCtaaTccaagcAtcCctttgcCcagaAagaagatgggggaggaggcagtaatAaaaagatTgaAgta-ttttgctggaataaGttcaaattcttctgaaCtcaaactgaggaatttCacctgtaaacctgagtcGtacagaaagctgcctggtaTatccaaaagctttttattcctcctgctcataTtGTgattctGccTtTggggacttt-tCttAaaccttcagttatgAttttTtttTcatacacTtAttGgaaCtctgcttgAttt------ttgcctcttccagtCttcctgAcactttaatTAccaacctgttacctaCttTgACtttTtgcaTttaaaacagacactggcatggaTatagttttacttttaaactgtgtacataactgaaaatgtGctatactgCataCtttttaaAtgTaaagAtAtttttatctttatatgaAgaaaatcacttAggaaatGgCtttgtgattcaatctgtaaactgtgtatTccaagacatgtctgttctaCatagatgcttaGtccctCAtgcaaatcaaTtActggtccaaaagaTtgctgaaatttt-atatgcttactgATatattttacaAtttttt-atcAtgcatgtcctgtaAAGGTTaCaagCctGcacaataaaaatgtttaacGgtt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="84.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAV1-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856817">
+      <description>COWT1|MET  Full HUMT1:0 URU 89.2 98.9 4069 493 32 4562 4611 4390 36 21 4611 4562 0 49 0 78 2 0 COWT1|2 /transcript_uid=COWT1|MET</description>
+      <result_span id="CELERA:30000103856818">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-1  Good  HUMT1:0 URU 83.6 100.0 148 29 3 177 177 154 2 1 177 177 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>320160</start>
+            <end>320337</end>
+          </span>
+          <alignment>
+            ggcTTtcgccgcccgcggcgccccCagcgctttgtgaCcagaGgcggTgTcCagCAgagggcgGgagccaAatgcgggAcgacagctgacttgctgCgaggaggcAgggaggcgcggagcgcgcgGgtggtccCtgcgcGCTtgacttctcTTCcGcCggttcctgggTGcTgCaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>501937</start>
+            <end>502111</end>
+          </span>
+          <alignment>
+            ggcCCtcgccgcccgcggcgccccGagcgctttgtgaGcagaTgcggAgCcGagTGgagggcgCgagccaGatgcgggGcgacagctgacttgctgAgaggaggcGgggaggcgcggagcgcgcgTgtggtccTtgcgcCGCtgacttctc---cAcTggttcctgggCAcCgAaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="83.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856819">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-2  Good  HUMT1:0 URU 88.8 100.0 1081 136 3 1217 1217 1197 4 1 1217 1217 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>350737</start>
+            <end>351954</end>
+          </span>
+          <alignment>
+            ataaaATtctcaCCatgaaggccccTgctgtgcttgcacctggcatTctTgtgctTctgtttaccttCgtgcagaAgagcaatggggagtgtaaagaggcactagTaaaAtccAGgatgaatgtgaaCatgCaAtatcagcttccTaacttcacTgcAgaaacaTccatTcagaatgtTGttTtGcaCAaAcatcacatttAcctCggtgccaTtaactacatttaCgttttaaatgaCAaagaccttcagaaggttgctgagtacaagactgggcctgtgctggaacacccagattgtttcccatgtcaggactgcagcCATaaagccaatttatcaggTggtgtttggaaagataacatcaacatggctctGCttgtTgacacGtactatgatgatcaactcattagctgtggcagTgtcCacagagggacctgccagcgacaCgtcCttccAcCcaaCAatactgcAgacataGagtcggaggttcactgcatGtActcTccTcagGCagaCGAagagAccaAccagtgtcctgactgtgtggtgagTgccctgggaAccaaagtcctACTGtctgAaaaggaTcgAttcatcaacttcttCgtGggcaataccataaattcttcttaCCtTccagatTatATattgcaCtcgatatcagtgagaaggctaaaggaaacACaagatggttttaAgtttttgacAgaccaAtcctaTattgatgttCtacctgaACtcCgagattcCtaccccattaagtatgtccaCgcctttgaaagcaacCattttatttacttTttgacggtccaGCgggaaactctagatgctcagacttttcacacaagaataatcaggttctgttccGCaGactctggattgcattcGtacatggaaatgcctctggagtgtattctGacGgaaaagagaaGaaagagatccacaaagCaggaagtgtttaatatTctCcaAgctgcAtatgtcagTaagcctggggcTcagctCgctagGcaaataggTgccagcctgaatgatgacattctGtAcggggtgttTgcacaaagcaagccagattcCTcAgaaccaatgAatcgTtctgcTGtCtgtgcattccctGtcaaatatgtcaaTgaGttcttcaacaaAatcgtcaacaaaaacaatgtgagatgtctccagcaCttttaTggCcccaaCcatgaAcactgcttCaatagg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>528604</start>
+            <end>529818</end>
+          </span>
+          <alignment>
+            ataaaCCtctcaTAatgaaggccccCgctgtgcttgcacctggcatCctCgtgctCctgtttaccttGgtgcagaGgagcaatggggagtgtaaagaggcactagCaaaGtccGAgatgaatgtgaaTatgAaGtatcagcttccCaacttcacCgcGgaaacaCccatCcagaatgtCAttCtAcaTGaGcatcacatttTcctTggtgccaCtaactacatttaTgttttaaatgaGGaagaccttcagaaggttgctgagtacaagactgggcctgtgctggaacacccagattgtttcccatgtcaggactgcagcAGCaaagccaatttatcaggAggtgtttggaaagataacatcaacatggctctAGttgtCgacacCtactatgatgatcaactcattagctgtggcagCgtcAacagagggacctgccagcgacaTgtcTttccCcAcaaTCatactgcTgacataCagtcggaggttcactgcatAtTctcCccAcagATaga---agagCccaGccagtgtcctgactgtgtggtgagCgccctgggaGccaaagtcctTTCAtctgTaaaggaCcgGttcatcaacttcttTgtAggcaataccataaattcttcttaTTtCccagatCatCCattgcaTtcgatatcagtgagaaggctaaaggaaacGAaagatggttttaTgtttttgacGgaccaGtcctaCattgatgttTtacctgaGTtcAgagattcTtaccccattaagtatgtccaTgcctttgaaagcaacAattttatttacttCttgacggtccaAAgggaaactctagatgctcagacttttcacacaagaataatcaggttctgttccATaAactctggattgcattcCtacatggaaatgcctctggagtgtattctCacAgaaaagagaaAaaagagatccacaaagAaggaagtgtttaatatActTcaGgctgcGtatgtcagCaagcctggggcCcagctTgctagAcaaataggAgccagcctgaatgatgacattctTtTcggggtgttCgcacaaagcaagccagattcTGcCgaaccaatgGatcgAtctgcCAtGtgtgcattccctAtcaaatatgtcaaCgaCttcttcaacaaGatcgtcaacaaaaacaatgtgagatgtctccagcaTttttaCggAcccaaTcatgaGcactgcttTaatagg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856820">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-3  Good  HUMT1:0 U 89.6 100.0 172 20 0 192 192 192 1 1 192 192 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>380441</start>
+            <end>380633</end>
+          </span>
+          <alignment>
+            acacttTtgagaaattcatcaggAtgtgaagTgcgcAAtgatgaatatcgaacGgagtttaccacagctttgcCAcgcgttgacttattcaCgggCcaGttcaAcCaagtcctcttaacatctatatccaccttTatCaaaggagaTctcaccatCgctaatctCgggacatcagaAggtcgAttcatgcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>561201</start>
+            <end>561393</end>
+          </span>
+          <alignment>
+            acacttCtgagaaattcatcaggCtgtgaagCgcgcCGtgatgaatatcgaacAgagtttaccacagctttgcAGcgcgttgacttattcaTgggTcaAttcaGcGaagtcctcttaacatctatatccaccttCatTaaaggagaCctcaccatAgctaatctTgggacatcagaGggtcgCttcatgcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856821">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-4  Good  HUMT1:0 URU 89.6 100.0 121 14 0 135 135 130 2 1 135 135 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>388952</start>
+            <end>389087</end>
+          </span>
+          <alignment>
+            gttgtggtttctcgatcaggaTcatTaacTcctcatgtgaattttcAcctggaTtcccaCccTgtgtctccagaagtgattgtggagcaCCcGCtaaaccaGaatggctaTacactggttGtcactgggaagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>569483</start>
+            <end>569618</end>
+          </span>
+          <alignment>
+            gttgtggtttctcgatcaggaCcatCaacCcctcatgtgaattttcTcctggaCtcccaTccAgtgtctccagaagtgattgtggagcaTAcATtaaaccaAaatggctaCacactggttAtcactgggaagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="89.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856822">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-5  Good  HUMT1:0 U 85.1 100.0 148 26 0 174 174 174 1 1 174 174 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>390115</start>
+            <end>390289</end>
+          </span>
+          <alignment>
+            atcacCaagatcccGCtgaatggcCtgggctgTGAacatttccagtcctgcagtcaGtgcctctcAgccccTTcctttgtGcaAtgtggctggtgccaTgaTaaatgtgtgcgatTggaggaatgcTCCagTggAacGtggactcaaGagaCctgtctgccAAcaatctacaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>570385</start>
+            <end>570559</end>
+          </span>
+          <alignment>
+            atcacGaagatcccATtgaatggcTtgggctgCAGacatttccagtcctgcagtcaAtgcctctcTgccccACcctttgtTcaGtgtggctggtgccaCgaCaaatgtgtgcgatCggaggaatgcCTGagCggGacAtggactcaaCagaTctgtctgccTGcaatctacaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="85.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856823">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-6  Good  HUMT1:0 UUR 88.8 94.4 135 17 0 152 161 152 1 1 161 152 0 9 0 9 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>395107</start>
+            <end>395268</end>
+          </span>
+          <alignment>
+            gttttTccaaCtagtgcCccccttgaaggagggacaaCActgacTGtTtgtggctgggactttggattCAAgaggaataataaatttgatttGaagaaaacCagagttctccttggCaatgagagctgcaccttAacCttaaCtgagagcacAACAAACAT
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>584888</start>
+            <end>585040</end>
+          </span>
+          <alignment>
+            gttttCccaaAtagtgcAccccttgaaggagggacaaGGctgacCAtAtgtggctgggactttggattTCGgaggaataataaatttgatttAaagaaaacTagagttctccttggAaatgagagctgcaccttGacTttaaGtgagagcac---------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="UUR"></property>
+        <property name="percent_id" value="88.8"></property>
+        <property name="percent_coverage" value="94.4"></property>
+        <property name="exon_name" value="COWT1|MET-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856824">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-7  Good  HUMT1:0 UUR 92.1 61.2 58 5 0 63 103 63 1 1 103 63 0 40 0 69 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>396913</start>
+            <end>397016</end>
+          </span>
+          <alignment>
+            GttgaaatgcacagttggtcctgcAatgaatGaAcatttcaatatgtccataGttatttcaaaCAGCCGTGGGTCAGTAGAGTATAGTGCGTTTTCCTATGTG
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>586970</start>
+            <end>587033</end>
+          </span>
+          <alignment>
+            AttgaaatgcacagttggtcctgcCatgaatAaGcatttcaatatgtccataAttatttcaaa----------------------------------------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="UUR"></property>
+        <property name="percent_id" value="92.1"></property>
+        <property name="percent_coverage" value="61.2"></property>
+        <property name="exon_name" value="COWT1|MET-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856825">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-8  Good  HUMT1:0 URU 89.8 100.0 123 14 0 137 137 132 2 1 137 137 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>397127</start>
+            <end>397264</end>
+          </span>
+          <alignment>
+            gatcctAtaataacaagtatttcTccAaaTtaTggtccAaAAActggtggcactttacttacAttaactggaaaGCacctaaacagtggAaattcAagacacatttcaattggtggaaaaacatgtactttaaaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>587171</start>
+            <end>587308</end>
+          </span>
+          <alignment>
+            gatcctGtaataacaagtatttcGccGaaAtaCggtccTaTGGctggtggcactttacttacTttaactggaaaTTacctaaacagtggGaattcTagacacatttcaattggtggaaaaacatgtactttaaaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="89.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856826">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-9  Good  HUMT1:0 URU 87.0 100.0 141 21 0 162 162 156 2 1 162 162 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>397918</start>
+            <end>398080</end>
+          </span>
+          <alignment>
+            tgtTtcaCaTagtattctCgaatgttataccccagcccaaaGTGCtCcaactgagtttTctgttaaGttgaaaattgacttagccaaccgagagGTGaAcaGcttcaTttaccgGgaagaCcccattgtctatgaaatAcatccCaccaaatcttttattag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>587992</start>
+            <end>588154</end>
+          </span>
+          <alignment>
+            tgtGtcaAaCagtattctTgaatgttataccccagcccaaaCCATtTcaactgagtttGctgttaaAttgaaaattgacttagccaaccgagagACAaGcaTcttcaGttaccgTgaagaTcccattgtctatgaaatTcatccAaccaaatcttttattag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="87.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856827">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-10  Good  HUMT1:0 U 93.0 100.0 93 7 0 100 100 100 1 1 100 100 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>399038</start>
+            <end>399138</end>
+          </span>
+          <alignment>
+            tggtgggagTacaataacaggtgttggAaaaaacctgaattcagttagtgtccTAagGatggtAataaatgtgcatgaagcCggaaggaactttacagtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>588924</start>
+            <end>589024</end>
+          </span>
+          <alignment>
+            tggtgggagCacaataacaggtgttggGaaaaacctgaattcagttagtgtccCGagAatggtCataaatgtgcatgaagcAggaaggaactttacagtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856828">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-11  Good  HUMT1:0 URU 95.0 100.0 208 11 0 219 219 214 2 1 219 219 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>402666</start>
+            <end>402885</end>
+          </span>
+          <alignment>
+            gcatgtcaacatcgctctaattcagagataatctgCtgtacAactccttcAAtAGaacagctgaaCctAcaactccccctgaaaaccaaagcctttttcatgttagatgggatccAttccaaatactttgatctcatttatgtacataatcctgtgtttaagccttttgaaaagccagtgatgatctcaGtAggcaatgaaaatgtactggaaattaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>592583</start>
+            <end>592802</end>
+          </span>
+          <alignment>
+            gcatgtcaacatcgctctaattcagagataatctgTtgtacCactccttcCCtGCaacagctgaaTctGcaactccccctgaaaaccaaagcctttttcatgttagatgggatccTttccaaatactttgatctcatttatgtacataatcctgtgtttaagccttttgaaaagccagtgatgatctcaAtGggcaatgaaaatgtactggaaattaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="95.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856829">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-12  Good  HUMT1:0 U 93.9 100.0 138 9 0 147 147 147 1 1 147 147 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>409818</start>
+            <end>409965</end>
+          </span>
+          <alignment>
+            ggaaatgatattgaccctgaagcagttaaaggGgaGgtgttaaaagttggaaataagagctgtgaAaatatacactCacaCtctgaagcTgttttatgTacggtccccaGtgacctgctgaaattgaacagcgaActaaatatagag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>599178</start>
+            <end>599325</end>
+          </span>
+          <alignment>
+            ggaaatgatattgaccctgaagcagttaaaggTgaAgtgttaaaagttggaaataagagctgtgaGaatatacactTacaTtctgaagcCgttttatgCacggtccccaAtgacctgctgaaattgaacagcgaGctaaatatagag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856830">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-13  Good  HUMT1:0 URU 90.4 100.0 142 15 0 157 157 142 2 1 157 157 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>411195</start>
+            <end>411352</end>
+          </span>
+          <alignment>
+            tggaagcaagcaatttcttcaacTgtTcttggaaaagtGatagttcaaccagatcagaatttcacaggattgattgTtggtgttgtctcaatatcaaTaATactCttaCtGTtactCgggCttttcctgtggctgaaaaaAagGaagcaaattaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>601031</start>
+            <end>601188</end>
+          </span>
+          <alignment>
+            tggaagcaagcaatttcttcaacCgtCcttggaaaagtAatagttcaaccagatcagaatttcacaggattgattgCtggtgttgtctcaatatcaaCaGCactGttaTtACtactTgggTttttcctgtggctgaaaaaGagAaagcaaattaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="90.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856831">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-14  Good  HUMT1:0 U 97.2 100.0 137 4 0 141 141 141 1 1 141 141 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>411545</start>
+            <end>411686</end>
+          </span>
+          <alignment>
+            atctgggcagtgaattagttcgctaTgatgcaagagtacacactccAcatttggataggcttgtCagtgcccgaagtgtaagcccaactacagaaatggtttcCaatgaatctgtagactaccgagctacttttccagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>601382</start>
+            <end>601523</end>
+          </span>
+          <alignment>
+            atctgggcagtgaattagttcgctaCgatgcaagagtacacactccTcatttggataggcttgtAagtgcccgaagtgtaagcccaactacagaaatggtttcAaatgaatctgtagactaccgagctacttttccagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856832">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-15  Good  HUMT1:0 U 92.2 100.0 213 18 0 231 231 231 1 1 231 231 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>414859</start>
+            <end>415090</end>
+          </span>
+          <alignment>
+            aCcagtttcctaatGcatctcagaaTggGtcatgcAgacaagtgcagtatcctctgacagaTCtAtcccccatcTtaactagtggggactctgatatatccagtccattactgcaaaatacCgtccacatCgacctcagtgctctaaatccagagctggtccaggcagtTcagcaCgtagtAattgggccGagCagTctgattgtAcatttcaatgaagtcataggaagag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>604414</start>
+            <end>604645</end>
+          </span>
+          <alignment>
+            aTcagtttcctaatTcatctcagaaCggTtcatgcCgacaagtgcagtatcctctgacagaCAtGtcccccatcCtaactagtggggactctgatatatccagtccattactgcaaaatacTgtccacatTgacctcagtgctctaaatccagagctggtccaggcagtGcagcaTgtagtGattgggccCagTagCctgattgtGcatttcaatgaagtcataggaagag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856833">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-16  Good  HUMT1:0 U 91.4 100.0 74 7 0 81 81 81 1 1 81 81 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>416999</start>
+            <end>417080</end>
+          </span>
+          <alignment>
+            gAcattttggGtgtgtatatcatggAactttgttggacaaCgatgATaagaaaattcactgtgctgtgaaatccttgaaTa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>606922</start>
+            <end>607003</end>
+          </span>
+          <alignment>
+            gGcattttggTtgtgtatatcatggGactttgttggacaaTgatgGCaagaaaattcactgtgctgtgaaatccttgaaCa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856834">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-17  Good  HUMT1:0 U 94.0 100.0 171 11 0 182 182 182 1 1 182 182 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>418985</start>
+            <end>419167</end>
+          </span>
+          <alignment>
+            gaatcactgacataggagaagtttcccaatttctgacTgagggaatcatcatgaaagattttagtcatcccaatgtTctctcActTTtgggaatctgcctTcgaagtgaGgggtctccActggtggtcctaccatacatgaaacaCggGgatcttcgaaatttcattAgaaatgagactcat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>608309</start>
+            <end>608491</end>
+          </span>
+          <alignment>
+            gaatcactgacataggagaagtttcccaatttctgacCgagggaatcatcatgaaagattttagtcatcccaatgtCctctcGctCCtgggaatctgcctGcgaagtgaAgggtctccGctggtggtcctaccatacatgaaacaTggAgatcttcgaaatttcattCgaaatgagactcat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856835">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-18  Good  HUMT1:0 U 98.2 100.0 108 2 0 110 110 110 1 1 110 110 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>422000</start>
+            <end>422110</end>
+          </span>
+          <alignment>
+            aaCccaactgtaaaagatcttattggctttggtcttcaagtagccaaaggcatgGaatatcttgcaagcaaaaagtttgtccacagagacttggctgcaagaaactgtat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>611521</start>
+            <end>611631</end>
+          </span>
+          <alignment>
+            aaTccaactgtaaaagatcttattggctttggtcttcaagtagccaaaggcatgAaatatcttgcaagcaaaaagtttgtccacagagacttggctgcaagaaactgtat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856836">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-19  Good  HUMT1:0 U 93.4 100.0 155 11 0 166 166 166 1 1 166 166 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>423312</start>
+            <end>423478</end>
+          </span>
+          <alignment>
+            gctggatgaaaaattcacCgtcaaggttgctgattttggtcttgccagagacGtgtatgataaGgaatactatagCgtacacaacaaaacaggtgcaaaActgccagtgaaAtggatggctttAgaaagCctgcaGactcaGaaAtttaccaccaagtcagatgtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>612837</start>
+            <end>613003</end>
+          </span>
+          <alignment>
+            gctggatgaaaaattcacAgtcaaggttgctgattttggtcttgccagagacAtgtatgataaAgaatactatagTgtacacaacaaaacaggtgcaaaGctgccagtgaaGtggatggctttGgaaagTctgcaAactcaAaaGtttaccaccaagtcagatgtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856837">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-20  Good  HUMT1:0 U 92.7 100.0 127 10 0 137 137 137 1 1 137 137 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>432542</start>
+            <end>432679</end>
+          </span>
+          <alignment>
+            tggtcctttggcgtgctTctctgggaActgatgacaagaggagcAccaccttatcctgacgtCaacacctttgaCataacAgtttacttgttgcaaggAagaagGctcctacaaccTgaatactgcccagaTccctt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>625188</start>
+            <end>625325</end>
+          </span>
+          <alignment>
+            tggtcctttggcgtgctCctctgggaGctgatgacaagaggagcCccaccttatcctgacgtAaacacctttgaTataacTgtttacttgttgcaaggGagaagActcctacaaccCgaatactgcccagaCccctt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856838">
+        <span_type>HSP</span_type>
+        <description>COWT1|MET-21  Good  HUMT1:0 URU 78.0 100.0 376 106 26 482 482 389 7 1 482 482 0 0 0 0 2 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>432784</start>
+            <end>433266</end>
+          </span>
+          <alignment>
+            GtatgaagtGatgctGaaatgctggcaccctaaagcTgaaCtgcgcccatccttttctgaactggtCtccAggatatcCgTgatAttctctactttcattggggagcactatgtccatgtgaaTgctacttaCgtgaacgtCaaatgtgtcgctccAtatccttctctgttgtcatcaCaagataaTgTCAGTGGCgaGgatgaTgATgacacaTgaTGGATGGagGcAcctGTGCcACTgagTcCCcTtCTGagAAACaTCactGAACtgCcTGaAcaacagtccacCctttgtcTaaCATtCttttcactgcctgGccACtGaaaggccaCcgGGtaCtTtttgctTttgccaaGattgcactattataggacCttAtattgttattAaaatGactggattctaCAgaatttctCatctgacaAagcatcagaGcAagCAgcttggtcTcGcagAccaGTgaccaaCAgcAATTctgcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>625420</start>
+            <end>625876</end>
+          </span>
+          <alignment>
+            AtatgaagtAatgctAaaatgctggcaccctaaagcCgaaAtgcgcccatccttttctgaactggtGtccCggatatcAgCgatCttctctactttcattggggagcactatgtccatgtgaaCgctacttaTgtgaacgtAaaatgtgtcgctccGtatccttctctgttgtcatcaGaagataaCgCT------gaTgatgaGgTGgacacaCgaCC-----agCcTcctT---cTGGgagAcATcAt---agTGCTaGTactA---tgTcAAaGcaacagtccacActttgtcCaaTGGtTttttcactgcctgAccTTtAaaaggccaTcgA-taTtCtttgctCttgccaaAattgcactattataggac-ttGtattgttattTaaatTactggattctaAGgaatttctTatctgacaGagcatcagaAcCagAGgcttggtcCcAcagGccaCGgaccaaTGgc----ctgcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="78.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|MET-21"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856839">
+      <description>COWT1|CAPZA2  Full HUMT1:0 URU 95.1 100.0 873 45 0 918 918 918 10 10 918 918 0 0 0 0 3 0 COWT1|3 /transcript_uid=COWT1|CAPZA2</description>
+      <result_span id="CELERA:30000103856840">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-1  Good  HUMT1:0 U 96.5 100.0 55 2 0 57 57 57 1 1 57 57 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>509355</start>
+            <end>509412</end>
+          </span>
+          <alignment>
+            tttgtcgccagaagAaaAatggcggatctggaggagcagttgtctgatgaagagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>692127</start>
+            <end>692184</end>
+          </span>
+          <alignment>
+            tttgtcgccagaagGaaGatggcggatctggaggagcagttgtctgatgaagagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856841">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-2  Good  HUMT1:0 U 89.1 100.0 57 7 0 64 64 64 1 1 64 64 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>536782</start>
+            <end>536846</end>
+          </span>
+          <alignment>
+            gtgcgCatagcagcCaaGttcatcattcatgcTcctcctggagaatttaatgaAgtGttTaatg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>717660</start>
+            <end>717724</end>
+          </span>
+          <alignment>
+            gtgcgTatagcagcAaaAttcatcattcatgcCcctcctggagaatttaatgaGgtTttCaatg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856842">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-3  Good  HUMT1:0 U 96.2 100.0 50 2 0 52 52 52 1 1 52 52 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>542050</start>
+            <end>542102</end>
+          </span>
+          <alignment>
+            atgttcggttactActtaataatgaTaatcttctcagggaaggagcagccca
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>722527</start>
+            <end>722579</end>
+          </span>
+          <alignment>
+            atgttcggttactGcttaataatgaCaatcttctcagggaaggagcagccca
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856843">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-4  Good  HUMT1:0 U 96.9 100.0 62 2 0 64 64 64 1 1 64 64 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>547763</start>
+            <end>547827</end>
+          </span>
+          <alignment>
+            tgcatttgcacaAtataacttggaccagtttacCccagtaaaaattgaaggttatgaagatcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>728305</start>
+            <end>728369</end>
+          </span>
+          <alignment>
+            tgcatttgcacaGtataacttggaccagtttacTccagtaaaaattgaaggttatgaagatcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856844">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-5  Good  HUMT1:0 U 92.3 100.0 191 16 0 207 207 207 1 1 207 207 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>552167</start>
+            <end>552374</end>
+          </span>
+          <alignment>
+            gtaCtgataacagaacatggTgacCtgggaaatggaaagtttttggatccaaaAaacagaatctCtttCaaatttgatcacttaagAaaggaAgcaactgatccaagaccAtAtgaagCagaaaatgcaAttgaatcatggagaacttcagtagaaactgctctACgagcttaTgtaaaagaacattaTccgaatggagtctgcact
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>733710</start>
+            <end>733917</end>
+          </span>
+          <alignment>
+            gtaTtgataacagaacatggCgacTtgggaaatggaaagtttttggatccaaaGaacagaatctGtttTaaatttgatcacttaagGaaggaGgcaactgatccaagaccCtGtgaagTagaaaatgcaGttgaatcatggagaacttcagtagaaactgctctGAgagcttaCgtaaaagaacattaCccgaatggagtctgcact
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856845">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-6  Good  HUMT1:0 U 95.0 100.0 76 4 0 80 80 80 1 1 80 80 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>553816</start>
+            <end>553896</end>
+          </span>
+          <alignment>
+            gtAtatggTaaaaaaatagatggacagcaaaccattattgcatgcatagaaagccatcagttTcaagcaaaaaaCttttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>735796</start>
+            <end>735876</end>
+          </span>
+          <alignment>
+            gtGtatggCaaaaaaatagatggacagcaaaccattattgcatgcatagaaagccatcagttCcaagcaaaaaaTttttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856846">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-7  Good  HUMT1:0 U 97.5 100.0 77 2 0 79 79 79 1 1 79 79 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>557111</start>
+            <end>557190</end>
+          </span>
+          <alignment>
+            gaatggtcgttggaggtcagaGtggaagtttacaatcactccttcaaccactcaGgtggttggcatcttgaaaattcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>739766</start>
+            <end>739845</end>
+          </span>
+          <alignment>
+            gaatggtcgttggaggtcagaAtggaagtttacaatcactccttcaaccactcaAgtggttggcatcttgaaaattcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856847">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-8  Good  HUMT1:0 U 98.6 100.0 71 1 0 72 72 72 1 1 72 72 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>559727</start>
+            <end>559799</end>
+          </span>
+          <alignment>
+            gttcattattatgaagatggtaatgttcaActagtgagtcataaagatatacaagattccctaacagtgtct
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>741602</start>
+            <end>741674</end>
+          </span>
+          <alignment>
+            gttcattattatgaagatggtaatgttcaGctagtgagtcataaagatatacaagattccctaacagtgtct
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856848">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-9  Good  HUMT1:0 U 96.8 100.0 61 2 0 63 63 63 1 1 63 63 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>562454</start>
+            <end>562517</end>
+          </span>
+          <alignment>
+            aatgaGgtgcaaacagcaaaagaatttataaagattgtagaGgctgcagaaaatgaataccag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>745593</start>
+            <end>745656</end>
+          </span>
+          <alignment>
+            aatgaAgtgcaaacagcaaaagaatttataaagattgtagaAgctgcagaaaatgaataccag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856849">
+        <span_type>HSP</span_type>
+        <description>COWT1|CAPZA2-10  Good  HUMT1:0 U 96.1 100.0 173 7 0 180 180 180 1 1 180 180 0 0 0 0 3 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>563491</start>
+            <end>563671</end>
+          </span>
+          <alignment>
+            actgccatcagtgagaattaCcagacGatgtcAgacactactttcaaagccttacgtcgGcagttgccagttacacgcactaagattgattggaacaagatccttagTtacaagattggAaaagagatgcagaatgcataagatgaacattgcatgaccAgatcattttagtgtctttgc
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>747260</start>
+            <end>747440</end>
+          </span>
+          <alignment>
+            actgccatcagtgagaattaTcagacAatgtcGgacactactttcaaagccttacgtcgAcagttgccagttacacgcactaagattgattggaacaagatccttagCtacaagattggCaaagagatgcagaatgcataagatgaacattgcatgaccGgatcattttagtgtctttgc
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CAPZA2-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856850">
+      <description>COWT1|ST7b  Full HUMT1:0 UII 93.8 100.0 1722 113 12 1835 1835 1822 21 15 1833 1833 0 0 0 0 4 0 COWT1|4 /transcript_uid=COWT1|ST7b</description>
+      <result_span id="CELERA:30000103856851">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-1  Good  HUMT1:0 U 95.4 100.0 144 7 0 151 151 151 1 1 151 151 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>597842</start>
+            <end>597993</end>
+          </span>
+          <alignment>
+            atggctgaagcggGcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacTtatctCtggaccgtAtggttcttcatcgtCctCttcctggtctacatcctgcgggtgccCttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>783074</start>
+            <end>783225</end>
+          </span>
+          <alignment>
+            atggctgaagcggCcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacGtatctGtggaccgtGtggttcttcatcgtGctAttcctggtctacatcctgcgggtgccTttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856852">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-2  Good  HUMT1:0 U 98.8 100.0 82 1 0 83 83 83 1 1 83 83 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>743035</start>
+            <end>743118</end>
+          </span>
+          <alignment>
+            tgagcatgtttttgaacacattaacaccgaagttctacgtggccctaacaggAacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>929295</start>
+            <end>929378</end>
+          </span>
+          <alignment>
+            tgagcatgtttttgaacacattaacaccgaagttctacgtggccctaacaggCacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856853">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-3  Good  HUMT1:0 U 96.2 100.0 154 6 0 160 160 160 1 1 160 160 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>755072</start>
+            <end>755232</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaGtaTggaacAtcattcattgaacaagtctcagtaagccacttgcgcccccttctgggaggggttgacaacaaTtcCtccaacaattctaattccagtaacggggactcagattccaaCaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>949094</start>
+            <end>949254</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaAtaCggaacTtcattcattgaacaagtctcagtaagccacttgcgcccccttctgggaggggttgacaacaaCtcTtccaacaattctaattccagtaacggggactcagattccaaTaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856854">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-4  Good  HUMT1:0 U 96.4 100.0 53 2 0 55 55 55 1 1 55 55 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>765403</start>
+            <end>765458</end>
+          </span>
+          <alignment>
+            aatgcaaagtatggcgaaatccactTaatttatttaggggtgctgaataTaatcg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>959326</start>
+            <end>959381</end>
+          </span>
+          <alignment>
+            aatgcaaagtatggcgaaatccactAaatttatttaggggtgctgaataCaatcg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856855">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-5  Good  HUMT1:0 U 93.1 100.0 108 8 0 116 116 116 1 1 116 116 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>766084</start>
+            <end>766200</end>
+          </span>
+          <alignment>
+            gtaCacttgggtgacTggacgagagcctctGacttactatgacatgaatctctctgcccaGgaccaTcagacCttctttacCtgtgactcggaccatctgcgtccTgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>960024</start>
+            <end>960140</end>
+          </span>
+          <alignment>
+            gtaTacttgggtgacAggacgagagcctctTacttactatgacatgaatctctctgcccaAgaccaCcagacAttctttacTtgtgactcggaccatctgcgtccCgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856856">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-6  Good  HUMT1:0 U 94.7 100.0 72 4 0 76 76 76 1 1 76 76 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>766830</start>
+            <end>766906</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcTgcCcaCgaagccttAgagataaatga
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>961418</start>
+            <end>961494</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcAgcTcaTgaagccttGgagataaatga
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856857">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-7  Good  HUMT1:0 U 92.9 100.0 144 11 0 155 155 155 1 1 155 155 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>770983</start>
+            <end>771138</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggctgaagaAgaagcaacaaccattgctgaagcagaGaaGCtGtttaagcaggccctgaaAgctggagatggctgttaccgGcgTtctcagcagctGcaGcatcatggatcccagtatgaagcccaacaCa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>965614</start>
+            <end>965769</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggctgaagaGgaagcaacaaccattgctgaagcagaAaaATtAtttaagcaggccctgaaGgctggagatggctgttaccgAcgCtctcagcagctAcaAcatcatggatcccagtatgaagcccaacaTa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856858">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-8  Good  HUMT1:0 U 95.9 100.0 94 4 0 98 98 98 1 1 98 98 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>773577</start>
+            <end>773675</end>
+          </span>
+          <alignment>
+            gacgagacaccaatgtcttggtCtacatcaaaagaagActagcCatgtgtgccagaagactcgggaggaccagAgaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>967968</start>
+            <end>968066</end>
+          </span>
+          <alignment>
+            gacgagacaccaatgtcttggtGtacatcaaaagaagGctagcAatgtgtgccagaagactcgggaggaccagGgaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856859">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-9  Good  HUMT1:0 U 93.0 100.0 107 8 0 115 115 115 1 1 115 115 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>800338</start>
+            <end>800453</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttcccTctCctgagCatgttcaaCatccatgaaaaccttttagaGgcTctCctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgaCg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1000395</start>
+            <end>1000510</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttcccCctTctgagTatgttcaaTatccatgaaaaccttttagaAgcCctTctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgaTg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856860">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-10  Good  HUMT1:0 U 97.3 100.0 71 2 0 73 73 73 1 1 73 73 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>823259</start>
+            <end>823332</end>
+          </span>
+          <alignment>
+            atataagcttaccaaagtcGgcaacaatatgctacacagctgcCttgctcaaagcaagagctgtctctgacaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1018854</start>
+            <end>1018927</end>
+          </span>
+          <alignment>
+            atataagcttaccaaagtcAgcaacaatatgctacacagctgcTttgctcaaagcaagagctgtctctgacaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856861">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-11  Good  HUMT1:0 U 98.1 100.0 101 2 0 103 103 103 1 1 103 103 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>824811</start>
+            <end>824914</end>
+          </span>
+          <alignment>
+            attctctcctgaggctgcatctcggcgggggctgagcacagcagagatgaatgcGgtagaggccattcatagagctgtggaattcaatcctcaCgtgccaaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1020367</start>
+            <end>1020470</end>
+          </span>
+          <alignment>
+            attctctcctgaggctgcatctcggcgggggctgagcacagcagagatgaatgcAgtagaggccattcatagagctgtggaattcaatcctcaTgtgccaaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856862">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-12  Good  HUMT1:0 U 91.4 100.0 138 13 0 151 151 151 1 1 151 151 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>842199</start>
+            <end>842350</end>
+          </span>
+          <alignment>
+            tacctactagaaatgaaaagcttaatcctGcccccagaacaCatcctgaagCgaggGgacagtgaagcaatagcatatgcattcttCcatctGgcGcactggaagagGgtAgaaggAgctttgaatcttCtCcattgtacAtgggaaggca
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1039320</start>
+            <end>1039471</end>
+          </span>
+          <alignment>
+            tacctactagaaatgaaaagcttaatcctAcccccagaacaTatcctgaagAgaggAgacagtgaagcaatagcatatgcattcttTcatctTgcAcactggaagagAgtGgaaggGgctttgaatcttTtGcattgtacGtgggaaggca
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856863">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-13  Good  HUMT1:0 U 92.5 100.0 86 7 0 93 93 93 1 1 93 93 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>852614</start>
+            <end>852707</end>
+          </span>
+          <alignment>
+            cttttcggatgatcccttatcccttggaaaaggggcaTctGttttatccCtacccCatctgtacagaGacagcagaTcgTgagctgcttccat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1048617</start>
+            <end>1048710</end>
+          </span>
+          <alignment>
+            cttttcggatgatcccttatcccttggaaaaggggcaCctAttttatccTtacccAatctgtacagaAacagcagaCcgAgagctgcttccat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856864">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-14  Good  HUMT1:0 U 95.0 100.0 133 7 0 140 140 140 1 1 140 140 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>855399</start>
+            <end>855539</end>
+          </span>
+          <alignment>
+            ctttccatgaagtctcagtttacccCaaAaaggagcttcccttcttCattctctttactgctggattGtgttccttcacagccatgctggccctcctgacacatcagttcccAgaactCatgggggtcttTgcaaaagct
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1051456</start>
+            <end>1051596</end>
+          </span>
+          <alignment>
+            ctttccatgaagtctcagtttacccAaaGaaggagcttcccttcttTattctctttactgctggattAtgttccttcacagccatgctggccctcctgacacatcagttcccGgaactTatgggggtcttCgcaaaagct
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856865">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7b-15  Good  HUMT1:0 URU 88.3 100.0 235 31 12 266 266 253 7 1 264 264 0 0 0 0 4 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>866021</start>
+            <end>866285</end>
+          </span>
+          <alignment>
+            ttcctcagcactttgtttgcccccttaaactttgtcatggaAaaagtggagagcatcctGccatccagtctgtggcaccagctGacTcggatct-agGgGagcccACCtgtcctTccGctcacctcGcccAGcAGgctgccaccGtct-ctTtgtgccaactcctCgtggaccgcaagaaagcatgactttgaaaaagggaagccattccAGgattttaaaaCCttcatgAactGtCTGTtccatattaaaagctgtttttgttgt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1059295</start>
+            <end>1059551</end>
+          </span>
+          <alignment>
+            ttcctcagcactttgtttgcccccttaaactttgtcatggaGaaagtggagagcatcctCccatccagtctgtggcaccagctAacAcggatctGagAgAagccc---tgtcct-ccActcacctcAcccGCc--gctgccaccAtctCctCtgtgccaactcctTgtggaccgcaagaaagcatgactttgaaaaagggaagccattccGAgattttaaaaTGttcatgGactAt----tccatattaaaagctgtttttgttgt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7b-15"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856866">
+      <description>COWT1|ST7a  Full HUMT1:0 UII 89.3 99.1 2227 266 33 2493 2516 2371 31 16 2503 2480 0 23 0 29 5 0 COWT1|5 /transcript_uid=COWT1|ST7a</description>
+      <result_span id="CELERA:30000103856867">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-1  Good  HUMT1:0 U 95.4 100.0 144 7 0 151 151 151 1 1 151 151 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>597842</start>
+            <end>597993</end>
+          </span>
+          <alignment>
+            atggctgaagcggGcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacTtatctCtggaccgtAtggttcttcatcgtCctCttcctggtctacatcctgcgggtgccCttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>783074</start>
+            <end>783225</end>
+          </span>
+          <alignment>
+            atggctgaagcggCcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacGtatctGtggaccgtGtggttcttcatcgtGctAttcctggtctacatcctgcgggtgccTttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856868">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-2  Good  HUMT1:0 U 98.8 100.0 82 1 0 83 83 83 1 1 83 83 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>743035</start>
+            <end>743118</end>
+          </span>
+          <alignment>
+            tgagcatgtttttgaacacattaacaccgaagttctacgtggccctaacaggAacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>929295</start>
+            <end>929378</end>
+          </span>
+          <alignment>
+            tgagcatgtttttgaacacattaacaccgaagttctacgtggccctaacaggCacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856869">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-3  Good  HUMT1:0 U 96.2 100.0 154 6 0 160 160 160 1 1 160 160 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>755072</start>
+            <end>755232</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaGtaTggaacAtcattcattgaacaagtctcagtaagccacttgcgcccccttctgggaggggttgacaacaaTtcCtccaacaattctaattccagtaacggggactcagattccaaCaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>949094</start>
+            <end>949254</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaAtaCggaacTtcattcattgaacaagtctcagtaagccacttgcgcccccttctgggaggggttgacaacaaCtcTtccaacaattctaattccagtaacggggactcagattccaaTaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856870">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-4  Good  HUMT1:0 U 96.4 100.0 53 2 0 55 55 55 1 1 55 55 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>765403</start>
+            <end>765458</end>
+          </span>
+          <alignment>
+            aatgcaaagtatggcgaaatccactTaatttatttaggggtgctgaataTaatcg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>959326</start>
+            <end>959381</end>
+          </span>
+          <alignment>
+            aatgcaaagtatggcgaaatccactAaatttatttaggggtgctgaataCaatcg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856871">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-5  Good  HUMT1:0 U 93.1 100.0 108 8 0 116 116 116 1 1 116 116 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>766084</start>
+            <end>766200</end>
+          </span>
+          <alignment>
+            gtaCacttgggtgacTggacgagagcctctGacttactatgacatgaatctctctgcccaGgaccaTcagacCttctttacCtgtgactcggaccatctgcgtccTgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>960024</start>
+            <end>960140</end>
+          </span>
+          <alignment>
+            gtaTacttgggtgacAggacgagagcctctTacttactatgacatgaatctctctgcccaAgaccaCcagacAttctttacTtgtgactcggaccatctgcgtccCgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856872">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-6  Good  HUMT1:0 U 94.7 100.0 72 4 0 76 76 76 1 1 76 76 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>766830</start>
+            <end>766906</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcTgcCcaCgaagccttAgagataaatga
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>961418</start>
+            <end>961494</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcAgcTcaTgaagccttGgagataaatga
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856873">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-7  Good  HUMT1:0 X 100.0 100.0 69 0 0 69 69 69 1 1 69 69 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>769012</start>
+            <end>769081</end>
+          </span>
+          <alignment>
+            aattaggtccagagttgaagttcccctaattgcttcctctaccatctgggagataaaattgttaccaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>963657</start>
+            <end>963726</end>
+          </span>
+          <alignment>
+            aattaggtccagagttgaagttcccctaattgcttcctctaccatctgggagataaaattgttaccaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="X"></property>
+        <property name="percent_id" value="100.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856874">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-8  Good  HUMT1:0 U 92.9 100.0 144 11 0 155 155 155 1 1 155 155 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>770983</start>
+            <end>771138</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggctgaagaAgaagcaacaaccattgctgaagcagaGaaGCtGtttaagcaggccctgaaAgctggagatggctgttaccgGcgTtctcagcagctGcaGcatcatggatcccagtatgaagcccaacaCa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>965614</start>
+            <end>965769</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggctgaagaGgaagcaacaaccattgctgaagcagaAaaATtAtttaagcaggccctgaaGgctggagatggctgttaccgAcgCtctcagcagctAcaAcatcatggatcccagtatgaagcccaacaTa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856875">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-9  Good  HUMT1:0 U 95.9 100.0 94 4 0 98 98 98 1 1 98 98 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>773577</start>
+            <end>773675</end>
+          </span>
+          <alignment>
+            gacgagacaccaatgtcttggtCtacatcaaaagaagActagcCatgtgtgccagaagactcgggaggaccagAgaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>967968</start>
+            <end>968066</end>
+          </span>
+          <alignment>
+            gacgagacaccaatgtcttggtGtacatcaaaagaagGctagcAatgtgtgccagaagactcgggaggaccagGgaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856876">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-10  Good  HUMT1:0 U 93.0 100.0 107 8 0 115 115 115 1 1 115 115 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>800338</start>
+            <end>800453</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttcccTctCctgagCatgttcaaCatccatgaaaaccttttagaGgcTctCctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgaCg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1000395</start>
+            <end>1000510</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttcccCctTctgagTatgttcaaTatccatgaaaaccttttagaAgcCctTctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgaTg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856877">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-11  Good  HUMT1:0 U 97.3 100.0 71 2 0 73 73 73 1 1 73 73 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>823259</start>
+            <end>823332</end>
+          </span>
+          <alignment>
+            atataagcttaccaaagtcGgcaacaatatgctacacagctgcCttgctcaaagcaagagctgtctctgacaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1018854</start>
+            <end>1018927</end>
+          </span>
+          <alignment>
+            atataagcttaccaaagtcAgcaacaatatgctacacagctgcTttgctcaaagcaagagctgtctctgacaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856878">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-12  Good  HUMT1:0 U 98.1 100.0 101 2 0 103 103 103 1 1 103 103 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>824811</start>
+            <end>824914</end>
+          </span>
+          <alignment>
+            attctctcctgaggctgcatctcggcgggggctgagcacagcagagatgaatgcGgtagaggccattcatagagctgtggaattcaatcctcaCgtgccaaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1020367</start>
+            <end>1020470</end>
+          </span>
+          <alignment>
+            attctctcctgaggctgcatctcggcgggggctgagcacagcagagatgaatgcAgtagaggccattcatagagctgtggaattcaatcctcaTgtgccaaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856879">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-13  Good  HUMT1:0 U 91.4 100.0 138 13 0 151 151 151 1 1 151 151 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>842199</start>
+            <end>842350</end>
+          </span>
+          <alignment>
+            tacctactagaaatgaaaagcttaatcctGcccccagaacaCatcctgaagCgaggGgacagtgaagcaatagcatatgcattcttCcatctGgcGcactggaagagGgtAgaaggAgctttgaatcttCtCcattgtacAtgggaaggca
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1039320</start>
+            <end>1039471</end>
+          </span>
+          <alignment>
+            tacctactagaaatgaaaagcttaatcctAcccccagaacaTatcctgaagAgaggAgacagtgaagcaatagcatatgcattcttTcatctTgcAcactggaagagAgtGgaaggGgctttgaatcttTtGcattgtacGtgggaaggca
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856880">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-14  Good  HUMT1:0 U 92.5 100.0 86 7 0 93 93 93 1 1 93 93 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>852614</start>
+            <end>852707</end>
+          </span>
+          <alignment>
+            cttttcggatgatcccttatcccttggaaaaggggcaTctGttttatccCtacccCatctgtacagaGacagcagaTcgTgagctgcttccat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1048617</start>
+            <end>1048710</end>
+          </span>
+          <alignment>
+            cttttcggatgatcccttatcccttggaaaaggggcaCctAttttatccTtacccAatctgtacagaAacagcagaCcgAgagctgcttccat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856881">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-15  Good  HUMT1:0 U 95.0 100.0 133 7 0 140 140 140 1 1 140 140 0 0 0 0 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>855399</start>
+            <end>855539</end>
+          </span>
+          <alignment>
+            ctttccatgaagtctcagtttacccCaaAaaggagcttcccttcttCattctctttactgctggattGtgttccttcacagccatgctggccctcctgacacatcagttcccAgaactCatgggggtcttTgcaaaagct
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1051456</start>
+            <end>1051596</end>
+          </span>
+          <alignment>
+            ctttccatgaagtctcagtttacccAaaGaaggagcttcccttcttTattctctttactgctggattAtgttccttcacagccatgctggccctcctgacacatcagttcccGgaactTatgggggtcttCgcaaaagct
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|ST7a-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856882">
+        <span_type>HSP</span_type>
+        <description>COWT1|ST7a-16  Good  HUMT1:0 URR 78.5 97.4 671 184 33 855 878 733 16 1 865 842 0 23 0 29 5 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>856607</start>
+            <end>857472</end>
+          </span>
+          <alignment>
+            atgattgacattttctgctcggcagagCtAagggactggaattgcGagagtattttcatgcgtgtGgaagatgaactggaaatcccAccggcacctcaGtctcaacatttccaaaactgaactcatcacccTCctCcccccaccaccaaaactgctcctcctccCgtatCcctgacctccgccaGTGGCTCTGACAtccacccAgtCActcaagccAgaaactcggcagccctCccaGactcttccTtctctcacCcTTTacaCcccatcTgtctcTgTTtCcacaGtctgtcGgAtctaacctcctGagcCGctTggTGGtcagtaGatgGAattcacctcttcttATcTtccttCttcTccCaTgACtcTctctGagtTtagAtcTCtgtGAtttct------------tgcAaGagtcttaactggtctccttTTttccAgGcttCtcctcTGccAgtAtttcCtttGtactgacCcaaAaatgAtcttt-tTTTtAgAaAatCtgagcatgtcacttcTGtgcttGaatttcCccaACggTttcccaCCAacAtTGggatAaagtcACagAtCttTagcatggcaCAcGagGTCctCtGtgatcGggcccCtgcttGcctctTcagcctAGTctctcTcaactcttgcCcagGcactgctcttGGgccCCagtgAatTGctcaccattcccagatgCCAcaggctctTgTGcaccCcAgTGcTtttgcacgtgctgtttgcACtgTgtggaatgcccttcCcCAtTaccaccAGCActTGtccaGtctactaatgcctcttTattctttCatactcGgcttGctttCTaaaTtCctCctaagctgagttagAAACCTTTCCTCTCTGATCCCAC
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1052394</start>
+            <end>1053229</end>
+          </span>
+          <alignment>
+            atgattgacattttctgctcggcagagTtCagggactggaattgcAagagtattttcatgcgtgtTgaagatgaactggaaatcccTccggcacctcaAtctcaacatttccaaaactgaactcatcacccCTctTcccccaccaccaaaactgctcctcctccTgtatTcctgacctccgcca------------tccacccCgtTGctcaagccGgaaactcggcagccctTccaAactcttccCtctctcacTcCCCacaTcccatc-gtctcGgCCtTcacaAtctgtcAgTtctaacctcctAagcAActAggCCTtcagtaAatgTGattcacctcttcttTCcCtcctt-ttc-ccAaAgCAtcCctctTagtCtagGtcCTtgtTGtttctTGCCTGAACTCCtgcCaTagtcttaactggtctccttGCttccTgTcttAtcctcCAcc-gtCtttcTtttAtactgacAcaaGaatgGtctttCtGAAtTgCaCatGtgagcatgtcacttcCCtgcttAaatttcTccaGTggAttcccaGGGacTtCAggatCaagtcCTagTtGttCagcatggcaTCcAagACTctTtAtgatcTggcccTtgcttAcctct-cagcctTAGctctcCcaactcttgcAcagTcactgctcttCAgccATagtgGatCActcaccattcccagatgTACcaggctctCgCAcaccTcTgCAcCtttgcacgtgctgtttgcTGtgCgtggaatgcccttcAcTGtCaccaccCTG-ctCAtccaCtctactaatgcctcttCattctttTatactcAgcttTcttt--aaaGtTctTctaagctgagttag-----------------------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URR"></property>
+        <property name="percent_id" value="78.5"></property>
+        <property name="percent_coverage" value="97.4"></property>
+        <property name="exon_name" value="COWT1|ST7a-16"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856883">
+      <description>COWT1|WNT2  Full HUMT1:0 URR 83.4 99.7 1935 385 91 2320 2326 2059 28 5 2251 2245 0 6 0 9 6 0 COWT1|6 /transcript_uid=COWT1|WNT2</description>
+      <result_span id="CELERA:30000103856884">
+        <span_type>HSP</span_type>
+        <description>COWT1|WNT2-1  Good  HUMT1:0 URU 89.6 100.0 344 40 2 384 384 362 5 1 383 383 0 0 0 0 6 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>948104</start>
+            <end>947721</end>
+          </span>
+          <alignment>
+            agcTgaAGggacCgggAcgcgcCTgaggcgcgcagagctCtcCAgcAgcCCgcgctcgcCgcgcctggggaatt-AgctgtgggcgaggcggCccgAgctggcctttatcgctcgcCCCgcTGGtcgCttgaaactttatcagcgagtctcgccactcgCcgcagacgcgaAcggggggcgggggcgcggcgaggcgccggcggccgtgacgaggcgctcccAgCgcCgagcgcttctgctcCgggcacgcatggcgcccgcacacggagtctgacctgatgcGgacgcaagggggttaatatgaacgccTGtctcgTtggaatctggctctggctccctctActcttTacctggctcaGcccTgaggtcaGctcttcatggtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1152823</start>
+            <end>1152440</end>
+          </span>
+          <alignment>
+            agcAgaGCggacGggg-cgcgcGGgaggcgcgcagagctTtcGGgcTgcAGgcgctcgcTgcgcctggggaattGGgctgtgggcgaggcggTccgGgctggcctttatcgctcgcTGGgcCCAtcgTttgaaactttatcagcgagtctcgccactcgTcgcagacgcgaGcggggggcgggggcgcggcgaggcgccggcggccgtgacgaggcgctcccGgAgcTgagcgcttctgctcTgggcacgcatggcgcccgcacacggagtctgacctgatgcAgacgcaagggggttaatatgaacgccCCtctcgGtggaatctggctctggctccctctGctcttGacctggctcaCcccCgaggtcaActcttcatggtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="89.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|WNT2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856885">
+        <span_type>HSP</span_type>
+        <description>COWT1|WNT2-2  Good  HUMT1:0 URU 88.5 100.0 201 26 0 227 227 220 2 1 227 227 0 0 0 0 6 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>945608</start>
+            <end>945381</end>
+          </span>
+          <alignment>
+            gtacatgagagctacGAgtggctcctccagggtgatgtgTgaCaaCgtgccaggcctggtgagcCAccaAcggcagctgtgCcaccgacaCccGgatgtgatgcgtgccatCGgccTgggcgtTAcTgagtggacGATGgaGtgccagcaccagttccgccagcaccgctggaaCtgcaacaccctggacagggatcacagcctCttCggcagggtcctGctccgaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1150327</start>
+            <end>1150100</end>
+          </span>
+          <alignment>
+            gtacatgagagctacAGgtggctcctccagggtgatgtgCgaTaaTgtgccaggcctggtgagcAGccaGcggcagctgtgTcaccgacaTccAgatgtgatgcgtgccatTAgccAgggcgtGGcCgagtggacAGCAgaAtgccagcaccagttccgccagcaccgctggaaTtgcaacaccctggacagggatcacagcctTttTggcagggtcctActccgaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|WNT2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856886">
+        <span_type>HSP</span_type>
+        <description>COWT1|WNT2-3  Good  HUMT1:0 U 92.4 100.0 257 21 0 278 278 278 1 1 278 278 0 0 0 0 6 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>940087</start>
+            <end>939809</end>
+          </span>
+          <alignment>
+            gtagCcgggaatctgcGtttgtttaCgccatctcTtcagctggagttgtatttgccatcaccagggcctgtagccaaggagaaTtaaaatcctgttcctgtgaCccaaagaagaAgggaaCcgccaaggaTaAcaaGggcaCttttgaCtggggtggctgcagtgataacattgactatgggatcaaGtttgccAgAgcGtttgtggatgcCaaggaaaggaaaggCaaggatgccagagccctgatgaatcttcacaacaacCgagcCggcaggaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1144882</start>
+            <end>1144604</end>
+          </span>
+          <alignment>
+            gtagTcgggaatctgcCtttgtttaTgccatctcCtcagctggagttgtatttgccatcaccagggcctgtagccaaggagaaGtaaaatcctgttcctgtgaTccaaagaagaTgggaaGcgccaaggaCaGcaaAggcaTttttgaTtggggtggctgcagtgataacattgactatgggatcaaAtttgccCgCgcAtttgtggatgcAaaggaaaggaaaggAaaggatgccagagccctgatgaatcttcacaacaacAgagcTggcaggaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|WNT2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856887">
+        <span_type>HSP</span_type>
+        <description>COWT1|WNT2-4  Good  HUMT1:0 U 93.6 100.0 248 17 0 265 265 265 1 1 265 265 0 0 0 0 6 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>923376</start>
+            <end>923111</end>
+          </span>
+          <alignment>
+            gctgtaaagAggttcttgaaacaGgagtgcaagtgTcaTggCgtgagcggTtcCtgtacCctGaggacCtgctggctggccatggcTgacttcaggaaaacgggcAattatctctggaggaagtacaatggggccatccaggtTgtcatgaaccaggatggcacTggtttcactgtggctaacAagaggtttaaAaagccaacgaaaaatgacctcgtgtattttgagaattctccagactactgtatcagggaccgagaTgcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1127410</start>
+            <end>1127145</end>
+          </span>
+          <alignment>
+            gctgtaaagCggttcttgaaacaAgagtgcaagtgCcaCggGgtgagcggCtcAtgtacTctCaggacAtgctggctggccatggcCgacttcaggaaaacgggcGattatctctggaggaagtacaatggggccatccaggtGgtcatgaaccaggatggcacAggtttcactgtggctaacGagaggtttaaGaagccaacgaaaaatgacctcgtgtattttgagaattctccagactactgtatcagggaccgagaGgcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|WNT2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856888">
+        <span_type>HSP</span_type>
+        <description>COWT1|WNT2-5  Good  HUMT1:0 URR 75.9 99.5 885 281 89 1166 1172 934 19 1 1098 1092 0 6 0 9 6 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>905292</start>
+            <end>904194</end>
+          </span>
+          <alignment>
+            gctccctgggtacagcGggccgtgtgtgcaacctgacttcccggggcatggacagctgCgaagtcatgtgctgtggCagaggctacgacacctcccaCAtTacccggaAgaccaagtgtgAgtgtaagttccactggtgctgTgccgtgcgctgCcaggactgcGtggaGgcCctggaCgtgcacacGtgcaaggccccGaagaGcCcCgactggGcTGcTCcGacatgaccccagTGgAGgCTaTcatccaGcttccctCcCGcaaggactccattggatctgcaagGaTGctggGcctttgggttctCtct-gggAgataCttcctGaggc-----------------acAgaagccccTtcCCcctccctggggg-Gccagga--CAggggccacacgctgcacACTaagTctTccctattTtCtcTGActTctggCAtCctg-GgAcatGtcTcTtcctg----gt---------------caCAacagCTtgtt-ag--Agga--gCggAgggGccagGTcactgtTtccacccCcctCAacAtttcCtctttctagagcagAt-gAcTag-ag-aGaaaaagtgtctcaaaTgagcttCctcTGtgtTttTcAacaaatgTtcAcaGttaagaaattcTatacttctctcTgGAgggTaAagtaaagaaagcagaatcaGTCCccActgaTttaactttaaTtCttgaaaagaccaagCAAGGcttttgCctgatAaagtgAttttCacagcCTGcTAcctCTggggtaatCAATCggtaattGGctggagaaAaatggctttcaataAAc-ttCaGgtttCaaatgCAtGtAtttcaaggcatttGttgccatattaaaatctgatgtGacaaggtgggTCTgt-tgtccAttggtac-----AgtTtGgAatctGtgCaaTagcaaaagcctcagaaagTgaCtgctttgcattactgtccActCAatataaaGaaCctttTagggaatgagaTtt------------------gaagAgaattaaaaagGagaCTTatgAtctggcaGtattctgtaaGtaCtgggtgaaGatggAggGaaGtaGCGtagAgAGtggaaGGtTagaaAAtGtGtctgtacaACATgatAaGgGGGaaaGTggGgaataaaattcctaCTTGGT
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1107918</start>
+            <end>1106767</end>
+          </span>
+          <alignment>
+            gctccctgggtacagcAggccgtgtgtgcaacctgacttcccggggcatggacagctgTgaagtcatgtgctgtggGagaggctacgacacctcccaTGtCacccggaTgaccaagtgtgGgtgtaagttccactggtgctgCgccgtgcgctgTcaggactgcCtggaAgcTctggaTgtgcacacAtgcaaggccccCaagaAcGcTgactggAcAAcCGcTacatgaccccagCAgGCgTCaCcatccaCcttccctTcTAcaaggactccattggatctgcaagAaCActggAcctttgggttctTtctGgggGgataTttcctAaggcATGTGGCCTTTATCTCAacGgaagccccCtcTTcctccctgggggCCccaggaTGGGggggccacacgctgcacCTAaagCctAccctattCtAtcCATctCctggTGtTctgCAgTcatCtcCcCtcctgGCGAgtTCTCTTTGGAAATAGcaTGacagGCtgttCagCCGggaGGgTggTgggCccagACcactgtCtccacccAcctTGacGtttcTtctttctagagcagTtGgCcAagCagAaAaaaaagtgtctcaaaGgagcttTctcAAtgtCttCcCacaaatgGtcCcaAttaagaaattcCatacttctctcAgATgggAaCagtaaagaaagcagaatcaACTGccCctgaCttaactttaaCtTttgaaaagaccaagA----cttttgTctgatCaagtgGtttt-acagcTACcACcctTAggggtaatT----ggtaattACctggagaaGaatggctttcaataCCcTttTaAgtttAaaatgTGtAtTtttcaaggcatttAttgccatattaaaatctgatgtAacaaggtgggGACgtGtgtccTttggtacTATGGTgtGtTgTatctTtgTaaGagcaaaagcctcagaaagGgaTtgctttgcattactgtccCctTGatataaaAaaTcttt-agggaatgagaGttCCTTCTCACTTAGAATCCgaagGgaattaaaaagAagaTGAatgGtctggcaAtattctgtaaCtaTtgggtgaaTatggTggAaaAtaATTtagTgGAtggaaTAtCagaaG-tAtAtctgtaca----gatCaAgAAAaaaAGggAgaataaaattccta------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URR"></property>
+        <property name="percent_id" value="75.9"></property>
+        <property name="percent_coverage" value="99.5"></property>
+        <property name="exon_name" value="COWT1|WNT2-5"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856889">
+      <description>COWT1|GASZ  Full HUMT1:0 RRU 86.9 99.1 1484 224 19 1708 1723 1622 19 13 1718 1703 15 0 63 0 7 0 COWT1|7 /transcript_uid=COWT1|GASZ</description>
+      <result_span id="CELERA:30000103856890">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-1  Good  HUMT1:0 RUU 84.4 87.9 92 17 0 109 124 109 1 1 124 109 15 0 63 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1051621</start>
+            <end>1051497</end>
+          </span>
+          <alignment>
+            GCGGAGAGGGCCCGGtggTatggcggcgGgcCcCctAcgCggTctAGcagtggcCggTggaggcgagagtagTgaCagTgaggatgaCggctgggagattgggtatctcgaccggaAAtctcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1256998</start>
+            <end>1256889</end>
+          </span>
+          <alignment>
+            ---------------tggCatggcggcgAgcGcGctGcgAggCctGCcagtggcTggCggaggcgagagtagCgaGagCgaggatgaTggctgggagattgggtatctcgaccggaCGtctcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="RUU"></property>
+        <property name="percent_id" value="84.4"></property>
+        <property name="percent_coverage" value="87.9"></property>
+        <property name="exon_name" value="COWT1|GASZ-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856891">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-2  Good  HUMT1:0 U 80.0 100.0 80 20 0 100 100 100 1 1 100 100 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1051093</start>
+            <end>1050993</end>
+          </span>
+          <alignment>
+            aaattAaaaGgAcCGttaccAGttgaagaaaGgCaGgaaaCatttaagaaGgcTTtgaccaCAggCAatAtttcattggtcGaggagctcctagattctg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1256469</start>
+            <end>1256369</end>
+          </span>
+          <alignment>
+            aaattGaaaAgGcTAttaccCAttgaagaaaAgAaAgaaaAatttaagaaAgcAAtgaccaTCggAGatGtttcattggtcCaggagctcctagattctg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="80.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856892">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-3  Good  HUMT1:0 U 91.9 100.0 113 10 0 123 123 123 1 1 123 123 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1041097</start>
+            <end>1040974</end>
+          </span>
+          <alignment>
+            gcatCagtgtagatAccaGctttcagtatggTtggactTcccttatgtatgctgctagtgttTccaatgTagaActggttcgggtccttCtggacagaggtgctaatgcaagctttgaTaagg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1251893</start>
+            <end>1251770</end>
+          </span>
+          <alignment>
+            gcatTagtgtagatTccaActttcagtatggAtggactCcccttatgtatgctgctagtgttGccaatgCagaGctggttcgggtccttTtggacagaggtgctaatgcaagctttgaGaagg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856893">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-4  Good  HUMT1:0 U 92.9 100.0 104 8 0 112 112 112 1 1 112 112 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1039160</start>
+            <end>1039048</end>
+          </span>
+          <alignment>
+            ataagcaaaCtGttttgatTactgcatgttctgctcGtggctcagaggaaAagatcttgaagtgtAtagaGctactactttcaagaaatgctgatccaaatgtCgcttgtag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1249808</start>
+            <end>1249696</end>
+          </span>
+          <alignment>
+            ataagcaaaGtAttttgatAactgcatgttctgctcAtggctcagaggaaCagatcttgaagtgtGtagaActactactttcaagaaatgctgatccaaatgtTgcttgtag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856894">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-5  Good  HUMT1:0 U 87.5 100.0 98 14 0 112 112 112 1 1 112 112 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>993973</start>
+            <end>993861</end>
+          </span>
+          <alignment>
+            gagacttatgacAccaatcatgtaCgctgcAcgTgaCggCcacCcTcaggtCgttgctctccttgttgctcatggagcagaagtGaatacccaggaCgagaaCggCtaTact
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1215343</start>
+            <end>1215231</end>
+          </span>
+          <alignment>
+            gagacttatgacCccaatcatgtaTgctgcTcgAgaTggTcacAcCcaggtTgttgctctccttgttgctcatggagcagaagtTaatacccaggaTgagaaTggTtaCact
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856895">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-6  Good  HUMT1:0 U 93.3 100.0 126 9 0 135 135 135 1 1 135 135 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>993344</start>
+            <end>993209</end>
+          </span>
+          <alignment>
+            gctttaacAtgggcagcacgtcagggtcataaaaatGtagttttgaagttgcttgaacttggagctaataaaatgAtacaaaccaaagatggaaagaCAccaagtgaAattgcaaaaagaaaTaaacatcTAgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1214394</start>
+            <end>1214259</end>
+          </span>
+          <alignment>
+            gctttaacGtgggcagcacgtcagggtcataaaaatAtagttttgaagttgcttgaacttggagctaataaaatgCtacaaaccaaagatggaaagaTGccaagtgaGattgcaaaaagaaaCaaacatcATgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856896">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-7  Good  HUMT1:0 U 89.6 100.0 112 13 0 125 125 125 1 1 125 125 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>991884</start>
+            <end>991759</end>
+          </span>
+          <alignment>
+            atcttcaaTttTctttcCttGactttaaatccTttggaaggaaaGcttcaCcagctaactaaagaagaGTctatttgtaaaCtattgaGaacagattctgataAagaaaaagatcacatAtttag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1212644</start>
+            <end>1212519</end>
+          </span>
+          <alignment>
+            atcttcaaCttActttcTttTactttaaatccAttggaaggaaaActtcaAcagctaactaaagaagaCActatttgtaaaAtattgaCaacagattctgataGagaaaaagatcacatTtttag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856897">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-8  Good  HUMT1:0 U 96.1 100.0 73 3 0 76 76 76 1 1 76 76 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>989911</start>
+            <end>989835</end>
+          </span>
+          <alignment>
+            ttcatatacagcatttggagatctggaaAtatttttacatggtcttggacttgaacatatgacagatttaTtGaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1211678</start>
+            <end>1211602</end>
+          </span>
+          <alignment>
+            ttcatatacagcatttggagatctggaaGtatttttacatggtcttggacttgaacatatgacagatttaCtAaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856898">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-9  Good  HUMT1:0 U 89.5 100.0 51 6 0 57 57 57 1 1 57 57 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>988536</start>
+            <end>988479</end>
+          </span>
+          <alignment>
+            gaaagggaAataacTttaagacatcttttgaccatgaggAaagatgaGCttGcaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1210601</start>
+            <end>1210544</end>
+          </span>
+          <alignment>
+            gaaagggaTataacGttaagacatcttttgaccatgaggGaagatgaATttAcaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856899">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-10  Good  HUMT1:0 U 87.3 100.0 96 14 0 110 110 110 1 1 110 110 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>987327</start>
+            <end>987217</end>
+          </span>
+          <alignment>
+            aatggaattaccagtaGagaTcagcagaaaattAtggctgcCcttaaagaactGGaAgtagaagagataAaatttggagaATtaCctgaagTCGcaaagttggaaatcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1209581</start>
+            <end>1209471</end>
+          </span>
+          <alignment>
+            aatggaattaccagtaAagaCcagcagaaaattCtggctgcTcttaaagaactACaGgtagaagagataCaatttggagaGCtaTctgaagAGAcaaagttggaaatcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856900">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-11  Good  HUMT1:0 U 92.5 100.0 98 8 0 106 106 106 1 1 106 106 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>981183</start>
+            <end>981077</end>
+          </span>
+          <alignment>
+            tggtgatgagttcctcaactttcttctGaaattaaaCaaacagtgtggccaCttaataacagctgtacagaaCAttattacCgagttGcctgtaaattctcaCaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1198251</start>
+            <end>1198145</end>
+          </span>
+          <alignment>
+            tggtgatgagttcctcaactttcttctCaaattaaaTaaacagtgtggccaTttaataacagctgtacagaaTGttattacTgagttAcctgtaaattctcaAaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856901">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-12  Good  HUMT1:0 U 91.2 100.0 104 10 0 114 114 114 1 1 114 114 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>980262</start>
+            <end>980148</end>
+          </span>
+          <alignment>
+            ataGTactAgaatgggcttctccccGgaattttacttcagtttgtgaagaaCtggttaGtaatgttgaagatttgagtgaaGaggtctgcaaGctaaaagacTtaattcaGaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1196999</start>
+            <end>1196885</end>
+          </span>
+          <alignment>
+            ataACactGgaatgggcttctccccAgaattttacttcagtttgtgaagaaTtggttaAtaatgttgaagatttgagtgaaAaggtctgcaaActaaaagacCtaattcaAaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856902">
+        <span_type>HSP</span_type>
+        <description>COWT1|GASZ-13  Good  HUMT1:0 URU 78.6 100.0 337 92 19 429 429 343 7 1 424 424 0 0 0 0 7 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>976240</start>
+            <end>975816</end>
+          </span>
+          <alignment>
+            ttAcaaaatgaacgAgaaaatgatccaactcatatacCGttaaTggaagaagtatctacatggaatagtagGattttgaagaggacGgctattacAGtatgcggattTggGtttcttcttttcatCtgcaagctaGctttTcagagAaaataaCccTaatGtttgttttGaAtAatGtatGTGTTCcttattCaaATTAccTaaaaATGttgcttttaactAtttgTGAcacaCtGtaac--tac---ctttgccaGtaCtcTGtaggaaGaattAtgaTaGtAtAgagCAGAATGCtCttCtttaaaaagtggtttgtCaGtttgaAttGAaaataTaattCgttatAtttTTatgttaattTtgatCaAgCagtaaaTtataagtGatttttAAgtttgatcCtatcCTATGtaaatcacattcaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1193282</start>
+            <end>1192867</end>
+          </span>
+          <alignment>
+            ttGcaaaatgaacgGgaaaatgatccaactcatatacAAttaaGggaagaagtatctacatggaatagtagAattttgaagaggacAgctattacCAtatgcggattCggTtttcttcttttcatTtgcaagctaActttCcagagGaaataaTccAaatAtttgttttAaGtTatAtatACACATcttattGaaCCATccAaaaaTCAttgcttttaactGtttgCAGcacaAtAtaacTTtacATTctttgccaAtaTtcCAtaggaaAaattTtgaCaAtGtGgagT-------tTttTtttaaaaagtggtttgtTaCtttgaCttATaaataCaattTgttatGttt--atgttaattGtgatTaGgTagtaaaGtataagtAatttttTGgtttgatcGtatc-----taaatcacattcaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="78.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|GASZ-13"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856903">
+      <description>COWT1|CFTR  Full HUMT1:0 URU 85.7 99.9 5295 881 145 6176 6184 5522 67 27 6095 6087 8 0 21 0 8 0 COWT1|8 /transcript_uid=COWT1|CFTR</description>
+      <result_span id="CELERA:30000103856904">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-1  Good  HUMT1:0 URU 86.1 100.0 161 26 4 187 187 158 5 1 185 185 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1096512</start>
+            <end>1096697</end>
+          </span>
+          <alignment>
+            aGttggaagcaaGtgacatcacagcaggtcagagaaaaagggGCgagcggcaggca--GagaAGagtaggGctttTggcaCtaggagctCTTgcccGgCcTgcccCGgcagggaccTcGgTgcccCCagagaccatgcagaggtcgcctctggaaaaggccagcgtCgtctccaaactttttttcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1309496</start>
+            <end>1309681</end>
+          </span>
+          <alignment>
+            aAttggaagcaaAtgacatcacagcaggtcagagaaaaagggTTgagcggcaggcaCCCagaGTagtaggTcttt-ggcaTtaggagctTGAgcccAgAcGgcccTAgcagggaccCcAgCgcccG-agagaccatgcagaggtcgcctctggaaaaggccagcgtTgtctccaaactttttttcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="86.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856905">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-2  Good  HUMT1:0 U 94.6 100.0 105 6 0 111 111 111 1 1 111 111 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1136029</start>
+            <end>1136140</end>
+          </span>
+          <alignment>
+            ctggaccagaccaattttgaAgaaaggatacagacagcgcTtggaattgtcagacatataccaTatcTcttctTCtgattctgctgacaatctatctgaaaaattggaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1333786</start>
+            <end>1333897</end>
+          </span>
+          <alignment>
+            ctggaccagaccaattttgaGgaaaggatacagacagcgcCtggaattgtcagacatataccaAatcCcttctGTtgattctgctgacaatctatctgaaaaattggaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856906">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-3  Good  HUMT1:0 U 92.7 100.0 101 8 0 109 109 109 1 1 109 109 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1142516</start>
+            <end>1142625</end>
+          </span>
+          <alignment>
+            agaatgggaCagagaActggcttcaaagaaaaatccCaaactcatAaatgcccttcgAcgatgCtttttctggagatttatgttctatggaatcAtAttatatttaggg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1338567</start>
+            <end>1338676</end>
+          </span>
+          <alignment>
+            agaatgggaTagagaGctggcttcaaagaaaaatccTaaactcatTaatgcccttcgGcgatgTtttttctggagatttatgttctatggaatcTtTttatatttaggg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856907">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-4  Good  HUMT1:0 U 94.0 100.0 203 13 0 216 216 216 1 1 216 216 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1160805</start>
+            <end>1161021</end>
+          </span>
+          <alignment>
+            gaagtcaccaaagcagtCcagcctctcttactgggaagaatcatagcttcctatgacccAgataacaaggTggaacgctcCatTgcCatttaCTtaggcataggcCtatgccttctctttatCgtgaggacactgctcctGcacccagccatttttggTctCcatcacattggaatgcagatgagaatagctatgtttagtttgatttataagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1360432</start>
+            <end>1360648</end>
+          </span>
+          <alignment>
+            gaagtcaccaaagcagtAcagcctctcttactgggaagaatcatagcttcctatgacccGgataacaaggAggaacgctcTatCgcGatttaTCtaggcataggcTtatgccttctctttatTgtgaggacactgctcctAcacccagccatttttggCctTcatcacattggaatgcagatgagaatagctatgtttagtttgatttataagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856908">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-5  Good  HUMT1:0 U 96.7 100.0 87 3 0 90 90 90 1 1 90 90 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1165246</start>
+            <end>1165336</end>
+          </span>
+          <alignment>
+            actttGaagctAtcaagccgtgttctGgataaaataagtattggacaacttgttagtctcctttccaacaacctgaacaaatttgatgaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1363809</start>
+            <end>1363899</end>
+          </span>
+          <alignment>
+            actttAaagctGtcaagccgtgttctAgataaaataagtattggacaacttgttagtctcctttccaacaacctgaacaaatttgatgaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856909">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-6  Good  HUMT1:0 U 85.4 100.0 140 24 0 164 164 164 1 1 164 164 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1166227</start>
+            <end>1166391</end>
+          </span>
+          <alignment>
+            ggactCgcaCtggcacatttTgtgtggatcgctcctCtgcaagtgAcGctGctcatggggctGCtctgggagttgttGcaggcCtTCAccttctgtggGcttgCtttcctCatagtcctCgcccttCttcaAgcCggATtagggaAaatgatgatgaagtacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1364781</start>
+            <end>1364945</end>
+          </span>
+          <alignment>
+            ggactTgcaTtggcacatttCgtgtggatcgctcctTtgcaagtgGcActCctcatggggctAAtctgggagttgttAcaggcGtCTGccttctgtggActtgGtttcctGatagtcctTgcccttTttcaGgcTggGCtagggaGaatgatgatgaagtacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="85.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856910">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-7  Good  HUMT1:0 U 93.7 100.0 118 8 0 126 126 126 1 1 126 126 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1167496</start>
+            <end>1167622</end>
+          </span>
+          <alignment>
+            agatcagagagctggAaagatcaAtgaaagactGgtgatAacGtcagaaatgattgaaaatatccaatcAgttaaggcatactgctgggaagaagcaatggaaaaaatCattgaaaacCtaagaca
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1366081</start>
+            <end>1366207</end>
+          </span>
+          <alignment>
+            agatcagagagctggGaagatcaGtgaaagactTgtgatTacCtcagaaatgattgaaaatatccaatcTgttaaggcatactgctgggaagaagcaatggaaaaaatGattgaaaacTtaagaca
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856911">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-8  Good  HUMT1:0 U 92.7 100.0 229 18 0 247 247 247 1 1 247 247 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1170571</start>
+            <end>1170818</end>
+          </span>
+          <alignment>
+            aacagaactgaaactCacCcggaaggcagcctatgtgagatacCtcaatagctcagccttcttcttctcagggttctttgtggtAtttttatctgtgcttccTtatgcactGCtcaaaggaatcatcctTcgAaaaatattcacAaccatctcattctgcatCgttctgcgcatggcAgtTactcggcaGttCccctgggctgtacaaacTtggtatgaTtctctGggagcaataaacaaaatacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1369633</start>
+            <end>1369880</end>
+          </span>
+          <alignment>
+            aacagaactgaaactGacTcggaaggcagcctatgtgagatacTtcaatagctcagccttcttcttctcagggttctttgtggtGtttttatctgtgcttccCtatgcactAAtcaaaggaatcatcctCcgGaaaatattcacCaccatctcattctgcatTgttctgcgcatggcGgtCactcggcaAttTccctgggctgtacaaacAtggtatgaCtctctTggagcaataaacaaaatacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856912">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-9  Good  HUMT1:0 U 97.8 100.0 91 2 0 93 93 93 1 1 93 93 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1175202</start>
+            <end>1175295</end>
+          </span>
+          <alignment>
+            gatttcttacaaaagcaagaatataagacattggaatataacttaacAactacagaTgtagtgatggagaatgtaacagccttctgggaggag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1371549</start>
+            <end>1371642</end>
+          </span>
+          <alignment>
+            gatttcttacaaaagcaagaatataagacattggaatataacttaacGactacagaAgtagtgatggagaatgtaacagccttctgggaggag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856913">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-10  Good  HUMT1:0 URU 90.2 100.0 165 18 3 183 183 177 2 1 180 180 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1181723</start>
+            <end>1181903</end>
+          </span>
+          <alignment>
+            ggatttAgTAaattatttgagaaagcaaaaGaaaaTaataacaGtagaaaaaTttcCaatggtgatAacagcctcttcttcagtaa---ctTacttcttggtactcctgtcctgaaagatatCaGtttcaagatagaaagaggacagttgttggcAgttgctggatcTacGggagcaggcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1378174</start>
+            <end>1378357</end>
+          </span>
+          <alignment>
+            ggatttGgGGaattatttgagaaagcaaaaCaaaaCaataacaAtagaaaaaCttcTaatggtgatGacagcctcttcttcagtaaTTTctCacttcttggtactcctgtcctgaaagatatTaAtttcaagatagaaagaggacagttgttggcGgttgctggatcCacTggagcaggcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="90.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856914">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-11  Good  HUMT1:0 U 93.8 100.0 180 12 0 192 192 192 1 1 192 192 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1186799</start>
+            <end>1186991</end>
+          </span>
+          <alignment>
+            acttcacttctCatgAtgattatgggagaaTtggaAccttcagagggtaaaattaagcacagtggaagaatttcattctgCtctcagtAttcctggatCatgcctggAaccattaaagaTaaCatcatctttggtgtttcctatgatgaatatagataTagaagTgtcatcaaagcatgccaactagaagag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1388997</start>
+            <end>1389189</end>
+          </span>
+          <alignment>
+            acttcacttctAatgGtgattatgggagaaCtggaGccttcagagggtaaaattaagcacagtggaagaatttcattctgTtctcagtTttcctggatTatgcctggCaccattaaagaAaaTatcatctttggtgtttcctatgatgaatatagataCagaagCgtcatcaaagcatgccaactagaagag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856915">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-12  Good  HUMT1:0 U 94.7 100.0 90 5 0 95 95 95 1 1 95 95 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1213322</start>
+            <end>1213417</end>
+          </span>
+          <alignment>
+            gacatctccaagtttgcagagaaagacaaCGtagttctCggagaaggtggaatcacactgagtggaggtcaGcgagcGagaatttctttagcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1417272</start>
+            <end>1417367</end>
+          </span>
+          <alignment>
+            gacatctccaagtttgcagagaaagacaaTAtagttctTggagaaggtggaatcacactgagtggaggtcaAcgagcAagaatttctttagcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856916">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-13  Good  HUMT1:0 U 95.4 100.0 83 4 0 87 87 87 1 1 87 87 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1217005</start>
+            <end>1217092</end>
+          </span>
+          <alignment>
+            agcagtatacaaagatgctgatttgtaCCtattagactctccttttggataTctagatgttttaacagaGaaagaaatatttgaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1419886</start>
+            <end>1419973</end>
+          </span>
+          <alignment>
+            agcagtatacaaagatgctgatttgtaTTtattagactctccttttggataCctagatgttttaacagaAaaagaaatatttgaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856917">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-14  Good  HUMT1:0 URU 85.4 100.0 621 106 3 727 727 710 3 1 727 727 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1218603</start>
+            <end>1219330</end>
+          </span>
+          <alignment>
+            ctgtAtctgtaaaTtgatggctaacaaaactaggattttggtcacttctaaaatggaGcaCttaaagaaagctgacaaaatattaattttAcatgaaggtagcaTctatttttatgggacattttcTgaaTtAcaaaatcAGcGgccCgacttCagctcGaaGctcatgggatgtgaCActttcgaccaGtttaCtgcagaaCgaagaaattcaatcAtaactgagacTttacGGcgtttctcattagaaggagatActTctgtGtcctggaATgaaacGaaaaaGcCTtcttttaaacagactggagagtttggTgaaaaaaggaagaaCtcCattctcaGtTcaatcaactctataAgGaaattttcAGttgtAcaaaagactTcAttacaaatgaatggTatcgaagGAgCtGctgatgCgcctttagagagaagActAtccttagtTccCCattctgaAcCTggagaggGgatCctgcctcgGaGcaATgCAGtcaAcaGtggccccacATttcTggGaGgGaggaggcagtcCgtTctgaacctTatgacCGGctcCTCagtGaaccaaggtcaAaGcattcaTcgaaagacaGcGAcatccacacgaaaaAtgtcactggcTcctcaggcaaGcttAGcCgaaAtAgatatatattcaagaCggttatctcaagaTactggcttggaaataagtgaagaaattaaTgaagaagaTttaaGg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1421467</start>
+            <end>1422191</end>
+          </span>
+          <alignment>
+            ctgtGtctgtaaaCtgatggctaacaaaactaggattttggtcacttctaaaatggaAcaTttaaagaaagctgacaaaatattaattttGcatgaaggtagcaGctatttttatgggacattttcAgaaCtCcaaaatcTAcAgccAgacttTagctcAaaActcatgggatgtgaTTctttcgaccaAtttaGtgcagaaAgaagaaattcaatcCtaactgagacCttacACcgtttctcattagaaggagatGctCctgtCtcctggaCAgaaacAaaaaaAcAAtcttttaaacagactggagagtttggGgaaaaaaggaagaaTtcTattctcaAtCcaatcaactctataCgAaaattttcCAttgtGcaaaagactCcCttacaaatgaatggCatcgaagAGgAtTctgatgAgcctttagagagaagGctGtccttagtAccAGattctgaGcAGggagaggCgatActgcctcgCaTcaGCgTGAtcaGcaCtggccccacGCttcAggCaCgAaggaggcagtcTgtCctgaacctGatgacACActc---agtTaaccaaggtcaGaAcattcaCcgaaagacaAcAGcatccacacgaaaaGtgtcactggcCcctcaggcaaActtGAcTgaaCtGgatatatattcaagaAggttatctcaagaAactggcttggaaataagtgaagaaattaaCgaagaagaCttaaAg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="85.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856918">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-15  Good  HUMT1:0 U 93.8 100.0 121 8 0 129 129 129 1 1 129 129 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1221237</start>
+            <end>1221366</end>
+          </span>
+          <alignment>
+            gaTtgcttttttgatgatGtggagaAcataccagcagtgactacatggaacacataccttcgatatattactgtccacaagagcttaatGtttgtgctaatttggtgcttagtCGtttttctggTTgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1424463</start>
+            <end>1424592</end>
+          </span>
+          <alignment>
+            gaGtgcttttttgatgatAtggagaGcataccagcagtgactacatggaacacataccttcgatatattactgtccacaagagcttaatTtttgtgctaatttggtgcttagtAAtttttctggCAgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856919">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-16  Good  HUMT1:0 URU 78.9 100.0 30 8 0 38 38 28 2 1 38 38 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1234435</start>
+            <end>1234473</end>
+          </span>
+          <alignment>
+            gtggcCgcttctttggttgtgTtgtgCctATttCCGaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1432359</start>
+            <end>1432397</end>
+          </span>
+          <alignment>
+            gtggcTgcttctttggttgtgCtgtgGctCCttGGAaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="78.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856920">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-17  Good  HUMT1:0 RUU 90.1 96.8 219 24 0 243 251 243 1 1 251 243 8 0 21 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1234913</start>
+            <end>1235164</end>
+          </span>
+          <alignment>
+            AATATTTTttcaagacaaaggAaaCagtactAaGagtGCaaataacagTtatgcagtgatCatcaccagcaccagCtcgtattatAtTttttacatttaTgtgggagtGgcTgacactttgcttgctCtAggaCtcttcagaggtTtaccactggtgcatactctaatcacagtgtcAaaaaCtttacaccacaaaatgCtacaGtctgttcttcaagcCcctatgtcaaccctcaacacgttgaaaAcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1433073</start>
+            <end>1433316</end>
+          </span>
+          <alignment>
+            --------ttcaagacaaaggGaaTagtactCaTagtAGaaataacagCtatgcagtgatTatcaccagcaccagTtcgtattatGtGttttacatttaCgtgggagtAgcCgacactttgcttgctAtGggaTtcttcagaggtCtaccactggtgcatactctaatcacagtgtcGaaaaTtttacaccacaaaatgTtacaTtctgttcttcaagcAcctatgtcaaccctcaacacgttgaaaGcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="RUU"></property>
+        <property name="percent_id" value="90.1"></property>
+        <property name="percent_coverage" value="96.8"></property>
+        <property name="exon_name" value="COWT1|CFTR-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856921">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-18  Good  HUMT1:0 U 92.5 100.0 74 6 0 80 80 80 1 1 80 80 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1238104</start>
+            <end>1238184</end>
+          </span>
+          <alignment>
+            gtgggattcttaatagattctccaaagatatagcaGttttggatgaTcttctgcctcttaccatatttgaTttTGtTcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1436207</start>
+            <end>1436287</end>
+          </span>
+          <alignment>
+            gtgggattcttaatagattctccaaagatatagcaAttttggatgaCcttctgcctcttaccatatttgaCttCAtCcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856922">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-19  Good  HUMT1:0 URU 86.1 100.0 130 21 0 151 151 142 2 1 151 151 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1243565</start>
+            <end>1243716</end>
+          </span>
+          <alignment>
+            ttgttattaattgtgatCggagctGtGgTGgtCgtcTcagttttacaGccctacatcttCCtAgcTacagtgccagtgatagCggcttttattCtCttgagagcCtaCttcctccaCacctcCcagcaactcaaGcaGctggaatctgaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1440052</start>
+            <end>1440203</end>
+          </span>
+          <alignment>
+            ttgttattaattgtgatTggagctAtAgCAgtTgtcGcagttttacaAccctacatcttTGtTgcAacagtgccagtgatagTggcttttattAtGttgagagcAtaTttcctccaAacctcAcagcaactcaaAcaActggaatctgaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="86.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856923">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-20  Good  HUMT1:0 U 97.8 100.0 223 5 0 228 228 228 1 1 228 228 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1244841</start>
+            <end>1245069</end>
+          </span>
+          <alignment>
+            gcaggagtccaattttcactcatcttgttacaagTttaaaaggactatggacacttcgtgccttTggacggcagccttactttgaaactTtAttccacaaagctctgaatttacatactgccaactggttcttgtaTctgtcaacactgcgctggttccaaatgagaatagaaatgatttttgtcatcttcttcattgctgttaccttcatttccattttaacaacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1441114</start>
+            <end>1441342</end>
+          </span>
+          <alignment>
+            gcaggagtccaattttcactcatcttgttacaagCttaaaaggactatggacacttcgtgccttCggacggcagccttactttgaaactCtGttccacaaagctctgaatttacatactgccaactggttcttgtaCctgtcaacactgcgctggttccaaatgagaatagaaatgatttttgtcatcttcttcattgctgttaccttcatttccattttaacaacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856924">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-21  Good  HUMT1:0 U 94.1 100.0 95 6 0 101 101 101 1 1 101 101 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1247385</start>
+            <end>1247486</end>
+          </span>
+          <alignment>
+            gTgaaggagaaggaagagttggGattatTctAactttagccatgaatatcatgGgtacattgcagtgggctgtaaactcTagcatagatgtggatagcttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1444146</start>
+            <end>1444247</end>
+          </span>
+          <alignment>
+            gAgaaggagaaggaagagttggTattatCctGactttagccatgaatatcatgAgtacattgcagtgggctgtaaactcCagcatagatgtggatagcttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856925">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-22  Good  HUMT1:0 URU 88.1 100.0 222 30 3 252 252 249 2 1 252 252 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1263214</start>
+            <end>1263466</end>
+          </span>
+          <alignment>
+            atgcgatctgtgagccgagtctttaagttTattgaTatgccaacagaagATGgtaaacctaAcaaTtcaTTcaGaccatCcaagGatAgTcaGcCctcAaaagttatgatCattgagaatCAacaTgtgaagaaagatgacatctggccctcagggggccaaatgactgtcaaagaCctcacagcaaaGtaTacagaTggAggGaatgccataCtagagaacatAtccttctcaataagtccCggccagagg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1457055</start>
+            <end>1457304</end>
+          </span>
+          <alignment>
+            atgcgatctgtgagccgagtctttaagttCattgaCatgccaacagaag---gtaaacctaCcaaGtcaACcaAaccatAcaagAatGgCcaAcTctcGaaagttatgatTattgagaatTCacaCgtgaagaaagatgacatctggccctcagggggccaaatgactgtcaaagaTctcacagcaaaAtaCacagaAggTggAaatgccataTtagagaacatTtccttctcaataagtccTggccagagg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856926">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-23  Good  HUMT1:0 U 91.0 100.0 142 14 0 156 156 156 1 1 156 156 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1282253</start>
+            <end>1282409</end>
+          </span>
+          <alignment>
+            gtgggcctcttgggaagaactggatcagggaagagCactttgttaCTGgcttttttgagactGctgaaTacCAaaggagaaatccaAatAgatggtgtgtcttgggattcaatTactttgcaacaAtggaggaaGgcctttggagtCataccacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1471971</start>
+            <end>1472127</end>
+          </span>
+          <alignment>
+            gtgggcctcttgggaagaactggatcagggaagagTactttgttaTCAgcttttttgagactActgaaCacTGaaggagaaatccaGatCgatggtgtgtcttgggattcaatAactttgcaacaGtggaggaaAgcctttggagtGataccacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-23"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856927">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-24  Good  HUMT1:0 U 96.7 100.0 87 3 0 90 90 90 1 1 90 90 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1295295</start>
+            <end>1295385</end>
+          </span>
+          <alignment>
+            aaagtattCatCttttctggaacatttagaaaaaacttggatccctatgGacagtggagtgatcaagaaatatggaaagttgcagatgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1482375</start>
+            <end>1482465</end>
+          </span>
+          <alignment>
+            aaagtattTatTttttctggaacatttagaaaaaacttggatccctatgAacagtggagtgatcaagaaatatggaaagttgcagatgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-24"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856928">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-25  Good  HUMT1:0 U 93.6 100.0 162 11 0 173 173 173 1 1 173 173 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1306316</start>
+            <end>1306489</end>
+          </span>
+          <alignment>
+            gtCggActcagatctgtgatagaGcagtttcctgggaagcttgaTtttgtccttgtggatgggggTtgtgtTctaagccaCggccacaagcagttgatgtgcttggcCagatctgttctcagtaaAgcAaagatcttgctgcttgatgaacccagtgctcatttggatccaAt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1494221</start>
+            <end>1494394</end>
+          </span>
+          <alignment>
+            gtTggGctcagatctgtgatagaAcagtttcctgggaagcttgaCtttgtccttgtggatgggggCtgtgtCctaagccaTggccacaagcagttgatgtgcttggcTagatctgttctcagtaaGgcGaagatcttgctgcttgatgaacccagtgctcatttggatccaGt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-25"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856929">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-26  Good  HUMT1:0 U 90.6 100.0 96 10 0 106 106 106 1 1 106 106 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1307128</start>
+            <end>1307234</end>
+          </span>
+          <alignment>
+            aacataccaGatCattCgaagaacCctaaaacaagcatttgctAattgcacagtaatCctctCtgaacacaggatagaagcaatgTtggaatgTcaacGatttttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1494992</start>
+            <end>1495098</end>
+          </span>
+          <alignment>
+            aacataccaAatAattAgaagaacTctaaaacaagcatttgctGattgcacagtaatTctctGtgaacacaggatagaagcaatgCtggaatgCcaacAatttttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="90.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-26"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856930">
+        <span_type>HSP</span_type>
+        <description>COWT1|CFTR-27  Good  HUMT1:0 URU 73.3 100.0 1320 482 132 1802 1802 1222 31 1 1718 1718 0 0 0 0 8 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1308632</start>
+            <end>1310350</end>
+          </span>
+          <alignment>
+            gtcatagaGgagaacaaGgtgcggcagtaTgattccatccagaGGAtgctgaGcgagaAgagcctcttccggcaGgccatcagccccGcAgacCgCTtgaagctcttGccccaccggaactcGagcaGgCAGaGgtctCGgTccAaCatCgcGgctctgaaGgaggagacagaagaagaggtgcaagaAacaaAgctttagagagcagAaCaaaCgttTGcCtgggacGttCAcAcatg------------------------------ggaGttgAag-----gAaaAagtt---tctgcctcagaaaacaaggaGgaatGa--ttttttttGaaaaCagaaGGAaAaAttggGGtaagAggaattAaggacactCCtTtgggtcCGgatCCatggcttcctggcaGtGgtcaaattgtgtgaCaggtacttcaaatccttgaagatttaccacttg-gGttCAcCagTcagCCtttcctgaaaa-cTttTccCtTtgGtGgtCaCtgAaaaAgTGgctGtaaaCgtcaGCcagATtaAttCTtcagcttaCtgtTtagtCaGactTACtCatttgtaAtAGtAgagaagaactgTaatTatactATttagAgAtaCAattaagtaGtgCtaactgg-aacttGagTggCttGtatCagTttAtGtAccttCttctctActctcTccatgGtAtttaAaaacacaGAtatattgCCtActaagGattcAaacAGtcCTatttccaagcaagGaAtGgaatGcTGTGAgaGGcTcaagacAgcacatc-aaatatgcAccatGcaacatctaAgtgTCagGGGAcaCTAAGATCTTAGTgtcaggaGaCagaacttccCAGtcctggaaatcaggCttagtaCtgtTcagCAAtacc-CaaTtcCAaataAttTagaCaatcaGaaAacatcccttaATtgggCTaCgggctgttaCaGtcCCATGcagggAacaAAGATatAgCtcccttgatTTGTCag-tga-aCg-GttCtGc---TtccagaaagtAGcaaActTaTaAgaTGtCtgaactGAagGAtGgctggaaaaAtGCTttaAtgcaTattgGTacaggaAaAcccttcAtAAcacagaagTtccaggtaCagAgtgtgCaGgCagaAagAccGtgggcactCCATgtagaTGTacatgaaAtTcaaAGatCtag--gtatag--AgaGggtgATgtGtgttttcaggctaCCtAtGtgCacttcatgctgtACaTactGagCgGgaGAAatAaTGgGcacactgaaCaCTGaAGaGtcaATCGtGaAttttatatTcttctgttttataGttttgCgaTgcaaaTGaAAttttctctaggaaatatttattttaataatgtttcaaacatatataa-aTGgctgtattttaaGaaTGatTatATtatgaattaTatttgtataaaaGaatttttatatttgaaatGttgactttttatggcactagCtatttTtatgaTaCattaCAttaaaactgggaTGggAgGAaGcctTgggGg--aAtaTTGaggggcTat---tGacc--AGggtct--aTgTa-----------tTat---gttgttgcAca-aCctgtGtgattcccagccCAcaTGcTgGTTTcGtcttagatgcagttct-aaAaaAatggtaccacAaAAtctgacCACCCcTatcaagAAtacactgccttctcaactccaGactAacCAtt---aagaTtgcattCtatttattaTGgAaagGGaatatcaTGtgtcaataaaatccatGTatttgtgt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1496441</start>
+            <end>1498195</end>
+          </span>
+          <alignment>
+            gtcatagaAgagaacaaAgtgcggcagtaCgattccatccagaAACtgctgaAcgagaGgagcctcttccggcaAgccatcagccccTcCgacAgGGtgaagctcttTccccaccggaactcAagcaAgTGCaAgtctAAgCccCaGatTgcTgctctgaaAgaggagacagaagaagaggtgcaagaTacaaGgctttagagagcagCaTaaaTgttGAcAtgggacAttTGcTcatgGAATTGGAGCTCGTGGGACAGTCACCTCATggaAttgGagCTCGTgGaaCagttACCtctgcctcagaaaacaaggaTgaatTaAGttttttttTaaaaAagaa---aCaTttgg--taagGggaattGaggacactGAtAtgggtcTTgatAAatggcttcctggcaAtAgtcaaattgtgtgaAaggtacttcaaatccttgaagatttaccacttgTgTttTGcAagCcagATtttcctgaaaaCcCttGccAtGtgCtAgtAaTtgGaaaGgCAgctCtaaaTgtcaATcagCCtaGttGAtcagcttaTtgtCtagtGaAactCGTtAatttgtaGtGTtGgagaagaactgAaatCatactTCttagGgTtaTGattaagtaAtgAtaactggAaacttCagCggTttAtatAagCttGtAtTccttTttctctCctctcCccatgAtGtttaGaaacacaACtatattgTTtGctaagCattcCaacTAtcTCatttccaagcaagTaTtAgaatAcCACAGgaACcAcaagacTgcacatcAaaatatgcCccatTcaacatcta-gtg--ag----ca-------------gtcaggaAaGagaacttccAGAtcctggaaatcaggGttagtaTtgtCcagGTCtaccAAaaAtcTCaataTttCagaTaatcaCaaTacatcccttaCCtgggAAa-gggctgttaTaAtcTTTCAcagggGacaGG---atGgTtcccttgatGAAGAagTtgaTaTgCCttTtCcCAACtccagaaagtGAcaaGctCaCa-gaCCtTtgaactAGagTTtAgctggaaaaGtATGttaGtgcaAattgTCacaggaCaGcccttcTtTCcacagaagCtccaggtaGagGgtgtgTaAgTagaTagGccAtgggcactGTGGgtagaCACacatgaaGtCcaaGCatTtagATgtatagGTTgaTggtg--gtAtgttttcaggctaGAtGtAtgTacttcatgctgtCTaCactAagAgAga---atGaGAgAcacactgaaGaAGCaCCaAtcaTGAAtTaGttttatatGcttctgttttataAttttgTgaAgcaaa--aTTttttctctaggaaatatttattttaataatgtttcaaacatatataaCaATgctgtattttaa-aaGAatGat--tatgaattaCatttgtataaaaTaatttttatatttgaaatAttgactttttatggcactag-tatttCtatgaAaTattaTGttaaaactgggaCAggGgAGaAcctAgggTgATaTtaACCaggggcCatGAAtCaccTTTTggtctGGaGgGaAGCCTTGGGGCtGatGCAgttgttgcCcaCaGctgtAtgattcccagccAGca--cAg----cCtcttagatgcagttctGaaGaaGatggtaccacCaG-tctgacTGTTTcCatcaagGGtacactgccttctcaactccaAactGacTCttAAGaagaCtgcattAtatttattaCTgTaagAAaatatcaCTtgtcaataaaatccatACatttgtgt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="73.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CFTR-27"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103856931">
+      <description>COWT1|CORTBP2  Full HUMT1:0 URU 87.9 99.7 3338 458 94 3796 3809 3500 39 19 3717 3704 0 13 0 143 9 0 COWT1|9 /transcript_uid=COWT1|CORTBP2</description>
+      <result_span id="CELERA:30000103856932">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-1  Good  HUMT1:0 X 100.0 100.0 204 0 0 204 204 204 1 1 204 204 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1480207</start>
+            <end>1480003</end>
+          </span>
+          <alignment>
+            gctggtcaccctccctaacccctttgctaatgagtggtggtcctgcccccctggctggcaggcccacccttcttcagcaagctgctgcccagggaaatgtcactttattatcaatgctgcttaatgaagaaggactggacattaattactcctgtgaagatggccattctgccttgtattctgctgctaagaatggacatacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1613988</start>
+            <end>1613784</end>
+          </span>
+          <alignment>
+            gctggtcaccctccctaacccctttgctaatgagtggtggtcctgcccccctggctggcaggcccacccttcttcagcaagctgctgcccagggaaatgtcactttattatcaatgctgcttaatgaagaaggactggacattaattactcctgtgaagatggccattctgccttgtattctgctgctaagaatggacatacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="X"></property>
+        <property name="percent_id" value="100.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856933">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-2  Good  HUMT1:0 U 98.0 100.0 98 2 0 100 100 100 1 1 100 100 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1478584</start>
+            <end>1478484</end>
+          </span>
+          <alignment>
+            actgtgtgagattgctgctgaAtgcagaagcccaagtcaatgctgctgataaaaatggcttcacacccttgtgtgctgcagctgctcagggacatttcAa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1612495</start>
+            <end>1612395</end>
+          </span>
+          <alignment>
+            actgtgtgagattgctgctgaGtgcagaagcccaagtcaatgctgctgataaaaatggcttcacacccttgtgtgctgcagctgctcagggacatttcGa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856934">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-3  Good  HUMT1:0 U 96.0 100.0 145 6 0 151 151 151 1 1 151 151 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1476238</start>
+            <end>1476087</end>
+          </span>
+          <alignment>
+            gtgtgtagaattattaattGcatatgatgctaaTattaatcatgctgctgatggaggacagacacctctatacctggcctgtaaaaatggaaataaagaatgtattaaactcttgttggaagctggaacTGaCcgaagtgtaaaaaccaGa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1610125</start>
+            <end>1609974</end>
+          </span>
+          <alignment>
+            gtgtgtagaattattaattTcatatgatgctaaCattaatcatgctgctgatggaggacagacacctctatacctggcctgtaaaaatggaaataaagaatgtattaaactcttgttggaagctggaacCAaTcgaagtgtaaaaaccaCa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856935">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-4  Good  HUMT1:0 URU 84.3 100.0 215 40 3 255 255 223 2 1 252 252 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1470462</start>
+            <end>1470210</end>
+          </span>
+          <alignment>
+            gatggctggacaccaAttcaTgcagcCgtggacactggtaatgtggacagcctcaagcttcttatgtaccaCagaGCCccagcCcatggaaaCAAGtt---GCaggaggagCccgGgtTGGCCAtcttAgacttggatCAagAagaagagCAtcAtgaaggcaCatccaagcctgttgttcctgcagacctcatCaaccacgcTGacagTgaaggctggactgctgcccaTattgctgcttcAaaGggttttaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1607299</start>
+            <end>1607044</end>
+          </span>
+          <alignment>
+            gatggctggacaccaGttcaCgcagcTgtggacactggtaatgtggacagcctcaagcttcttatgtaccaTagaATAccagcTcatggaaaTTCTttCAATGaggaggagTccgAgtCAAGTGtcttTgacttggatGGagGagaagagAGtcCtgaaggcaTatccaagcctgttgttcctgcagacctcatTaaccacgcCAacagAgaaggctggactgctgcccaCattgctgcttcCaaAggttttaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="84.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856936">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-5  Good  HUMT1:0 U 89.0 100.0 105 13 0 118 118 118 1 1 118 118 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1460195</start>
+            <end>1460077</end>
+          </span>
+          <alignment>
+            aactgcctagaaGtcttgtgtaggcacggagggctGgagccGgaaagAagagaTaagtgTaatcggacCgCAcaCgatgttgcTactgatgactgcaagcaCCtgctggagaatctga
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1596710</start>
+            <end>1596592</end>
+          </span>
+          <alignment>
+            aactgcctagaaAtcttgtgtaggcacggagggctTgagccAgaaagGagagaCaagtgCaatcggacTgTGcaTgatgttgcCactgatgactgcaagcaTTtgctggagaatctga
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856937">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-6  Good  HUMT1:0 U 89.9 100.0 248 28 0 276 276 276 1 1 276 276 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1449765</start>
+            <end>1449489</end>
+          </span>
+          <alignment>
+            atgctcttaaaatacccttaaggatttcagtgggtgagaCtgaaccaGgcaactGCggtGctgatgacttTgaatgtgaaaGcacaatatgtgctttaaatatTcgcaaacagacatcatgggatgatttttcaaaagcagtgagtcaagctctgacaaaCcatttccaAgcaatctcttctgatggatggtggagCctggaagacAtgacGtTTaGtaGcaccacCgaCtccaGcatTggGctcagtgcaagCagTGtGcgatccatcacCTtag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1590244</start>
+            <end>1589968</end>
+          </span>
+          <alignment>
+            atgctcttaaaatacccttaaggatttcagtgggtgagaTtgaaccaAgcaactATggtTctgatgacttGgaatgtgaaaAcacaatatgtgctttaaatatCcgcaaacagacatcatgggatgatttttcaaaagcagtgagtcaagctctgacaaaTcatttccaGgcaatctcttctgatggatggtggagTctggaagacGtgacTtGCaAtaAcaccacTgaTtccaAcatCggCctcagtgcaagAagCAtAcgatccatcacGCtag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856938">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-7  Good  HUMT1:0 U 87.5 100.0 84 12 0 96 96 96 1 1 96 96 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1446898</start>
+            <end>1446802</end>
+          </span>
+          <alignment>
+            gaaatgtgccAtggtcagCAggtcagagcttcAcCcagtccccAtgggacttCatgagAaCgaataaAgcagagcaGGtcactgtgcttttgtcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1587504</start>
+            <end>1587408</end>
+          </span>
+          <alignment>
+            gaaatgtgccGtggtcagTGggtcagagcttcGcGcagtccccGtgggacttTatgagGaAgaataaGgcagagcaCAtcactgtgcttttgtcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856939">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-8  Good  HUMT1:0 U 86.2 100.0 69 11 0 80 80 80 1 1 80 80 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1445600</start>
+            <end>1445520</end>
+          </span>
+          <alignment>
+            gGcctcaGgaGggctgCctcagtagtgtgacCtaCgcGtcTatgatccctctTcagatgCtgcagaactacctcagActg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1586168</start>
+            <end>1586088</end>
+          </span>
+          <alignment>
+            gTcctcaAgaAggctgTctcagtagtgtgacTtaTgcCtcCatgatccctctCcagatgAtgcagaactacctcagGctg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="86.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856940">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-9  Good  HUMT1:0 U 93.1 100.0 81 6 0 87 87 87 1 1 87 87 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1433503</start>
+            <end>1433416</end>
+          </span>
+          <alignment>
+            gtCgagcaatatcataatgtcattttccaTggcccagaaggGagcttgcaagactacatCgCCcatcagcttgcactctgcctgaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1575633</start>
+            <end>1575546</end>
+          </span>
+          <alignment>
+            gtTgagcaatatcataatgtcattttccaCggcccagaaggAagcttgcaagactacatAgTAcatcagcttgcactctgcctgaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856941">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-10  Good  HUMT1:0 U 92.0 100.0 92 8 0 100 100 100 1 1 100 100 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1433336</start>
+            <end>1433236</end>
+          </span>
+          <alignment>
+            cacagacaaatggctgcaggattcCcctgtgaaatagtgagagctgaagtGgatgctgAtttCtccaaggaacagctaGtagaTctgttcatCagtagTg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1575464</start>
+            <end>1575364</end>
+          </span>
+          <alignment>
+            cacagacaaatggctgcaggattcTcctgtgaaatagtgagagctgaagtAgatgctgGtttTtccaaggaacagctaCtagaCctgttcatTagtagCg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856942">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-11  Good  HUMT1:0 U 87.6 100.0 134 19 0 153 153 153 1 1 153 153 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1421092</start>
+            <end>1420939</end>
+          </span>
+          <alignment>
+            cGtgtctgatcccagtgaaacaatctccTGCtaaCaagaaaatcatcGtcatCttagaGaaCttGgaaaaatcttcaTtgtcTgagttaCtgGgggactttttggGacctctGgaaaatcAcagcactgaaagcccctgTacCttccaaaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1564955</start>
+            <end>1564802</end>
+          </span>
+          <alignment>
+            cTtgtctgatcccagtgaaacaatctccCAGtaaGaagaaaatcatcAtcatTttagaAaaTttAgaaaaatcttcaCtgtcGgagttaTtgAgggactttttggCacctctTgaaaatcGcagcactgaaagcccctgCacTttccaaaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856943">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-12  Good  HUMT1:0 U 92.0 100.0 173 15 0 188 188 188 1 1 188 188 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1420769</start>
+            <end>1420581</end>
+          </span>
+          <alignment>
+            gaaaCggaAtgtcTgaatgCtaCtactttcatgagaactgctttctgatgggaacAatcgccaaggcctgtctccagggctccgacttgctggtgcagcagcatttccgctgggtgcagctgcgCtgggaCggcgagcccatgcaGggGctgctgcagaggttcCtCAgGaggaaGgttgtgaataag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1564634</start>
+            <end>1564446</end>
+          </span>
+          <alignment>
+            gaaaTggaCtgtcCgaatgTtaTtactttcatgagaactgctttctgatgggaacCatcgccaaggcctgtctccagggctccgacttgctggtgcagcagcatttccgctgggtgcagctgcgGtgggaTggcgagcccatgcaAggActgctgcagaggttcTtACgAaggaaAgttgtgaataag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856944">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-13  Good  HUMT1:0 U 85.5 100.0 153 26 0 179 179 179 1 1 179 179 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1416735</start>
+            <end>1416556</end>
+          </span>
+          <alignment>
+            ttcaGaggtcaggTgccctcTccctgcgaCccCgtgtgcaagaCGgtcgactgggcCctgGccgtGtggcgCcagctCaactcGtgcctggcccgcCtgggcacGccGgaagcacttctCggGccaCaGCatttcctgtcttgtcctgtagtCccGgggcaCgcccaagCAacagtgaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1557801</start>
+            <end>1557622</end>
+          </span>
+          <alignment>
+            ttcaAaggtcaggCgccctcCccctgcgaTccTgtgtgcaagaTTgtcgactgggcTctgTccgtCtggcgTcagctTaactcCtgcctggcccgcTtgggcacAccTgaagcacttctTggAccaAaATatttcctgtcttgtcctgtagtTccTgggcaTgcccaagTGacagtgaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="85.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856945">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-14  Good  HUMT1:0 URU 88.3 100.0 182 24 6 206 206 200 3 1 200 200 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1414223</start>
+            <end>1414023</end>
+          </span>
+          <alignment>
+            gtggatgtctaagctAtggaatgCTgtcatTgcacccagagttcaagaagcaatattgtcaagagcctctgtgaaaagacaGccCggcCttgggcaAacaa---ctaaaa---acccCagccaaggGcagcaggctgtAgtTaGagctgctctcagcatTttgctTaataaagctgtTctgcatggctgtcccctccAGagagcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1554791</start>
+            <end>1554585</end>
+          </span>
+          <alignment>
+            gtggatgtctaagctGtggaatgGCgtcatCgcacccagagttcaagaagcaatattgtcaagagcctctgtgaaaagacaAccTggcTttgggcaGacaaCTGctaaaaGACacccTagccaaggAcagcaggctgtGgtCaAagctgctctcagcatCttgctAaataaagctgtActgcatggctgtcccctccCCagagcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856946">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-15  Good  HUMT1:0 URR 89.6 93.0 155 18 3 173 186 170 2 1 183 170 0 13 0 143 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1413662</start>
+            <end>1413479</end>
+          </span>
+          <alignment>
+            agctGgaccagcatacagctgatttcaaaggaggaagCttccctCtGtccatagtttcAagttaCaGcaGttgCaGcaagaagaa---agagagtggtgcctggagaaaggtgaGcaccagtcctcgcaAgaagtctggccgGttctcttCacccacctggaaCaagccagacTTGAGTGAAGAAG
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1554266</start>
+            <end>1554093</end>
+          </span>
+          <alignment>
+            agctAgaccagcatacagctgatttcaaaggaggaagTttccctTtAtccatagtttcCagttaTaAcaCttgTaAcaagaagaaAGGagagagtggtgcctggagaaaggtgaAcaccagtcctcgcaGgaagtctggccgCttctcttTacccacctggaaTaagccagac-------------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URR"></property>
+        <property name="percent_id" value="89.6"></property>
+        <property name="percent_coverage" value="93.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856947">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-16  Good  HUMT1:0 U 90.6 100.0 58 6 0 64 64 64 1 1 64 64 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1408841</start>
+            <end>1408777</end>
+          </span>
+          <alignment>
+            gtatCaaaaGtaaCactatatTacagctgaattgtaacaggaatgcttcGctgtcaaaCcaaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1550664</start>
+            <end>1550600</end>
+          </span>
+          <alignment>
+            gtatGaaaaAtaaGactatatCacagctgaattgtaacaggaatgcttcTctgtcaaaAcaaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="90.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856948">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-17  Good  HUMT1:0 U 91.7 100.0 122 11 0 133 133 133 1 1 133 133 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1407482</start>
+            <end>1407349</end>
+          </span>
+          <alignment>
+            gtctttagagaatgatctGtcaTtgacCttgaatCtggatcaAagactctctctgggttcGgatgaTgaagcagatcttgtcaaggaacttcagagcatgtgctcTagcaaAtctgaAtctgatatAagcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1549170</start>
+            <end>1549037</end>
+          </span>
+          <alignment>
+            gtctttagagaatgatctAtcaCtgacGttgaatTtggatcaGagactctctctgggttcAgatgaCgaagcagatcttgtcaaggaacttcagagcatgtgctcCagcaaGtctgaGtctgatatCagcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856949">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-18  Good  HUMT1:0 U 93.1 100.0 95 7 0 102 102 102 1 1 102 102 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1406349</start>
+            <end>1406247</end>
+          </span>
+          <alignment>
+            attgctgattccagggatgatttaaggaGgtttgatagttcAggaaacaaccctgtGTtttcagcaactGttaataatcCAagaatgccagtgtcacaaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1547653</start>
+            <end>1547551</end>
+          </span>
+          <alignment>
+            attgctgattccagggatgatttaaggaTgtttgatagttcTggaaacaaccctgtACtttcagcaactAttaataatcTGagaatgccagtgtcacaaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103856950">
+        <span_type>HSP</span_type>
+        <description>COWT1|CORTBP2-19  Good  HUMT1:0 URU 81.8 100.0 925 206 82 1131 1131 876 17 1 1051 1051 0 0 0 0 9 0</description>
+        <seq_relationship id="COWT1:0" type="sbjct">
+          <span>
+            <start>1403560</start>
+            <end>1402509</end>
+          </span>
+          <alignment>
+            gaggtcagtcctctcagcagccatcaaacAacCgaatgcagcaacagtaaatcaaagactgagttgggtgtttcaagagttaaatcttttcttcctgttcctagaagtaaagtcacccagtgttcccagaacaccaaaagaagcagcagcagcagtaatacaaggcaaatagaaatAaacaacaactc-----aagAgaTttggaacCtacGcaaaaatgaacaAGtagaaaaaTctaGcaaataggcctgcctacaGtattctcattCtt--ct--GtAtatttcacacagaaaccaaggacaacaagatGTaaatacctttaaatGAatCaaaCgttttcactgCaatataaaCGatgagtgcgggaccactattcaa---ttttttgtaaagaa--tatttataaccaac-t--------tttttttttCaattctgtCAAattgaactGcaataccaAgaagttatAccCacttttcaagtagttttataatagaaaaGtCAtaatagttttaCtcaagatgttcaggggtattaaaac--aactgtgtactgtatatctAtaCatatgtaCa----tatgtaCatttaagAaag-cTaTGCatcat--tgcatac-tgcATTaaaaaTgt---------gtacaGCAttggcttagataacAtgtaTcAttttaaa--gagatcataattttatgttcacttgatgAgAaaCgactagaaCggggcaataacaaatcatttctaaacagttaCtttTc-ttaaaagccatattaagtattttgcCtgttTaaCtctagttttCAgtttCaaaActTttaAtggtt----------------gcatcatg--tatatttatgcttatGGgtttgTGttatgactcctgt-aaatatgaaCttataTAatgcaataaaagtgttatctttcttacaaaagttttgtacctaagtAgatataAaAaa--gAataaCtg--taaatGcTTCaAtaaAtAAGtTaa-CtAActCCCTCTTcTaGtgGCaCAatCgatattttctaGa---CttTcttctCaaattac-----TaatGacAta-acTa-AAagtt-aTatgcCttgacacCAaataaaatattgaAttAGtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="HUMT1:0" type="query">
+          <span>
+            <start>1541316</start>
+            <end>1540187</end>
+          </span>
+          <alignment>
+            gaggtcagtcctctcagcagccatcaaacTacTgaatgcagcaacagtaaatcaaagactgagttgggtgtttcaagagttaaatcttttcttcctgttcctagaagtaaagtcacccagtgttcccagaacaccaaaagaagcagcagcagcagtaatacaaggcaaatagaaatCaacaacaactcAAAAGaagTgaAttggaacTtacAcaaaaatgaacaCCtagaaaaaCctaAcaaataggcctgcctacaAtattctcattAttAActTCCtCtatttcacacagaaaccaaggacaacaagatACaaatacctttaaatTGatAaaaTgttttcactgTaatataaaTTatgagtgcgggaccactattcaaTTTttttttgtaaagaaTGtatttataaccaacAtTTTGTTGCtttttttttTaattctgtAGGattgaactTcaataccaGgaagttatGccAacttttcaagtagttttataatagaaaaAtTGtaatagttttaAtcaagatgttcaggggtattaaaacAGaactgtgtactgtatatctGtaTatatgtaTaTATGtatgtaTatttaagGaagTcCaGAAatcatACtgcatacAtgcTACaaaaaAgtAGCAAAAAAgtacaAAGttggcttagataacTtgtaCcGttttaaaTGgagatcataattttatgttcacttgatgGgGaaTgactagaaTggggcaataacaaatcatttctaaacagttaTtttCcAttaaaagccatattaagtattttgcTtgttAaaTtctagttttATgtttTaaaTctCttaGtggttACATTGCCATTTGGTAgcatcatgTAtatatttatgcttatAAgtttgCAttatgactcctgtAaaatatgaaAttata--atgcaataaaagtgttatctttcttacaaaagttttgtacctaagtGgatataGaTaaCTgCataaAtgAAtaaatTcAGAaTtaaCtCCTtCaaTAtTTctAGTAGCAcAaCtgATaATatTgatattttctaCaAATGttActtctAaaattacAGACAAaatTacTtaCacAaTTCagttAaGatgcTttgacacTGaataaaatattgaTttCAtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="81.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="COWT1|CORTBP2-19"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+  </computational_analysis>
+</game>

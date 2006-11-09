@@ -1,0 +1,2912 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Rattus norvegicus CFTR Region">
+<computational_analysis id="S4ESTbestSpl:1">
+ <date day="2" month="4" year="2004"></date>
+ <program>S4_dbEST_BestSpl</program>
+ <type>BLASTN_HIT</type>
+ <result_set id="S4ESTbestSpl:2">
+ <description>&gt;CRA|63000056357600 /altid=gi|13885245 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/30/2001 /altid=gb_accvers|BG663323.1 /organ= /tissue_type=dorsal root ganglion /length=396 /clone_end=5&apos; /def=DRAAAGG08 Rat DRG Library Rattus norvegicus cDNA clone DRAAAGG08 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:3">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056357600" type="sbjct">
+   <span><start>30</start><end>96</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:4">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056357600" type="sbjct">
+   <span><start>96</start><end>148</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:5">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056357600" type="sbjct">
+   <span><start>148</start><end>212</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:6">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488478</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056357600" type="sbjct">
+   <span><start>212</start><end>396</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="183"></property>
+  <property name="num_similar"        value="183"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:63000056357600"></property>
+ <property name="subject_seq_length" value="396"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:7">
+ <description>&gt;CRA|63000056381430 /altid=gi|13887628 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/30/2001 /altid=gb_accvers|BG665706.1 /organ= /tissue_type=dorsal root ganglion /length=544 /clone_end=5&apos; /def=DRACGG08 Rat DRG Library Rattus norvegicus cDNA clone DRACGG08 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:8">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056381430" type="sbjct">
+   <span><start>12</start><end>78</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:9">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056381430" type="sbjct">
+   <span><start>78</start><end>130</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:10">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056381430" type="sbjct">
+   <span><start>130</start><end>194</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:11">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488502</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056381430" type="sbjct">
+   <span><start>194</start><end>401</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="207"></property>
+  <property name="num_similar"        value="207"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:12">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>489233</start><end>489313</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056381430" type="sbjct">
+   <span><start>401</start><end>481</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="80"></property>
+  <property name="num_similar"        value="80"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:13">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>493362</start><end>493425</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056381430" type="sbjct">
+   <span><start>481</start><end>544</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:63000056381430"></property>
+ <property name="subject_seq_length" value="544"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:14">
+ <description>&gt;CRA|63000056393560 /altid=gi|13888841 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/30/2001 /altid=gb_accvers|BG666919.1 /organ= /tissue_type=dorsal root ganglion /length=916 /clone_end=5&apos; /def=DRACQE04 Rat DRG Library Rattus norvegicus cDNA clone DRACQE04 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:15">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505346</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056393560" type="sbjct">
+   <span><start>0</start><end>46</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="46"></property>
+  <property name="num_similar"        value="46"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:16">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505704</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056393560" type="sbjct">
+   <span><start>46</start><end>183</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="136"></property>
+  <property name="num_similar"        value="136"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:17">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>506381</start><end>506862</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:63000056393560" type="sbjct">
+   <span><start>183</start><end>664</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="476"></property>
+  <property name="num_similar"        value="476"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:63000056393560"></property>
+ <property name="subject_seq_length" value="916"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:18">
+ <description>&gt;CRA|67000078242718 /altid=gi|14953090 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=07/19/2001 /altid=gb_accvers|BI292516.1 /organ= /tissue_type= /length=456 /clone_end=3&apos; /def=UI-R-DO0-ciw-k-21-0-UI.s1 UI-R-DO0 Rattus norvegicus cDNA clone UI-R-DO0-ciw-k-21-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:19">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108356</start><end>108066</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:67000078242718" type="sbjct">
+   <span><start>163</start><end>456</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="289"></property>
+  <property name="num_similar"        value="289"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:20">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108516</start><end>108371</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:67000078242718" type="sbjct">
+   <span><start>18</start><end>163</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="145"></property>
+  <property name="num_similar"        value="145"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:67000078242718"></property>
+ <property name="subject_seq_length" value="456"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:21">
+ <description>&gt;CRA|161000129047921 /altid=gi|11633096 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=12/11/2000 /altid=gb_accvers|BF525123.1 /organ= /tissue_type= /length=655 /clone_end=5&apos; /def=UI-R-AC0-yl-g-02-0-UI.r1 UI-R-AC0 Rattus norvegicus cDNA clone UI-R-AC0-yl-g-02-0-UI 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:22">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>125103</start><end>125202</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:161000129047921" type="sbjct">
+   <span><start>7</start><end>106</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="99"></property>
+  <property name="num_similar"        value="99"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:23">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:161000129047921" type="sbjct">
+   <span><start>106</start><end>271</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="165"></property>
+  <property name="num_similar"        value="165"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:24">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157793</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:161000129047921" type="sbjct">
+   <span><start>271</start><end>655</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="380"></property>
+  <property name="num_similar"        value="380"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:161000129047921"></property>
+ <property name="subject_seq_length" value="655"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:25">
+ <description>&gt;CRA|335001030725480 /altid=gi|8551264 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=06/15/2000 /altid=gb_accvers|BE128511.1 /organ= /tissue_type=vibrissae /length=375 /clone_end= /def=DEPA2261 Rat Lambda ZAP Express Library Rattus norvegicus cDNA 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:26">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126366</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030725480" type="sbjct">
+   <span><start>0</start><end>307</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="307"></property>
+  <property name="num_similar"        value="307"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:27">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157477</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030725480" type="sbjct">
+   <span><start>307</start><end>375</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="68"></property>
+  <property name="num_similar"        value="68"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001030725480"></property>
+ <property name="subject_seq_length" value="375"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:28">
+ <description>&gt;CRA|101000090075809 /altid=gi|14577771 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=06/29/2001 /altid=gb_accvers|BI132374.1 /organ= /tissue_type= /length=977 /clone_end= /def=EST00088 UI-R-A1 Rattus norvegicus cDNA clone IMAGE:1778793, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:29">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>748305</start><end>748379</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:101000090075809" type="sbjct">
+   <span><start>37</start><end>111</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="74"></property>
+  <property name="num_similar"        value="74"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:30">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>749832</start><end>749935</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:101000090075809" type="sbjct">
+   <span><start>111</start><end>214</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="103"></property>
+  <property name="num_similar"        value="103"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:31">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771278</start><end>771429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:101000090075809" type="sbjct">
+   <span><start>214</start><end>365</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="151"></property>
+  <property name="num_similar"        value="151"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:32">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>780065</start><end>780158</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:101000090075809" type="sbjct">
+   <span><start>365</start><end>458</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="93"></property>
+  <property name="num_similar"        value="93"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:33">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782814</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:101000090075809" type="sbjct">
+   <span><start>458</start><end>598</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:34">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790411</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:101000090075809" type="sbjct">
+   <span><start>598</start><end>952</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="354"></property>
+  <property name="num_similar"        value="354"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:101000090075809"></property>
+ <property name="subject_seq_length" value="977"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:35">
+ <description>&gt;CRA|114000006411522 /altid=gi|8133551 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=09/19/2002 /altid=gb_accvers|AW507386.1 /organ= /tissue_type=Cerebrum /length=427 /clone_end= /def=EST00102 Plasmid Subtractive Library of Rat Cerebrum (control) Rattus norvegicus cDNA clone 6thG6, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:36">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782814</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:114000006411522" type="sbjct">
+   <span><start>32</start><end>172</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:37">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:114000006411522" type="sbjct">
+   <span><start>172</start><end>427</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:114000006411522"></property>
+ <property name="subject_seq_length" value="427"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:38">
+ <description>&gt;CRA|149000005697832 /altid=gi|9261522 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=07/18/2000 /altid=gb_accvers|BE349669.1 /organ=prostate /tissue_type= /length=489 /clone_end=3&apos; /def=hq41d08.x1 NCI_CGAP_Pr35 Rattus norvegicus cDNA clone IMAGE:3121935 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:39">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108356</start><end>108015</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:149000005697832" type="sbjct">
+   <span><start>145</start><end>489</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="339"></property>
+  <property name="num_similar"        value="339"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:40">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108516</start><end>108371</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:149000005697832" type="sbjct">
+   <span><start>0</start><end>145</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="145"></property>
+  <property name="num_similar"        value="145"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:149000005697832"></property>
+ <property name="subject_seq_length" value="489"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:41">
+ <description>&gt;CRA|152000117186333 /altid=gi|11217184 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=11/28/2000 /altid=gb_accvers|BF286114.1 /organ= /tissue_type=mixed tissue /length=453 /clone_end=5&apos; /def=EST450705 Rat Gene Index, normalized rat, Rattus norvegicus cDNA Rattus norvegicus cDNA clone RGIFM41 5&apos; sequence, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:42">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101258</start><end>101312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:152000117186333" type="sbjct">
+   <span><start>0</start><end>54</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="54"></property>
+  <property name="num_similar"        value="54"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:43">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:152000117186333" type="sbjct">
+   <span><start>54</start><end>242</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:44">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106599</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:152000117186333" type="sbjct">
+   <span><start>242</start><end>453</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="211"></property>
+  <property name="num_similar"        value="211"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:152000117186333"></property>
+ <property name="subject_seq_length" value="453"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:45">
+ <description>&gt;CRA|154000000384637 /altid=gi|8084931 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/25/2000 /altid=gb_accvers|AW919141.1 /organ= /tissue_type=mix - brain, ovary, placenta, kidney, lung, liver, embryo, heart, muscle, spleen /length=647 /clone_end=5&apos; /def=EST350445 Rat gene index, normalized rat, norvegicus, Bento Soares Rattus norvegicus cDNA clone RGIFD31 5&apos; end, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:46">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>99587</start><end>99813</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:154000000384637" type="sbjct">
+   <span><start>0</start><end>230</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="223"></property>
+  <property name="num_similar"        value="223"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:47">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>100261</start><end>100678</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:154000000384637" type="sbjct">
+   <span><start>230</start><end>647</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="415"></property>
+  <property name="num_similar"        value="415"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:154000000384637"></property>
+ <property name="subject_seq_length" value="647"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:48">
+ <description>&gt;CRA|161000129045708 /altid=gi|11632895 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=12/11/2000 /altid=gb_accvers|BF524928.1 /organ= /tissue_type= /length=328 /clone_end=5&apos; /def=UI-R-AE1-zg-g-08-0-UI.r1 UI-R-AE1 Rattus norvegicus cDNA clone UI-R-AE1-zg-g-08-0-UI 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:49">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505329</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:161000129045708" type="sbjct">
+   <span><start>19</start><end>82</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:50">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505813</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:161000129045708" type="sbjct">
+   <span><start>82</start><end>328</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="246"></property>
+  <property name="num_similar"        value="246"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:161000129045708"></property>
+ <property name="subject_seq_length" value="328"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:51">
+ <description>&gt;CRA|222000044791602 /altid=gi|23721014 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=10/10/2002 /altid=gb_accvers|BU758465.1 /organ= /tissue_type=Mixed tissues /length=723 /clone_end=3&apos; /def=UI-R-FF0-cox-e-17-0-UI.s1 UI-R-FF0 Rattus norvegicus cDNA clone UI-R-FF0-cox-e-17-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:52">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771308</start><end>771429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000044791602" type="sbjct">
+   <span><start>0</start><end>121</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="120"></property>
+  <property name="num_similar"        value="120"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:53">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>780065</start><end>780158</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000044791602" type="sbjct">
+   <span><start>121</start><end>214</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="93"></property>
+  <property name="num_similar"        value="93"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:54">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782814</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000044791602" type="sbjct">
+   <span><start>214</start><end>354</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:55">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790408</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000044791602" type="sbjct">
+   <span><start>354</start><end>705</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="351"></property>
+  <property name="num_similar"        value="351"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000044791602"></property>
+ <property name="subject_seq_length" value="723"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:56">
+ <description>&gt;CRA|223000055288427 /altid=gi|29521050 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/03/2003 /altid=gb_accvers|CB577009.1 /organ= /tissue_type=Dorsal Root Ganglia /length=635 /clone_end=5&apos; /def=AMGNNUC:NRDG1-00195-H2-A nrdg1 (10855) Rattus norvegicus cDNA clone nrdg1-00195-h2 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:57">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126374</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055288427" type="sbjct">
+   <span><start>8</start><end>308</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="300"></property>
+  <property name="num_similar"        value="300"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:58">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157736</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055288427" type="sbjct">
+   <span><start>308</start><end>635</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="327"></property>
+  <property name="num_similar"        value="327"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000055288427"></property>
+ <property name="subject_seq_length" value="635"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:59">
+ <description>&gt;CRA|223000055291765 /altid=gi|29521421 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/03/2003 /altid=gb_accvers|CB577380.1 /organ= /tissue_type=Dorsal Root Ganglia /length=631 /clone_end=5&apos; /def=AMGNNUC:NRDG1-00177-D6-A nrdg1 (10855) Rattus norvegicus cDNA clone nrdg1-00177-d6 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:60">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055291765" type="sbjct">
+   <span><start>98</start><end>164</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:61">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055291765" type="sbjct">
+   <span><start>164</start><end>216</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:62">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055291765" type="sbjct">
+   <span><start>216</start><end>280</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:63">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488502</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055291765" type="sbjct">
+   <span><start>280</start><end>487</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="206"></property>
+  <property name="num_similar"        value="206"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:64">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>489233</start><end>489313</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055291765" type="sbjct">
+   <span><start>487</start><end>567</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="80"></property>
+  <property name="num_similar"        value="80"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:65">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>493362</start><end>493426</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055291765" type="sbjct">
+   <span><start>567</start><end>631</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000055291765"></property>
+ <property name="subject_seq_length" value="631"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:66">
+ <description>&gt;CRA|223000055310602 /altid=gi|29523514 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/03/2003 /altid=gb_accvers|CB579473.1 /organ= /tissue_type= /length=617 /clone_end=5&apos; /def=AMGNNUC:NRHY7-00048-D7-A nrhy7 (10850) Rattus norvegicus cDNA clone nrhy7-00048-d7 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:67">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126355</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055310602" type="sbjct">
+   <span><start>0</start><end>319</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="319"></property>
+  <property name="num_similar"        value="319"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:68">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157707</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055310602" type="sbjct">
+   <span><start>319</start><end>617</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="298"></property>
+  <property name="num_similar"        value="298"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000055310602"></property>
+ <property name="subject_seq_length" value="617"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:69">
+ <description>&gt;CRA|223000055336855 /altid=gi|29526431 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/03/2003 /altid=gb_accvers|CB582390.1 /organ= /tissue_type=placenta embryo /length=601 /clone_end=5&apos; /def=AMGNNUC:MRPE3-00026-H12-A placenta embryo D17 (10379) Rattus norvegicus cDNA clone mrpe3-00026-h12 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:70">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>125019</start><end>125083</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055336855" type="sbjct">
+   <span><start>17</start><end>81</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:71">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055336855" type="sbjct">
+   <span><start>81</start><end>246</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="165"></property>
+  <property name="num_similar"        value="165"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:72">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157764</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055336855" type="sbjct">
+   <span><start>246</start><end>601</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="354"></property>
+  <property name="num_similar"        value="354"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000055336855"></property>
+ <property name="subject_seq_length" value="601"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:73">
+ <description>&gt;CRA|223000055484360 /altid=gi|29574229 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/07/2003 /altid=gb_accvers|CB614341.1 /organ= /tissue_type= /length=551 /clone_end=5&apos; /def=AMGNNUC:NRHY7-00049-D11-A nrhy7 (10850) Rattus norvegicus cDNA clone nrhy7-00049-d11 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:74">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>785139</start><end>785340</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055484360" type="sbjct">
+   <span><start>0</start><end>201</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="201"></property>
+  <property name="num_similar"        value="201"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:75">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>785499</start><end>785689</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000055484360" type="sbjct">
+   <span><start>360</start><end>551</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="190"></property>
+  <property name="num_similar"        value="190"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000055484360"></property>
+ <property name="subject_seq_length" value="551"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:76">
+ <description>&gt;CRA|222000054598762 /altid=gi|29848028 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB759637.1 /organ= /tissue_type= /length=433 /clone_end=5&apos; /def=AMGNNUC:NRHY4-00022-C3-A W Rat hypothalamus (10464) Rattus norvegicus cDNA clone nrhy4-00022-c3 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:77">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054598762" type="sbjct">
+   <span><start>92</start><end>158</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:78">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054598762" type="sbjct">
+   <span><start>158</start><end>210</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:79">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054598762" type="sbjct">
+   <span><start>210</start><end>274</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:80">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488454</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054598762" type="sbjct">
+   <span><start>274</start><end>433</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="158"></property>
+  <property name="num_similar"        value="158"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054598762"></property>
+ <property name="subject_seq_length" value="433"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:81">
+ <description>&gt;CRA|222000054634076 /altid=gi|29851952 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB763561.1 /organ= /tissue_type=adipose tiss /length=422 /clone_end=5&apos; /def=AMGNNUC:NRWA1-00002-G1-A W white adipose tiss (10479) Rattus norvegicus cDNA clone nrwa1-00002-g1 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:82">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101165</start><end>101312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054634076" type="sbjct">
+   <span><start>26</start><end>173</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="145"></property>
+  <property name="num_similar"        value="145"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:83">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054634076" type="sbjct">
+   <span><start>173</start><end>361</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:84">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106449</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054634076" type="sbjct">
+   <span><start>361</start><end>422</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="61"></property>
+  <property name="num_similar"        value="61"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054634076"></property>
+ <property name="subject_seq_length" value="422"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:85">
+ <description>&gt;CRA|222000054687722 /altid=gi|29857913 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB769522.1 /organ= /tissue_type= /length=402 /clone_end=5&apos; /def=AMGNNUC:NRHY5-00032-B2-A W Rat hypothalamus (10471) Rattus norvegicus cDNA clone nrhy5-00032-b2 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:86">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>695942</start><end>695989</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054687722" type="sbjct">
+   <span><start>12</start><end>59</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="47"></property>
+  <property name="num_similar"        value="47"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:87">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>698209</start><end>698278</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054687722" type="sbjct">
+   <span><start>59</start><end>128</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="69"></property>
+  <property name="num_similar"        value="69"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:88">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>700068</start><end>700223</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054687722" type="sbjct">
+   <span><start>128</start><end>283</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="155"></property>
+  <property name="num_similar"        value="155"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:89">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>702420</start><end>702518</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054687722" type="sbjct">
+   <span><start>283</start><end>381</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="98"></property>
+  <property name="num_similar"        value="98"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:90">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>731719</start><end>731740</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054687722" type="sbjct">
+   <span><start>381</start><end>402</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="21"></property>
+  <property name="num_similar"        value="21"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054687722"></property>
+ <property name="subject_seq_length" value="402"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:91">
+ <description>&gt;CRA|222000054730109 /altid=gi|29862623 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB774232.1 /organ= /tissue_type= /length=393 /clone_end=5&apos; /def=AMGNNUC:NRPI4-00003-E2-A W Rat pituitary (10472) Rattus norvegicus cDNA clone nrpi4-00003-e2 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:92">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1403604</start><end>1403553</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054730109" type="sbjct">
+   <span><start>342</start><end>393</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:93">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1404906</start><end>1404810</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054730109" type="sbjct">
+   <span><start>246</start><end>342</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="96"></property>
+  <property name="num_similar"        value="96"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:94">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1407045</start><end>1406800</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054730109" type="sbjct">
+   <span><start>0</start><end>246</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="244"></property>
+  <property name="num_similar"        value="244"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054730109"></property>
+ <property name="subject_seq_length" value="393"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:95">
+ <description>&gt;CRA|222000054808533 /altid=gi|29871400 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB783009.1 /organ= /tissue_type=Dorsal Root Ganglia /length=508 /clone_end=5&apos; /def=AMGNNUC:NRDG1-00070-C3-A nrdg1 (10855) Rattus norvegicus cDNA clone nrdg1-00070-c3 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:96">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>495815</start><end>495892</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054808533" type="sbjct">
+   <span><start>11</start><end>90</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="77"></property>
+  <property name="num_similar"        value="77"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:97">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505329</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054808533" type="sbjct">
+   <span><start>90</start><end>153</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:98">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505922</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054808533" type="sbjct">
+   <span><start>153</start><end>508</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="353"></property>
+  <property name="num_similar"        value="353"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054808533"></property>
+ <property name="subject_seq_length" value="508"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:99">
+ <description>&gt;CRA|222000054845780 /altid=gi|29875541 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB787150.1 /organ= /tissue_type= /length=451 /clone_end=5&apos; /def=AMGNNUC:NRHY5-00157-D6-A W Rat hypothalamus (10471) Rattus norvegicus cDNA clone nrhy5-00157-d6 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:100">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126355</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054845780" type="sbjct">
+   <span><start>12</start><end>331</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="319"></property>
+  <property name="num_similar"        value="319"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:101">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157528</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054845780" type="sbjct">
+   <span><start>331</start><end>451</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="117"></property>
+  <property name="num_similar"        value="117"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054845780"></property>
+ <property name="subject_seq_length" value="451"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:102">
+ <description>&gt;CRA|222000054854940 /altid=gi|29876560 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB788168.1 /organ= /tissue_type=hypo+pit /length=444 /clone_end=5&apos; /def=AMGNNUC:NRHW1-00312-B10-A W rat hypo+pit (10478) Rattus norvegicus cDNA clone nrhw1-00312-b10 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:103">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505344</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054854940" type="sbjct">
+   <span><start>56</start><end>104</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="48"></property>
+  <property name="num_similar"        value="48"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:104">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054854940" type="sbjct">
+   <span><start>104</start><end>444</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="338"></property>
+  <property name="num_similar"        value="338"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054854940"></property>
+ <property name="subject_seq_length" value="444"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:105">
+ <description>&gt;CRA|222000054870048 /altid=gi|29878239 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB789847.1 /organ= /tissue_type=adipose tiss /length=442 /clone_end=5&apos; /def=AMGNNUC:NRWA3-00018-E9-A white adipose tiss (10469) Rattus norvegicus cDNA clone nrwa3-00018-e9 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:106">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>489228</start><end>489313</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054870048" type="sbjct">
+   <span><start>51</start><end>136</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="81"></property>
+  <property name="num_similar"        value="81"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:107">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>493362</start><end>493441</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054870048" type="sbjct">
+   <span><start>136</start><end>215</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="79"></property>
+  <property name="num_similar"        value="79"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:108">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>495820</start><end>495892</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054870048" type="sbjct">
+   <span><start>215</start><end>287</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="72"></property>
+  <property name="num_similar"        value="72"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:109">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505329</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054870048" type="sbjct">
+   <span><start>287</start><end>350</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:110">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505658</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054870048" type="sbjct">
+   <span><start>350</start><end>442</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="91"></property>
+  <property name="num_similar"        value="91"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054870048"></property>
+ <property name="subject_seq_length" value="442"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:111">
+ <description>&gt;CRA|222000054886039 /altid=gi|29880017 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB791624.1 /organ= /tissue_type=hypo,frac /length=436 /clone_end=5&apos; /def=AMGNNUC:NRHP1-00002-F10-A W Rat hypo,frac 10 (10482) Rattus norvegicus cDNA clone nrhp1-00002-f10 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:112">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054886039" type="sbjct">
+   <span><start>91</start><end>157</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:113">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054886039" type="sbjct">
+   <span><start>157</start><end>209</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:114">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054886039" type="sbjct">
+   <span><start>209</start><end>273</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:115">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488457</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054886039" type="sbjct">
+   <span><start>273</start><end>436</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="158"></property>
+  <property name="num_similar"        value="158"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054886039"></property>
+ <property name="subject_seq_length" value="436"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:116">
+ <description>&gt;CRA|222000054900837 /altid=gi|29881746 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB793269.1 /organ= /tissue_type=adipose tiss /length=435 /clone_end=5&apos; /def=AMGNNUC:NRWA3-00073-E3-A white adipose tiss (10469) Rattus norvegicus cDNA clone nrwa3-00073-e3 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:117">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101569</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054900837" type="sbjct">
+   <span><start>56</start><end>353</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="297"></property>
+  <property name="num_similar"        value="297"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:118">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106468</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054900837" type="sbjct">
+   <span><start>353</start><end>435</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="80"></property>
+  <property name="num_similar"        value="80"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054900837"></property>
+ <property name="subject_seq_length" value="435"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:119">
+ <description>&gt;CRA|222000054903303 /altid=gi|29882020 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB793543.1 /organ= /tissue_type= /length=434 /clone_end=5&apos; /def=AMGNNUC:NRHY4-00023-F8-A W Rat hypothalamus (10464) Rattus norvegicus cDNA clone nrhy4-00023-f8 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:120">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505339</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054903303" type="sbjct">
+   <span><start>57</start><end>110</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="53"></property>
+  <property name="num_similar"        value="53"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:121">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505891</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054903303" type="sbjct">
+   <span><start>110</start><end>434</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="324"></property>
+  <property name="num_similar"        value="324"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054903303"></property>
+ <property name="subject_seq_length" value="434"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:122">
+ <description>&gt;CRA|222000054948783 /altid=gi|29887074 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB798597.1 /organ= /tissue_type=pituitary /length=420 /clone_end=5&apos; /def=AMGNNUC:NRPI3-00079-D11-A W Rat pituitary (10477) Rattus norvegicus cDNA clone nrpi3-00079-d11 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:123">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054948783" type="sbjct">
+   <span><start>75</start><end>141</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:124">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054948783" type="sbjct">
+   <span><start>141</start><end>193</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:125">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054948783" type="sbjct">
+   <span><start>193</start><end>257</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:126">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488458</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000054948783" type="sbjct">
+   <span><start>257</start><end>420</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="158"></property>
+  <property name="num_similar"        value="158"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000054948783"></property>
+ <property name="subject_seq_length" value="420"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:127">
+ <description>&gt;CRA|222000055057250 /altid=gi|29932739 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB810652.1 /organ= /tissue_type=prostate tissue /length=380 /clone_end=5&apos; /def=AMGNNUC:SRPB2-00142-H5-A srpb2 (10220) Rattus norvegicus cDNA clone srpb2-00142-h5 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:128">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>507353</start><end>507578</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000055057250" type="sbjct">
+   <span><start>4</start><end>229</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="221"></property>
+  <property name="num_similar"        value="221"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:129">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>507715</start><end>507729</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000055057250" type="sbjct">
+   <span><start>366</start><end>380</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="14"></property>
+  <property name="num_similar"        value="14"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000055057250"></property>
+ <property name="subject_seq_length" value="380"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:130">
+ <description>&gt;CRA|222000055082918 /altid=gi|29938376 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=05/16/2003 /altid=gb_accvers|CB813505.1 /organ= /tissue_type=labyrinth of ear /length=356 /clone_end=5&apos; /def=AMGNNUC:NRUT1-00001-B5-A nrut1 (10213) Rattus norvegicus cDNA clone nrut1-00001-b5 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:131">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000055082918" type="sbjct">
+   <span><start>35</start><end>101</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:132">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000055082918" type="sbjct">
+   <span><start>101</start><end>153</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:133">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000055082918" type="sbjct">
+   <span><start>153</start><end>217</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:134">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488434</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000055082918" type="sbjct">
+   <span><start>217</start><end>356</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000055082918"></property>
+ <property name="subject_seq_length" value="356"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:135">
+ <description>&gt;CRA|224000015712792 /altid=gi|18183026 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=01/17/2002 /altid=gb_accvers|BM382973.1 /organ= /tissue_type= /length=368 /clone_end=3&apos; /def=UI-R-DS0-cjd-l-24-0-UI.s1 UI-R-DS0 Rattus norvegicus cDNA clone UI-R-DS0-cjd-l-24-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:136">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108356</start><end>108154</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015712792" type="sbjct">
+   <span><start>163</start><end>368</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="196"></property>
+  <property name="num_similar"        value="196"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:137">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108516</start><end>108371</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015712792" type="sbjct">
+   <span><start>18</start><end>163</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="145"></property>
+  <property name="num_similar"        value="145"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000015712792"></property>
+ <property name="subject_seq_length" value="368"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:138">
+ <description>&gt;CRA|224000015724850 /altid=gi|18183835 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=01/17/2002 /altid=gb_accvers|BM383782.1 /organ= /tissue_type= /length=416 /clone_end=3&apos; /def=UI-R-DM1-ckb-h-05-0-UI.s1 UI-R-DM1 Rattus norvegicus cDNA clone UI-R-DM1-ckb-h-05-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:139">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782869</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015724850" type="sbjct">
+   <span><start>0</start><end>85</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="85"></property>
+  <property name="num_similar"        value="85"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:140">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790363</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015724850" type="sbjct">
+   <span><start>85</start><end>391</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="306"></property>
+  <property name="num_similar"        value="306"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000015724850"></property>
+ <property name="subject_seq_length" value="416"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:141">
+ <description>&gt;CRA|224000015804756 /altid=gi|18189242 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=01/17/2002 /altid=gb_accvers|BM389189.1 /organ= /tissue_type= /length=670 /clone_end=3&apos; /def=UI-R-DZ0-cko-c-02-0-UI.s1 UI-R-DZ0 Rattus norvegicus cDNA clone UI-R-DZ0-cko-c-02-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:142">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771361</start><end>771429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015804756" type="sbjct">
+   <span><start>0</start><end>68</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="68"></property>
+  <property name="num_similar"        value="68"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:143">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>780065</start><end>780158</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015804756" type="sbjct">
+   <span><start>68</start><end>161</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="93"></property>
+  <property name="num_similar"        value="93"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:144">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782814</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015804756" type="sbjct">
+   <span><start>161</start><end>301</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:145">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790408</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000015804756" type="sbjct">
+   <span><start>301</start><end>652</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="351"></property>
+  <property name="num_similar"        value="351"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000015804756"></property>
+ <property name="subject_seq_length" value="670"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:146">
+ <description>&gt;CRA|224000031029975 /altid=gi|23399517 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=10/01/2002 /altid=gb_accvers|BU671190.1 /organ=prostate /tissue_type=ventral prostate, pool of 3-, 5-, and 7-days post-castration /length=649 /clone_end=5&apos; /def=NISC_lr06b03.y1 NCI_CGAP_Pr49 Rattus norvegicus cDNA clone IMAGE:5598269 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:147">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101039</start><end>101312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000031029975" type="sbjct">
+   <span><start>0</start><end>273</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="269"></property>
+  <property name="num_similar"        value="269"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:148">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000031029975" type="sbjct">
+   <span><start>273</start><end>461</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:149">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106576</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000031029975" type="sbjct">
+   <span><start>461</start><end>649</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000031029975"></property>
+ <property name="subject_seq_length" value="649"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:150">
+ <description>&gt;CRA|224000049044639 /altid=gi|28861865 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=03/05/2003 /altid=gb_accvers|CB327207.1 /organ= /tissue_type= /length=720 /clone_end=3&apos; /def=UI-R-FS0-crs-c-21-0-UI.s1 UI-R-FS0 Rattus norvegicus cDNA clone UI-R-FS0-crs-c-21-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:151">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>682169</start><end>682249</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>0</start><end>79</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="78"></property>
+  <property name="num_similar"        value="78"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:152">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>692212</start><end>692267</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>79</start><end>134</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:153">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>693496</start><end>693612</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>134</start><end>250</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="116"></property>
+  <property name="num_similar"        value="116"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:154">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>695913</start><end>695989</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>250</start><end>326</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="76"></property>
+  <property name="num_similar"        value="76"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:155">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>700068</start><end>700084</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>326</start><end>342</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="16"></property>
+  <property name="num_similar"        value="16"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:156">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782846</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>342</start><end>447</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="105"></property>
+  <property name="num_similar"        value="105"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:157">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044639" type="sbjct">
+   <span><start>447</start><end>702</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="255"></property>
+  <property name="num_similar"        value="255"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000049044639"></property>
+ <property name="subject_seq_length" value="720"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:158">
+ <description>&gt;CRA|224000049044804 /altid=gi|28861876 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=03/05/2003 /altid=gb_accvers|CB327218.1 /organ= /tissue_type= /length=718 /clone_end=3&apos; /def=UI-R-FS0-crs-e-19-0-UI.s1 UI-R-FS0 Rattus norvegicus cDNA clone UI-R-FS0-crs-e-19-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:159">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>682169</start><end>682249</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>0</start><end>77</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="76"></property>
+  <property name="num_similar"        value="76"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:160">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>692212</start><end>692267</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>77</start><end>132</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:161">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>693496</start><end>693612</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>132</start><end>248</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="116"></property>
+  <property name="num_similar"        value="116"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:162">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>695913</start><end>695989</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>248</start><end>324</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="76"></property>
+  <property name="num_similar"        value="76"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:163">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>700068</start><end>700084</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>324</start><end>340</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="16"></property>
+  <property name="num_similar"        value="16"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:164">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782846</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>340</start><end>445</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="105"></property>
+  <property name="num_similar"        value="105"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:165">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000049044804" type="sbjct">
+   <span><start>445</start><end>700</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="255"></property>
+  <property name="num_similar"        value="255"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000049044804"></property>
+ <property name="subject_seq_length" value="718"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:166">
+ <description>&gt;CRA|224000058660738 /altid=gi|33166055 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=07/23/2003 /altid=gb_accvers|CF110317.1 /organ=lung /tissue_type=airway or parenchyma /length=1093 /clone_end=5&apos; /def=Shultzomica03568 Rat lung airway and parenchyma cDNA libraries Rattus norvegicus cDNA clone Contig3155 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:167">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>495831</start><end>495892</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058660738" type="sbjct">
+   <span><start>0</start><end>61</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="61"></property>
+  <property name="num_similar"        value="61"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:168">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505329</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058660738" type="sbjct">
+   <span><start>61</start><end>124</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:169">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>506535</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058660738" type="sbjct">
+   <span><start>124</start><end>1093</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="967"></property>
+  <property name="num_similar"        value="967"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058660738"></property>
+ <property name="subject_seq_length" value="1093"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:170">
+ <description>&gt;CRA|225000031477323 /altid=gi|20368787 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/30/2002 /altid=gb_accvers|BQ193236.1 /organ= /tissue_type= /length=695 /clone_end=3&apos; /def=UI-R-DR1-clr-m-21-0-UI.s1 UI-R-DR1 Rattus norvegicus cDNA clone UI-R-DR1-clr-m-21-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:171">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771336</start><end>771429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000031477323" type="sbjct">
+   <span><start>0</start><end>93</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="93"></property>
+  <property name="num_similar"        value="93"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:172">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>780065</start><end>780158</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000031477323" type="sbjct">
+   <span><start>93</start><end>186</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="93"></property>
+  <property name="num_similar"        value="93"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:173">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782814</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000031477323" type="sbjct">
+   <span><start>186</start><end>326</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:174">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790411</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000031477323" type="sbjct">
+   <span><start>326</start><end>680</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="354"></property>
+  <property name="num_similar"        value="354"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000031477323"></property>
+ <property name="subject_seq_length" value="695"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:175">
+ <description>&gt;CRA|223000054860906 /altid=gi|29429028 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/01/2003 /altid=gb_accvers|CB545127.1 /organ= /tissue_type=placenta embryo /length=362 /clone_end=5&apos; /def=AMGNNUC:MRPE4-00220-E5-A mrpe4 (10380) Rattus norvegicus cDNA clone mrpe4-00220-e5 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:176">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>731811</start><end>731834</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054860906" type="sbjct">
+   <span><start>0</start><end>23</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="23"></property>
+  <property name="num_similar"        value="23"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:177">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>748306</start><end>748379</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054860906" type="sbjct">
+   <span><start>23</start><end>96</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="73"></property>
+  <property name="num_similar"        value="73"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:178">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>749832</start><end>749935</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054860906" type="sbjct">
+   <span><start>96</start><end>199</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="103"></property>
+  <property name="num_similar"        value="103"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:179">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771278</start><end>771429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054860906" type="sbjct">
+   <span><start>199</start><end>352</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="151"></property>
+  <property name="num_similar"        value="151"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000054860906"></property>
+ <property name="subject_seq_length" value="362"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:180">
+ <description>&gt;CRA|223000054873260 /altid=gi|29430437 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/01/2003 /altid=gb_accvers|CB546496.1 /organ= /tissue_type= /length=489 /clone_end=5&apos; /def=AMGNNUC:NRHY5-00225-F3-A W Rat hypothalamus (10471) Rattus norvegicus cDNA clone nrhy5-00225-f3 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:181">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1378723</start><end>1378660</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054873260" type="sbjct">
+   <span><start>426</start><end>489</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:182">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1384933</start><end>1384745</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054873260" type="sbjct">
+   <span><start>238</start><end>426</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:183">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1385946</start><end>1385793</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054873260" type="sbjct">
+   <span><start>85</start><end>238</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="153"></property>
+  <property name="num_similar"        value="153"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:184">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1396760</start><end>1396675</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:223000054873260" type="sbjct">
+   <span><start>0</start><end>85</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="79"></property>
+  <property name="num_similar"        value="79"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:223000054873260"></property>
+ <property name="subject_seq_length" value="489"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:185">
+ <description>&gt;CRA|225000069710436 /altid=gi|29756084 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/10/2003 /altid=gb_accvers|CB698936.1 /organ= /tissue_type=prostate tissue /length=401 /clone_end=5&apos; /def=AMGNNUC:SRPB2-00198-E1-A srpb2 (10220) Rattus norvegicus cDNA clone srpb2-00198-e1 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:186">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>125014</start><end>125083</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069710436" type="sbjct">
+   <span><start>10</start><end>79</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="69"></property>
+  <property name="num_similar"        value="69"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:187">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069710436" type="sbjct">
+   <span><start>79</start><end>244</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="165"></property>
+  <property name="num_similar"        value="165"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:188">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157566</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069710436" type="sbjct">
+   <span><start>244</start><end>401</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="157"></property>
+  <property name="num_similar"        value="157"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000069710436"></property>
+ <property name="subject_seq_length" value="401"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:189">
+ <description>&gt;CRA|225000069732964 /altid=gi|29758528 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/10/2003 /altid=gb_accvers|CB701380.1 /organ= /tissue_type=Dorsal Root Ganglia /length=298 /clone_end=5&apos; /def=AMGNNUC:NRDG1-00011-G3-A nrdg1 (10855) Rattus norvegicus cDNA clone nrdg1-00011-g3 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:190">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069732964" type="sbjct">
+   <span><start>77</start><end>143</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:191">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069732964" type="sbjct">
+   <span><start>143</start><end>195</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:192">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069732964" type="sbjct">
+   <span><start>195</start><end>259</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:193">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488334</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069732964" type="sbjct">
+   <span><start>259</start><end>298</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="39"></property>
+  <property name="num_similar"        value="39"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000069732964"></property>
+ <property name="subject_seq_length" value="298"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:194">
+ <description>&gt;CRA|225000069754862 /altid=gi|29760932 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/10/2003 /altid=gb_accvers|CB703784.1 /organ= /tissue_type= /length=383 /clone_end=5&apos; /def=AMGNNUC:NRHY4-00008-F9-A W Rat hypothalamus (10464) Rattus norvegicus cDNA clone nrhy4-00008-f9 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:195">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069754862" type="sbjct">
+   <span><start>70</start><end>136</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="65"></property>
+  <property name="num_similar"        value="65"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:196">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069754862" type="sbjct">
+   <span><start>136</start><end>188</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:197">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069754862" type="sbjct">
+   <span><start>188</start><end>251</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="62"></property>
+  <property name="num_similar"        value="62"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:198">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069754862" type="sbjct">
+   <span><start>251</start><end>383</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="129"></property>
+  <property name="num_similar"        value="129"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000069754862"></property>
+ <property name="subject_seq_length" value="383"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:199">
+ <description>&gt;CRA|225000069774158 /altid=gi|29763077 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/10/2003 /altid=gb_accvers|CB705929.1 /organ= /tissue_type=prostate tissue /length=345 /clone_end=5&apos; /def=AMGNNUC:SRPB2-00155-E1-A srpb2 (10220) Rattus norvegicus cDNA clone srpb2-00155-e1 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:200">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126377</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069774158" type="sbjct">
+   <span><start>11</start><end>308</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="293"></property>
+  <property name="num_similar"        value="293"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:201">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157446</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069774158" type="sbjct">
+   <span><start>308</start><end>345</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="37"></property>
+  <property name="num_similar"        value="37"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000069774158"></property>
+ <property name="subject_seq_length" value="345"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:202">
+ <description>&gt;CRA|225000069900366 /altid=gi|29777103 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/10/2003 /altid=gb_accvers|CB719961.1 /organ= /tissue_type= /length=526 /clone_end=5&apos; /def=AMGNNUC:NRHY7-00025-F7-A nrhy7 (10850) Rattus norvegicus cDNA clone nrhy7-00025-f7 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:203">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>695955</start><end>695989</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069900366" type="sbjct">
+   <span><start>0</start><end>34</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="34"></property>
+  <property name="num_similar"        value="34"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:204">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>698209</start><end>698278</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069900366" type="sbjct">
+   <span><start>34</start><end>103</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="69"></property>
+  <property name="num_similar"        value="69"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:205">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>700068</start><end>700223</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069900366" type="sbjct">
+   <span><start>103</start><end>258</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="155"></property>
+  <property name="num_similar"        value="155"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:206">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>702420</start><end>702518</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069900366" type="sbjct">
+   <span><start>258</start><end>356</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="98"></property>
+  <property name="num_similar"        value="98"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:207">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>731719</start><end>731837</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069900366" type="sbjct">
+   <span><start>356</start><end>474</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="117"></property>
+  <property name="num_similar"        value="117"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000069900366"></property>
+ <property name="subject_seq_length" value="526"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:208">
+ <description>&gt;CRA|225000069993210 /altid=gi|29793077 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/11/2003 /altid=gb_accvers|CB726151.1 /organ= /tissue_type=pituitary /length=488 /clone_end=5&apos; /def=AMGNNUC:NRPI3-00003-G7-A W Rat pituitary (10477) Rattus norvegicus cDNA clone nrpi3-00003-g7 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:209">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1433431</start><end>1433394</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069993210" type="sbjct">
+   <span><start>451</start><end>488</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="37"></property>
+  <property name="num_similar"        value="37"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:210">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1433837</start><end>1433517</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000069993210" type="sbjct">
+   <span><start>47</start><end>365</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="305"></property>
+  <property name="num_similar"        value="305"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000069993210"></property>
+ <property name="subject_seq_length" value="488"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:211">
+ <description>&gt;CRA|225000070043208 /altid=gi|29798851 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/11/2003 /altid=gb_accvers|CB731708.1 /organ= /tissue_type= /length=477 /clone_end=5&apos; /def=AMGNNUC:NRHY4-00141-F6-A W Rat hypothalamus (10464) Rattus norvegicus cDNA clone nrhy4-00141-f6 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:212">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070043208" type="sbjct">
+   <span><start>47</start><end>113</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:213">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070043208" type="sbjct">
+   <span><start>113</start><end>165</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:214">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070043208" type="sbjct">
+   <span><start>165</start><end>229</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:215">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488502</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070043208" type="sbjct">
+   <span><start>229</start><end>437</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="206"></property>
+  <property name="num_similar"        value="206"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:216">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>489233</start><end>489273</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070043208" type="sbjct">
+   <span><start>437</start><end>477</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="38"></property>
+  <property name="num_similar"        value="38"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000070043208"></property>
+ <property name="subject_seq_length" value="477"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:217">
+ <description>&gt;CRA|225000070100011 /altid=gi|29805280 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/11/2003 /altid=gb_accvers|CB738020.1 /organ= /tissue_type=adipose tiss /length=460 /clone_end=5&apos; /def=AMGNNUC:NRWA3-00062-B7-A white adipose tiss (10469) Rattus norvegicus cDNA clone nrwa3-00062-b7 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:218">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>367590</start><end>367745</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070100011" type="sbjct">
+   <span><start>167</start><end>322</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="150"></property>
+  <property name="num_similar"        value="150"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:219">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>369906</start><end>369987</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070100011" type="sbjct">
+   <span><start>322</start><end>403</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="80"></property>
+  <property name="num_similar"        value="80"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:220">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>373632</start><end>373689</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070100011" type="sbjct">
+   <span><start>403</start><end>460</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="57"></property>
+  <property name="num_similar"        value="57"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000070100011"></property>
+ <property name="subject_seq_length" value="460"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:221">
+ <description>&gt;CRA|225000070107785 /altid=gi|29806152 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/11/2003 /altid=gb_accvers|CB738884.1 /organ= /tissue_type=hypo+pit /length=458 /clone_end=5&apos; /def=AMGNNUC:NRHW1-00323-H5-A W rat hypo+pit (10478) Rattus norvegicus cDNA clone nrhw1-00323-h5 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:222">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1361475</start><end>1361264</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070107785" type="sbjct">
+   <span><start>247</start><end>458</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="210"></property>
+  <property name="num_similar"        value="210"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:223">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1368596</start><end>1368497</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070107785" type="sbjct">
+   <span><start>147</start><end>247</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="99"></property>
+  <property name="num_similar"        value="99"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:224">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1369952</start><end>1369873</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070107785" type="sbjct">
+   <span><start>68</start><end>147</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="79"></property>
+  <property name="num_similar"        value="79"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000070107785"></property>
+ <property name="subject_seq_length" value="458"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:225">
+ <description>&gt;CRA|225000070117550 /altid=gi|29807247 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=04/11/2003 /altid=gb_accvers|CB739969.1 /organ= /tissue_type=adipose tiss /length=457 /clone_end=5&apos; /def=AMGNNUC:NRWA3-00061-B3-A white adipose tiss (10469) Rattus norvegicus cDNA clone nrwa3-00061-b3 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:226">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101177</start><end>101312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070117550" type="sbjct">
+   <span><start>58</start><end>193</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="134"></property>
+  <property name="num_similar"        value="134"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:227">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070117550" type="sbjct">
+   <span><start>193</start><end>382</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:228">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106462</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000070117550" type="sbjct">
+   <span><start>382</start><end>457</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="74"></property>
+  <property name="num_similar"        value="74"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000070117550"></property>
+ <property name="subject_seq_length" value="457"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:229">
+ <description>&gt;CRA|335001030720336 /altid=gi|8550609 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=06/15/2000 /altid=gb_accvers|BE127868.1 /organ= /tissue_type=vibrissae /length=365 /clone_end= /def=DEPA1617 Rat Lambda ZAP Express Library Rattus norvegicus cDNA 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:230">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>125010</start><end>125083</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030720336" type="sbjct">
+   <span><start>0</start><end>73</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="73"></property>
+  <property name="num_similar"        value="73"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:231">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030720336" type="sbjct">
+   <span><start>73</start><end>238</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="165"></property>
+  <property name="num_similar"        value="165"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:232">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157536</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030720336" type="sbjct">
+   <span><start>238</start><end>365</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="126"></property>
+  <property name="num_similar"        value="126"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001030720336"></property>
+ <property name="subject_seq_length" value="365"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:233">
+ <description>&gt;CRA|335001030722632 /altid=gi|8550901 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=06/15/2000 /altid=gb_accvers|BE128155.1 /organ= /tissue_type=vibrissae /length=350 /clone_end= /def=DEPA1904 Rat Lambda ZAP Express Library Rattus norvegicus cDNA 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:234">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722632" type="sbjct">
+   <span><start>76</start><end>142</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:235">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722632" type="sbjct">
+   <span><start>142</start><end>194</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:236">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722632" type="sbjct">
+   <span><start>194</start><end>258</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="64"></property>
+  <property name="num_similar"        value="64"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:237">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488387</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722632" type="sbjct">
+   <span><start>258</start><end>350</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="92"></property>
+  <property name="num_similar"        value="92"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001030722632"></property>
+ <property name="subject_seq_length" value="350"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:238">
+ <description>&gt;CRA|335001030722680 /altid=gi|8550908 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=06/15/2000 /altid=gb_accvers|BE128161.1 /organ= /tissue_type=vibrissae /length=274 /clone_end= /def=DEPA1910 Rat Lambda ZAP Express Library Rattus norvegicus cDNA 5&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:239">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479841</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722680" type="sbjct">
+   <span><start>88</start><end>154</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="66"></property>
+  <property name="num_similar"        value="66"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:240">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722680" type="sbjct">
+   <span><start>154</start><end>206</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:241">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486016</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001030722680" type="sbjct">
+   <span><start>206</start><end>274</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="67"></property>
+  <property name="num_similar"        value="67"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001030722680"></property>
+ <property name="subject_seq_length" value="274"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:242">
+ <description>&gt;CRA|335001092348952 /altid=gi|11395473 /dataset=genbank /div=EST /taxon=10116 /org=Rattus norvegicus /date=11/28/2000 /altid=gb_accvers|BF407498.1 /organ= /tissue_type= /length=453 /clone_end=3&apos; /def=UI-R-BJ2-bqt-a-03-0-UI.s1 UI-R-BJ2 Rattus norvegicus cDNA clone UI-R-BJ2-bqt-a-03-0-UI 3&apos;, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:243">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>468496</start><end>468397</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001092348952" type="sbjct">
+   <span><start>336</start><end>435</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="99"></property>
+  <property name="num_similar"        value="99"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:244">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>468771</start><end>468580</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001092348952" type="sbjct">
+   <span><start>145</start><end>336</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="190"></property>
+  <property name="num_similar"        value="190"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001092348952"></property>
+ <property name="subject_seq_length" value="453"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:245">
+ <description>&gt;CRA|1000479595029 /altid=gi|3706543 /dataset=genbank /div=EST /taxon=10118 /org=Rattus sp. /date=01/31/1999 /altid=gb_accvers|AI101672.1 /organ=brain /tissue_type= /length=521 /clone_end=3&apos; /def=EST210961 Normalized rat brain, Bento Soares Rattus sp. cDNA clone RBRBT63 3&apos; end, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:246">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108356</start><end>108097</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000479595029" type="sbjct">
+   <span><start>43</start><end>306</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="255"></property>
+  <property name="num_similar"        value="255"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:247">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108414</start><end>108371</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000479595029" type="sbjct">
+   <span><start>0</start><end>43</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="43"></property>
+  <property name="num_similar"        value="43"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000479595029"></property>
+ <property name="subject_seq_length" value="521"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:248">
+ <description>&gt;CRA|1000483212913 /altid=gi|4249889 /dataset=genbank /div=EST /taxon=10118 /org=Rattus sp. /date=02/09/1999 /altid=gb_accvers|AI406385.1 /organ=brain /tissue_type= /length=464 /clone_end=3&apos; /def=EST234671 Normalized rat brain, Bento Soares Rattus sp. cDNA clone RBRDP27 3&apos; end, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:249">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108356</start><end>108097</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000483212913" type="sbjct">
+   <span><start>43</start><end>306</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:250">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>108414</start><end>108371</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000483212913" type="sbjct">
+   <span><start>0</start><end>43</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="43"></property>
+  <property name="num_similar"        value="43"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000483212913"></property>
+ <property name="subject_seq_length" value="464"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:251">
+ <description>&gt;CRA|1000483234964 /altid=gi|4251846 /dataset=genbank /div=EST /taxon=10118 /org=Rattus sp. /date=02/09/1999 /altid=gb_accvers|AI408342.1 /organ=ovary /tissue_type= /length=546 /clone_end=3&apos; /def=EST236632 Normalized rat ovary, Bento Soares Rattus sp. cDNA clone ROVES21 3&apos; end, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:252">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101142</start><end>101312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000483234964" type="sbjct">
+   <span><start>0</start><end>171</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="165"></property>
+  <property name="num_similar"        value="165"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:253">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000483234964" type="sbjct">
+   <span><start>171</start><end>359</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:254">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106575</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000483234964" type="sbjct">
+   <span><start>359</start><end>546</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="187"></property>
+  <property name="num_similar"        value="187"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000483234964"></property>
+ <property name="subject_seq_length" value="546"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:255">
+ <description>&gt;CRA|1000494743789 /altid=gi|980115 /dataset=genbank /div=EST /taxon=10118 /org=Rattus sp. /date=04/02/1998 /altid=gb_accvers|H34698.1 /organ= /tissue_type= /length=366 /clone_end=5&apos; /def=EST111864 Rat PC-12 cells, NGF-treated (9 days) Rattus sp. cDNA clone RPNCN04 5&apos; end, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:256">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>506085</start><end>506358</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000494743789" type="sbjct">
+   <span><start>0</start><end>273</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="270"></property>
+  <property name="num_similar"        value="270"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:257">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>506405</start><end>506439</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000494743789" type="sbjct">
+   <span><start>327</start><end>366</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="34"></property>
+  <property name="num_similar"        value="34"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000494743789"></property>
+ <property name="subject_seq_length" value="366"></property>
+ </result_set>
+ <result_set id="S4ESTbestSpl:258">
+ <description>&gt;CRA|1000611900875 /altid=gi|6161133 /dataset=genbank /div=EST /taxon=10118 /org=Rattus sp. /date=10/30/1999 /altid=gb_accvers|AW141348.1 /organ=brain /tissue_type= /length=517 /clone_end=5&apos; /def=EST291389 Normalized rat brain, Bento Soares Rattus sp. cDNA clone RGIBO75 5&apos; end similar to C.elegans F11A10.5, mRNA sequence.</description>
+ <result_span id="S4ESTbestSpl:259">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771394</start><end>771429</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000611900875" type="sbjct">
+   <span><start>0</start><end>35</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="35"></property>
+  <property name="num_similar"        value="35"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:260">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>780065</start><end>780158</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000611900875" type="sbjct">
+   <span><start>35</start><end>128</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="93"></property>
+  <property name="num_similar"        value="93"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:261">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>782814</start><end>782954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000611900875" type="sbjct">
+   <span><start>128</start><end>268</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4ESTbestSpl:262">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790307</end></span>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000611900875" type="sbjct">
+   <span><start>268</start><end>517</end></span>
+  </seq_relationship>
+  <property name="alignment_length"   value="0"></property>
+  <property name="num_identical"      value="246"></property>
+  <property name="num_similar"        value="246"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000611900875"></property>
+ <property name="subject_seq_length" value="517"></property>
+ </result_set>
+</computational_analysis>
+</game>

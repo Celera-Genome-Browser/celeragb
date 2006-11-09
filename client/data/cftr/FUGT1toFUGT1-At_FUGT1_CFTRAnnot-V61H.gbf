@@ -1,0 +1,2961 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Fugu CFTR Region">
+  <!-- Features converted from ATA format -->
+  <computational_analysis id="CELERA:30000104032423">
+    <date day="0" month="0" year="0"></date>
+    <program>Curated:fugo_CFTR_anno</program>
+    <version>2.6</version>
+    <type>BLASTN_HIT</type>
+    <result_set id="CELERA:30000104032424">
+      <description>FUGT1|DUSP6  Full FUGT1:0 0 FUGT1|0 /transcript_uid=FUGT1|DUSP6</description>
+      <result_span id="CELERA:30000104032426">
+        <span_type>HSP</span_type>
+        <description>FUGT1|DUSP6-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032425" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>403</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>15398</start>
+            <end>14995</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|DUSP6-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032428">
+        <span_type>HSP</span_type>
+        <description>FUGT1|DUSP6-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032427" type="sbjct">
+          <span>
+            <start>403</start>
+            <end>838</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>14741</start>
+            <end>14306</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|DUSP6-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032430">
+        <span_type>HSP</span_type>
+        <description>FUGT1|DUSP6-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032429" type="sbjct">
+          <span>
+            <start>838</start>
+            <end>1152</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>13376</start>
+            <end>13062</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|DUSP6-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032431">
+      <description>FUGT1|TSGA14  Full FUGT1:0 0 FUGT1|1 /transcript_uid=FUGT1|TSGA14</description>
+      <result_span id="CELERA:30000104032433">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032432" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>33</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>54664</start>
+            <end>54697</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032435">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032434" type="sbjct">
+          <span>
+            <start>33</start>
+            <end>97</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>54974</start>
+            <end>55038</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032437">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032436" type="sbjct">
+          <span>
+            <start>97</start>
+            <end>159</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>55459</start>
+            <end>55521</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032439">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032438" type="sbjct">
+          <span>
+            <start>159</start>
+            <end>256</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>55722</start>
+            <end>55819</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032441">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032440" type="sbjct">
+          <span>
+            <start>256</start>
+            <end>389</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>55986</start>
+            <end>56119</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032443">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032442" type="sbjct">
+          <span>
+            <start>389</start>
+            <end>556</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>56190</start>
+            <end>56357</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032445">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032444" type="sbjct">
+          <span>
+            <start>556</start>
+            <end>624</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>56447</start>
+            <end>56515</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032447">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032446" type="sbjct">
+          <span>
+            <start>624</start>
+            <end>739</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>56600</start>
+            <end>56715</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032449">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032448" type="sbjct">
+          <span>
+            <start>739</start>
+            <end>1037</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>56807</start>
+            <end>57105</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032451">
+        <span_type>HSP</span_type>
+        <description>FUGT1|TSGA14-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032450" type="sbjct">
+          <span>
+            <start>1037</start>
+            <end>1155</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>57175</start>
+            <end>57293</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|TSGA14-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032452">
+      <description>FUGT1|CPA1  Full FUGT1:0 0 FUGT1|2 /transcript_uid=FUGT1|CPA1</description>
+      <result_span id="CELERA:30000104032454">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032453" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>65</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>61294</start>
+            <end>61229</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032456">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032455" type="sbjct">
+          <span>
+            <start>65</start>
+            <end>141</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>60901</start>
+            <end>60825</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032458">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032457" type="sbjct">
+          <span>
+            <start>141</start>
+            <end>276</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>60744</start>
+            <end>60609</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032460">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032459" type="sbjct">
+          <span>
+            <start>276</start>
+            <end>381</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>60476</start>
+            <end>60371</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032462">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032461" type="sbjct">
+          <span>
+            <start>381</start>
+            <end>483</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>60132</start>
+            <end>60030</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032464">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032463" type="sbjct">
+          <span>
+            <start>483</start>
+            <end>585</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>59952</start>
+            <end>59850</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032466">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032465" type="sbjct">
+          <span>
+            <start>585</start>
+            <end>696</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>59767</start>
+            <end>59656</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032468">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032467" type="sbjct">
+          <span>
+            <start>696</start>
+            <end>787</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>59546</start>
+            <end>59455</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032470">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032469" type="sbjct">
+          <span>
+            <start>787</start>
+            <end>987</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>59371</start>
+            <end>59171</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032472">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032471" type="sbjct">
+          <span>
+            <start>987</start>
+            <end>1072</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>59060</start>
+            <end>58975</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032474">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CPA1-11  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032473" type="sbjct">
+          <span>
+            <start>1072</start>
+            <end>1260</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>58890</start>
+            <end>58702</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CPA1-11"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032475">
+      <description>FUGT1|CAV2  Full FUGT1:0 0 FUGT1|3 /transcript_uid=FUGT1|CAV2</description>
+      <result_span id="CELERA:30000104032477">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAV2-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032476" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>150</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>93076</start>
+            <end>93226</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAV2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032479">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAV2-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032478" type="sbjct">
+          <span>
+            <start>150</start>
+            <end>338</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>93455</start>
+            <end>93643</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAV2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032481">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAV2-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032480" type="sbjct">
+          <span>
+            <start>338</start>
+            <end>489</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>94731</start>
+            <end>94882</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAV2-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032482">
+      <description>FUGT1|CAV1  Full FUGT1:0 0 FUGT1|4 /transcript_uid=FUGT1|CAV1</description>
+      <result_span id="CELERA:30000104032484">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAV1-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032483" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>36</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>97319</start>
+            <end>97355</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAV1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032486">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAV1-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032485" type="sbjct">
+          <span>
+            <start>36</start>
+            <end>204</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>98055</start>
+            <end>98223</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAV1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032488">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAV1-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032487" type="sbjct">
+          <span>
+            <start>204</start>
+            <end>546</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>101588</start>
+            <end>101930</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAV1-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032489">
+      <description>FUGT1|MET  Full FUGT1:0 0 FUGT1|5 /transcript_uid=FUGT1|MET</description>
+      <result_span id="CELERA:30000104032491">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032490" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>1221</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>110690</start>
+            <end>111911</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032493">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032492" type="sbjct">
+          <span>
+            <start>1221</start>
+            <end>1425</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>127126</start>
+            <end>127330</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032495">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032494" type="sbjct">
+          <span>
+            <start>1425</start>
+            <end>1554</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>129217</start>
+            <end>129346</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032497">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032496" type="sbjct">
+          <span>
+            <start>1554</start>
+            <end>1728</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>129431</start>
+            <end>129605</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032499">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032498" type="sbjct">
+          <span>
+            <start>1728</start>
+            <end>1886</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>130020</start>
+            <end>130178</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032501">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032500" type="sbjct">
+          <span>
+            <start>1886</start>
+            <end>2001</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>130851</start>
+            <end>130966</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032503">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032502" type="sbjct">
+          <span>
+            <start>2001</start>
+            <end>2138</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>131061</start>
+            <end>131198</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032505">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032504" type="sbjct">
+          <span>
+            <start>2138</start>
+            <end>2303</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>131298</start>
+            <end>131463</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032507">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032506" type="sbjct">
+          <span>
+            <start>2303</start>
+            <end>2403</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>131674</start>
+            <end>131774</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032509">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032508" type="sbjct">
+          <span>
+            <start>2403</start>
+            <end>2613</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>136292</start>
+            <end>136502</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032511">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-11  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032510" type="sbjct">
+          <span>
+            <start>2613</start>
+            <end>2763</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>138935</start>
+            <end>139085</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032513">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-12  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032512" type="sbjct">
+          <span>
+            <start>2763</start>
+            <end>2917</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>140701</start>
+            <end>140855</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032515">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-13  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032514" type="sbjct">
+          <span>
+            <start>2917</start>
+            <end>3052</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>141228</start>
+            <end>141363</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032517">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-14  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032516" type="sbjct">
+          <span>
+            <start>3052</start>
+            <end>3313</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>142180</start>
+            <end>142441</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032519">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-15  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032518" type="sbjct">
+          <span>
+            <start>3313</start>
+            <end>3394</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>143834</start>
+            <end>143915</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032521">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-16  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032520" type="sbjct">
+          <span>
+            <start>3394</start>
+            <end>3576</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>144988</start>
+            <end>145170</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032523">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-17  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032522" type="sbjct">
+          <span>
+            <start>3576</start>
+            <end>3686</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>145323</start>
+            <end>145433</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032525">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-18  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032524" type="sbjct">
+          <span>
+            <start>3686</start>
+            <end>3852</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>145535</start>
+            <end>145701</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032527">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-19  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032526" type="sbjct">
+          <span>
+            <start>3852</start>
+            <end>3989</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>145819</start>
+            <end>145956</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032529">
+        <span_type>HSP</span_type>
+        <description>FUGT1|MET-20  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032528" type="sbjct">
+          <span>
+            <start>3989</start>
+            <end>4278</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>147204</start>
+            <end>147493</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|MET-20"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032530">
+      <description>FUGT1|CAPZA2  Full FUGT1:0 0 FUGT1|6 /transcript_uid=FUGT1|CAPZA2</description>
+      <result_span id="CELERA:30000104032532">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032531" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>39</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>155038</start>
+            <end>155077</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032534">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032533" type="sbjct">
+          <span>
+            <start>39</start>
+            <end>103</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>159096</start>
+            <end>159160</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032536">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032535" type="sbjct">
+          <span>
+            <start>103</start>
+            <end>155</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>159643</start>
+            <end>159695</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032538">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032537" type="sbjct">
+          <span>
+            <start>155</start>
+            <end>219</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>160174</start>
+            <end>160238</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032540">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032539" type="sbjct">
+          <span>
+            <start>219</start>
+            <end>426</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>160657</start>
+            <end>160864</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032542">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032541" type="sbjct">
+          <span>
+            <start>426</start>
+            <end>506</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>160948</start>
+            <end>161028</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032544">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032543" type="sbjct">
+          <span>
+            <start>506</start>
+            <end>585</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>161750</start>
+            <end>161829</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032546">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032545" type="sbjct">
+          <span>
+            <start>585</start>
+            <end>657</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>161969</start>
+            <end>162041</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032548">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032547" type="sbjct">
+          <span>
+            <start>657</start>
+            <end>720</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>162179</start>
+            <end>162242</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032550">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CAPZA2-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032549" type="sbjct">
+          <span>
+            <start>720</start>
+            <end>861</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>162338</start>
+            <end>162479</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CAPZA2-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032551">
+      <description>FUGT1|ST7  Full FUGT1:0 0 FUGT1|7 /transcript_uid=FUGT1|ST7</description>
+      <result_span id="CELERA:30000104032553">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032552" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>22</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>168581</start>
+            <end>168603</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032555">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032554" type="sbjct">
+          <span>
+            <start>22</start>
+            <end>105</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>177026</start>
+            <end>177109</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032557">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032556" type="sbjct">
+          <span>
+            <start>105</start>
+            <end>265</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>177952</start>
+            <end>178112</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032559">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032558" type="sbjct">
+          <span>
+            <start>265</start>
+            <end>320</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>178451</start>
+            <end>178506</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032561">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032560" type="sbjct">
+          <span>
+            <start>320</start>
+            <end>436</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>178881</start>
+            <end>178997</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032563">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032562" type="sbjct">
+          <span>
+            <start>436</start>
+            <end>512</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>179077</start>
+            <end>179153</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032565">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032564" type="sbjct">
+          <span>
+            <start>512</start>
+            <end>667</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>179377</start>
+            <end>179532</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032567">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032566" type="sbjct">
+          <span>
+            <start>667</start>
+            <end>765</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>179611</start>
+            <end>179709</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032569">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032568" type="sbjct">
+          <span>
+            <start>765</start>
+            <end>880</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>179809</start>
+            <end>179924</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032571">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032570" type="sbjct">
+          <span>
+            <start>880</start>
+            <end>953</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>180032</start>
+            <end>180105</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032573">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-11  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032572" type="sbjct">
+          <span>
+            <start>953</start>
+            <end>1056</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>180426</start>
+            <end>180529</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032575">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-12  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032574" type="sbjct">
+          <span>
+            <start>1056</start>
+            <end>1207</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>180703</start>
+            <end>180854</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032577">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-13  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032576" type="sbjct">
+          <span>
+            <start>1207</start>
+            <end>1300</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>180986</start>
+            <end>181079</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032579">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-14  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032578" type="sbjct">
+          <span>
+            <start>1300</start>
+            <end>1440</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>181205</start>
+            <end>181345</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032581">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ST7-15  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032580" type="sbjct">
+          <span>
+            <start>1440</start>
+            <end>1536</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>182784</start>
+            <end>182880</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ST7-15"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032582">
+      <description>FUGT1|WNT2  Full FUGT1:0 0 FUGT1|8 /transcript_uid=FUGT1|WNT2</description>
+      <result_span id="CELERA:30000104032584">
+        <span_type>HSP</span_type>
+        <description>FUGT1|WNT2-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032583" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>83</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>189544</start>
+            <end>189461</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|WNT2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032586">
+        <span_type>HSP</span_type>
+        <description>FUGT1|WNT2-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032585" type="sbjct">
+          <span>
+            <start>83</start>
+            <end>304</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>188942</start>
+            <end>188721</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|WNT2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032588">
+        <span_type>HSP</span_type>
+        <description>FUGT1|WNT2-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032587" type="sbjct">
+          <span>
+            <start>304</start>
+            <end>582</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>187007</start>
+            <end>186729</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|WNT2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032590">
+        <span_type>HSP</span_type>
+        <description>FUGT1|WNT2-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032589" type="sbjct">
+          <span>
+            <start>582</start>
+            <end>847</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>186600</start>
+            <end>186335</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|WNT2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032592">
+        <span_type>HSP</span_type>
+        <description>FUGT1|WNT2-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032591" type="sbjct">
+          <span>
+            <start>847</start>
+            <end>1053</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>184639</start>
+            <end>184433</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|WNT2-5"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032593">
+      <description>FUGT1|GASZ  Full FUGT1:0 0 FUGT1|9 /transcript_uid=FUGT1|GASZ</description>
+      <result_span id="CELERA:30000104032595">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032594" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>93</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>203072</start>
+            <end>202979</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032597">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032596" type="sbjct">
+          <span>
+            <start>93</start>
+            <end>193</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>202401</start>
+            <end>202301</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032599">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032598" type="sbjct">
+          <span>
+            <start>193</start>
+            <end>316</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>202071</start>
+            <end>201948</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032601">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032600" type="sbjct">
+          <span>
+            <start>316</start>
+            <end>428</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>200219</start>
+            <end>200107</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032603">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032602" type="sbjct">
+          <span>
+            <start>428</start>
+            <end>540</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>197014</start>
+            <end>196902</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032605">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032604" type="sbjct">
+          <span>
+            <start>540</start>
+            <end>675</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>196838</start>
+            <end>196703</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032607">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032606" type="sbjct">
+          <span>
+            <start>675</start>
+            <end>794</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>196537</start>
+            <end>196418</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032609">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032608" type="sbjct">
+          <span>
+            <start>794</start>
+            <end>867</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>195105</start>
+            <end>195032</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032611">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032610" type="sbjct">
+          <span>
+            <start>867</start>
+            <end>924</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>194957</start>
+            <end>194900</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032613">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032612" type="sbjct">
+          <span>
+            <start>924</start>
+            <end>1037</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>194586</start>
+            <end>194473</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032615">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-11  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032614" type="sbjct">
+          <span>
+            <start>1037</start>
+            <end>1143</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>193067</start>
+            <end>192961</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032617">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-12  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032616" type="sbjct">
+          <span>
+            <start>1143</start>
+            <end>1257</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>192885</start>
+            <end>192771</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032619">
+        <span_type>HSP</span_type>
+        <description>FUGT1|GASZ-13  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032618" type="sbjct">
+          <span>
+            <start>1257</start>
+            <end>1431</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>191440</start>
+            <end>191266</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|GASZ-13"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032620">
+      <description>FUGT1|CFTR  Full FUGT1:0 0 FUGT1|10 /transcript_uid=FUGT1|CFTR</description>
+      <result_span id="CELERA:30000104032622">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032621" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>53</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>204884</start>
+            <end>204937</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032624">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032623" type="sbjct">
+          <span>
+            <start>53</start>
+            <end>164</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>205517</start>
+            <end>205628</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032626">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032625" type="sbjct">
+          <span>
+            <start>164</start>
+            <end>276</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>207257</start>
+            <end>207369</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032628">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032627" type="sbjct">
+          <span>
+            <start>276</start>
+            <end>492</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>208464</start>
+            <end>208680</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032630">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032629" type="sbjct">
+          <span>
+            <start>492</start>
+            <end>582</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>208970</start>
+            <end>209060</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032632">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032631" type="sbjct">
+          <span>
+            <start>582</start>
+            <end>746</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>210121</start>
+            <end>210285</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032634">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032633" type="sbjct">
+          <span>
+            <start>746</start>
+            <end>872</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>210525</start>
+            <end>210651</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032636">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032635" type="sbjct">
+          <span>
+            <start>872</start>
+            <end>1119</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>210885</start>
+            <end>211132</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032638">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032637" type="sbjct">
+          <span>
+            <start>1119</start>
+            <end>1212</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>211243</start>
+            <end>211336</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032640">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032639" type="sbjct">
+          <span>
+            <start>1212</start>
+            <end>1389</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>212340</start>
+            <end>212517</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032642">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-11  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032641" type="sbjct">
+          <span>
+            <start>1389</start>
+            <end>1581</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>212637</start>
+            <end>212829</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032644">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-12  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032643" type="sbjct">
+          <span>
+            <start>1581</start>
+            <end>1676</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>214504</start>
+            <end>214599</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032646">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-13  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032645" type="sbjct">
+          <span>
+            <start>1676</start>
+            <end>1763</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>215189</start>
+            <end>215276</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032648">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-14  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032647" type="sbjct">
+          <span>
+            <start>1763</start>
+            <end>2550</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>215847</start>
+            <end>216634</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032650">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-15  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032649" type="sbjct">
+          <span>
+            <start>2550</start>
+            <end>2679</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>216727</start>
+            <end>216856</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032652">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-16  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032651" type="sbjct">
+          <span>
+            <start>2679</start>
+            <end>2717</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>216936</start>
+            <end>216974</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032654">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-17  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032653" type="sbjct">
+          <span>
+            <start>2717</start>
+            <end>3004</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>217207</start>
+            <end>217494</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032656">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-18  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032655" type="sbjct">
+          <span>
+            <start>3004</start>
+            <end>3084</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>217570</start>
+            <end>217650</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032658">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-19  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032657" type="sbjct">
+          <span>
+            <start>3084</start>
+            <end>3235</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>217801</start>
+            <end>217952</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032660">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-20  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032659" type="sbjct">
+          <span>
+            <start>3235</start>
+            <end>3463</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>218845</start>
+            <end>219073</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032662">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-21  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032661" type="sbjct">
+          <span>
+            <start>3463</start>
+            <end>3564</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>219996</start>
+            <end>220097</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032664">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-22  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032663" type="sbjct">
+          <span>
+            <start>3564</start>
+            <end>3795</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>221205</start>
+            <end>221436</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032666">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-23  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032665" type="sbjct">
+          <span>
+            <start>3795</start>
+            <end>3951</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>222082</start>
+            <end>222238</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-23"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032668">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-24  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032667" type="sbjct">
+          <span>
+            <start>3951</start>
+            <end>4041</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>222327</start>
+            <end>222417</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-24"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032670">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-25  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032669" type="sbjct">
+          <span>
+            <start>4041</start>
+            <end>4214</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>222600</start>
+            <end>222773</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-25"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032672">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-26  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032671" type="sbjct">
+          <span>
+            <start>4214</start>
+            <end>4320</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>223178</start>
+            <end>223284</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-26"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032674">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CFTR-27  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032673" type="sbjct">
+          <span>
+            <start>4320</start>
+            <end>4536</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>223654</start>
+            <end>223870</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CFTR-27"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032675">
+      <description>FUGT1|CORTBP2  Full FUGT1:0 0 FUGT1|11 /transcript_uid=FUGT1|CORTBP2</description>
+      <result_span id="CELERA:30000104032677">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032676" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>81</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>260639</start>
+            <end>260558</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032679">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032678" type="sbjct">
+          <span>
+            <start>81</start>
+            <end>189</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>256376</start>
+            <end>256268</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032681">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-3  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032680" type="sbjct">
+          <span>
+            <start>189</start>
+            <end>420</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>242507</start>
+            <end>242276</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032683">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-4  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032682" type="sbjct">
+          <span>
+            <start>420</start>
+            <end>1828</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>239788</start>
+            <end>238380</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032685">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-5  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032684" type="sbjct">
+          <span>
+            <start>1828</start>
+            <end>2125</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>237111</start>
+            <end>236814</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032687">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-6  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032686" type="sbjct">
+          <span>
+            <start>2125</start>
+            <end>2225</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>235915</start>
+            <end>235815</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032689">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-7  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032688" type="sbjct">
+          <span>
+            <start>2225</start>
+            <end>2376</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>235207</start>
+            <end>235056</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032691">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-8  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032690" type="sbjct">
+          <span>
+            <start>2376</start>
+            <end>2559</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>234467</start>
+            <end>234284</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032693">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-9  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032692" type="sbjct">
+          <span>
+            <start>2559</start>
+            <end>2677</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>233930</start>
+            <end>233812</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032695">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-10  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032694" type="sbjct">
+          <span>
+            <start>2677</start>
+            <end>2953</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>233385</start>
+            <end>233109</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032697">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-11  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032696" type="sbjct">
+          <span>
+            <start>2953</start>
+            <end>3049</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>232296</start>
+            <end>232200</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032699">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-12  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032698" type="sbjct">
+          <span>
+            <start>3049</start>
+            <end>3129</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>231387</start>
+            <end>231307</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032701">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-13  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032700" type="sbjct">
+          <span>
+            <start>3129</start>
+            <end>3216</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>230958</start>
+            <end>230871</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032703">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-14  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032702" type="sbjct">
+          <span>
+            <start>3216</start>
+            <end>3316</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>230347</start>
+            <end>230247</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032705">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-15  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032704" type="sbjct">
+          <span>
+            <start>3316</start>
+            <end>3478</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>230123</start>
+            <end>229961</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032707">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-16  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032706" type="sbjct">
+          <span>
+            <start>3478</start>
+            <end>3651</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>229871</start>
+            <end>229698</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032709">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-17  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032708" type="sbjct">
+          <span>
+            <start>3651</start>
+            <end>3830</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>229612</start>
+            <end>229433</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032711">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-18  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032710" type="sbjct">
+          <span>
+            <start>3830</start>
+            <end>4060</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>229250</start>
+            <end>229020</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032713">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-19  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032712" type="sbjct">
+          <span>
+            <start>4060</start>
+            <end>4252</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>228911</start>
+            <end>228719</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032715">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-20  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032714" type="sbjct">
+          <span>
+            <start>4252</start>
+            <end>4304</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>228373</start>
+            <end>228321</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032717">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-21  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032716" type="sbjct">
+          <span>
+            <start>4304</start>
+            <end>4404</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>228217</start>
+            <end>228117</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032719">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-22  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032718" type="sbjct">
+          <span>
+            <start>4404</start>
+            <end>4512</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>227546</start>
+            <end>227438</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032721">
+        <span_type>HSP</span_type>
+        <description>FUGT1|CORTBP2-23  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032720" type="sbjct">
+          <span>
+            <start>4512</start>
+            <end>4827</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>227065</start>
+            <end>226750</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|CORTBP2-23"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104032722">
+      <description>FUGT1|ATP2B1  Full FUGT1:0 0 FUGT1|12 /transcript_uid=FUGT1|ATP2B1</description>
+      <result_span id="CELERA:30000104032724">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ATP2B1-1  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032723" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>150</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>273559</start>
+            <end>273409</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ATP2B1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104032726">
+        <span_type>HSP</span_type>
+        <description>FUGT1|ATP2B1-2  Good  FUGT1:0 0</description>
+        <seq_relationship id="CELERA:30000104032725" type="sbjct">
+          <span>
+            <start>150</start>
+            <end>534</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="FUGT1:0" type="query">
+          <span>
+            <start>273282</start>
+            <end>272898</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="FUGT1|ATP2B1-2"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+  </computational_analysis>
+</game>

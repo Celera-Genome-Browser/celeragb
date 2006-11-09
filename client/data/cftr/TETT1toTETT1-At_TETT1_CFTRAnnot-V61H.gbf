@@ -1,0 +1,3489 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Tetraodon CFTR Region">
+  <!-- Features converted from ATA format -->
+  <computational_analysis id="CELERA:30000104082523">
+    <date day="0" month="0" year="0"></date>
+    <program>Curated:tetraodon_CFTR_anno</program>
+    <version>2.6</version>
+    <type>BLASTN_HIT</type>
+    <result_set id="CELERA:30000104082524">
+      <description>TETT1|DUSP6  Full TETT1:0 0 TETT1|0 /transcript_uid=TETT1|DUSP6</description>
+      <result_span id="CELERA:30000104082526">
+        <span_type>HSP</span_type>
+        <description>TETT1|DUSP6-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082525" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>403</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>16012</start>
+            <end>15609</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|DUSP6-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082528">
+        <span_type>HSP</span_type>
+        <description>TETT1|DUSP6-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082527" type="sbjct">
+          <span>
+            <start>403</start>
+            <end>841</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>15334</start>
+            <end>14896</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|DUSP6-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082530">
+        <span_type>HSP</span_type>
+        <description>TETT1|DUSP6-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082529" type="sbjct">
+          <span>
+            <start>841</start>
+            <end>1155</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>14093</start>
+            <end>13779</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|DUSP6-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082531">
+      <description>TETT1|TSGA14  Full TETT1:0 0 TETT1|1 /transcript_uid=TETT1|TSGA14</description>
+      <result_span id="CELERA:30000104082533">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082532" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>33</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>49855</start>
+            <end>49888</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082535">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082534" type="sbjct">
+          <span>
+            <start>33</start>
+            <end>97</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>50171</start>
+            <end>50235</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082537">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082536" type="sbjct">
+          <span>
+            <start>97</start>
+            <end>159</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>50620</start>
+            <end>50682</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082539">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082538" type="sbjct">
+          <span>
+            <start>159</start>
+            <end>271</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>50858</start>
+            <end>50970</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082541">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082540" type="sbjct">
+          <span>
+            <start>271</start>
+            <end>404</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>51145</start>
+            <end>51278</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082543">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082542" type="sbjct">
+          <span>
+            <start>404</start>
+            <end>565</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>51340</start>
+            <end>51501</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082545">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082544" type="sbjct">
+          <span>
+            <start>565</start>
+            <end>633</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>51588</start>
+            <end>51656</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082547">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082546" type="sbjct">
+          <span>
+            <start>633</start>
+            <end>748</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>51740</start>
+            <end>51855</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082549">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082548" type="sbjct">
+          <span>
+            <start>748</start>
+            <end>1041</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>51986</start>
+            <end>52279</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082551">
+        <span_type>HSP</span_type>
+        <description>TETT1|TSGA14-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082550" type="sbjct">
+          <span>
+            <start>1041</start>
+            <end>1149</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>52353</start>
+            <end>52461</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TSGA14-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082552">
+      <description>TETT1|CPA1  Full TETT1:0 0 TETT1|2 /transcript_uid=TETT1|CPA1</description>
+      <result_span id="CELERA:30000104082554">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082553" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>65</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>55987</start>
+            <end>55922</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082556">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082555" type="sbjct">
+          <span>
+            <start>65</start>
+            <end>141</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>55686</start>
+            <end>55610</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082558">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082557" type="sbjct">
+          <span>
+            <start>141</start>
+            <end>276</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>55524</start>
+            <end>55389</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082560">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082559" type="sbjct">
+          <span>
+            <start>276</start>
+            <end>381</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>55300</start>
+            <end>55195</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082562">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082561" type="sbjct">
+          <span>
+            <start>381</start>
+            <end>483</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>55114</start>
+            <end>55012</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082564">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082563" type="sbjct">
+          <span>
+            <start>483</start>
+            <end>585</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>54938</start>
+            <end>54836</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082566">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082565" type="sbjct">
+          <span>
+            <start>585</start>
+            <end>696</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>54748</start>
+            <end>54637</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082568">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082567" type="sbjct">
+          <span>
+            <start>696</start>
+            <end>787</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>54515</start>
+            <end>54424</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082570">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082569" type="sbjct">
+          <span>
+            <start>787</start>
+            <end>987</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>54352</start>
+            <end>54152</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082572">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082571" type="sbjct">
+          <span>
+            <start>987</start>
+            <end>1072</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>54027</start>
+            <end>53942</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082574">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082573" type="sbjct">
+          <span>
+            <start>1072</start>
+            <end>1260</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>53801</start>
+            <end>53613</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1-11"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082575">
+      <description>TETT1|CPA1.2  Full TETT1:0 0 TETT1|3 /transcript_uid=TETT1|CPA1.2</description>
+      <result_span id="CELERA:30000104082577">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082576" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>65</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>59932</start>
+            <end>59867</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082579">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082578" type="sbjct">
+          <span>
+            <start>65</start>
+            <end>141</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>59631</start>
+            <end>59555</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082581">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082580" type="sbjct">
+          <span>
+            <start>141</start>
+            <end>276</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>59469</start>
+            <end>59334</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082583">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082582" type="sbjct">
+          <span>
+            <start>276</start>
+            <end>381</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>59245</start>
+            <end>59140</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082585">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082584" type="sbjct">
+          <span>
+            <start>381</start>
+            <end>483</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>59059</start>
+            <end>58957</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082587">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082586" type="sbjct">
+          <span>
+            <start>483</start>
+            <end>585</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>58883</start>
+            <end>58781</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082589">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082588" type="sbjct">
+          <span>
+            <start>585</start>
+            <end>696</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>58693</start>
+            <end>58582</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082591">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082590" type="sbjct">
+          <span>
+            <start>696</start>
+            <end>787</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>58508</start>
+            <end>58417</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082593">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082592" type="sbjct">
+          <span>
+            <start>787</start>
+            <end>987</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>58337</start>
+            <end>58137</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082595">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082594" type="sbjct">
+          <span>
+            <start>987</start>
+            <end>1072</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>57879</start>
+            <end>57794</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082597">
+        <span_type>HSP</span_type>
+        <description>TETT1|CPA1.2-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082596" type="sbjct">
+          <span>
+            <start>1072</start>
+            <end>1260</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>57690</start>
+            <end>57502</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CPA1.2-11"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082598">
+      <description>TETT1|TES  Full TETT1:0 0 TETT1|4 /transcript_uid=TETT1|TES</description>
+      <result_span id="CELERA:30000104082600">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082599" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>27</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>62211</start>
+            <end>62238</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082602">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082601" type="sbjct">
+          <span>
+            <start>27</start>
+            <end>113</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>64167</start>
+            <end>64253</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082604">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082603" type="sbjct">
+          <span>
+            <start>113</start>
+            <end>579</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>65052</start>
+            <end>65518</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082606">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082605" type="sbjct">
+          <span>
+            <start>579</start>
+            <end>1101</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>66207</start>
+            <end>66729</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082608">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082607" type="sbjct">
+          <span>
+            <start>1101</start>
+            <end>1317</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>67109</start>
+            <end>67325</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082610">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082609" type="sbjct">
+          <span>
+            <start>1317</start>
+            <end>1476</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>67412</start>
+            <end>67571</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082612">
+        <span_type>HSP</span_type>
+        <description>TETT1|TES-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082611" type="sbjct">
+          <span>
+            <start>1476</start>
+            <end>1668</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>67656</start>
+            <end>67848</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|TES-7"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082613">
+      <description>TETT1|CAV2  Full TETT1:0 0 TETT1|5 /transcript_uid=TETT1|CAV2</description>
+      <result_span id="CELERA:30000104082615">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAV2-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082614" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>150</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>86033</start>
+            <end>86183</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAV2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082617">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAV2-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082616" type="sbjct">
+          <span>
+            <start>150</start>
+            <end>338</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>86390</start>
+            <end>86578</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAV2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082619">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAV2-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082618" type="sbjct">
+          <span>
+            <start>338</start>
+            <end>489</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>87473</start>
+            <end>87624</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAV2-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082620">
+      <description>TETT1|CAV1  Full TETT1:0 0 TETT1|6 /transcript_uid=TETT1|CAV1</description>
+      <result_span id="CELERA:30000104082622">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAV1-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082621" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>36</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>90067</start>
+            <end>90103</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAV1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082624">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAV1-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082623" type="sbjct">
+          <span>
+            <start>36</start>
+            <end>204</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>90794</start>
+            <end>90962</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAV1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082626">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAV1-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082625" type="sbjct">
+          <span>
+            <start>204</start>
+            <end>546</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>94088</start>
+            <end>94430</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAV1-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082627">
+      <description>TETT1|MET  Full TETT1:0 0 TETT1|7 /transcript_uid=TETT1|MET</description>
+      <result_span id="CELERA:30000104082629">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082628" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>1209</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>102875</start>
+            <end>104084</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082631">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082630" type="sbjct">
+          <span>
+            <start>1209</start>
+            <end>1413</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>119072</start>
+            <end>119276</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082633">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082632" type="sbjct">
+          <span>
+            <start>1413</start>
+            <end>1542</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>121870</start>
+            <end>121999</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082635">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082634" type="sbjct">
+          <span>
+            <start>1542</start>
+            <end>1716</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>122075</start>
+            <end>122249</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082637">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082636" type="sbjct">
+          <span>
+            <start>1716</start>
+            <end>1874</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>122656</start>
+            <end>122814</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082639">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082638" type="sbjct">
+          <span>
+            <start>1874</start>
+            <end>1989</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>123502</start>
+            <end>123617</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082641">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082640" type="sbjct">
+          <span>
+            <start>1989</start>
+            <end>2126</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>123720</start>
+            <end>123857</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082643">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082642" type="sbjct">
+          <span>
+            <start>2126</start>
+            <end>2291</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>124024</start>
+            <end>124189</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082645">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082644" type="sbjct">
+          <span>
+            <start>2291</start>
+            <end>2391</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>124447</start>
+            <end>124547</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082647">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082646" type="sbjct">
+          <span>
+            <start>2391</start>
+            <end>2601</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>129215</start>
+            <end>129425</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082649">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082648" type="sbjct">
+          <span>
+            <start>2601</start>
+            <end>2751</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>131753</start>
+            <end>131903</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082651">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-12  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082650" type="sbjct">
+          <span>
+            <start>2751</start>
+            <end>2905</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>133358</start>
+            <end>133512</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082653">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-13  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082652" type="sbjct">
+          <span>
+            <start>2905</start>
+            <end>3040</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>133920</start>
+            <end>134055</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082655">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-14  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082654" type="sbjct">
+          <span>
+            <start>3040</start>
+            <end>3301</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>134862</start>
+            <end>135123</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082657">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-15  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082656" type="sbjct">
+          <span>
+            <start>3301</start>
+            <end>3382</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>136370</start>
+            <end>136451</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082659">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-16  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082658" type="sbjct">
+          <span>
+            <start>3382</start>
+            <end>3564</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>137507</start>
+            <end>137689</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082661">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-17  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082660" type="sbjct">
+          <span>
+            <start>3564</start>
+            <end>3674</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>137876</start>
+            <end>137986</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082663">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-18  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082662" type="sbjct">
+          <span>
+            <start>3674</start>
+            <end>3840</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>138084</start>
+            <end>138250</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082665">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-19  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082664" type="sbjct">
+          <span>
+            <start>3840</start>
+            <end>3977</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>138367</start>
+            <end>138504</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082667">
+        <span_type>HSP</span_type>
+        <description>TETT1|MET-20  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082666" type="sbjct">
+          <span>
+            <start>3977</start>
+            <end>4266</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>140013</start>
+            <end>140302</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|MET-20"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082668">
+      <description>TETT1|CAPZA2  Full TETT1:0 0 TETT1|8 /transcript_uid=TETT1|CAPZA2</description>
+      <result_span id="CELERA:30000104082670">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082669" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>39</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>149148</start>
+            <end>149187</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082672">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082671" type="sbjct">
+          <span>
+            <start>39</start>
+            <end>103</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>154035</start>
+            <end>154099</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082674">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082673" type="sbjct">
+          <span>
+            <start>103</start>
+            <end>155</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>154651</start>
+            <end>154703</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082676">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082675" type="sbjct">
+          <span>
+            <start>155</start>
+            <end>219</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>154926</start>
+            <end>154990</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082678">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082677" type="sbjct">
+          <span>
+            <start>219</start>
+            <end>426</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>155528</start>
+            <end>155735</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082680">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082679" type="sbjct">
+          <span>
+            <start>426</start>
+            <end>506</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>155830</start>
+            <end>155910</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082682">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082681" type="sbjct">
+          <span>
+            <start>506</start>
+            <end>585</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>156633</start>
+            <end>156712</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082684">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082683" type="sbjct">
+          <span>
+            <start>585</start>
+            <end>657</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>156866</start>
+            <end>156938</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082686">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082685" type="sbjct">
+          <span>
+            <start>657</start>
+            <end>720</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>157047</start>
+            <end>157110</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082688">
+        <span_type>HSP</span_type>
+        <description>TETT1|CAPZA2-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082687" type="sbjct">
+          <span>
+            <start>720</start>
+            <end>861</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>157184</start>
+            <end>157325</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CAPZA2-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082689">
+      <description>TETT1|ST7  Full TETT1:0 0 TETT1|9 /transcript_uid=TETT1|ST7</description>
+      <result_span id="CELERA:30000104082691">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082690" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>22</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>163482</start>
+            <end>163504</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082693">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082692" type="sbjct">
+          <span>
+            <start>22</start>
+            <end>105</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>169085</start>
+            <end>169168</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082695">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082694" type="sbjct">
+          <span>
+            <start>105</start>
+            <end>265</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>170032</start>
+            <end>170192</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082697">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082696" type="sbjct">
+          <span>
+            <start>265</start>
+            <end>320</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>170533</start>
+            <end>170588</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082699">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082698" type="sbjct">
+          <span>
+            <start>320</start>
+            <end>436</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>171009</start>
+            <end>171125</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082701">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082700" type="sbjct">
+          <span>
+            <start>436</start>
+            <end>512</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>171194</start>
+            <end>171270</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082703">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082702" type="sbjct">
+          <span>
+            <start>512</start>
+            <end>667</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>171352</start>
+            <end>171507</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082705">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082704" type="sbjct">
+          <span>
+            <start>667</start>
+            <end>765</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>171723</start>
+            <end>171821</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082707">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082706" type="sbjct">
+          <span>
+            <start>765</start>
+            <end>880</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>171896</start>
+            <end>172011</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082709">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082708" type="sbjct">
+          <span>
+            <start>880</start>
+            <end>953</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>172089</start>
+            <end>172162</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082711">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082710" type="sbjct">
+          <span>
+            <start>953</start>
+            <end>1056</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>172437</start>
+            <end>172540</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082713">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-12  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082712" type="sbjct">
+          <span>
+            <start>1056</start>
+            <end>1207</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>172704</start>
+            <end>172855</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082715">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-13  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082714" type="sbjct">
+          <span>
+            <start>1207</start>
+            <end>1300</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>172992</start>
+            <end>173085</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082717">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-14  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082716" type="sbjct">
+          <span>
+            <start>1300</start>
+            <end>1440</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>173285</start>
+            <end>173425</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082719">
+        <span_type>HSP</span_type>
+        <description>TETT1|ST7-15  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082718" type="sbjct">
+          <span>
+            <start>1440</start>
+            <end>1536</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>173803</start>
+            <end>173899</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ST7-15"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082720">
+      <description>TETT1|WNT2  Full TETT1:0 0 TETT1|10 /transcript_uid=TETT1|WNT2</description>
+      <result_span id="CELERA:30000104082722">
+        <span_type>HSP</span_type>
+        <description>TETT1|WNT2-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082721" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>83</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>179407</start>
+            <end>179324</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|WNT2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082724">
+        <span_type>HSP</span_type>
+        <description>TETT1|WNT2-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082723" type="sbjct">
+          <span>
+            <start>83</start>
+            <end>304</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>178936</start>
+            <end>178715</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|WNT2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082726">
+        <span_type>HSP</span_type>
+        <description>TETT1|WNT2-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082725" type="sbjct">
+          <span>
+            <start>304</start>
+            <end>582</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>176972</start>
+            <end>176694</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|WNT2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082728">
+        <span_type>HSP</span_type>
+        <description>TETT1|WNT2-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082727" type="sbjct">
+          <span>
+            <start>582</start>
+            <end>847</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>176584</start>
+            <end>176319</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|WNT2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082730">
+        <span_type>HSP</span_type>
+        <description>TETT1|WNT2-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082729" type="sbjct">
+          <span>
+            <start>847</start>
+            <end>1053</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>175127</start>
+            <end>174921</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|WNT2-5"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082731">
+      <description>TETT1|GASZ  Full TETT1:0 0 TETT1|11 /transcript_uid=TETT1|GASZ</description>
+      <result_span id="CELERA:30000104082733">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082732" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>93</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>191320</start>
+            <end>191227</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082735">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082734" type="sbjct">
+          <span>
+            <start>93</start>
+            <end>190</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>190875</start>
+            <end>190778</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082737">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082736" type="sbjct">
+          <span>
+            <start>190</start>
+            <end>313</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>190481</start>
+            <end>190358</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082739">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082738" type="sbjct">
+          <span>
+            <start>313</start>
+            <end>425</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>188688</start>
+            <end>188576</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082741">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082740" type="sbjct">
+          <span>
+            <start>425</start>
+            <end>537</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>185507</start>
+            <end>185395</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082743">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082742" type="sbjct">
+          <span>
+            <start>537</start>
+            <end>672</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>185328</start>
+            <end>185193</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082745">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082744" type="sbjct">
+          <span>
+            <start>672</start>
+            <end>791</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>185038</start>
+            <end>184919</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082747">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082746" type="sbjct">
+          <span>
+            <start>791</start>
+            <end>864</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>183528</start>
+            <end>183455</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082749">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082748" type="sbjct">
+          <span>
+            <start>864</start>
+            <end>921</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>183356</start>
+            <end>183299</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082751">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082750" type="sbjct">
+          <span>
+            <start>921</start>
+            <end>1034</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>182984</start>
+            <end>182871</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082753">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082752" type="sbjct">
+          <span>
+            <start>1034</start>
+            <end>1140</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>181676</start>
+            <end>181570</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082755">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-12  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082754" type="sbjct">
+          <span>
+            <start>1140</start>
+            <end>1254</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>181506</start>
+            <end>181392</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082757">
+        <span_type>HSP</span_type>
+        <description>TETT1|GASZ-13  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082756" type="sbjct">
+          <span>
+            <start>1254</start>
+            <end>1425</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>180967</start>
+            <end>180796</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|GASZ-13"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082758">
+      <description>TETT1|CFTR  Full TETT1:0 0 TETT1|12 /transcript_uid=TETT1|CFTR</description>
+      <result_span id="CELERA:30000104082760">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082759" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>53</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>193056</start>
+            <end>193109</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082762">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082761" type="sbjct">
+          <span>
+            <start>53</start>
+            <end>164</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>193529</start>
+            <end>193640</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082764">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082763" type="sbjct">
+          <span>
+            <start>164</start>
+            <end>276</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>195224</start>
+            <end>195336</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082766">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082765" type="sbjct">
+          <span>
+            <start>276</start>
+            <end>492</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>195875</start>
+            <end>196091</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082768">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082767" type="sbjct">
+          <span>
+            <start>492</start>
+            <end>582</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>196392</start>
+            <end>196482</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082770">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082769" type="sbjct">
+          <span>
+            <start>582</start>
+            <end>746</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>197526</start>
+            <end>197690</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082772">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082771" type="sbjct">
+          <span>
+            <start>746</start>
+            <end>872</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>197851</start>
+            <end>197977</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082774">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082773" type="sbjct">
+          <span>
+            <start>872</start>
+            <end>1119</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>198205</start>
+            <end>198452</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082776">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082775" type="sbjct">
+          <span>
+            <start>1119</start>
+            <end>1212</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>198592</start>
+            <end>198685</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082778">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082777" type="sbjct">
+          <span>
+            <start>1212</start>
+            <end>1389</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>199606</start>
+            <end>199783</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082780">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082779" type="sbjct">
+          <span>
+            <start>1389</start>
+            <end>1581</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>199896</start>
+            <end>200088</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082782">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-12  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082781" type="sbjct">
+          <span>
+            <start>1581</start>
+            <end>1676</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>201911</start>
+            <end>202006</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082784">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-13  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082783" type="sbjct">
+          <span>
+            <start>1676</start>
+            <end>1763</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>202628</start>
+            <end>202715</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082786">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-14  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082785" type="sbjct">
+          <span>
+            <start>1763</start>
+            <end>2547</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>202933</start>
+            <end>203717</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082788">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-15  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082787" type="sbjct">
+          <span>
+            <start>2547</start>
+            <end>2676</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>203797</start>
+            <end>203926</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082790">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-16  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082789" type="sbjct">
+          <span>
+            <start>2676</start>
+            <end>2714</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>204003</start>
+            <end>204041</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082792">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-17  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082791" type="sbjct">
+          <span>
+            <start>2714</start>
+            <end>3001</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>204205</start>
+            <end>204492</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082794">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-18  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082793" type="sbjct">
+          <span>
+            <start>3001</start>
+            <end>3081</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>204573</start>
+            <end>204653</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082796">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-19  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082795" type="sbjct">
+          <span>
+            <start>3081</start>
+            <end>3232</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>204796</start>
+            <end>204947</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082798">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-20  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082797" type="sbjct">
+          <span>
+            <start>3232</start>
+            <end>3460</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>205906</start>
+            <end>206134</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082800">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-21  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082799" type="sbjct">
+          <span>
+            <start>3460</start>
+            <end>3561</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>207164</start>
+            <end>207265</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082802">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-22  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082801" type="sbjct">
+          <span>
+            <start>3561</start>
+            <end>3792</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>207902</start>
+            <end>208133</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082804">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-23  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082803" type="sbjct">
+          <span>
+            <start>3792</start>
+            <end>3948</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>208431</start>
+            <end>208587</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-23"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082806">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-24  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082805" type="sbjct">
+          <span>
+            <start>3948</start>
+            <end>4038</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>208672</start>
+            <end>208762</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-24"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082808">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-25  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082807" type="sbjct">
+          <span>
+            <start>4038</start>
+            <end>4211</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>208855</start>
+            <end>209028</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-25"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082810">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-26  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082809" type="sbjct">
+          <span>
+            <start>4211</start>
+            <end>4317</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>209506</start>
+            <end>209612</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-26"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082812">
+        <span_type>HSP</span_type>
+        <description>TETT1|CFTR-27  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082811" type="sbjct">
+          <span>
+            <start>4317</start>
+            <end>4533</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>209893</start>
+            <end>210109</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CFTR-27"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082813">
+      <description>TETT1|CORTBP2  Full TETT1:0 0 TETT1|13 /transcript_uid=TETT1|CORTBP2</description>
+      <result_span id="CELERA:30000104082815">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082814" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>81</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>243533</start>
+            <end>243452</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082817">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082816" type="sbjct">
+          <span>
+            <start>81</start>
+            <end>189</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>239337</start>
+            <end>239229</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082819">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082818" type="sbjct">
+          <span>
+            <start>189</start>
+            <end>420</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>227645</start>
+            <end>227414</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082821">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082820" type="sbjct">
+          <span>
+            <start>420</start>
+            <end>1807</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>225612</start>
+            <end>224225</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082823">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082822" type="sbjct">
+          <span>
+            <start>1807</start>
+            <end>2098</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>222879</start>
+            <end>222588</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082825">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082824" type="sbjct">
+          <span>
+            <start>2098</start>
+            <end>2198</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>221535</start>
+            <end>221435</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082827">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082826" type="sbjct">
+          <span>
+            <start>2198</start>
+            <end>2349</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>220861</start>
+            <end>220710</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082829">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082828" type="sbjct">
+          <span>
+            <start>2349</start>
+            <end>2532</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>220054</start>
+            <end>219871</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082831">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082830" type="sbjct">
+          <span>
+            <start>2532</start>
+            <end>2650</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>219602</start>
+            <end>219484</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082833">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082832" type="sbjct">
+          <span>
+            <start>2650</start>
+            <end>2926</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>219372</start>
+            <end>219096</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082835">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-11  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082834" type="sbjct">
+          <span>
+            <start>2926</start>
+            <end>3022</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>218291</start>
+            <end>218195</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082837">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-12  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082836" type="sbjct">
+          <span>
+            <start>3022</start>
+            <end>3102</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>217505</start>
+            <end>217425</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082839">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-13  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082838" type="sbjct">
+          <span>
+            <start>3102</start>
+            <end>3189</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>216500</start>
+            <end>216413</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082841">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-14  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082840" type="sbjct">
+          <span>
+            <start>3189</start>
+            <end>3289</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>216000</start>
+            <end>215900</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082843">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-15  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082842" type="sbjct">
+          <span>
+            <start>3289</start>
+            <end>3451</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>215815</start>
+            <end>215653</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082845">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-16  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082844" type="sbjct">
+          <span>
+            <start>3451</start>
+            <end>3624</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>215584</start>
+            <end>215411</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082847">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-17  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082846" type="sbjct">
+          <span>
+            <start>3624</start>
+            <end>3803</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>215327</start>
+            <end>215148</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082849">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-18  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082848" type="sbjct">
+          <span>
+            <start>3803</start>
+            <end>4030</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>215066</start>
+            <end>214839</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082851">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-19  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082850" type="sbjct">
+          <span>
+            <start>4030</start>
+            <end>4222</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>214728</start>
+            <end>214536</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082853">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-20  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082852" type="sbjct">
+          <span>
+            <start>4222</start>
+            <end>4274</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>214148</start>
+            <end>214096</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082855">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-21  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082854" type="sbjct">
+          <span>
+            <start>4274</start>
+            <end>4374</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>214013</start>
+            <end>213913</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082857">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-22  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082856" type="sbjct">
+          <span>
+            <start>4374</start>
+            <end>4482</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>213096</start>
+            <end>212988</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082859">
+        <span_type>HSP</span_type>
+        <description>TETT1|CORTBP2-23  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082858" type="sbjct">
+          <span>
+            <start>4482</start>
+            <end>4788</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>212868</start>
+            <end>212562</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|CORTBP2-23"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000104082860">
+      <description>TETT1|ATP2B1  Full TETT1:0 0 TETT1|14 /transcript_uid=TETT1|ATP2B1</description>
+      <result_span id="CELERA:30000104082862">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-1  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082861" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>238</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>257788</start>
+            <end>257550</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082864">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-2  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082863" type="sbjct">
+          <span>
+            <start>238</start>
+            <end>490</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>257468</start>
+            <end>257216</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082866">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-3  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082865" type="sbjct">
+          <span>
+            <start>490</start>
+            <end>578</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>257179</start>
+            <end>257091</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082868">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-4  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082867" type="sbjct">
+          <span>
+            <start>578</start>
+            <end>685</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>256933</start>
+            <end>256826</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082870">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-5  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082869" type="sbjct">
+          <span>
+            <start>685</start>
+            <end>877</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>256719</start>
+            <end>256527</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082872">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-6  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082871" type="sbjct">
+          <span>
+            <start>877</start>
+            <end>1091</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>256454</start>
+            <end>256240</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082874">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-7  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082873" type="sbjct">
+          <span>
+            <start>1091</start>
+            <end>1303</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>256135</start>
+            <end>255923</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082876">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-8  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082875" type="sbjct">
+          <span>
+            <start>1303</start>
+            <end>1411</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>255812</start>
+            <end>255704</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082878">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-9  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082877" type="sbjct">
+          <span>
+            <start>1411</start>
+            <end>1561</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>255593</start>
+            <end>255443</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000104082880">
+        <span_type>HSP</span_type>
+        <description>TETT1|ATP2B1-10  Good  TETT1:0 0</description>
+        <seq_relationship id="CELERA:30000104082879" type="sbjct">
+          <span>
+            <start>1561</start>
+            <end>1945</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="TETT1:0" type="query">
+          <span>
+            <start>255316</start>
+            <end>254932</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="TETT1|ATP2B1-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+  </computational_analysis>
+</game>
