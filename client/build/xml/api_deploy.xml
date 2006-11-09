@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<!--*================================================================================*-->
+<!--* FILE:                                                                          *-->
+<!--*    api_deploy.xml                                                              *-->
+<!--* DESCRIPTION:                                                                   *-->
+<!--*    XML deploy instructions file used by Ant to deploy a build of the specified *-->
+<!--*    APIs to a specified server. The useful targets are as follows:              *-->
+<!--*                                                                                *-->
+<!--*    deploy         - Deploys a build to a server.                               *-->
+<!--*    ping           - Pings a server to see if it is running.                    *-->
+<!--*                                                                                *-->
+<!--* PROPERTIES:                                                                    *-->
+<!--*    api.type                - The API type being built. Valid values are:       *-->
+<!--*                                  gbapi - Genome Browser APIs                   *-->
+<!--*                                  capi  - Internal APIs                           *-->
+<!--*                              The type is passed in on the command line.        *-->
+<!--*    api.home.dir            - The home directory in which all builds are done.  *-->
+<!--*    api.build.dir           - The build subdirectory.                           *-->
+<!--*    api.root.dir            - The fully-qualified root build directory.         *-->
+<!--*    api.deploy.dir          - The host directory in which the build JAR files   *-->
+<!--*                              will be deployed.                                 *-->
+<!--*    api.src.dir             - The directory containing Java source files.       *-->
+<!--*    api.bin.dir             - The directory containing shell scripts, class     *-->
+<!--*                              files, JAR files, and resource files.             *-->
+<!--*    api.lib.dir             - The directory containing third-party JAR and ZIP  *-->
+<!--*                              files.                                            *-->
+<!--*    api.temp.dir            - The temporary directory used to hold files to be  *-->
+<!--*                              deployed to a server.                             *-->
+<!--*    api.host.name           - The name of the host.                             *-->
+<!--*    api.host.port           - The port number of the host.                      *-->
+<!--*    api.host.dir            - The remote base deployment directory on the host. *-->
+<!--*    api.ids.version         - The IDS schema version the build is targeting.    *-->
+<!--*    api.sql.script.name     - The name of the IDS deployment script.            *-->
+<!--*    api.jar.files           - The patternset used to copy API JAR file from     *-->
+<!--*                              the bin directory to the temporary deployment     *-->
+<!--*                              directory for deployment to a server.             *-->
+<!--*    api.deploy.files        - The patternset used to identify files to be       *-->
+<!--*                              deployed to a server.                             *-->
+<!--*    api.jsp.files           - The patternset used to identify JSP files to be   *-->
+<!--*                              deployed to a server.                             *-->
+<!--*    api.image.files         - The patternset used to identify graphics image    *-->
+<!--*                              files to be deployed to a server.                 *-->
+<!--*    vendor.jar.files        - The patternset used to copy the third-party JAR   *-->
+<!--*                              files from the lib directory to the temporary     *-->
+<!--*                              deployment directory for deployment to a server.  *-->
+<!--*    api.interactive.blast   - The patternset used to copy blast scripts from    *-->
+<!--*                              the bin/cmd/server directory to the temporary     *-->
+<!--*                              deployment directory for deployment to a server.  *-->
+<!--*    api.interactive.blast.deploy                                                *-->
+<!--*                             - The patternset used to select the files from     *-->
+<!--*                              the temporary deployment directory that should be *-->
+<!--*                              deployed to a server for interactive blast        *-->
+<!--*                                                                                *-->
+<!--*                                                                                *-->
+<!--*    api.client.jar.exists   - The client EJB interface JAR file exists in the   *-->
+<!--*                              current or specified build directory.             *-->
+<!--*    api.impls.jar.exists    - The implementation JAR file exists in the current *-->
+<!--*                              or specified build directory.                     *-->
+<!--*    api.inter.jar.exists    - The interfaces JAR file exists in the current or  *-->
+<!--*                              specified build directory.                        *-->
+<!--*    api.res.jar.exists      - The resource JAR file exists in the current or    *-->
+<!--*                              specified build directory.                        *-->
+<!--*    api.stubs.jar.exists    - The client stubs JAR file exists in the current   *-->
+<!--*                              or specified build directory.                     *-->
+<!--*    build.dir.exists        - The build directory exists.                       *-->
+<!--*    temp.dir.exists         - The temporary deployment directory exists.        *-->
+<!--*                                                                                *-->
+<!--*                                                                                *-->
+<!--*    wl.home                 - The home directory location of WebLogic.          *-->
+<!--*    wl.login.id             - The admin login for the WebLogic server.          *-->
+<!--*    wl.login.passwd         - The admin password for the WebLogic servers.      *-->
+<!--*                                                                                *-->
+<!--*                                                                                *-->
+<!--*    ftp.login.id            - The ftp login for the deployment host.            *-->
+<!--*    ftp.login.passwd        - The ftp login password for the deployment host.   *-->
+<!--*                                                                                *-->
+<!--*                                                                                *-->
+<!--*    ora.login.id            - The Oracle login for the deployment database.     *-->
+<!--*    ora.login.passwd        - The Oracle login password for the deployment      *-->
+<!--*                              database.                                         *-->
+<!--*    ora.sid.name            - The Oracle instance containing the deployment     *-->
+<!--*                              database.                                         *-->
+<!--*================================================================================*-->
+
+<project name="api-deploy" default="deploy-all" basedir=".">
+
+   <!--*===================================================================*-->
+   <!--* Taskdef: FTP. Declare the ftp task from the Ant optional task     *-->
+   <!--* JAR file.                                                         *-->
+   <!--*===================================================================*-->
+   <taskdef name="ftp" classname="org.apache.tools.ant.taskdefs.optional.FTP"/>
+
+   <!--*===================================================================*-->
+   <!--* Taskdef: WLRun. Declare the WLRun task from the Ant optional task *-->
+   <!--* JAR file.                                                         *-->
+   <!--*===================================================================*-->
+   <taskdef name="wlrun" classname="org.apache.tools.ant.taskdefs.optional.ejb.WLRun"/>
+
+   <!--*===================================================================*-->
+   <!--* Target: deploy-all. Deploys an API build to the specified server. *-->
+   <!--*===================================================================*-->
+   <target name="deploy-all" depends="ejb-deploy"/>
+
+   <!--*===================================================================*-->
+   <!--* Target: ejb-deploy. Deploys an API build to the specified server. *-->
+   <!--*===================================================================*-->
+   <target name="ejb-deploy" if="api.type" depends="init,replace-build-name,deploy-jars,deploy-jsp,deploy-iblast">
+      <echo message="Deployment of ${api.type} build to host ${api.host.name}:${api.host.port} is complete..."/>
+   </target>
+
+
+
+   <!--*===================================================================*-->
+   <!--* Target: ping. Pings the specified WebLogic server.                *-->
+   <!--*===================================================================*-->
+   <target name="ping" depends="init,wl-ping">
+      <echo message="Ping of server ${api.host.name}:${api.host.port} is complete..."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: sql-deploy. Deploys the API PL/SQL code to the specified  *-->
+   <!--* database instance and schema.                                     *-->
+   <!--*===================================================================*-->
+   <target name="sql-deploy" depends="init,deploy-sql">
+      <echo message="Deployment of PL/SQL to Oracle instance ${ora.sid.name} shcema ${ora.login.id} is complete..."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: init. Initializes the build environment.                  *-->
+   <!--*===================================================================*-->
+   <target name="init" depends="init-props">
+
+      <!--*================================================================*-->
+      <!--* Initialize APIary build environment properties.                *-->
+      <!--*================================================================*-->
+      <property name="api.home.dir" value="${user.home}/builds"/>
+      <property name="api.root.dir" value="${api.home.dir}/${api.build.dir}"/>
+      <property name="api.src.dir" value="${api.root.dir}/src"/>
+      <property name="api.bin.dir" value="${api.root.dir}/bin"/>
+      <property name="api.lib.dir" value="${api.root.dir}/lib"/>
+      <property name="api.temp.dir" value="${api.bin.dir}/tmp_deploy"/>
+      <property name="api.ids.version" value="3_1"/>
+      <property name="api.host.dir" value="/app/weblogic"/>
+      <property name="api.host.name" value="line5.Internal.com"/>
+      <property name="api.host.port" value="7001"/>
+      <property name="api.deploy.dir" value="${api.host.dir}/Internal/${api.type}"/>
+      <property name="api.sql.script.name" value="api_ids_development.sql"/>
+
+      <!--*================================================================*-->
+      <!--* Check for the existence of JAR files built previously.         *-->
+      <!--*================================================================*-->
+      <!-- available file="${api.bin.dir}/${api.type}_client.jar" property="api.client.jar.exists" value="true" -->
+      <property name="api.client.jar.exists" value="true"/>
+      <available file="${api.bin.dir}/${api.type}_impls.jar" property="api.impls.jar.exists" value="true"/>
+      <available file="${api.bin.dir}/${api.type}_interfaces.jar" property="api.inter.jar.exists" value="true"/>
+      <available file="${api.bin.dir}/${api.type}_resource.jar" property="api.res.jar.exists" value="true"/>
+
+      <available file="${api.bin.dir}/${api.type}_stubs.jar" property="api.stubs.jar.exists" value="true"/>
+      <available file="${api.bin.dir}/FeatureServlet.jar" property="api.featureservlet.jar.exists" value="true"/>
+
+      <!--*================================================================*-->
+      <!--* Check for the existence of the build directory.                *-->
+      <!--*================================================================*-->
+      <available file="${api.root.dir}" property="build.dir.exists" value="true"/>
+      <available file="${api.temp.dir}" property="temp.dir.exists" value="true"/>
+
+      <echo message="Deployment environment has been initialized..."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.jar.files. The patternset used to identify the    *-->
+   <!--* API build JAR files to be deployed to a server.                   *-->
+   <!--*===================================================================*-->
+   <patternset id="api.jar.files">
+      <include name="${api.type}*.jar"/>
+      <include name="FeatureServlet.jar"/>
+      <include name="${api.type}*.zip"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.deploy.files. The patternset used to identify the *-->
+   <!--* files to be deployed to a server.                                 *-->
+   <!--*===================================================================*-->
+   <patternset id="api.deploy.files">
+      <include name="*.jar"/>
+      <include name="*.zip"/>
+      <include name="*.jsp"/>
+      <include name="**/images/*.gif"/>
+      <include name="**/images/*.jpg"/>
+      <include name="DeployedBuild.properties"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.jsp.files. The patternset used to identify the    *-->
+   <!--* JSP files to be deployed to a server.                             *-->
+   <!--*===================================================================*-->
+   <patternset id="api.jsp.files">
+      <include name="**/com/Internal/jsp/*.jsp"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.image.files. The patternset used to identify the  *-->
+   <!--* graphics image files to be deployed to a server.                  *-->
+   <!--*===================================================================*-->
+   <patternset id="api.image.files">
+      <include name="**/com/Internal/jsp/images/*.jpg"/>
+      <include name="**/com/Internal/jsp/images/*.gif"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.src.jar.files. The patternset used to copy the    *-->
+   <!--* third-party JAR files from the lib directory to the bin directory *-->
+   <!--* for deployment to a server.                                       *-->
+   <!--*===================================================================*-->
+   <patternset id="vendor.jar.files">
+      <include name="**/client/xml/*.jar"/>
+      <include name="**/server/mail/*.jar"/>
+      <include name="**/server/rdbms/jdbc/oracle/*.zip"/>
+      <include name="**/server/xml/*.jar"/>
+      <include name="**/server/erights/*.jar"/>
+   </patternset>
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.interactive.blast. The patternset used to copy    *-->
+   <!--* the perl, sh and sql scripts required to run interactive blast    *-->
+   <!--* to the interactive_blast directory for deployment to a server     *-->
+   <!--*===================================================================*-->
+   <patternset id="api.interactive.blast">
+      <include name="cps/*.*"/>
+      <include name="wisecfg/*.*"/>
+      <include name="*.pl"/>
+      <include name="*.sh"/>
+      <include name="conv_axis_seq_to_fasta.sh"/>
+      <include name="get_axis_fasta.sql"/>
+   </patternset>
+
+   <!--*===================================================================*-->
+   <!--* Patternset: api.interactive.blast. The patternset used to list    *-->
+   <!--* the perl, sh and sql scripts that should be copied from the temp  *-->
+   <!--* build directory to the target server for deployment               *-->
+   <!--*===================================================================*-->
+   <patternset id="api.interactive.blast.deploy">
+      <include name="**/*.*"/>
+      <include name="DeployedBuild.properties"/>
+   </patternset>
+
+   <!--*===================================================================*-->
+   <!--* Target: init-props. Initializes properties.                       *-->
+   <!--*===================================================================*-->
+   <target name="init-props">
+      <tstamp/>
+
+      <!--*================================================================*-->
+      <!--* Allow property overrides.                                      *-->
+      <!--*================================================================*-->
+      <property file="${api.props.file}"/>
+
+      <!--*================================================================*-->
+      <!--* Initialize tool properties that have not been set.             *-->
+      <!--*================================================================*-->
+      <property name="java.home" value="/usr/java"/>
+
+      <property name="wl.home" value="/app/weblogic"/>
+      <property name="wl.login.id" value="system"/>
+      <property name="wl.login.passwd" value="password"/>
+
+      <property name="ftp.login.id" value="wlsadmin"/>
+      <property name="ftp.login.passwd" value="GoAway"/>
+
+      <property name="ora.login.id" value="viz_prod"/>
+      <property name="ora.login.passwd" value="appserver"/>
+      <property name="ora.sid.name" value="DEV_VIZ"/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: replace-build-name. Sets the build name in the deployment *-->
+   <!--* file used to query the server for the deployed build.             *-->
+   <!--*===================================================================*-->
+   <target name="replace-build-name" depends="init">
+      <copy file="${api.bin.dir}/resource/server/shared/DeployedBuild.properties"
+         todir="${api.bin.dir}"
+         overwrite="yes"
+      />
+
+      <replace file="${api.bin.dir}/DeployedBuild.properties"
+         token="@@@@"
+         value="${api.build.dir}"
+      />
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: deploy-jars. Deploys build JAR files to the host server. (featureservlet-jar-exists removed for BRA) *-->
+   <!--*===================================================================*-->
+   <target name="deploy-jars" depends="client-jar-exists,impls-jar-exists,inter-jar-exists,res-jar-exists,stubs-jar-exists,make-temp-dir">
+      <echo message="Starting deployment of ${api.type} to server ${api.host.name}:${api.host.port} at ${DSTAMP}-${TSTAMP}..."/>
+      <echo message="Deploying JAR files for ${api.type} build ${api.build.dir}..."/>
+
+      <!--*================================================================*-->
+      <!--* Copy API JAR files to temporary deployment directory.          *-->
+      <!--*================================================================*-->
+      <copy todir="${api.temp.dir}" flatten="yes" overwrite="yes">
+         <fileset dir="${api.bin.dir}">
+            <patternset refid="api.jar.files"/>
+         </fileset>
+      </copy>
+
+      <!--*================================================================*-->
+      <!--* Copy third-party JAR files to temporary deployment directory.  *-->
+      <!--*================================================================*-->
+      <copy todir="${api.temp.dir}" flatten="yes" overwrite="yes">
+         <fileset dir="${api.lib.dir}">
+            <patternset refid="vendor.jar.files"/>
+         </fileset>
+      </copy>
+
+      <!--*================================================================*-->
+      <!--* Deploy JAR and ZIP files to server.                            *-->
+      <!--*================================================================*-->
+      <ftp server="${api.host.name}"
+         remotedir="${api.deploy.dir}"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${api.temp.dir}">
+            <patternset refid="api.deploy.files"/>
+         </fileset>
+      </ftp>
+
+      <!--*================================================================*-->
+      <!--* Delete the temporary deployment directory.                     *-->
+      <!--*================================================================*-->
+      <delete dir="${api.temp.dir}"/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: client-jar-exists. Determines if the client EJB interface *-->
+   <!--* JAR exists.                                                       *-->
+   <!--*===================================================================*-->
+   <target name="client-jar-exists" unless="api.client.jar.exists">
+      <fail message="ERROR: The client EJB interface JAR does not exist. Please rebuild before deploying."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: impls-jar-exists. Determines if the EJB implementation    *-->
+   <!--* JAR exists.                                                       *-->
+   <!--*===================================================================*-->
+   <target name="impls-jar-exists" unless="api.impls.jar.exists">
+      <fail message="ERROR: The EJB implementation JAR does not exist. Please rebuild before deploying."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: featureservlet-jar-exists. Determines if the FeatureServlet Jar exists.   *-->
+   <!--*===================================================================*-->
+   <target name="featureservlet-jar-exists" unless="api.featureservlet.jar.exists">
+      <fail message="ERROR: The FeatureServlet JAR does not exist. Please rebuild before deploying."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: inter-jar-exists. Determines if the EJB interfaces JAR    *-->
+   <!--* exists.                                                           *-->
+   <!--*===================================================================*-->
+   <target name="inter-jar-exists" unless="api.inter.jar.exists">
+      <fail message="ERROR: The EJB interfaces JAR does not exist. Please rebuild before deploying."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: res-jar-exists. Determines if the EJB server resources    *-->
+   <!--* JAR exists.                                                       *-->
+   <!--*===================================================================*-->
+   <target name="res-jar-exists" unless="api.res.jar.exists">
+      <fail message="ERROR: The EJB server resources JAR does not exist. Please rebuild before deploying."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: stubs-jar-exists. Determines if the EJB client stubs JAR  *-->
+   <!--* exists.                                                           *-->
+   <!--*===================================================================*-->
+   <target name="stubs-jar-exists" unless="api.stubs.jar.exists">
+      <fail message="ERROR: The EJB client stubs JAR does not exist. Please rebuild before deploying."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: deploy-jsp. Deploys build JSP files to the host server.   *-->
+   <!--*===================================================================*-->
+   <target name="deploy-jsp" depends="make-temp-dir">
+      <echo message="Deploying JSP files for ${api.type} build ${api.build.dir}..."/>
+
+      <!--*================================================================*-->
+      <!--* Copy JSP files to bin directory.                               *-->
+      <!--*================================================================*-->
+      <copy todir="${api.temp.dir}" flatten="yes" overwrite="yes">
+         <fileset dir="${api.src.dir}">
+            <patternset refid="api.jsp.files"/>
+         </fileset>
+      </copy>
+
+      <!--*================================================================*-->
+      <!--* Copy JSP image files to bin directory.                         *-->
+      <!--*================================================================*-->
+      <mkdir dir="${api.temp.dir}/images"/>
+
+      <copy todir="${api.temp.dir}/images" flatten="yes" overwrite="yes">
+         <fileset dir="${api.src.dir}">
+            <patternset refid="api.image.files"/>
+         </fileset>
+      </copy>
+
+      <!--*================================================================*-->
+      <!--* Deploy JSP files to server.                                    *-->
+      <!--*================================================================*-->
+      <ftp server="${api.host.name}"
+         remotedir="${api.deploy.dir}/public_html"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${api.temp.dir}">
+            <patternset refid="api.deploy.files"/>
+         </fileset>
+      </ftp>
+
+      <!--*================================================================*-->
+      <!--* Delete the temporary deployment directory.                     *-->
+      <!--*================================================================*-->
+      <delete dir="${api.temp.dir}"/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: make-temp-dir. Creates the temporary directory that will  *-->
+   <!--* hold all deployment files.                                        *-->
+   <!--*===================================================================*-->
+   <target name="make-temp-dir" unless="temp.dir.exists">
+      <mkdir dir="${api.temp.dir}"/>
+   </target>
+
+   <!--*===================================================================*-->
+   <!--* Target: deploy-iblast. Deploys interactive blast files to the     *-->
+   <!--*     host server.                       *-->
+   <!--*===================================================================*-->
+   <target name="deploy-iblast" depends="make-temp-dir">
+      <echo message="Deploying interactive blast files for ${api.type} build ${api.build.dir}..."/>
+
+      <!--*================================================================*-->
+      <!--* Copy interactive blast files to the blast directory.           *-->
+      <!--*================================================================*-->
+      <mkdir dir="${api.temp.dir}/interactive_blast"/>
+      <mkdir dir="${api.temp.dir}/interactive_blast/tmp"/>
+
+      <copy todir="${api.temp.dir}/interactive_blast" flatten="no" overwrite="yes">
+         <fileset dir="${api.bin.dir}/cmd/server/">
+            <patternset refid="api.interactive.blast"/>
+         </fileset>
+      </copy>
+
+      <!--*================================================================*-->
+      <!--* Deploy interactive blast scripts to server.                    *-->
+      <!--*================================================================*-->
+      <ftp server="${api.host.name}"
+         remotedir="${api.deploy.dir}"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="no"
+         verbose="yes">
+         <fileset dir="${api.temp.dir}">
+            <patternset refid="api.interactive.blast.deploy"/>
+         </fileset>
+      </ftp>
+
+      <!--*================================================================*-->
+      <!--* Delete the temporary deployment directory.                     *-->
+      <!--*================================================================*-->
+      <!--delete dir="${api.temp.dir}"/-->
+   </target>
+
+   <!--*===================================================================*-->
+   <!--* Target: wl-ping. Pings the specified WebLogic server.             *-->
+   <!--*===================================================================*-->
+   <target name="wl-ping">
+      <echo message="Pinging server ${api.host.name}:${api.host.port}..."/>
+      <java classname="weblogic.Admin"
+         classpath="${classpath}"
+         fork="yes">
+         <jvmarg value="-Dweblogic.security.SSL.useJava=true"/>
+         <arg value="t3://${api.host.name}:${api.host.port}"/>
+         <arg value="PING"/>
+         <arg value="${wl.login.id}"/>
+         <arg value="${wl.login.passwd}"/>
+         <arg value="1"/>
+         <arg value="1032"/>
+         <classpath>
+            <pathelement location="${wl.home}/classes"/>
+            <pathelement location="${wl.home}/lib/weblogicaux.jar"/>
+         </classpath>
+      </java>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: deploy-sql. Deploys the PL/SQL code to the specified      *-->
+   <!--* Oracle instance and schema.                                       *-->
+   <!--*===================================================================*-->
+   <target name="deploy-sql">
+      <echo message="${api.root.dir}/sql/oracle/${api.ids.version}"/>
+      <exec dir="${api.root.dir}/sql/oracle/${api.ids.version}" executable="sqlplus">
+         <arg line="${ora.login.id}/${ora.login.passwd}@${ora.sid.name} @${api.sql.script.name}"/>
+      </exec>
+   </target>
+</project>
+

@@ -1,0 +1,175 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="1.001">
+	<!-- Hi Guys -->
+	<!-- THIS IS AN INTERNAL Anno  XML
+		 GENERATED ON  7 3 100
+		 Questions? Comments?
+		 Contact: Mark Yandell
+		 -->
+	<annotation id="3">
+		<name>
+			CG3
+		</name>
+		<feature_set id="MARIAN:78000008559634">
+			<type>
+				TRANSCRIPT
+			</type>
+			<name>
+				CT3
+			</name>
+			<comment>
+				END NOT FOUND
+			</comment>
+			<author>
+				Otto
+			</author>
+			<creation_date>
+				965305179
+			</creation_date>
+			<feature_span id="MARIAN:78000008559646">
+				<type>
+					TranslationStart
+				</type>
+				<seq_relationship type="query" id="INTERNAL:3000161329566">
+					<span>
+						<start>
+							73669
+						</start>
+						<end>
+							73666
+						</end>
+					</span>
+				</seq_relationship>
+			</feature_span>
+			<feature_span id="MARIAN:78000008559635">
+				<type>
+					Exon
+				</type>
+				<seq_relationship type="query" id="INTERNAL:3000161329566">
+					<span>
+						<start>
+							73669
+						</start>
+						<end>
+							73381
+						</end>
+					</span>
+				</seq_relationship>
+				<evidence type="homology" result="MARIAN:78000008556741"></evidence>
+			</feature_span>
+			<feature_span id="MARIAN:78000008559636">
+				<type>
+					Exon
+				</type>
+				<seq_relationship type="query" id="INTERNAL:3000161329566">
+					<span>
+						<start>
+							73245
+						</start>
+						<end>
+							73029
+						</end>
+					</span>
+				</seq_relationship>
+				<evidence type="homology" result="MARIAN:78000008556741"></evidence>
+			</feature_span>
+			<feature_span id="MARIAN:78000008559637">
+				<type>
+					Exon
+				</type>
+				<seq_relationship type="query" id="INTERNAL:3000161329566">
+					<span>
+						<start>
+							72893
+						</start>
+						<end>
+							72731
+						</end>
+					</span>
+				</seq_relationship>
+				<evidence type="homology" result="MARIAN:78000008556743"></evidence>
+			</feature_span>
+		</feature_set>
+	</annotation>
+	<annotation id="4">
+		<name>
+			CG4
+		</name>
+		<feature_set id="78000008559644">
+			<name>
+				CT4
+			</name>
+			<type>
+				TRANSCRIPT
+			</type>
+			<comment>
+				START AND END NOT FOUND
+			</comment>
+			<author>
+				Otto
+			</author>
+			<creation_date>
+				965305179
+			</creation_date>
+			<feature_span id="MARIAN:78000008559647">
+				<type>
+					TranslationStart
+				</type>
+				<seq_relationship type="query" id="INTERNAL:3000161329566">
+					<span>
+						<start>
+							719040
+						</start>
+						<end>
+							719037
+						</end>
+					</span>
+				</seq_relationship>
+			</feature_span>
+			<feature_span id="78000008559645">
+				<type>
+					Exon
+				</type>
+				<seq_relationship type="query" id="INTERNAL:3000161329566">
+					<span>
+						<start>
+							719040
+						</start>
+						<end>
+							718847
+						</end>
+					</span>
+				</seq_relationship>
+				<evidence type="homology" result="MARIAN:78000008556807"></evidence>
+				<evidence type="homology" result="MARIAN:78000008556835"></evidence>
+				<evidence type="homology" result="MARIAN:78000008556809"></evidence>
+				<evidence type="homology" result="MARIAN:78000008556821"></evidence>
+				<evidence type="homology" result="MARIAN:78000008557101"></evidence>
+				<evidence type="homology" result="MARIAN:78000008557111"></evidence>
+				<evidence type="homology" result="MARIAN:78000008557123"></evidence>
+				<evidence type="homology" result="MARIAN:78000008557147"></evidence>
+				<evidence type="homology" result="MARIAN:78000008557365"></evidence>
+			</feature_span>
+		</feature_set>
+	</annotation>
+</game>

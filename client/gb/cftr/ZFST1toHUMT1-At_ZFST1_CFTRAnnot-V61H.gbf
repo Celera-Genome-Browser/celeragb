@@ -1,0 +1,9 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Homo Sapiens CFTR Region">
+  <!-- Features converted from ATA format -->
+  <computational_analysis id="CELERA:30000103949923">
+    <date day="15" month="03" year="2004"></date>
+    <program>At:zebrafish_CFTR_anno</program>
+    <version>2.6</version>
+    <type>BLASTN_HIT</type>
+  </computational_analysis>
+</game>

@@ -1,0 +1,170 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="1.001">
+	<!-- Hi Guys -->
+	<!-- THIS IS A INTERNAL TRANSPORT FEATURE FILE FOR WORKSPACE INTERCHANGE
+
+		 -->
+	<seq length="17020" focus="true" type="DNA" id="INTERNAL:17000017770305">
+		<dbxref>
+			NO_GI
+		</dbxref>
+		<description>
+			17000017770305
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005075591">
+		<dbxref>
+			1943772
+		</dbxref>
+		<description>
+			 (U97191) strong similarity to the YPT1 sub-family of RAS proteins
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005010087">
+		<dbxref>
+			1065501
+		</dbxref>
+		<description>
+			|gb|AAA81420.1| (U40417) similar to keratin and rod-like tail region of G. gallus myosin heavy chain, gizzard smooth muscle (SP:MYSG_CHICK, P10587)
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000004982671">
+		<dbxref>
+			4758986
+		</dbxref>
+		<description>
+			|ref|NP_004209.1|pRAB11B| RAB11B, member RAS oncogene family
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005044466">
+		<dbxref>
+			1503990
+		</dbxref>
+		<description>
+			|dbj|BAA13194| (D86958) similar to mouse CC1.
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000004929800">
+		<dbxref>
+			1082693
+		</dbxref>
+		<description>
+			 phosphotyrosyl phosphatase activator PTPA - human
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000004986476">
+		<dbxref>
+			1176710
+		</dbxref>
+		<description>
+			 GTP-BINDING PROTEIN YPT1 (PROTEIN YP2)
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005035440">
+		<dbxref>
+			2132210
+		</dbxref>
+		<description>
+			 hypothetical protein YPL152w - yeast (Saccharomyces cerevisiae)
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000004910262">
+		<dbxref>
+			586807
+		</dbxref>
+		<description>
+			 GTP-BINDING PROTEIN YPT8
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005035348">
+		<dbxref>
+			3024501
+		</dbxref>
+		<description>
+			 RAS-RELATED PROTEIN RAB11C
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005100478">
+		<dbxref>
+			2388975
+		</dbxref>
+		<description>
+			|emb|CAB11707| (Z98980) phosphotyrosyl phosphatase activator
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005093864">
+		<dbxref>
+			2313035
+		</dbxref>
+		<description>
+			|dbj|BAA21706| (D84313) rab2
+		</description>
+	</seq>
+	<seq type="AA" id="WORKSPACE:18000005037351">
+		<dbxref>
+			1403305
+		</dbxref>
+		<description>
+			|emb|CAA67051| (X98401) phosphotyrosyl phosphatase activator
+		</description>
+	</seq>
+<!-- Borrowed from the merge.gbw file. -->
+ <feature_set id= "WORKSPACE:7">
+ <name> WT5</name>
+  <type>TRANSCRIPT</type>
+  <replaced type="unmodified" id="INTERNAL:1700017770309"/>
+  <feature_span id="WORKSPACE:11">
+     <type>EXON</type>
+     <seq_relationship id="INTERNAL:17000017770305" type="query">
+        <span>
+           <start>5107</start>
+           <end>6352</end>
+        </span>
+     </seq_relationship>
+     <evidence result="INTERNAL:27000007891888">
+     </evidence>
+  </feature_span>
+  <feature_span id="WORKSPACE:12">
+     <type>EXON</type>
+     <seq_relationship id="INTERNAL:17000017770305" type="query">
+        <span>
+           <start>12394</start>
+           <end>12816</end>
+        </span>
+     </seq_relationship>
+     <evidence result="INTERNAL:49000011094504">
+     </evidence>
+  </feature_span>
+  <feature_span id="WORKSPACE:13">
+     <type>EXON</type>
+     <seq_relationship id="INTERNAL:17000017770305" type="query">
+        <span>
+           <start>13517</start>
+           <end>13889</end>
+        </span>
+     </seq_relationship>
+     <evidence result="INTERNAL:49000011094505">
+     </evidence>
+  </feature_span>
+</feature_set>
+</game>

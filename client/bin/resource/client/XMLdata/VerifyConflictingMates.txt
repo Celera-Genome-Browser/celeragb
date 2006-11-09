@@ -1,0 +1,210 @@
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Copyright (c) 1999 - 2006 Applera Corporation.
+# 301 Merritt 7 
+# P.O. Box 5435 
+# Norwalk, CT 06856-5435 USA
+#
+# This is free software; you can redistribute it and/or modify it under the 
+# terms of the GNU Lesser General Public License as published by the 
+# Free Software Foundation; version 2.1 of the License.
+#
+# This software is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. 
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License 
+# along with this software; if not, write to the Free Software Foundation, Inc.
+# 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+select distinct cl.contig_1_id 
+into
+ #contigs_in_scaff
+from
+	Best_Guess_Scaffold bgs,
+	Best_Guess_Scaffold_Edge bgse,
+	Contig_Link cl
+where
+	bgs.best_guess_scaffold_id = 3000068105605
+	and
+	bgs.best_guess_scaffold_id  = bgse.best_guess_scaffold_id  
+	and
+	bgse.contig_link_id = cl.contig_link_id
+ 
+--3000066595595 
+--3000068105605 
+
+
+
+
+
+select 
+	cis.contig_1_id, count (cf.fragment_id) 
+from 
+	Assembly_Contig ac,
+	#contigs_in_scaff cis, 
+	Contig_Fragment cf, 
+	Fragment f, 
+	Fragment_Relation fr
+where
+	ac.assembly_version = 933950249
+	and
+	ac.contig_id = cis.contig_1_id
+	and
+	ac.contig_id = cf.contig_id
+	and
+	cis.contig_1_id = cf.contig_id 
+	and
+	cf.fragment_id = f.fragment_id
+	and
+	fr.fragment_id_1 = f.fragment_id
+	and
+	fr.fragment_id_1 = cf.fragment_id
+	and
+	f.mate_status = 0
+
+
+contig_1_id                        
+---------------------- ----------- 
+         3000068102922          39 
+         3000068102923          20 
+         3000068102924          42 
+         3000068102925          37 
+         3000068102926          76 
+         3000068102927          29 
+         3000068102928          35 
+         3000068102929          19 
+         3000068102930          36 
+         3000068102931          71 
+         3000068102932         123 
+         3000068102933          46 
+         3000068102934           1 
+         3000068102935          49 
+         3000068102936          60 
+         3000068102937          78 
+         3000068102938          36 
+         3000068102939         133 
+         3000068102940          40 
+         3000068102941          51 
+         3000068102942          33 
+         3000068102943          29
+
+
+
+#
+# Used this to get the number of bad mates for the last contig
+#
+select 
+	count (cf.fragment_id) 
+from 
+	Assembly_Contig ac,
+	--#contigs_in_scaff cis, 
+	Contig_Fragment cf, 
+	Fragment f, 
+	Fragment_Relation fr
+where
+	ac.assembly_version = 933950249
+	and
+	--ac.contig_id = cis.contig_1_id
+	ac.contig_id = 3000068102944
+	and
+	ac.contig_id = cf.contig_id
+	--and
+	--cis.contig_1_id = cf.contig_id 
+	and
+	cf.fragment_id = f.fragment_id
+	and
+	fr.fragment_id_1 = f.fragment_id
+	and
+	fr.fragment_id_1 = cf.fragment_id
+	and
+	f.mate_status = 0
+
+	 3000068102944		20 
+
+#
+# Therefore there are roughly 2003 fragments aligned under contigs
+# in scaffold 3000068105605 of assembly 933950249
+#
+# Therefore mate pairs should fall to at least half that number - currently
+# the screen is showing a lot less than this because only mates where both
+# fragments fall under contigs in the scaffold are being shown
+
+
+
+
+#
+# other frag for fragments under contig 3000068102922
+#
+
+
+fragment_id_2          contig_id              gapped_frag_consensus_start 
+---------------------- ---------------------- --------------------------- 
+         3000068045683          3000068102939                      107540 
+         3000068051371          3000068102930                       82769 
+         3000068067333          3000068103120                         303 
+         3000068037169          3000068103120                         387 
+         3000068029049          3000068103120                         270 
+         3000068064242          3000068102929                        2998 
+         3000068063023          3000068102937                      166008 
+         3000068057668          3000068103297                           8 
+         3000068069485          3000068103120                         478 
+         3000068062340          3000068103120                         349 
+         3000068069945          3000068102940                       51347 
+         3000068065053          3000068104031                           0 
+         3000068077527          3000068103413                         382 
+         3000068070774          3000068102935                       67753 
+         3000068025189          3000068102933                       35308 
+         3000068044394          3000068102939                      158196 
+         3000068026254          3000068104481                           0 
+         3000068028230          3000068103120                         138 
+         3000068079841          3000068102925                        5783 
+         3000068044870          3000068102936                      117066 
+         3000068079138          3000068102939                       42642 
+         3000068050804          3000068102939                      413133 
+         3000068064688          3000068102928                       18395 
+         3000068057003          3000068102941                       43786 
+         3000068058545          3000068104487                           0 
+         3000068077949          3000068104336                           0 
+         3000068081337          3000068102932                      408058 
+         3000068071665          3000068102936                       22324 
+         3000068077961          3000068104337                           0 
+         3000068083609          3000068102937                      158066 
+         3000068036253          3000068102933                       47273 
+
+
+#
+# Try to find which scaffold the contigs of some of the fragments belong to
+# when those contigs are not in the same scaffold as thier mate
+#
+select assembly_version from Assembly_Contig where contig_id = 3000068103120 
+
+gives
+
+933950249
+
+then
+
+select distinct contig_link_id from Contig_Link
+where contig_1_id = 3000068103120 or contig_2_id = 3000068103120
+
+gives
+
+contig_link_id         
+---------------------- 
+         3000068104518 
+         3000068104519 
+         3000068104538 
+
+
+I would then expect to be able to take the contig_link id and find the scaffold in which
+the link exists but get no rows. Realise that this is because the link exists in the scaffold
+NOT the best guess scaffold (i.e. the Scaffold Path).
+
+Question for Saul Kravitz
+
+Will fragments in a mate pair with one mate outside the scaffold always have the other
+mate under a contig in a defined scaffold path or will the other contig sometimes fall
+within a contig that is only part of the scaffold. I guess that we can control this by
+making all orphan contigs also a scaffold with one contig in them?
+

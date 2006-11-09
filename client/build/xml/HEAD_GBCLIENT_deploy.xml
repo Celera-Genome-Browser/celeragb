@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<!--*================================================================================*-->
+<!--* FILE:                                                                          *-->
+<!--*    gbclient_deploy.xml                                                         *-->
+<!--* DESCRIPTION:                                                                   *-->
+<!--*    XML deploy instructions file used by Ant to deploy a build of the specified *-->
+<!--*    gbclients to a specified server. The useful targets are as follows:         *-->
+<!--*                                                                                *-->
+<!--*    deploy         - Deploys a build to a server.                               *-->
+<!--*                                                                                *-->
+<!--* PROPERTIES:                                                                    *-->
+<!--*    api.type           - The type is passed in on the command line.        *-->
+<!--*    api.home.dir            - The home directory in which all builds are done.  *-->
+<!--*    api.build.dir           - The build subdirectory.                           *-->
+<!--*    gbclient.root.dir            - The fully-qualified root build directory.         *-->
+<!--*    gbclient.deploy.dir          - The host directory in which the build JAR files   *-->
+<!--*                                   will be deployed.                                 *-->
+<!--*    gbclient.src.dir             - The directory containing Java source files.       *-->
+<!--*    gbclient.bin.dir             - The directory containing shell scripts, class     *-->
+<!--*                                   files, JAR files, and resource files.             *-->
+<!--*    gbclient.lib.dir             - The directory containing third-party JAR and ZIP  *-->
+<!--*                                   files.                                            *-->
+<!--*    api.host.name           - The name of the host.                             *-->
+<!--*    api.host.port           - The port number of the host.                      *-->
+<!--*    api.host.dir            - The remote base deployment directory on the host. *-->
+<!--*                                                                                *-->
+<!--*    build.dir.exists        - The build directory exists.                       *-->
+<!--*                                                                                *-->
+<!--*    wl.home                 - The home directory location of WebLogic.          *-->
+<!--*    wl.login.id             - The admin login for the WebLogic server.          *-->
+<!--*    wl.login.passwd         - The admin password for the WebLogic servers.      *-->
+<!--*                                                                                *-->
+<!--*                                                                                *-->
+<!--*    ftp.login.id            - The ftp login for the deployment host.            *-->
+<!--*    ftp.login.passwd        - The ftp login password for the deployment host.   *-->
+<!--*                                                                                *-->
+<!--*                                                                                *-->
+<!--*================================================================================*-->
+
+<project name="gbclient-deploy" default="deploy-all" basedir=".">
+
+   <!--*===================================================================*-->
+   <!--* Taskdef: FTP. Declare the ftp task from the Ant optional task     *-->
+   <!--* JAR file.                                                         *-->
+   <!--*===================================================================*-->
+   <taskdef name="ftp" classname="org.apache.tools.ant.taskdefs.optional.FTP"/>
+
+   <!--*===================================================================*-->
+   <!--* Target: init. Initializes the build environment.                  *-->
+   <!--*===================================================================*-->
+   <target name="init" depends="init-props">
+
+      <!--*================================================================*-->
+      <!--* Initialize APIary build environment properties.                *-->
+      <!--*================================================================*-->
+      <property name="gbclient.deployname.file" value="DeployedClientBuild.properties"/>
+      <property name="api.home.dir" value="${user.home}/builds"/>
+      <property name="gbclient.root.dir" value="${api.home.dir}/${api.build.dir}"/>
+      <property name="gbclient.src.dir" value="${gbclient.root.dir}/src"/>
+      <property name="gbclient.bin.dir" value="${gbclient.root.dir}/bin"/>
+      <property name="gbclient.lib.dir" value="${gbclient.root.dir}/lib"/>
+      <property name="api.host.dir" value="/app/weblogic"/>
+      <property name="api.host.name" value="line5.genomics.com"/>
+      <property name="api.host.port" value="7001"/>
+      <property name="gbclient.deploy.dir" value="${api.host.dir}/genomics/${api.type}"/>
+
+      <echo message="Deployment environment has been initialized..."/>
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: gbclient.install.files. The patternset used to identify the    *-->
+   <!--* gbclient install JAR files to be deployed to a server.                   *-->
+   <!--*===================================================================*-->
+   <patternset id="gbclient.install.files">
+      <include name="gblauncher.jar"/>
+      <include name="install.jar"/>
+      <include name="tools.jar"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: gbclient.prog.files. The patternset used to identify the *-->
+   <!--* program files to be deployed to a server.                          *-->
+   <!--*===================================================================*-->
+   <patternset id="gbclient.deploy.files">
+      <include name="Genome_Browser_Client.jar"/>
+      <include name="gbclient_intermal.jar"/>
+      <include name="gbclient_shared.jar"/>
+      <include name="DeployedBuild.properties"/>
+   </patternset>
+
+   <!--*===================================================================*-->
+   <!--* Patternset: gbclient.image.files. The patternset used to identify the *-->
+   <!--* web page graphics                                 *-->
+   <!--*===================================================================*-->
+   <patternset id="gbclient.image.files">
+      <include name="images/**.gif"/>
+      <include name="images/**.jpg"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Patternset: gbclient.lib.files. The patternset used to identify the    *-->
+   <!--* lib files to be deployed to a server.                             *-->
+   <!--*===================================================================*-->
+   <patternset id="gbclient.lib.files">
+      <include name="lib/client/weblogic/**.jar"/>
+      <include name="lib/client/graphics/**.jar"/>
+      <include name="lib/client/shared/**.jar"/>
+   </patternset>
+
+   <!--*===================================================================*-->
+   <!--* Patternset: gbclient.jvm.files. The patternset used to identify the    *-->
+   <!--* JVM files to be deployed to a server.                             *-->
+   <!--*===================================================================*-->
+   <patternset id="gbclient.jvm.files">
+      <include name="*.exe"/>
+   </patternset>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: init-props. Initializes properties.                       *-->
+   <!--*===================================================================*-->
+   <target name="init-props">
+      <tstamp/>
+
+      <!--*================================================================*-->
+      <!--* Allow property overrides.                                      *-->
+      <!--*================================================================*-->
+      <property file="${api.props.file}"/>
+
+      <!--*================================================================*-->
+      <!--* Initialize tool properties that have not been set.             *-->
+      <!--*================================================================*-->
+      <property name="java.home" value="/usr/java"/>
+      <property name="wl.home" value="/app/weblogic"/>
+      <property name="wl.login.id" value="system"/>
+      <property name="wl.login.passwd" value="password"/>
+      <property name="ftp.login.id" value="wlsadmin"/>
+      <property name="ftp.login.passwd" value="GoAway"/>
+
+   </target>
+
+
+   <!--*===================================================================*-->
+   <!--* Target: deploy-all. Deploys build files to the host server. *-->
+   <!--*===================================================================*-->
+   <target name="deploy-all">
+      <echo message="Starting deployment of ${api.build.dir} to server ${api.host.name}:${api.host.port} at ${DSTAMP}-${TSTAMP}..."/>
+
+      <!--*================================================================*-->
+      <!--* Deploy files to server.                                        *-->
+      <!--*================================================================*-->
+
+      <!--* Installation Files *-->
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}/public_html/genomebrowser"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${gbclient.bin.dir}">
+            <patternset refid="gbclient.install.files"/>
+         </fileset>
+      </ftp>
+
+      <!--* HTML Image files *-->
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}/public_html/genomebrowser"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${gbclient.root.dir}/client-build-scripts/genome_browser/web_install/genomic_browser">
+            <patternset refid="gbclient.image.files"/>
+         </fileset>
+      </ftp>
+
+      <!--* GBCLIENT files *-->
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}/public_html/genomebrowser/GB"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${gbclient.bin.dir}">
+            <patternset refid="gbclient.deploy.files"/>
+         </fileset>
+      </ftp>
+
+      <!--* Library Files *-->
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}/public_html/genomebrowser/GB"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${gbclient.root.dir}">
+            <patternset refid="gbclient.lib.files"/>
+         </fileset>
+      </ftp>
+
+      <!--* JVM Files *-->
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}/public_html/genomebrowser/JVM"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${gbclient.root.dir}/client-build-scripts/shared/JVM">
+            <patternset refid="gbclient.jvm.files"/>
+         </fileset>
+      </ftp>
+
+      <!--* Docs also use ExtProd *-->
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}/public_html/genomebrowser/GB/docs"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="yes"
+         verbose="yes">
+         <fileset dir="${gbclient.root.dir}/bin/resource/client/install/docs/IntProd"
+                  includes="*"/>
+      </ftp>
+
+      <!--* Deployed Build Property file *-->
+      <echo file="${gbclient.bin.dir}/${gbclient.deployname.file}" message="${api.build.dir}"/>
+      <ftp server="${api.host.name}"
+         remotedir="${gbclient.deploy.dir}"
+         userid="${ftp.login.id}"
+         password="${ftp.login.passwd}"
+         depends="no"
+         binary="no"
+         verbose="yes">
+         <fileset dir="${gbclient.root.dir}/client-build-scripts/shared/JVM"
+                  includes="${gbclient.deployname.file}"/>
+      </ftp>
+
+   </target>
+
+</project>
+

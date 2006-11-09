@@ -1,0 +1,2 @@
+topas: Unable to initialize Spmi interface
+Spmi: Common Memory locked by process 1785958, requestor: 2867410 (SiInit)

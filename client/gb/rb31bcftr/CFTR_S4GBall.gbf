@@ -1,0 +1,2352 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Rattus norvegicus CFTR Region">
+<computational_analysis id="S4GBall:1">
+ <date day="7" month="4" year="2004"></date>
+ <program>S4_GenBank_Good</program>
+ <type>BLASTN_HIT</type>
+ <result_set id="S4GBall:2">
+ <description>&gt;CRA|1000735248672 /altid=gi|3608371 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1890 /mol_type=mRNA /date=10/17/2000 /altid=gb_acc|AF053768 /altid=gb_locus|AF053768 /altid=gb_accvers|AF053768.1 /protein_id=AAC35911.1 /def=Rattus norvegicus brain specific cortactin-binding protein CBP90 mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBall:3">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1437556</start><end>1436083</end></span>
+   <alignment>
+   ttggagatggaaaagctccagcttcaggcccttgaacaggagcacaagaagctggctgcccacctggaggaagaGaGgggcaagaacaagcacgtggtcctgatgctggtgaaggagtgcaagcagctctcaggcaaagtCgtagaggaagctcagaagctggaggaagtcatggtgaaattggaggaggaaaagaaaaagacaagtgagttagaagaccagctctccgctgagaaacagagaagcgctggaatggaagctcagctggagaaacagctctttgagtttgatacggaacgggagcagctgcgggccaagctgacccgagaagaagcacacaccaccgacctcaaagaggagatagacAagatgaagaaaatgatggagcaaatgaagaaaggcaacgatgggaagcccggactctccCtcccccggaagacaaaagataagcgactggcttccatatctgtggcaacagaagggcctgtgacaaggtctgttgcttgccagacagatgtagtgacagaaagcactgaccctgtgaagaaattgcctttgtctgtacccataaaaccttccacagggagccccctagtttccacaaacacaaaagggaatgtgggccccagtgccctgctgattagaccaggtattgatagacaagcttcccacagtgacttgggtccctctccacctactgccctaccgtcaagtgcaagtagaattgaggaaaacggaccaagtgcaggcaatgcccctgacctatcaaacagcacaccctcaactcctagtggaactgcccctgctgctgctcagacactaggtgcagcaccccagaaccattcacaagctcctcctgtgcacagtttacattcaccgtgtgccaacactcatccaggtctcaacccacgcatccaagcagctagatttagatttcagggcaatgcaaatgacccagaccagaatggaaataacactcaaagtcctccctccagagatgtttctcctacgagtcgtgacaacctagtagccaagcagctagctcggaatactgtgacccaagcgctgtccagatttaccagccctcaagcaggtgcttcttcaaggctgggagcatctccaggaggcgatgctggcacctgccctccagttggtcgaaccggtttaaagactccaggggcagcacgagttgacagaggaaatcctcctcctatccctcccaaaaagccagggctctcccaaactccttctccaccacaccctcaactgagggcctccaatgcaggggccaaagttgataacaaaattgtggcttcacctccctctacattgccacaagggaccaaggtagtaaatgaggagaacgtccctaagtcatcctcccctcagctgccaccaaaaccatccatagatttaactgtggcatctgcaggctgtcccgtttcggccctggccacgtctcaggTGggtG-cc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248672" type="sbjct">
+   <span><start>411</start><end>1885</end></span>
+   <alignment>
+   ttggagatggaaaagctccagcttcaggcccttgaacaggagcacaagaagctggctgcccacctggaggaagaAaAgggcaagaacaagcacgtggtcctgatgctggtgaaggagtgcaagcagctctcaggcaaagtTgtagaggaagctcagaagctggaggaagtcatggtgaaattggaggaggaaaagaaaaagacaagtgagttagaagaccagctctccgctgagaaacagagaagcgctggaatggaagctcagctggagaaacagctctttgagtttgatacggaacgggagcagctgcgggccaagctgacccgagaagaagcacacaccaccgacctcaaagaggagatagacCagatgaagaaaatgatggagcaaatgaagaaaggcaacgatgggaagcccggactctccTtcccccggaagacaaaagataagcgactggcttccatatctgtggcaacagaagggcctgtgacaaggtctgttgcttgccagacagatgtagtgacagaaagcactgaccctgtgaagaaattgcctttgtctgtacccataaaaccttccacagggagccccctagtttccacaaacacaaaagggaatgtgggccccagtgccctgctgattagaccaggtattgatagacaagcttcccacagtgacttgggtccctctccacctactgccctaccgtcaagtgcaagtagaattgaggaaaacggaccaagtgcaggcaatgcccctgacctatcaaacagcacaccctcaactcctagtggaactgcccctgctgctgctcagacactaggtgcagcaccccagaaccattcacaagctcctcctgtgcacagtttacattcaccgtgtgccaacactcatccaggtctcaacccacgcatccaagcagctagatttagatttcagggcaatgcaaatgacccagaccagaatggaaataacactcaaagtcctccctccagagatgtttctcctacgagtcgtgacaacctagtagccaagcagctagctcggaatactgtgacccaagcgctgtccagatttaccagccctcaagcaggtgcttcttcaaggctgggagcatctccaggaggcgatgctggcacctgccctccagttggtcgaaccggtttaaagactccaggggcagcacgagttgacagaggaaatcctcctcctatccctcccaaaaagccagggctctcccaaactccttctccaccacaccctcaactgagggcctccaatgcaggggccaaagttgataacaaaattgtggcttcacctccctctacattgccacaagggaccaaggtagtaaatgaggagaacgtccctaagtcatcctcccctcagctgccaccaaaaccatccatagatttaactgtggcatctgcaggctgtcccgtttcggccctggccacgtctcaggCTggtCAcc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1474"></property>
+  <property name="num_identical"      value="1465"></property>
+  <property name="num_similar"        value="1465"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBall:4">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1451287</start><end>1451065</end></span>
+   <alignment>
+   gctcgcaggaaggaggtgttcatccaggaacgttatgggagatttaatctaaacgaccctttcctggcactccagagagactatgaagcgggtgctggtgacaaagagaagccagtctgcaccaacccactctccattcttgaagccgtcatggcccactgcagaaaaatgcaagaaagAatgtccgcacagctggctgccgctgagagtaggcagaaaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248672" type="sbjct">
+   <span><start>189</start><end>411</end></span>
+   <alignment>
+   gctcgcaggaaggaggtgttcatccaggaacgttatgggagatttaatctaaacgaccctttcctggcactccagagagactatgaagcgggtgctggtgacaaagagaagccagtctgcaccaacccactctccattcttgaagccgtcatggcccactgcagaaaaatgcaagaaagGatgtccgcacagctggctgccgctgagagtaggcagaaaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="222"></property>
+  <property name="num_identical"      value="221"></property>
+  <property name="num_similar"        value="221"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:5">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1521887</start><end>1521779</end></span>
+   <alignment>
+   aaaaaggagtttgatgtggacaccctcagcaaatcagagctgcggatgctcctcagtgtgatggaaggtgaactagaagccagagacctcgtgattgaggccctgcgg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248672" type="sbjct">
+   <span><start>81</start><end>189</end></span>
+   <alignment>
+   aaaaaggagtttgatgtggacaccctcagcaaatcagagctgcggatgctcctcagtgtgatggaaggtgaactagaagccagagacctcgtgattgaggccctgcgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="108"></property>
+  <property name="num_identical"      value="108"></property>
+  <property name="num_similar"        value="108"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:6">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1534377</start><end>1534296</end></span>
+   <alignment>
+   atggcgacggacagcgcgagctgcgagcccgacttgtcccgcgccccgggcgacgcggagggggccacggcggaggcggcg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248672" type="sbjct">
+   <span><start>0</start><end>81</end></span>
+   <alignment>
+   atggcgacggacagcgcgagctgcgagcccgacttgtcccgcgccccgggcgacgcggagggggccacggcggaggcggcg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="81"></property>
+  <property name="num_identical"      value="81"></property>
+  <property name="num_similar"        value="81"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248672"></property>
+ <property name="subject_seq_length" value="1890"></property>
+ </result_set>
+ <result_set id="S4GBall:7">
+ <description>&gt;CRA|1000735283175 /altid=gi|203422 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1521 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M89906 /altid=gb_locus|RATCFTR /altid=gb_accvers|M89906.1 /protein_id=AAA40918.1 /def=Rattus norvegicus cystic fibrosis transmembrane conductance regulator (CFTR) gene, partial cds. /div=ROD</description>
+ <result_span id="S4GBall:8">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1174088</start><end>1174229</end></span>
+   <alignment>
+   attaagcacagtggaagagtttcattctcctctcaaatttcttggattatgccgggtactatcaaagaaaatatcatctttggtgtttcctatgatgagtacagatataagagTgttgtcaaagcttgccaactacaggag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>0</start><end>141</end></span>
+   <alignment>
+   attaagcacagtggaagagtttcattctcctctcaaatttcttggattatgccgggtactatcaaagaaaatatcatctttggtgtttcctatgatgagtacagatataagagCgttgtcaaagcttgccaactacaggag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="141"></property>
+  <property name="num_identical"      value="140"></property>
+  <property name="num_similar"        value="140"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:9">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1200299</start><end>1200394</end></span>
+   <alignment>
+   gacatcaccaagtttgcagaacaagacaacacagttcttggagaaggtggagtcacactcagtggaggtcaacgtgcaagaatttctttagcaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>141</start><end>236</end></span>
+   <alignment>
+   gacatcaccaagtttgcagaacaagacaacacagttcttggagaaggtggagtcacactcagtggaggtcaacgtgcaagaatttctttagcaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="95"></property>
+  <property name="num_identical"      value="95"></property>
+  <property name="num_similar"        value="95"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:10">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1203045</start><end>1203132</end></span>
+   <alignment>
+   agcagtatataaagatgctgatttgtacctgttagattcccccttcggatatctagatgttttaactgaagaacaaatatttgaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>236</start><end>323</end></span>
+   <alignment>
+   agcagtatataaagatgctgatttgtacctgttagattcccccttcggatatctagatgttttaactgaagaacaaatatttgaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="87"></property>
+  <property name="num_identical"      value="87"></property>
+  <property name="num_similar"        value="87"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:11">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1212623</start><end>1213332</end></span>
+   <alignment>
+   ttgtgtctgtaaattgatggccagcaaaactaggattctggtcacatctaaaatggagcagttaaagaaagctgacaagatactcattttgcatgagggcagcagctatttttatgggacgttttctgaactacaaagtctacgtccagacttcagttccaaactcatggggtatgatacttttgaccagtttactgaggaaagaaggagttcaattctaactgagaccttacgcaggttctcagtggacgatgcctctaccacctggaacaaagccaaacagtcatttagacagactggagagtttggagaaaaaaggaagaactctattctaagttcattcagctctgtgaagaaaatttccattgtgcaaaagactccattgtccatagaaggagaatctgatgacctccaagaaaggagactgtccctggttccagactctgaacatggagaggccgctctgcctcgcagcaacatgatcaccgccgggcccacgtttccaggcagaagaagacagtctgttttggatcttatgacattcacacccagctcagtctccagcagtctccagaggaccagagcttctattcgaaaaatatccttagcccctcggataagcttaaaggaagaggatatatattcaaggcgattatcgcaagatagcacactgaacatcaccgaagaaattaatgaagaagatttaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>323</start><end>1032</end></span>
+   <alignment>
+   ttgtgtctgtaaattgatggccagcaaaactaggattctggtcacatctaaaatggagcagttaaagaaagctgacaagatactcattttgcatgagggcagcagctatttttatgggacgttttctgaactacaaagtctacgtccagacttcagttccaaactcatggggtatgatacttttgaccagtttactgaggaaagaaggagttcaattctaactgagaccttacgcaggttctcagtggacgatgcctctaccacctggaacaaagccaaacagtcatttagacagactggagagtttggagaaaaaaggaagaactctattctaagttcattcagctctgtgaagaaaatttccattgtgcaaaagactccattgtccatagaaggagaatctgatgacctccaagaaaggagactgtccctggttccagactctgaacatggagaggccgctctgcctcgcagcaacatgatcaccgccgggcccacgtttccaggcagaagaagacagtctgttttggatcttatgacattcacacccagctcagtctccagcagtctccagaggaccagagcttctattcgaaaaatatccttagcccctcggataagcttaaaggaagaggatatatattcaaggcgattatcgcaagatagcacactgaacatcaccgaagaaattaatgaagaagatttaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="709"></property>
+  <property name="num_identical"      value="709"></property>
+  <property name="num_similar"        value="709"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:12">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1215076</start><end>1215205</end></span>
+   <alignment>
+   gagtgtttttttgatgatatggtaaagatccccacggtgacaacatggaacacataccttcgatatttcacgctccacagaggcttatttgcagtgctgatttggtgcgtgctggtttttctggttgag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>1032</start><end>1161</end></span>
+   <alignment>
+   gagtgtttttttgatgatatggtaaagatccccacggtgacaacatggaacacataccttcgatatttcacgctccacagaggcttatttgcagtgctgatttggtgcgtgctggtttttctggttgag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="129"></property>
+  <property name="num_identical"      value="129"></property>
+  <property name="num_similar"        value="129"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:13">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1218569</start><end>1218607</end></span>
+   <alignment>
+   gtggctgcttctttatttgtgttgtggttgcttaaaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>1161</start><end>1199</end></span>
+   <alignment>
+   gtggctgcttctttatttgtgttgtggttgcttaaaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="38"></property>
+  <property name="num_identical"      value="38"></property>
+  <property name="num_similar"        value="38"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:14">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1219298</start><end>1219549</end></span>
+   <alignment>
+   caaccccgttaatggtggaaacaatggcactaaaattgccaatacctcctatgttgtggtcatcaccagttccagcttctattacattttttacatttacgtgggagtggctgacactttgcttgctctgagcctcttcagaggtttgcccctggtgcatacgttaatcacagcatcaaaaattttgcacaggaaaatgttacattctattcttcatgcccctatgtcaaccttcaacaagctgaaagcAg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>1199</start><end>1450</end></span>
+   <alignment>
+   caaccccgttaatggtggaaacaatggcactaaaattgccaatacctcctatgttgtggtcatcaccagttccagcttctattacattttttacatttacgtgggagtggctgacactttgcttgctctgagcctcttcagaggtttgcccctggtgcatacgttaatcacagcatcaaaaattttgcacaggaaaatgttacattctattcttcatgcccctatgtcaaccttcaacaagctgaaagcGg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="251"></property>
+  <property name="num_identical"      value="250"></property>
+  <property name="num_similar"        value="250"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:15">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1222693</start><end>1222765</end></span>
+   <alignment>
+   gtgggattcttaacagattctccaaagatatagcaattttggatgactttctgcctcttaccatAtttgact
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735283175" type="sbjct">
+   <span><start>1450</start><end>1521</end></span>
+   <alignment>
+   gtgggattcttaacagattctccaaagatatagcaattttggatgactttctgcctcttaccat-tttgact
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="72"></property>
+  <property name="num_identical"      value="71"></property>
+  <property name="num_similar"        value="71"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735283175"></property>
+ <property name="subject_seq_length" value="1521"></property>
+ </result_set>
+ <result_set id="S4GBall:16">
+ <description>&gt;CRA|1000735287372 /altid=gi|575379 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=586 /mol_type=mRNA /date=11/08/1994 /altid=gb_acc|Z46614 /altid=gb_locus|RNCAVLN /altid=gb_accvers|Z46614.1 /protein_id=CAA86587.1 /def=R.norvegicus mRNA for caveolin. /div=ROD</description>
+ <result_span id="S4GBall:17">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>125025</start><end>125083</end></span>
+   <alignment>
+   cagagcctgcagccagccacgcgccagcatgtctgggggtaaatacgtagactccgag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287372" type="sbjct">
+   <span><start>0</start><end>58</end></span>
+   <alignment>
+   cagagcctgcagccagccacgcgccagcatgtctgggggtaaatacgtagactccgag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="58"></property>
+  <property name="num_identical"      value="58"></property>
+  <property name="num_similar"        value="58"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:18">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+   <alignment>
+   ggacatctctacactgttcccatccgggaacagggcaacatctacaagcccaacaacaaggccatggcagacgaggtgaatgagaagcaagtgtacgacgcgcacaccaaggagattgatctggtcaaccgcgaccccaagcatctcaacgacgacgtggtcaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287372" type="sbjct">
+   <span><start>58</start><end>223</end></span>
+   <alignment>
+   ggacatctctacactgttcccatccgggaacagggcaacatctacaagcccaacaacaaggccatggcagacgaggtgaatgagaagcaagtgtacgacgcgcacaccaaggagattgatctggtcaaccgcgaccccaagcatctcaacgacgacgtggtcaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="165"></property>
+  <property name="num_identical"      value="165"></property>
+  <property name="num_similar"        value="165"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:19">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157772</end></span>
+   <alignment>
+   attgactttgaagatgtgattgcggaaccagaagggacacacagtttcgacggcatctggaaggccagcttcaccaccttcactgtgacaaaatattggttttaccgcttgctgtctaccatcttcggcatccctatggcgctcatctggggcatctactttgCcatcctctctttcctgcacatctgggcagttgtaccgtgcatcaagagcttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaCcttctgtgatccactctttgAagCg-attggCaagatattcagcaatat-ccgCatcagcacgcagAaagagatatGagtgacatttcagggatggaAg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287372" type="sbjct">
+   <span><start>223</start><end>586</end></span>
+   <alignment>
+   attgactttgaagatgtgattgcggaaccagaagggacacacagtttcgacggcatctggaaggccagcttcaccaccttcactgtgacaaaatattggttttaccgcttgctgtctaccatcttcggcatccctatggcgctcatctggggcatctactttgGcatcctctctttcctgcacatctgggcagttgtaccgtgcatcaagagcttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaActtctgtgatccactctttgGagGgGattggGaagatattcagcaatatTccg-atcagcacgcagGaagagatat-agtgacatttcagggatggaGg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="365"></property>
+  <property name="num_identical"      value="354"></property>
+  <property name="num_similar"        value="354"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735287372"></property>
+ <property name="subject_seq_length" value="586"></property>
+ </result_set>
+ <result_set id="S4GBall:20">
+ <description>&gt;CRA|1000735287443 /altid=gi|1771557 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=4149 /mol_type=mRNA /date=10/24/1997 /altid=gb_acc|X96786 /altid=gb_locus|RNCMET /altid=gb_accvers|X96786.1 /protein_id=CAA65582.1 /def=r.norvegicus mRNA for HGF receptor. /div=ROD</description>
+ <result_span id="S4GBall:21">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>307405</start><end>308608</end></span>
+   <alignment>
+   atgaaggctcccaccgcgctggcacctggcattctgctgctgctgctgaccttggcgcagaggagccatggggagtgcaaggaggccctagtgaagtctgagatgaacgtgaacatgaagtaccagcttcccaacttcaccgcagaaacccccatccacaatgtcgtcctccAtgggcaccatatttatctcggagccacaaactacatttatgttttaGatgacaaagaccttcagaaggtatctgagttcaagaccgggcccgtggtggaacacccagattgttttccttgtcaggactgcagcagcaaagccaatgtgtcaggaggtgtttggaaagacaacgtcaacatggcgctgcttgttgacacttactatgacgaccagctcatcagctgtggcagcgtcaacagagggacctgccaaaggcatgtccttcctcctgacaatgctgccgacattcagtccgaggttcactgcatgttctccccacttgcggaggaagagtcaggccagtgtcccgactgtgtagtgagtgccctgggagccaaagtcctcctgtctgaaaaggaccggttcatcaatttcttcgtggggaatacgataaactcttcctaccctcccgattattcattgcattcaatatcggtgaggcggctgaaggaaacccaggacggttttaagtttttgacagaccagtcctacattgatgtcctgccagaattccgagattcctaccccatCaagtacatacatgccttcgaaagcaaccattttatctactttctgactgtccagaaggaaaccctagatgctcagactttccatacaagaataatcaggttctgttctgtagactctgggttgcactcctacatggaaatgcctctggagtgcattctgacggaaaaaagaagaaagagatccacaagggaagaagtgtttaatatcctccaagccgcatatgtcagtaaaccgggggccaatcttgctaagcaaataggggcCagcccgtatgatgacattctctacggggtgtttgcacaaagcaagccagattctgctgagcccatgaaccgatcagcggtctgtgcAttccccatcaaatatgtcaatgacttcttcaacaagattgtcaacaaaaacaacgtacggtgtctccagcatttttatggacccaaccacgagcactgtttcaatagg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>0</start><end>1203</end></span>
+   <alignment>
+   atgaaggctcccaccgcgctggcacctggcattctgctgctgctgctgaccttggcgcagaggagccatggggagtgcaaggaggccctagtgaagtctgagatgaacgtgaacatgaagtaccagcttcccaacttcaccgcagaaacccccatccacaatgtcgtcctccCtgggcaccatatttatctcggagccacaaactacatttatgttttaAatgacaaagaccttcagaaggtatctgagttcaagaccgggcccgtggtggaacacccagattgttttccttgtcaggactgcagcagcaaagccaatgtgtcaggaggtgtttggaaagacaacgtcaacatggcgctgcttgttgacacttactatgacgaccagctcatcagctgtggcagcgtcaacagagggacctgccaaaggcatgtccttcctcctgacaatgctgccgacattcagtccgaggttcactgcatgttctccccacttgcggaggaagagtcaggccagtgtcccgactgtgtagtgagtgccctgggagccaaagtcctcctgtctgaaaaggaccggttcatcaatttcttcgtggggaatacgataaactcttcctaccctcccgattattcattgcattcaatatcggtgaggcggctgaaggaaacccaggacggttttaagtttttgacagaccagtcctacattgatgtcctgccagaattccgagattcctaccccatAaagtacatacatgccttcgaaagcaaccattttatctactttctgactgtccagaaggaaaccctagatgctcagactttccatacaagaataatcaggttctgttctgtagactctgggttgcactcctacatggaaatgcctctggagtgcattctgacggaaaaaagaagaaagagatccacaagggaagaagtgtttaatatcctccaagccgcatatgtcagtaaaccgggggccaatcttgctaagcaaataggggcTagcccgtatgatgacattctctacggggtgtttgcacaaagcaagccagattctgctgagcccatgaaccgatcagcggtctgtgcGttccccatcaaatatgtcaatgacttcttcaacaagattgtcaacaaaaacaacgtacggtgtctccagcatttttatggacccaaccacgagcactgtttcaatagg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1203"></property>
+  <property name="num_identical"      value="1198"></property>
+  <property name="num_similar"        value="1198"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:22">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>328961</start><end>329153</end></span>
+   <alignment>
+   accctgctgagaaattcatcgggctgcgaagtgcgcagtgacgagtaccggacggagtttaccacggcgctgcagcgtgtggatttattcatgggccggctcaaccatgtactcttgacgtctatctctaccttcatcaaaggtgacctcaccattgctaatctagggacatcagaaggtcgcttcatgcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>1203</start><end>1395</end></span>
+   <alignment>
+   accctgctgagaaattcatcgggctgcgaagtgcgcagtgacgagtaccggacggagtttaccacggcgctgcagcgtgtggatttattcatgggccggctcaaccatgtactcttgacgtctatctctaccttcatcaaaggtgacctcaccattgctaatctagggacatcagaaggtcgcttcatgcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="192"></property>
+  <property name="num_identical"      value="192"></property>
+  <property name="num_similar"        value="192"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:23">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>340499</start><end>340634</end></span>
+   <alignment>
+   gtggtgctctctcgcacagcacatttcaccccccatgtgaatttcctcctggattcctatcctgtgtctccggaagttattgtcgaacatccatcaaatcaaaatggctataccttggtggtcacagggaagaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>1395</start><end>1530</end></span>
+   <alignment>
+   gtggtgctctctcgcacagcacatttcaccccccatgtgaatttcctcctggattcctatcctgtgtctccggaagttattgtcgaacatccatcaaatcaaaatggctataccttggtggtcacagggaagaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="135"></property>
+  <property name="num_identical"      value="135"></property>
+  <property name="num_similar"        value="135"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:24">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>341526</start><end>341700</end></span>
+   <alignment>
+   atcaccaagattccactgaatggcctaggctgtgggcatttccagtcctgcagtcagtgtctctctGccccctactttatacagtgtggctggtgccacaatcggtgtgtgcattccaatgaatgccccagcggtacatggactcaagagatctgtctgccagcagtttataag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>1530</start><end>1704</end></span>
+   <alignment>
+   atcaccaagattccactgaatggcctaggctgtgggcatttccagtcctgcagtcagtgtctctctCccccctactttatacagtgtggctggtgccacaatcggtgtgtgcattccaatgaatgccccagcggtacatggactcaagagatctgtctgccagcagtttataag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="174"></property>
+  <property name="num_identical"      value="173"></property>
+  <property name="num_similar"        value="173"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:25">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>346012</start><end>346173</end></span>
+   <alignment>
+   gttttccccactagtgcacccctcgaaggaggaacaatgctgaccatatgtggctgggactttggattcaagaagaataataaatttgatttaaggaaaaccaaagttctgcttggcaacgagagctgtaccttgaccttaagcgagagCacgacaaatac
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>1704</start><end>1865</end></span>
+   <alignment>
+   gttttccccactagtgcacccctcgaaggaggaacaatgctgaccatatgtggctgggactttggattcaagaagaataataaatttgatttaaggaaaaccaaagttctgcttggcaacgagagctgtaccttgaccttaagcgagagTacgacaaatac
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="161"></property>
+  <property name="num_identical"      value="160"></property>
+  <property name="num_similar"        value="160"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:26">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>348277</start><end>348380</end></span>
+   <alignment>
+   gttgaaatgcacagttggccccgcgatgagtgagcacttcaatgtgtctgtgatcgtctcaaacagtcgagagacaacacagtacagtgcgttttcctatgtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>1865</start><end>1968</end></span>
+   <alignment>
+   gttgaaatgcacagttggccccgcgatgagtgagcacttcaatgtgtctgtgatcgtctcaaacagtcgagagacaacacagtacagtgcgttttcctatgtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="103"></property>
+  <property name="num_identical"      value="103"></property>
+  <property name="num_similar"        value="103"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:27">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>348489</start><end>348626</end></span>
+   <alignment>
+   gatcctgtaataacaagtatttctccaaggtatggtcctcatgccggaggcaccttactcactttgactggaaaatacctcaacagcggcaattctagacacatttcaatcggagggaaaacatgtactttaaaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>1968</start><end>2105</end></span>
+   <alignment>
+   gatcctgtaataacaagtatttctccaaggtatggtcctcatgccggaggcaccttactcactttgactggaaaatacctcaacagcggcaattctagacacatttcaatcggagggaaaacatgtactttaaaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:28">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>349299</start><end>349461</end></span>
+   <alignment>
+   tgtatcagatagcattctcgaatgctacaccccaggccacaccgtctctgccgagtttcccgtgaaattgaaaatcgacctggctgaccgagtgacaagcagcttcagttaccgggaagacccggttgtctctgaaatccacccgaccaaatcttttatcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>2105</start><end>2267</end></span>
+   <alignment>
+   tgtatcagatagcattctcgaatgctacaccccaggccacaccgtctctgccgagtttcccgtgaaattgaaaatcgacctggctgaccgagtgacaagcagcttcagttaccgggaagacccggttgtctctgaaatccacccgaccaaatcttttatcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="162"></property>
+  <property name="num_identical"      value="162"></property>
+  <property name="num_similar"        value="162"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:29">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>350187</start><end>350287</end></span>
+   <alignment>
+   tggtggaagcacaataacggggattggaaagaacctgaattcagttagcaccccaaagctggtaatagaagtgcatgacgtgggcgtgaactacaccgtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>2267</start><end>2367</end></span>
+   <alignment>
+   tggtggaagcacaataacggggattggaaagaacctgaattcagttagcaccccaaagctggtaatagaagtgcatgacgtgggcgtgaactacaccgtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="100"></property>
+  <property name="num_identical"      value="100"></property>
+  <property name="num_similar"        value="100"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:30">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>354498</start><end>354717</end></span>
+   <alignment>
+   gcgtgccaacatcgctcgagttcagagatcatctgctgcaccactccttccctgcAacagctggacctgcaactccccctgaagaccaaagccttcttcctgctggacgggatcctttccaaacactttgatctcacttatgtacatgatcctatgtttaagccttttgaaaagccagtaatgatctccatgggcaatgagaatgtagtggaaattaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>2367</start><end>2586</end></span>
+   <alignment>
+   gcgtgccaacatcgctcgagttcagagatcatctgctgcaccactccttccctgcGacagctggacctgcaactccccctgaagaccaaagccttcttcctgctggacgggatcctttccaaacactttgatctcacttatgtacatgatcctatgtttaagccttttgaaaagccagtaatgatctccatgggcaatgagaatgtagtggaaattaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="219"></property>
+  <property name="num_identical"      value="218"></property>
+  <property name="num_similar"        value="218"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:31">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>361325</start><end>361475</end></span>
+   <alignment>
+   ggagacgatattgaccctgaagcagttaaaggtgaagtgttaaaagtcgggaataagagctgtgagaatctccactggcattctgaagctttgttgtgtacggtccccagtgacctgctgaagctgaacggcggcgagctaaatatagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>2586</start><end>2736</end></span>
+   <alignment>
+   ggagacgatattgaccctgaagcagttaaaggtgaagtgttaaaagtcgggaataagagctgtgagaatctccactggcattctgaagctttgttgtgtacggtccccagtgacctgctgaagctgaacggcggcgagctaaatatagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="150"></property>
+  <property name="num_identical"      value="150"></property>
+  <property name="num_similar"        value="150"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:32">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363031</start><end>363185</end></span>
+   <alignment>
+   tggaagcaagcagtctcttcaactgtccttggaaaagtgatcgttcaaccggatcagaattttgcaggattgatcattggtgcggtctcaatatcagtggtagttttgttagtatccgggctcttcctgtggctgagaaagagaaagcataaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>2736</start><end>2890</end></span>
+   <alignment>
+   tggaagcaagcagtctcttcaactgtccttggaaaagtgatcgttcaaccggatcagaattttgcaggattgatcattggtgcggtctcaatatcagtggtagttttgttagtatccgggctcttcctgtggctgagaaagagaaagcataaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="154"></property>
+  <property name="num_identical"      value="154"></property>
+  <property name="num_similar"        value="154"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:33">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363377</start><end>363518</end></span>
+   <alignment>
+   atctgggcagtgaattagttcgctatgacgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagagatggtctcaaatgagtctgtagactacagagctacttttccagaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>2890</start><end>3031</end></span>
+   <alignment>
+   atctgggcagtgaattagttcgctatgacgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagagatggtctcaaatgagtctgtagactacagagctacttttccagaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="141"></property>
+  <property name="num_identical"      value="141"></property>
+  <property name="num_similar"        value="141"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:34">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>367514</start><end>367745</end></span>
+   <alignment>
+   accagtttcccaactcctctcagaatggagcctgcagacaagtgcagtatcCtctgacagatctgtcccccatcctgacgagtggagactctgatatatccagcccattactacaaaacactgttcacattgacctcagcgctctaaatccagagctggtccaagcggtgcAgcacgtagtgattggacccagtagcctgattgtgcatttcaatgaagtcataggaagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3031</start><end>3262</end></span>
+   <alignment>
+   accagtttcccaactcctctcagaatggagcctgcagacaagtgcagtatcTtctgacagatctgtcccccatcctgacgagtggagactctgatatatccagcccattactacaaaacactgttcacattgacctcagcgctctaaatccagagctggtccaagcggtgcCgcacgtagtgattggacccagtagcctgattgtgcatttcaatgaagtcataggaagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="231"></property>
+  <property name="num_identical"      value="229"></property>
+  <property name="num_similar"        value="229"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:35">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>369906</start><end>369987</end></span>
+   <alignment>
+   ggcattttggctgtgtctatcatgggactttgttggacagtgacggaaagaaaattcactgtgctgtgaaatccttgaaca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3262</start><end>3343</end></span>
+   <alignment>
+   ggcattttggctgtgtctatcatgggactttgttggacagtgacggaaagaaaattcactgtgctgtgaaatccttgaaca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="81"></property>
+  <property name="num_identical"      value="81"></property>
+  <property name="num_similar"        value="81"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:36">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>373632</start><end>373814</end></span>
+   <alignment>
+   gaatcacagatatagaagaagtctcccagtttctgactgagggaatcatcatgaaagatttcagccaccccaatgttctctcactcttgggaatctgcctgcggagtgaagggtcccctctggtggttctgccctatatgaagcacggagatcttcgcaatttcattcgaaatgagactcat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3343</start><end>3525</end></span>
+   <alignment>
+   gaatcacagatatagaagaagtctcccagtttctgactgagggaatcatcatgaaagatttcagccaccccaatgttctctcactcttgggaatctgcctgcggagtgaagggtcccctctggtggttctgccctatatgaagcacggagatcttcgcaatttcattcgaaatgagactcat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="182"></property>
+  <property name="num_identical"      value="182"></property>
+  <property name="num_similar"        value="182"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:37">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>376265</start><end>376375</end></span>
+   <alignment>
+   aacccaactgtgaaagatcttataggattcggtcttcaagtagccaagggcatgaaatatcttgCcagcaaaaagtttgtccacagagacttagctgcaagaaactgcat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3525</start><end>3635</end></span>
+   <alignment>
+   aacccaactgtgaaagatcttataggattcggtcttcaagtagccaagggcatgaaatatcttgTcagcaaaaagtttgtccacagagacttagctgcaagaaactgcat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="110"></property>
+  <property name="num_identical"      value="109"></property>
+  <property name="num_similar"        value="109"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:38">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>377532</start><end>377698</end></span>
+   <alignment>
+   gttggatgaaaaattcactgtcaaggttgctgatttcggtcttgccagagacatgtacgacaaagagtattatagcgtccacaacaaaacgggtgcgaaactaccggtgaagtggatggctttagagagtctgcagacgcaaaagttcaccaccaagtcagacgtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3635</start><end>3801</end></span>
+   <alignment>
+   gttggatgaaaaattcactgtcaaggttgctgatttcggtcttgccagagacatgtacgacaaagagtattatagcgtccacaacaaaacgggtgcgaaactaccggtgaagtggatggctttagagagtctgcagacgcaaaagttcaccaccaagtcagacgtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="166"></property>
+  <property name="num_identical"      value="166"></property>
+  <property name="num_similar"        value="166"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:39">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>384780</start><end>384917</end></span>
+   <alignment>
+   tggtccttcggtgtgcttctctgggagctcatgacgagaggagcccctccttatcctgacgtgaacacatttgatatcactatatacctgttgcaaggcagaagactcttgcaaccagagtactgtccagacgcctt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3801</start><end>3938</end></span>
+   <alignment>
+   tggtccttcggtgtgcttctctgggagctcatgacgagaggagcccctccttatcctgacgtgaacacatttgatatcactatatacctgttgcaaggcagaagactcttgcaaccagagtactgtccagacgcctt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:40">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>385018</start><end>385229</end></span>
+   <alignment>
+   gtatgaagtgatgctaaaatgctggcaccccaaagcagaaatgcgcccatcGTtttctgaactggtctccaggatatcctcaatcttctccactttcattggcgagcactatgtccatgtgaacgctacttatgtgaatgtaaaatgtgttgctccatatccttctctgttgccatcccaagacaacattgacggcgaagcgaacacatga
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287443" type="sbjct">
+   <span><start>3938</start><end>4149</end></span>
+   <alignment>
+   gtatgaagtgatgctaaaatgctggcaccccaaagcagaaatgcgcccatcCGtttctgaactggtctccaggatatcctcaatcttctccactttcattggcgagcactatgtccatgtgaacgctacttatgtgaatgtaaaatgtgttgctccatatccttctctgttgccatcccaagacaacattgacggcgaagcgaacacatga
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="211"></property>
+  <property name="num_identical"      value="209"></property>
+  <property name="num_similar"        value="209"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735287443"></property>
+ <property name="subject_seq_length" value="4149"></property>
+ </result_set>
+ <result_set id="S4GBall:41">
+ <description>&gt;CRA|1000735287444 /altid=gi|587512 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=453 /mol_type=mRNA /date=09/07/1995 /altid=gb_acc|Z46374 /altid=gb_locus|RNCMETPO /altid=gb_accvers|Z46374.1 /protein_id=CAA86508.1 /def=R.norvegicus mRNA for c-met. /div=ROD</description>
+ <result_span id="S4GBall:42">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>354681</start><end>354717</end></span>
+   <alignment>
+   atctcCatgggcaaTgagaatgtagtggaaattaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287444" type="sbjct">
+   <span><start>0</start><end>36</end></span>
+   <alignment>
+   atctcAatgggcaaCgagaatgtagtggaaattaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="36"></property>
+  <property name="num_identical"      value="34"></property>
+  <property name="num_similar"        value="34"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:43">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>361325</start><end>361475</end></span>
+   <alignment>
+   ggagacgatattgaccctgaagcagttaaaggtgaagtgttaaaagtcgggaataagagctgtgagaatctccactggcaTTctgAaGctTtgttgtgtacggtccccagtgacctgctgaagctgaacggcgGCGagctaaatatagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287444" type="sbjct">
+   <span><start>36</start><end>183</end></span>
+   <alignment>
+   ggagacgatattgaccctgaagcagttaaaggtgaagtgttaaaagtcgggaataagagctgtgagaatctccactggcaCActgCaTctGtgttgtgtacggtccccagtgacctgctgaagctgaacggcg---agctaaatatagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="150"></property>
+  <property name="num_identical"      value="142"></property>
+  <property name="num_similar"        value="142"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <result_span id="S4GBall:44">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363031</start><end>363185</end></span>
+   <alignment>
+   tggaagcaagcagtctcttcaactgtccttggaAaagtgatcgttcaaccggatcagaattttGc-aggattgatcattggtgcggtctcaatatcagtggtagttttgttagtatccgggctcttcctgtggctgagaaagagaaagcataaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287444" type="sbjct">
+   <span><start>183</start><end>337</end></span>
+   <alignment>
+   tggaagcaagcagtctcttcaactgtccttggaGaagtgatcgttcaaccggatcagaatttt-cGaggattgatcattggtgcggtctcaatatcagtggtagttttgttagtatccgggctcttcctgtggctgagaaagagaaagcataaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="155"></property>
+  <property name="num_identical"      value="152"></property>
+  <property name="num_similar"        value="152"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <result_span id="S4GBall:45">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363377</start><end>363493</end></span>
+   <alignment>
+   atctgggcagtgaattagttcgctatgacgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagagatggtctcaaaTgagtctgta
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735287444" type="sbjct">
+   <span><start>337</start><end>453</end></span>
+   <alignment>
+   atctgggcagtgaattagttcgctatgacgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagagatggtctcaaaCgagtctgta
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="116"></property>
+  <property name="num_identical"      value="115"></property>
+  <property name="num_similar"        value="115"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735287444"></property>
+ <property name="subject_seq_length" value="453"></property>
+ </result_set>
+ <result_set id="S4GBall:46">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:47">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>948392</start><end>950446</end></span>
+   <alignment>
+   gataacctggtcaaggaaGaaatTaagaaagaaattaaaaactttttagaatttaatgaaaatgaagatacaacatactcaaacttatgggacacaatgaaagctGTgctaagaggaaaaGtcatagcgctgagtgcctgcagaaagaaacaggaaagagcatatgtcagcagcttgacaGcacacctaaaagctctagaacaaaaagaagcaaatacacccaggaggagtagaaggcaggaaataatcaaactcagagctgaaatcaaccaagtagaaacaaaaaggaccatagaaagaatcaacagaaccaaaagttggttctttGagaaAatcaacaagatagataaacccttagccagactaacgagaggacacagagagtgCgtccaaatGaacaaaatcagaaatgaaaagggagacaGaactacagattcAgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaGaatttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcgaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagCccaggtccagaAgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcactaccgaattccttctaCgaagccacaattactcttatacctaaaccacacaaagGcacAacaaagaaagagaacttcagaccaatttcccttatgaatatcGacgTaaaaatactcaataaaattctggcaaaccgaattcAaag-gcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactTaaagaacaAaaccacatgatcatttcattagatgctgagaaTgcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaaCaggaattcaaggcccatacctaaacatagtGaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagaGcaatcagaCaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacTactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacCcacacacctatggtcacttgTttCttgacaaaggagccaaaaccatccaatggaaaaaagatagcCttttcagcaaatggtgctggttcaactggagggcaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>0</start><end>2055</end></span>
+   <alignment>
+   gataacctggtcaaggaaAaaatAaagaaagaaattaaaaactttttagaatttaatgaaaatgaagatacaacatactcaaacttatgggacacaatgaaagctAGgctaagaggaaaaCtcatagcgctgagtgcctgcagaaagaaacaggaaagagcatatgtcagcagcttgacaAcacacctaaaagctctagaacaaaaagaagcaaatacacccaggaggagtagaaggcaggaaataatcaaactcagagctgaaatcaaccaagtagaaacaaaaaggaccatagaaagaatcaacagaaccaaaagttggttctttAagaaTatcaacaagatagataaacccttagccagactaacgagaggacacagagagtgTgtccaaatTaacaaaatcagaaatgaaaagggagacaTaactacagattcGgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaAaatttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcgaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagTccaggtccagaCgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcactaccgaattccttctaTgaagccacaattactcttatacctaaaccacacaaagAcacGacaaagaaagagaacttcagaccaatttcccttatgaatatcAacgCaaaaatactcaataaaattctggcaaaccgaattc-aagAgcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactGaaagaacaGaaccacatgatcatttcattagatgctgagaaAgcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaaTaggaattcaaggcccatacctaaacatagtAaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagaCcaatcagaAaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacAactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacTcacacacctatggtcacttgAttTttgacaaaggagccaaaaccatccaatggaaaaaagatagcAttttcagcaaatggtgctggttcaactggagggcaacG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="2056"></property>
+  <property name="num_identical"      value="2021"></property>
+  <property name="num_similar"        value="2021"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:48">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:49">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>897507</start><end>899560</end></span>
+   <alignment>
+   gataacctggtcaaggaaGaaataaagaaagaaattaaaCactttttagaatttaatgaaaatgaagatacaacatacCcaaacttatgggacacaatgaaagctGTgctaagaggaaaactcatagcgctgagtgcctgcagaaagaaacaggaaagagcatatgtcagcagcttgacaGcacacctaaaagctctagaacaaaaagaagcaaatacacccaggaggagtagaaggcaggaaataatcaaactcagagctgaaatcaaccaagtagaaacaaaaaggaccatagaaagaatcaacagaaccaaaagttggttctttGagaaAatcaacaagatagataaacccttagccagactaaAgagaggacacagagagtgCgtccaaattaacaaaatcagaaatgaaaagggagacataacAacagattcAgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaaaaCttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcAaagttaaatcaggaacagataaaccagttaaaca-ccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagCccaggtccagacgggtttagtgcagaattTtatcaaaccttcatagaagacctcataccaatattatccaaactattccaGaaaattgaaacagatggagcCctaccgaattccttctaCgaagccacaattactcttatacctaaaccacacaaagGcacAacaaagaaagagaacttcagaccaatttcccttatgaatatcGacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacGatcatcGaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaaGgtgatccattatataaacaaactgaaagaacagaaccaAatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaCgaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagaGcaatcagaCaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacTactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcaTttgccttcctctatacaaaagagaaacaagcTgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcaAaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcGatctacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaaActatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacCcacacacTtatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>0</start><end>2055</end></span>
+   <alignment>
+   gataacctggtcaaggaaAaaataaagaaagaaattaaaAactttttagaatttaatgaaaatgaagatacaacatacTcaaacttatgggacacaatgaaagctAGgctaagaggaaaactcatagcgctgagtgcctgcagaaagaaacaggaaagagcatatgtcagcagcttgacaAcacacctaaaagctctagaacaaaaagaagcaaatacacccaggaggagtagaaggcaggaaataatcaaactcagagctgaaatcaaccaagtagaaacaaaaaggaccatagaaagaatcaacagaaccaaaagttggttctttAagaaTatcaacaagatagataaacccttagccagactaaCgagaggacacagagagtgTgtccaaattaacaaaatcagaaatgaaaagggagacataacTacagattcGgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaaaaTttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcGaagttaaatcaggaacagataaaccagttaaacaAccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagTccaggtccagacgggtttagtgcagaattCtatcaaaccttcatagaagacctcataccaatattatccaaactattccaCaaaattgaaacagatggagcActaccgaattccttctaTgaagccacaattactcttatacctaaaccacacaaagAcacGacaaagaaagagaacttcagaccaatttcccttatgaatatcAacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacAatcatcCaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaaCgtgatccattatataaacaaactgaaagaacagaaccaCatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaAgaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagaCcaatcagaAaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacAactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcaGttgccttcctctatacaaaagagaaacaagcCgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcaGaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcAatctacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaaGctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacTcacacacCtatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="2055"></property>
+  <property name="num_identical"      value="2016"></property>
+  <property name="num_similar"        value="2016"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:50">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:51">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1550560</start><end>1552613</end></span>
+   <alignment>
+   gataacctggtGaaggaaGaaataaagaaagaaattaaaaactttttagaatttaatgaaaatgaagGtacaacatacCcaaacttatgggacacaatgaaagctGTgctaagaggaaaactcatagcgctgagtgcctgcagaaagaaacaggaaagaAcatatgtcagcagcttgacaGcacacctaaaagctctagaacaaaaagaagcaCatacacccaggaggagtagaaggcaggaaataatcaaactcagagctgaaatcaaccaagtagaaacaaaaaggaccatagaaagaatcaacagGaccaaaagttggttctttGagaaAatcaacaagatagataaacccttagccagactaacgagaggacacagagagtgCgtccaaattaacaaaatcagaaaGgaaaagggagacataactaTagattcAgaggaaattcaaaaaatcatcaTatcttactataaaaacctatattcaacaaaaCttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcgaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaac-aaaaagagCccaggtccagacgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggaTcactCccAaatAt-cttctaCgaagccacaattactcttCtacctaaaccacacaaagacacAacaaagaaagagTacttcagaccaatttcccttatgaatatcGaTgcaaaaatactcaataaaattctggcaaacTgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccatCatataaacaaactgaaagaacagaacGacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaagActgcccactctctccctacttattcaatatagttcttgaagttctagccagaGcaatcagaCaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacTactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtaAAtcggtgtgactttaaccaagcaagtaaaTgatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatcCacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaGcaatttgcaaattcatctggaataacaaaaaacccaggatTgctaaaActatcGtcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaaCagaattgaagacccagaaatgaacCcacacacctatggGcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>0</start><end>2055</end></span>
+   <alignment>
+   gataacctggtCaaggaaAaaataaagaaagaaattaaaaactttttagaatttaatgaaaatgaagAtacaacatacTcaaacttatgggacacaatgaaagctAGgctaagaggaaaactcatagcgctgagtgcctgcagaaagaaacaggaaagaGcatatgtcagcagcttgacaAcacacctaaaagctctagaacaaaaagaagcaAatacacccaggaggagtagaaggcaggaaataatcaaactcagagctgaaatcaaccaagtagaaacaaaaaggaccatagaaagaatcaacagAaccaaaagttggttctttAagaaTatcaacaagatagataaacccttagccagactaacgagaggacacagagagtgTgtccaaattaacaaaatcagaaaTgaaaagggagacataactaCagattcGgaggaaattcaaaaaatcatcaGatcttactataaaaacctatattcaacaaaaTttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcgaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaacCaaaaagagTccaggtccagacgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggaGcactAccGaat-tCcttctaTgaagccacaattactcttAtacctaaaccacacaaagacacGacaaagaaagagAacttcagaccaatttcccttatgaatatcAaCgcaaaaatactcaataaaattctggcaaacCgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccatTatataaacaaactgaaagaacagaacCacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaagGctgcccactctctccctacttattcaatatagttcttgaagttctagccagaCcaatcagaAaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacAactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtaCCtcggtgtgactttaaccaagcaagtaaaAgatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatcTacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaAcaatttgcaaattcatctggaataacaaaaaacccaggatAgctaaaGctatcCtcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaaTagaattgaagacccagaaatgaacTcacacacctatggTcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="2056"></property>
+  <property name="num_identical"      value="2006"></property>
+  <property name="num_similar"        value="2006"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:52">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:53">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>15691</start><end>15595</end></span>
+   <alignment>
+   TgtgtcccataagtttgagtatgttgtatcttcattttcattaaattctaaaaagtttttaatttctttctttatttCttccttgaccaggttatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>1960</start><end>2055</end></span>
+   <alignment>
+   -gtgtcccataagtttgagtatgttgtatcttcattttcattaaattctaaaaagtttttaatttctttctttatttTttccttgaccaggttatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="96"></property>
+  <property name="num_identical"      value="94"></property>
+  <property name="num_similar"        value="94"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBall:54">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1340826</start><end>1338866</end></span>
+   <alignment>
+   -gttgccctccagttgaaccagcaccatttgctgaaaatgctatcttttttccattggatggttttggctcctttgtcaaaaatcaagtgaccataggtgtgtgGgttcatttctgggtcttcaattctattccattggtctatctgtctgtctctgtaccaataccatgcagtttttatcactattgctctgtaatactgcttgagttcagggatagtgattccccctgaagtccttttattgttgaggatagctttagctatcctgggttttttgttattccagatgaatttgcaaattgttctgtctaactctttgaagaattggattggtattttgatggggattgcattgaatctgtagattgcttttggtaaaatggccatttttacCatattaatcctgccaatccatgagcatgggagatctttccatcttctgaggtcttcttcaatttctttcctcagtgtcttgaagttcttCttgtacagatcttttacttgcttggttaaagtcacaccgaggtactGtatattatttgggtctattCtgaagggtgtTgtttccctaatttctttctcggcttgtttctcttttgtatagaggaaggcaactgatttatttgagttaattttatacccagccactttgctgaagttgtttatcagctttagtAgttctctggtggaacttttgggatcacttaaataAactatcatgtcatctgcaaatagtgatattttgacctcttcttttccgatctgtatccccttgatctccttttgttGtctgattgCtctggctagaacttcaagaactatattgaataagtagggagagagtgggcagccttgtctagtccctgattttagtgggattgcttcaagtttctctccatttagtttaatgttagcaactggtttgctgtatatggcttttactatgtttaggtatgggccttgaattcctattctttccaggacttttatcatgaaggggtgttgaattttTtcaaatgctttctcagcatctaatgaaatgatcatgtggttctgttctttcagtttgtttatataatggatcacgttgatggttttccgtatattaaaccatccctgcatgcctgggatgaagcctacttgatcatggtggatgattgttttgatgtgctcttgaattcggtttgccagaattttattgagtatttttgcgtCgatattcataagggaaattggtctgaagttctctttctttgtTgtgtctttgtgtggtttaggtataagagtaattgtggcttcGtagaaggaattcggtagGgctccatctgtttcaattttgtggaatagtttggataatattTTtatgaggtcttctatgaaggtttgatagaattctgcactaaacccgtctggacctggGctctttttggttgggagacctttaatgactgcttctatttccttaggagttatggggttgtttaactggtttatctgttcctgatttaacttTgCtacctggtatctgtctaggaaattgtccatttcctgCagattttcaaGttttgttgaatataggCttttatagtaagatctAatgattttttTgaatttcctcTgaatctgtTgttatgtctcccttttcatttctgattttgttaatttggaTacactctctgtgtcctctcgttagtctggctaagggtttatctatcttgttgatTttctCaaagaaccaacttttggttctgttgattctttctatggtcGtttttgtttctacttCgttgatttcagctctgagtttgattatttcctgccttctactcctcctgggtgtatttgcttctttttgttctagagcttttaggtgtgCtgtcaagctgctgacatatgctctttcctgtttctttctgcaggcactcaTAgctatgagttttcctcttagcACagctttcatt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>0</start><end>1960</end></span>
+   <alignment>
+   CgttgccctccagttgaaccagcaccatttgctgaaaatgctatcttttttccattggatggttttggctcctttgtcaaaaatcaagtgaccataggtgtgtgAgttcatttctgggtcttcaattctattccattggtctatctgtctgtctctgtaccaataccatgcagtttttatcactattgctctgtaatactgcttgagttcagggatagtgattccccctgaagtccttttattgttgaggatagctttagctatcctgggttttttgttattccagatgaatttgcaaattgttctgtctaactctttgaagaattggattggtattttgatggggattgcattgaatctgtagattgcttttggtaaaatggccatttttacTatattaatcctgccaatccatgagcatgggagatctttccatcttctgaggtcttcttcaatttctttcctcagtgtcttgaagttcttAttgtacagatcttttacttgcttggttaaagtcacaccgaggtactTtatattatttgggtctattAtgaagggtgtCgtttccctaatttctttctcggcttgtttctcttttgtatagaggaaggcaactgatttatttgagttaattttatacccagccactttgctgaagttgtttatcagctttagtTgttctctggtggaacttttgggatcacttaaataTactatcatgtcatctgcaaatagtgatattttgacctcttcttttccgatctgtatccccttgatctccttttgttTtctgattgGtctggctagaacttcaagaactatattgaataagtagggagagagtgggcagccttgtctagtccctgattttagtgggattgcttcaagtttctctccatttagtttaatgttagcaactggtttgctgtatatggcttttactatgtttaggtatgggccttgaattcctattctttccaggacttttatcatgaaggggtgttgaattttGtcaaatgctttctcagcatctaatgaaatgatcatgtggttctgttctttcagtttgtttatataatggatcacgttgatggttttccgtatattaaaccatccctgcatgcctgggatgaagcctacttgatcatggtggatgattgttttgatgtgctcttgaattcggtttgccagaattttattgagtatttttgcgtTgatattcataagggaaattggtctgaagttctctttctttgtCgtgtctttgtgtggtttaggtataagagtaattgtggcttcAtagaaggaattcggtagTgctccatctgtttcaattttgtggaatagtttggataatattGGtatgaggtcttctatgaaggtttgatagaattctgcactaaacccgtctggacctggActctttttggttgggagacctttaatgactgcttctatttccttaggagttatggggttgtttaactggtttatctgttcctgatttaacttCgAtacctggtatctgtctaggaaattgtccatttcctgAagattttcaaAttttgttgaatataggTttttatagtaagatctGatgatttttt-gaatttcctcCgaatctgtAgttatgtctcccttttcatttctgattttgttaatttggaCacactctctgtgtcctctcgttagtctggctaagggtttatctatcttgttgatAttctTaaagaaccaacttttggttctgttgattctttctatggtcCtttttgtttctacttGgttgatttcagctctgagtttgattatttcctgccttctactcctcctgggtgtatttgcttctttttgttctagagcttttaggtgtgTtgtcaagctgctgacatatgctctttcctgtttctttctgcaggcactcaGCgctatgagttttcctcttagcCTagctttcatt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1961"></property>
+  <property name="num_identical"      value="1923"></property>
+  <property name="num_similar"        value="1923"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:55">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:56">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>19784</start><end>21487</end></span>
+   <alignment>
+   CcttagNccagactaaGgagaggacacagagagtgCgtccaaattaacaaaatcagaaatgaaaagggagacataacAacagattcAgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaaaaCttgaaaatcttcaggaaatggacaatttcctagacagataccaggtaCcAaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagCccaggtccagacgggtttagtgTagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcactaccgaatAccAtctaCgaagccacaattactcttatacctaaaccacacaaagacacAacaaagaaagagaacttcagaccaatttcccttatgaatatcGacgcaaaaatactcaaCCaaattctggcaaaccgaatCcaagagcacatcaaaacaatcatccaccatgaCcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaAaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccGctctctccctacttattcaatatagttcttgaagttctagccagaGcaatcagaCaacaaaaggagatcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacTactaaagctgataaacaaAttcagAaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacCcacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>353</start><end>2055</end></span>
+   <alignment>
+   -cttag-ccagactaaCgagaggacacagagagtgTgtccaaattaacaaaatcagaaatgaaaagggagacataacTacagattcGgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaaaaTttgaaaatcttcaggaaatggacaatttcctagacagataccaggtaTcGaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagTccaggtccagacgggtttagtgCagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcactaccgaatTccTtctaTgaagccacaattactcttatacctaaaccacacaaagacacGacaaagaaagagaacttcagaccaatttcccttatgaatatcAacgcaaaaatactcaaTAaaattctggcaaaccgaatTcaagagcacatcaaaacaatcatccaccatgaTcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaGaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccActctctccctacttattcaatatagttcttgaagttctagccagaCcaatcagaAaacaaaaggagatcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacAactaaagctgataaacaaCttcagCaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagattcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacTcacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1704"></property>
+  <property name="num_identical"      value="1674"></property>
+  <property name="num_similar"        value="1674"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:57">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:58">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1304726</start><end>1302792</end></span>
+   <alignment>
+   gtcttcaattctattccaCtggtctatctgtctgtctctgtaccaataccatgcagGttttatcactattgctctgtaatactgcttgagttcagggatagtgattccccctgaagtccttttattgttgaggatagctttagctatcctgggttttttgttattccagatgaatttgcaaattgttctgATtaactctttgaagAaaGAAttggattggtattttgatggggattgcattgaatctgtagatCgcttttggtaaaatggccatttttactatattaatcctgcAaatccatgagcaCgggagTtcGttccatcttctgaggtcttcttcaatttctttcTtcagAgGcttgaaTttcttatCAtacagatctttCacttgcttggttaaaTtcacaccgGggtaTtttatattatttgggActattatgaagggtTtc-CttcccTtaatttctttctcggcttgtttctcttttgtGtagaggaaggcTactgatttatttgagttaattttatacccagccactttgctgaaCttgtttatcagctttagtAgttctctggtAgaacttttgggatcacttaaatatactatcatAtcatctgAaaatagtgatattttgacTtcttcttttccAatctgtatccccttgatctccttttgttGtctgattgCtctggctagaacttcaagaactaCattgaataagtagg--gagagtgggcagccttgtctagtccctgattttagtgggattgcttcaagtttctctccatttagtttaatgttagcaactggtttgctgtatatggcttttactatgtttagTtatgggccttgaattcctattctttccaggacttttatcatgaaggggtgttgaattttgtcaaatgctttctcagcatctaatgaaatgatcatgtggttTtgttctttcagtttCtttatataatggatcaTgtCgatggttttccgtatattaaaccatccctgcatgcctgggatgaagcTtacttgatcatggtggatgattgttttgatgtgctcttgGattcggtttgccCgaattttattgagtatttttgcgtCgatattcataagggaaattggtctgaagttctctttctttgtTgtgtctttgtgtggtttaggtataagagtaattgtggcttcatagaaggaattcggtagtgctTcatctgtttcaattttgtggaatagtttggataatattggtaCgaggtcttctatgaaggtCtgatagaattctgcactaaacccgtctggacctggGctctttttggttgggagacctttaatgactgcttctatttccttaggagttatTTggttgtttaactggtttatctgttcctgatttaacttcgGtacctggtatctgtctaggaaattgtccatttcctgCagattttcaaGttttgttgaatataggCttttCtaCtaagatctgatgattttttgaatttcTtcTgaatctgtagttatgtctcccttttcatttctgattttgttaatttggacacactctctgtgtcctctcgttagCctggctaagggtttatct-t---gttgatTttctCaaagaaccaacttttggttctgttgattctttctatggCcctttttgtttctacttggttgatttcagctctgagtttgatGatttcctgccttctacAcctcctgggtgtatttgcttctttttgttctagagcttttaggtgtgCtgtcaagTtgctgaTatatgctctCtcctgttt-tGttctgcaggGactcagTgc--tgagttttcctcttagcACagctttcattgtgtcccataagtttg-gTtatgttgtaCcttcattttcattaaattctaaaaagtCtttCatttctttctttatttCttccttgaccaggttatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>117</start><end>2055</end></span>
+   <alignment>
+   gtcttcaattctattccaTtggtctatctgtctgtctctgtaccaataccatgcagTttttatcactattgctctgtaatactgcttgagttcagggatagtgattccccctgaagtccttttattgttgaggatagctttagctatcctgggttttttgttattccagatgaatttgcaaattgttctgTCtaactctttgaag-aa---ttggattggtattttgatggggattgcattgaatctgtagatTgcttttggtaaaatggccatttttactatattaatcctgcCaatccatgagcaTgggagAtcTttccatcttctgaggtcttcttcaatttctttcCtcagTgTcttgaaGttcttatTGtacagatctttTacttgcttggttaaaGtcacaccgAggtaCtttatattatttgggTctattatgaagggtGtcGTttccc-taatttctttctcggcttgtttctcttttgtAtagaggaaggcAactgatttatttgagttaattttatacccagccactttgctgaaGttgtttatcagctttagtTgttctctggtGgaacttttgggatcacttaaatatactatcatGtcatctgCaaatagtgatattttgacCtcttcttttccGatctgtatccccttgatctccttttgttTtctgattgGtctggctagaacttcaagaactaTattgaataagtaggGAgagagtgggcagccttgtctagtccctgattttagtgggattgcttcaagtttctctccatttagtttaatgttagcaactggtttgctgtatatggcttttactatgtttagGtatgggccttgaattcctattctttccaggacttttatcatgaaggggtgttgaattttgtcaaatgctttctcagcatctaatgaaatgatcatgtggttCtgttctttcagtttGtttatataatggatcaCgtTgatggttttccgtatattaaaccatccctgcatgcctgggatgaagcCtacttgatcatggtggatgattgttttgatgtgctcttgAattcggtttgccAgaattttattgagtatttttgcgtTgatattcataagggaaattggtctgaagttctctttctttgtCgtgtctttgtgtggtttaggtataagagtaattgtggcttcatagaaggaattcggtagtgctCcatctgtttcaattttgtggaatagtttggataatattggtaTgaggtcttctatgaaggtTtgatagaattctgcactaaacccgtctggacctggActctttttggttgggagacctttaatgactgcttctatttccttaggagttatGGggttgtttaactggtttatctgttcctgatttaacttcgAtacctggtatctgtctaggaaattgtccatttcctgAagattttcaaAttttgttgaatataggTttttAtaGtaagatctgatgattttttgaatttcCtcCgaatctgtagttatgtctcccttttcatttctgattttgttaatttggacacactctctgtgtcctctcgttagTctggctaagggtttatctAtCTTgttgatAttctTaaagaaccaacttttggttctgttgattctttctatggTcctttttgtttctacttggttgatttcagctctgagtttgatTatttcctgccttctacTcctcctgggtgtatttgcttctttttgttctagagcttttaggtgtgTtgtcaagCtgctgaCatatgctctTtcctgtttCt-ttctgcaggCactcagCgcTAtgagttttcctcttagcCTagctttcattgtgtcccataagtttgAg-tatgttgtaTcttcattttcattaaattctaaaaagtTtttAatttctttctttatttTttccttgaccaggttatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1945"></property>
+  <property name="num_identical"      value="1851"></property>
+  <property name="num_similar"        value="1851"></property>
+  <property name="num_gaps"           value="18"></property>
+ </result_span>
+ <result_span id="S4GBall:59">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1317949</start><end>1317834</end></span>
+   <alignment>
+   c--tgATctccagttgaaccagcaccatttgctgaaaatgctatcttttttccattgAatggttttggctcctttgtcaaaaatcaagtgCccataggtgtgtgGgttcatttctgg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>0</start><end>117</end></span>
+   <alignment>
+   cGTtgCCctccagttgaaccagcaccatttgctgaaaatgctatcttttttccattgGatggttttggctcctttgtcaaaaatcaagtgAccataggtgtgtgAgttcatttctgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="117"></property>
+  <property name="num_identical"      value="110"></property>
+  <property name="num_similar"        value="110"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:60">
+ <description>&gt;CRA|1000735288200 /altid=gi|56519 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=2055 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61294 /altid=gb_locus|RNL1RTO2A /altid=gb_accvers|X61294.1 /protein_id=CAA43592.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:61">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>458285</start><end>459667</end></span>
+   <alignment>
+   gttctttGagaaAatca-caagatagataaacccttagccagactaacgagaggacacagagagtgCgtccaaattaacaaaatcagaaatgaaaagggagacataactacagattcAgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaaaatttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcgaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagCccaggtccagacgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcactaccgaattccttctaCgaagccacaattactcttatacctaaaccacacaaagacacAacaaagaaagagaacttcagaccaatttcccttatgaatatcGacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaa-atacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacagaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcTcatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagaGcaatcagaCaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacTactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaGaatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagCagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatTtagtaaaaatggccattttaccaaaagcaatctCGagattcaat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>320</start><end>1704</end></span>
+   <alignment>
+   gttctttAagaaTatcaAcaagatagataaacccttagccagactaacgagaggacacagagagtgTgtccaaattaacaaaatcagaaatgaaaagggagacataactacagattcGgaggaaattcaaaaaatcatcagatcttactataaaaacctatattcaacaaaatttgaaaatcttcaggaaatggacaatttcctagacagataccaggtatcgaagttaaatcaggaacagataaaccagttaaacaaccccataactcctaaggaaatagaagcagtcattaaaggtctcccaaccaaaaagagTccaggtccagacgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcactaccgaattccttctaTgaagccacaattactcttatacctaaaccacacaaagacacGacaaagaaagagaacttcagaccaatttcccttatgaatatcAacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaaTatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacagaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcCcatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagaCcaatcagaAaacaaaaggagatcaaggggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgacatgatagtatatttaagtgatcccaaaagttccaccagagaacAactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaTaatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagacactgaggaaagaaattgaagAagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatAtagtaaaaatggccattttaccaaaagcaatctACagattcaat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1384"></property>
+  <property name="num_identical"      value="1365"></property>
+  <property name="num_similar"        value="1365"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <result_span id="S4GBall:62">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1033034</start><end>1033384</end></span>
+   <alignment>
+   gcaatccccatcaaaataccaatccaattcttcaaagagttagaAagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtCttggtacagagacagacagatagaTcaatggaatagaattgaagacccagaaatgaacCcacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggaggTcaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288200" type="sbjct">
+   <span><start>1704</start><end>2055</end></span>
+   <alignment>
+   gcaatccccatcaaaataccaatccaattcttcaaagagttagaCagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtAttggtacagagacagacagatagaCcaatggaatagaattgaagacccagaaatgaacTcacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggaggGcaacG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="351"></property>
+  <property name="num_identical"      value="345"></property>
+  <property name="num_similar"        value="345"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288200"></property>
+ <property name="subject_seq_length" value="2055"></property>
+ </result_set>
+ <result_set id="S4GBall:63">
+ <description>&gt;CRA|1000735288201 /altid=gi|56521 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1542 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61295 /altid=gb_locus|RNL1RTO2B /altid=gb_accvers|X61295.1 /protein_id=CAA43593.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:64">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>410998</start><end>409458</end></span>
+   <alignment>
+   catccaTcatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatcTattatataaacaaactgaaagaacaAaaccacatgatcatttcattaAatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaaGaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaac-agtAgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccacTctctccctacttattcaatatCgttcttgaagtCctagccagagcaatcagacaacaaaaggagatcaaagggatacagatTggaaaGgaagaAgtcaaaatatcactattCgcagatgatatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagtAgccttcctctaCacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaGaatataaagtacctcggtgtgactttaaccaaCcaagCaaaa-atctgtacaataagaacttcaagCcTctgaagaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggCttaatatagtaaaaatggccattttaccaaaagcaatctacagattcaatgcGatccccatcaaaataccaatccaattcttTaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggataGgtaaaActatcctcaacaataaaaggacttcagggggaatcaGtatccctgaactcaagcagtattacagagcaatagtgataaaaTctgcatggtattggtacagaCacagacagatagaccaatggaaCagaattgaagacccagaaatgaacccacacaActatggGcacttgatttttgacaaaggagccaaaAccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggaggTcaacatgtagaagaatgcagatcgatccatgcttatcaccAtgtacaaagcttaagtccaagtggatcaaggacctccacatcaaaccagaTacactcaaactaatagaagaaaaactagggCagcatctCgaacacatgggcactggaaaaaatttcTtgaacaaaacaccaatggcttatgctctaagatcaagaatCAaTaaatgggatctcataaaactgcaaagTttctgtaaggcaaaggacactgtgAttaggaGaaaacggcaaccaacagattgggaTaagatctttaccaaTcctacaacagatagaggccttatatccaaaatatacaaagaactcaagaagttagaccgcagggaaacaaataaccctattaaaaaatg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288201" type="sbjct">
+   <span><start>0</start><end>1542</end></span>
+   <alignment>
+   catccaCcatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatcCattatataaacaaactgaaagaacaGaaccacatgatcatttcattaGatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaaAaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaacCagtTgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccacGctctccctacttattcaatatAgttcttgaagtTctagccagagcaatcagacaacaaaaggagatcaaagggatacagatCggaaaAgaagaGgtcaaaatatcactattTgcagatgatatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagtTgccttcctctaTacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaTaatataaagtacctcggtgtgactttaaccaaGcaagTaaaaGatctgtacaataagaacttcaagAcActgaagaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggAttaatatagtaaaaatggccattttaccaaaagcaatctacagattcaatgcAatccccatcaaaataccaatccaattcttCaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggataCgtaaaGctatcctcaacaataaaaggacttcagggggaatcaCtatccctgaactcaagcagtattacagagcaatagtgataaaaActgcatggtattggtacagaGacagacagatagaccaatggaaTagaattgaagacccagaaatgaacccacacaCctatggTcacttgatttttgacaaaggagccaaaGccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggaggGcaacatgtagaagaatgcagatcgatccatgcttatcaccCtgtacaaagcttaagtccaagtggatcaaggacctccacatcaaaccagaCacactcaaactaatagaagaaaaactagggAagcatctGgaacacatgggcactggaaaaaatttcCtgaacaaaacaccaatggcttatgctctaagatcaagaatTGaCaaatgggatctcataaaactgcaaagCttctgtaaggcaaaggacactgtgGttaggaCaaaacggcaaccaacagattgggaAaagatctttaccaaCcctacaacagatagaggccttatatccaaaatatacaaagaactcaagaagttagaccgcagggaaacaaataaccctattaaaaaatg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1542"></property>
+  <property name="num_identical"      value="1494"></property>
+  <property name="num_similar"        value="1494"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288201"></property>
+ <property name="subject_seq_length" value="1542"></property>
+ </result_set>
+ <result_set id="S4GBall:65">
+ <description>&gt;CRA|1000735288201 /altid=gi|56521 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1542 /mol_type=mRNA /date=01/29/1997 /altid=gb_acc|X61295 /altid=gb_locus|RNL1RTO2B /altid=gb_accvers|X61295.1 /protein_id=CAA43593.1 /def=R.norvegicus L1 retroposon, ORF2 mRNA (partial). /div=ROD</description>
+ <result_span id="S4GBall:66">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>406475</start><end>404939</end></span>
+   <alignment>
+   catccaTcatgatcaagtaggcttcatcccaggcatgcagggatgAtttaatatacTgaaaaccatcaacAtATtccaCtatGtaaaTaaactgaaagaacaAaaccacaCgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaCGaaCGggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaa-cagtAgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccacTctctccctacttattcaatatCgttcttgaagtCctagccagagcaatcagacaacaaaaggagatcaaagggatacagatTggaaaGgaagaAgtcaaaatatcactattCgcagatgatatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagtAgccttcctctaCacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaGaatataaagtacctcggtgtgactttaaccaaCcaagCaaaa-atctgtacaataagaacttcaagCcTctgaagaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggCttaatatagtaaaaatggccattttaccCaaagcGatctacagattcaatgcaatccccatcaaaatTccaatccaattcttcaTagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggataGgtaaaActGtcTtcaacaataaaaggacttcCgggggaatcactatccctgaactcaagcagtattacagagcaataAtgataaaaactgTatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggGcacttgatttttgacaaaggagccaaagccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggaggTcaacatgtagaagaatgcagatcgatccatgcttatcaccctgtacaaagctCaagtccaaAtggatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaaGtGgggaagAatctggaacacatgggcactggaGaaaatttcctgaacaaaacaccaatggcttatActctaagatcaagaatCAacaaatgggatctcataaaactgcaaagcttctgtaaggcaaaggacactgtggttaggacaaaacggcaaccaacagattgggaaaagatcttt-c-aaTcctacaacTgataAaggGcttatatccaaaatatacaaagaactcaCgGagttagacTgcagggaaaAaaataaccctattaaaa--tg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288201" type="sbjct">
+   <span><start>0</start><end>1542</end></span>
+   <alignment>
+   catccaCcatgatcaagtaggcttcatcccaggcatgcagggatgGtttaatatacGgaaaaccatcaacGtGAtccaTtatAtaaaCaaactgaaagaacaGaaccacaTgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaAAaaTAggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaCcagtTgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccacGctctccctacttattcaatatAgttcttgaagtTctagccagagcaatcagacaacaaaaggagatcaaagggatacagatCggaaaAgaagaGgtcaaaatatcactattTgcagatgatatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagtTgccttcctctaTacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaTaatataaagtacctcggtgtgactttaaccaaGcaagTaaaaGatctgtacaataagaacttcaagAcActgaagaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggAttaatatagtaaaaatggccattttaccAaaagcAatctacagattcaatgcaatccccatcaaaatAccaatccaattcttcaAagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggataCgtaaaGctAtcCtcaacaataaaaggacttcAgggggaatcactatccctgaactcaagcagtattacagagcaataGtgataaaaactgCatggtattggtacagagacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggTcacttgatttttgacaaaggagccaaagccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggaggGcaacatgtagaagaatgcagatcgatccatgcttatcaccctgtacaaagctTaagtccaaGtggatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaaCtAgggaagCatctggaacacatgggcactggaAaaaatttcctgaacaaaacaccaatggcttatGctctaagatcaagaatTGacaaatgggatctcataaaactgcaaagcttctgtaaggcaaaggacactgtggttaggacaaaacggcaaccaacagattgggaaaagatctttAcCaaCcctacaacAgataGaggCcttatatccaaaatatacaaagaactcaAgAagttagacCgcagggaaaCaaataaccctattaaaaAAtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1542"></property>
+  <property name="num_identical"      value="1475"></property>
+  <property name="num_similar"        value="1475"></property>
+  <property name="num_gaps"           value="6"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288201"></property>
+ <property name="subject_seq_length" value="1542"></property>
+ </result_set>
+ <result_set id="S4GBall:67">
+ <description>&gt;CRA|1000735290948 /altid=gi|1679659 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=4189 /mol_type=mRNA /date=11/20/1996 /altid=gb_acc|U65007 /altid=gb_locus|RNU65007 /altid=gb_accvers|U65007.1 /protein_id=AAB19189.1 /def=Rattus norvegicus hepatocyte growth factor receptor mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBall:68">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>307405</start><end>308608</end></span>
+   <alignment>
+   atgaaggctcccaccgcgctggcacctggcattctgctgctgctgctgaccttggcgcagaggagccatggggagtgcaaggaggccctagtgaagtctgagatgaacgtgaacatgaagtaccagcttcccaacttcaccgcagaaacccccatccaCaatgtcgtcctccatgggcaccatatttatctcggagccacaaactacatttatgttttaGatgacaaagaccttcagaaggtatctgagttcaagaccgggcccgtggtggaacacccagattgttttccttgtcaggactgcagcagcaaagccaatgtgtcaggaggtgtttggaaagacaacgtcaacatggcgctgcttgttgacacttactatgacgaccagctcatcagctgtggcagcgtcaacagagggacctgccaaaggcatgtccttcctcctgacaatgctgccgacattcagtccgaggttcactgcatgttctccccacttgcggaggaagagtcaggccagtgtcccgactgtgtagtgagtgccctgggagccaaagtcctcctgtctgaaaaggaccggttcatcaatttcttcgtggggaatacgataaactcttcctaccctcccgattattcattgcattcaatatcggtgaggcggctgaaggaaacccaggacggttttaagtttttgacagaccagtcctacattgatgtcctgCCagaattccgagattcctaccccatcaagtacatacatgccttcgaaagcaaccattttatctactttctgactgtccagaaggaaaccctagatgctcagactttccatacaagaataatcaggttctgttctgtagactctgggttgcactcctacatggaaatgcctctggagtgcattctgacggaaaaaagaagaaagagatccacaagggaagaagtgtttaatatcctccaagccgcAtatgtcagtaaaccGggggccaatcttgctaagcaaataggggccagcccgtatgatgacattctctacggggtgtttgcacaaagcaagccagattctgctgagcccatgaaccgatcagcggtctgtgcattccccatcaaatatgtcaatgacttcttcaacaagattgtcaacaaaaacaacgtacggtgtctccagcatttttatggacccaaccacgagcactgtttcaatagg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>0</start><end>1203</end></span>
+   <alignment>
+   atgaaggctcccaccgcgctggcacctggcattctgctgctgctgctgaccttggcgcagaggagccatggggagtgcaaggaggccctagtgaagtctgagatgaacgtgaacatgaagtaccagcttcccaacttcaccgcagaaacccccatccaGaatgtcgtcctccatgggcaccatatttatctcggagccacaaactacatttatgttttaAatgacaaagaccttcagaaggtatctgagttcaagaccgggcccgtggtggaacacccagattgttttccttgtcaggactgcagcagcaaagccaatgtgtcaggaggtgtttggaaagacaacgtcaacatggcgctgcttgttgacacttactatgacgaccagctcatcagctgtggcagcgtcaacagagggacctgccaaaggcatgtccttcctcctgacaatgctgccgacattcagtccgaggttcactgcatgttctccccacttgcggaggaagagtcaggccagtgtcccgactgtgtagtgagtgccctgggagccaaagtcctcctgtctgaaaaggaccggttcatcaatttcttcgtggggaatacgataaactcttcctaccctcccgattattcattgcattcaatatcggtgaggcggctgaaggaaacccaggacggttttaagtttttgacagaccagtcctacattgatgtcctgGGagaattccgagattcctaccccatcaagtacatacatgccttcgaaagcaaccattttatctactttctgactgtccagaaggaaaccctagatgctcagactttccatacaagaataatcaggttctgttctgtagactctgggttgcactcctacatggaaatgcctctggagtgcattctgacggaaaaaagaagaaagagatccacaagggaagaagtgtttaatatcctccaagccgcGtatgtcagtaaaccAggggccaatcttgctaagcaaataggggccagcccgtatgatgacattctctacggggtgtttgcacaaagcaagccagattctgctgagcccatgaaccgatcagcggtctgtgcattccccatcaaatatgtcaatgacttcttcaacaagattgtcaacaaaaacaacgtacggtgtctccagcatttttatggacccaaccacgagcactgtttcaatagg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1203"></property>
+  <property name="num_identical"      value="1197"></property>
+  <property name="num_similar"        value="1197"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:69">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>328961</start><end>329153</end></span>
+   <alignment>
+   accctgctgagaaattcatcgggctgcgaagtgcgcagtgacgagtaccggacggagtttaccacGgcgctgcagCg-tgtggatttattcatgggccggctcaaccatgtactcttgacgtctatctctaccttcatcaaaggtgacctcaccattgctaatctagggacatcagaaggtcgcttcatgcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>1203</start><end>1395</end></span>
+   <alignment>
+   accctgctgagaaattcatcgggctgcgaagtgcgcagtgacgagtaccggacggagtttaccacAgcgctgcag-gCtgtggatttattcatgggccggctcaaccatgtactcttgacgtctatctctaccttcatcaaaggtgacctcaccattgctaatctagggacatcagaaggtcgcttcatgcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="193"></property>
+  <property name="num_identical"      value="190"></property>
+  <property name="num_similar"        value="190"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <result_span id="S4GBall:70">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>340499</start><end>340634</end></span>
+   <alignment>
+   gtggtgctctctcgcacagcacatttcaccccccatgtgaatttcctcctggattccTatcctgtgtctccggaagttattgtcgaacatccatcaaatcaaaatggctataccTtggtggtcacagggaagaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>1395</start><end>1530</end></span>
+   <alignment>
+   gtggtgctctctcgcacagcacatttcaccccccatgtgaatttcctcctggattccCatcctgtgtctccggaagttattgtcgaacatccatcaaatcaaaatggctataccCtggtggtcacagggaagaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="135"></property>
+  <property name="num_identical"      value="133"></property>
+  <property name="num_similar"        value="133"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:71">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>341526</start><end>341700</end></span>
+   <alignment>
+   atcaccaagattccactgaatggcctaggctgtgggcatttccagtcctgcagtcagtgtctctctgccccctactttatacagtgtggctggtgccacaatcggtgtgtgcattccaatgaatgccccagcggtacatggactcaagagatctgtctgccagcagtttataag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>1530</start><end>1704</end></span>
+   <alignment>
+   atcaccaagattccactgaatggcctaggctgtgggcatttccagtcctgcagtcagtgtctctctgccccctactttatacagtgtggctggtgccacaatcggtgtgtgcattccaatgaatgccccagcggtacatggactcaagagatctgtctgccagcagtttataag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="174"></property>
+  <property name="num_identical"      value="174"></property>
+  <property name="num_similar"        value="174"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:72">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>346012</start><end>346173</end></span>
+   <alignment>
+   gttttccccactagtgcacccctcgaaggaggaacaatgctgaccatatgtggctgggactttggattcaagaagaataataaatttgatttaaggaaaaccaaagttctgcttggcaacgagagctgtaccttgaccttaagcgagagcacgacaaatac
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>1704</start><end>1865</end></span>
+   <alignment>
+   gttttccccactagtgcacccctcgaaggaggaacaatgctgaccatatgtggctgggactttggattcaagaagaataataaatttgatttaaggaaaaccaaagttctgcttggcaacgagagctgtaccttgaccttaagcgagagcacgacaaatac
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="161"></property>
+  <property name="num_identical"      value="161"></property>
+  <property name="num_similar"        value="161"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:73">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>348277</start><end>348380</end></span>
+   <alignment>
+   gttgaaatgcacagttggccccgcgatgagtgagcacttcaatgtgtctgtgatcgtctcaaacagtcgagagacaacacagtacagtgcgttttcctatgtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>1865</start><end>1968</end></span>
+   <alignment>
+   gttgaaatgcacagttggccccgcgatgagtgagcacttcaatgtgtctgtgatcgtctcaaacagtcgagagacaacacagtacagtgcgttttcctatgtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="103"></property>
+  <property name="num_identical"      value="103"></property>
+  <property name="num_similar"        value="103"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:74">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>348489</start><end>348626</end></span>
+   <alignment>
+   gatcctgtaataacaagtatttctccaaggtatggtcctcatgccggaggcaccttactcactttgactggaaaatacctcaacagcggcaattctagacacatttcaatcggagggaaaacatgtactttaaaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>1968</start><end>2105</end></span>
+   <alignment>
+   gatcctgtaataacaagtatttctccaaggtatggtcctcatgccggaggcaccttactcactttgactggaaaatacctcaacagcggcaattctagacacatttcaatcggagggaaaacatgtactttaaaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:75">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>349299</start><end>349461</end></span>
+   <alignment>
+   tgtatcagatagcattctcgaatgctacaccccaggccacaccgtctctgccgagtttcccgtgaaattgaaaatcgacctggctgaccgagtgacaagcagcttcagttacCgggaagacccgGttgtctctgaaatccacccgaccaaatcttttatcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>2105</start><end>2267</end></span>
+   <alignment>
+   tgtatcagatagcattctcgaatgctacaccccaggccacaccgtctctgccgagtttcccgtgaaattgaaaatcgacctggctgaccgagtgacaagcagcttcagttacGgggaagacccgTttgtctctgaaatccacccgaccaaatcttttatcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="162"></property>
+  <property name="num_identical"      value="160"></property>
+  <property name="num_similar"        value="160"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:76">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>350187</start><end>350287</end></span>
+   <alignment>
+   tggtggaagcacaataacggggattggaaagaacctgaattcagttagcaccccaaagctggtaatagaagtgcatgacgtgggcgtgaactacaccgtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>2267</start><end>2367</end></span>
+   <alignment>
+   tggtggaagcacaataacggggattggaaagaacctgaattcagttagcaccccaaagctggtaatagaagtgcatgacgtgggcgtgaactacaccgtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="100"></property>
+  <property name="num_identical"      value="100"></property>
+  <property name="num_similar"        value="100"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:77">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>354498</start><end>354717</end></span>
+   <alignment>
+   gcgtgccaacatcgctcgagttcagagatcatctgctgcaccactccttccctgcaacagctggacctgcaactccccctgaagaccaaagccttcttcctgctggacgggatcctttccaaacactttgatctcacttatgtacatgatcctatgtttaagccttttgaaaagccagtaatgatctccatgggcaatgagaatgtagtggaaattaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>2367</start><end>2586</end></span>
+   <alignment>
+   gcgtgccaacatcgctcgagttcagagatcatctgctgcaccactccttccctgcaacagctggacctgcaactccccctgaagaccaaagccttcttcctgctggacgggatcctttccaaacactttgatctcacttatgtacatgatcctatgtttaagccttttgaaaagccagtaatgatctccatgggcaatgagaatgtagtggaaattaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="219"></property>
+  <property name="num_identical"      value="219"></property>
+  <property name="num_similar"        value="219"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:78">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>361325</start><end>361475</end></span>
+   <alignment>
+   ggagacgatattgaccctgaagcagttaaaggtgaagtgttaaaagtcgggaataagagctgtgagaatctccactggcattctgaagctttgttgtgtacggtccccagtgacctgctgaagctgaacggcggcgagctaaatatagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>2586</start><end>2736</end></span>
+   <alignment>
+   ggagacgatattgaccctgaagcagttaaaggtgaagtgttaaaagtcgggaataagagctgtgagaatctccactggcattctgaagctttgttgtgtacggtccccagtgacctgctgaagctgaacggcggcgagctaaatatagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="150"></property>
+  <property name="num_identical"      value="150"></property>
+  <property name="num_similar"        value="150"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:79">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363031</start><end>363185</end></span>
+   <alignment>
+   tggaagcaagcagtctcttcaactgtccttggaaaagtgatcgttcaaccggatcagaattttgcaggattgatcattggtgcggtctcaatatcagtggtagttttgttagtatccgggctcttcctgtggctgagaaagagaaagcataaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>2736</start><end>2890</end></span>
+   <alignment>
+   tggaagcaagcagtctcttcaactgtccttggaaaagtgatcgttcaaccggatcagaattttgcaggattgatcattggtgcggtctcaatatcagtggtagttttgttagtatccgggctcttcctgtggctgagaaagagaaagcataaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="154"></property>
+  <property name="num_identical"      value="154"></property>
+  <property name="num_similar"        value="154"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:80">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363377</start><end>363518</end></span>
+   <alignment>
+   atctgggcagtgaattagttcgctatgacgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagagatggtctcaaatgagtctgtagactacagagctacttttccagaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>2890</start><end>3031</end></span>
+   <alignment>
+   atctgggcagtgaattagttcgctatgacgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagagatggtctcaaatgagtctgtagactacagagctacttttccagaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="141"></property>
+  <property name="num_identical"      value="141"></property>
+  <property name="num_similar"        value="141"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:81">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>367514</start><end>367745</end></span>
+   <alignment>
+   accagtttcccaactcctctcagaatggagcctgcagacaagtgcagtatccTctgacagatctgtcccccatcctgacgagtggagactctgatatatccagcccattactacaaaacactgttcacattgacctcagcgctctaaatccagagctggtccaagcggtgcagcacgtagtgattggacccagtagcctgattgtgcatttcaatgaagtcataggaagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3031</start><end>3262</end></span>
+   <alignment>
+   accagtttcccaactcctctcagaatggagcctgcagacaagtgcagtatccActgacagatctgtcccccatcctgacgagtggagactctgatatatccagcccattactacaaaacactgttcacattgacctcagcgctctaaatccagagctggtccaagcggtgcagcacgtagtgattggacccagtagcctgattgtgcatttcaatgaagtcataggaagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="231"></property>
+  <property name="num_identical"      value="230"></property>
+  <property name="num_similar"        value="230"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:82">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>369906</start><end>369987</end></span>
+   <alignment>
+   ggcattttggctgtgtctatcatgggactttgttggacagtgacggaaagaaaattcactgtgctgtgaaatccttgaaCa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3262</start><end>3343</end></span>
+   <alignment>
+   ggcattttggctgtgtctatcatgggactttgttggacagtgacggaaagaaaattcactgtgctgtgaaatccttgaaTa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="81"></property>
+  <property name="num_identical"      value="80"></property>
+  <property name="num_similar"        value="80"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:83">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>373632</start><end>373814</end></span>
+   <alignment>
+   gaatcacagatatagaagaagtctcccagtttctgactgagggaatcatcatgaaagatttcagccaccccaatgttctctcactcttgggaatctgcctgcggagtgaagggtcccctctggtggttctgccctatatgaagcacggagatcttcgcaatttcattcgaaaTgagactcat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3343</start><end>3525</end></span>
+   <alignment>
+   gaatcacagatatagaagaagtctcccagtttctgactgagggaatcatcatgaaagatttcagccaccccaatgttctctcactcttgggaatctgcctgcggagtgaagggtcccctctggtggttctgccctatatgaagcacggagatcttcgcaatttcattcgaaaCgagactcat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="182"></property>
+  <property name="num_identical"      value="181"></property>
+  <property name="num_similar"        value="181"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:84">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>376265</start><end>376375</end></span>
+   <alignment>
+   aacccaactgtgaaagatcttataggattcggtcttcaagtagccaagggcatgaaatatcttgccagcaaaaagtttgtccacagagacttagctgcaagaaactgcat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3525</start><end>3635</end></span>
+   <alignment>
+   aacccaactgtgaaagatcttataggattcggtcttcaagtagccaagggcatgaaatatcttgccagcaaaaagtttgtccacagagacttagctgcaagaaactgcat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="110"></property>
+  <property name="num_identical"      value="110"></property>
+  <property name="num_similar"        value="110"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:85">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>377532</start><end>377698</end></span>
+   <alignment>
+   gttggatgaaaaattcactgtcaaggttgctgatttcggtcttgccagagacatgtacgacaaagagtattatagcgtccacaacaaaacgggtgcgaaactaccggtgaagtggatggctttagagagtctgcagacgcaaaagttcaccaccaagtcagacgtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3635</start><end>3801</end></span>
+   <alignment>
+   gttggatgaaaaattcactgtcaaggttgctgatttcggtcttgccagagacatgtacgacaaagagtattatagcgtccacaacaaaacgggtgcgaaactaccggtgaagtggatggctttagagagtctgcagacgcaaaagttcaccaccaagtcagacgtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="166"></property>
+  <property name="num_identical"      value="166"></property>
+  <property name="num_similar"        value="166"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:86">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>384780</start><end>384917</end></span>
+   <alignment>
+   tggtccttcggtgtgcttctctgggagctcatgacgagaggagcccctccttatcctgacgtgaacacatttgatatcactatatacctgttgcaaggcagaagactcttgcaaccagagtactgtccagacgcctt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3801</start><end>3938</end></span>
+   <alignment>
+   tggtccttcggtgtgcttctctgggagctcatgacgagaggagcccctccttatcctgacgtgaacacatttgatatcactatatacctgttgcaaggcagaagactcttgcaaccagagtactgtccagacgcctt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:87">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>385018</start><end>385269</end></span>
+   <alignment>
+   gtatgaagtgatgctaaaatgctggcaccccaaagcagaaatgcgcccatcgttttctgaactggtctccagGatatcctcaatcttctccactttcattggcgagcactatgtccatgtgaacgctacttatgtgaatgtaaaatgtgttgctccatatccttctctgttgccatcccaagacaacattgacggcgaagcgaacacatgacggataagaggcccgccagcccCcttcTaagaaacagtAc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735290948" type="sbjct">
+   <span><start>3938</start><end>4189</end></span>
+   <alignment>
+   gtatgaagtgatgctaaaatgctggcaccccaaagcagaaatgcgcccatcgttttctgaactggtctccagAatatcctcaatcttctccactttcattggcgagcactatgtccatgtgaacgctacttatgtgaatgtaaaatgtgttgctccatatccttctctgttgccatcccaagacaacattgacggcgaagcgaacacatgacggataagaggcccgccagcccActtcCaagaaacagtTc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="251"></property>
+  <property name="num_identical"      value="247"></property>
+  <property name="num_similar"        value="247"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735290948"></property>
+ <property name="subject_seq_length" value="4189"></property>
+ </result_set>
+ <result_set id="S4GBall:88">
+ <description>&gt;CRA|60000043300870 /altid=gi|13605418 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=384 /mol_type=mRNA /date=01/17/2002 /altid=gb_acc|AF352173 /altid=gb_locus|AF352173 /altid=gb_accvers|AF352173.1 /protein_id=AAK32709.1 /def=Rattus norvegicus hepatocyte growth factor receptor mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBall:89">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>373696</start><end>373814</end></span>
+   <alignment>
+   ccaccccaatgttctctcactcttgggaatctgcctgcggagtgaagggtcccctctggtggttctgccctatatgaagcacggagatcttcgcaatttcattcgaaatgagactcat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:60000043300870" type="sbjct">
+   <span><start>0</start><end>118</end></span>
+   <alignment>
+   ccaccccaatgttctctcactcttgggaatctgcctgcggagtgaagggtcccctctggtggttctgccctatatgaagcacggagatcttcgcaatttcattcgaaatgagactcat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="118"></property>
+  <property name="num_identical"      value="118"></property>
+  <property name="num_similar"        value="118"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:90">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>376265</start><end>376375</end></span>
+   <alignment>
+   aacccaactgtgaaagatcttataggattcggtcttcaagtagccaagggcatgaaatatcttgccagcaaaaagtttgtccacagagacttagctgcaagaaactgcat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:60000043300870" type="sbjct">
+   <span><start>118</start><end>228</end></span>
+   <alignment>
+   aacccaactgtgaaagatcttataggattcggtcttcaagtagccaagggcatgaaatatcttgccagcaaaaagtttgtccacagagacttagctgcaagaaactgcat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="110"></property>
+  <property name="num_identical"      value="110"></property>
+  <property name="num_similar"        value="110"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:91">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>377532</start><end>377687</end></span>
+   <alignment>
+   gttggatgaaaaattcactgtcaaggttgctgatttcggtcttgccagagacatgtacgacaaagagtattatagcgtccacaacaaaacgggtgcgaaactaccggtgaagtggatggctttagagagtctgcagacgcaaaagttcaccacca-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:60000043300870" type="sbjct">
+   <span><start>228</start><end>384</end></span>
+   <alignment>
+   gttggatgaaaaattcactgtcaaggttgctgatttcggtcttgccagagacatgtacgacaaagagtattatagcgtccacaacaaaacgggtgcgaaactaccggtgaagtggatggctttagagagtctgcagacgcaaaagttcaccaccaC
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="156"></property>
+  <property name="num_identical"      value="155"></property>
+  <property name="num_similar"        value="155"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:60000043300870"></property>
+ <property name="subject_seq_length" value="384"></property>
+ </result_set>
+ <result_set id="S4GBall:92">
+ <description>&gt;CRA|60000043300991 /altid=gi|13605425 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=314 /mol_type=mRNA /date=01/17/2002 /altid=gb_acc|AF352177 /altid=gb_locus|AF352177 /altid=gb_accvers|AF352177.1 /protein_id=AAK32712.1 /def=Rattus norvegicus wingless-type MMTV integration site family member 2 (Wnt2) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBall:93">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>884105</start><end>883950</end></span>
+   <alignment>
+   gtacatgagagcgacaggtggctcctccagggtgatgtgtgacaatgtgccaggtctggtgagccgccagcgtcagctgtgccaccgacacccagacgtgatgcgtgccattggcctgggcgtggctgagtggacagcagagtgccagcatcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:60000043300991" type="sbjct">
+   <span><start>159</start><end>314</end></span>
+   <alignment>
+   gtacatgagagcgacaggtggctcctccagggtgatgtgtgacaatgtgccaggtctggtgagccgccagcgtcagctgtgccaccgacacccagacgtgatgcgtgccattggcctgggcgtggctgagtggacagcagagtgccagcatcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="155"></property>
+  <property name="num_identical"      value="155"></property>
+  <property name="num_similar"        value="155"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:94">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>886364</start><end>886205</end></span>
+   <alignment>
+   gctgagcgcttctgctccgggcacgcatggcgcccgcacacggagtctgacctgatgtagacgcaagggggttaatatgaacgtccctctcggtggaatctggctctggctccctctgctcttgacctggctcacccctgaggtcagctcttcatggtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:60000043300991" type="sbjct">
+   <span><start>0</start><end>159</end></span>
+   <alignment>
+   gctgagcgcttctgctccgggcacgcatggcgcccgcacacggagtctgacctgatgtagacgcaagggggttaatatgaacgtccctctcggtggaatctggctctggctccctctgctcttgacctggctcacccctgaggtcagctcttcatggtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="159"></property>
+  <property name="num_identical"      value="159"></property>
+  <property name="num_similar"        value="159"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:60000043300991"></property>
+ <property name="subject_seq_length" value="314"></property>
+ </result_set>
+ <result_set id="S4GBall:95">
+ <description>&gt;CRA|60000043301024 /altid=gi|13605427 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=248 /mol_type=mRNA /date=01/17/2002 /altid=gb_acc|AF352178 /altid=gb_locus|AF352178 /altid=gb_accvers|AF352178.1 /protein_id=AAK32713.1 /def=Rattus norvegicus wingless-type MMTV integration site family member 2 (Wnt2) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBall:96">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>879190</start><end>878950</end></span>
+   <alignment>
+   gtagccgggaatcggcctttgtttacgccatctcctcagctggcgttgtatttgccatcaccagggcctgtagccaaggagaattaaagtcctgttcctgcgatccaaagaagaaagggagtggcaaggacagcaaaggtaccttcgactggggcggctgtagtgacaacattgactacgggatcaaattcgcccgtgcatttgtagatgccaaggaaaggaaaggaaagGatgccagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:60000043301024" type="sbjct">
+   <span><start>8</start><end>248</end></span>
+   <alignment>
+   gtagccgggaatcggcctttgtttacgccatctcctcagctggcgttgtatttgccatcaccagggcctgtagccaaggagaattaaagtcctgttcctgcgatccaaagaagaaagggagtggcaaggacagcaaaggtaccttcgactggggcggctgtagtgacaacattgactacgggatcaaattcgcccgtgcatttgtagatgccaaggaaaggaaaggaaagAatgccagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="240"></property>
+  <property name="num_identical"      value="239"></property>
+  <property name="num_similar"        value="239"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:60000043301024"></property>
+ <property name="subject_seq_length" value="248"></property>
+ </result_set>
+ <result_set id="S4GBall:97">
+ <description>&gt;CRA|222000011208315 /altid=gi|18389977 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1725 /mol_type=mRNA /date=05/08/2003 /altid=gb_acc|AF461260 /altid=gb_locus|AF461260 /altid=gb_accvers|AF461260.1 /protein_id=AAL68816.1 /def=Rattus norvegicus GASZ (Gasz) mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBall:98">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>912876</start><end>912445</end></span>
+   <alignment>
+   atgcagaatgaacgggaaaatgatccaactcacatcccactagtagaagaggtgtctccatggaagactcggattttgaagaggtcagcagttacagtatgtggattcgggctgctgcttttcatctgcaagctaactttccagagaaaatgatactaatatttatttaagttatacatgtacatcttattcaaagtgtcctagcattgcttttaatcatttgtgatacaacatagctttatttccttgcctatactccataggaaaaattatgataacataaaatacagtttttctttagaaagtgacttcagtttgaattatatagtttattacatttttatgttcatttcaatcaagaaataaattatggctaattctttcatttaaactgactaaatcacatgcaaaataaatgtttgctattcttt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>1294</start><end>1725</end></span>
+   <alignment>
+   atgcagaatgaacgggaaaatgatccaactcacatcccactagtagaagaggtgtctccatggaagactcggattttgaagaggtcagcagttacagtatgtggattcgggctgctgcttttcatctgcaagctaactttccagagaaaatgatactaatatttatttaagttatacatgtacatcttattcaaagtgtcctagcattgcttttaatcatttgtgatacaacatagctttatttccttgcctatactccataggaaaaattatgataacataaaatacagtttttctttagaaagtgacttcagtttgaattatatagtttattacatttttatgttcatttcaatcaagaaataaattatggctaattctttcatttaaactgactaaatcacatgcaaaataaatgtttgctattcttt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="431"></property>
+  <property name="num_identical"      value="431"></property>
+  <property name="num_similar"        value="431"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:99">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>916007</start><end>915893</end></span>
+   <alignment>
+   atagtactggagtgggcttcacccagaaattttacttcagtttgtgaagaactggttagtaatgttgaagatttgaatgaagaggtctgcagactgaaggagttgattcagaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>1180</start><end>1294</end></span>
+   <alignment>
+   atagtactggagtgggcttcacccagaaattttacttcagtttgtgaagaactggttagtaatgttgaagatttgaatgaagaggtctgcagactgaaggagttgattcagaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="114"></property>
+  <property name="num_identical"      value="114"></property>
+  <property name="num_similar"        value="114"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:100">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>917071</start><end>916965</end></span>
+   <alignment>
+   tggcgatgagttcctcaactttcttttgaagttaaataagcagtgtggccatttaatcacagctgtgcagaatatcattaccgagttacctgtgaattctcacaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>1074</start><end>1180</end></span>
+   <alignment>
+   tggcgatgagttcctcaactttcttttgaagttaaataagcagtgtggccatttaatcacagctgtgcagaatatcattaccgagttacctgtgaattctcacaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="106"></property>
+  <property name="num_identical"      value="106"></property>
+  <property name="num_similar"        value="106"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:101">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>925510</start><end>925400</end></span>
+   <alignment>
+   aatggaattacaagtaaagatcaacagaaaattttggctgctcttaaggaactagaagtagaagagataaattttggaaaattacctgaagtggcaaagttggaaattag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>964</start><end>1074</end></span>
+   <alignment>
+   aatggaattacaagtaaagatcaacagaaaattttggctgctcttaaggaactagaagtagaagagataaattttggaaaattacctgaagtggcaaagttggaaattag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="110"></property>
+  <property name="num_identical"      value="110"></property>
+  <property name="num_similar"        value="110"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:102">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>926456</start><end>926399</end></span>
+   <alignment>
+   gaaagggatataactttaagacaccttctgaccatgaagaaagacgagcttacaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>907</start><end>964</end></span>
+   <alignment>
+   gaaagggatataactttaagacaccttctgaccatgaagaaagacgagcttacaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="57"></property>
+  <property name="num_identical"      value="57"></property>
+  <property name="num_similar"        value="57"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:103">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>927417</start><end>927341</end></span>
+   <alignment>
+   tccatatacagcgtttggagatctggagatatttttacatggccttggactggaacatatgacagacttattaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>831</start><end>907</end></span>
+   <alignment>
+   tccatatacagcgtttggagatctggagatatttttacatggccttggactggaacatatgacagacttattaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="76"></property>
+  <property name="num_identical"      value="76"></property>
+  <property name="num_similar"        value="76"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:104">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>928361</start><end>928236</end></span>
+   <alignment>
+   atcttcaactttctttctctgactctaaatccactggaaggaaaactccagcagctaaccaaagaagagactatttgtaaactgttggccacagactctgataaagaaaaagatcacatatttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>706</start><end>831</end></span>
+   <alignment>
+   atcttcaactttctttctctgactctaaatccactggaaggaaaactccagcagctaaccaaagaagagactatttgtaaactgttggccacagactctgataaagaaaaagatcacatatttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="125"></property>
+  <property name="num_identical"      value="125"></property>
+  <property name="num_similar"        value="125"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:105">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>929217</start><end>929082</end></span>
+   <alignment>
+   gccttaacatgggcagcacggcagggtcataaaaatgtaattctgaagttgcttgaactcggagctaataaaatgctacagaccaaagatggcaggacaccaagtgagattgcaaaaagaaataaacatcttgag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>571</start><end>706</end></span>
+   <alignment>
+   gccttaacatgggcagcacggcagggtcataaaaatgtaattctgaagttgcttgaactcggagctaataaaatgctacagaccaaagatggcaggacaccaagtgagattgcaaaaagaaataaacatcttgag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="135"></property>
+  <property name="num_identical"      value="135"></property>
+  <property name="num_similar"        value="135"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:106">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>929842</start><end>929730</end></span>
+   <alignment>
+   gagacttatgactccaatcatgtatgctgcccgagatggtcatactcaggtcgttgctctgcttgttgctcatggagcagaagtcaacgcccaggatgagaatggttatact
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>459</start><end>571</end></span>
+   <alignment>
+   gagacttatgactccaatcatgtatgctgcccgagatggtcatactcaggtcgttgctctgcttgttgctcatggagcagaagtcaacgcccaggatgagaatggttatact
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="112"></property>
+  <property name="num_identical"      value="112"></property>
+  <property name="num_similar"        value="112"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:107">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>960786</start><end>960674</end></span>
+   <alignment>
+   acaagttaaccgttttgataactgcttgctctgctcgtggctcagaggaacaagtcttgaagtgtgtagagttactactttcacgaaatgcggatcctaatgttgcttgtag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>347</start><end>459</end></span>
+   <alignment>
+   acaagttaaccgttttgataactgcttgctctgctcgtggctcagaggaacaagtcttgaagtgtgtagagttactactttcacgaaatgcggatcctaatgttgcttgtag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="112"></property>
+  <property name="num_identical"      value="112"></property>
+  <property name="num_similar"        value="112"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:108">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>964196</start><end>964073</end></span>
+   <alignment>
+   gcattaatgtagattccagcttccgctatggatggacccctcttatgtatgcagctagtgtggccaatgtagagctggttcggttccttttggacaggggtgctaatgcaagctttgataagg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>224</start><end>347</end></span>
+   <alignment>
+   gcattaatgtagattccagcttccgctatggatggacccctcttatgtatgcagctagtgtggccaatgtagagctggttcggttccttttggacaggggtgctaatgcaagctttgataagg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="123"></property>
+  <property name="num_identical"      value="123"></property>
+  <property name="num_similar"        value="123"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:109">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>967496</start><end>967396</end></span>
+   <alignment>
+   aaattaaaaaggtctttacccgttgaagagaagaacgaaacattcaagaaagcactgaccaccggagatatttccttagtgaaggaactcctggattctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>124</start><end>224</end></span>
+   <alignment>
+   aaattaaaaaggtctttacccgttgaagagaagaacgaaacattcaagaaagcactgaccaccggagatatttccttagtgaaggaactcctggattctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="100"></property>
+  <property name="num_identical"      value="100"></property>
+  <property name="num_similar"        value="100"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:110">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>968050</start><end>967926</end></span>
+   <alignment>
+   caaagaacagcttggggccatggcggcgggcacgctgaggggcttggcagtggctggtggaggcgagagcagcgatagtgaggatgacggctgggatattgggtatctcgaccggtcctctcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000011208315" type="sbjct">
+   <span><start>0</start><end>124</end></span>
+   <alignment>
+   caaagaacagcttggggccatggcggcgggcacgctgaggggcttggcagtggctggtggaggcgagagcagcgatagtgaggatgacggctgggatattgggtatctcgaccggtcctctcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="124"></property>
+  <property name="num_identical"      value="124"></property>
+  <property name="num_similar"        value="124"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000011208315"></property>
+ <property name="subject_seq_length" value="1725"></property>
+ </result_set>
+ <result_set id="S4GBall:111">
+ <description>&gt;CRA|225000006516140 /altid=gi|17017236 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=489 /mol_type=mRNA /date=04/03/2002 /altid=gb_acc|AF439780 /altid=gb_locus|AF439780 /altid=gb_accvers|AF439780.1 /protein_id=AAL33581.1 /def=Rattus norvegicus caveolin-2 mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBall:112">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101162</start><end>101312</end></span>
+   <alignment>
+   atggggctggagaccgagaaggccgacgtgcagctcttcatggccgatgacgcctacagccaccacagtgtcgtcgactacGcagAtcctgagaagtatgttgactccagtcaggaccgggatcctcaccagctcaactctcatctcaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516140" type="sbjct">
+   <span><start>0</start><end>150</end></span>
+   <alignment>
+   atggggctggagaccgagaaggccgacgtgcagctcttcatggccgatgacgcctacagccaccacagtgtcgtcgactacAcagGtcctgagaagtatgttgactccagtcaggaccgggatcctcaccagctcaactctcatctcaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="150"></property>
+  <property name="num_identical"      value="148"></property>
+  <property name="num_similar"        value="148"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:113">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+   <alignment>
+   ctaggcttcgaggatctgatcgcagaacctccgactacacactcctttgacaaagtgtggatctgcagccacgcgctctttgaaatcagcaaatacgtgatctacaagttcctgacggtgtttctagccatccccttggccttcattgcgggtatcctgtttgctaccctcagctgtctgcacatctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516140" type="sbjct">
+   <span><start>150</start><end>338</end></span>
+   <alignment>
+   ctaggcttcgaggatctgatcgcagaacctccgactacacactcctttgacaaagtgtggatctgcagccacgcgctctttgaaatcagcaaatacgtgatctacaagttcctgacggtgtttctagccatccccttggccttcattgcgggtatcctgtttgctaccctcagctgtctgcacatctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="188"></property>
+  <property name="num_identical"      value="188"></property>
+  <property name="num_similar"        value="188"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:114">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>106388</start><end>106539</end></span>
+   <alignment>
+   gatcctaatgccttttgtgaagacctgcctcAtggtcctgccttccgtgcagacgatatggaagagtgtgacagatgttgtcattggcccattgtgtacaagtgtagggcgcatcttctcctctgtcagcatgcaactgagccaTGactga
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516140" type="sbjct">
+   <span><start>338</start><end>489</end></span>
+   <alignment>
+   gatcctaatgccttttgtgaagacctgcctcGtggtcctgccttccgtgcagacgatatggaagagtgtgacagatgttgtcattggcccattgtgtacaagtgtagggcgcatcttctcctctgtcagcatgcaactgagccaCAactga
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="151"></property>
+  <property name="num_identical"      value="148"></property>
+  <property name="num_similar"        value="148"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000006516140"></property>
+ <property name="subject_seq_length" value="489"></property>
+ </result_set>
+ <result_set id="S4GBall:115">
+ <description>&gt;CRA|225000006516089 /altid=gi|17017232 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=537 /mol_type=mRNA /date=04/03/2002 /altid=gb_acc|AF439778 /altid=gb_locus|AF439778 /altid=gb_accvers|AF439778.1 /protein_id=AAL33579.1 /def=Rattus norvegicus caveolin-1 alpha mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBall:116">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>125053</start><end>125083</end></span>
+   <alignment>
+   atgtctgggggtaaatacgtagactccgag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516089" type="sbjct">
+   <span><start>0</start><end>30</end></span>
+   <alignment>
+   atgtctgggggtaaatacgtagactccgag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="30"></property>
+  <property name="num_identical"      value="30"></property>
+  <property name="num_similar"        value="30"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:117">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+   <alignment>
+   ggacatctctacactgttcccatccgggaacagggcaacatctacaagcccaacaacaaggccatggcagacgaggtgaatgagaagcaagtgtacgacgcgcacaccaaggaGattgatctggtcaaccgcgaccccaagcatctcaacgacgacgtggtcaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516089" type="sbjct">
+   <span><start>30</start><end>195</end></span>
+   <alignment>
+   ggacatctctacactgttcccatccgggaacagggcaacatctacaagcccaacaacaaggccatggcagacgaggtgaatgagaagcaagtgtacgacgcgcacaccaaggaAattgatctggtcaaccgcgaccccaagcatctcaacgacgacgtggtcaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="165"></property>
+  <property name="num_identical"      value="164"></property>
+  <property name="num_similar"        value="164"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:118">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157750</end></span>
+   <alignment>
+   attgactttgaagatgtgattgcggaaccagaagggacacacagtttcgacggcatctggaaggccagcttcaccaccttcactgtgacaaaatattggttttaccgcttgctgtctaccatcttcggcatccctatggcgctcatctggggcatctactttgccatcctctctttcctgcacatctgggcagttgtaccgtgcatcaagagcttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccttctgtgatccactctttgaagcgattggcaagatattcagcaatatccgcatcagcacgcagAaagagatat-g
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516089" type="sbjct">
+   <span><start>195</start><end>537</end></span>
+   <alignment>
+   attgactttgaagatgtgattgcggaaccagaagggacacacagtttcgacggcatctggaaggccagcttcaccaccttcactgtgacaaaatattggttttaccgcttgctgtctaccatcttcggcatccctatggcgctcatctggggcatctactttgccatcctctctttcctgcacatctgggcagttgtaccgtgcatcaagagcttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccttctgtgatccactctttgaagcgattggcaagatattcagcaatatccgcatcagcacgcagGaagagatatAg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="342"></property>
+  <property name="num_identical"      value="340"></property>
+  <property name="num_similar"        value="340"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000006516089"></property>
+ <property name="subject_seq_length" value="537"></property>
+ </result_set>
+ <result_set id="S4GBall:119">
+ <description>&gt;CRA|225000006516115 /altid=gi|17017234 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=444 /mol_type=mRNA /date=04/03/2002 /altid=gb_acc|AF439779 /altid=gb_locus|AF439779 /altid=gb_accvers|AF439779.1 /protein_id=AAL33580.1 /def=Rattus norvegicus caveolin-1 beta mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBall:120">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126572</start><end>126674</end></span>
+   <alignment>
+   atggcagacgaggtgaatgagaagcaagtgtacgacgcgcacaccaaggagattgatctggtcaaccgcgaccccaagcatctcaacgacgacgtggtcaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516115" type="sbjct">
+   <span><start>0</start><end>102</end></span>
+   <alignment>
+   atggcagacgaggtgaatgagaagcaagtgtacgacgcgcacaccaaggagattgatctggtcaaccgcgaccccaagcatctcaacgacgacgtggtcaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="102"></property>
+  <property name="num_identical"      value="102"></property>
+  <property name="num_similar"        value="102"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:121">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157409</start><end>157750</end></span>
+   <alignment>
+   attgactttgaagatgtgattgcggaaccagaagggacacacagtttcgacggcatctggaaggcCagcttcaccaccttcactgtgacaaaatattggttttaccgcttgctgtctaccatcttcggcatccctatggcgctcatctggggcatctactttgccatcctctctttcctgcacatctgggcagttgtaccgtgcatcaagagcttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccttctgtgatccactctttgaagcGattggcaagatattcagcaatatccgcatcagcacgcagAaagagatat-g
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000006516115" type="sbjct">
+   <span><start>102</start><end>444</end></span>
+   <alignment>
+   attgactttgaagatgtgattgcggaaccagaagggacacacagtttcgacggcatctggaaggcTagcttcaccaccttcactgtgacaaaatattggttttaccgcttgctgtctaccatcttcggcatccctatggcgctcatctggggcatctactttgccatcctctctttcctgcacatctgggcagttgtaccgtgcatcaagagcttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccttctgtgatccactctttgaagcCattggcaagatattcagcaatatccgcatcagcacgcagGaagagatatAg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="342"></property>
+  <property name="num_identical"      value="338"></property>
+  <property name="num_similar"        value="338"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000006516115"></property>
+ <property name="subject_seq_length" value="444"></property>
+ </result_set>
+ <result_set id="S4GBall:122">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:123">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>20038</start><end>21711</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaCgggtttagtgTagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcActaccgaatAccAtctacgaaGcCacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaaCCaaattctggcaaaccgaatCcaagagcacatcaaaacaatcatccaccatgaCcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaAaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccGctctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaagggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaCatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaaAttcagAaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagAcactgaGgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagAttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatgcTtatcaccctgtacaaagcttaaGtccaagtggatcaaggacctccacatcaaaGcagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaatttcctgaacaaaacaccaatggcttatgctctCagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>219</start><end>1892</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtttagtgCagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcCctaccgaatTccTtctacgaaTcTacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaaTAaaattctggcaaaccgaatTcaagagcacatcaaaacaatcatccaccatgaTcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaGaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccActctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaagggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaTatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaaCttcagCaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagTcactgaAgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagGttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatgcCtatcaccctgtacaaagcttaaAtccaagtggatcaaggacctccacatcaaaCcagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaatttcctgaacaaaacaccaatggcttatgctctAagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1673"></property>
+  <property name="num_identical"      value="1647"></property>
+  <property name="num_similar"        value="1647"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:124">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:125">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>898111</start><end>899784</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaCgggtttagtgcagaattTtatcaaaccttcatagaagacctcataccaatattatccaaactattccaGaaaattgaaacagatggagccctaccgaattccttctacgaaGcCacaattactcttatacctaaaccacacaaagGcacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacGatcatcGaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaaGgtgatccattatataaacaaactgaaagaacagaaccaAatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaCgaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaCatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcaTttgccttcctctatacaaaagagaaacaagcTgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagAcactgaGgaaagaaattgaagaagacctcaAaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcGatctacagAttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaaActatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacTtatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcaAatcgatccatCcTtatcaccctgtacaaagcttaaGtccaagtggatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaatttcctgaacaaaacaccaatggcttatgctctaagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>219</start><end>1892</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtttagtgcagaattCtatcaaaccttcatagaagacctcataccaatattatccaaactattccaCaaaattgaaacagatggagccctaccgaattccttctacgaaTcTacaattactcttatacctaaaccacacaaagAcacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacAatcatcCaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaaCgtgatccattatataaacaaactgaaagaacagaaccaCatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaAgaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaTatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcaGttgccttcctctatacaaaagagaaacaagcCgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagTcactgaAgaaagaaattgaagaagacctcaGaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcAatctacagGttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaaGctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacCtatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcaGatcgatccatGcCtatcaccctgtacaaagcttaaAtccaagtggatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaatttcctgaacaaaacaccaatggcttatgctctaagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1673"></property>
+  <property name="num_identical"      value="1644"></property>
+  <property name="num_similar"        value="1644"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:126">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:127">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1339377</start><end>1341050</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaCgggtttagtgcagaattctatcaaaccttcatagaagacctcataAAaatattatccaaactattccacaaaattgaaacagatggagccctaccgaattccttctacgaaGcCacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacagaaccacatgatcatttcattagatgctgagaaagcatttgaAaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaCatgatagtTtatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacAacacccttcaGaatagacccaaataatataCagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaaGaagaacttcaagAcactgaGgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatGgtaaaaatggccattttaccaaaagcaatctacagAttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgaAccatgcTtatcaccctgtacaaagcttaaGtccaagtggatcaaggacctccacatcaaaccagaTacactcaaactaatagaagaaaaaGtGgggaagAatctCAaaGacatgggcactggaGaaaatttcctgaacaaaacaccaatggcttatActctaagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>219</start><end>1892</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtttagtgcagaattctatcaaaccttcatagaagacctcataCCaatattatccaaactattccacaaaattgaaacagatggagccctaccgaattccttctacgaaTcTacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacagaaccacatgatcatttcattagatgctgagaaagcatttgaCaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaTatgatagtAtatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacGacacccttcaTaatagacccaaataatataAagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaaTaagaacttcaagTcactgaAgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatAgtaaaaatggccattttaccaaaagcaatctacagGttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgaTccatgcCtatcaccctgtacaaagcttaaAtccaagtggatcaaggacctccacatcaaaccagaCacactcaaactaatagaagaaaaaCtAgggaagCatctGGaaCacatgggcactggaAaaaatttcctgaacaaaacaccaatggcttatGctctaagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1673"></property>
+  <property name="num_identical"      value="1641"></property>
+  <property name="num_similar"        value="1641"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:128">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:129">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>948997</start><end>950639</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaAgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcActaccgaattccttctacgaaGcCacaattactcttatacctaaaccacacaaagGcacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgTaaaaatactcaataaaattctggcaaaccgaattcaaAg-gcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactTaaagaacaAaaccacatgatcatttcattagatgctgagaaTgcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaaCaggaattcaaggcccatacctaaacatagtGaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaCatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagAcactgaGgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagAttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgTttCttgacaaaggagccaaaaccatccaatggaaaaaagatagcCttttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatgcTtatcaccctgtacaaagcttaaGtccaagtAgatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatAggcactggaaaaaatttcctgaacaaaacaccaatggcttatgctctaagatcaaga
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>219</start><end>1861</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcCctaccgaattccttctacgaaTcTacaattactcttatacctaaaccacacaaagAcacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgCaaaaatactcaataaaattctggcaaaccgaattcaa-gAgcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactGaaagaacaGaaccacatgatcatttcattagatgctgagaaAgcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaaTaggaattcaaggcccatacctaaacatagtAaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaTatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagTcactgaAgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagGttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgAttTttgacaaaggagccaaaaccatccaatggaaaaaagatagcAttttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatgcCtatcaccctgtacaaagcttaaAtccaagtGgatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatGggcactggaaaaaatttcctgaacaaaacaccaatggcttatgctctaagatcaaga
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1643"></property>
+  <property name="num_identical"      value="1617"></property>
+  <property name="num_similar"        value="1617"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <result_span id="S4GBall:130">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1033576</start><end>1033608</end></span>
+   <alignment>
+   AatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>1861</start><end>1892</end></span>
+   <alignment>
+   -atTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="32"></property>
+  <property name="num_identical"      value="29"></property>
+  <property name="num_similar"        value="29"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:131">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:132">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1551185</start><end>1552837</end></span>
+   <alignment>
+   caaaaagagcccaggtccagaCgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggaTcActCccAaatAt-cttctacgaaGcCacaattactcttCtacctaaaccacacaaagacacaacaaagaaagagTacttcagaccaatttcccttatgaatatcgaTgcaaaaatactcaataaaattctggcaaacTgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccatCatataaacaaactgaaagaacagaacGacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaagActgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaCatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtaAAtcggtgtgactttaaccaagcaagtaaaTgatctgtacaataagaacttcaagAcactgaGgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatcCacagAttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaGcaatttgcaaattcatctggaataacaaaaaacccaggatTgctaaaActatcGtcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaaCagaattgaagacccagaaatgaacccacacacctatggGcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatCcTtatcaccctgtacaaagcttaaGtccaagtggatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatggAcactggaaaaaatttcctgaacaaaacaccaatggcttaCgctctaagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>240</start><end>1892</end></span>
+   <alignment>
+   caaaaagagcccaggtccagaTgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggaGcCctAccGaat-tCcttctacgaaTcTacaattactcttAtacctaaaccacacaaagacacaacaaagaaagagAacttcagaccaatttcccttatgaatatcgaCgcaaaaatactcaataaaattctggcaaacCgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccatTatataaacaaactgaaagaacagaacCacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaagGctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaTatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaataatataaagtaCCtcggtgtgactttaaccaagcaagtaaaAgatctgtacaataagaacttcaagTcactgaAgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatcTacagGttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaAcaatttgcaaattcatctggaataacaaaaaacccaggatAgctaaaGctatcCtcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaaTagaattgaagacccagaaatgaacccacacacctatggTcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatGcCtatcaccctgtacaaagcttaaAtccaagtggatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatggGcactggaaaaaatttcctgaacaaaacaccaatggcttaTgctctaagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1653"></property>
+  <property name="num_identical"      value="1614"></property>
+  <property name="num_similar"        value="1614"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:133">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:134">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>458569</start><end>459654</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaCgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcActaccgaattccttctacgaaGcCacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaa-atacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacagaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcTcatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaCatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaGaatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagAcactgaGgaaagaaattgaagCagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatTtagtaaaaatggccattttaccaaaagcaat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>219</start><end>1305</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtttagtgcagaattctatcaaaccttcatagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggagcCctaccgaattccttctacgaaTcTacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattctggcaaaccgaattcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaaTatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacagaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcCcatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgaTatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacgacacccttcataatagacccaaaTaatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagTcactgaAgaaagaaattgaagAagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatAtagtaaaaatggccattttaccaaaagcaat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1086"></property>
+  <property name="num_identical"      value="1073"></property>
+  <property name="num_similar"        value="1073"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBall:135">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1304475</start><end>1304726</end></span>
+   <alignment>
+   ctacagAttcaatgcaatccccatcaaaataccaatccaaTTCTttcttcaaagagttaATcagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaCctgcatggtattggtacagAgacagacagatagaccaGtggaatagaattgaagac
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>1305</start><end>1552</end></span>
+   <alignment>
+   ctacagGttcaatgcaatccccatcaaaataccaatccaa----ttcttcaaagagttaGAcagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaActgcatggtattggtacagGgacagacagatagaccaAtggaatagaattgaagac
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="251"></property>
+  <property name="num_identical"      value="241"></property>
+  <property name="num_similar"        value="241"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <result_span id="S4GBall:136">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1317834</start><end>1318174</end></span>
+   <alignment>
+   ccagaaatgaacccacacacctatggGcacttgatttttgacaaaggagccaaaaccatTcaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagATcaGcatgtaCaagaatgcagatcgatccatgcTtatcaccctgtaTaaagcttaaGtccaagtggatAaaggacctccacatcaaaccagaTacactcaaactaatagaagaaaaaGtGgggaagAatctCAaaGacatgggcactggaGaaaatttcctgaacaaaacaccaatggcttatActctaagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>1552</start><end>1892</end></span>
+   <alignment>
+   ccagaaatgaacccacacacctatggTcacttgatttttgacaaaggagccaaaaccatCcaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagGGcaAcatgtaGaagaatgcagatcgatccatgcCtatcaccctgtaCaaagcttaaAtccaagtggatCaaggacctccacatcaaaccagaCacactcaaactaatagaagaaaaaCtAgggaagCatctGGaaCacatgggcactggaAaaaatttcctgaacaaaacaccaatggcttatGctctaagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="340"></property>
+  <property name="num_identical"      value="319"></property>
+  <property name="num_similar"        value="319"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:137">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:138">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1303385</start><end>1304472</end></span>
+   <alignment>
+   aga-agCagtcattaaaggtctcccaaccaaaaagagcccaggtccagaCgggtttagtgcagaattctatcaGaccttcatagaagacctcGtaccaatattatccaaactattccacaaaattgaaacagatgAagcActaccgaattccttctaTgaaGcCacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattcGggcaaaccgaatCcaagagcacatcaaaacaatcatccaccatgatcaagtaAgcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcGacAtgatccattatataaaGaaactgaaagaacaAaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccataActaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctc-cc-tacttattcaatGtagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaGgggatacagatTggaaaagaagaAgtcaaaatatcactatttTcagatgatatgatagtatatttaagtgatcccaaaagttcTaccagagaactactaaagctgataaacaaGttcagcaaagtggctgggtataaaattaactcaaataaatcagtAgccttcctctaCacaaaagagaaacaagccgagaaagaaattaAgggaaG-gaAacccttcataatagTcccaaataatataaaAtaccCcggtgtgaAtttaaccaagcaagtGaaagatctgtaTGataagaaAttcaagCcTctgaagaaagaaattgaagaagacctcagaagatggaaCgaActcccGtgctcatggattTgcaggattaatatagtaaaaatggccattttaccaaaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>213</start><end>1302</end></span>
+   <alignment>
+   agaCag-agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtttagtgcagaattctatcaAaccttcatagaagacctcAtaccaatattatccaaactattccacaaaattgaaacagatgGagcCctaccgaattccttctaCgaaTcTacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacgcaaaaatactcaataaaattcTggcaaaccgaatTcaagagcacatcaaaacaatcatccaccatgatcaagtaGgcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcAacGtgatccattatataaaCaaactgaaagaacaGaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccataCctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctcTccCtacttattcaatAtagttcttgaagttctagccagagcaatcagacaacaaaaggagatcaaAgggatacagatCggaaaagaagaGgtcaaaatatcactatttGcagatgatatgatagtatatttaagtgatcccaaaagttcCaccagagaactactaaagctgataaacaaCttcagcaaagtggctgggtataaaattaactcaaataaatcagtTgccttcctctaTacaaaagagaaacaagccgagaaagaaatta-gggaaACgaCacccttcataatagAcccaaataatataaaGtaccTcggtgtgaCtttaaccaagcaagtAaaagatctgtaCAataagaaCttcaagTcActgaagaaagaaattgaagaagacctcagaagatggaaAgaTctcccAtgctcatggattGgcaggattaatatagtaaaaatggccattttaccaaaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1091"></property>
+  <property name="num_identical"      value="1044"></property>
+  <property name="num_similar"        value="1044"></property>
+  <property name="num_gaps"           value="6"></property>
+ </result_span>
+ <result_span id="S4GBall:139">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1304726</start><end>1305054</end></span>
+   <alignment>
+   ccacacacctatggtcacAtgatttttgacaaaggagccaaaaccatccaatggaaaaaagaCagcattttcagcaaatggtgctggttcaactggaggTcaGcatgtagaagaatgcagatTgatccatgcTtatcaccctgtacaaagcttaaGtccaagtggatcaaggacctccacatcaaaccagaTacactcaaactaatagaagaaaaaGtGgggaagcatctCgaaGacatgggcactggaGaaaatttcctgaacaaaacaccaatggcGtatgctctaagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>1564</start><end>1892</end></span>
+   <alignment>
+   ccacacacctatggtcacTtgatttttgacaaaggagccaaaaccatccaatggaaaaaagaTagcattttcagcaaatggtgctggttcaactggaggGcaAcatgtagaagaatgcagatCgatccatgcCtatcaccctgtacaaagcttaaAtccaagtggatcaaggacctccacatcaaaccagaCacactcaaactaatagaagaaaaaCtAgggaagcatctGgaaCacatgggcactggaAaaaatttcctgaacaaaacaccaatggcTtatgctctaagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="328"></property>
+  <property name="num_identical"      value="312"></property>
+  <property name="num_similar"        value="312"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:140">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:141">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1292253</start><end>1290579</end></span>
+   <alignment>
+   tcattaaaggtctcccaaccaaaaagagcccaggtccagaCgggtAtagtgcagaattctatcaaaccttcatagaagacctcGtaccaatattatccaaactattccacaaaattgaaacagatgAagcActaccgaattccttctacgaaGcCacaattactcttatacctaaaccGcacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacAcaaaaatactcaaCaaaattctggcaaaccgaatCcaagGgTacatcaaaacaatcatccaccatgaCcaagtaggcttcatccAAGTaggcatgcagggatggtttaaCatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaAaaccacatgatcatttcattagatgTtgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctGaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggaAagaaacttgaagcaatGccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagGcaacaaaaggagatcaaGgggatacagatTAgaaaagaagaAgtcaaaatatcactatttgcagatgaAatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacAacacccttcaGaatagaTccaaataatatGaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagAcactgaGgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagAttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataac-aaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatgcTtatcaccctgtacaaagcttaaGtccaagtgAatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatAggcactggaaaaaaAtttcctgaacaaaacaccaatggcttatgctctaagatcaagaatCgacaaatgggatctcataaaaTtgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>221</start><end>1892</end></span>
+   <alignment>
+   tcattaaaggtctcccaaccaaaaagagcccaggtccagaTgggtTtagtgcagaattctatcaaaccttcatagaagacctcAtaccaatattatccaaactattccacaaaattgaaacagatgGagcCctaccgaattccttctacgaaTcTacaattactcttatacctaaaccAcacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacGcaaaaatactcaaTaaaattctggcaaaccgaatTcaagAgCacatcaaaacaatcatccaccatgaTcaagtaggcttcatcc---CaggcatgcagggatggtttaaTatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaGaaccacatgatcatttcattagatgCtgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctAaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggaGagaaacttgaagcaatCccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagAcaacaaaaggagatcaaAgggatacagatCGgaaaagaagaGgtcaaaatatcactatttgcagatgaTatgatagtatatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagttgccttcctctatacaaaagagaaacaagccgagaaagaaattagggaaacGacacccttcaTaatagaCccaaataatatAaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagTcactgaAgaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttaccaaaagcaatctacagGttcaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacAaaaaacccaggatagctaaagctatcctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggagggcaacatgtagaagaatgcagatcgatccatgcCtatcaccctgtacaaagcttaaAtccaagtgGatcaaggacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatGggcactggaaaaaa-tttcctgaacaaaacaccaatggcttatgctctaagatcaagaatTgacaaatgggatctcataaaaCtgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1675"></property>
+  <property name="num_identical"      value="1628"></property>
+  <property name="num_similar"        value="1628"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBall:142">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1663773</start><end>1663681</end></span>
+   <alignment>
+   cattttggatgtaataTgcaaaggcAagAtttattacAAagaTctattacagagatctccgggccgacatgtatccCAcacaggagacagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>129</start><end>221</end></span>
+   <alignment>
+   cattttggatgtaataAgcaaaggcGagGtttattacGGagaCctattacagagatctccgggccgacatgtatccTGcacaggagacagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="92"></property>
+  <property name="num_identical"      value="84"></property>
+  <property name="num_similar"        value="84"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:143">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1664310</start><end>1664243</end></span>
+   <alignment>
+   tgaaaGatCccT-gAagagagacccttactcaagtcttgggaaatcgcggaccccagacacagagaga-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>60</start><end>129</end></span>
+   <alignment>
+   tgaaaAatTccACgCagagagacccttactcaagtcttgggaaatcgcggaccccagacacagagagaC
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="69"></property>
+  <property name="num_identical"      value="63"></property>
+  <property name="num_similar"        value="63"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:144">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:145">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1287781</start><end>1286108</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaCggAtttagtgcagaattctatcaGaccttcatagaagacctcGtaccaatattatccaaactattccacaaaattgaaacagatgAagcActaccgaattccttctaTgaaGcCacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacAcaaaaatactcaaCaaaattctggcaaaccgaatCcaagGgTacatcaaaacaatcatccaccatgaCcaagtaggcttcatcccaggcatgcagggatggtttaatataTggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaAaaccacatgatcatttcattaTaCgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctGaacatagtaaaagccatatacagcaaaccagtAgctaacattaaactaaatggagagaaacttgaagcaatcccaTtaaaatcagggactagaTaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagGtcaaGgggatacagatTggaaaagaagaAgtcaaaatatcactatttgcagatgatatgatagtatatttaagtgatcccaaaagttccaccagagaaTtactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcGTttCccttcctctatacaaaagagaaacaagcTgagaaagaaattagAgaaacgacacccttcaCaatagacccaaataatataaagtacctcggtgtgactttaacAaagcaagtaaaagatAtgtacaataagaacttcaagAcactgaagaaGgaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttacAaaaagcaatctacagAttcaatgcaatccccatcaaaataccaatccaattcttcTaagagttagaTagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatTctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatcAaatggaaaaaagaCagcattttcagcaaatggtgcAggttcaactggaggTcaacatgtagaagaatgcagatcgatccatgcTtatcaccctgtacaaagcttaaatccaagtggatcaaAgacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaatttcGtAaacaaaacaccaatggcGtaCgctctaagatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>219</start><end>1892</end></span>
+   <alignment>
+   agtcattaaaggtctcccaaccaaaaagagcccaggtccagaTggGtttagtgcagaattctatcaAaccttcatagaagacctcAtaccaatattatccaaactattccacaaaattgaaacagatgGagcCctaccgaattccttctaCgaaTcTacaattactcttatacctaaaccacacaaagacacaacaaagaaagagaacttcagaccaatttcccttatgaatatcgacGcaaaaatactcaaTaaaattctggcaaaccgaatTcaagAgCacatcaaaacaatcatccaccatgaTcaagtaggcttcatcccaggcatgcagggatggtttaatataCggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaGaaccacatgatcatttcattaGaTgctgagaaagcatttgacaaaattcaacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctAaacatagtaaaagccatatacagcaaaccagtTgctaacattaaactaaatggagagaaacttgaagcaatcccaCtaaaatcagggactagaCaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagAtcaaAgggatacagatCggaaaagaagaGgtcaaaatatcactatttgcagatgatatgatagtatatttaagtgatcccaaaagttccaccagagaaCtactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcAGttGccttcctctatacaaaagagaaacaagcCgagaaagaaattagGgaaacgacacccttcaTaatagacccaaataatataaagtacctcggtgtgactttaacCaagcaagtaaaagatCtgtacaataagaacttcaagTcactgaagaaAgaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaaaaatggccattttacCaaaagcaatctacagGttcaatgcaatccccatcaaaataccaatccaattcttcAaagagttagaCagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaagctatCctcaacaataaaaggacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtattggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggagccaaaaccatcCaatggaaaaaagaTagcattttcagcaaatggtgcTggttcaactggaggGcaacatgtagaagaatgcagatcgatccatgcCtatcaccctgtacaaagcttaaatccaagtggatcaaGgacctccacatcaaaccagacacactcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaatttcCtGaacaaaacaccaatggcTtaTgctctaagatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1673"></property>
+  <property name="num_identical"      value="1617"></property>
+  <property name="num_similar"        value="1617"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBall:146">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1290077</start><end>1290037</end></span>
+   <alignment>
+   aacatataaaagagacacgtgctccactatgttcatcgca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>0</start><end>40</end></span>
+   <alignment>
+   aacatataaaagagacacgtgctccactatgttcatcgca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="40"></property>
+  <property name="num_identical"      value="40"></property>
+  <property name="num_similar"        value="40"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+ <result_set id="S4GBall:147">
+ <description>&gt;CRA|224000058939020 /altid=gi|33086527 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=1897 /mol_type=mRNA /date=07/26/2003 /altid=gb_acc|AY325175 /altid=gb_locus|AY325175 /altid=gb_accvers|AY325175.1 /protein_id=AAP92576.1 /def=Rattus norvegicus Ab2-051 mRNA, complete cds. /div=HTC</description>
+ <result_span id="S4GBall:148">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1488514</start><end>1486836</end></span>
+   <alignment>
+   aga-agCagtcattaaTggtcAcccaaccaaaaGCagcccaggtccagaCgggtttagtgcagaattctatcaGaccAtcaGagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggaTcActCccgaattccttctacgaaGcCacaattactcttatacctaaaccacacaaagacCcaacaaagaaagagaacttcagaccaatttcccttatgaatatcgTcAcaaaaatactcaataaaattctggcaaaccgaatCcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaAaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcCacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagGtcaaGgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgatatgatagtTtatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagtAgccttcctctaCacGaaagagaaacaagccgaAaaagaaattagggaaacgacacccttcataGtagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagAcactgaagaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaTaaatggccattttaccGaaagcaatctacagACtGaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaaActatcctcaacaataaaagAacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtatCggtacagAgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggaAccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggCggTcaacatgtagaagaatgcagatcgatccaCgcTtatcaccTtgtacaaagcttaaGtccaagtggatcaaggacctccacatcaaaccTaTaca-a-tcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaaGttcctgaaGaaaacaccaatggcttatgctctaaAatcaagaatCgacaaatgggatctcataaaactgCaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:224000058939020" type="sbjct">
+   <span><start>213</start><end>1892</end></span>
+   <alignment>
+   agaCag-agtcattaaAggtcTcccaaccaaaaAGagcccaggtccagaTgggtttagtgcagaattctatcaAaccTtcaTagaagacctcataccaatattatccaaactattccacaaaattgaaacagatggaGcCctAccgaattccttctacgaaTcTacaattactcttatacctaaaccacacaaagacAcaacaaagaaagagaacttcagaccaatttcccttatgaatatcgAcGcaaaaatactcaataaaattctggcaaaccgaatTcaagagcacatcaaaacaatcatccaccatgatcaagtaggcttcatcccaggcatgcagggatggtttaatatacggaaaaccatcaacgtgatccattatataaacaaactgaaagaacaGaaccacatgatcatttcattagatgctgagaaagcatttgacaaaattcAacaccccttcatgataaaagtcctggaaagaataggaattcaaggcccatacctaaacatagtaaaagccatatacagcaaaccagttgctaacattaaactaaatggagagaaacttgaagcaatcccactaaaatcagggactagacaaggctgcccactctctccctacttattcaatatagttcttgaagttctagccagagcaatcagacaacaaaaggagAtcaaAgggatacagatcggaaaagaagaggtcaaaatatcactatttgcagatgatatgatagtAtatttaagtgatcccaaaagttccaccagagaactactaaagctgataaacaacttcagcaaagtggctgggtataaaattaactcaaataaatcagtTgccttcctctaTacAaaagagaaacaagccgaGaaagaaattagggaaacgacacccttcataAtagacccaaataatataaagtacctcggtgtgactttaaccaagcaagtaaaagatctgtacaataagaacttcaagTcactgaagaaagaaattgaagaagacctcagaagatggaaagatctcccatgctcatggattggcaggattaatatagtaAaaatggccattttaccAaaagcaatctacagGTtCaatgcaatccccatcaaaataccaatccaattcttcaaagagttagacagaacaatttgcaaattcatctggaataacaaaaaacccaggatagctaaaGctatcctcaacaataaaagGacttcagggggaatcactatccctgaactcaagcagtattacagagcaatagtgataaaaactgcatggtatTggtacagGgacagacagatagaccaatggaatagaattgaagacccagaaatgaacccacacacctatggtcacttgatttttgacaaaggaGccaaaaccatccaatggaaaaaagatagcattttcagcaaatggtgctggttcaactggAggGcaacatgtagaagaatgcagatcgatccaTgcCtatcaccCtgtacaaagcttaaAtccaagtggatcaaggacctccacatcaaacc-aGacaCaCtcaaactaatagaagaaaaactagggaagcatctggaacacatgggcactggaaaaaaTttcctgaaCaaaacaccaatggcttatgctctaaGatcaagaatTgacaaatgggatctcataaaactgTaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="1681"></property>
+  <property name="num_identical"      value="1626"></property>
+  <property name="num_similar"        value="1626"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:224000058939020"></property>
+ <property name="subject_seq_length" value="1897"></property>
+ </result_set>
+</computational_analysis>
+</game>

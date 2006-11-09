@@ -1,0 +1,218 @@
+/*
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*********************************************************************
+ *********************************************************************
+ CVS_ID:  $Id$
+ ******************************************************************L***/
+
+package client.gui.framework.progress_meter;
+
+import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
+import api.entity_model.model.fundtype.ActiveThreadModel;
+import api.entity_model.model.fundtype.LoadRequestState;
+import api.entity_model.model.fundtype.LoadRequestStatus;
+
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.Frame;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Observable;
+import java.util.Observer;
+import java.util.TimerTask;
+
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JProgressBar;
+
+public class ProgressMeter extends JDialog {
+  private MyObserver observer = new MyObserver();
+  private JPanel panel1 = new JPanel();
+  private BoxLayout boxLayout;
+  private static ProgressMeter progressMeter;
+  private Hashtable meters=new Hashtable();
+  private java.util.Timer timer=new java.util.Timer(true);
+  private TimerTask updateTask;
+  private Meter spacerMeter = new Meter("No Active Tasks  ", 100, 260);
+  //Allow for 112.5 seconds of timer
+  private static int TIMER_TICK=1500;
+  private static int MAX_TIMER_PERCENT=75;
+  private LoadRequestStatusObserverAdapter statusObserver =
+     new MyLoadRequestStatusObserver();
+
+  static {
+      ProgressMeter.getProgressMeter();
+  }
+
+  private ProgressMeter () {
+    this(null,"Progress Meter",false);
+  }
+
+  public static ProgressMeter getProgressMeter() {
+     if (progressMeter==null) progressMeter=new ProgressMeter();
+     return progressMeter;
+  }
+
+
+  private ProgressMeter(Frame frame, String title, boolean modal) {
+    super(frame, title, modal);
+    try  {
+      jbInit();
+      ActiveThreadModel.getActiveThreadModel().addObserver(observer);
+      pack();
+    }
+    catch(Exception ex) {
+      ex.printStackTrace();
+    }
+  }
+
+  public synchronized void addProgressBar(LoadRequestStatus statusObject) {
+     String name = statusObject.getId();
+     if (statusObject.getLoadRequest().isUnloadRequest()) name = "Unloading "+name;
+     else name = "Loading "+name;
+     if (meters.containsKey(statusObject)) return;
+     Meter meter=new Meter(name,100,this.getWidth());
+     if (meters.size()==0)  {
+        panel1.remove(spacerMeter);
+        updateTask=new UpdateTask();
+        timer.scheduleAtFixedRate(updateTask,0,TIMER_TICK);
+     }
+     meters.put(statusObject,meter);
+     panel1.add(meter);
+     panel1.validate();
+     this.pack();
+     repaint();
+  }
+
+  public synchronized void removeProgressBar(LoadRequestStatus statusObject) {
+    if (!meters.containsKey(statusObject)) return;
+    try {
+     panel1.remove((Component)meters.get(statusObject));
+    }
+    catch (Exception ex) {
+       System.out.println("*****ERROR meter "+
+       statusObject.getId()+" not found******");
+     }
+     meters.remove(statusObject);
+     if (meters.isEmpty()) {
+        panel1.add(spacerMeter);
+        updateTask.cancel();
+     }
+     panel1.validate();
+     this.pack();
+     repaint();
+  }
+
+  public synchronized void modifyProgress(LoadRequestStatus statusObject,int progress) {
+     if (meters.containsKey(statusObject))
+      ((Meter)meters.get(statusObject)).setValueFromLoad(progress);
+  }
+
+  void jbInit() throws Exception {
+    this.setResizable(false);
+    panel1.setLayout(boxLayout= new BoxLayout(panel1,BoxLayout.Y_AXIS));
+    panel1.add(spacerMeter);
+    getContentPane().add(panel1);
+    this.pack();
+  }
+
+  class Meter extends JPanel {
+     BoxLayout boxLayout=new BoxLayout(this,BoxLayout.X_AXIS);
+     JProgressBar bar;
+     JLabel label;
+     private int timerStop;
+
+     public Meter (String name,int max, int width) {
+       label=new JLabel(" "+name+" ");
+       bar=new JProgressBar(JProgressBar.HORIZONTAL,0,max);
+       bar.setStringPainted(true);
+       setLayout(boxLayout);
+       bar.setMaximumSize(new Dimension(250,12));
+       bar.setPreferredSize(new Dimension(250,12));
+       bar.setMinimumSize(new Dimension(250,12));
+       label.setFont(new Font("Dialog",0,10));
+       this.setAlignmentX(this.LEFT_ALIGNMENT);
+       this.add(label);
+       this.add(Box.createHorizontalGlue());
+       this.add(bar);
+     }
+
+     public void setValueFromLoad(int value) {
+        if (timerStop==0) timerStop=getValue();
+        bar.setValue((int)((100.0-timerStop)*(value/100.0))+timerStop);
+     }
+
+     public void setValueFromTimer(int value) {
+        if (timerStop==0) bar.setValue(value);
+     }
+
+     public final int getValue() {
+        return bar.getValue();
+     }
+
+  }
+
+  private class MyLoadRequestStatusObserver extends LoadRequestStatusObserverAdapter {
+    public void stateChanged(LoadRequestStatus loadRequestStatus, LoadRequestState newState){
+      if (newState==LoadRequestStatus.LOADING || newState==LoadRequestStatus.UNLOADING) {
+        addProgressBar(loadRequestStatus);
+      }
+      if (newState==LoadRequestStatus.COMPLETE ) {
+           loadRequestStatus.removeLoadRequestStatusObserver(this);
+           removeProgressBar(loadRequestStatus);
+      }
+    }
+
+    public void notifiedPercentageChanged(LoadRequestStatus loadRequestStatus,
+      int newPercent){
+        modifyProgress(loadRequestStatus, newPercent);
+    }
+  }
+
+  private class UpdateTask extends TimerTask {
+      public void run(){
+          Enumeration enum=meters.elements();
+          Meter meter;
+          int oldValue;
+          while (enum.hasMoreElements()) {
+             meter=((Meter)enum.nextElement());
+             oldValue=meter.getValue();
+             if (oldValue<MAX_TIMER_PERCENT) meter.setValueFromTimer(oldValue+1);
+          }
+      }
+  }
+
+  public class MyObserver implements Observer {
+    public void update(Observable o, Object arg) {
+      if (o instanceof ActiveThreadModel && arg instanceof LoadRequestStatus) {  //adding AND deleting active threads
+         LoadRequestStatus status=(LoadRequestStatus)arg;
+         status.addLoadRequestStatusObserver(statusObserver,true);
+      }
+    }
+  }
+}
+
+

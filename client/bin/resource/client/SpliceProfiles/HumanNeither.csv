@@ -1,0 +1,12 @@
+,#Splice Neither Model  ,,Total introns=,,1754,,,
+#The window is neither a splice donor or splice acceptor,,,,,,,
+#Frequence Table:,,,,,,,
+#,Pos_-2,Pos_-1,Pos_0,Pos_1,Pos_2,Pos_3,Pos_4
+#Probability Table:,,,,,,,
+WINDOW_SIZE,7,,,,,,,
+EXON_OFFSET,-1,,,,,,,
+MODEL_PRIOR_PROB,0.74,,,,,,,
+A_PROFILE,0.25,0.25,0.25,0.25,0.25,0.25,0.25,
+C_PROFILE,0.25,0.25,0.25,0.25,0.25,0.25,0.25,
+T_PROFILE,0.25,0.25,0.25,0.25,0.25,0.25,0.25,
+G_PROFILE,0.25,0.25,0.25,0.25,0.25,0.25,0.25

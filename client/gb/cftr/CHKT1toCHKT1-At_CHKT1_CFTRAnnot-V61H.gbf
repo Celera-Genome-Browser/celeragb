@@ -1,0 +1,957 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Chicken CFTR Region">
+  <!-- Features converted from ATA format -->
+  <computational_analysis id="CELERA:30000103992323">
+    <date day="0" month="0" year="0"></date>
+    <program>Curated:chicken_CFTR_anno</program>
+    <version>2.6</version>
+    <type>BLASTN_HIT</type>
+    <result_set id="CELERA:30000103992324">
+      <description>CHKT1|TES  Full CHKT1:0 0 CHKT1|0 /transcript_uid=CHKT1|TES</description>
+      <result_span id="CELERA:30000103992326">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992325" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>27</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>13371</start>
+            <end>13398</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992328">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-2  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992327" type="sbjct">
+          <span>
+            <start>27</start>
+            <end>113</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>25518</start>
+            <end>25604</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992330">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-3  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992329" type="sbjct">
+          <span>
+            <start>113</start>
+            <end>366</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>33315</start>
+            <end>33568</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992332">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-4  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992331" type="sbjct">
+          <span>
+            <start>366</start>
+            <end>702</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>34701</start>
+            <end>35037</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992334">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-5  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992333" type="sbjct">
+          <span>
+            <start>702</start>
+            <end>918</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>36416</start>
+            <end>36632</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992336">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-6  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992335" type="sbjct">
+          <span>
+            <start>918</start>
+            <end>1077</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>37163</start>
+            <end>37322</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992338">
+        <span_type>HSP</span_type>
+        <description>CHKT1|TES-7  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992337" type="sbjct">
+          <span>
+            <start>1077</start>
+            <end>1334</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>37959</start>
+            <end>38216</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|TES-7"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103992339">
+      <description>CHKT1|CAV2  Full CHKT1:0 0 CHKT1|1 /transcript_uid=CHKT1|CAV2</description>
+      <result_span id="CELERA:30000103992341">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAV2-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992340" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>207</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>124582</start>
+            <end>124789</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAV2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992343">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAV2-2  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992342" type="sbjct">
+          <span>
+            <start>207</start>
+            <end>395</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>124868</start>
+            <end>125056</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAV2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992345">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAV2-3  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992344" type="sbjct">
+          <span>
+            <start>395</start>
+            <end>547</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>131457</start>
+            <end>131609</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAV2-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103992346">
+      <description>CHKT1|CAV1  Full CHKT1:0 0 CHKT1|2 /transcript_uid=CHKT1|CAV1</description>
+      <result_span id="CELERA:30000103992348">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAV1-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992347" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>99</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>139765</start>
+            <end>139864</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAV1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992350">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAV1-2  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992349" type="sbjct">
+          <span>
+            <start>99</start>
+            <end>264</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>140460</start>
+            <end>140625</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAV1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992352">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAV1-3  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992351" type="sbjct">
+          <span>
+            <start>264</start>
+            <end>606</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>153791</start>
+            <end>154133</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAV1-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103992353">
+      <description>CHKT1|MET  Full CHKT1:0 0 CHKT1|3 /transcript_uid=CHKT1|MET</description>
+      <result_span id="CELERA:30000103992355">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992354" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>108</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>202000</start>
+            <end>202108</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992357">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-2  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992356" type="sbjct">
+          <span>
+            <start>108</start>
+            <end>1321</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>220894</start>
+            <end>222107</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992359">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-3  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992358" type="sbjct">
+          <span>
+            <start>1321</start>
+            <end>1513</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>235807</start>
+            <end>235999</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992361">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-4  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992360" type="sbjct">
+          <span>
+            <start>1513</start>
+            <end>1648</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>247421</start>
+            <end>247556</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992363">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-5  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992362" type="sbjct">
+          <span>
+            <start>1648</start>
+            <end>1822</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>248952</start>
+            <end>249126</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992365">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-6  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992364" type="sbjct">
+          <span>
+            <start>1822</start>
+            <end>1983</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>254048</start>
+            <end>254209</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992367">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-7  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992366" type="sbjct">
+          <span>
+            <start>1983</start>
+            <end>2086</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>255390</start>
+            <end>255493</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992369">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-8  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992368" type="sbjct">
+          <span>
+            <start>2086</start>
+            <end>2223</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>255696</start>
+            <end>255833</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992371">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-9  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992370" type="sbjct">
+          <span>
+            <start>2223</start>
+            <end>2388</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>257932</start>
+            <end>258097</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992373">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-10  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992372" type="sbjct">
+          <span>
+            <start>2388</start>
+            <end>2488</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>258975</start>
+            <end>259075</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992375">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-11  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992374" type="sbjct">
+          <span>
+            <start>2488</start>
+            <end>2707</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>267375</start>
+            <end>267594</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992377">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-12  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992376" type="sbjct">
+          <span>
+            <start>2707</start>
+            <end>2854</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>273102</start>
+            <end>273249</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992379">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-13  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992378" type="sbjct">
+          <span>
+            <start>2854</start>
+            <end>3011</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>275154</start>
+            <end>275311</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992381">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-14  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992380" type="sbjct">
+          <span>
+            <start>3011</start>
+            <end>3152</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>276100</start>
+            <end>276241</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992383">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-15  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992382" type="sbjct">
+          <span>
+            <start>3152</start>
+            <end>3383</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>278512</start>
+            <end>278743</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992385">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-16  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992384" type="sbjct">
+          <span>
+            <start>3383</start>
+            <end>3464</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>281093</start>
+            <end>281174</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992387">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-17  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992386" type="sbjct">
+          <span>
+            <start>3464</start>
+            <end>3646</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>281798</start>
+            <end>281980</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992389">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-18  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992388" type="sbjct">
+          <span>
+            <start>3646</start>
+            <end>3756</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>283562</start>
+            <end>283672</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992391">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-19  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992390" type="sbjct">
+          <span>
+            <start>3756</start>
+            <end>3922</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>286055</start>
+            <end>286221</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992393">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-20  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992392" type="sbjct">
+          <span>
+            <start>3922</start>
+            <end>4059</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>287121</start>
+            <end>287258</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992395">
+        <span_type>HSP</span_type>
+        <description>CHKT1|MET-21  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992394" type="sbjct">
+          <span>
+            <start>4059</start>
+            <end>4306</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>287416</start>
+            <end>287663</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|MET-21"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103992396">
+      <description>CHKT1|CAPZA2  Full CHKT1:0 0 CHKT1|4 /transcript_uid=CHKT1|CAPZA2</description>
+      <result_span id="CELERA:30000103992398">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992397" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>50</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>312728</start>
+            <end>312778</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992400">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-2  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992399" type="sbjct">
+          <span>
+            <start>50</start>
+            <end>114</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>327345</start>
+            <end>327409</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992402">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-3  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992401" type="sbjct">
+          <span>
+            <start>114</start>
+            <end>166</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>328981</start>
+            <end>329033</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992404">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-4  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992403" type="sbjct">
+          <span>
+            <start>166</start>
+            <end>230</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>329718</start>
+            <end>329782</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992406">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-5  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992405" type="sbjct">
+          <span>
+            <start>230</start>
+            <end>437</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>330301</start>
+            <end>330508</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992408">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-6  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992407" type="sbjct">
+          <span>
+            <start>437</start>
+            <end>517</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>331948</start>
+            <end>332028</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992410">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-7  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992409" type="sbjct">
+          <span>
+            <start>517</start>
+            <end>596</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>332965</start>
+            <end>333044</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992412">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-8  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992411" type="sbjct">
+          <span>
+            <start>596</start>
+            <end>668</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>336507</start>
+            <end>336579</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992414">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-9  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992413" type="sbjct">
+          <span>
+            <start>668</start>
+            <end>731</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>339344</start>
+            <end>339407</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103992416">
+        <span_type>HSP</span_type>
+        <description>CHKT1|CAPZA2-10  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992415" type="sbjct">
+          <span>
+            <start>731</start>
+            <end>2868</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>340308</start>
+            <end>342445</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|CAPZA2-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103992417">
+      <description>CHKT1|ST7a  Full CHKT1:0 0 CHKT1|5 /transcript_uid=CHKT1|ST7a</description>
+      <result_span id="CELERA:30000103992419">
+        <span_type>HSP</span_type>
+        <description>CHKT1|ST7a-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992418" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>151</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>354461</start>
+            <end>354612</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|ST7a-1"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103992420">
+      <description>CHKT1|ST7b  Full CHKT1:0 0 CHKT1|6 /transcript_uid=CHKT1|ST7b</description>
+      <result_span id="CELERA:30000103992422">
+        <span_type>HSP</span_type>
+        <description>CHKT1|ST7b-1  Good  CHKT1:0 0</description>
+        <seq_relationship id="CELERA:30000103992421" type="sbjct">
+          <span>
+            <start>0</start>
+            <end>151</end>
+          </span>
+        </seq_relationship>
+        <seq_relationship id="CHKT1:0" type="query">
+          <span>
+            <start>354461</start>
+            <end>354612</end>
+          </span>
+        </seq_relationship>
+        <property name="mapping_status" value="0"></property>
+        <property name="percent_id" value="0.0"></property>
+        <property name="percent_coverage" value="0.0"></property>
+        <property name="exon_name" value="CHKT1|ST7b-1"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+  </computational_analysis>
+</game>

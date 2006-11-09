@@ -1,0 +1,2180 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Rattus norvegicus TCRB Region">
+<computational_analysis id="S4GBbest:1">
+ <date day="21" month="3" year="2004"></date>
+ <program>S4_GenBank_Best</program>
+ <type>BLASTN_HIT</type>
+ <result_set id="S4GBbest:2">
+ <description>&gt;CRA|1000735248826 /altid=gi|4335891 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=395 /mol_type=mRNA /date=03/15/1999 /altid=gb_acc|AF054144 /altid=gb_locus|AF054144 /altid=gb_accvers|AF054144.1 /protein_id=AAD17503.1 /def=Rattus norvegicus cell-line G5 T-cell receptor beta chain (TCRb) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:3">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>166913</start><end>167212</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaGactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataGttctgtgccagtagccaagACAcAgCcctGcaaAG
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248826" type="sbjct">
+   <span><start>0</start><end>296</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaAactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataCttctgtgccagtagccaagGTCcGgGcct-caa--
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="299"></property>
+  <property name="num_identical"      value="289"></property>
+  <property name="num_similar"        value="289"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <result_span id="S4GBbest:4">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>703098</start><end>703142</end></span>
+   <alignment>
+   tgaaagattgtttttcggccatggaaccaagctgtctgtcctgg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248826" type="sbjct">
+   <span><start>296</start><end>340</end></span>
+   <alignment>
+   tgaaagattgtttttcggccatggaaccaagctgtctgtcctgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="44"></property>
+  <property name="num_identical"      value="44"></property>
+  <property name="num_similar"        value="44"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:5">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>706291</start><end>706346</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248826" type="sbjct">
+   <span><start>340</start><end>395</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248826"></property>
+ <property name="subject_seq_length" value="395"></property>
+ </result_set>
+ <result_set id="S4GBbest:6">
+ <description>&gt;CRA|1000735248827 /altid=gi|4335893 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=392 /mol_type=mRNA /date=03/15/1999 /altid=gb_acc|AF054145 /altid=gb_locus|AF054145 /altid=gb_accvers|AF054145.1 /protein_id=AAD17504.1 /def=Rattus norvegicus cell-line G7 T-cell receptor beta chain (TCRb) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:7">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>166913</start><end>167195</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaGactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataGttctgtgccagtagccaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248827" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaAactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataCttctgtgccagtagccaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="280"></property>
+  <property name="num_similar"        value="280"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:8">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711474</start><end>711528</end></span>
+   <alignment>
+   cTgTgaA-ccaagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248827" type="sbjct">
+   <span><start>282</start><end>337</end></span>
+   <alignment>
+   cCgGgaCTccaagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBbest:9">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715019</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248827" type="sbjct">
+   <span><start>337</start><end>392</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248827"></property>
+ <property name="subject_seq_length" value="392"></property>
+ </result_set>
+ <result_set id="S4GBbest:10">
+ <description>&gt;CRA|1000735248828 /altid=gi|4335895 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=404 /mol_type=mRNA /date=03/15/1999 /altid=gb_acc|AF054146 /altid=gb_locus|AF054146 /altid=gb_accvers|AF054146.1 /protein_id=AAD17505.1 /def=Rattus norvegicus cell-line P2.6 T-cell receptor beta chain (TCRb) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:11">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>166913</start><end>167190</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaGactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataGttctgtgccagta
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248828" type="sbjct">
+   <span><start>0</start><end>277</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaAactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataCttctgtgccagta
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="277"></property>
+  <property name="num_identical"      value="275"></property>
+  <property name="num_similar"        value="275"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:12">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>710770</start><end>710835</end></span>
+   <alignment>
+   CccT-tttCTg-ctgT--g---ttcctatgctgaacagttcttcggatcagggacacgactcacggtcctag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248828" type="sbjct">
+   <span><start>277</start><end>349</end></span>
+   <alignment>
+   GccAAtttGGgActgGGGgTTAttcctatgctgaacagttcttcggatcagggacacgactcacggtcctag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="72"></property>
+  <property name="num_identical"      value="60"></property>
+  <property name="num_similar"        value="60"></property>
+  <property name="num_gaps"           value="7"></property>
+ </result_span>
+ <result_span id="S4GBbest:13">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715019</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248828" type="sbjct">
+   <span><start>349</start><end>404</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248828"></property>
+ <property name="subject_seq_length" value="404"></property>
+ </result_set>
+ <result_set id="S4GBbest:14">
+ <description>&gt;CRA|1000735248829 /altid=gi|4335897 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=392 /mol_type=mRNA /date=03/15/1999 /altid=gb_acc|AF054147 /altid=gb_locus|AF054147 /altid=gb_accvers|AF054147.1 /protein_id=AAD17506.1 /def=Rattus norvegicus cell-line P2.48 T-cell receptor beta chain (TCRb) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:15">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>166913</start><end>167195</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaGactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataGttctgtgccagtagccaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248829" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaAactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataCttctgtgccagtagccaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="280"></property>
+  <property name="num_similar"        value="280"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:16">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711474</start><end>711528</end></span>
+   <alignment>
+   cTgTgaA-ccaagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248829" type="sbjct">
+   <span><start>282</start><end>337</end></span>
+   <alignment>
+   cCgGgaCTccaagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBbest:17">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715019</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248829" type="sbjct">
+   <span><start>337</start><end>392</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248829"></property>
+ <property name="subject_seq_length" value="392"></property>
+ </result_set>
+ <result_set id="S4GBbest:18">
+ <description>&gt;CRA|1000735248830 /altid=gi|4335899 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=392 /mol_type=mRNA /date=03/15/1999 /altid=gb_acc|AF054148 /altid=gb_locus|AF054148 /altid=gb_accvers|AF054148.1 /protein_id=AAD17507.1 /def=Rattus norvegicus cell-line P2.76 T-cell receptor beta chain (TCRb) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:19">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>166913</start><end>167202</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaGactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataGttctgtgccagtagccaaGAcAcAg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248830" type="sbjct">
+   <span><start>0</start><end>285</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaAactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataCttctgtgccagtagccaa--c-c-g
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="289"></property>
+  <property name="num_identical"      value="283"></property>
+  <property name="num_similar"        value="283"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <result_span id="S4GBbest:20">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711475</start><end>711528</end></span>
+   <alignment>
+   TgTgAacC--aagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248830" type="sbjct">
+   <span><start>285</start><end>337</end></span>
+   <alignment>
+   -g-g-acTGGaagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="49"></property>
+  <property name="num_similar"        value="49"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBbest:21">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715019</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248830" type="sbjct">
+   <span><start>337</start><end>392</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248830"></property>
+ <property name="subject_seq_length" value="392"></property>
+ </result_set>
+ <result_set id="S4GBbest:22">
+ <description>&gt;CRA|1000735248831 /altid=gi|4335901 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=392 /mol_type=mRNA /date=03/15/1999 /altid=gb_acc|AF054149 /altid=gb_locus|AF054149 /altid=gb_accvers|AF054149.1 /protein_id=AAD17508.1 /def=Rattus norvegicus cell-line TKtsA6 T-cell receptor beta chain (TCRb) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:23">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>166913</start><end>167202</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaGactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataGttctgtgccagtagccaaGAcAcAg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248831" type="sbjct">
+   <span><start>0</start><end>285</end></span>
+   <alignment>
+   gaccctaaaattatccagaaaccaaaatttctggtggcagtcacagggagtgaaagaatcttgatatgcgaacagcatctaggacacaatgctatgtattggtacagacaaagtgctaagaagtccctagagctcatgttttcctatagctatcaaaaacttatggacaaccaAactatcccaagtcgcttccaacctcacaattcagagaaattgttagaccttcagatcacagccctgaagcctgaagatgtggctacataCttctgtgccagtagccaa--c-c-g
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="289"></property>
+  <property name="num_identical"      value="283"></property>
+  <property name="num_similar"        value="283"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <result_span id="S4GBbest:24">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711475</start><end>711528</end></span>
+   <alignment>
+   TgTgAac--caagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248831" type="sbjct">
+   <span><start>285</start><end>337</end></span>
+   <alignment>
+   -g-g-acTTcaagagacccagtactttggaccaggcactcgcctccttgtgttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="50"></property>
+  <property name="num_similar"        value="50"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBbest:25">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715019</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735248831" type="sbjct">
+   <span><start>337</start><end>392</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735248831"></property>
+ <property name="subject_seq_length" value="392"></property>
+ </result_set>
+ <result_set id="S4GBbest:26">
+ <description>&gt;CRA|1000735285775 /altid=gi|206498 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=821 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M16624 /altid=gb_locus|RATPTRY /altid=gb_accvers|M16624.1 /protein_id=AAA41985.1 /def=Rat pancreatic cationic trypsinogen mRNA, comlete cds. /div=ROD</description>
+ <result_span id="S4GBbest:27">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>145453</start><end>145227</end></span>
+   <alignment>
+   ggtgactctggtggccctgtagtctgcaatggccagctccagggtgttgtttcctggggttatggctgtgctcagaaaggaaaacctggtgtctataccaaggtatgcaactacgtgaactggattcagcagaccgtcgctgccaactaaaacgcctttatgtcCttatactttgtagtcaaatccaccttctttgtatgccccaagtcattctcacaagaaaaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285775" type="sbjct">
+   <span><start>594</start><end>821</end></span>
+   <alignment>
+   ggtgactctggtggccctgtagtctgcaatggccagctccagggtgttgtttcctggggttatggctgtgctcagaaaggaaaacctggtgtctataccaaggtatgcaactacgtgaactggattcagcagaccgtcgctgccaactaaaacgcctttatgtcTttatactttgtagtcaaatccaccttctttgtatgccccaagtcattctcacaagaaaaacA
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="227"></property>
+  <property name="num_identical"      value="225"></property>
+  <property name="num_similar"        value="225"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBbest:28">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>146088</start><end>145951</end></span>
+   <alignment>
+   cgaactacccttcactgcttcagtgtcttgatgcccctgtcctctctgacagttcttgcaaaagttcttacccaggcaagatcactagcaacatgttctgtctgggctttctggagggcggaaaggactcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285775" type="sbjct">
+   <span><start>457</start><end>594</end></span>
+   <alignment>
+   cgaactacccttcactgcttcagtgtcttgatgcccctgtcctctctgacagttcttgcaaaagttcttacccaggcaagatcactagcaacatgttctgtctgggctttctggagggcggaaaggactcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:29">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>146844</start><end>146590</end></span>
+   <alignment>
+   ccgaattcaggtgcgcctgggagaacacaacattgatgtcgttgagggtggtgagcaattcattgatgcagctaaaatcatccgccaccccagttataatgcaaacacctttgacaatgatattatgttgattaagctgaattcacctgccaccctcaattctcgagtgtccactgtctctctgccaagatcttgtgCatcatctggtactaagtgccttgtgtctggctggggcaacaccctgagctctggca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285775" type="sbjct">
+   <span><start>203</start><end>457</end></span>
+   <alignment>
+   ccgaattcaggtgcgcctgggagaacacaacattgatgtcgttgagggtggtgagcaattcattgatgcagctaaaatcatccgccaccccagttataatgcaaacacctttgacaatgatattatgttgattaagctgaattcacctgccaccctcaattctcgagtgtccactgtctctctgccaagatcttgtgGatcatctggtactaagtgccttgtgtctggctggggcaacaccctgagctctggca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="253"></property>
+  <property name="num_similar"        value="253"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:30">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>148037</start><end>147874</end></span>
+   <alignment>
+   ttgctctccctctggatgatgatgatgacaagattgttggaggctacacctgccagaagaattctctcccataccaggtgtctctgaatgctggctaccatttttgtggaggctccctcatcaattcccagtgggttgtttcagccgctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285775" type="sbjct">
+   <span><start>40</start><end>203</end></span>
+   <alignment>
+   ttgctctccctctggatgatgatgatgacaagattgttggaggctacacctgccagaagaattctctcccataccaggtgtctctgaatgctggctaccatttttgtggaggctccctcatcaattcccagtgggttgtttcagccgctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="163"></property>
+  <property name="num_identical"      value="163"></property>
+  <property name="num_similar"        value="163"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:31">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>148936</start><end>148896</end></span>
+   <alignment>
+   atgaaggccttaattttccttgctttccttggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285775" type="sbjct">
+   <span><start>0</start><end>40</end></span>
+   <alignment>
+   atgaaggccttaattttccttgctttccttggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="40"></property>
+  <property name="num_identical"      value="40"></property>
+  <property name="num_similar"        value="40"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735285775"></property>
+ <property name="subject_seq_length" value="821"></property>
+ </result_set>
+ <result_set id="S4GBbest:32">
+ <description>&gt;CRA|1000735285780 /altid=gi|496223 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=342 /mol_type=mRNA /date=05/08/2002 /altid=gb_acc|L00131 /altid=gb_locus|RATPTRY25 /altid=gb_accvers|L00131.1 /protein_id=AAA98517.1 /def=Rattus norvegicus trypsinogen II mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBbest:33">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>565716</start><end>565853</end></span>
+   <alignment>
+   tcaatgaaccagacctgctccagtgcctggatgccccactgctgccccaagctgactgtgaagcctcctaccctggaaagatcactgacaacatggtctgtgttggcttcctagagggaggcaaggattcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285780" type="sbjct">
+   <span><start>0</start><end>137</end></span>
+   <alignment>
+   tcaatgaaccagacctgctccagtgcctggatgccccactgctgccccaagctgactgtgaagcctcctaccctggaaagatcactgacaacatggtctgtgttggcttcctagagggaggcaaggattcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:34">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>566107</start><end>566312</end></span>
+   <alignment>
+   ggtgactctggtggccctgtggtctgtaatggagagctgcagggcattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattcaggacacaattgctgccaactagagctctccaatccctctacagtcattatgtcaataaagtgaaatattctttactg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735285780" type="sbjct">
+   <span><start>137</start><end>342</end></span>
+   <alignment>
+   ggtgactctggtggccctgtggtctgtaatggagagctgcagggcattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattcaggacacaattgctgccaactagagctctccaatccctctacagtcattatgtcaataaagtgaaatattctttactg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="205"></property>
+  <property name="num_identical"      value="205"></property>
+  <property name="num_similar"        value="205"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735285780"></property>
+ <property name="subject_seq_length" value="342"></property>
+ </result_set>
+ <result_set id="S4GBbest:35">
+ <description>&gt;CRA|1000735286390 /altid=gi|207161 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=75 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18851 /altid=gb_locus|RATTBXM /altid=gb_accvers|M18851.1 /protein_id=AAA42206.1 /def=Rat T-cell receptor active beta-chain V-region (V-J-beta2.7) mRNA, partial cds, clone TRB-9. /div=ROD</description>
+ <result_span id="S4GBbest:36">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711822</start><end>711867</end></span>
+   <alignment>
+   cctatgagcagtatttcggtcccggcaccaagctcacggttttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286390" type="sbjct">
+   <span><start>30</start><end>75</end></span>
+   <alignment>
+   cctatgagcagtatttcggtcccggcaccaagctcacggttttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="45"></property>
+  <property name="num_identical"      value="45"></property>
+  <property name="num_similar"        value="45"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286390"></property>
+ <property name="subject_seq_length" value="75"></property>
+ </result_set>
+ <result_set id="S4GBbest:37">
+ <description>&gt;CRA|1000735286417 /altid=gi|207194 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=668 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18854 /altid=gb_locus|RATTCBCA /altid=gb_accvers|M18854.1 /protein_id=AAA42211.1 /def=Rat T-cell receptor active beta-chain C-region mRNA, partial cds, clone TRB4. /div=ROD</description>
+ <result_span id="S4GBbest:38">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715353</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagcagagattgcagacaaacaaaaggctaccctcgtgtgcttggccaggggcTTcTTccctgaccatgtggagctgagctggtgggtgaatggGAaggagatccgcAatggggtcagcacagaccctcaggcctacaaggaaagcaacaaCatcacctactgcctgagcagccgcctgagggtttctgctCccttctggcacaatcctcgcaaccacttccgctgccaagtgcagttctatgggcttacagaggaagacaactggtcagaggactcacccaaacctgtcacacagaacatcagtgcggaggcctggggccgagcagGtAAAtggCa---c
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286417" type="sbjct">
+   <span><start>0</start><end>388</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagcagagattgcagacaaacaaaaggctaccctcgtgtgcttggccaggggcAAcAAccctgaccatgtggagctgagctggtgggtgaatgg--aggagatccgc-atggggtcagcacagaccctcaggcctacaaggaaagcaacaaTatcacctactgcctgagcagccgcctgagggtttctgctAccttctggcacaatcctcgcaaccacttccgctgccaagtgcagttctatgggcttacagaggaagacaactggtcagaggactcacccaaacctgtcacacagaacatcagtgcggaggcctggggccgagcagAt-TGtggGaTTAc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="392"></property>
+  <property name="num_identical"      value="375"></property>
+  <property name="num_similar"        value="375"></property>
+  <property name="num_gaps"           value="7"></property>
+ </result_span>
+ <result_span id="S4GBbest:39">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>715999</start><end>716109</end></span>
+   <alignment>
+   --cagcatcctatcaTcaaggggtTctgtctgccaccatcctctatgagatcctactggggaaggccaccctgtatgctgtgctagtcagtgccctggtgctgatggccatg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286417" type="sbjct">
+   <span><start>388</start><end>500</end></span>
+   <alignment>
+   CTcagcatcctatcaAcaaggggtCctgtctgccaccatcctctatgagatcctactggggaaggccaccctgtatgctgtgctagtcagtgccctggtgctgatggccatg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="112"></property>
+  <property name="num_identical"      value="108"></property>
+  <property name="num_similar"        value="108"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <result_span id="S4GBbest:40">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>716393</start><end>716560</end></span>
+   <alignment>
+   gtcaagaaaaaaaattcctgagacaaactttatgcatcctgagctgttctttaccctggccatggattttcccgcaccttctccaatccctgttcctaaggacttgtctcctctccctccatggaaatctaccattcctcattaaccccttgactatgaaacagact-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286417" type="sbjct">
+   <span><start>500</start><end>668</end></span>
+   <alignment>
+   gtcaagaaaaaaaattcctgagacaaactttatgcatcctgagctgttctttaccctggccatggattttcccgcaccttctccaatccctgttcctaaggacttgtctcctctccctccatggaaatctaccattcctcattaaccccttgactatgaaacagactG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="168"></property>
+  <property name="num_identical"      value="167"></property>
+  <property name="num_similar"        value="167"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286417"></property>
+ <property name="subject_seq_length" value="668"></property>
+ </result_set>
+ <result_set id="S4GBbest:41">
+ <description>&gt;CRA|1000735286418 /altid=gi|207196 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=401 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23881 /altid=gb_locus|RATTCBVA /altid=gb_accvers|M23881.1 /protein_id= /def=Rat T-cell receptor beta-chain mRNA V-region (J-C), clone CRTB2. /div=ROD</description>
+ <result_span id="S4GBbest:42">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>710489</start><end>710835</end></span>
+   <alignment>
+   ataccctttgttggaaagactgtacaagtcctttctcattggaggctacCcagacacagcagAAagccctcagatttcaaagtcactttgctaacccctgagtgaattgtatggatattcgttcccaagccaaaggttgtatctcttcttcaatttgagatcttaagataggcctcatgcaaggtcaagattgcattacccGttctggaggtagatggagaatgtgagtaaccccgggtctatgctgaggaaggtgaggaagcaggaagaattcTtggcagcccttttctgctgtgttcctatgctgaacagttcttcggatcagggacacgactcacggtccta-g
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286418" type="sbjct">
+   <span><start>0</start><end>347</end></span>
+   <alignment>
+   ataccctttgttggaaagactgtacaagtcctttctcattggaggctacTcagacacagcagGTagccctcagatttcaaagtcactttgctaacccctgagtgaattgtatggatattcgttcccaagccaaaggttgtatctcttcttcaatttgagatcttaagataggcctcatgcaaggtcaagattgcattacccAttctggaggtagatggagaatgtgagtaaccccgggtctatgctgaggaaggtgaggaagcaggaagaattcGtggcagcccttttctgctgtgttcctatgctgaacagttcttcggatcagggacacgactcacggtcctaAg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="347"></property>
+  <property name="num_identical"      value="341"></property>
+  <property name="num_similar"        value="341"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBbest:43">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715018</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagcCatcagaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286418" type="sbjct">
+   <span><start>347</start><end>401</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagcNatcagaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="54"></property>
+  <property name="num_identical"      value="53"></property>
+  <property name="num_similar"        value="53"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286418"></property>
+ <property name="subject_seq_length" value="401"></property>
+ </result_set>
+ <result_set id="S4GBbest:44">
+ <description>&gt;CRA|1000735286419 /altid=gi|207197 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=408 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23882 /altid=gb_locus|RATTCBVB /altid=gb_accvers|M23882.1 /protein_id=AAA42212.1 /def=Rat T-cell receptor beta-chain mRNA V-region (V-D-J-C), clone CRTB3. /div=ROD</description>
+ <result_span id="S4GBbest:45">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>378737</start><end>379041</end></span>
+   <alignment>
+   CctttgttgctgaagtaacccagactccaagatacctgatcaaagagaaaggacagagagtaaatatgagctgtagtcctgaaaaggGcgcatactgccttttactggtatcaacagaaccagaaaaaagaacttacatttttgattaattttcgaaaggtagacattattgaccaaacagacttggtcaagaagagattctcagctcagtgtgtcccagacttacactgcaccctggagatcccatcctctgaagaaggagactcagcattgtacttctgtgccagcagtctgTacAcAgCac
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286419" type="sbjct">
+   <span><start>0</start><end>301</end></span>
+   <alignment>
+   Actttgttgctgaagtaacccagactccaagatacctgatcaaagagaaaggacagagagtaaatatgagctgtagtcctgaaaagg-cgcatactgccttttactggtatcaacagaaccagaaaaaagaacttacatttttgattaattttcgaaaggtagacattattgaccaaacagacttggtcaagaagagattctcagctcagtgtgtcccagacttacactgcaccctggagatcccatcctctgaagaaggagactcagcattgtacttctgtgccagcagtctg-ac-cGgGac
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="304"></property>
+  <property name="num_identical"      value="298"></property>
+  <property name="num_similar"        value="298"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286419"></property>
+ <property name="subject_seq_length" value="408"></property>
+ </result_set>
+ <result_set id="S4GBbest:46">
+ <description>&gt;CRA|1000735286420 /altid=gi|207199 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=503 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23883 /altid=gb_locus|RATTCBVC /altid=gb_accvers|M23883.1 /protein_id=AAA42213.1 /def=Rat T-cell receptor beta-chain mRNA V-region (V-D-J-C), clone CRTB4. /div=ROD</description>
+ <result_span id="S4GBbest:47">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>356967</start><end>357054</end></span>
+   <alignment>
+   agagaaggcagctgatcagcactatctatgaatcagccatgcactgcaaacttttctactgtatgacctttttattctggacagcaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286420" type="sbjct">
+   <span><start>0</start><end>87</end></span>
+   <alignment>
+   agagaaggcagctgatcagcactatctatgaatcagccatgcactgcaaacttttctactgtatgacctttttattctggacagcaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="87"></property>
+  <property name="num_identical"      value="87"></property>
+  <property name="num_similar"        value="87"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:48">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>357166</start><end>357457</end></span>
+   <alignment>
+   gttccatggactctggggtcattcagagtcctagacatctggtcaaaggaaaagaacagaaagccagaatgcagtgcacccccataaaagaacatagttatgtttattggtactacaagaagctgggagaagacctcaaattcttggtttactttcagaatacagacatcatGgataaaacagatatgatcaagaaaatAatttcagcagaatgcttcactaacaaaacatgtaccatagagatcaagtccagcaagctaacagattcagctgtgtactactgtgctagca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286420" type="sbjct">
+   <span><start>87</start><end>378</end></span>
+   <alignment>
+   gttccatggactctggggtcattcagagtcctagacatctggtcaaaggaaaagaacagaaagccagaatgcagtgcacccccataaaagaacatagttatgtttattggtactacaagaagctgggagaagacctcaaattcttggtttactttcagaatacagacatcatTgataaaacagatatgatcaagaaaatCatttcagcagaatgcttcactaacaaaacatgtaccatagagatcaagtccagcaagctaacagattcagctgtgtactactgtgctagca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="291"></property>
+  <property name="num_identical"      value="289"></property>
+  <property name="num_similar"        value="289"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:49">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711382</start><end>711439</end></span>
+   <alignment>
+   ---a----gg-cTgTg-agtcaaaacaccttgttcttcggTGcaggcacccgactgtcggtgctag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286420" type="sbjct">
+   <span><start>378</start><end>444</end></span>
+   <alignment>
+   GTCaAGGGggAcAgGgTagtcaaaacaccttgttcttcggNNcaggcacccgactgtcggtgctag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="66"></property>
+  <property name="num_identical"      value="53"></property>
+  <property name="num_similar"        value="53"></property>
+  <property name="num_gaps"           value="9"></property>
+ </result_span>
+ <result_span id="S4GBbest:50">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715023</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagcagag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286420" type="sbjct">
+   <span><start>444</start><end>503</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagcagag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="59"></property>
+  <property name="num_identical"      value="59"></property>
+  <property name="num_similar"        value="59"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286420"></property>
+ <property name="subject_seq_length" value="503"></property>
+ </result_set>
+ <result_set id="S4GBbest:51">
+ <description>&gt;CRA|1000735286421 /altid=gi|207201 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=466 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23884 /altid=gb_locus|RATTCBVD /altid=gb_accvers|M23884.1 /protein_id= /def=Rat T-cell receptor beta-chain pseudogene mRNA V-region (V-D-J-C), clone CRTB13. /div=ROD</description>
+ <result_span id="S4GBbest:52">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>275621</start><end>275696</end></span>
+   <alignment>
+   caaacactgccctctctaactctgcctggattacTagTctgctGtcttgggttgcTgtctttctcctgggTacaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286421" type="sbjct">
+   <span><start>0</start><end>75</end></span>
+   <alignment>
+   caaacactgccctctctaactctgcctggattacCagCctgctAtcttgggttgcCgtctttctcctgggAacaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="75"></property>
+  <property name="num_identical"      value="70"></property>
+  <property name="num_similar"        value="70"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:53">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>278552</start><end>278846</end></span>
+   <alignment>
+   aacacatggaagctgcagtcacacaaagcccaagAaacaaggtgacaCtaaaaggaggaaaggtgacaTtgagttgtaagcagaataataatcacaacaacatgtTctggtatcggcaggacatggggcatggtctgaggctgatccattactcatatgatgttaacagtactgaaaaaggagatgtcccCAatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctAgagtcGgcttccccctctcagacatctgtgtacttctgtgccagcagtga--gg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286421" type="sbjct">
+   <span><start>75</start><end>370</end></span>
+   <alignment>
+   aacacatggaagctgcagtcacacaaagcccaagCaacaaggtgacaGtaaaaggaggaaaggtgacaCtgagttgtaagcagaataataatcacaacaacatgtActggtatcggcaggacatggggcatggtctgaggctgatccattactcatatgatgttaacagtactgaaaaaggagatgtccc-GatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctGgagtcAgcttccccctctcagacatctgtgtacttctgtgccagcagtgaCTgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="296"></property>
+  <property name="num_identical"      value="286"></property>
+  <property name="num_similar"        value="286"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286421"></property>
+ <property name="subject_seq_length" value="466"></property>
+ </result_set>
+ <result_set id="S4GBbest:54">
+ <description>&gt;CRA|1000735286422 /altid=gi|207202 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=428 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23885 /altid=gb_locus|RATTCBVE /altid=gb_accvers|M23885.1 /protein_id=AAA42214.1 /def=Rat T-cell receptor beta-chain mRNA V-region (V-J-C), clone CRTB29. /div=ROD</description>
+ <result_span id="S4GBbest:55">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>347470</start><end>347520</end></span>
+   <alignment>
+   tgtgaagtcaacattgaagatgttgctgcttctgctacttctggggcctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286422" type="sbjct">
+   <span><start>0</start><end>50</end></span>
+   <alignment>
+   tgtgaagtcaacattgaagatgttgctgcttctgctacttctggggcctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="50"></property>
+  <property name="num_identical"      value="50"></property>
+  <property name="num_similar"        value="50"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:56">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>347917</start><end>348214</end></span>
+   <alignment>
+   gctatgggcttggagctctcgtccaccaatctcccagaaggaccatctgtaagagtagaacttccctgagaatggagtgtcacactgagggtgttcaggccacttctgtagcctggtatcgtcaattgcctcaagagacctttgacctgatagcactttctactgtgaactctgcaatcaaatatgaaaaaaattttaccaaagagaagttttccatcagtcatccaaatttatccttttcatctatgacaattttaaatgcacatcctgatgacggaggcttatatttctgtggtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286422" type="sbjct">
+   <span><start>50</start><end>347</end></span>
+   <alignment>
+   gctatgggcttggagctctcgtccaccaatctcccagaaggaccatctgtaagagtagaacttccctgagaatggagtgtcacactgagggtgttcaggccacttctgtagcctggtatcgtcaattgcctcaagagacctttgacctgatagcactttctactgtgaactctgcaatcaaatatgaaaaaaattttaccaaagagaagttttccatcagtcatccaaatttatccttttcatctatgacaattttaaatgcacatcctgatgacggaggcttatatttctgtggtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="297"></property>
+  <property name="num_identical"      value="297"></property>
+  <property name="num_similar"        value="297"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:57">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>710984</start><end>711039</end></span>
+   <alignment>
+   TgtGCa-aacaccgggcagctatactttggtgaaggctcaaagctgacagtgctgg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286422" type="sbjct">
+   <span><start>347</start><end>401</end></span>
+   <alignment>
+   -gt-AaTaacaccgggcagctatactttggtgaaggctcaaagctgacagtgctgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="56"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286422"></property>
+ <property name="subject_seq_length" value="428"></property>
+ </result_set>
+ <result_set id="S4GBbest:58">
+ <description>&gt;CRA|1000735286423 /altid=gi|207204 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=287 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23886 /altid=gb_locus|RATTCBVF /altid=gb_accvers|M23886.1 /protein_id= /def=Rat T-cell receptor beta-chain mRNA V-region (J-C), clone CRTB32. /div=ROD</description>
+ <result_span id="S4GBbest:59">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711049</start><end>711288</end></span>
+   <alignment>
+   ctgaactgtactgtgggagtaagagggacagagcaggactattcagtgtccActtggtctgagctaaCcTgcctgggCagaaggatttctgtattggatactgggaacagtaaagcactcatggtttggggttgggacagcaggagcgagcgggcagcactgagtttttgtcctgaGc-ctgaaggctgtgactacagacaagatatattttggctcaggaaccagactgaccgttctcg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286423" type="sbjct">
+   <span><start>0</start><end>239</end></span>
+   <alignment>
+   ctgaactgtactgtgggagtaagagggacagagcaggactattcagtgtccTcttggtctgagctaaNcCgcctgggNagaaggatttctgtattggatactgggaacagtaaagcactcatggtttggggttgggacagcaggagcgagcgggcagcactgagtttttgtcctga-cGctgaaggctgtgactacagacaagatatattttggctcaggaaccagactgaccgttctcg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="240"></property>
+  <property name="num_identical"      value="234"></property>
+  <property name="num_similar"        value="234"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <result_span id="S4GBbest:60">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715012</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286423" type="sbjct">
+   <span><start>239</start><end>287</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="48"></property>
+  <property name="num_identical"      value="48"></property>
+  <property name="num_similar"        value="48"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286423"></property>
+ <property name="subject_seq_length" value="287"></property>
+ </result_set>
+ <result_set id="S4GBbest:61">
+ <description>&gt;CRA|1000735286424 /altid=gi|207205 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=524 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23887 /altid=gb_locus|RATTCBVG /altid=gb_accvers|M23887.1 /protein_id=AAA42215.1 /def=Rat T-cell receptor beta-chain mRNA V-region (V-D-J-C), clone CRTB39. /div=ROD</description>
+ <result_span id="S4GBbest:62">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>323788</start><end>323911</end></span>
+   <alignment>
+   cgcaacctctcaaggaccagaagtaggttaaagcgtttaagagacaaatattcttttcctgttctggcccttccatggatgctagacttctttactgtgtgatcttctgtcttcttgcagccg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286424" type="sbjct">
+   <span><start>0</start><end>123</end></span>
+   <alignment>
+   cgcaacctctcaaggaccagaagtaggttaaagcgtttaagagacaaatattcttttcctgttctggcccttccatggatgctagacttctttactgtgtgatcttctgtcttcttgcagccg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="123"></property>
+  <property name="num_identical"      value="123"></property>
+  <property name="num_similar"        value="123"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:63">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>324023</start><end>324311</end></span>
+   <alignment>
+   cttttgtggatacaatggttatgcagaacccaagatacaaggttgcaagagttggaaaaccagtgaatttgatctgttctcagactatggatcatgattccatgttctggtaccagcagaagccaaaccaaggaccaaagttgcttctttactactatgacagcaatttgaacagggagacCgacacttctgataacttccaatccagccggcataatacttctttctgctctcttaacatcacctctgcaggcctaggggattctgccatgtacctctgtgctagca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286424" type="sbjct">
+   <span><start>123</start><end>411</end></span>
+   <alignment>
+   cttttgtggatacaatggttatgcagaacccaagatacaaggttgcaagagttggaaaaccagtgaatttgatctgttctcagactatggatcatgattccatgttctggtaccagcagaagccaaaccaaggaccaaagttgcttctttactactatgacagcaatttgaacagggagacTgacacttctgataacttccaatccagccggcataatacttctttctgctctcttaacatcacctctgcaggcctaggggattctgccatgtacctctgtgctagca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="288"></property>
+  <property name="num_identical"      value="287"></property>
+  <property name="num_similar"        value="287"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:64">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711382</start><end>711439</end></span>
+   <alignment>
+   A----gg-ctgT--ga-g-tcaaaacaccttgttcttcggtgcaggcacccgactgtcggtgctag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286424" type="sbjct">
+   <span><start>411</start><end>477</end></span>
+   <alignment>
+   CTCCGggActgGGGgaTgGtcaaaacaccttgttcttcggtgcaggcacccgactgtcggtgctag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="66"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="9"></property>
+ </result_span>
+ <result_span id="S4GBbest:65">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>714964</start><end>715011</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagcca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286424" type="sbjct">
+   <span><start>477</start><end>524</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagcca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="47"></property>
+  <property name="num_identical"      value="47"></property>
+  <property name="num_similar"        value="47"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286424"></property>
+ <property name="subject_seq_length" value="524"></property>
+ </result_set>
+ <result_set id="S4GBbest:66">
+ <description>&gt;CRA|1000735286425 /altid=gi|207207 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=426 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M23888 /altid=gb_locus|RATTCBVH /altid=gb_accvers|M23888.1 /protein_id=AAA42216.1 /def=Rat T-cell receptor beta-chain mRNA V-region (V-D-J-C), clone CRTB49. /div=ROD</description>
+ <result_span id="S4GBbest:67">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>376527</start><end>376880</end></span>
+   <alignment>
+   ccaacgtttctctgggccagtgttcatgctttgtcttgaattttcttccaggctcttttgatgctgctgttattcagacgccaagacatttgatcaaaatgaaagggcagcaagtagagatgaactgtaaccccgaaaaggatcaccctgctgttttctggtatcagcaaaaacagagcaaagagttaaagttcctgatttactttcagaatcaacggcctgtcgatcaaatagacatggtcaaggagagattctcagctgagtggccctcaaactcacTctgtagcctgaaaatcagtacttctgaagtagaagactcagcactgtacctgtgctccagcagtcaa-tCCac-a-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286425" type="sbjct">
+   <span><start>0</start><end>356</end></span>
+   <alignment>
+   ccaacgtttctctgggccagtgttcatgctttgtcttgaattttcttccaggctcttttgatgctgctgttattcagacgccaagacatttgatcaaaatgaaagggcagcaagtagagatgaactgtaaccccgaaaaggatcaccctgctgttttctggtatcagcaaaaacagagcaaagagttaaagttcctgatttactttcagaatcaacggcctgtcgatcaaatagacatggtcaaggagagattctcagctgagtggccctcaaactcacGctgtagcctgaaaatcagtacttctgaagtagaagactcagcactgtacctgtgctccagcagtcaaAtAGacGaG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="356"></property>
+  <property name="num_identical"      value="350"></property>
+  <property name="num_similar"        value="350"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <result_span id="S4GBbest:68">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>703375</start><end>703415</end></span>
+   <alignment>
+   gcccagtattttggagaAgggactcggctctctgttctag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286425" type="sbjct">
+   <span><start>356</start><end>396</end></span>
+   <alignment>
+   gcccagtattttggagaGgggactcggctctctgttctag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="40"></property>
+  <property name="num_identical"      value="39"></property>
+  <property name="num_similar"        value="39"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:69">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>706291</start><end>706321</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaagg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286425" type="sbjct">
+   <span><start>396</start><end>426</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaagg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="30"></property>
+  <property name="num_identical"      value="30"></property>
+  <property name="num_similar"        value="30"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286425"></property>
+ <property name="subject_seq_length" value="426"></property>
+ </result_set>
+ <result_set id="S4GBbest:70">
+ <description>&gt;CRA|1000735286429 /altid=gi|207215 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=347 /mol_type=mRNA /date=10/29/1994 /altid=gb_acc|M74472 /altid=gb_locus|RATTCBXA8A /altid=gb_accvers|M74472.1 /protein_id=AAA51370.1 /def=Rat T-cell receptor rearranged beta-chain (V8.2-D1-J1.1) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:71">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>278552</start><end>278843</end></span>
+   <alignment>
+   aacacatggaagctgcagtcacacaaagcccaagaaacaaggtgacaCtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtTctggtatcggcaggacatggggcatggtctgaggctGatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286429" type="sbjct">
+   <span><start>0</start><end>291</end></span>
+   <alignment>
+   aacacatggaagctgcagtcacacaaagcccaagaaacaaggtgacaTtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtActggtatcggcaggacatggggcatggtctgaggctAatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="291"></property>
+  <property name="num_identical"      value="288"></property>
+  <property name="num_similar"        value="288"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286429"></property>
+ <property name="subject_seq_length" value="347"></property>
+ </result_set>
+ <result_set id="S4GBbest:72">
+ <description>&gt;CRA|1000735286430 /altid=gi|207217 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=344 /mol_type=mRNA /date=10/29/1994 /altid=gb_acc|M74473 /altid=gb_locus|RATTCBXA8B /altid=gb_accvers|M74473.1 /protein_id=AAA51371.1 /def=Rat T-cell receptor rearranged beta-chain (V8.2-D1-J2.3) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:73">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>278552</start><end>278851</end></span>
+   <alignment>
+   aacacatggaagctgcagtcacacaaagcccaagaaacaaggtgacaCtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtTctggtatcggcaggacatggggcatggtctgaggctGatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagtg----aggCacag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286430" type="sbjct">
+   <span><start>0</start><end>303</end></span>
+   <alignment>
+   aacacatggaagctgcagtcacacaaagcccaagaaacaaggtgacaTtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtActggtatcggcaggacatggggcatggtctgaggctAatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagtgGGACaggGacag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="303"></property>
+  <property name="num_identical"      value="295"></property>
+  <property name="num_similar"        value="295"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286430"></property>
+ <property name="subject_seq_length" value="344"></property>
+ </result_set>
+ <result_set id="S4GBbest:74">
+ <description>&gt;CRA|1000735286431 /altid=gi|207219 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=350 /mol_type=mRNA /date=10/29/1994 /altid=gb_acc|M74474 /altid=gb_locus|RATTCBXA8C /altid=gb_accvers|M74474.1 /protein_id=AAA51372.1 /def=Rat T-cell receptor rearranged beta-chain (V8.6-D2-J2.1) mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:75">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>292210</start><end>292503</end></span>
+   <alignment>
+   aacacatggaGgctgcagtcacccaaagcccaagaaacagggtggcagtaacaggaggagaggtgacattgagctgtcgccagactaataaccaTgactacatgtactggtatcgacagaacatgggggatgaactgaggctgatccattactcatatgatgttaaccgcactgagaaaggagatgtctccagtgggtacaaggcctcaagaccaagccaagaggacttctctctcattctggagtcagcttctctctctcagacGgctgtgtacttctgtgccagcagtgat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286431" type="sbjct">
+   <span><start>0</start><end>293</end></span>
+   <alignment>
+   aacacatggaAgctgcagtcacccaaagcccaagaaacagggtggcagtaacaggaggagaggtgacattgagctgtcgccagactaataaccaCgactacatgtactggtatcgacagaacatgggggatgaactgaggctgatccattactcatatgatgttaaccgcactgagaaaggagatgtctccagtgggtacaaggcctcaagaccaagccaagaggacttctctctcattctggagtcagcttctctctctcagacAgctgtgtacttctgtgccagcagtgat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="293"></property>
+  <property name="num_identical"      value="290"></property>
+  <property name="num_similar"        value="290"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286431"></property>
+ <property name="subject_seq_length" value="350"></property>
+ </result_set>
+ <result_set id="S4GBbest:76">
+ <description>&gt;CRA|1000735286432 /altid=gi|207221 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=290 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M58627 /altid=gb_locus|RATTCBXAO /altid=gb_accvers|M58627.1 /protein_id=AAA42220.1 /def=Rat T-cell receptor variable region-beta 8.5 mRNA, 5&apos; end. /div=ROD</description>
+ <result_span id="S4GBbest:77">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>272180</start><end>272470</end></span>
+   <alignment>
+   aacacatggaGgctgcagtcacccaaagcccaagaaacaaggtgacagttacaggaaaaaatgtgacgttcaactgtcaccagactgataaccacaactacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggttctggcagctttgaaaatggagatatccctgaggggtacaaggtctccagaccaaaccaagaaaatttcttcctcacgctggagtcggcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286432" type="sbjct">
+   <span><start>0</start><end>290</end></span>
+   <alignment>
+   aacacatggaAgctgcagtcacccaaagcccaagaaacaaggtgacagttacaggaaaaaatgtgacgttcaactgtcaccagactgataaccacaactacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggttctggcagctttgaaaatggagatatccctgaggggtacaaggtctccagaccaaaccaagaaaatttcttcctcacgctggagtcggcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="290"></property>
+  <property name="num_identical"      value="289"></property>
+  <property name="num_similar"        value="289"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286432"></property>
+ <property name="subject_seq_length" value="290"></property>
+ </result_set>
+ <result_set id="S4GBbest:78">
+ <description>&gt;CRA|1000735286433 /altid=gi|207223 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=290 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M58628 /altid=gb_locus|RATTCBXAP /altid=gb_accvers|M58628.1 /protein_id=AAA42221.1 /def=Rat T-cell receptor variable region-beta 8.6 mRNA, 5&apos; end. /div=ROD</description>
+ <result_span id="S4GBbest:79">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>292210</start><end>292500</end></span>
+   <alignment>
+   aacacatggaGgctgcagtcacccaaagcccaagaaacagggtggcagtaacaggaggagaggtgacattgagctgtcgccagactaataaccaTgactacatgtactggtatcgacagaacatgggggatgaactgaggctgatccattactcatatgatgttaaccgcactgagaaaggagatgtctccagtgggtacaaggcctcaagaccaagccaagaggacttctctctcattctggagtcagcttctctctctcagacGgctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286433" type="sbjct">
+   <span><start>0</start><end>290</end></span>
+   <alignment>
+   aacacatggaAgctgcagtcacccaaagcccaagaaacagggtggcagtaacaggaggagaggtgacattgagctgtcgccagactaataaccaCgactacatgtactggtatcgacagaacatgggggatgaactgaggctgatccattactcatatgatgttaaccgcactgagaaaggagatgtctccagtgggtacaaggcctcaagaccaagccaagaggacttctctctcattctggagtcagcttctctctctcagacAgctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="290"></property>
+  <property name="num_identical"      value="287"></property>
+  <property name="num_similar"        value="287"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286433"></property>
+ <property name="subject_seq_length" value="290"></property>
+ </result_set>
+ <result_set id="S4GBbest:80">
+ <description>&gt;CRA|1000735286434 /altid=gi|207225 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=257 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18840 /altid=gb_locus|RATTCBXB /altid=gb_accvers|M18840.1 /protein_id=AAA42222.1 /def=Rat T-cell receptor active beta-chain V-region (V-beta12-J-beta2.1) mRNA, partial cds, clone TRB85. /div=ROD</description>
+ <result_span id="S4GBbest:81">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>303827</start><end>303625</end></span>
+   <alignment>
+   -t-tcTGTggctaaactgctggcacacagatacacagctgagtcctggggttctgtaggttgaatcttcagcgtggagatggatgaatcttgaatctcagctgtgaatcgatccttgagtgCccctgcatcctccataggagacttgttgAggaagtagctcagcaactctag-cccctttatcttagtctgtctgtaccagaaa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286434" type="sbjct">
+   <span><start>54</start><end>257</end></span>
+   <alignment>
+   CtGtcCC-ggctaaactgctggcacacagatacacagctgagtcctggggttctgtaggttgaatcttcagcgtggagatggatgaatcttgaatctcagctgtgaatcgatccttgagtg-ccctgcatcctccataggagacttgttgCggaagtagctcagcaactctagCcccctttatcttagtctgtctgtaccagaaa
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="205"></property>
+  <property name="num_identical"      value="197"></property>
+  <property name="num_similar"        value="197"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBbest:82">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>710835</start><end>710781</end></span>
+   <alignment>
+   ctaggaccgtgagtcgtgtccctgatccgaagaactgttcagcataggaAcAcA
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286434" type="sbjct">
+   <span><start>0</start><end>54</end></span>
+   <alignment>
+   ctaggaccgtgagtcgtgtccctgatccgaagaactgttcagcataggaTcCcC
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="54"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286434"></property>
+ <property name="subject_seq_length" value="257"></property>
+ </result_set>
+ <result_set id="S4GBbest:83">
+ <description>&gt;CRA|1000735286435 /altid=gi|207227 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=274 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18841 /altid=gb_locus|RATTCBXC /altid=gb_accvers|M18841.1 /protein_id=AAA42223.1 /def=Rat T-cell receptor active beta-chain V-region (V-beta12-J-beta2.5) mRNA, partial cds, clone TRB100. /div=ROD</description>
+ <result_span id="S4GBbest:84">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>303606</start><end>303813</end></span>
+   <alignment>
+   tttca-ggccacaatgatcttttctggtacagacagactaagataaaggggctagagttgctgagctacttccTcaacaagtctcctatggaggatgcaggggcactcaaggatcgattcacagctgagattcaagattcatccatctccacgctgaagattcaacctacagaaccccaggactcagctgtgtatctgtgtgccagca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286435" type="sbjct">
+   <span><start>0</start><end>208</end></span>
+   <alignment>
+   tttcaGggccacaatgatcttttctggtacagacagactaagataaaggggctagagttgctgagctacttccGcaacaagtctcctatggaggatgcaggggcactcaaggatcgattcacagctgagattcaagattcatccatctccacgctgaagattcaacctacagaaccccaggactcagctgtgtatctgtgtgccagca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="208"></property>
+  <property name="num_identical"      value="206"></property>
+  <property name="num_similar"        value="206"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286435"></property>
+ <property name="subject_seq_length" value="274"></property>
+ </result_set>
+ <result_set id="S4GBbest:85">
+ <description>&gt;CRA|1000735286437 /altid=gi|207231 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=316 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18843 /altid=gb_locus|RATTCBXE /altid=gb_accvers|M18843.1 /protein_id= /def=Rat T-cell receptor active beta-chain V-region (V-beta4-J-beta2.2) mRNA, partial cds, clone TRB70. /div=ROD</description>
+ <result_span id="S4GBbest:86">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>167204</start><end>166937</end></span>
+   <alignment>
+   GGctgt-gTCttggctactggcacagaaCtatgtagccacatcttcaggcttcagggctgtgatctgaaggtctaacaatttctctgaattgtgaggttggaagcgacttgggatagtctggttgtccataagtttttgatagctataggaaaacatgagctctagggacttcttagcactttgtctgtaccaatacatagcattgtgtcctagatgctgttcgcatatcaagattctttcactccctgtgactgccaCcagaaattt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286437" type="sbjct">
+   <span><start>52</start><end>316</end></span>
+   <alignment>
+   --ctgtCg--ttggctactggcacagaaGtatgtagccacatcttcaggcttcagggctgtgatctgaaggtctaacaatttctctgaattgtgaggttggaagcgacttgggatagtctggttgtccataagtttttgatagctataggaaaacatgagctctagggacttcttagcactttgtctgtaccaatacatagcattgtgtcctagatgctgttcgcatatcaagattctttcactccctgtgactgccaAcagaaattt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="268"></property>
+  <property name="num_identical"      value="261"></property>
+  <property name="num_similar"        value="261"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBbest:87">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711039</start><end>710984</end></span>
+   <alignment>
+   ccagcactgtcagctttgagccttcaccaaagtatagctgcccggtgtttGcAcA
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286437" type="sbjct">
+   <span><start>0</start><end>52</end></span>
+   <alignment>
+   ccagcactgtcagctttgagccttcaccaaagtatagctgcccggtgttt-c-c-
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="3"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286437"></property>
+ <property name="subject_seq_length" value="316"></property>
+ </result_set>
+ <result_set id="S4GBbest:88">
+ <description>&gt;CRA|1000735286439 /altid=gi|207233 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=214 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18845 /altid=gb_locus|RATTCBXG /altid=gb_accvers|M18845.1 /protein_id=AAA42225.1 /def=Rat T-cell receptor active beta-chain V-region (V-beta6-J-beta2.5) mRNA, partial cds, clone TRB-4. /div=ROD</description>
+ <result_span id="S4GBbest:89">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>337613</start><end>337435</end></span>
+   <alignment>
+   CtGtTc-TccactGtGCtatgctgctggcacagagataaacagccatctgcctcttctgggcagatttcacagtgagagaaaaagatgccttctcctttcgagaggcatcgtagccttcagataggtcgcctttttgaagatcgctttcagttattgagtagtagatcagtctCagtcc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286439" type="sbjct">
+   <span><start>38</start><end>214</end></span>
+   <alignment>
+   GtCtCcACccact-t--tatgctgctggcacagagataaacagccatctgcctcttctgggcagatttcacagtgagagaaaaagatgccttctcctttcgagaggcatcgtagccttcagataggtcgcctttttgaagatcgctttcagttattgagtagtagatcagtctAagtcc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="179"></property>
+  <property name="num_identical"      value="170"></property>
+  <property name="num_similar"        value="170"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <result_span id="S4GBbest:90">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711528</start><end>711490</end></span>
+   <alignment>
+   ctaacacaaggaggcgagtgcctggtccaaagtactgg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286439" type="sbjct">
+   <span><start>0</start><end>38</end></span>
+   <alignment>
+   ctaacacaaggaggcgagtgcctggtccaaagtactgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="38"></property>
+  <property name="num_identical"      value="38"></property>
+  <property name="num_similar"        value="38"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286439"></property>
+ <property name="subject_seq_length" value="214"></property>
+ </result_set>
+ <result_set id="S4GBbest:91">
+ <description>&gt;CRA|1000735286441 /altid=gi|207237 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=280 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18847 /altid=gb_locus|RATTCBXI /altid=gb_accvers|M18847.1 /protein_id=AAA42227.1 /def=Rat T-cell receptor active beta-chain V-region (V-J-beta1.5) mRNA, partial cds, clone TRB77. /div=ROD</description>
+ <result_span id="S4GBbest:92">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>168617</start><end>168399</end></span>
+   <alignment>
+   -------ctgctggcacaaaagtaCacagctgagtcctccaacgttgtgcgttggatcttcagagtgaaataTgaaccgtgttgcctatcaactaaaaactcatccttaaataatttagacttctccccaattttaccatcgaaGaaagaaaccagaaactccatctgctgtcctaagatctgtttataccaatagaaatataggtgattagaaactgggtcaca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286441" type="sbjct">
+   <span><start>55</start><end>280</end></span>
+   <alignment>
+   CCGTAAGctgctggcacaaaagtaGacagctgagtcctccaacgttgtgcgttggatcttcagagtgaaataCgaaccgtgttgcctatcaactaaaaactcatccttaaataatttagacttctccccaattttaccatcgaaTaaagaaaccagaaactccatctgctgtcctaagatctgtttataccaatagaaatataggtgattagaaactgggtcaca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="225"></property>
+  <property name="num_identical"      value="215"></property>
+  <property name="num_similar"        value="215"></property>
+  <property name="num_gaps"           value="7"></property>
+ </result_span>
+ <result_span id="S4GBbest:93">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>703415</start><end>703361</end></span>
+   <alignment>
+   ctagaacagagagccgagtcccttctccaaaatactgggcctggttgtt-AcacA
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286441" type="sbjct">
+   <span><start>0</start><end>55</end></span>
+   <alignment>
+   ctagaacagagagccgagtcccttctccaaaatactgggcctggttgttCCcacC
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="55"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286441"></property>
+ <property name="subject_seq_length" value="280"></property>
+ </result_set>
+ <result_set id="S4GBbest:94">
+ <description>&gt;CRA|1000735286442 /altid=gi|207239 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=169 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18848 /altid=gb_locus|RATTCBXJ /altid=gb_accvers|M18848.1 /protein_id=AAA42228.1 /def=Rat T-cell receptor active beta-chain V-region (V-J-beta1.3) mRNA, partial cds, clone TRB91. /div=ROD</description>
+ <result_span id="S4GBbest:95">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>168507</start><end>168621</end></span>
+   <alignment>
+   aaattatttaaggatgagtttttagttgataggcaacacggttcAtatttcactctgaagatccaacgcacaacgttggaggactcagctgtGtacttttgtgccagcagctta
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286442" type="sbjct">
+   <span><start>0</start><end>114</end></span>
+   <alignment>
+   aaattatttaaggatgagtttttagttgataggcaacacggttcGtatttcactctgaagatccaacgcacaacgttggaggactcagctgtCtacttttgtgccagcagctta
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="114"></property>
+  <property name="num_identical"      value="112"></property>
+  <property name="num_similar"        value="112"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286442"></property>
+ <property name="subject_seq_length" value="169"></property>
+ </result_set>
+ <result_set id="S4GBbest:96">
+ <description>&gt;CRA|1000735286445 /altid=gi|207244 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=110 /mol_type=mRNA /date=04/27/1993 /altid=gb_acc|M18852 /altid=gb_locus|RATTCBXN /altid=gb_accvers|M18852.1 /protein_id= /def=Rat T-cell receptor aberrantly rearranged beta-chain J-segment (J-beta2.7) mRNA, partial cds, clone TRB-3. /div=ROD</description>
+ <result_span id="S4GBbest:97">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>711757</start><end>711867</end></span>
+   <alignment>
+   tccctaaactggggaatacctcgctgagtcccgcgggtttgtgtgtggggtcgcgcctccgtgctcctatgagcagtatttcggtcccggcaccaagctcacggttttag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735286445" type="sbjct">
+   <span><start>0</start><end>110</end></span>
+   <alignment>
+   tccctaaactggggaatacctcgctgagtcccgcgggtttgtgtgtggggtcgcgcctccgtgctcctatgagcagtatttcggtcccggcaccaagctcacggttttag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="110"></property>
+  <property name="num_identical"      value="110"></property>
+  <property name="num_similar"        value="110"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735286445"></property>
+ <property name="subject_seq_length" value="110"></property>
+ </result_set>
+ <result_set id="S4GBbest:98">
+ <description>&gt;CRA|1000735288295 /altid=gi|1001919 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=347 /mol_type=mRNA /date=09/29/1995 /altid=gb_acc|X80522 /altid=gb_locus|RNMBP13 /altid=gb_accvers|X80522.1 /protein_id= /def=R.norvegicus MBP13 Vbeta12 gene. /div=ROD</description>
+ <result_span id="S4GBbest:99">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>303539</start><end>303813</end></span>
+   <alignment>
+   gtcacccagacacccagacatgaggtagcagagaaaggacaaacaataattctcacgtgtgagccagtttcaggccacaatgatcttttctggtacagacagactaagataaaggggctagagttgctgagctacttccTcaacaagtctcctatggaggatgcaggggcactcaaggatcgattcacagctgagattcaagattcatccatctccacgctgaagattcaacctacagaaccccaggactcagctgtgtatctgtgtgccagca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288295" type="sbjct">
+   <span><start>0</start><end>274</end></span>
+   <alignment>
+   gtcacccagacacccagacatgaggtagcagagaaaggacaaacaataattctcacgtgtgagccagtttcaggccacaatgatcttttctggtacagacagactaagataaaggggctagagttgctgagctacttccGcaacaagtctcctatggaggatgcaggggcactcaaggatcgattcacagctgagattcaagattcatccatctccacgctgaagattcaacctacagaaccccaggactcagctgtgtatctgtgtgccagca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="274"></property>
+  <property name="num_identical"      value="273"></property>
+  <property name="num_similar"        value="273"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288295"></property>
+ <property name="subject_seq_length" value="347"></property>
+ </result_set>
+ <result_set id="S4GBbest:100">
+ <description>&gt;CRA|1000735288296 /altid=gi|1001920 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=342 /mol_type=mRNA /date=09/29/1995 /altid=gb_acc|X80515 /altid=gb_locus|RNMBP1310 /altid=gb_accvers|X80515.1 /protein_id= /def=R.norvegicus MBP13 Vbeta10 gene. /div=ROD</description>
+ <result_span id="S4GBbest:101">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>176952</start><end>177246</end></span>
+   <alignment>
+   gagacggctgttttccagactccaaagCatcgtgtcGcacaggtgggaaGtgaagtgttcttcaagtgtgatcagactctgggccacGatactatgtactggtacaagcaagactctaagcaattgctgaaggttatgtttagctacaacaataagcaacgcattttaaatgaaacggcttcaagtcgcttcttgcctcagtcttcagataaagctcatttgaatcttcgtatcaagtctgtagagccgggtgactctgctgtgtatctctgtgccagcagctAAGAcAcagTT
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288296" type="sbjct">
+   <span><start>0</start><end>292</end></span>
+   <alignment>
+   gagacggctgttttccagactccaaagTatcgtgtcAcacaggtgggaaAtgaagtgttcttcaagtgtgatcagactctgggccacAatactatgtactggtacaagcaagactctaagcaattgctgaaggttatgtttagctacaacaataagcaacgcattttaaatgaaacggcttcaagtcgcttcttgcctcagtcttcagataaagctcatttgaatcttcgtatcaagtctgtagagccgggtgactctgctgtgtatctctgtgccagcagct--CTcTcagGG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="294"></property>
+  <property name="num_identical"      value="283"></property>
+  <property name="num_similar"        value="283"></property>
+  <property name="num_gaps"           value="2"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288296"></property>
+ <property name="subject_seq_length" value="342"></property>
+ </result_set>
+ <result_set id="S4GBbest:102">
+ <description>&gt;CRA|1000735288297 /altid=gi|1001921 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=356 /mol_type=mRNA /date=09/29/1995 /altid=gb_acc|X80524 /altid=gb_locus|RNMBP13V3 /altid=gb_accvers|X80524.1 /protein_id= /def=R.norvegicus MBP13 Vbeta3.3 gene. /div=ROD</description>
+ <result_span id="S4GBbest:103">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>373573</start><end>373276</end></span>
+   <alignment>
+   ----TGctgTggacagactgctggcacagaggtataatgctgagtctcctgcctcagaggactgtatttccaggctgcagggagagtttaagggacactcagctaagaatcgctccttgaccaagtctatactgtcacgaggttcttgacgttgaaaataaatcaaaaattttaactctttgttctgcttctgttggtaccaataaacaaaagtatgtcccttttcagcaatacaggtcatttttgctttctgtccttttcctctgagcagatgctgtggagtttggataacttggcaatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288297" type="sbjct">
+   <span><start>56</start><end>356</end></span>
+   <alignment>
+   GCCACCctg-ggacagactgctggcacagaggtataatgctgagtctcctgcctcagaggactgtatttccaggctgcagggagagtttaagggacactcagctaagaatcgctccttgaccaagtctatactgtcacgaggttcttgacgttgaaaataaatcaaaaattttaactctttgttctgcttctgttggtaccaataaacaaaagtatgtcccttttcagcaatacaggtcatttttgctttctgtccttttcctctgagcagatgctgtggagtttggataacttggcaatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="301"></property>
+  <property name="num_identical"      value="294"></property>
+  <property name="num_similar"        value="294"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBbest:104">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>702197</start><end>702154</end></span>
+   <alignment>
+   ctacaactgtcagtctcgttcctttaccaaagaaaacttctgt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288297" type="sbjct">
+   <span><start>13</start><end>56</end></span>
+   <alignment>
+   ctacaactgtcagtctcgttcctttaccaaagaaaacttctgt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="43"></property>
+  <property name="num_identical"      value="43"></property>
+  <property name="num_similar"        value="43"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288297"></property>
+ <property name="subject_seq_length" value="356"></property>
+ </result_set>
+ <result_set id="S4GBbest:105">
+ <description>&gt;CRA|1000735288298 /altid=gi|1001922 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=356 /mol_type=mRNA /date=09/29/1995 /altid=gb_acc|X80525 /altid=gb_locus|RNMBP13V6 /altid=gb_accvers|X80525.1 /protein_id= /def=R.norvegicus MBP13 Vbeta6 gene. /div=ROD</description>
+ <result_span id="S4GBbest:106">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>337312</start><end>337612</end></span>
+   <alignment>
+   ggtggtgccattactcagacacccaaattcctgattggtcatgaagggcaagagctgaccttgaaatgtaaacagaatttcaatcatgattcaatgttctggtaccgacaagatccagggaaaggactgagactgatctactactcaataactgaaagcgatcttcaaaaaggcgacctatctgaaggctacgatgcctctcgaaaggagaaggcatctttttctctcactgtgaaatctgcccagaagaggcagatggctgtttatctctgtgccagcagcataGcaCagT---ggAgAAca-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288298" type="sbjct">
+   <span><start>0</start><end>303</end></span>
+   <alignment>
+   ggtggtgccattactcagacacccaaattcctgattggtcatgaagggcaagagctgaccttgaaatgtaaacagaatttcaatcatgattcaatgttctggtaccgacaagatccagggaaaggactgagactgatctactactcaataactgaaagcgatcttcaaaaaggcgacctatctgaaggctacgatgcctctcgaaaggagaaggcatctttttctctcactgtgaaatctgcccagaagaggcagatggctgtttatctctgtgccagcagcata-caGagGACAggGgCCcaG
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="304"></property>
+  <property name="num_identical"      value="294"></property>
+  <property name="num_similar"        value="294"></property>
+  <property name="num_gaps"           value="5"></property>
+ </result_span>
+ <result_span id="S4GBbest:107">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>703375</start><end>703415</end></span>
+   <alignment>
+   gcccagtattttggagaagggactcggctctctgttctag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288298" type="sbjct">
+   <span><start>303</start><end>343</end></span>
+   <alignment>
+   gcccagtattttggagaagggactcggctctctgttctag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="40"></property>
+  <property name="num_identical"      value="40"></property>
+  <property name="num_similar"        value="40"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288298"></property>
+ <property name="subject_seq_length" value="356"></property>
+ </result_set>
+ <result_set id="S4GBbest:108">
+ <description>&gt;CRA|1000735288302 /altid=gi|1001924 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=377 /mol_type=mRNA /date=09/29/1995 /altid=gb_acc|X80528 /altid=gb_locus|RNMBPV82 /altid=gb_accvers|X80528.1 /protein_id= /def=R.norvegicus MBP13 Vbeta8.2 gene. /div=ROD</description>
+ <result_span id="S4GBbest:109">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>278557</start><end>278847</end></span>
+   <alignment>
+   atggaAgctgcagtcaCACaaagcccaagaaacaaggtgacaCtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtTctggtatcggcaggacatggggcatggtctgaggctGatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaAagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagtgaG-gc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288302" type="sbjct">
+   <span><start>0</start><end>291</end></span>
+   <alignment>
+   atggaGgctgcagtcaGGGaaagcccaagaaacaaggtgacaTtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtActggtatcggcaggacatggggcatggtctgaggctAatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaGagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagtgaCAgc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="291"></property>
+  <property name="num_identical"      value="281"></property>
+  <property name="num_similar"        value="281"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288302"></property>
+ <property name="subject_seq_length" value="377"></property>
+ </result_set>
+ <result_set id="S4GBbest:110">
+ <description>&gt;CRA|1000735288883 /altid=gi|56813 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=862 /mol_type=mRNA /date=03/31/1995 /altid=gb_acc|X15679 /altid=gb_locus|RNP23 /altid=gb_accvers|X15679.1 /protein_id=CAA33718.1 /def=Rat mRNA for preprotrypsinogen IV (EC 3.4.21.4). /div=ROD</description>
+ <result_span id="S4GBbest:111">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>70041</start><end>69795</end></span>
+   <alignment>
+   ggtgactctggtggccctgttgtctgcaatggagagatccagggcattgtctcctggggttcagtctgtgcaatgagagggaagcctggtgtttacaccaaagtctgcaactacctgagctggattcaggagacCatggcgaacaactgagttctcttacctttcgtaaatcaccggttcactatccatttccctttcttcctatacctgaaatgaggttaaaataaataattttctcctgctcta
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288883" type="sbjct">
+   <span><start>608</start><end>854</end></span>
+   <alignment>
+   ggtgactctggtggccctgttgtctgcaatggagagatccagggcattgtctcctggggttcagtctgtgcaatgagagggaagcctggtgtttacaccaaagtctgcaactacctgagctggattcaggagacTatggcgaacaactgagttctcttacctttcgtaaatcaccggttcactatccatttccctttcttcctatacctgaaatgaggttaaaataaataattttctcctgctcta
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="246"></property>
+  <property name="num_identical"      value="245"></property>
+  <property name="num_similar"        value="245"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:112">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>71027</start><end>70890</end></span>
+   <alignment>
+   gtaaatacccagcactccttcaatgcctggaagcccctgtcctctctgctagttcttgcaaaaaatcctacccaggccagatcaccagcaatatgttctgcctgggcttcctggagggtggaaaggactcctgtgat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288883" type="sbjct">
+   <span><start>471</start><end>608</end></span>
+   <alignment>
+   gtaaatacccagcactccttcaatgcctggaagcccctgtcctctctgctagttcttgcaaaaaatcctacccaggccagatcaccagcaatatgttctgcctgggcttcctggagggtggaaaggactcctgtgat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:113">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>71790</start><end>71536</end></span>
+   <alignment>
+   gaaactccaggttcgccttggtgaacacaatattcatgttcttgagggtggagagcaattcattgatgcagaaaagatcattcgacaccctgagtataacaaggacactctggacaatgacatcatgctgattaaattgaagtcacctgccgtccttaactcccaagtatctacggtctctctgcccagatcctgtgcatctacagatgctcagtgccttgtgtctggctggggaaacactgtgagcattggtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288883" type="sbjct">
+   <span><start>217</start><end>471</end></span>
+   <alignment>
+   gaaactccaggttcgccttggtgaacacaatattcatgttcttgagggtggagagcaattcattgatgcagaaaagatcattcgacaccctgagtataacaaggacactctggacaatgacatcatgctgattaaattgaagtcacctgccgtccttaactcccaagtatctacggtctctctgcccagatcctgtgcatctacagatgctcagtgccttgtgtctggctggggaaacactgtgagcattggtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:114">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>72233</start><end>72070</end></span>
+   <alignment>
+   ttgctctccctgttaatgatgatgacaagattgttggaggctacacatgtccgaagcatttggttccttaccaggtgtctttgcatgatggcattagccaccagtgtggtggctcccttatcagtgatcagtgggtactgtctgctgctcattgctaCaaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288883" type="sbjct">
+   <span><start>54</start><end>217</end></span>
+   <alignment>
+   ttgctctccctgttaatgatgatgacaagattgttggaggctacacatgtccgaagcatttggttccttaccaggtgtctttgcatgatggcattagccaccagtgtggtggctcccttatcagtgatcagtgggtactgtctgctgctcattgctaTaaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="163"></property>
+  <property name="num_identical"      value="162"></property>
+  <property name="num_similar"        value="162"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:115">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>73541</start><end>73488</end></span>
+   <alignment>
+   Acact-gAaacaccatgaagatcagcatcttctttgcttttctcggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735288883" type="sbjct">
+   <span><start>0</start><end>54</end></span>
+   <alignment>
+   GcactAgGaacaccatgaagatcagcatcttctttgcttttctcggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="54"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735288883"></property>
+ <property name="subject_seq_length" value="862"></property>
+ </result_set>
+ <result_set id="S4GBbest:116">
+ <description>&gt;CRA|1000735289522 /altid=gi|517367 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=408 /mol_type=mRNA /date=07/29/1994 /altid=gb_acc|X74917 /altid=gb_locus|RNTCRBC /altid=gb_accvers|X74917.1 /protein_id= /def=R.norvegicus mRNA for T-cell receptor beta chain. /div=ROD</description>
+ <result_span id="S4GBbest:117">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>448354</start><end>448628</end></span>
+   <alignment>
+   ccaaaaGCcAaacagggacatctgtcaaagtggaacttcactgaaaatccagtgtgttgttgatagtcaagttgctttgatgttctggtaccaacagttccagggacaaaacttgatgctcatggcaactgcaaatgaaggctctgaagccacatacgagagtggattctccagggaaaagtttccaatcagccgcccaaacctaacattctccacactgacagtgaacaacgcaagacctgaagacagcagtgtctatttctgtagttctgga
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289522" type="sbjct">
+   <span><start>12</start><end>286</end></span>
+   <alignment>
+   ccaaaaTNcRaacagggacatctgtcaaagtggaacttcactgaaaatccagtgtgttgttgatagtcaagttgctttgatgttctggtaccaacagttccagggacaaaacttgatgctcatggcaactgcaaatgaaggctctgaagccacatacgagagtggattctccagggaaaagtttccaatcagccgcccaaacctaacattctccacactgacagtgaacaacgcaagacctgaagacagcagtgtctatttctgtagttctgga
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="274"></property>
+  <property name="num_identical"      value="271"></property>
+  <property name="num_similar"        value="271"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289522"></property>
+ <property name="subject_seq_length" value="408"></property>
+ </result_set>
+ <result_set id="S4GBbest:118">
+ <description>&gt;CRA|1000735289523 /altid=gi|1419196 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=318 /mol_type=mRNA /date=01/06/1998 /altid=gb_acc|X97672 /altid=gb_locus|RNTCRBCV /altid=gb_accvers|X97672.1 /protein_id=CAA66261.1 /def=R.norvegicus mRNA for T-cell receptor beta chain, variable region. /div=ROD</description>
+ <result_span id="S4GBbest:119">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>284834</start><end>285093</end></span>
+   <alignment>
+   gtgacaGtaaaaggaggaaaggtgacactgagttgtaagcagaataataatcacaacaacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggtgctaacagtactgagaaaggagatgtccccaatgggtacaaggtctccagaccaaacaaagaaaatttcttcctcacgctggagtcTgcttccccctctcagacat-tgtgtacttctgTgccagcagtgatgc-acaGTa
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289523" type="sbjct">
+   <span><start>0</start><end>259</end></span>
+   <alignment>
+   gtgacaTtaaaaggaggaaaggtgacactgagttgtaagcagaataataatcacaacaacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggtgctaacagtactgagaaaggagatgtccccaatgggtacaaggtctccagaccaaacaaagaaaatttcttcctcacgctggagtcGgcttccccctctcagacatCtgtgtacttctg-gccagcagtgatgcGaca-Ca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="261"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <result_span id="S4GBbest:120">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>710988</start><end>711039</end></span>
+   <alignment>
+   caaacaccgggcagctatactttggtgaaggctcaaagctgacagtgctgg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289523" type="sbjct">
+   <span><start>259</start><end>310</end></span>
+   <alignment>
+   caaacaccgggcagctatactttggtgaaggctcaaagctgacagtgctgg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="51"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289523"></property>
+ <property name="subject_seq_length" value="318"></property>
+ </result_set>
+ <result_set id="S4GBbest:121">
+ <description>&gt;CRA|1000735289524 /altid=gi|517183 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=282 /mol_type=mRNA /date=05/03/1996 /altid=gb_acc|X77995 /altid=gb_locus|RNTCRBV /altid=gb_accvers|X77995.1 /protein_id=CAA54957.1 /def=R.norvegicus T-cell receptor beta chain variable element mRNA. /div=ROD</description>
+ <result_span id="S4GBbest:122">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>284801</start><end>285082</end></span>
+   <alignment>
+   gaagctgcagtcacacaaagcccaagaaacaaggtgacagtaaaaggaggaaaggtgacactgagttgtaagcagaataataatcacaacaacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggtgctaacagtactgagaaaggagatgtccccaatgggtacaaggtctccagaccaaacaaagaaaatttcttcctcacgctggagtcTgcttccccctctcagacat-tgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289524" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaagctgcagtcacacaaagcccaagaaacaaggtgacagtaaaaggaggaaaggtgacactgagttgtaagcagaataataatcacaacaacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggtgctaacagtactgagaaaggagatgtccccaatgggtacaaggtctccagaccaaacaaagaaaatttcttcctcacgctggagtcGgcttccccctctcagacatCtgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="280"></property>
+  <property name="num_similar"        value="280"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289524"></property>
+ <property name="subject_seq_length" value="282"></property>
+ </result_set>
+ <result_set id="S4GBbest:123">
+ <description>&gt;CRA|1000735289525 /altid=gi|1707671 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=249 /mol_type=mRNA /date=01/06/1998 /altid=gb_acc|X98251 /altid=gb_locus|RNTCRBV82 /altid=gb_accvers|X98251.1 /protein_id=CAA66905.1 /def=R.norvegicus mRNA for T cell receptor beta chain variable region. /div=ROD</description>
+ <result_span id="S4GBbest:124">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>278593</start><end>278842</end></span>
+   <alignment>
+   gtgacaCtaaaaggaggaaaggtgacaTtgagttgtaagcagaataataatcacaacaacatgtTctggtatcggcaggacatggggcatggtctgaggctgatccattactcatatgatgttaacagtactgaaaaaggagatgtccccAatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctAgagtcGgcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289525" type="sbjct">
+   <span><start>0</start><end>249</end></span>
+   <alignment>
+   gtgacaGtaaaaggaggaaaggtgacaCtgagttgtaagcagaataataatcacaacaacatgtActggtatcggcaggacatggggcatggtctgaggctgatccattactcatatgatgttaacagtactgaaaaaggagatgtccccGatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctGgagtcAgcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="249"></property>
+  <property name="num_identical"      value="243"></property>
+  <property name="num_similar"        value="243"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289525"></property>
+ <property name="subject_seq_length" value="249"></property>
+ </result_set>
+ <result_set id="S4GBbest:125">
+ <description>&gt;CRA|1000735289639 /altid=gi|57407 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=804 /mol_type=mRNA /date=03/30/1995 /altid=gb_acc|V01273 /altid=gb_locus|RNTRY1 /altid=gb_accvers|V01273.1 /protein_id=CAA24580.1 /def=Rat mRNA encoding pancreatic trypsinogen I. /div=ROD</description>
+ <result_span id="S4GBbest:126">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>658821</start><end>658873</end></span>
+   <alignment>
+   ccttctgccaccatgagtgcacttctgatcctagcccttgtgggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289639" type="sbjct">
+   <span><start>0</start><end>52</end></span>
+   <alignment>
+   ccttctgccaccatgagtgcacttctgatcctagcccttgtgggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="52"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:127">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>659764</start><end>659924</end></span>
+   <alignment>
+   ttgctttccctttggaagatgatgacaagatcgttggaggatacacctgcccggaacattctgtcccctaccaggtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289639" type="sbjct">
+   <span><start>52</start><end>212</end></span>
+   <alignment>
+   ttgctttccctttggaagatgatgacaagatcgttggaggatacacctgcccggaacattctgtcccctaccaggtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="160"></property>
+  <property name="num_identical"      value="160"></property>
+  <property name="num_similar"        value="160"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:128">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>660764</start><end>661018</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcgatgagcaatttatcaatgctgccaagatcatcaagcaccccaactatagttcgtggaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgcccgagtggcccctgtagctctgcccagcgcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacaccctcagcaatggtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289639" type="sbjct">
+   <span><start>212</start><end>466</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcgatgagcaatttatcaatgctgccaagatcatcaagcaccccaactatagttcgtggaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgcccgagtggcccctgtagctctgcccagcgcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacaccctcagcaatggtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:129">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>661410</start><end>661547</end></span>
+   <alignment>
+   tgaacaacccagacctgctccaatgcgtggatgccccagtgctgtctcaggctgactgtgaagccgcctaccctggggaaatcaccagcagcatgatttgtgttggcttcctggagggaggcaaagattcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289639" type="sbjct">
+   <span><start>466</start><end>603</end></span>
+   <alignment>
+   tgaacaacccagacctgctccaatgcgtggatgccccagtgctgtctcaggctgactgtgaagccgcctaccctggggaaatcaccagcagcatgatttgtgttggcttcctggagggaggcaaagattcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:130">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>661824</start><end>662025</end></span>
+   <alignment>
+   ggtgactctggtggcccggtggtctgcaatggacagctccagggtattgtctcctggggctatggttgtgccctgccagacaaccctggtgtgtacaccaaggtctgcaactttgtgggctggattcaggacaccattgctgcaaactaaatatcttcagtctctcttcaatcagtgtgtcaataaagttcatttgccctc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289639" type="sbjct">
+   <span><start>603</start><end>804</end></span>
+   <alignment>
+   ggtgactctggtggcccggtggtctgcaatggacagctccagggtattgtctcctggggctatggttgtgccctgccagacaaccctggtgtgtacaccaaggtctgcaactttgtgggctggattcaggacaccattgctgcaaactaaatatcttcagtctctcttcaatcagtgtgtcaataaagttcatttgccctc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="201"></property>
+  <property name="num_identical"      value="201"></property>
+  <property name="num_similar"        value="201"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289639"></property>
+ <property name="subject_seq_length" value="804"></property>
+ </result_set>
+ <result_set id="S4GBbest:131">
+ <description>&gt;CRA|1000735289640 /altid=gi|57410 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=773 /mol_type=mRNA /date=03/30/1995 /altid=gb_acc|V01274 /altid=gb_locus|RNTRY2 /altid=gb_accvers|V01274.1 /protein_id=CAA24581.1 /def=Rat mRNA encoding pancreatic trypsinogen II. /div=ROD</description>
+ <result_span id="S4GBbest:132">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>563687</start><end>563848</end></span>
+   <alignment>
+   gttgcttttcccgtggatgatgatgacaagatcgttggaggatacacctgccaagagaattctgttccctaccaagtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctataagtc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289640" type="sbjct">
+   <span><start>16</start><end>177</end></span>
+   <alignment>
+   gttgcttttcccgtggatgatgatgacaagatcgttggaggatacacctgccaagagaattctgttccctaccaagtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctataagtc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="161"></property>
+  <property name="num_identical"      value="161"></property>
+  <property name="num_similar"        value="161"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:133">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>565058</start><end>565312</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcaatgagcagtttgtcaatgctgccaagatcatcaagcatcccaacttcgataggaagaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgctcgagtggccactgtggctcttcccagctcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacacgctcagcagtggcg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289640" type="sbjct">
+   <span><start>177</start><end>431</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcaatgagcagtttgtcaatgctgccaagatcatcaagcatcccaacttcgataggaagaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgctcgagtggccactgtggctcttcccagctcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacacgctcagcagtggcg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:134">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>565716</start><end>565853</end></span>
+   <alignment>
+   tcaatgaaccagacctgctccagtgcctggatgccccactgctgccccaagctgactgtgaagcctcctaccctggaaagatcactgacaacatggtctgtgttggcttcctagagggaggcaaggattcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289640" type="sbjct">
+   <span><start>431</start><end>568</end></span>
+   <alignment>
+   tcaatgaaccagacctgctccagtgcctggatgccccactgctgccccaagctgactgtgaagcctcctaccctggaaagatcactgacaacatggtctgtgttggcttcctagagggaggcaaggattcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:135">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>566107</start><end>566312</end></span>
+   <alignment>
+   ggtgactctggtggccctgtggtctgtaatggagagctgcagggcattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattcaggacacaattgctgccaactagagctctccaatccctctacagtcattatgtcaataaagtgaaatattctttactg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289640" type="sbjct">
+   <span><start>568</start><end>773</end></span>
+   <alignment>
+   ggtgactctggtggccctgtggtctgtaatggagagctgcagggcattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattcaggacacaattgctgccaactagagctctccaatccctctacagtcattatgtcaataaagtgaaatattctttactg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="205"></property>
+  <property name="num_identical"      value="205"></property>
+  <property name="num_similar"        value="205"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289640"></property>
+ <property name="subject_seq_length" value="773"></property>
+ </result_set>
+ <result_set id="S4GBbest:136">
+ <description>&gt;CRA|1000735289767 /altid=gi|509826 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=282 /mol_type=mRNA /date=11/16/1994 /altid=gb_acc|U06100 /altid=gb_locus|RNU06100 /altid=gb_accvers|U06100.1 /protein_id=AAA53178.1 /def=Rattus norvegicus clone Vb8A T-cell receptor beta-chain V region mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:137">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>278560</start><end>278842</end></span>
+   <alignment>
+   gaagctgcagtcacacaaagcccaagaaacaaggtgacaCtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtTctggtatcggcaggacatggggcatggtctgaggctGatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289767" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaagctgcagtcacacaaagcccaagaaacaaggtgacaTtaaaaggaggaaaggtgacattgagttgtaagcagaataataatcacaacaacatgtActggtatcggcaggacatggggcatggtctgaggctAatccattactcatatgatgttaacagtactgaaaaaggagatgtccccaatgggtacaaagtctccagaccaagccaaggggatttcttcctcacgctagagtcggcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="279"></property>
+  <property name="num_similar"        value="279"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289767"></property>
+ <property name="subject_seq_length" value="282"></property>
+ </result_set>
+ <result_set id="S4GBbest:138">
+ <description>&gt;CRA|1000735289768 /altid=gi|509828 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=282 /mol_type=mRNA /date=11/16/1994 /altid=gb_acc|U06101 /altid=gb_locus|RNU06101 /altid=gb_accvers|U06101.1 /protein_id=AAA53179.1 /def=Rattus norvegicus clone Vb8B T-cell receptor beta-chain V region mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:139">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>292218</start><end>292500</end></span>
+   <alignment>
+   gaGgctgcagtcacCcaaagcccaagaaacagggtggcagtaacaggaggagaggtgacattgagctgtcgccagactaataaccaTgactacatgtactggtatcgacagaacatgggggatgaactgaggctgatccattactcatatgatgttaaccgcactgagaaaggagatgtctccagtgggtacaaggcctcaagaccaagccaagaggacttctctctcattctggagtcagcttctctctctcagacGgctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289768" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaAgctgcagtcacAcaaagcccaagaaacagggtggcagtaacaggaggagaggtgacattgagctgtcgccagactaataaccaCgactacatgtactggtatcgacagaacatgggggatgaactgaggctgatccattactcatatgatgttaaccgcactgagaaaggagatgtctccagtgggtacaaggcctcaagaccaagccaagaggacttctctctcattctggagtcagcttctctctctcagacAgctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="278"></property>
+  <property name="num_similar"        value="278"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289768"></property>
+ <property name="subject_seq_length" value="282"></property>
+ </result_set>
+ <result_set id="S4GBbest:140">
+ <description>&gt;CRA|1000735289770 /altid=gi|509832 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=282 /mol_type=mRNA /date=11/16/1994 /altid=gb_acc|U06103 /altid=gb_locus|RNU06103 /altid=gb_accvers|U06103.1 /protein_id=AAA53181.1 /def=Rattus norvegicus clone Vb8D T-cell receptor beta-chain V region mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:141">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>272188</start><end>272470</end></span>
+   <alignment>
+   gaGgctgcagtcacCcaaagcccaagaaacaaggtgacagttacaggaaaaaatgtgacgttcaactgtcaccagactgataaccacaactacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggttctggcagctttgaaaatggagatatccctgaggggtacaaggtctccagaccaaaccaagaaaatttcttcctcacgctggagtcggcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289770" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaAgctgcagtcacAcaaagcccaagaaacaaggtgacagttacaggaaaaaatgtgacgttcaactgtcaccagactgataaccacaactacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggttctggcagctttgaaaatggagatatccctgaggggtacaaggtctccagaccaaaccaagaaaatttcttcctcacgctggagtcggcttccccctctcagacatctgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="280"></property>
+  <property name="num_similar"        value="280"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289770"></property>
+ <property name="subject_seq_length" value="282"></property>
+ </result_set>
+ <result_set id="S4GBbest:142">
+ <description>&gt;CRA|1000735289771 /altid=gi|509834 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=282 /mol_type=mRNA /date=11/16/1994 /altid=gb_acc|U06104 /altid=gb_locus|RNU06104 /altid=gb_accvers|U06104.1 /protein_id=AAA53182.1 /def=Rattus norvegicus clone Vb8E T-cell receptor beta-chain V region mRNA, partial cds. /div=ROD</description>
+ <result_span id="S4GBbest:143">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>284801</start><end>285082</end></span>
+   <alignment>
+   gaagctgcagtcacacaaagcccaagaaacaaggtgacagtaaaaggaggaaaggtgacaCtgagttgtaagcagaataataatcacaacaacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggtgctaacagtactgagaaaggagatgtccccaatgggtacaaggtctccagaccaaacaaagaaaatttcttcctcaCgctggagtcTgcttccccctctcagacat-tgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:1000735289771" type="sbjct">
+   <span><start>0</start><end>282</end></span>
+   <alignment>
+   gaagctgcagtcacacaaagcccaagaaacaaggtgacagtaaaaggaggaaaggtgacaTtgagttgtaagcagaataataatcacaacaacatgtactggtatcggcaggacatggggcatggtctgaggctgatccattactcatatggtgctaacagtactgagaaaggagatgtccccaatgggtacaaggtctccagaccaaacaaagaaaatttcttcctcaTgctggagtcGgcttccccctctcagacatCtgtgtacttctgtgccagcagt
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="282"></property>
+  <property name="num_identical"      value="278"></property>
+  <property name="num_similar"        value="278"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:1000735289771"></property>
+ <property name="subject_seq_length" value="282"></property>
+ </result_set>
+ <result_set id="S4GBbest:144">
+ <description>&gt;CRA|222000060686286 /altid=gi|32395722 /dataset=genbank /taxon=10116 /org=Rattus norvegicus /length=912 /mol_type=mRNA /date=07/01/2003 /altid=gb_acc|AY228549 /altid=gb_locus|AY228549 /altid=gb_accvers|AY228549.1 /protein_id=AAP37958.1 /def=Rattus norvegicus T-cell receptor beta chain mRNA, complete cds. /div=ROD</description>
+ <result_span id="S4GBbest:145">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>443120</start><end>443145</end></span>
+   <alignment>
+   caCacatctgtgtacttctgtgcca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000060686286" type="sbjct">
+   <span><start>306</start><end>331</end></span>
+   <alignment>
+   caGacatctgtgtacttctgtgcca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="25"></property>
+  <property name="num_identical"      value="24"></property>
+  <property name="num_similar"        value="24"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:146">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>702581</start><end>702637</end></span>
+   <alignment>
+   gcTgtg-ttctggaaatgtgctctattttggtgaaggaagccggcttcttgtcgtag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000060686286" type="sbjct">
+   <span><start>331</start><end>388</end></span>
+   <alignment>
+   gcAgtgAttctggaaatgtgctctattttggtgaaggaagccggcttcttgtcgtag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="57"></property>
+  <property name="num_identical"      value="55"></property>
+  <property name="num_similar"        value="55"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4GBbest:147">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>706291</start><end>706669</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagcagagatcgcagacaaacaaaaggctaccctcgtgtgcttggccaggggcttcttccctgaccatgtggagctgagctggtgggtgaatgggaaggagatccgcaatggggtcagcacagaccctcaggcctacaaggaaagcaacaatatcacctactgcctgagCagccgcctgagggtttctgctCccttctggcacaatcctcgcaaccacttccgctgccaagtgcagttctatgggcttacagaggaagacaactggtcagaggactcacccaaacctgtcacacagaacatcagtgcggaggcctggggccgagcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000060686286" type="sbjct">
+   <span><start>388</start><end>766</end></span>
+   <alignment>
+   aggatctgaaaacggtgactccacccaaggtctccttgtttgagccatcagaagcagagatcgcagacaaacaaaaggctaccctcgtgtgcttggccaggggcttcttccctgaccatgtggagctgagctggtgggtgaatgggaaggagatccgcaatggggtcagcacagaccctcaggcctacaaggaaagcaacaatatcacctactgcctgagTagccgcctgagggtttctgctAccttctggcacaatcctcgcaaccacttccgctgccaagtgcagttctatgggcttacagaggaagacaactggtcagaggactcacccaaacctgtcacacagaacatcagtgcggaggcctggggccgagcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="378"></property>
+  <property name="num_identical"      value="376"></property>
+  <property name="num_similar"        value="376"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:148">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>707104</start><end>707122</end></span>
+   <alignment>
+   attgtgggattacctcag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000060686286" type="sbjct">
+   <span><start>766</start><end>784</end></span>
+   <alignment>
+   attgtgggattacctcag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="18"></property>
+  <property name="num_identical"      value="18"></property>
+  <property name="num_similar"        value="18"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:149">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>707217</start><end>707324</end></span>
+   <alignment>
+   catcctatcaacaaggggtcttgtctgccaccatcctttatgagatcctgataggaaaagccaccctgtatgctgtgcttgtcagtacgctggtagtgatggctatg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000060686286" type="sbjct">
+   <span><start>784</start><end>891</end></span>
+   <alignment>
+   catcctatcaacaaggggtcttgtctgccaccatcctttatgagatcctgataggaaaagccaccctgtatgctgtgcttgtcagtacgctggtagtgatggctatg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="107"></property>
+  <property name="num_identical"      value="107"></property>
+  <property name="num_similar"        value="107"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4GBbest:150">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>707640</start><end>707661</end></span>
+   <alignment>
+   gtcaaaagaaagagttcctga
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000060686286" type="sbjct">
+   <span><start>891</start><end>912</end></span>
+   <alignment>
+   gtcaaaagaaagagttcctga
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="21"></property>
+  <property name="num_identical"      value="21"></property>
+  <property name="num_similar"        value="21"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000060686286"></property>
+ <property name="subject_seq_length" value="912"></property>
+ </result_set>
+</computational_analysis>
+</game>

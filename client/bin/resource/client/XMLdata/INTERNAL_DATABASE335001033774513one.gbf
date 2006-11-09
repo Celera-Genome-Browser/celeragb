@@ -1,0 +1,204 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="1.001" assembly_version="950656828" taxon="Homo Sapiens">
+	<!-- Hi Guys -->
+	<!-- THIS IS  INTERNAL TRANSPORT XML
+		 GENERATED ON  5 28 100
+		 Questions? Comments?
+		 Contact: Mark Yandell email: yandelmd@INTERNAL.com
+		                       phone: 240-453-3071
+		 -->
+	<seq id="INTERNAL_DATABASE:335001033774513" type="DNA" >
+		<dbxref>
+			<xref_db>
+				nt
+			</xref_db>
+			<db_xref_id>
+				NO_GI
+			</db_xref_id>
+		</dbxref>
+		<description>INTERNAL_DATABASE:335001033774513
+				</description>
+	
+		</seq>
+	<seq type="AA" id="1000682353305">
+		<dbxref>
+			<xref_db>
+				nr.aa
+			</xref_db>
+			<db_xref_id>
+				6572250
+			</db_xref_id>
+		</dbxref>
+		<description>
+			(AL008635) dJ510H16.2 (high-mobility group protein 2-like 1) [Homo sapiens]
+		</description>
+	</seq>
+	<seq type="AA" id="18000004928979">
+		<dbxref>
+			<xref_db>
+				nr.aa
+			</xref_db>
+			<db_xref_id>
+				4502991
+			</db_xref_id>
+		</dbxref>
+		<description>
+			cytochrome c oxidase subunit VIIb
+		</description>
+	</seq>
+	<seq type="AA" id="18000004883125">
+		<dbxref>
+			<xref_db>
+				nr.aa
+			</xref_db>
+			<db_xref_id>
+				117124
+			</db_xref_id>
+		</dbxref>
+		<description>
+			CYTOCHROME C OXIDASE POLYPEPTIDE VIIB PRECURSOR (IHQ)
+		</description>
+	</seq>
+	<computational_analysis>
+		<date year="100" day="28" month="5"></date>
+		<program>
+			clustered BlastX nr.aa precomputes
+		</program>
+		<version>
+			Ya, Sure
+		</version>
+		<parameter>
+			<type>
+				blastx
+			</type>
+			<value>
+				blastall -p blastx -d /work/chrom/projects/data/seqdb/nr/protein/nr -i none given -I T
+			</value>
+		</parameter>
+		<database>
+			<name>
+				nr.aa
+			</name>
+			<version>
+				PRAY FOR ELVES
+			</version>
+		</database>
+		<result_set id="48000010829656">
+			<description>
+				(AL008635) dJ510H16.2 (high-mobility group protein 2-like 1) [Homo sapiens]
+			</description>
+			<score>
+				797.3
+			</score>
+			<output>
+				<type>
+					Expect
+				</type>
+				<value>
+					1.e-178
+				</value>
+			</output>
+			<result_span id="48000010829658">
+				<span_type>
+					HSP
+				</span_type>
+				<score>
+					104.0
+				</score>
+				<output>
+					<type>
+						Expect
+					</type>
+					<value>
+						1.e-19
+					</value>
+				</output>
+				<output>
+					<type>
+						Individual_Expect
+					</type>
+					<value>
+						2.13649826853897e-24
+					</value>
+				</output>
+				<output>
+					<type>
+						positive
+					</type>
+					<value>
+						51
+					</value>
+				</output>
+				<output>
+					<type>
+						identical
+					</type>
+					<value>
+						51
+					</value>
+				</output>
+				<output>
+					<type>
+						frame
+					</type>
+					<value>
+						PRAY FOR ELVES
+					</value>
+				</output>
+				<output>
+					<type>
+						gaps
+					</type>
+					<value>
+						0
+					</value>
+				</output>
+				<seq_relationship type="query" id="INTERNAL_DATABASE:335001033774513">
+					<span>
+						<start>
+							127415
+						</start>
+						<end>
+							127571
+						</end>
+					</span>
+					<alignment>
+						PRAY FOR ELVES
+					</alignment>
+				</seq_relationship>
+				<seq_relationship type="sbjct" id="1000682353305">
+					<span>
+						<start>
+							11
+						</start>
+						<end>
+							62
+						</end>
+					</span>
+					<alignment>
+						PRAY FOR ELVES
+					</alignment>
+				</seq_relationship>
+			</result_span>
+				</result_set>
+                    </computational_analysis></game>

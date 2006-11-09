@@ -1,0 +1,450 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Rattus norvegicus TCRB Region">
+<computational_analysis id="S4RSall:1">
+ <date day="21" month="3" year="2004"></date>
+ <program>S4_RefSeq_Good</program>
+ <type>BLASTN_HIT</type>
+ <result_set id="S4RSall:2">
+ <description>&gt;CRA|225000064312305 /altid=gi|27465582 /dataset=refseq /taxon=10116 /org=Rattus norvegicus /length=821 /mol_type=mRNA /date=10/05/2003 /altid=gb_acc|NM_173127 /altid=gb_accvers|NM_173127.1 /protein_id=NP_775150.1 /def=Rattus norvegicus cationic trypsinogen (LOC286911), mRNA. /comment=PROVISIONAL</description>
+ <result_span id="S4RSall:3">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>145453</start><end>145227</end></span>
+   <alignment>
+   ggtgactctggtggccctgtagtctgcaatggccagctccagggtgttgtttcctggggttatggctgtgctcagaaaggaaaacctggtgtctataccaaggtatgcaactacgtgaactggattcagcagaccgtcgctgccaactaaaacgcctttatgtcCttatactttgtagtcaaatccaccttctttgtatgccccaagtcattctcacaagaaaaac-
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000064312305" type="sbjct">
+   <span><start>594</start><end>821</end></span>
+   <alignment>
+   ggtgactctggtggccctgtagtctgcaatggccagctccagggtgttgtttcctggggttatggctgtgctcagaaaggaaaacctggtgtctataccaaggtatgcaactacgtgaactggattcagcagaccgtcgctgccaactaaaacgcctttatgtcTttatactttgtagtcaaatccaccttctttgtatgccccaagtcattctcacaagaaaaacA
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="227"></property>
+  <property name="num_identical"      value="225"></property>
+  <property name="num_similar"        value="225"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <result_span id="S4RSall:4">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>146088</start><end>145951</end></span>
+   <alignment>
+   cgaactacccttcactgcttcagtgtcttgatgcccctgtcctctctgacagttcttgcaaaagttcttacccaggcaagatcactagcaacatgttctgtctgggctttctggagggcggaaaggactcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000064312305" type="sbjct">
+   <span><start>457</start><end>594</end></span>
+   <alignment>
+   cgaactacccttcactgcttcagtgtcttgatgcccctgtcctctctgacagttcttgcaaaagttcttacccaggcaagatcactagcaacatgttctgtctgggctttctggagggcggaaaggactcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:5">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>146844</start><end>146590</end></span>
+   <alignment>
+   ccgaattcaggtgcgcctgggagaacacaacattgatgtcgttgagggtggtgagcaattcattgatgcagctaaaatcatccgccaccccagttataatgcaaacacctttgacaatgatattatgttgattaagctgaattcacctgccaccctcaattctcgagtgtccactgtctctctgccaagatcttgtgCatcatctggtactaagtgccttgtgtctggctggggcaacaccctgagctctggca
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000064312305" type="sbjct">
+   <span><start>203</start><end>457</end></span>
+   <alignment>
+   ccgaattcaggtgcgcctgggagaacacaacattgatgtcgttgagggtggtgagcaattcattgatgcagctaaaatcatccgccaccccagttataatgcaaacacctttgacaatgatattatgttgattaagctgaattcacctgccaccctcaattctcgagtgtccactgtctctctgccaagatcttgtgGatcatctggtactaagtgccttgtgtctggctggggcaacaccctgagctctggca
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="253"></property>
+  <property name="num_similar"        value="253"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:6">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>148037</start><end>147874</end></span>
+   <alignment>
+   ttgctctccctctggatgatgatgatgacaagattgttggaggctacacctgccagaagaattctctcccataccaggtgtctctgaatgctggctaccatttttgtggaggctccctcatcaattcccagtgggttgtttcagccgctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000064312305" type="sbjct">
+   <span><start>40</start><end>203</end></span>
+   <alignment>
+   ttgctctccctctggatgatgatgatgacaagattgttggaggctacacctgccagaagaattctctcccataccaggtgtctctgaatgctggctaccatttttgtggaggctccctcatcaattcccagtgggttgtttcagccgctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="163"></property>
+  <property name="num_identical"      value="163"></property>
+  <property name="num_similar"        value="163"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:7">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>148936</start><end>148896</end></span>
+   <alignment>
+   atgaaggccttaattttccttgctttccttggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:225000064312305" type="sbjct">
+   <span><start>0</start><end>40</end></span>
+   <alignment>
+   atgaaggccttaattttccttgctttccttggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="40"></property>
+  <property name="num_identical"      value="40"></property>
+  <property name="num_similar"        value="40"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:225000064312305"></property>
+ <property name="subject_seq_length" value="821"></property>
+ </result_set>
+ <result_set id="S4RSall:8">
+ <description>&gt;CRA|222000048841453 /altid=gi|27545369 /dataset=refseq /taxon=10116 /org=Rattus norvegicus /length=862 /mol_type=mRNA /date=10/05/2003 /altid=gb_acc|NM_173301 /altid=gb_accvers|NM_173301.1 /protein_id=NP_775423.1 /def=Rattus norvegicus preprotrypsinogen IV (LOC286960), mRNA. /comment=PROVISIONAL</description>
+ <result_span id="S4RSall:9">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>70041</start><end>69795</end></span>
+   <alignment>
+   ggtgactctggtggccctgttgtctgcaatggagagatccagggcattgtctcctggggttcagtctgtgcaatgagagggaagcctggtgtttacaccaaagtctgcaactacctgagctggattcaggagacCatggcgaacaactgagttctcttacctttcgtaaatcaccggttcactatccatttccctttcttcctatacctgaaatgaggttaaaataaataattttctcctgctcta
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000048841453" type="sbjct">
+   <span><start>608</start><end>854</end></span>
+   <alignment>
+   ggtgactctggtggccctgttgtctgcaatggagagatccagggcattgtctcctggggttcagtctgtgcaatgagagggaagcctggtgtttacaccaaagtctgcaactacctgagctggattcaggagacTatggcgaacaactgagttctcttacctttcgtaaatcaccggttcactatccatttccctttcttcctatacctgaaatgaggttaaaataaataattttctcctgctcta
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="246"></property>
+  <property name="num_identical"      value="245"></property>
+  <property name="num_similar"        value="245"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:10">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>71027</start><end>70890</end></span>
+   <alignment>
+   gtaaatacccagcactccttcaatgcctggaagcccctgtcctctctgctagttcttgcaaaaaatcctacccaggccagatcaccagcaatatgttctgcctgggcttcctggagggtggaaaggactcctgtgat
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000048841453" type="sbjct">
+   <span><start>471</start><end>608</end></span>
+   <alignment>
+   gtaaatacccagcactccttcaatgcctggaagcccctgtcctctctgctagttcttgcaaaaaatcctacccaggccagatcaccagcaatatgttctgcctgggcttcctggagggtggaaaggactcctgtgat
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:11">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>71790</start><end>71536</end></span>
+   <alignment>
+   gaaactccaggttcgccttggtgaacacaatattcatgttcttgagggtggagagcaattcattgatgcagaaaagatcattcgacaccctgagtataacaaggacactctggacaatgacatcatgctgattaaattgaagtcacctgccgtccttaactcccaagtatctacggtctctctgcccagatcctgtgcatctacagatgctcagtgccttgtgtctggctggggaaacactgtgagcattggtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000048841453" type="sbjct">
+   <span><start>217</start><end>471</end></span>
+   <alignment>
+   gaaactccaggttcgccttggtgaacacaatattcatgttcttgagggtggagagcaattcattgatgcagaaaagatcattcgacaccctgagtataacaaggacactctggacaatgacatcatgctgattaaattgaagtcacctgccgtccttaactcccaagtatctacggtctctctgcccagatcctgtgcatctacagatgctcagtgccttgtgtctggctggggaaacactgtgagcattggtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:12">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>72233</start><end>72070</end></span>
+   <alignment>
+   ttgctctccctgttaatgatgatgacaagattgttggaggctacacatgtccgaagcatttggttccttaccaggtgtctttgcatgatggcattagccaccagtgtggtggctcccttatcagtgatcagtgggtactgtctgctgctcattgctaCaaaag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000048841453" type="sbjct">
+   <span><start>54</start><end>217</end></span>
+   <alignment>
+   ttgctctccctgttaatgatgatgacaagattgttggaggctacacatgtccgaagcatttggttccttaccaggtgtctttgcatgatggcattagccaccagtgtggtggctcccttatcagtgatcagtgggtactgtctgctgctcattgctaTaaaag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="163"></property>
+  <property name="num_identical"      value="162"></property>
+  <property name="num_similar"        value="162"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:13">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>73541</start><end>73488</end></span>
+   <alignment>
+   Acact-gAaacaccatgaagatcagcatcttctttgcttttctcggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:222000048841453" type="sbjct">
+   <span><start>0</start><end>54</end></span>
+   <alignment>
+   GcactAgGaacaccatgaagatcagcatcttctttgcttttctcggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="54"></property>
+  <property name="num_identical"      value="51"></property>
+  <property name="num_similar"        value="51"></property>
+  <property name="num_gaps"           value="1"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:222000048841453"></property>
+ <property name="subject_seq_length" value="862"></property>
+ </result_set>
+ <result_set id="S4RSall:14">
+ <description>&gt;CRA|335001118121097 /altid=gi|6981419 /dataset=refseq /taxon=10116 /org=Rattus norvegicus /length=804 /mol_type=mRNA /date=10/04/2003 /altid=gb_acc|NM_012635 /altid=gb_accvers|NM_012635.1 /protein_id=NP_036767.1 /def=Rattus norvegicus pancreatic trypsin 1 (Prss1), mRNA. /comment=PROVISIONAL</description>
+ <result_span id="S4RSall:15">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>658821</start><end>658873</end></span>
+   <alignment>
+   ccttctgccaccatgagtgcacttctgatcctagcccttgtgggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118121097" type="sbjct">
+   <span><start>0</start><end>52</end></span>
+   <alignment>
+   ccttctgccaccatgagtgcacttctgatcctagcccttgtgggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="52"></property>
+  <property name="num_identical"      value="52"></property>
+  <property name="num_similar"        value="52"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:16">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>659764</start><end>659924</end></span>
+   <alignment>
+   ttgctttccctttggaagatgatgacaagatcgttggaggatacacctgcccggaacattctgtcccctaccaggtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118121097" type="sbjct">
+   <span><start>52</start><end>212</end></span>
+   <alignment>
+   ttgctttccctttggaagatgatgacaagatcgttggaggatacacctgcccggaacattctgtcccctaccaggtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctacaaatc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="160"></property>
+  <property name="num_identical"      value="160"></property>
+  <property name="num_similar"        value="160"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:17">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>660764</start><end>661018</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcgatgagcaatttatcaatgctgccaagatcatcaagcaccccaactatagttcgtggaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgcccgagtggcccctgtagctctgcccagcgcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacaccctcagcaatggtg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118121097" type="sbjct">
+   <span><start>212</start><end>466</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcgatgagcaatttatcaatgctgccaagatcatcaagcaccccaactatagttcgtggaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgcccgagtggcccctgtagctctgcccagcgcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacaccctcagcaatggtg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:18">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>661410</start><end>661547</end></span>
+   <alignment>
+   tgaacaacccagacctgctccaatgcgtggatgccccagtgctgtctcaggctgactgtgaagccgcctaccctggggaaatcaccagcagcatgatttgtgttggcttcctggagggaggcaaagattcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118121097" type="sbjct">
+   <span><start>466</start><end>603</end></span>
+   <alignment>
+   tgaacaacccagacctgctccaatgcgtggatgccccagtgctgtctcaggctgactgtgaagccgcctaccctggggaaatcaccagcagcatgatttgtgttggcttcctggagggaggcaaagattcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:19">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>661824</start><end>662025</end></span>
+   <alignment>
+   ggtgactctggtggcccggtggtctgcaatggacagctccagggtattgtctcctggggctatggttgtgccctgccagacaaccctggtgtgtacaccaaggtctgcaactttgtgggctggattcaggacaccattgctgcaaactaaatatcttcagtctctcttcaatcagtgtgtcaataaagttcatttgccctc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118121097" type="sbjct">
+   <span><start>603</start><end>804</end></span>
+   <alignment>
+   ggtgactctggtggcccggtggtctgcaatggacagctccagggtattgtctcctggggctatggttgtgccctgccagacaaccctggtgtgtacaccaaggtctgcaactttgtgggctggattcaggacaccattgctgcaaactaaatatcttcagtctctcttcaatcagtgtgtcaataaagttcatttgccctc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="201"></property>
+  <property name="num_identical"      value="201"></property>
+  <property name="num_similar"        value="201"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001118121097"></property>
+ <property name="subject_seq_length" value="804"></property>
+ </result_set>
+ <result_set id="S4RSall:20">
+ <description>&gt;CRA|335001118124998 /altid=gi|6981421 /dataset=refseq /taxon=10116 /org=Rattus norvegicus /length=741 /mol_type=mRNA /date=10/04/2003 /altid=gb_acc|NM_012729 /altid=gb_accvers|NM_012729.1 /protein_id=NP_036861.1 /def=Rattus norvegicus pancreatic trypsin 2 (Prss2), mRNA. /comment=PROVISIONAL</description>
+ <result_span id="S4RSall:21">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>561232</start><end>561272</end></span>
+   <alignment>
+   atgagagcactcctgttcCtggctcttgtgggagctgctg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>0</start><end>40</end></span>
+   <alignment>
+   atgagagcactcctgttcTtggctcttgtgggagctgctg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="40"></property>
+  <property name="num_identical"      value="39"></property>
+  <property name="num_similar"        value="39"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:22">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>563688</start><end>563848</end></span>
+   <alignment>
+   ttgcttttcccgtggatgatgatgacaagatcgttggaggatacacctgccaagagaattctgttccctaccaagtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctataagtc
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>40</start><end>200</end></span>
+   <alignment>
+   ttgcttttcccgtggatgatgatgacaagatcgttggaggatacacctgccaagagaattctgttccctaccaagtgtccctgaactctggctaccacttctgtggaggttccctcatcaatgaccagtgggtggtgtctgcagctcactgctataagtc
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="160"></property>
+  <property name="num_identical"      value="160"></property>
+  <property name="num_similar"        value="160"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:23">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>565058</start><end>565312</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcaatgagcagtttgtcaatgctgccaagatcatcaagcatcccaacttcgataggaagaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgctcgagtggccactgtggctcttcccagctcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacacgctcagcagtggcg
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>200</start><end>454</end></span>
+   <alignment>
+   ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcaatgagcagtttgtcaatgctgccaagatcatcaagcatcccaacttcgataggaagaccctgaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgctcgagtggccactgtggctcttcccagctcctgtgcacctgcaggcactcagtgcctcatctctggctggggcaacacgctcagcagtggcg
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="254"></property>
+  <property name="num_identical"      value="254"></property>
+  <property name="num_similar"        value="254"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:24">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>565716</start><end>565853</end></span>
+   <alignment>
+   tcaatgaaccagacctgctccagtgcctggatgccccactgctgccccaagctgactgtgaagcctcctaccctggaaagatcactgacaacatggtctgtgttggcttcctagagggaggcaaggattcctgccag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>454</start><end>591</end></span>
+   <alignment>
+   tcaatgaaccagacctgctccagtgcctggatgccccactgctgccccaagctgactgtgaagcctcctaccctggaaagatcactgacaacatggtctgtgttggcttcctagagggaggcaaggattcctgccag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="137"></property>
+  <property name="num_identical"      value="137"></property>
+  <property name="num_similar"        value="137"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <result_span id="S4RSall:25">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>566107</start><end>566257</end></span>
+   <alignment>
+   ggtgactctggtggccctgtggtctgtaatggagagctgcagggcattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattcaggacacaattgctgccaactag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>591</start><end>741</end></span>
+   <alignment>
+   ggtgactctggtggccctgtggtctgtaatggagagctgcagggcattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattcaggacacaattgctgccaactag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="150"></property>
+  <property name="num_identical"      value="150"></property>
+  <property name="num_similar"        value="150"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001118124998"></property>
+ <property name="subject_seq_length" value="741"></property>
+ </result_set>
+ <result_set id="S4RSall:26">
+ <description>&gt;CRA|335001118124998 /altid=gi|6981421 /dataset=refseq /taxon=10116 /org=Rattus norvegicus /length=741 /mol_type=mRNA /date=10/04/2003 /altid=gb_acc|NM_012729 /altid=gb_accvers|NM_012729.1 /protein_id=NP_036861.1 /def=Rattus norvegicus pancreatic trypsin 2 (Prss2), mRNA. /comment=PROVISIONAL</description>
+ <result_span id="S4RSall:27">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>641403</start><end>641647</end></span>
+   <alignment>
+   ag--ccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcaatgagcagtttgtcaatgctgccaagatcatcaagcatcccaacttcgataggaagaccctAaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgctcgagtggccactgtggctctGcccagctcctgtgcacctgcaggcactcagtgccCtcatctTctggctggggcaacac
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>196</start><end>440</end></span>
+   <alignment>
+   agTCccgcatccaagtgagactgggagagcacaacatcaatgtccttgagggcaatgagcagtttgtcaatgctgccaagatcatcaagcatcccaacttcgataggaagaccctGaacaatgacatcatgctgatcaagctctcttcccctgtgaaactcaatgctcgagtggccactgtggctctTcccagctcctgtgcacctgcaggcactcagtgcc-tcatct-ctggctggggcaacac
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="246"></property>
+  <property name="num_identical"      value="240"></property>
+  <property name="num_similar"        value="240"></property>
+  <property name="num_gaps"           value="4"></property>
+ </result_span>
+ <result_span id="S4RSall:28">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BTCRB:0" type="query">
+   <span><start>642088</start><end>642240</end></span>
+   <alignment>
+   agggtgactctggtggccctgtAgtctgCaatggagagctCcagggTattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattGaggacacaatCgctgccaactag
+   </alignment>
+  </seq_relationship>
+  <seq_relationship id="CELERA:335001118124998" type="sbjct">
+   <span><start>589</start><end>741</end></span>
+   <alignment>
+   agggtgactctggtggccctgtGgtctgTaatggagagctGcagggCattgtctcctggggctatggctgtgccctgccagataaccctggtgtgtacaccaaggtctgcaactatgtggactggattCaggacacaatTgctgccaactag
+   </alignment>
+  </seq_relationship>
+  <property name="alignment_length"   value="152"></property>
+  <property name="num_identical"      value="146"></property>
+  <property name="num_similar"        value="146"></property>
+  <property name="num_gaps"           value="0"></property>
+ </result_span>
+ <property name="subject_seq_id"     value="CELERA:335001118124998"></property>
+ <property name="subject_seq_length" value="741"></property>
+ </result_set>
+</computational_analysis>
+</game>

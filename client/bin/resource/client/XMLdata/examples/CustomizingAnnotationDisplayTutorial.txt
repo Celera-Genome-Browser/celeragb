@@ -1,0 +1,91 @@
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Purpose: Describe how a user can modify a Workspace annotated 
+transcript in a .gbw file.  Modifications include changing the transcript's 
+	- display color, 
+	- display tier and 
+	- adding a hyperlink to the transcript's properties.
+
+Changes to the Genome Browser
+
+Adding a tier to Genome Browser:
+
+In Genome Browser, Edit>Edit_Preferences
+
+Preferences Editor>Preferences tab>Add Tier
+	View Name: (No change)
+	Tier Name: Test_Tier
+	Initial State: (No change)
+	Tier Color: Black
+	Collapsed Alignment:  (No change)
+	Unselect "Hide When Empty" radio button
+	
+Save
+
+Adding an analysis program to Genome Browser:
+
+In Genome Browser, Edit>Edit_Preferences
+
+Preferences Editor>Preferences tab>Add Analysis Program
+	View Name: (No change)
+	Analysis program name: Test_Annotation 
+	Is of feature type: Transcript
+	Gets placed in tier: Promoted
+	Color: Orange
+	
+Save
+Exit Preferences Editor
+Exit Genome Browser
+Restart Genome Browser
+
+
+Changes to the gbw file
+
+To see the Workspace transcript feature(s) in the Promoted tier and 
+in a different color, in .gbw file:
+
+Change 'WORKSPACE' to 'PUBLIC'
+Add annotation_source xml tag after <type>TRANSCRIPT</type> tag:
+	<annotation_source>
+		Test_Annotation
+	</annotation_source>
+	
+Add a hyperlink to Workspace transcript feature by inclusion of a property tag.
+	example:
+		<property name="created_by" value="" editable="true">
+   		</property>
+Modify name:
+	e.g. name="link"
+Modify value:
+	e.g. value="http://www.xxxxx.com/" 
+
+Save as a .gbf file.
+
+Example after modifications:
+
+<name>TestTranscript1</name>
+   <type>TRANSCRIPT</type>
+   <annotation_source>
+	 	Test_Annotation
+   </annotation_source>
+   <property name="link" value="http://www.xxxxx.com/" editable="true">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>

@@ -1,0 +1,101 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="1.001">
+ <annotation id="RUSSELL:5"> 
+  <name>WG1</name>
+  <feature_set id= "RUSSELL:1">
+   <name>WT1</name>
+   <type>TRANSCRIPT</type>
+   <property name="AUTHOR" value="http://www.cs.umbc.edu/~turner" editable="true">
+   </property>
+   <property name="assigned_by" value="RT" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <feature_span id="RUSSELL:2">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>25163</start>
+        <end>25562</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="RT" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:113000001299037">
+    </evidence>
+   </feature_span>
+  </feature_set>
+  <property name="assigned_by" value="" editable="true">
+  </property>
+  <property name="assigned_date" value="" editable="true">
+  </property>
+  <property name="group_tag" value="" editable="true">
+  </property>
+  <property name="display_priority" value="" editable="true">
+  </property>
+  <property name="feature_status" value="" editable="true">
+  </property>
+  <property name="created_date" value="" editable="true">
+  </property>
+  <property name="is_alter_splice" value="" editable="true">
+  </property>
+  <property name="is_psuedo_gene" value="" editable="true">
+  </property>
+ </annotation>
+</game>

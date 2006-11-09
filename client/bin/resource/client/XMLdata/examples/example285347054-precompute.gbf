@@ -1,0 +1,1217 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="3.0" assembly_version="963426060" taxon="Homo sapiens">
+       
+	<computational_analysis id="PUBLIC:155000040997478">
+		<date year="100" day="12" month="8"></date>
+		<program>
+			Test_Program
+		</program>
+		<version>
+			Test
+		</version>
+		<type>
+			OTTO
+		</type>
+		<parameter>
+			<type>
+				Test_Program
+			</type>
+			<value>
+				/usr/local/bin/genscan  /usr/local/src/genscan/HumanIso.smat none given 
+			</value>
+		</parameter>
+		<result_set id="PUBLIC:155000040997398">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1013 c:9.25 Test_Program Genscan gene 1.31 START NOT FOUND SWAP FEATURE.0 Kosher:Sngl
+			</description>
+			<result_span id="PUBLIC:155000040997399">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							819303
+						</start>
+						<end>
+							819458
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997400">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							823329
+						</start>
+						<end>
+							823408
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997401">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							826761
+						</start>
+						<end>
+							826845
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997402">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							831055
+						</start>
+						<end>
+							831242
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997403">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							833399
+						</start>
+						<end>
+							834062
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997404">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							836447
+						</start>
+						<end>
+							836529
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997405">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							838563
+						</start>
+						<end>
+							838682
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997406">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							839614
+						</start>
+						<end>
+							839992
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997407">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1375 c:4.83 Test_Program Genscan gene 1.43 COMPLETE SWAP FEATURE.0 Kosher:Sngl
+			</description>
+			<result_span id="PUBLIC:155000040997408">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							940143
+						</start>
+						<end>
+							940227
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997409">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							941102
+						</start>
+						<end>
+							941258
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997410">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							942333
+						</start>
+						<end>
+							942613
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997411">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							944222
+						</start>
+						<end>
+							944305
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997412">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							948342
+						</start>
+						<end>
+							948475
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997413">
+				<span_type>
+					Test_Program Genscan exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							950721
+						</start>
+						<end>
+							951036
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997284">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				c:9.42 Test_Program Genscan gene 1.31 START NOT FOUND isDeprecated Kosher:Sngl
+			</description>
+			<result_span id="PUBLIC:155000040997285">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							819160
+						</start>
+						<end>
+							819458
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997286">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							826761
+						</start>
+						<end>
+							826845
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997287">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							831055
+						</start>
+						<end>
+							831242
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997288">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							833399
+						</start>
+						<end>
+							834062
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997289">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							836447
+						</start>
+						<end>
+							836529
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997290">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							838563
+						</start>
+						<end>
+							838682
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997291">
+				<span_type>
+					Test_Program Genscan Term exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							839614
+						</start>
+						<end>
+							839817
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997292">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1376 c:0.66 Test_Program Genscan gene 1.32 START NOT FOUND Kosher:Term
+			</description>
+			<result_span id="PUBLIC:155000040997293">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							222125
+						</start>
+						<end>
+							222209
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997294">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							222410
+						</start>
+						<end>
+							222828
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997295">
+				<span_type>
+					Test_Program Genscan Term exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							222847
+						</start>
+						<end>
+							223411
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997296">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1377 c:5.88 Test_Program Genscan gene 1.33 COMPLETE Kosher:Sngl
+			</description>
+			<result_span id="PUBLIC:155000040997297">
+				<span_type>
+					Test_Program Genscan Init exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							357635
+						</start>
+						<end>
+							357769
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997298">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							369751
+						</start>
+						<end>
+							369832
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997299">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							380404
+						</start>
+						<end>
+							380453
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997300">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							381737
+						</start>
+						<end>
+							381795
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997301">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							386890
+						</start>
+						<end>
+							386982
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997302">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							387411
+						</start>
+						<end>
+							387552
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997303">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							390187
+						</start>
+						<end>
+							390323
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997304">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							441617
+						</start>
+						<end>
+							441767
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997305">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							457237
+						</start>
+						<end>
+							457325
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997306">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							469832
+						</start>
+						<end>
+							469919
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997307">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							477531
+						</start>
+						<end>
+							477630
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997308">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							480643
+						</start>
+						<end>
+							480754
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997309">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							500429
+						</start>
+						<end>
+							500503
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997310">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							503133
+						</start>
+						<end>
+							503211
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997311">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							504092
+						</start>
+						<end>
+							504221
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997312">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							514891
+						</start>
+						<end>
+							514995
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997313">
+				<span_type>
+					Test_Program Genscan Term exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							517435
+						</start>
+						<end>
+							517756
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997314">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1378 c:3.42 Test_Program Genscan gene 1.34 START NOT FOUND Kosher:Init
+			</description>
+			<result_span id="PUBLIC:155000040997315">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							977532
+						</start>
+						<end>
+							977588
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997316">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							978333
+						</start>
+						<end>
+							978589
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997317">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							983003
+						</start>
+						<end>
+							983225
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997318">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							985764
+						</start>
+						<end>
+							985893
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997319">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							987586
+						</start>
+						<end>
+							987872
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997320">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							990511
+						</start>
+						<end>
+							990544
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997321">
+				<span_type>
+					Test_Program Genscan Term exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							991489
+						</start>
+						<end>
+							991653
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997326">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1379 c:6.1 Test_Program Genscan gene 1.37 COMPLETE Kosher:Sngl
+			</description>
+			<result_span id="PUBLIC:155000040997327">
+				<span_type>
+					Test_Program Genscan Init exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							895865
+						</start>
+						<end>
+							895801
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997328">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							867269
+						</start>
+						<end>
+							867117
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997329">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							861074
+						</start>
+						<end>
+							860954
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997330">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							860869
+						</start>
+						<end>
+							860791
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997331">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							860480
+						</start>
+						<end>
+							860378
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997332">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							859147
+						</start>
+						<end>
+							859006
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997333">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							858346
+						</start>
+						<end>
+							858151
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997334">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							855197
+						</start>
+						<end>
+							855034
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997335">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							853110
+						</start>
+						<end>
+							852951
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997336">
+				<span_type>
+					Test_Program Genscan Term exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							852378
+						</start>
+						<end>
+							852337
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997345">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				HCG1380 c:1.9 Test_Program Genscan gene 1.42 START AND END NOT FOUND Kosher:Intr
+			</description>
+			<result_span id="PUBLIC:155000040997346">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							571791
+						</start>
+						<end>
+							571440
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997347">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							569123
+						</start>
+						<end>
+							568982
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997348">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							551244
+						</start>
+						<end>
+							551192
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997349">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							548694
+						</start>
+						<end>
+							548617
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997350">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							546521
+						</start>
+						<end>
+							546466
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997351">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							544943
+						</start>
+						<end>
+							544920
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997352">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							543282
+						</start>
+						<end>
+							543123
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997353">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							541099
+						</start>
+						<end>
+							541023
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997354">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							540966
+						</start>
+						<end>
+							540932
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997355">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							540713
+						</start>
+						<end>
+							540586
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+		<result_set id="PUBLIC:155000040997356">
+			<property name="link" value="http://www.xxxxx.com/" editable="true">
+			</property>
+			<description>
+				c:4 Test_Program Genscan gene 1.43 COMPLETE isDeprecated Kosher:Sngl
+			</description>
+			<result_span id="PUBLIC:155000040997357">
+				<span_type>
+					Test_Program Genscan Init exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							940175
+						</start>
+						<end>
+							940227
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997358">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							941102
+						</start>
+						<end>
+							941258
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997359">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							942333
+						</start>
+						<end>
+							942613
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997360">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							944222
+						</start>
+						<end>
+							944371
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997361">
+				<span_type>
+					Test_Program Genscan Intr exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							948342
+						</start>
+						<end>
+							948475
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+			<result_span id="PUBLIC:155000040997362">
+				<span_type>
+					Test_Program Genscan Term exon
+				</span_type>
+				<seq_relationship type="query" id="INTERNAL:GA_x8G437E">
+					<span>
+						<start>
+							950721
+						</start>
+						<end>
+							950881
+						</end>
+					</span>
+				</seq_relationship>
+			</result_span>
+		</result_set>
+	</computational_analysis>computational_analysis>
+</game>

@@ -1,0 +1,301 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="3.0" assembly_version="963426060" taxon="Homo sapiens">
+ <annotation id="PUBLIC:29"> 
+
+  <name>WG1</name>
+  <comments>comments>
+   (Dunn,P, 09/14/2000 13:41:13)  Testing
+  </comments>/comments>
+  <feature_set id= "PUBLIC:22">
+   <name>WT3</name>
+   <type>TRANSCRIPT</type>
+    <annotation_source>
+	Acme
+    </annotation_source>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <feature_span id="PUBLIC:23">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:285347054" type="query">
+      <span>
+        <start>626984</start>
+        <end>627048</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:155000039173480">
+    </evidence>
+   </feature_span>
+   <feature_span id="PUBLIC:24">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:285347054" type="query">
+      <span>
+        <start>608358</start>
+        <end>608511</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:155000039173476">
+    </evidence>
+   </feature_span>
+   <feature_span id="PUBLIC:25">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:285347054" type="query">
+      <span>
+        <start>612026</start>
+        <end>612203</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:155000039173477">
+    </evidence>
+   </feature_span>
+   <feature_span id="PUBLIC:26">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:285347054" type="query">
+      <span>
+        <start>620835</start>
+        <end>621097</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:155000039173478">
+    </evidence>
+   </feature_span>
+   <feature_span id="PUBLIC:27">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:285347054" type="query">
+      <span>
+        <start>627542</start>
+        <end>627865</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:155000039173481">
+    </evidence>
+   </feature_span>
+   <feature_span id="PUBLIC:28">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:285347054" type="query">
+      <span>
+        <start>622082</start>
+        <end>622276</end>
+      </span>
+    </seq_relationship>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <evidence result="INTERNAL:155000039173479">
+    </evidence>
+   </feature_span>
+  </feature_set>
+  <property name="assigned_by" value="Pat Dunn" editable="true">
+  </property>
+  <property name="assigned_date" value="" editable="true">
+  </property>
+  <property name="group_tag" value="" editable="true">
+  </property>
+  <property name="display_priority" value="" editable="true">
+  </property>
+  <property name="feature_status" value="" editable="true">
+  </property>
+  <property name="created_date" value="" editable="true">
+  </property>
+  <property name="is_alter_splice" value="" editable="true">
+  </property>
+  <property name="is_psuedo_gene" value="" editable="true">
+  </property>
+  <property name="approved_by" value="" editable="true">
+  </property>
+  <property name="approved_date" value="09/14/2000 13:41:13" editable="true">
+  </property>
+  <property name="status" value="8" editable="true">
+  </property>
+  <property name="authority" value="Genbank" editable="true">
+  </property>
+  <property name="external_accession" value="" editable="true">
+  </property>
+ </annotation>
+</game>

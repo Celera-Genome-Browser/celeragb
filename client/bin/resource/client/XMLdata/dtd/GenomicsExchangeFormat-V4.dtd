@@ -1,0 +1,135 @@
+<?xml encoding='UTF-8' ?>
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<!ELEMENT game  (date?, program?, version?, axis_seq?, (annotation | annotation_obsoletion | computational_analysis | feature_set | seq )* )>
+<!ATTLIST game  version          CDATA  #IMPLIED
+                assembly_version CDATA  #IMPLIED
+                taxon            CDATA  #IMPLIED >
+
+<!-- NOTE: the version TAG included as part of the game tag contents is meant to be the version of the
+     source of the entire XML document.  The version ATTRIBUTE of the game tag itself, is meant to
+     be the version of the game DTD, this DTD, to which the document is to conform.
+  -->
+
+<!ELEMENT annotation  (name , description? , annotation_source? , comments* , feature_set+ , replaced? , property* )>
+<!ATTLIST annotation  id CDATA  #REQUIRED >
+
+<!-- Indicates that the gene referred to by "obsoleted_id=" is obsolete, even though it has no subfeatures.
+     The "id=" is the id of the obsoleting feature, and "query_seq_relationship_id=" is the axis to which
+     the obsoleted feature used to align -->
+<!ELEMENT annotation_obsoletion EMPTY>
+<!ATTLIST annotation_obsoletion id CDATA #REQUIRED
+                                obsoleted_id CDATA #REQUIRED
+                                query_seq_relationship_id CDATA #REQUIRED >
+
+<!ELEMENT computational_analysis  (date? , program , type?, version? , parameter* , database? , result_set+ )>
+<!ATTLIST computational_analysis  id CDATA  #REQUIRED >
+<!ELEMENT feature_set  (description? , name , type , annotation_source? , comments*, author? , creation_date? , version? , replaced? , property* , feature_span+ )>
+<!ATTLIST feature_set  id CDATA  #REQUIRED >
+
+<!ELEMENT axis_seq  (dbxref? , description , seq_alignment* ) >
+<!ATTLIST axis_seq  id         CDATA #REQUIRED
+                    fasta_path CDATA #REQUIRED
+                    length     CDATA #IMPLIED>
+
+<!ELEMENT seq  (dbxref? , description , residues? , seq_alignment* )>
+<!ATTLIST seq  length CDATA  #IMPLIED
+               id     CDATA  #REQUIRED
+               type   CDATA  #REQUIRED >
+<!ELEMENT name  (#PCDATA )>
+
+<!ELEMENT description  (#PCDATA )>
+
+<!ELEMENT date EMPTY>
+<!ATTLIST date  day   CDATA  #REQUIRED
+                year  CDATA  #REQUIRED
+                month CDATA  #REQUIRED >
+<!ELEMENT program  (#PCDATA )>
+
+<!ELEMENT version  (#PCDATA )>
+
+<!ELEMENT parameter  (type , value )>
+
+<!ELEMENT database  (name , date? , version? )>
+<!ATTLIST database  id CDATA  #IMPLIED >
+<!ELEMENT result_set  (description? , type? , score? , dbxref* , output* , result_span* , property* )>
+<!ATTLIST result_set  id CDATA  #REQUIRED >
+<!ELEMENT type  (#PCDATA )>
+
+<!ELEMENT author  (#PCDATA )>
+
+<!ELEMENT creation_date  (#PCDATA )>
+
+<!ELEMENT feature_span  (type , comments* , seq_relationship , property* , replaced? , evidence* )>
+<!ATTLIST feature_span  id CDATA  #REQUIRED >
+<!ELEMENT dbxref  (xref_db , db_xref_id , version? )>
+
+<!ELEMENT value  (#PCDATA )>
+
+<!ELEMENT score  (#PCDATA )>
+
+<!ELEMENT output  (type , value )>
+
+<!ELEMENT result_span  (span_type? , score? , output* , value? , seq_relationship* , property* )>
+<!ATTLIST result_span  id CDATA  #REQUIRED >
+<!ELEMENT seq_relationship  (span , alignment? )>
+<!ATTLIST seq_relationship  id   CDATA  #REQUIRED
+                            type  (query | sbjct )  #IMPLIED >
+<!ELEMENT evidence  (#PCDATA )>
+<!ATTLIST evidence  type    (homology | gene_prediction )  #IMPLIED
+                    result CDATA  #IMPLIED
+                    result_feature_type CDATA #IMPLIED >
+<!ELEMENT xref_db  (#PCDATA )>
+
+<!ELEMENT db_xref_id  (#PCDATA )>
+
+<!ELEMENT span_type  (#PCDATA )>
+
+<!ELEMENT span  (start , end )>
+
+<!ELEMENT alignment  (#PCDATA )>
+
+<!ELEMENT start  (#PCDATA )>
+
+<!ELEMENT end  (#PCDATA )>
+
+<!ELEMENT replaced EMPTY>
+<!ATTLIST replaced  type  (unmodified | modified | obsolete | split | merge | deep-modified | new)  #REQUIRED
+                    ids  NMTOKENS  #REQUIRED >
+<!ELEMENT property  (property* )>
+<!ATTLIST property  name     CDATA  #REQUIRED
+                    value    CDATA  #REQUIRED
+                    editable  (true | false )  #IMPLIED >
+<!ELEMENT seq_alignment  (#PCDATA )>
+<!ATTLIST seq_alignment  start        CDATA  #IMPLIED
+                         end          CDATA  #IMPLIED
+                         entity_start CDATA  #IMPLIED
+                         entity_end   CDATA  #IMPLIED
+                         file_path    CDATA  #IMPLIED
+                         seq_id       CDATA  #REQUIRED >
+<!ELEMENT residues  (#PCDATA )>
+
+<!ELEMENT comments  (#PCDATA )>
+<!ATTLIST comments  author CDATA  #IMPLIED
+                    date   CDATA  #IMPLIED >
+<!ELEMENT annotation_source  (#PCDATA )>
+

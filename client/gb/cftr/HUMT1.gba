@@ -1,0 +1,15 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Homo Sapiens CFTR Region">
+<axis_seq id="HUMT1:0" type="DNA" length="1877476" fasta_path="gb/cftr/HUMT1.fasta">
+	<dbxref>
+		<xref_db>
+			nt
+		</xref_db>
+		<db_xref_id>
+			NONE
+		</db_xref_id>
+	</dbxref>
+	<description>
+		Human CFTR Region
+	</description>
+</axis_seq>
+</game>

@@ -1,0 +1,2719 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Pig CFTR Region">
+  <!-- Features converted from ATA format -->
+  <computational_analysis id="CELERA:30000103447993">
+    <date day="15" month="03" year="2004"></date>
+    <program>At:human_CFTR_anno</program>
+    <version>2.6</version>
+    <type>BLASTN_HIT</type>
+    <result_set id="CELERA:30000103447994">
+      <description>HUMT1|CAV2  Full PIGT1:0 URU 71.1 100.0 2242 911 482 3153 3153 2375 48 3 3076 3076 0 0 0 0 1 0 HUMT1|1 /transcript_uid=HUMT1|CAV2</description>
+      <result_span id="CELERA:30000103447995">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAV2-1  Good  PIGT1:0 URU 82.9 100.0 277 57 19 334 334 314 6 1 331 331 0 0 0 0 1 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>329134</start>
+            <end>329465</end>
+          </span>
+          <alignment>
+            gggGctcgGgAcg-gccGgGct-GggagcTggAgccCAcagcgggaagcggccgccgcccGggccTcgcAgggctaggcgaggcgAGGGGgggcggggccgggcgcTAcgggaaggggaGgccgcgcggAccgggagccGcAccgcGccagccgGGCTGCAGCGGccgcgcaccAag-gcTgcgatggggctggagacGgagaaggcggaCgtAcagctcttcatggacgacgactcctacagccAccacagcggcCtcgaGtacgccgaccccGagaagttcgCggacTcggAcCAGgaccgGgatccccaccggctCaactcgCatctcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>121379</start>
+            <end>121697</end>
+          </span>
+          <alignment>
+            gggActcgTgTcgCgccAgCctCAggagcAggGgccGGcagcgggaagcggccgccgcccCggccGcgcCgggctaggcgaggcg-----gggcggggccgggcgcGTcgggaaggggaAgccgcgcggGccgggagccTcTccgcAccagccg-----------ccgcgcaccCagCgcCgcgatggggctggagacTgagaaggcggaTgtCcagctcttcatggacgacgactcctacagccGccacagcggcGtcgaTtacgccgaccccAagaagttcgTggacCcggGcACCgaccgAgatccccaccggctGaactcgAatctcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="82.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAV2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103447996">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAV2-2  Good  PIGT1:0 U 91.5 100.0 172 16 0 188 188 188 1 1 188 188 0 0 0 0 1 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>329793</start>
+            <end>329981</end>
+          </span>
+          <alignment>
+            CtgggCttcgaggatgtgatCgcagaGccggtgActacGcactcctttgacaaagtgtggatCtgcagccatgccctctttgaaatcagcaaatacgtAatGtacaagttcctGacggtgttcctggcCatTcccCtggccttcATtgcgggaattctctttgccacCctcagctgtctgcacatctg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>122033</start>
+            <end>122221</end>
+          </span>
+          <alignment>
+            GtgggAttcgaggatgtgatAgcagaAccggtgTctacAcactcctttgacaaagtgtggatAtgcagccatgccctctttgaaatcagcaaatacgtGatCtacaagttcctAacggtgttcctggcTatCcccTtggccttcGCtgcgggaattctctttgccacActcagctgtctgcacatctg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAV2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103447997">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAV2-3  Good  PIGT1:0 URU 68.1 100.0 1793 838 463 2631 2631 1873 41 1 2557 2557 0 0 0 0 1 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>335504</start>
+            <end>338061</end>
+          </span>
+          <alignment>
+            gattTtaatGccttttgtaaagacctgcctaatggtTctgccttcagtgcagacaatatggaagagtgtgacagaTgttAtcattgcTccAttgtgtacGagcgTaggacgATgcttctcttctgtCagcctgcaactgagccaGgaTtgaatacttggaccccaggtctgGagattGggatactgtaatacttctttgttAttataacatAaaAgcACCactgttctgttcattTccTaGctgttcTaattAagaaaActattaaGatgAGCaaccacatTtagaaatGtttattgAcagGtcttttcaaataatGcttttctaattaaTagccaaAgatttcatatctaactttGtaaccaGaatTatacagtaAgttgAcaCcacTtaGAtttaaaggcagaCagt-tttgctttagtacaaTAgtatacattttAtaatgatGaaCTtataatgatTaagggacaTttctAtAaaaATactAcaaTagttttAtGcacaactTcCcatTaaaa-atgAGatttcttatttGTTTGTCTGTttttactctggGAgtaatacttttTaaattAcctTtAcaTAtATagtcacTggCatact--gaga----at-atacaaTgatcctGgaaattGcaGtaacaaaagcaCacaACgatTatagTAActatAaGataCaataaAACAaaTaaATATGAAAGTagattcatgaaaatGtAttccttta----aAAtattgttTTCctaCaggcCtatttaacaagatgtttcaTTttactgtatattttgtaGttaAtAtaaatgttgctctaatcagattgcttAaaagcaTttttattatat---ttatGttgttgaActaatatatGAAaTaagtaaatgtaGCtCccacaaggTAaacttcattgGtAagattgcactgtTCtgattaTGtaagcatTtgTAcatcttctttggAaataAaaGAtaaaagagCgAtaCaCaaAgctttCTTTtctaacttttccaagcaaaat-ctAaaatgttttatgacATTtTtCtGGctgTgatCtTaAAAtaattCATATCTAAATAgtatttTGtctaggagatgctttctCtctAgtagttagaaattaaaTctgt-GtcAgcaTtcctattAatGtCtcactTTacTttcaagtaatattggtgctatt---taacattttacaGtaaaTgTtaCttctgaTacttTagtaCAatttcaaCTaCagtgattcaTGtagag--AGAcagGGGagttgtcaActt----gg-----gctactgaActac--atGCataaaCtaaaaactaacAgctacaaactTTTaagat-ttCtCTAatat-TGGtAtgtAacacAgGataaaGttattcttGtca-ttttgaaCtGtagagtcCtaTttcaGTGtGatgaAtcactGttgCtttGaaaAATCTCATTATTTCTGGGCCGGGCATGGTGGCTCACccctGtAATCCCAGCACTTTGGGAGGCCAAGGCGGGTGGATCATGAGGTCAGGAGATCAAGACCATCCTGGCCAACATGGTGATACCCCGTCtctaCTAAAAATACAAAAAAATTAGTTGGGCATGGTGGCATGCACCTGTAGTCCCAGCTACCTGGGAGGCTGAGGCAGGAGAATTGCTTGAACCTGGGAGGCAGAGGTTGCAGTGAGCCAAAATCATGCCACTGCACTCCCGCCTGGCAACAGAGCAAGAGTCTGTCTCAAAAAAAAAAAGAAAAAAAGAAAAAAAGAAAAAAGAAAAATCTCATTATTTCAaaatgatagAcatAtacCAaaaaCaAGtctAtAatgtGAgtAgttactaAaatttacacatcttaaaagtgtgtaaatgctTaaatttcAgaattacCatCagaacCTCAattGaCAttcctttgaataCGCtAataAgtgaca-----------aat-aagattaatAAGatt-ttTcAaaatCGccaGgactggtGaatatAaaTgatgattgaactggaataAtattgGggaccaAaTcaaatgaatgattaaatTatGaaGctcataTCctTtTGaaggtagTtGc----aaaGagacAttTcaaaactgccCtaggccattgCaGcatccttagaTGGGa--cGcaTAatcattaCcttAaagcatCacCactCatttTgacCatatagatTttattAtgttAGtttaaaaggtcaatcagCctcaTGactttatagttatGTCttgtatttaaAAACAtttt-TTaTaCatttGgTtatgttgatAAACcaaaaACatttgattaataaaatatctatttGaataaatTatgag---ctatCCtttcaaaCagCtattggcaagttttaaaCccaaaatatatacacatagtTCtGtaaTaaaacTGTTtgacttCt--caagt--aa--CatgaCttcctTatttctgaaCaGTaCtgGtTaCtttcaaaatGAatttttattgAgatttTCCattaactattt-TtttcaAagactCaaattttgtaccaagtAAatccagGCtttatGtAcaaaCatgttgTttGttTtatttgGggCtggg------GgaggtATAtgatgaGCAgac-ttcTcGgAatTcataataaaT
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>126990</start>
+            <end>129232</end>
+          </span>
+          <alignment>
+            gattAtaatTccttttgtaaagacctgcctaatggtCctgccttcagtgcagacaatatggaagagtgtgacagaCgttGtcattgcCccCttgtgtacAagcgCaggacgCAgcttctcttctgtTagcctgcaactgagccaTgaCtgaatacttggaccccaggtctgAagattTggatactgtaatacttctttgttGttataacatGaaGgcTTTactgttctgttcattAccCaActgttcAaattCagaaaGctattaaCatgGAAaaccacatGtagaaatAtttattgGcagAtcttttcaaataatActtttctaattaaAagccaaGgatttcatatctaactttAtaaccaTaatAatacagtaGgttgGcaAcacAtaATtttaaaggcagaTagtCtttgctttagtacaaAGgtatacattttCtaatgatAaaTCtataatgatCaagggacaGttctCtCaaaC-actGcaaGagttttGtAcacaactGcTcatGaaaaTatgGAatttcttattt----------ttttactctggAGgtaatacttttAaaattGcctGtGcaGGtGAagtcacGggGatactTAgagaTAAGatAatacaaAgatcctAgaaattAcaCtaacaaaagcaTacaGTgatGatagGGTctatCaAataTaataaTGTGaaAaaC---------agattcatgaaaatAtGttcctttaAGTCaGGtattgttAATctaTaggcAtatttaacaagatgtttcaACttactgtatattttgtaCttaTtGtaaatgttgctctaatcagattgcttTaaagcaCttttattatatTTGttatTttgttgaGctaatatat---aGaagtaaatgtaTAtTccacaagg--aacttcattgAtGagattgcactgtCTtgattaCAtaagcatAtg--catcttctttggTaataGaaTGtaaaagagAgCtaTaTaaGgcttt----tctaacttttccaagcaaaatCctGaaatgttttatgacTAAtGtTtATctg-gatGtAaTCTtaattG-----------gtatttCAtctaggagatgctttctGtctTgtagttagaaattaaaCctgtATtcTgcaCtcctattGatTtTtcact--acCttcaagtaatattggtgctattCAAtaacattttacaAtaaaGgCtaTttctgaCacttAagtaTGatttcaaTGaTagtgattcaCAtagagGCTTTcagACAagttgtcaGcttCTTGggTCCATgctactgaGctacATatATataaaTtaaaaactaacTgctacaaactAC-aagatCttAtTGGatatGAATtTtgtTacacTgCataaaAttattcttAtcaTttttgaaTtAtagagtcTtaAttcaCATtTatgaGtcactTttgTtttAaaa------------------------------------ccctAt--------------------------------------------------------------------------------------tcta--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------aaatgatagGcatGtac--aaaaGaTCtctGtGatgtAGgtGgttactaTaatttacacatcttaaaagtgtgtaaatgctCaaatttcGgaattacTatAagaacTCGGattAaTGttcctttgaataGCTtCataGgtgacaGCTCCTTATTCaatGaagattaatTTTattAttCcCaaatTTccaAgactggtAaatatTaaGgatgattgaactggaataCtattgAggaccaGaGcaaatgaatgattaaatCatAaaActcataCActCtCAaaggtagCtAcAAAAaaaAagacTttAcaaaactgccTtaggccattgTaAcatccttagaAAACaCTcTcaGGatcattaActtGaagcatTacTactAattt-gacTatatagatGttattCtgttTTtttaaaaggtcaatcagTctcaCAactttatagttatACTttgtatttaaGCTGTttttAAAaAaTatttAgAtatgttgatTGGGcaaaaGTatttgattaataaaatatctatttAaataaatCatgagCTTctatATtttcaaaTagTtattggcaagttttaaaGccaaaatatatacacatagtCAtAtaaCaaaacCTACtgacttTtAAcaagtGGaaTGTatgaTttcctGatttctgaaTaAAaTtgAtCaTtttcaaaatACatttttattgGgatttGTTattaactatttCAtttcaGagactGaaattttgtaccaagtGGatccagATtttatAtGcaaaTatgttgGttCttAtatttgTggGtgggTGGGAAAgaggtTGGtgatgaTGGgacTttcCcAgTatCcataataaaC
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="68.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAV2-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103447998">
+      <description>HUMT1|CAV1  Full PIGT1:0 UII 85.8 100.0 2359 390 102 2749 2749 2526 37 3 2704 2704 0 0 0 0 2 0 HUMT1|2 /transcript_uid=HUMT1|CAV1</description>
+      <result_span id="CELERA:30000103447999">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAV1-1  Good  PIGT1:0 URU 84.4 100.0 270 50 14 320 320 286 6 1 308 308 0 0 0 0 2 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>354318</start>
+            <end>354626</end>
+          </span>
+          <alignment>
+            gGgAgaaacg--ttctcaCtCgctctCTgctcGctGcgggcgctcccCgccctctgctgccagaaccttggggatgtgcctagacccggcGcagCAcacGtccGGgccaaccgcgagcagaacaaaccTttggcGgGCGgccaGgaggctccctcccagccaccg----ccccccTccagCgcct-----TTTTTTccccccatacaatacaagatcttccttcctcagttccCttaaaGcacagcccagggaaaCctcctcaCagTTttcatccagccac-gggccagCatgtcTgggggcaaatacgtagactcGgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>145606</start>
+            <end>145924</end>
+          </span>
+          <alignment>
+            gAgTgaaacgCTttctcaTt-gctctTAgctcCctAcgggcgctccc-gccctctgctgccagaaccttggggatgtgcctagacccggcAcagAGcacAtccCCgccaaccgcgagcagaacaaaccCttggcCgATTgccaAgaggctccctcccagccaccgCCCCccccccGccagTgcctCCCCCCCCCCGccccccatacaatacaagatcttccttcctcagttccTttaaaTcacagcccagggaaaTctcctcaGagCCttcatccagccacGgggccagAatgtcGgggggcaaatacgtagactcAgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="84.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAV1-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448000">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAV1-2  Good  PIGT1:0 U 91.5 100.0 151 14 0 165 165 165 1 1 165 165 0 0 0 0 2 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>356058</start>
+            <end>356223</end>
+          </span>
+          <alignment>
+            ggacatctctacaccgtTcccatccgggaacagggcaacatctacaagcccaacaacaaggccatggcagaCgaGCtgaGcgagaagcaagtgtaCgacgcgcacaccaaggagatCgacCtggtcaaccgcgaCccTaaAcaCctcaacgaTgacgtGgtcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>147344</start>
+            <end>147509</end>
+          </span>
+          <alignment>
+            ggacatctctacaccgtCcccatccgggaacagggcaacatctacaagcccaacaacaaggccatggcagaGgaAAtgaAcgagaagcaagtgtaTgacgcgcacaccaaggagatAgacTtggtcaaccgcgaTccCaaGcaTctcaacgaCgacgtTgtcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAV1-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448001">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAV1-3  Good  PIGT1:0 URU 85.6 100.0 1938 326 88 2264 2264 2075 30 1 2231 2231 0 0 0 0 2 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>388479</start>
+            <end>390710</end>
+          </span>
+          <alignment>
+            attgaCtttgaagatgtgattgcagaaccagaagggacacacagtttTgaCggcatTtggaaggccagcttcaccaccttcactgtgacgaaAtactggttttaccgCttgctgtctgccctctttggcatcccGatggcActcatctggggcatttacttCgccattctctcTttcctgcacatctgggcAgttgtaccAtgcattaagagCttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccGtctgtgacccActctttgaAgctGttggGaaaatattcagcaatGtccgcatcaacTtgcagaaagaaatataaAtgacatttcaaggAtaGaagtataccTGatt----tttTtTccttttaattttcCtggtgccaatttcAagttCcaaGttgcTaAtacagcaacaAtTtatgaatTgaattAtCttgGttGaAaaTaaaAaGatcaCTtTctcagttttcataaGtaTta--tgtctcttctgagctaTttcatctatTtttggCAGTCtgaatttttaaaaCCcaTttaaaTtTttttccttacCtttTTATTTGCATGTggatcaACCAtCgCtttattggctgagatatgaacAtaTtgttgaaagGtaatttgagAgaaatatgaagaactgagGagGAAAaaaaaaaaaaaGaaaagaaccaACAAcctcaactgcctaCtcCaaaatgttgGtcattttatgTtaagggaagaattccaggGtatggccatGgaGtgtacaAgtAtgtgggcagAttttCagcaaactcttTTcccActgTTTaagGAgttaGTgGattActgccattcac-ttCatAatccaGtaggatcCaGtGatcCTTACaagttagAaaACataatctTcTGcCtTCTCatgaTCCAActaatgccttactctTcttgaaattttaacctAtga-taTtttctGtgccTGaAtatttgttatGtAGAtAaCAaGacctCagtgccttcctgttTttcaCAttttccttttcaaatagggtcTaactcaGcaactCGcTttaggtcagcagcctccctGaagaccaaaattagaa-TatccatGacctagttTtCcaTGcGtgtTtCtgactctGagCtacagaGtCTgGtgaagCtcaCTtctgGGcttCatcTGGcaacatcttTatccGtaGtgGgTatggtTGacaCTagcCcAatgaaatgaattaaAgtggaCCaatAgggCTGagcTctctGtgggctggcagTCCtggaagccaGctttCcctgcctctcaTcaActgaatgaggtcagcatgtctattcagcttcgtttattttcaagaataatcacgctttcctgaAtccaaactaatccatcaccGgggtggtttagtggctCaacattgtgttcccAtttcagctgatcagtgggcctccaAggaGgggct-GtaaaatggaggccattgtgtgagCctAtcagagttgCtgcaaaCCtgacccctGcTCagtaaagcacttgcaacCgtctgttatgctgtgacacaTggcccctccccctgccaggAgctTtggaCctaatccaagcatcCcttTGcCCagaAagaagatgggggaggaggcagtaaTAaaaAgattgaagt-attttgctggaataaGttcaaattcttctgaactcaaactgaggaatttCacctgtaaacctgagtcGtacagaaagctgcctggtaTatccaaaagctttttattcctcctgctcatattGTgattctGccTtTggggacttt-tCttAaaccttcagttatg-----attttt-ttttcatacacTtAttggaacTctgcttgat---------ttttgcctcttccaGtCttcctgacactttaattAccaacctgttacctac------tttGACtttttgcatttaaaacagacactggcatggaTatagttttacttttaaactgtgtacataactgaaaatgtGctatactgcataCtttttaaAtgtaaagatatttttatctttatatgaAgaaaatcacttAggaaAtGGctttgtGattcaatctgtaaactgtgtatTccaagacatgtctgttctaCatagatgcttagtccctCAtgcaaatcaaTtActggtccaaaagattgctgaaattttatatgcttactgatatattttacaAttttttatcAtgcatgtcCtgtaaagGtTaCaagCctgcacaataaaaatgtttaacGgtt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>178313</start>
+            <end>180522</end>
+          </span>
+          <alignment>
+            attgaTtttgaagatgtgattgcagaaccagaagggacacacagtttCgaTggcatCtggaaggccagcttcaccaccttcactgtgacgaaGtactggttttaccgTttgctgtctgccctctttggcatcccAatggcGctcatctggggcatttacttTgccattctctcCttcctgcacatctgggcCgttgtaccCtgcattaagagTttcctgattgagattcagtgcatcagccgtgtctattccatctacgtccacaccTtctgtgacccGctctttgaGgctAttggCaaaatattcagcaatAtccgcatcaacAtgcagaaagaaatataaGtgacatttcaaggGtaTaagtataccCAattCTTCtttGtCccttttaattttcTtggtgccaatttcGagttTcaaTttgcCaGtacagcaacaCtAtatgaat-gaattTtAttgAttCaGaaCaaaGaAatca--tGctcagttttcataaCtaCtaTTtgtctcttctgagctaAttcatctatAtttggGGTGGtgaatttttaaaaGTcaCttaaaAtAttttccttacAttt------------ggatca----tTgTtttattggctgagatatgaacCtaCtgttgaaagAtaatttgagGgaaatatgaagaactgagAag----aaaaaaaaaaaTaaaagaacca----cctcaactgcctaTtcTaaaatgttgAtcattttatgGtaagggaagaattccaggCtatggccatTgaAtgtacaGgtCtgtgggcag-ttttAagcaaactctt--cccTctg---aagT-gttaACgAattGctgccattcacTttAatGatccaAtaggatcAaAt-atc-----aagttagTaaGTataatctGcA-cAt----atga-----ctaatgccttactct-cttgaaattttaacctGtgaTtaCtttctAtgccCAaGtatttgttatAtCAGtGaTGaCacctAagtgccttcctgttCttcaGGttttccttttcaaatagggtcCaactcaCcaactTTcAttaggtcagcagcctccctAaagaccaaaattagaaCAatccatCacctagttCtTcaCAcTtgtCtTtgactctCagAtacagaAtGAgAtgaagTtcaTGtctgCActtGatcACAcaacatcttAatccAtaTtgAgAatggtCCacaTCagcGcCatgaaatgaattaaGgtggaTAaatGgggTCAagcCctctCtgggctggcagGAGtggaagccaActttTcctgcctctcaCcaGctgaatgaggtcagcatgtctattcagcttcgtttattttcaagaataatcacgctttcctgaCtccaaactaatccatcaccAgggtggtttagtggctGaacattgtgttcccTtttcagctgatcagtgggcctccaGggaAgggctCAtaaaatggaggccattgtgtgagActGtcagagttgTtgcaaaTGtgacccctTcAAagtaaagcacttgcaacTgtctgttatgctgtgacacaGggcccctccccctgccagg-gctGtggaTctaatccaagcatcActtGAcTGagaGagaagatgggggaggaggcagtaaCGaaa-gattgaagtAattttgctggaataaAttcaaattcttctgaactcaaactgaggaatttTacctgtaaacctgagtcAtacagaaagctgcctggtaCatccaaaagctttttattcctcctgctcatattAAgattctTccCtGggggactttAtTttTaaccttcagttatgCTTTTatttttAttttcatacacCtGttggaacCctgcttgatTTTTTTTTCttttgcctcttccaAtTttcctgacactttaattGccaacctgttacctacTTAGGTtttTTTtttttgcatttaaaacagacactggcatggaCatagttttacttttaaactgtgtacataactgaaaatgtActatactgcataAtttttaaGtgtaaagatatttttatctttatatgaGgaaaatcacttGggaaTtA-ctttgtTattcaatctgtaaactgtgtatCccaagacatgtctgttctaTatagatgcttagtccctTGtgcaaatcaaGtGctggtccaaaagattgctgaaattttatatgcttactgatatattttacaCttttttatcCtgcatgtcTtgtaaag-tCaTaagTctgcacaataaaaatgtttaacAgtt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="85.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAV1-3"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103448002">
+      <description>HUMT1|MET  Full PIGT1:0 UII 89.8 99.5 4163 471 28 4634 4656 4566 34 21 4633 4611 0 22 0 40 3 0 HUMT1|3 /transcript_uid=HUMT1|MET</description>
+      <result_span id="CELERA:30000103448003">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-1  Good  PIGT1:0 URU 84.7 100.0 150 27 5 177 177 161 4 1 174 174 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>501937</start>
+            <end>502111</end>
+          </span>
+          <alignment>
+            ggcCctcgccgcccgCggcGccccgagcgctttgtgaGcagatgcggaGccGagTggagggcgcgagccagatgcggggcgacagctgacttgctgAgaggaggcggggAGgCGCggagcgcgCgtgTGgtccTtgCgcCgCtgacttctcc---AcTgGttcctgggcaccgAaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>287980</start>
+            <end>288155</end>
+          </span>
+          <alignment>
+            ggcTctcgccgcccgTggcTccccgagcgctttgtgaCcagatgcggaAccCagCggagggcgcgagccagatgcggggcgacagctgacttgctgCgaggaggcggggCAgAAAggagcgcgGgtg--gtccCtgTgcTgTtgacttctccGCGGcAgAttcctgggcaccgCaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="84.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448004">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-2  Good  PIGT1:0 URU 88.8 100.0 1081 136 3 1217 1217 1210 3 1 1214 1214 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>528604</start>
+            <end>529818</end>
+          </span>
+          <alignment>
+            ataaacCtctcaTAatgaaggccccCgctgtgcttgcacctggcatcctCgtgctCctgtttaccttggtgcagaGgagcaaTggGgagtgtaaagaggcactAgCaaagtccGAgatgaatGtgaaTatgAaGtatcagcttccCaacttcacCgcggaaacacccatCcagaatgtcAttCtacaTGagcatcacatttTcctTggtgccACtaactacatttatgttttaaatgaGGAagaccttcAgaaggttgctgagtacaaGactgggccTgtgctggaacacccagattgtttcccatgtcaggactgcagcAGcaaagccaatttatcaggAggTGtttggaAagataacatcaacatggctctAGttgtCgacacCtaCtatgatgaTcaactcattagctgTggcagCgtcAacagagggacctgccagcgAcatgtcTttccCcACAatCataCTgctgacatACagtcGgaggttcactgcatAtTctccccacagAta---gaagagcccagccagtgtcctgactgtgtggtgagCgcCctgggaGccaaagtcctTTCAtctgTaaaggaccggttcatcaacttcttTgtAggCaataccataaattcttcttaTTtCccAgatcatCcattgcattcGatatcagtgagaaggctaaaggaaacgAaagatggttttaTgtttttgacGgaccagtcctaCattgatgttTtacctgagttcAgagattcTtaccccattaagtatgtccatgcctttgaaagcaacAattttatttacttCttgacGgtccaaAgggaaactctAgaTgctcagacttttcacacaagaataatcaggttctgttcCAtaAactctggattgcattcctacatggaaatgcctctggagtgtattctcacagaaaagagaaAaaagagatccacaaAgAaggaagtgttTaatatActTcaGgctgcGtatgtcagCaagcctgggGcCcagctTgctaGAcaaataggAgccaGcctgaatgatgacattctTtTCggggtGttCgcacaaagcaagccagattctgccgaaccaatgGatcgAtctgccAtGtgtgcattccctAtCaaatatgtcaaCgaCttcttcaacaagatCgtcaacaaaaacaatgtgagatgtctccagcatttttaCggAcccaaTcatgaGcactgcttTaaTagg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>316443</start>
+            <end>317660</end>
+          </span>
+          <alignment>
+            ataaacTtctcaCCatgaaggccccTgctgtgcttgcacctggcatcctTgtgctTctgtttaccttggtgcagaAgagcaaGggAgagtgtaaagaggcactGgTaaagtccACgatgaatTtgaaCatgCaAtatcagcttccTaacttcacTgcggaaacacccatTcagaatgtcGttTtacaCAagcatcacatttAcctGggtgccCTtaactacatttatgttttaaatgaCATagaccttcGgaaggttgctgagtacaaAactgggccCgtgctggaacacccagattgtttcccatgtcaggactgcagcCAcaaagccaatttatcaggTggCAtttggaGagataacatcaacatggctctGCttgtTgacacGtaTtatgatgaCcaactcattagctgCggcagTgtcCacagagggacctgccagcgGcatgtcCttccAcCTGatAataTCgctgacatCAagtcAgaggttcactgcatGtActccccacagGtaGATgaagagcccagccagtgtcctgactgtgtggtgagTgcGctgggaAccaaagtcctGCTGtctgAaaaggaccggttcatcaacttcttCgtGggTaataccataaattcttcttaCCtTccGgatcatTcattgcattcAatatcagtgagaaggctaaaggaaacgCaagatggttttaAgtttttgacAgaccagtcctaTattgatgttCtacctgagttcCgagattcCtaccccattaagtatgtccatgcctttgaaagcaacCattttatttacttTttgacAgtccaaCgggaaactctCgaCgctcagacttttcacacaagaataatcaggttctgttcTGtaGactctggattgcattcctacatggaaatgcctctggagtgtattctcacagaaaagagaaGaaagagatccacaaGgGaggaagtgttCaatatTctCcaAgctgcAtatgtcagTaagcctgggAcTcagctCgctaAGcaaataggTgccaAcctgaatgatgacattctCtATggggtAttTgcacaaagcaagccagattctgccgaaccaatgAatcgCtctgccGtCtgtgcattccctGtGaaatatgtcaaTgaAttcttcaacaagatTgtcaacaaaaacaatgtgagatgtctccagcatttttaTggCcccaaCcatgaAcactgcttCaaCagg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448005">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-3  Good  PIGT1:0 U 92.2 100.0 177 15 0 192 192 192 1 1 192 192 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>561201</start>
+            <end>561393</end>
+          </span>
+          <alignment>
+            acacttCtgagaaattcatcaggctgtgaagCgcgcCgtgatgaatatcgaacagagtttaccacagctttgcagcgCGttgacttattcatgggTcaAttcaGcGaagtcctcttaacatcTatatccaccttcattaaaggagacctcaccatAgctaaTctTgggacAtcagagggtcgCttcatgcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>343817</start>
+            <end>344009</end>
+          </span>
+          <alignment>
+            acacttTtgagaaattcatcaggctgtgaagTgcgcAgtgatgaatatcgaacagagtttaccacagctttgcagcgAAttgacttattcatgggCcaGttcaAcCaagtcctcttaacatcCatatccaccttcattaaaggagacctcaccatCgctaaCctCgggacGtcagagggtcgAttcatgcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448006">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-4  Good  PIGT1:0 URU 85.9 100.0 116 19 3 135 135 132 2 1 135 135 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>569483</start>
+            <end>569618</end>
+          </span>
+          <alignment>
+            gttgtggtttctcgaTcaggaCCAtcaacccctcaTgtgaattttcTcctggaCtcccaTccAgtGtctccagaagtgatTgtggagcATAcaTtaaaccaaaatggctaCacActggtTAtcactgggaagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>354481</start>
+            <end>354613</end>
+          </span>
+          <alignment>
+            gttgtggtttctcgaCcaggaTTGtcaacccctcaCgtgaattttcAcctggaTtcccaCccTgtAtctccagaagtgatCgtggagc---caCtaaaccaaaatggctaTacCctggtAGtcactgggaagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="85.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448007">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-5  Good  PIGT1:0 U 88.5 100.0 154 20 0 174 174 174 1 1 174 174 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>570385</start>
+            <end>570559</end>
+          </span>
+          <alignment>
+            atcacGaagatcccATtgaaTggcttgggctgCAGacatttccagtcctgcagtcaAtgcctctctgccccAccctttgtTcagtgtggctggtgccaCgaCaaatgtgtgcGatCggaggaatgccTGagCgggacatggactcaaCagatctgtctgcctGcaAtctacaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>355524</start>
+            <end>355698</end>
+          </span>
+          <alignment>
+            atcacCaagatcccGCtgaaCggcttgggctgTGAacatttccagtcctgcagtcaGtgcctctctgccccTccctttgtAcagtgtggctggtgccaGgaTaaatgtgtgcAatTggaggaatgccCCagTgggacatggactcaaGagatctgtctgcctAcaGtctacaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="88.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448008">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-6  Good  PIGT1:0 U 89.4 100.0 144 17 0 161 161 161 1 1 161 161 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>584888</start>
+            <end>585049</end>
+          </span>
+          <alignment>
+            gttttcccAaAtagtgcAccccttgaaggagggacaaGgctgaccatatgtggctgggactttggattTCggagGaataataaatttgaTttaaAgaaaacTaGagttctccttggAaatgagagctgCaccttgacTttaagtgagagcacgaTGaaTac
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>360544</start>
+            <end>360705</end>
+          </span>
+          <alignment>
+            gttttcccTaCtagtgcCccccttgaaggagggacaaCgctgaccatatgtggctgggactttggattCAggagAaataataaatttgaCttaaGgaaaacCaAagttctccttggGaatgagagctgTaccttgacCttaagtgagagcacgaCAaaCac
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448009">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-7  Good  PIGT1:0 U 88.3 100.0 91 12 0 103 103 103 1 1 103 103 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>586970</start>
+            <end>587073</end>
+          </span>
+          <alignment>
+            AttgaaatgcacagttggtcctgcCatgaatAaGcatttcaatatgtccataAttatttcaaatggCcACgggacaacacaataCagTacAttCtcctatgtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>362525</start>
+            <end>362628</end>
+          </span>
+          <alignment>
+            GttgaaatgcacagttggtcctgcAatgaatGaAcatttcaatatgtccataGttatttcaaatggTcGAgggacaacacaataTagGacGttTtcctatgtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="88.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448010">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-8  Good  PIGT1:0 URU 86.9 100.0 119 18 0 137 137 127 2 1 137 137 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>587171</start>
+            <end>587308</end>
+          </span>
+          <alignment>
+            gatcctgtaataacaaGtatttcGccGaAAtACggtcctaTGGctggtggCactttacttacTttaactggaaATTacctaaacagtgggaaTtctagacacatttcaattggtggaaaaacAtgtactttAaaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>362734</start>
+            <end>362871</end>
+          </span>
+          <alignment>
+            gatcctgtaataacaaAtatttcTccAaGTtTTggtcctaAAActggtggTactttacttacAttaactggaaTGCacctaaacagtgggaaCtctagacacatttcaattggtggaaaaacGtgtactttGaaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="86.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448011">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-9  Good  PIGT1:0 U 89.5 100.0 145 17 0 162 162 162 1 1 162 162 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>587992</start>
+            <end>588154</end>
+          </span>
+          <alignment>
+            tgtgtcaAaCagtattcttgaatgttataccccagcccaaaccaTtTcaactgaGttTGctGttaaAttgaaaattgacttagccaaccgagagaCaaGcaTcttcaGttaccgTgaagaTcccattgtctatgaaatTcatccAaccaaatcttttattag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>363550</start>
+            <end>363712</end>
+          </span>
+          <alignment>
+            tgtgtcaGaTagtattcttgaatgttataccccagcccaaaccaCtCcaactgaAttCCctAttaaGttgaaaattgacttagccaaccgagagaTaaAcaGcttcaCttaccgGgaagaCcccattgtctatgaaatAcatccCaccaaatcttttattag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448012">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-10  Good  PIGT1:0 URU 89.1 100.0 139 17 2 156 156 154 2 1 154 154 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>588870</start>
+            <end>589024</end>
+          </span>
+          <alignment>
+            tacttggt-g-gaaagaacctctcaaCattgtCAGttttctattttGCtttgccagtggTgggagcacaataacaggtgttggGaAaaacctgaattcagttagtgtccCgagAatggtCataaatgtgcatgaagcagGaagGaaCtttacagtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>363956</start>
+            <end>364112</end>
+          </span>
+          <alignment>
+            tacttggtAgAgaaagaacctctcaaTattgtTGTttttctattttATtttgccagtggAgggagcacaataacaggtgttggAaGaaacctgaattcagttagtgtccTgagGatggtAataaatgtgcatgaagcagAaagAaaTtttacagtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="89.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448013">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-11  Good  PIGT1:0 U 94.1 100.0 206 13 0 219 219 219 1 1 219 219 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>592583</start>
+            <end>592802</end>
+          </span>
+          <alignment>
+            gcatgtcaAcatcgctctaattcagagataatctgTtgtacCactccttcCctGcaacagctgaaTctGcaactccccctgaaaaccaaAgcCtttttcatgttagatgggatCcTttccaaatactttgatctcatttatgtacataatcctgtgtttaagccttttgaaaagccagtgatgatctcaatGggcaatgaaaaTgtactggaaattaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>368464</start>
+            <end>368683</end>
+          </span>
+          <alignment>
+            gcatgtcaGcatcgctctaattcagagataatctgCtgtacAactccttcActAcaacagctgaaCctAcaactccccctgaaaaccaaGgcAtttttcatgttagatgggatTcAttccaaatactttgatctcatttatgtacataatcctgtgtttaagccttttgaaaagccagtgatgatctcaatAggcaatgaaaaCgtactggaaattaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448014">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-12  Good  PIGT1:0 U 96.6 100.0 142 5 0 147 147 147 1 1 147 147 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>599178</start>
+            <end>599325</end>
+          </span>
+          <alignment>
+            ggaaatgatattgaccctgaagcagttaaaggtgaagtgttaaaagttggaaataagagCtgtgagaatatacaCtTacattctgaagccgttttatgCacGgtccccaatgacctgctgaaattgaacagcgagctaaatatagag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>375440</start>
+            <end>375587</end>
+          </span>
+          <alignment>
+            ggaaatgatattgaccctgaagcagttaaaggtgaagtgttaaaagttggaaataagagTtgtgagaatatacaTtCacattctgaagccgttttatgTacAgtccccaatgacctgctgaaattgaacagcgagctaaatatagag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448015">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-13  Good  PIGT1:0 U 94.3 100.0 148 9 0 157 157 157 1 1 157 157 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>601031</start>
+            <end>601188</end>
+          </span>
+          <alignment>
+            tggaagcaagcaatttcttcaacCgtccttggaaaagtaatagttcaaccagatcagaatttcacaggattgattgCtggtgttgtctcaatatcaaCaGCactGttattactActTgggTttttcctgtggctgaaaaagagaaagcaaattaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>377445</start>
+            <end>377602</end>
+          </span>
+          <alignment>
+            tggaagcaagcaatttcttcaacTgtccttggaaaagtaatagttcaaccagatcagaatttcacaggattgattgTtggtgttgtctcaatatcaaTaATactCttattactGctCgggCttttcctgtggctgaaaaagagaaagcaaattaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448016">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-14  Good  PIGT1:0 U 96.5 100.0 136 5 0 141 141 141 1 1 141 141 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>601382</start>
+            <end>601523</end>
+          </span>
+          <alignment>
+            atctGggcagtgaaTtagttcgctaCgatgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagaaatggtttcaaAtgaaTctgtagactaccgagctacttttccagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>377803</start>
+            <end>377944</end>
+          </span>
+          <alignment>
+            atctAggcagtgaaCtagttcgctaTgatgcaagagtacacactcctcatttggataggcttgtaagtgcccgaagtgtaagcccaactacagaaatggtttcaaGtgaaCctgtagactaccgagctacttttccagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448017">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-15  Good  PIGT1:0 U 93.9 100.0 217 14 0 231 231 231 1 1 231 231 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>604414</start>
+            <end>604645</end>
+          </span>
+          <alignment>
+            aTcagttTcctaaTtcatctcagaaCggTtcatgcCgacaagtgcagtatcctctgacagacAtGtcccccatcctaactagtggGgactctgatatatcCagtccattactgcaaaatacTgtccacattgacctcagtgctctaaatccagagctggtccaggcagtGcagcatgtagtgattgggccCagTagcctgattgtgcatttcaatgaagtcataggaagag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>380961</start>
+            <end>381192</end>
+          </span>
+          <alignment>
+            aCcagttCcctaaCtcatctcagaaTggAtcatgcAgacaagtgcagtatcctctgacagacCtAtcccccatcctaactagtggAgactctgatatatcTagtccattactgcaaaatacCgtccacattgacctcagtgctctaaatccagagctggtccaggcagtTcagcatgtagtgattgggccAagCagcctgattgtgcatttcaatgaagtcataggaagag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448018">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-16  Good  PIGT1:0 U 90.1 100.0 73 8 0 81 81 81 1 1 81 81 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>606922</start>
+            <end>607003</end>
+          </span>
+          <alignment>
+            gGcattttggTtgtgtataTcatgggactttGttggaCaatgatgGCaagaaaattcactgtgctgtgaaatccttgaaCa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>383863</start>
+            <end>383944</end>
+          </span>
+          <alignment>
+            gAcattttggGtgtgtataCcatgggactttAttggaTaatgatgATaagaaaattcactgtgctgtgaaatccttgaaTa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="90.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448019">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-17  Good  PIGT1:0 U 95.6 100.0 174 8 0 182 182 182 1 1 182 182 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>608309</start>
+            <end>608491</end>
+          </span>
+          <alignment>
+            gaatcactgacataggagaagtttcccaatttctgacCgagggaatcatcatgaaagattttagtcatcccaatgtCctctcgctcCtgggaatctgcctGcgaagtgaAgggtctccGctggtggtcctaccatacatgaaacatggAgatcttcgaaatttcattCgaaatgagactcat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>386245</start>
+            <end>386427</end>
+          </span>
+          <alignment>
+            gaatcactgacataggagaagtttcccaatttctgacTgagggaatcatcatgaaagattttagtcatcccaatgtTctctcgctcTtgggaatctgcctTcgaagtgaGgggtctccActggtggtcctaccatacatgaaacatggGgatcttcgaaatttcattAgaaatgagactcat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448020">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-18  Good  PIGT1:0 U 97.3 100.0 107 3 0 110 110 110 1 1 110 110 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>611521</start>
+            <end>611631</end>
+          </span>
+          <alignment>
+            aaTccaactgtaaaagatcttattggctttggTcttcaagtAgccaaaggcatgaaatatcttgcaagcaaaaagtttgtccacagagacttggctgcaagaaactgtat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>389679</start>
+            <end>389789</end>
+          </span>
+          <alignment>
+            aaCccaactgtaaaagatcttattggctttggCcttcaagtGgccaaaggcatgaaatatcttgcaagcaaaaagtttgtccacagagacttggctgcaagaaactgtat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448021">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-19  Good  PIGT1:0 U 94.6 100.0 157 9 0 166 166 166 1 1 166 166 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>612837</start>
+            <end>613003</end>
+          </span>
+          <alignment>
+            gctggatgaaaaattcacAgtcaaggttgctgattttggTcttgccagAgaCAtgtatgataaagaatactatagtgtacacaacaaaacaggtgcaaaGctgccagtgaagtggatggctttGgaaagTctgcaaactcaAaagtttaccaccaagtcagatgtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>391004</start>
+            <end>391170</end>
+          </span>
+          <alignment>
+            gctggatgaaaaattcacTgtcaaggttgctgattttggActtgccagGgaTGtgtatgataaagaatactatagtgtacacaacaaaacaggtgcaaaActgccagtgaagtggatggctttAgaaagCctgcaaactcaGaagtttaccaccaagtcagatgtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448022">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-20  Good  PIGT1:0 U 93.4 100.0 128 9 0 137 137 137 1 1 137 137 0 0 0 0 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>625188</start>
+            <end>625325</end>
+          </span>
+          <alignment>
+            tggtcctttggcgtgctcctctgggaGctgatgacaagaggagcCccaccttatcctgacgtAaacacctttgatataacTgtTtacttgttgcaaggGagaagActcctacaaccCgaatactgcccagaCccctt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>400551</start>
+            <end>400688</end>
+          </span>
+          <alignment>
+            tggtcctttggcgtgctcctctgggaActgatgacaagaggagcAccaccttatcctgacgtCaacacctttgatataacAgtGtacttgttgcaaggCagaagGctcctacaaccTgaatactgcccagaTccctt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|MET-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448023">
+        <span_type>HSP</span_type>
+        <description>HUMT1|MET-21  Good  PIGT1:0 URR 80.0 95.3 359 90 15 449 471 419 6 1 456 434 0 22 0 40 3 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>625420</start>
+            <end>625876</end>
+          </span>
+          <alignment>
+            AtaTgaagtAatgctAaaatgctggcaCcctaAagcCgaaAtGcgcccatccttttctgaactggtGtccCggatatcagcGatcttctctactttcattggggagcactatgtccaTgtgaaCgctacttaTgtgaaCgtAaaatgtgtCgctccGtatccttctctGttgtcatcaGaagataaCgCtgatgATgaggTggacacaCga--CCagCCtCcTTctg-----GGagAcAtc-----aTaGTGCtAGtACTa-tgtcAaaGcaAcagtCcacactttgtccaatGGttttttCactgcctgAccTTtAaaaggccaTcGa-tattCtttgctCttgccaaaattgcactatTatAggaCttGtattGtt-AtttaaatTactggattctaaggaatttCtTatctgacaGagcatcagaAccagaGgcttggtcccacagGCCACGGACCAATGGCCTGCAG
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>400794</start>
+            <end>401243</end>
+          </span>
+          <alignment>
+            GtaCgaagtGatgctGaaatgctggcaTcctaGagcTgaaCtTcgcccatccttttctgaactggtCtccAggatatcagcTatcttctctactttcattggggagcactatgtccaCgtgaaTgctacttaCgtgaaTgtCaaatgtgtTgctccAtatccttctctTttgtcatcaCaagataaTgTtgatgGCgaggGggacacaTgaTGGAagGAtGcACctgCACCACCagCcCtcTTCTGaAaAACAtCAtCGAaCtgtcCaaAcaGcagtGcacactttgtccaatATttttttTactgcctgGccACtGaaaggccaCcAaGtattTtttgctTttgccaaaattgcactatGatGggaTttAtattAttGCtttaaatGactggattctaaggaatttGtCatctgacaAagcatcagaGccagaAgcttggtcccacag----------------------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URR"></property>
+        <property name="percent_id" value="80.0"></property>
+        <property name="percent_coverage" value="95.3"></property>
+        <property name="exon_name" value="HUMT1|MET-21"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103448024">
+      <description>HUMT1|CAPZA2  Full PIGT1:0 URU 96.4 100.0 885 33 0 918 918 918 10 10 918 918 0 0 0 0 4 0 HUMT1|4 /transcript_uid=HUMT1|CAPZA2</description>
+      <result_span id="CELERA:30000103448025">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-1  Good  PIGT1:0 U 89.5 100.0 51 6 0 57 57 57 1 1 57 57 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>692127</start>
+            <end>692184</end>
+          </span>
+          <alignment>
+            tTtgtcgccAgaaggaaGatggcggatCtggaGgagcagttgtctgatgaAgagaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>461630</start>
+            <end>461687</end>
+          </span>
+          <alignment>
+            tCtgtcgccGgaaggaaAatggcggatTtggaAgagcagttgtctgatgaGgagaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448026">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-2  Good  PIGT1:0 U 93.8 100.0 60 4 0 64 64 64 1 1 64 64 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>717660</start>
+            <end>717724</end>
+          </span>
+          <alignment>
+            gtGcgtatagcagcAaaattcatcattcatgcccctcctggagaatttaatgaggtTttCaatg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>487126</start>
+            <end>487190</end>
+          </span>
+          <alignment>
+            gtAcgtatagcagcGaaattcatcattcatgcccctcctggagaatttaatgaggtGttTaatg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448027">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-3  Good  PIGT1:0 U 98.1 100.0 51 1 0 52 52 52 1 1 52 52 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>722527</start>
+            <end>722579</end>
+          </span>
+          <alignment>
+            atgttcggttactgcttaataatgaCaatcttctcagggaaggagcagccca
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>488706</start>
+            <end>488758</end>
+          </span>
+          <alignment>
+            atgttcggttactgcttaataatgaTaatcttctcagggaaggagcagccca
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448028">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-4  Good  PIGT1:0 U 98.4 100.0 63 1 0 64 64 64 1 1 64 64 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>728305</start>
+            <end>728369</end>
+          </span>
+          <alignment>
+            tgcatttgcacagtataacTtggaccagtttactccagtaaaaattgaaggttatgaagatcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>492579</start>
+            <end>492643</end>
+          </span>
+          <alignment>
+            tgcatttgcacagtataacCtggaccagtttactccagtaaaaattgaaggttatgaagatcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448029">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-5  Good  PIGT1:0 U 95.2 100.0 197 10 0 207 207 207 1 1 207 207 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>733710</start>
+            <end>733917</end>
+          </span>
+          <alignment>
+            gtattgataacagaacatggCgacttgggaaatggaaagtttttggatccaaaGaacagaatctgtttTaaatttgatcacttaagGaaggaGgcaactgatccaagaccctGtgaagTagaaaatgcagttgaatcatggagaacttcagtagaaactgctctgAgagcttaCgtaaaagaacattaCccgaatggagtctgcact
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>498016</start>
+            <end>498223</end>
+          </span>
+          <alignment>
+            gtattgataacagaacatggTgacttgggaaatggaaagtttttggatccaaaAaacagaatctgtttCaaatttgatcacttaagAaaggaAgcaactgatccaagaccctAtgaagCagaaaatgcagttgaatcatggagaacttcagtagaaactgctctgCgagcttaTgtaaaagaacattaTccgaatggagtctgcact
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448030">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-6  Good  PIGT1:0 U 93.8 100.0 75 5 0 80 80 80 1 1 80 80 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>735796</start>
+            <end>735876</end>
+          </span>
+          <alignment>
+            gtGtatggCaaaaaaatagatggAcagcaaaccattattgcatgcatagaaagccatcagttCcaagcaaaaaaTttttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>499908</start>
+            <end>499988</end>
+          </span>
+          <alignment>
+            gtAtatggTaaaaaaatagatggGcagcaaaccattattgcatgcatagaaagccatcagttTcaagcaaaaaaCttttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448031">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-7  Good  PIGT1:0 U 97.5 100.0 77 2 0 79 79 79 1 1 79 79 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>739766</start>
+            <end>739845</end>
+          </span>
+          <alignment>
+            gaatggtcgttggaggtcagaAtggaagtttacaatcactccttcaaccactcaAgtggttggcatcttgaaaattcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>503656</start>
+            <end>503735</end>
+          </span>
+          <alignment>
+            gaatggtcgttggaggtcagaGtggaagtttacaatcactccttcaaccactcaGgtggttggcatcttgaaaattcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448032">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-8  Good  PIGT1:0 X 100.0 100.0 72 0 0 72 72 72 1 1 72 72 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>741602</start>
+            <end>741674</end>
+          </span>
+          <alignment>
+            gttcattattatgaagatggtaatgttcagctagtgagtcataaagatatacaagattccctaacagtgtct
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>505721</start>
+            <end>505793</end>
+          </span>
+          <alignment>
+            gttcattattatgaagatggtaatgttcagctagtgagtcataaagatatacaagattccctaacagtgtct
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="X"></property>
+        <property name="percent_id" value="100.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448033">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-9  Good  PIGT1:0 U 95.2 100.0 60 3 0 63 63 63 1 1 63 63 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>745593</start>
+            <end>745656</end>
+          </span>
+          <alignment>
+            aatgaAgtgcaaacagcaaaagaatttataaagattgtagaAgctgcagaaaatgaataCcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>509399</start>
+            <end>509462</end>
+          </span>
+          <alignment>
+            aatgaGgtgcaaacagcaaaagaatttataaagattgtagaGgctgcagaaaatgaataTcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448034">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CAPZA2-10  Good  PIGT1:0 U 99.4 100.0 179 1 0 180 180 180 1 1 180 180 0 0 0 0 4 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>747260</start>
+            <end>747440</end>
+          </span>
+          <alignment>
+            actgccatcagtgagaattatcagacaatgtcggacactactttcaaagccttacgtcgacagttgccagttacacgcactaagattgattggaacaagatccttagctacaagattggcaaagagatgcagaatgcataagatGaacattgcatgaccggatcattttagtgtctttgc
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>510193</start>
+            <end>510373</end>
+          </span>
+          <alignment>
+            actgccatcagtgagaattatcagacaatgtcggacactactttcaaagccttacgtcgacagttgccagttacacgcactaagattgattggaacaagatccttagctacaagattggcaaagagatgcagaatgcataagatCaacattgcatgaccggatcattttagtgtctttgc
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="99.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CAPZA2-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103448035">
+      <description>HUMT1|ST7b  Partial PIGT1:0 URI 95.0 55.1 959 50 0 1009 1830 1009 9 9 1830 1009 0 821 0 0 5 0 HUMT1|5 /transcript_uid=HUMT1|ST7b</description>
+      <result_span id="CELERA:30000103448036">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-1  Good  PIGT1:0 U 94.7 100.0 143 8 0 151 151 151 1 1 151 151 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>783074</start>
+            <end>783225</end>
+          </span>
+          <alignment>
+            atggctgaagcggCcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacGtatctGtggacCgtgtggttcttcatcgtGctAttcctGgtctacatcctgcgggtgccTttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>541348</start>
+            <end>541499</end>
+          </span>
+          <alignment>
+            atggctgaagcggGcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacTtatctCtggacTgtgtggttcttcatcgtCctCttcctCgtctacatcctgcgggtgccCttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448037">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-2  Good  PIGT1:0 U 94.0 100.0 78 5 0 83 83 83 1 1 83 83 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>929295</start>
+            <end>929378</end>
+          </span>
+          <alignment>
+            tGagcatgtttttgaacacaTtAacAccgaagttctacgtggccctAacaggcacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>683737</start>
+            <end>683820</end>
+          </span>
+          <alignment>
+            tAagcatgtttttgaacacaCtGacGccgaagttctacgtggccctGacaggcacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448038">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-3  Good  PIGT1:0 U 94.4 100.0 151 9 0 160 160 160 1 1 160 160 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>949094</start>
+            <end>949254</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaAtaCggAacTtcattcattgaacaagtctcagtAagccacttgcgcccccttctgggaggggttgacaacaactcTtccaacaattctaaTtccagtaaCggggactcagattccaaTaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>691363</start>
+            <end>691523</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaGtaTggGacAtcattcattgaacaagtctcagtGagccacttgcgcccccttctgggaggggttgacaacaactcCtccaacaattctaaCtccagtaaTggggactcagattccaaCaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448039">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-4  Good  PIGT1:0 U 92.7 100.0 51 4 0 55 55 55 1 1 55 55 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>959326</start>
+            <end>959381</end>
+          </span>
+          <alignment>
+            aatgCaaagtAtggcgaaatccactaaatttatttaggggTgctgaataCaatcg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>701979</start>
+            <end>702034</end>
+          </span>
+          <alignment>
+            aatgTaaagtGtggcgaaatccactaaatttatttaggggCgctgaataTaatcg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448040">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-5  Good  PIGT1:0 U 94.8 100.0 110 6 0 116 116 116 1 1 116 116 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>960024</start>
+            <end>960140</end>
+          </span>
+          <alignment>
+            gtatacTtgggtgacaggacgAgagcctctTacttactatgacatgaatctctctgcccaAgaccaccagacattcttTacttgtgactcGgaccatctgcgtcccgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>702662</start>
+            <end>702778</end>
+          </span>
+          <alignment>
+            gtatacAtgggtgacaggacgGgagcctctGacttactatgacatgaatctctctgcccaGgaccaccagacattcttCacttgtgactcAgaccatctgcgtcccgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448041">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-6  Good  PIGT1:0 U 98.7 100.0 75 1 0 76 76 76 1 1 76 76 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>961418</start>
+            <end>961494</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcagctcatgaagccttGgagataaatga
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>704629</start>
+            <end>704705</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcagctcatgaagccttAgagataaatga
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448042">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-7  Good  PIGT1:0 U 93.5 100.0 145 10 0 155 155 155 1 1 155 155 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>965614</start>
+            <end>965769</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggcTgaagaggaagcaacaacCattgctgaagcagaaaaATtAtttaagcaggcCctgaaGgctggagatggctgttaccgAcgCtctcagcagctacaAcatcatggatcccagtatgaagcccaacata
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>708702</start>
+            <end>708857</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggcGgaagaggaagcaacaacAattgctgaagcagaaaaGCtGtttaagcaggcTctgaaAgctggagatggctgttaccgGcgTtctcagcagctacaGcatcatggatcccagtatgaagcccaacata
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448043">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-8  Good  PIGT1:0 U 96.9 100.0 95 3 0 98 98 98 1 1 98 98 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>967968</start>
+            <end>968066</end>
+          </span>
+          <alignment>
+            gacgagacaccaaTgtcttggtGtacatcaaaagaaggctagcaatgtgtgccagaagactCgggaggaccagggaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>711038</start>
+            <end>711136</end>
+          </span>
+          <alignment>
+            gacgagacaccaaCgtcttggtCtacatcaaaagaaggctagcaatgtgtgccagaagactTgggaggaccagggaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448044">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7b-9  Good  PIGT1:0 U 96.5 100.0 111 4 0 115 115 115 1 1 115 115 0 0 0 0 5 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1000395</start>
+            <end>1000510</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttccccctTctgagTatgttcaaTatccatgaaaaccttttagaagccctTctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgatg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>742901</start>
+            <end>743016</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttccccctCctgagCatgttcaaCatccatgaaaaccttttagaagccctCctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgatg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7b-9"></property>
+      </result_span>
+      <property name="mapping_status" value="Partial"></property>
+    </result_set>
+    <result_set id="CELERA:30000103448045">
+      <description>HUMT1|ST7a  Partial PIGT1:0 URI 95.3 43.2 1027 51 0 1078 2496 1078 10 10 2496 1078 0 1418 0 0 6 0 HUMT1|6 /transcript_uid=HUMT1|ST7a</description>
+      <result_span id="CELERA:30000103448046">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-1  Good  PIGT1:0 U 94.7 100.0 143 8 0 151 151 151 1 1 151 151 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>783074</start>
+            <end>783225</end>
+          </span>
+          <alignment>
+            atggctgaagcggCcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacGtatctGtggacCgtgtggttcttcatcgtGctAttcctGgtctacatcctgcgggtgccTttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>541348</start>
+            <end>541499</end>
+          </span>
+          <alignment>
+            atggctgaagcggGcacgggctttctggagcagctcaagtcctgcatagtttggtcttggacTtatctCtggacTgtgtggttcttcatcgtCctCttcctCgtctacatcctgcgggtgccCttgaaaatcaacgacaacttgagcacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448047">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-2  Good  PIGT1:0 U 94.0 100.0 78 5 0 83 83 83 1 1 83 83 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>929295</start>
+            <end>929378</end>
+          </span>
+          <alignment>
+            tGagcatgtttttgaacacaTtAacAccgaagttctacgtggccctAacaggcacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>683737</start>
+            <end>683820</end>
+          </span>
+          <alignment>
+            tAagcatgtttttgaacacaCtGacGccgaagttctacgtggccctGacaggcacttcctcactaatatcagggcttattttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448048">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-3  Good  PIGT1:0 U 94.4 100.0 151 9 0 160 160 160 1 1 160 160 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>949094</start>
+            <end>949254</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaAtaCggAacTtcattcattgaacaagtctcagtAagccacttgcgcccccttctgggaggggttgacaacaactcTtccaacaattctaaTtccagtaaCggggactcagattccaaTaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>691363</start>
+            <end>691523</end>
+          </span>
+          <alignment>
+            atatttgaatggtggtattttcgcaaGtaTggGacAtcattcattgaacaagtctcagtGagccacttgcgcccccttctgggaggggttgacaacaactcCtccaacaattctaaCtccagtaaTggggactcagattccaaCaggcaaagtgtctcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448049">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-4  Good  PIGT1:0 U 92.7 100.0 51 4 0 55 55 55 1 1 55 55 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>959326</start>
+            <end>959381</end>
+          </span>
+          <alignment>
+            aatgCaaagtAtggcgaaatccactaaatttatttaggggTgctgaataCaatcg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>701979</start>
+            <end>702034</end>
+          </span>
+          <alignment>
+            aatgTaaagtGtggcgaaatccactaaatttatttaggggCgctgaataTaatcg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448050">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-5  Good  PIGT1:0 U 94.8 100.0 110 6 0 116 116 116 1 1 116 116 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>960024</start>
+            <end>960140</end>
+          </span>
+          <alignment>
+            gtatacTtgggtgacaggacgAgagcctctTacttactatgacatgaatctctctgcccaAgaccaccagacattcttTacttgtgactcGgaccatctgcgtcccgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>702662</start>
+            <end>702778</end>
+          </span>
+          <alignment>
+            gtatacAtgggtgacaggacgGgagcctctGacttactatgacatgaatctctctgcccaGgaccaccagacattcttCacttgtgactcAgaccatctgcgtcccgcagatgcaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448051">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-6  Good  PIGT1:0 U 98.7 100.0 75 1 0 76 76 76 1 1 76 76 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>961418</start>
+            <end>961494</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcagctcatgaagccttGgagataaatga
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>704629</start>
+            <end>704705</end>
+          </span>
+          <alignment>
+            taatgcagaaagcctggagagagagaaacccccaagctaggatttctgcagctcatgaagccttAgagataaatga
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448052">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-7  Good  PIGT1:0 U 98.6 100.0 68 1 0 69 69 69 1 1 69 69 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>963657</start>
+            <end>963726</end>
+          </span>
+          <alignment>
+            aattaggtccagagttgaagttcccctaattgcttcctctaccatctgggagataaaattGttaccaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>706735</start>
+            <end>706804</end>
+          </span>
+          <alignment>
+            aattaggtccagagttgaagttcccctaattgcttcctctaccatctgggagataaaattAttaccaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448053">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-8  Good  PIGT1:0 U 93.5 100.0 145 10 0 155 155 155 1 1 155 155 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>965614</start>
+            <end>965769</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggcTgaagaggaagcaacaacCattgctgaagcagaaaaATtAtttaagcaggcCctgaaGgctggagatggctgttaccgAcgCtctcagcagctacaAcatcatggatcccagtatgaagcccaacata
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>708702</start>
+            <end>708857</end>
+          </span>
+          <alignment>
+            gtgtgcaactgcttatattctcttggcGgaagaggaagcaacaacAattgctgaagcagaaaaGCtGtttaagcaggcTctgaaAgctggagatggctgttaccgGcgTtctcagcagctacaGcatcatggatcccagtatgaagcccaacata
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448054">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-9  Good  PIGT1:0 U 96.9 100.0 95 3 0 98 98 98 1 1 98 98 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>967968</start>
+            <end>968066</end>
+          </span>
+          <alignment>
+            gacgagacaccaaTgtcttggtGtacatcaaaagaaggctagcaatgtgtgccagaagactCgggaggaccagggaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>711038</start>
+            <end>711136</end>
+          </span>
+          <alignment>
+            gacgagacaccaaCgtcttggtCtacatcaaaagaaggctagcaatgtgtgccagaagactTgggaggaccagggaagcagtgaaaatgatgagagat
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448055">
+        <span_type>HSP</span_type>
+        <description>HUMT1|ST7a-10  Good  PIGT1:0 U 96.5 100.0 111 4 0 115 115 115 1 1 115 115 0 0 0 0 6 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1000395</start>
+            <end>1000510</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttccccctTctgagTatgttcaaTatccatgaaaaccttttagaagccctTctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgatg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>742901</start>
+            <end>743016</end>
+          </span>
+          <alignment>
+            ttaatgaaggagttccccctCctgagCatgttcaaCatccatgaaaaccttttagaagccctCctggaactacaagcatatgctgatgttcaggcagtcttagcaaagtatgatg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|ST7a-10"></property>
+      </result_span>
+      <property name="mapping_status" value="Partial"></property>
+    </result_set>
+    <result_set id="CELERA:30000103448056">
+      <description>HUMT1|CFTR  Full PIGT1:0 UII 86.0 99.6 5282 858 133 6140 6164 5547 66 27 6128 6104 12 12 0 3 9 0 HUMT1|9 /transcript_uid=HUMT1|CFTR</description>
+      <result_span id="CELERA:30000103448057">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-1  Good  PIGT1:0 URU 86.1 100.0 161 26 2 187 187 184 3 1 185 185 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1309496</start>
+            <end>1309681</end>
+          </span>
+          <alignment>
+            aaTtggaagcaaatgacatcacAgcaggtcagagaaaaagggTTgagCggcaggcAccCagaGTagta-ggTctttggcattaggagctTgagcccAgAcGgcccTAGcagggaccccAg-CGcccGagagaccatgcagaggtcgcctctggaaaaggccagcGtTGtctccaaactttttttcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>801820</start>
+            <end>802007</end>
+          </span>
+          <alignment>
+            aaCtggaagcaaatgacatcacCgcaggtcagagaaaaagggGCgagAggcaggcGccGagaAGagtaGggCctttggcattaggagctCgagcccGgCcTgcccCGCcagggaccccGgTTCcccCagagaccatgcagaggtcgcctctggaaaaggccagcAtCTtctccaaactttttttcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="86.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-1"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448058">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-2  Good  PIGT1:0 U 92.8 100.0 103 8 0 111 111 111 1 1 111 111 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1333786</start>
+            <end>1333897</end>
+          </span>
+          <alignment>
+            ctggaccagaccaattttgagGaaaggataCagacagcgcctggaattgtcagacatataccaAatcCcttctGTtgaTtctgctgacaatctAtctgaaaaattggaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>835660</start>
+            <end>835771</end>
+          </span>
+          <alignment>
+            ctggaccagaccaattttgagAaaaggataTagacagcgcctggaattgtcagacatataccaTatcTcttctTCtgaCtctgctgacaatctGtctgaaaaattggaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-2"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448059">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-3  Good  PIGT1:0 U 93.6 100.0 102 7 0 109 109 109 1 1 109 109 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1338567</start>
+            <end>1338676</end>
+          </span>
+          <alignment>
+            agaatgggaTagagaGctggcttcaaagaaAaatccTaaactcattaatgcccttcggcgatgttttttCtggagatttatgttctatggaatcTtTttatatttaggg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>839571</start>
+            <end>839680</end>
+          </span>
+          <alignment>
+            agaatgggaCagagaActggcttcaaagaaGaatccCaaactcattaatgcccttcggcgatgttttttTtggagatttatgttctatggaatcAtAttatatttaggg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-3"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448060">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-4  Good  PIGT1:0 U 92.1 100.0 199 17 0 216 216 216 1 1 216 216 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1360432</start>
+            <end>1360648</end>
+          </span>
+          <alignment>
+            gaagtcaccaaagcagtAcagcctctcttactgggaagaatcatagcttcctatgaCccGgataacaaggAggaacgctcTatCgcgatttaTctaggcAtaggcttatgCcttctcttTatTgtgaggacActgctcctAcacccagccatttttggcctTcatcacattggAatgcagatgagaatagctatgtttagtttgatttaTaaGaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>853555</start>
+            <end>853771</end>
+          </span>
+          <alignment>
+            gaagtcaccaaagcagtCcagcctctcttactgggaagaatcatagcttcctatgaTccAgataacaaggCggaacgctcCatTgcgatttaCctaggcGtaggcttatgTcttctcttCatCgtgaggacTctgctcctGcacccagccatttttggcctCcatcacattggCatgcagatgagaatagctatgtttagtttgatttaCaaAaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448061">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-5  Good  PIGT1:0 U 97.8 100.0 88 2 0 90 90 90 1 1 90 90 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1363809</start>
+            <end>1363899</end>
+          </span>
+          <alignment>
+            actttAaagctgtcaagccgtgttctagataaaataagtattggacaacttgttagtctcctttccaacaacctgaacaaAtttgatgaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>857518</start>
+            <end>857608</end>
+          </span>
+          <alignment>
+            actttGaagctgtcaagccgtgttctagataaaataagtattggacaacttgttagtctcctttccaacaacctgaacaaGtttgatgaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="97.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448062">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-6  Good  PIGT1:0 U 85.4 100.0 140 24 0 164 164 164 1 1 164 164 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1364781</start>
+            <end>1364945</end>
+          </span>
+          <alignment>
+            ggacttgcAttggcAcaTttcgtgtggatcgctcctTtgcaagtgGcActCctCatggggctAAtCtgggagttgttAcaggcGtcTgccttctgtggacttgGTttcctGAtagtcctTgccctTtttcaGgctgggCtAgggaGaatgatgatgaagtacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>858498</start>
+            <end>858662</end>
+          </span>
+          <alignment>
+            ggacttgcCttggcGcaCttcgtgtggatcgctcctCtgcaagtgAcGctGctGatggggctGCtGtgggagttgttGcaggcCtcCgccttctgtggacttgCCttcctCGtagtcctCgccctCtttcaAgctgggTtGgggaAaatgatgatgaagtacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="85.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448063">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-7  Good  PIGT1:0 U 93.7 100.0 118 8 0 126 126 126 1 1 126 126 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1366081</start>
+            <end>1366207</end>
+          </span>
+          <alignment>
+            agatcagagagctggGaagatcaGtgaaagactTgtgattacctcagaAatgattgaaaatatccaatcTgttaaGgcatactgctgggaagaagcAatggaaaaaatgattgaaaacTtaagaca
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>860068</start>
+            <end>860194</end>
+          </span>
+          <alignment>
+            agatcagagagctggAaagatcaAtgaaagactGgtgattacctcagaGatgattgaaaatatccaatcAgttaaAgcatactgctgggaagaagcGatggaaaaaatgattgaaaacCtaagaca
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448064">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-8  Good  PIGT1:0 U 93.1 100.0 230 17 0 247 247 247 1 1 247 247 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1369633</start>
+            <end>1369880</end>
+          </span>
+          <alignment>
+            aacAgaactgaaactgacTcggaaggcagcctatgtgagatacttcaatagctcagccttcttcttctcAgggTtctttgtggtgtttttatctgtgcttccctaTgcactAAtcaaaggaatcatCctCcgGaaaatAttcacCaccatctcattctgcattgttctgcgcatggcGgtcacTcggcaattTccctgggctgtacaaacAtggtatgaCtctcttggagcaataaacaaaatacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>863456</start>
+            <end>863703</end>
+          </span>
+          <alignment>
+            aacGgaactgaaactgacCcggaaggcagcctatgtgagatacttcaatagctcagccttcttcttctcTgggCtctttgtggtgtttttatctgtgcttccctaCgcactGCtcaaaggaatcatGctTcgAaaaatCttcacAaccatctcattctgcattgttctgcgcatggcAgtcacCcggcaattCccctgggctgtacaaacTtggtatgaTtctcttggagcaataaacaaaatacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448065">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-9  Good  PIGT1:0 U 94.6 100.0 88 5 0 93 93 93 1 1 93 93 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1371549</start>
+            <end>1371642</end>
+          </span>
+          <alignment>
+            gatttcttacaAaagcaagaatataagacaTtggaataTaacttaacGactacagaagtagtgatggagaatgtaacagccttctgggaGgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>865874</start>
+            <end>865967</end>
+          </span>
+          <alignment>
+            gatttcttacaGaagcaagaatataagacaCtggaataCaacttaacAactacagaagtagtgatggagaatgtaacagccttctgggaAgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448066">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-10  Good  PIGT1:0 U 92.3 100.0 169 14 0 183 183 183 1 1 183 183 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1378174</start>
+            <end>1378357</end>
+          </span>
+          <alignment>
+            ggatttgggGaattatttgagaaagcaaaacaaaaCaataacaAtAgaaaaaCttcTaatggtgatGacagcctcttcttcagtaaTttCtcacttctTggtactcctgtcctgaaagatatTaAtttcaagatagaaagaggacagttgttggcGgttgctggatcCactggagcaggcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>872742</start>
+            <end>872925</end>
+          </span>
+          <alignment>
+            ggatttgggAaattatttgagaaagcaaaacaaaaTaataacaGtCgaaaaaTttcCaatggtgatAacagcctcttcttcagtaaCttTtcacttctCggtactcctgtcctgaaagatatCaGtttcaagatagaaagaggacagttgttggcAgttgctggatcTactggagcaggcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448067">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-11  Good  PIGT1:0 IUU 95.0 93.8 171 9 0 180 192 180 1 1 192 180 12 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1388997</start>
+            <end>1389189</end>
+          </span>
+          <alignment>
+            ACTTCACTTCTAatgGtgattatgggagaactggagccttcagagggtaaaattaagcacagtggaagaatttcattctgTtctcagttttcctggatTatgccTggcaccattaaagaaaaTatcatctttggtgtttcctatgatgaAtatagatacagAagCgtcatcaaagcAtgccaactagaagag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>879531</start>
+            <end>879711</end>
+          </span>
+          <alignment>
+            ------------atgAtgattatgggagaactggagccttcagagggtaaaattaagcacagtggaagaatttcattctgCtctcagttttcctggatCatgccGggcaccattaaagaaaaCatcatctttggtgtttcctatgatgaGtatagatacagGagTgtcatcaaagcGtgccaactagaagag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="IUU"></property>
+        <property name="percent_id" value="95.0"></property>
+        <property name="percent_coverage" value="93.8"></property>
+        <property name="exon_name" value="HUMT1|CFTR-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448068">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-12  Good  PIGT1:0 U 96.8 100.0 92 3 0 95 95 95 1 1 95 95 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1417272</start>
+            <end>1417367</end>
+          </span>
+          <alignment>
+            gacatctccaagtttgcagagaaagacaaTatagttctTggagaaggtggaatcacactgagtggaggtcaAcgagcaagaatttctttagcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>907713</start>
+            <end>907808</end>
+          </span>
+          <alignment>
+            gacatctccaagtttgcagagaaagacaaCatagttctGggagaaggtggaatcacactgagtggaggtcaGcgagcaagaatttctttagcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448069">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-13  Good  PIGT1:0 U 95.4 100.0 83 4 0 87 87 87 1 1 87 87 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1419886</start>
+            <end>1419973</end>
+          </span>
+          <alignment>
+            agcagtataCaaagatgctgatttgtaTTtattagactctccttttggatacctagatgttttaacagaAaaagaaatatttgaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>910944</start>
+            <end>911031</end>
+          </span>
+          <alignment>
+            agcagtataTaaagatgctgatttgtaCCtattagactctccttttggatacctagatgttttaacagaGaaagaaatatttgaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="95.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448070">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-14  Good  PIGT1:0 URU 88.3 100.0 642 85 3 727 727 721 2 1 724 724 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1421467</start>
+            <end>1422191</end>
+          </span>
+          <alignment>
+            ctgtgtctgtaaaCtgatggctaacaaaactaggattttggtcacttctaaaatggaacatttaaagaaagctgacaaaataTtaattttGcatgaaggtagcagctatttttatgggacattttcAgaaCtCcaaaAtcTAcAgccAgacttTagCtcaaaActCatgggatGtgatTctttCgaccaatttaGtgcagaaAgaagaaattcaatcCtaactgagacCttacACcgtttctcattagaaggagatgcTCctgtCtcctggaCAgaaacaaaaaaacaatcTtttaaacagactggagagtttggGgaaaaaaggaagaattcTattctcaatCcaatcaactctataCgAaaattttcCattgtGcaaaagactcccttacaaatgaatggcAtCgaagaGgattctgATgagcctttagagagaaggctgtccttagtAccAgattctgagcaGggAgaggcGatActGcctcgCaTcaGcgtgatcaGcActggccccacgCttcaggCacgaAggaggcagtctgtCctgaacctGatgacAc---ActcagtTaaccaaggtcaGaAcattcaccgaaagacaAcAGcAtccacacgaaaaGtgtcactggCccctcaGgcaaacttGactgaaCtGgatatatattcAagaAgGttatcTcaagaAactggcttggaaataagtgaagaaattaaCgaagaagaCttaaAg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>912507</start>
+            <end>913234</end>
+          </span>
+          <alignment>
+            ctgtgtctgtaaaTtgatggctaacaaaactaggattttggtcacttctaaaatggaacatttaaagaaagctgacaaaataCtaattttAcatgaaggtagcagctatttttatgggacattttcTgaaTtAcaaaGtcAGcGgccCgacttCagTtcaaaGctTatgggatAtgatActttTgaccaatttaCtgcagaaCgaagaaattcaatcAtaactgagacTttacGGcgtttctcattagaaggagatgcCTctgtGtcctggaACgaaacaaaaaaacaatcCtttaaacagactggagagtttggTgaaaaaaggaagaattcCattctcaatTcaatcaactctataAgGaaattttcAattgtAcaaaagactcccttacaaatgaatggcTtTgaagaAgattctgGCgagcctttagagagaaggctgtccttagtTccTgattctgagcaTggGgaggcAatTctAcctcgGaGcaAcgtgatcaAcGctggccccacgTttcaggGacgaCggaggcagtctgtTctgaacctCatgacCcGCTCctcagtGaaccaaggtcaAaGcattcaccgaaagacaGcGAcGtccacacgaaaaAtgtcactggTccctcaAgcaaacttAactgaaAtAgatatatattcCagaCgAttatcGcaagaTactggcttggaaataagtgaagaaattaaTgaagaagaTttaaGg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448071">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-15  Good  PIGT1:0 U 91.5 100.0 118 11 0 129 129 129 1 1 129 129 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1424463</start>
+            <end>1424592</end>
+          </span>
+          <alignment>
+            gagtgcttttttgatgaTAtggagagcataccaGcAgtgactacAtggaacacataccttcgatatAttactgtCcacaagagcttaatttttgtgctAatttggtgcttagtAAtttttctggcAgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>916776</start>
+            <end>916905</end>
+          </span>
+          <alignment>
+            gagtgcttttttgatgaCGtggagagcataccaAcCgtgactacCtggaacacataccttcgatatGttactgtTcacaagagcttaatttttgtgctGatttggtgcttagtTGtttttctggcTgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448072">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-16  Good  PIGT1:0 URU 81.6 100.0 31 7 0 38 38 29 2 1 38 38 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1432359</start>
+            <end>1432397</end>
+          </span>
+          <alignment>
+            gtggctgcttCtttggttgtgCtgtgGCtCcttGGaaa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>923567</start>
+            <end>923605</end>
+          </span>
+          <alignment>
+            gtggctgcttGtttggttgtgTtgtgTTtGcttAAaaa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="81.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448073">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-17  Good  PIGT1:0 URU 89.2 100.0 224 27 0 251 251 243 2 1 251 251 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1433065</start>
+            <end>1433316</end>
+          </span>
+          <alignment>
+            CacTCctcTtcaagacaaagggaatagTactCaTAgtAGaaataacagctatgcagtGatTatcaccagcaccagTTcGtaTtatgtGttttacatttacgtgggagtagccgacACtttgcttgctAtgggaTtcttcagaggtCtaccactggtgcatactctaatcacagtgtcgaaaattttacaCcAcaaaatgttacaTtctgttcttcaagcAcctatgtcaaccctcaacacGttgaaagcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>924017</start>
+            <end>924268</end>
+          </span>
+          <alignment>
+            AacATctcCtcaagacaaagggaatagCactAaGGgtGCaaataacagctatgcagtAatCatcaccagcaccagCGcAtaCtatgtTttttacatttacgtgggagtagccgacGGtttgcttgctCtgggaCtcttcagaggtTtaccactggtgcatactctaatcacagtgtcgaaaattttacaTcGcaaaatgttacaCtctgttcttcaagcCcctatgtcaaccctcaacacAttgaaagcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="89.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448074">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-18  Good  PIGT1:0 U 93.8 100.0 75 5 0 80 80 80 1 1 80 80 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1436207</start>
+            <end>1436287</end>
+          </span>
+          <alignment>
+            gtgggattcttaatagattctccaaagatatagcaAttttggatgaCctTctgcctcttacCatatttgaCttcatccag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>927728</start>
+            <end>927808</end>
+          </span>
+          <alignment>
+            gtgggattcttaatagattctccaaagatatagcaGttttggatgaTctCctgcctcttacTatatttgaTttcatccag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448075">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-19  Good  PIGT1:0 U 87.4 100.0 132 19 0 151 151 151 1 1 151 151 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1440052</start>
+            <end>1440203</end>
+          </span>
+          <alignment>
+            ttGTtattaattgtgattggagctAtAgcagttgtcGcagttttaCaaccCtacatcttTGtTgcaacagtgccagtgatagtggcttttattAtGTtgagagcAtaTttcctccaAacCtcacagcaActcaaacaActggaatctgaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>936341</start>
+            <end>936492</end>
+          </span>
+          <alignment>
+            ttACtattaattgtgattggagctGtGgcagttgtcTcagttttaAaaccTtacatcttCCtGgcaacagtgccagtgatagtggcttttattCtACtgagagcCtaCttcctccaCacTtcacagcaGctcaaacaGctggaatctgaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.4"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448076">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-20  Good  PIGT1:0 U 94.3 100.0 215 13 0 228 228 228 1 1 228 228 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1441114</start>
+            <end>1441342</end>
+          </span>
+          <alignment>
+            gcaggagtccaattttcactcatctTGttacaagcttaaaaggactatggacActtcgTgccttCggacgGcagccttactttgaaactCtgttccacaaagctctGaatttacatactgccaactggttcttgtaCctgtcaacactGcgctggttccaaatgAgaatagaaatgatttttgtcatcttCttcattgcTgttaccttcatttccattttaacaacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>937305</start>
+            <end>937533</end>
+          </span>
+          <alignment>
+            gcaggagtccaattttcactcatctCAttacaagcttaaaaggactatggacCcttcgAgccttTggacgTcagccttactttgaaactTtgttccacaaagctctTaatttacatactgccaactggttcttgtaTctgtcaacactAcgctggttccaaatgCgaatagaaatgatttttgtcatcttTttcattgcCgttaccttcatttccattttaacaacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="94.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448077">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-21  Good  PIGT1:0 U 93.1 100.0 94 7 0 101 101 101 1 1 101 101 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1444146</start>
+            <end>1444247</end>
+          </span>
+          <alignment>
+            gAgaaggagaaggaaGagttggTattatCctGacTttagccatgaatatcatgagtacattgcagtgggctgtaaactccagCatagatgtggatagcttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>940226</start>
+            <end>940327</end>
+          </span>
+          <alignment>
+            gGgaaggagaaggaaCagttggGattatTctAacAttagccatgaatatcatgagtacattgcagtgggctgtaaactccagTatagatgtggatagcttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448078">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-22  Good  PIGT1:0 URU 86.9 100.0 219 33 3 252 252 249 2 1 249 249 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1457055</start>
+            <end>1457304</end>
+          </span>
+          <alignment>
+            atgcgatctgtgagccgagtctttaagttCattgaCatgccAAcagaagg---tAaacctaCcaAgtcAACcaaaccatAcaagAatggccaActCtcGaaAgttatgattattgagaatTCacaCgtgaagaaagatgacatctggccCtcagggggccaaatgactgtcaaagaTctcacAgcAaaataCACagaAggtggAaaTgccAtattagagaacatttccttctcaataagtcctggccagagg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>957076</start>
+            <end>957328</end>
+          </span>
+          <alignment>
+            atgcgatctgtgagccgagtctttaagttTattgaTatgccGGcagaaggAGAtCaacctaAcaGgtcGTTcaaaccatCcaagGatggccaGctTtcAaaGgttatgattattgagaatCAacaTgtgaagaaagatgacatctggccTtcagggggccaaatgactgtcaaagaCctcacTgcGaaataTGTagaTggtggGaaCgccGtattagagaacatttccttctcaataagtcctggccagagg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="86.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448079">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-23  Good  PIGT1:0 U 91.7 100.0 143 13 0 156 156 156 1 1 156 156 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1471971</start>
+            <end>1472127</end>
+          </span>
+          <alignment>
+            gtgggcctcttgggaagaactggatcagggaagagTactttGttatCAgcttttttgagactActgaacacTgaaggagaaatCcaGAtCgatggtgtgtcttgggattcaataactttgcaacagtggaggaaagcCtttggagtGataccAcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>971297</start>
+            <end>971453</end>
+          </span>
+          <alignment>
+            gtgggcctcttgggaagaactggatcagggaagagCactttAttatTGgcttttttgagactGctgaacacAgaaggagaaatAcaAGtAgatggtgtgtcttgggattcaataactttgcaacagtggaggaaagcTtttggagtCataccCcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-23"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448080">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-24  Good  PIGT1:0 U 93.3 100.0 84 6 0 90 90 90 1 1 90 90 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1482375</start>
+            <end>1482465</end>
+          </span>
+          <alignment>
+            aaagtattTatTttttctggaacatttagaaaaaacTtggatccctatgAacagtggaGtgatcaagaaatatggaaagttgcagaTgag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>978438</start>
+            <end>978528</end>
+          </span>
+          <alignment>
+            aaagtattCatCttttctggaacatttagaaaaaacCtggatccctatgGacagtggaAtgatcaagaaatatggaaagttgcagaGgag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-24"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448081">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-25  Good  PIGT1:0 U 91.3 100.0 158 15 0 173 173 173 1 1 173 173 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1494221</start>
+            <end>1494394</end>
+          </span>
+          <alignment>
+            gttggGctcagatctgtgatagaAcagtttcctgggaagcttgaCtttgtccttgtGgatgggggCtgtgtCctaagccaTggccacaagcagttgatgtgcttggcTagatctgttctCAgtaaGgcGaagatcttgctgctTgatgaacccagtgctcatttggatccAGt
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>988150</start>
+            <end>988323</end>
+          </span>
+          <alignment>
+            gttggActcagatctgtgatagaGcagtttcctgggaagcttgaTtttgtccttgtAgatgggggTtgtgtGctaagccaCggccacaagcagttgatgtgcttggcCagatctgttctTGgtaaAgcAaagatcttgctgctGgatgaacccagtgctcatttggatccCAt
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-25"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448082">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-26  Good  PIGT1:0 U 90.6 100.0 96 10 0 106 106 106 1 1 106 106 0 0 0 0 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1494992</start>
+            <end>1495098</end>
+          </span>
+          <alignment>
+            aacAtaccaaatAattAgaagaacTctAaaacaagcatttgctgattgcacagtaatTctctGtgaacacaggatagaagcaatgCtggaatgCcaacAatttttg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>988961</start>
+            <end>989067</end>
+          </span>
+          <alignment>
+            aacGtaccaaatCattCgaagaacCctGaaacaagcatttgctgattgcacagtaatCctctCtgaacacaggatagaagcaatgTtggaatgTcaacGatttttg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="90.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CFTR-26"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448083">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CFTR-27  Good  PIGT1:0 URR 73.8 99.3 1307 463 125 1770 1782 1206 34 1 1754 1742 0 12 0 3 9 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1496441</start>
+            <end>1498195</end>
+          </span>
+          <alignment>
+            gtcatagaAgagaacaaagtgcggcagtaCgattccatccagaAActgctgaAcgagaGgagcctcttcCggcaAgcCatcagcccctCCgacAgGGtgaagctcTtTccCcaccggaactcAagcaagTGCaAgtctAAgCccCaGatTgcTgctctgaaAgaggaGacagaagaagaggtgcaagaTacaagGctttagagagcagCaTaaatgttGAcAtgggacATTTgctcatgGAATtggagCtCgTGggaCAGTCACCTCATGgaaTTGGAGCTCGTGGaaCagttACCtctgcCtcagaAAaCAaggatgaa----ttaAGtttttttttaaaaaAg-aaaCAtttggtaagGggaattGaGgaCaCtGatAtgggtctTgataaatggcttCctggcaatAgTcaaattgtgtgaaaggtacttcaaatccttgaagatttaCcacttgtGtttTGcaaGccagattTtcctgaaaacCcttGccAtGtgCtagtAattGgaaaggCAgctCtaaaTGtCaATcAGcCtaGTtGAtcaGCTtATtGtCtagtgaaaCtCgtTAatttgtaGtgttggagaagaactGAaatcatActTcttagGgTtaTGattaaGtaatgataaCtggaaacttCagCggtttatataagCttGtatTcctttTtctCTCctctcCccatgatGtttaGaaAcacaACtAtattGtTtgCtaagcattcCAaCtAtcTcaTttccaagcaagtATtagaatACCACAGgaACcacaagaCTgcAcatcaaaAtatgCCccaTTcAacatctAgTgAGCAgtcaggAAagagaacttccAGAtcctggaaatCagGGttagtaTTGtCcagGTCtacCAaaaAtcTCaataTttcagataatcaCAATacatcccttACctgggaaa-gggCTgttaTaATcTTTCACagggGac-aggat--GgTtcccttgatGAAgaagtTGaTAtgCctTTtCccaACTCCAgAaagtGacaagctc-ACagacCtTtgaactAGagTTtAgctGgaaaaGtATGttaGtgcaaattgTCAcaggaCaGcccttcttTccacagaagctccaggTagaGGGTGTGtAagTAGATAGGcCAtgggcactGTGggtagaCACacatgaaGTCCAagCatTtag--atGtaTaggTTgatggTggtAtgttttcaggctaGAtgtatgTacttcatGctgtCtaCactaa--gAgaga-atGAGagacaCActg-aaGaagCACcaatcatgaattagttttatatGcttctgttttataattttgtgaAGcaaa--aTTttttctctaggaaa---tattta-ttttaataatgtttcaaacATatataaCaATgctgtatttta--aaAgaAt-GattatgaattaCatttgtataaaaTaAtttttatatttgaaatattGactttttatggcactag-tatttCtaTGaAaTAttatgttaaaactgggaCAggggAgAACCTAgggTgAtattAAccagggGcCAtgAatCACCtt-TtGgTCtGgagGgaagcCttGgggctGaTGcagTtgttgcCcacaGctgtAtgAttcccAGCCAGCACAGCCtcttagatgcagttctGaagaaGATggtaccac-CaGtctgacTGTtTcCatCaaggGtacactgccttctcaactccaaactGacTcttaagaAGACtgCaTtAtatttattactgtaagaaaatAtcaCTtgtcaataaaatccATACATTTGTGT
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>990237</start>
+            <end>991910</end>
+          </span>
+          <alignment>
+            gtcatagaGgagaacaaagtgcggcagtaTgattccatccagaGGctgctgaGcgagaAgagcctcttcAggcaGgcGatcagcccctTGgacCgCCtgaagctcCtCccGcaccggaactcTagcaagCAGaGgtctCGgTccAaAatCgcAgctctgaaGgaggaAacagaagaagaggtgcaagaAacaagActttagagagcagAaCaaatgttTGcCtgggac----gctcatgCC--tggagTt-gCAgga-------------gaa-------------aaGagtt---tctgcTtcagaGTaTTaggatgaaTGACttaTTtttttttttaaaaaGgAaaaTTtttggtaagAggaattAaTgaTaTtCatGtgggtctGgataaatggcttTctggcaatGgCcaaattgtgtgaaaggtacttcaaatccttgaagatttaGcacttgtAtttA-caaAccagattCtcctgaaaacTcttTccTt-tgGtagtCattAgaaaggTGgctGtaaaCTtAaGCcGTcTtaACtCTtcaATGtGCtAtTtagtgaaaTtTgtCCatttgtaTtgttggagaagaactATaatcatGctActtagAgAtaCAattaaAtaatgataaTtggaaacttTagTggtttatataagTttAtatAcctttCtctTCActctcTccatgatAtttaAaaGcaca--tGtattAtCtgTtaagcattcAGaTtGtcCcaCttccaagcaagtGGtagaatGGTGTGAgaGTcacaagaGAgcCcatcaaaGtatgTAccaCCcCacatct-gAgTATTgtcaggGGagagaacttccCAGtcctggaaatGag--ttagtaCCAtTcagCAAtacACaaaTtcA-aataAttcagataatcaGGGAacatcccttCTctgggaaaTgggTGgttaCaGAcCCATGTagggAacAaggatACAgCtcccttgatTTGgaagtGAaCGtgTctGCtGcca------gTaagtAacaagctcTTAagacTtCtgaactGAagGAtGgctAgaaaaAtGCTttaAtgcaaattgCTGcaggaAaAcccttcttAccacagaagctccaggCaga-------tCag--------cTCtgggcactACAggtagaTGTacatgaa-----ag-atCtagGTatAtaGaggGCgatgg-ggtGtgttttcaggctaCCtgtatgCacttcatActgtAtaTactaaGTgGgagaGatAGTagacaTGctgAaaTaagAGTcaatcatgaattagttttatatCcttctgttttataattttgtgaTAcaaaTGaAAttttctctaggaaaTTGtatttaTttttaataatgtttcaaacTCatataa-aTGgctgtattttaAGaaTgaTtATattatgaattaTatttgtataaaaGaTtttttatatttgaaatattAactttttatggcactagCtatttTtaCAaTaCGttatgttaaaactggga--ggggTg------gggGgGtattGGccagggTcTCtgGatTGTGttGAtAgCAtAgagAgaagcAttAgggctCaCAcagAtgttgcAcacaCctgtGtgGttccc-------------tcttagatgcagttctAaagaaAGCggtaccacAAaAtctgacCACtCcTatTaaggAtacactgccttctcaactccaaactAacCcttaagaT---tgTaAtCtatttattactgtaagaaaatGtcaTGtgtcaataaaatcc------------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URR"></property>
+        <property name="percent_id" value="73.8"></property>
+        <property name="percent_coverage" value="99.3"></property>
+        <property name="exon_name" value="HUMT1|CFTR-27"></property>
+      </result_span>
+      <property name="mapping_status" value="Full"></property>
+    </result_set>
+    <result_set id="CELERA:30000103448084">
+      <description>HUMT1|CORTBP2  Partial PIGT1:0 IRU 88.7 91.2 4839 614 88 5453 5982 5225 51 20 5967 5438 12 517 0 66 10 0 HUMT1|10 /transcript_uid=HUMT1|CORTBP2</description>
+      <result_span id="CELERA:30000103448085">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-4  Good  PIGT1:0 IRU 88.6 99.3 1458 187 3 1645 1657 1587 6 1 1654 1642 12 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1622315</start>
+            <end>1620661</end>
+          </span>
+          <alignment>
+            CTGGAAATGGAGaagcttcagctAcaagcccttgaGcaagagcacaagaagctggcTgcccgcctTgaggaAgagcgTggcaaGaacaagcaGgtggtcctgatgctggtcaaAgagtgcaagcagctctcaggcaAagtcatagaggaggcccagaagctCgaagaCgtAatggccaaactggaagaggaAaagaaaaagaCgaAtgAAttagaagaggaactctcCgcTgagaaacGaagaagcacagaaatggaagctcagatggaaaaacaActctcTgagtttgacacTgagcgggaacagcttcgtgccaagctgAaccgGgaAgaagcacacaccactgacctcaaagaggagatagacaagatgaGgaaAatgattgagcaactGaaaaggggaaGtgacagcaaaccAagcctctctcttccAcggaagacAaaagatagGcgtTtggtTtccatatctgtgggaacagaaggaAcTGtgacaagGtctgttgcAtgccagacagacctagtGacagaaaatgctgaccAcAtgaaAaagTtgcctttAacCAtgcctgtaaaAcctTccAcAgggagTcccCtagtttcTgcaaatgcAaaagggaGCgtgtGcAcCAgtgccAccAtggCcagaccaggtatTgacaggcaggcttccTatggtgacttgattggcGcttctGtAccCgCTTTcccacctccaagtGcaaAcaAaattgaggaaaatggaccAagcactggctcaacaCcagatCCaAcCagtaGcAcaCccccactTcccagtaacgcTgccccTcccacCgCTcaAacAccaggcATagctccTcag---AActcGcAagcTcCAcctATGcacagtttacattcAccAtgtgccAACAcCTctTtgcatccaggtctAaacccAcgAatccaAgcAgcTAgatttagatttcagggCaatgctaaCgacccagaccaAaatggAaaTacTacccaaagTcctccgtcAagagatgtctcGcctacaagtcgtgacaacCtagtggccaaacaActagctcggaatacTgtgacccaagcactGtcaagatttacaagccctcAagcAggTgctcccTcaaggcctggagTGcccccAacAggggaTgTtggcaccCacccTcCAgttggtcggaccagtttaaagactCAtggtgtagCacgagttgacagaggaaaTccTcctccTatccctccaaaaaagccagggctctcccaaactccttctccaccacacccccaActcaaggttatTatAgaCagcagcagggccTcGaACAcaggggccaaAgttgataacaaaactgtggcttcgActccttccaGtttgccacaagggaAcagggtGatCaatgaggagaacctTcctaaGtcAtcctcccctcagctgccaccaaaaccatccatagatttaactgtggcacctgcaggctgtgccgtttcagccctggccacgtctcaggtgggtgcctggcctgctgCaaccccCggactgaaccaacctgcatgttcagaCagttcccttgtcattccTaccaccattgccttttgctcttccataaacccCGttagtgcctcatcctgtagaCcaggtgcctcagacagcctcctggtaacagcatcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1122243</start>
+            <end>1120598</end>
+          </span>
+          <alignment>
+            ------------aagcttcagctCcaagcccttgaAcaagagcacaagaagctggcCgcccgcctGgaggaGgagcgAggcaaAaacaagcaTgtggtcctgatgctggtcaaGgagtgcaagcagctctcaggcaGagtcatagaggaggcccagaagctGgaagaGgtGatggccaaactggaagaggaGaagaaaaagaTgaGtgTGttagaagaggaactctcTgcCgagaaacAaagaagcacagaaatggaagctcagatggaaaaacaGctctcAgagtttgacacGgagcgggaacagcttcgtgccaagctgCaccgAgaGgaagcacacaccactgacctcaaagaggagatagacaagatgaAgaaGatgattgagcaactAaaaaggggaaAtgacagcaaaccCagcctctctcttccCcggaagacCaaagatagAcgtCtggtCtccatatctgtgggaacagaaggaCcGAtgacaagAtctgttgcTtgccagacagacctagtAacagaaaatgctgaccCcTtgaaGaagCtgcctttGacGGtgcctgtaaaGcctGccGcGgggagCcccTtagtttcCgcaaatgcTaaagggaATgtgtCcGcAGgtgccGccCtggTcagaccaggtatCgacaggcaggcttccCatggtgacttgattggcTcttctCtGccTgTGGCcccacctccaagtAcaaCcaGaattgaggaaaatggaccGagcactggctcaacaTcagatTTaGcAagtaAcCcaTccccactCcccagtaacgcCgccccAcccacTgTGcaCacGccaggcCCagctccCcagGGTTGctcAcCagcCcAGcctCCAcacagtttacattcCccGtgtgccGGTGcGCctCtgcatccaggtctGaacccGcgCatccaGgcGgcGCgatttagatttcagggTaatgctaaTgacccagaccaGaatggGaaCacAacccaaagCcctccgtcCagagatgtctcTcctacaagtcgtgacaacGtagtggccaaacaGctagctcggaatacCgtgacccaagcactAtcaagatttacaagccctcCagcGggAgctcccCcaaggcctggagCAcccccCacGggggaCgCtggcaccTacccCcTGgttggtcggaccagtttaaagactTCtggtgtagGacgagttgacagaggaaaCccGcctccCatccctccaaaaaagccagggctctcccaaactccttctccaccacacccccaGctcaaggttatCatGgaTagcagcagggccCcCaGTGcaggggccaaGgttgataacaaaactgtggcttcgCctccttccaCtttgccacaagggaTcagggtAatAaatgaggagaacctCcctaaAtcTtcctcccctcagctgccaccaaaaccatccatagatttaactgtggcacctgcaggctgtgccgtttcagccctggccacgtctcaggtgggtgcctggcctgctgAaaccccTggactgaaccaacctgcatgttcagaAagttcccttgtcattccCaccaccattgccttttgctcttccataaacccAAttagtgcctcatcctgtagaGcaggtgcctcagacagcctcctggtaacagcatcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="IRU"></property>
+        <property name="percent_id" value="88.6"></property>
+        <property name="percent_coverage" value="99.3"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-4"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448086">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-5  Good  PIGT1:0 X 100.0 100.0 204 0 0 204 204 204 1 1 204 204 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1613988</start>
+            <end>1613784</end>
+          </span>
+          <alignment>
+            gctggtcaccctccctaacccctttgctaatgagtggtggtcctgcccccctggctggcaggcccacccttcttcagcaagctgctgcccagggaaatgtcactttattatcaatgctgcttaatgaagaaggactggacattaattactcctgtgaagatggccattctgccttgtattctgctgctaagaatggacatacag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1113981</start>
+            <end>1113777</end>
+          </span>
+          <alignment>
+            gctggtcaccctccctaacccctttgctaatgagtggtggtcctgcccccctggctggcaggcccacccttcttcagcaagctgctgcccagggaaatgtcactttattatcaatgctgcttaatgaagaaggactggacattaattactcctgtgaagatggccattctgccttgtattctgctgctaagaatggacatacag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="X"></property>
+        <property name="percent_id" value="100.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-5"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448087">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-6  Good  PIGT1:0 U 98.0 100.0 98 2 0 100 100 100 1 1 100 100 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1612495</start>
+            <end>1612395</end>
+          </span>
+          <alignment>
+            actgtgtgagattgctgctgaGtgcagaagcccaagtcaatgctgctgataaaaatggcttcacacccttgtgtgctgcagctgctcagggacatttcGa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1112241</start>
+            <end>1112141</end>
+          </span>
+          <alignment>
+            actgtgtgagattgctgctgaAtgcagaagcccaagtcaatgctgctgataaaaatggcttcacacccttgtgtgctgcagctgctcagggacatttcAa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="98.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-6"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448088">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-7  Good  PIGT1:0 URU 92.1 100.0 139 12 0 151 151 142 2 1 151 151 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1610125</start>
+            <end>1609974</end>
+          </span>
+          <alignment>
+            gtgtgtagaattattaattTcatatgatgctaaCattaatcaTgctgctgatggaggacagacacctctAtacctggcctgtaaaaatggaaataaagaatgtattaaactcttgTtggaagctGGAacCAaTcgaagtgtaaaaaccaCa
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1109628</start>
+            <end>1109477</end>
+          </span>
+          <alignment>
+            gtgtgtagaattattaattGcatatgatgctaaTattaatcaCgctgctgatggaggacagacacctctGtacctggcctgtaaaaatggaaataaagaatgtattaaactcttgCtggaagctAAGacTGaCcgaagtgtaaaaaccaGa
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="92.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-7"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448089">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-8  Good  PIGT1:0 URU 87.1 100.0 222 33 3 255 255 239 2 1 255 255 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1607299</start>
+            <end>1607044</end>
+          </span>
+          <alignment>
+            gatggctggacaccagttcaCgcagctgtggacactggtaatgtggacagcctcaagcttcttatgtaccatagAaTaccagctCAtGgaaaTtcTttCAatgaggaGGAGTcCgagtcAAgTgtctttgaCttgGatGGAggagaagagaGtcctgaaggcAtatccaagccTgttgttcctgcagacctCattaaccaCgccAacagAgaaggctggactgctgcccaCattgctgcttcCaaaggttttaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1106084</start>
+            <end>1105832</end>
+          </span>
+          <alignment>
+            gatggctggacaccagttcaTgcagctgtggacactggtaatgtggacagcctcaagcttcttatgtaccatagGaCaccagctTGtAgaaaCtcGttGCatgaggaAC---cTgagtcGGgCgtctttgaTttgAatCAGggagaagagaAtcctgaaggcTtatccaagccCgttgttcctgcagacctTattaaccaTgccGacagCgaaggctggactgctgcccaTattgctgcttcAaaaggttttaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="87.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-8"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448090">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-9  Good  PIGT1:0 U 87.3 100.0 103 15 0 118 118 118 1 1 118 118 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1596710</start>
+            <end>1596592</end>
+          </span>
+          <alignment>
+            aactgcctagaaAtcttgtgtAgGcaCggagggcttgagccAgaaagGagagaCaaGtGCaaTcggactgtgcaTgatgtTgccactgatgactgcaagcatTtgctggagaaTctga
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1096627</start>
+            <end>1096509</end>
+          </span>
+          <alignment>
+            aactgcctagaaGtcttgtgtGgTcaTggagggcttgagccGgaaagAagagaTaaAtATaaCcggactgtgcaCgatgtCgccactgatgactgcaagcatCtgctggagaaCctga
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-9"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448091">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-10  Good  PIGT1:0 U 92.0 100.0 254 22 0 276 276 276 1 1 276 276 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1590244</start>
+            <end>1589968</end>
+          </span>
+          <alignment>
+            atgctcttaaaatacccttaaggatttcagtgggtgagattGaaccaagcaactatggttctgatgacttGgaatgtgaaaacacaatatgTgctttaaatatCcgcaaacagacaTcatgggatgatttttcaaaagcagtgagtcaagctctgacaaatcatttccaGgcaatCtcTtctgatggatggtggagtctggaagacgtgacTtGCAataAcaccactgaTtccaAcatCggcctcAgtgcaagAagCAtAcgatccatcacgCtag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1093920</start>
+            <end>1093644</end>
+          </span>
+          <alignment>
+            atgctcttaaaatacccttaaggatttcagtgggtgagattCaaccaagcaactatggttctgatgacttTgaatgtgaaaacacaatatgCgctttaaatatTcgcaaacagacaAcatgggatgatttttcaaaagcagtgagtcaagctctgacaaatcatttccaAgcaatAtcCtctgatggatggtggagtctggaagacgtgacGtTTCataGcaccactgaCtccaGcatTggcctcGgtgcaagCagTGtGcgatccatcacgTtag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="92.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-10"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448092">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-11  Good  PIGT1:0 U 88.5 100.0 85 11 0 96 96 96 1 1 96 96 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1587504</start>
+            <end>1587408</end>
+          </span>
+          <alignment>
+            gaaatgtgccgtggtcagTGggtcagagcttcGcGcagtccccGtgggactttAtgagGaAGaataaGgcagagcaCatcactgtgcttttgtcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1090934</start>
+            <end>1090838</end>
+          </span>
+          <alignment>
+            gaaatgtgccgtggtcagCAggtcagagcttcAcCcagtccccAtgggactttCtgagAaCAaataaAgcagagcaGatcactgtgcttttgtcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="88.5"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-11"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448093">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-12  Good  PIGT1:0 U 93.8 100.0 75 5 0 80 80 80 1 1 80 80 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1586168</start>
+            <end>1586088</end>
+          </span>
+          <alignment>
+            gtcctcaagaaggctgTctcagtagtgtgacTtatgcCtccatgatccctctCcagatgAtgcagaactacctcaggctg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1089469</start>
+            <end>1089389</end>
+          </span>
+          <alignment>
+            gtcctcaagaaggctgCctcagtagtgtgacCtatgcAtccatgatccctctTcagatgCtgcagaactacctcaggctg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="93.8"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-12"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448094">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-13  Good  PIGT1:0 U 96.6 100.0 84 3 0 87 87 87 1 1 87 87 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1575633</start>
+            <end>1575546</end>
+          </span>
+          <alignment>
+            gtTgagcaatatcataatgtcattttccacggcccagaaggaagcttgcaagactacatagTacatcagcttgcactctgcCtgaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1073327</start>
+            <end>1073240</end>
+          </span>
+          <alignment>
+            gtCgagcaatatcataatgtcattttccacggcccagaaggaagcttgcaagactacatagCacatcagcttgcactctgcAtgaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="96.6"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-13"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448095">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-14  Good  PIGT1:0 U 91.0 100.0 91 9 0 100 100 100 1 1 100 100 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1575464</start>
+            <end>1575364</end>
+          </span>
+          <alignment>
+            cacagacaaatggctgcaggattctcctgtgaAatagtgagagcTGaagtAgatgcTggtttTtccaaggaacagctaCtagaCctgttcatTagtagcg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1073162</start>
+            <end>1073062</end>
+          </span>
+          <alignment>
+            cacagacaaatggctgcaggattctcctgtgaGatagtgagagcCAaagtGgatgcCggtttCtccaaggaacagctaGtagaTctgttcatCagtagcg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-14"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448096">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-15  Good  PIGT1:0 U 86.9 100.0 133 20 0 153 153 153 1 1 153 153 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1564955</start>
+            <end>1564802</end>
+          </span>
+          <alignment>
+            cTtgtctgatcccagtgaaacaatctccCAGtAaGaagaaaatcatcatcatTttagaAaaTTtAgaaaaatcttcaCtgtcGgagttaTtgAgggactttttggCacctctTgaaaatcgcagcacTgaaaGcccctgCactttccaaaaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1064205</start>
+            <end>1064052</end>
+          </span>
+          <alignment>
+            cAtgtctgatcccagtgaaacaatctccTGCtGaCaagaaaatcatcatcatCttagaGaaCCtGgaaaaatcttcaTtgtcTgagttaCtgGgggactttttggGacctctGgaaaatcgcagcacCgaaaAcccctgTactttccaaaaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="86.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-15"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448097">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-16  Good  PIGT1:0 U 89.9 100.0 169 19 0 188 188 188 1 1 188 188 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1564634</start>
+            <end>1564446</end>
+          </span>
+          <alignment>
+            gaaatggaCTGtccgaatgttaTtactttcatgagaactgctttctgAtgggaaccatCgccaaggcctgtctccagggctccgacttgctggtGcagcagcaTttccgctgggtgcagctgcggtgggatggCgagcccatgcaAggActgctgcagaggtTcTtACgAaggaaAgtTgtgaAtaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1063888</start>
+            <end>1063700</end>
+          </span>
+          <alignment>
+            gaaatggaACAtccgaatgttaCtactttcatgagaactgctttctgTtgggaaccatTgccaaggcctgtctccagggctccgacttgctggtCcagcagcaCttccgctgggtgcagctgcggtgggatggGgagcccatgcaGggGctgctgcagaggtGcCtGAgGaggaaGgtCgtgaCtaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.9"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-16"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448098">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-17  Good  PIGT1:0 U 87.7 100.0 157 22 0 179 179 179 1 1 179 179 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1557801</start>
+            <end>1557622</end>
+          </span>
+          <alignment>
+            ttcaAaggtcaggCgccctcCccctgcgatccTgtgtgcaagaTTgtCgactgggcTctgTcCgtctggcgTcagctTaactcCtgcctggcccGcttgggcacaccTgaagcacttcttggaccaaaAtatttcctgtcttgtcctgtaGtTccTgggcatgcccaAgTgacagtgaA
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1059646</start>
+            <end>1059467</end>
+          </span>
+          <alignment>
+            ttcaGaggtcaggTgccctcTccctgcgatccCgtgtgcaagaCGgtTgactgggcCctgGcTgtctggcgCcagctCaactcGtgcctggcccActtgggcacaccAgaagcacttcttggaccaaaGtatttcctgtcttgtcctgtaAtCccAgggcatgcccaGgAgacagtgaG
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="87.7"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-17"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448099">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-18  Good  PIGT1:0 URU 88.3 100.0 182 24 6 206 206 200 2 1 206 206 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1554791</start>
+            <end>1554585</end>
+          </span>
+          <alignment>
+            gtggatgtctaagctgtggaatgGCgtCatCgcacccagagttcaagAagcaatattgtcaagagcctcTGtgaaaagacaacctggcTttgggcaGacaactGCTAAAagaCaccctagccaaggAcagcaggctgtggtCaAagctgctctcagcatcttgctAaataaagctgtActGcatggctgtcccctccCCagagcag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1056990</start>
+            <end>1056790</end>
+          </span>
+          <alignment>
+            gtggatgtctaagctgtggaatgCTgtGatTgcacccagagttcaagCagcaatattgtcaagagcctcCCtgaaaagacaacctggcCttgggcaAacaact------agaAaccctagccaaggGcagcaggctgtggtTaGagctgctctcagcatcttgctTaataaagctgtTctAcatggctgtcccctccAGagagcag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="88.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-18"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448100">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-19  Good  PIGT1:0 URR 87.4 94.1 153 22 3 175 186 172 2 1 186 175 0 11 0 66 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1554266</start>
+            <end>1554080</end>
+          </span>
+          <alignment>
+            agctagaccaGcatacagctgatttcaaaggAggAagtttccctttatCcatagtttcCagttaTaAcaCttgtaAcaagaagaaagGAGaGagtggTgcCtggagaaaggtgaAcaccagtcctcgcaGgaagtctggCcgCttcTcttTacccacctggaaTaagccagacctAAGCACTGAAG
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1056434</start>
+            <end>1056262</end>
+          </span>
+          <alignment>
+            agctagaccaAcatacagctgatttcaaaggGggCagtttccctttatGcatagtttcAagttaCaGcaGttgtaGcaagaagaaag---aCagtggCgcGtggagaaaggtgaGcaccagtcctcgcaAgaagtctggTcgGttcCcttCacccacctggaaCaagccagacct-----------
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URR"></property>
+        <property name="percent_id" value="87.4"></property>
+        <property name="percent_coverage" value="94.1"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-19"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448101">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-20  Good  PIGT1:0 U 89.1 100.0 57 7 0 64 64 64 1 1 64 64 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1550664</start>
+            <end>1550600</end>
+          </span>
+          <alignment>
+            gtAtGaaaaataagactatatCacagctGaatTgtaacaggaatGcttctctgtcaaaacaaaA
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1053111</start>
+            <end>1053047</end>
+          </span>
+          <alignment>
+            gtGtCaaaaataagactatatTacagctAaatCgtaacaggaatActtctctgtcaaaacaaaT
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="89.1"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-20"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448102">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-21  Good  PIGT1:0 U 91.0 100.0 121 12 0 133 133 133 1 1 133 133 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1549170</start>
+            <end>1549037</end>
+          </span>
+          <alignment>
+            gtctttagagaatgaTctatcaCtgacGttgaatttggaTcaGagactctctctgggttcAgatgaCgaagcagaTcttgtcaaggaacttcagagcatgtgctccagcaaGtcTgagtctgaTatCagcaag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1051591</start>
+            <end>1051458</end>
+          </span>
+          <alignment>
+            gtctttagagaatgaGctatcaTtgacAttgaatttggaAcaAagactctctctgggttcGgatgaTgaagcagaCcttgtcaaggaacttcagagcatgtgctccagcaaAtcGgagtctgaCatAagcaag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="91.0"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-21"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448103">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-22  Good  PIGT1:0 U 90.2 100.0 92 10 0 102 102 102 1 1 102 102 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1547653</start>
+            <end>1547551</end>
+          </span>
+          <alignment>
+            attgctgattccagggatgatttaaggaTgtttgatagttcTggaaaCaaCcctgTaCtttcagcaactAttaataatcTGagaatgccagtgtcacaaAag
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1050472</start>
+            <end>1050370</end>
+          </span>
+          <alignment>
+            attgctgattccagggatgatttaaggaGgtttgatagttcGggaaaTaaTcctgCaTtttcagcaactGttaataatcCAagaatgccagtgtcacaaGag
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="U"></property>
+        <property name="percent_id" value="90.2"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-22"></property>
+      </result_span>
+      <result_span id="CELERA:30000103448104">
+        <span_type>HSP</span_type>
+        <description>HUMT1|CORTBP2-23  Good  PIGT1:0 URU 84.3 100.0 962 179 73 1141 1141 1005 23 1 1129 1129 0 0 0 0 10 0</description>
+        <seq_relationship id="HUMT1:0" type="sbjct">
+          <span>
+            <start>1541316</start>
+            <end>1540187</end>
+          </span>
+          <alignment>
+            gaggtcagtcctctcagcagccatcAaaCTActgaatgcagcaacagtaaatcaaagactgagttgggtgtttcaagagttaaatcttttcttcctgttcctagaagtaaagtcacccagtgttcccagaacaccaaaagaagcagcagcagcagtaatacaaggcaaatagaaatcaacaacaactcaaaagaagTgaAttggaacttacAcaaaaaTgaacaCCtagaaaaacctaacaaataggcctgcctacaatattctcaTtAttaacttc-CtCTatttcacacagaaaccaaggacaacaagat-ACaaatacctttaaaTTGatAaaatgttttcactgtaatataaaTtatgagtgcgggaccactattcaaTttttttTTgtaaagaatgtatttataaccAACAttttGTTGCtttttttttTaattcTGtaggattgaaCtTcaataccaGgaagttatGccAacttttCaagtagttttataatagaaaaattGtaatagttttaAtcaagatgttcaggggtattaaaacaGAactgtgtactgtatatctGtatatatgtatatatgtatGTATatttaaGGaagTcCaGAaatca-tAcTGCAtacatgctaCaaaAaAgtaGcaAAAAAGTACAAAGTTGgcttagataacTtgtaCcGttttaaatggaGatcataattttaTgttcactTgatgGggaatgactagaatggggcaataacaaatcatttctaaacaGttaTtttCcAttaaaagccatattaagtattttgcTtgttaaattctagttttATgttttaaatctCttaGtggttACATTGCCATTTGGTAgcatcatgtatatATttatGcttatAaGtttgcattatgactcctgtaaaatatgaaa-t-tataatgcaataaaagtgttatctttcttacaaaagttttgtacctaagtgg--atAtaGaTaaCTGCAtaaatg----aataaattCaGaAttaa-cTccTtcAATaTttctagtAgcacaaCtgataatattGATATTttctaCaaATgttActtCtaaaatTacAGaCAaaatTacttacaCAaTtcagttaaGatgcTttgacaCTGaataaaatattgaTttCAtg
+          </alignment>
+        </seq_relationship>
+        <seq_relationship id="PIGT1:0" type="query">
+          <span>
+            <start>1045914</start>
+            <end>1044834</end>
+          </span>
+          <alignment>
+            gaggtcagtcctctcagcagccatcCaaTGTctgaatgcagcaacagtaaatcaaagactgagttgggtgtttcaagagttaaatcttttcttcctgttcctagaagtaaagtcacccagtgttcccagaacaccaaaagaagcagcagcagcagtaatacaaggcaaatagaaatcaacaacaactcaaaagaagAgaTttggaacttacGcaaaaaCgaacaAGtagaaaaacctaacaaataggcctgcctacaatattctcaAtCttaacttcTGtACatttcacacagaaaccaaggacaacaagatGTAaaatacctttaaaCAAatCaaatgttttcactgtaatataaaGtatgagtgcgggaccactattcaaGtttttt--gtaaagaatgtatttataaccT---tttt-----tttttttttCaattcCAtaggattgaaTtGcaataccaAgaagttatAccCacttttAaagtagttttataatagaaaaattCtaatagttttaCtcaagatgttcaggggtattaaaaca--actgtgtactgtatatctAtatatatgtatatatgtat----atttaaAAaagCcTaTGaatcaTtGcATACtacatgctaAaaaTaTgtaAca----------------gcttagataacAtgtaTcAttttaaatggaAatcataattttaAgttcactGgatgAggaatgactagaatggggcaataacaaatcatttctaaacaAttaCtttTc-ttaaaagccatattaagtattttgcCtgttaaattctagtttt--gttttaaatctTttaAtggtt----------------gcatcatgtatat--ttatCcttatGaAtttgcattatgactcctgtaaaatatgaaaGtAtataatgcaataaaagtgttatctttcttacaaaagttttgtacctaagtggACatTtaAaAaaAACTGtaaatgCTTCaataaattAaCaGttaaCcCccCtcTTCaAttctagtGgcacaaTtgataatatt------ttctaGaaCAgttTcttTtaaaatGacTAaTGaaatGacttaca--aCtcagttaaTatgcCttgacaGCAaataaaatattgaAttAGtg
+          </alignment>
+        </seq_relationship>
+        <property name="mapping_status" value="URU"></property>
+        <property name="percent_id" value="84.3"></property>
+        <property name="percent_coverage" value="100.0"></property>
+        <property name="exon_name" value="HUMT1|CORTBP2-23"></property>
+      </result_span>
+      <property name="mapping_status" value="Partial"></property>
+    </result_set>
+  </computational_analysis>
+</game>

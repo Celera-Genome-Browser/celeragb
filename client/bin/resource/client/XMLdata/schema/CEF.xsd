@@ -1,0 +1,449 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<!--
+ AUTHOR: Les Foster
+ TARGET: Schema to validate XML input to Genome Browser, v4.0
+ APPLICATION: XML Schema Recommendation v1.0
+ DATE:   8/1/2001
+ -->
+
+<xsd:schema
+  xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+  xmlns:ns='http://www.w3.org/namespace/'>
+
+ <!-- No-numbers words.  Groups of letters with spaces between. -->
+ <xsd:simpleType name='words'>
+  <xsd:restriction base='xsd:string'>
+   <xsd:pattern value='[A-Za-z]+([ ][A-Za-z]+)*'/>
+  </xsd:restriction>
+ </xsd:simpleType>
+
+ <!-- Property enumerated names -->
+ <xsd:simpleType name='property_names'>
+  <xsd:restriction base='xsd:string'>
+   <xsd:pattern value='accession_id|aliases|alias_authority|alias_id|alias_name|alias_source_field|alias_status|alias_type|alignments|alignment_length|allele|alternate_accession|assembly_version|assigned_by|assigned_date|axis_begin|axis_end|axis_id|axis_name|axis_scope_type|axis_type|bac_accession|bac_length|bit_score|bits|blastx_nraa_precomputes|CDS_link|CDS_links|center|clone_name|coding_reg_score|collection_id|collection_name|collection_scope|comments|confidence|contact_name|contig_id|created_by|creation_date|curation_flags|datasource|description|detail_type|display_name|display_priority|donor_or_term_sig_score|entity_begin|entity_end|entity_orientation|evidence|exon_prob|exon_score|feature_counts|feature_status|feature_type|flags|flag_type|flag_value|forward_primer|frag/unitig_counts|frame|frameshifts|functional_domain|gapped_length|gene_accession|gene_family_id|gene_family_accession|gene_family_authority|group_tag|gi_number|has_multi_exon|id|ind_e_val|init_or_acc_score|is_alter_splice|is_child|is_complete_gene|is_composite|is_curated|is_frame|is_pseudo_gene|JAM_link|last_alias|last_valid_assembly|length|library_name|magnitude|magnitude_source|method|modified_by|modified_date|na_seq|num_axis_flags|num_components|num_contig_locations|num_families|num_functional_domains|num_gaps|num_identical|num_ontologies|num_sim_or_pos|num_sts_aliases|num_subj_defns|obsolescence_date|odds|old_feature_id|ontology_evidence|ontology_id|order_num|orientation|parent_feature_id|percent_deletion|percent_identity|percent_insertion|percent_substitution|poly_id|poly_type_name|primary_name|primer_id|primer_name|protein_accession|query_frame|region_type_name|rel_assembly_version|release_status|remark|repeat_id|repeat_name|reverse_primer|reviewed_by|reviewed_date|rr_score|score|screen_item_class_id|seq|seq_identity_score|sim_score|site_id|sts_type|subject_frame|subject_left|subject_right|subject_seq_id|subject_seq_length|sum_e_val|transcript_accession|transcript_id|ungapped_length|unit|update_date|validation_status|version_id|REPLACE_STRING'/>
+  </xsd:restriction>
+ </xsd:simpleType>
+
+ <!-- ID types for 'Internal Namespaces': do not confuse with XML namespaces... -->
+ <xsd:simpleType name='id_type'>
+  <xsd:restriction base='xsd:string'>
+   <xsd:pattern value='([A-Za-z_]+:)?[0-9]+'/>
+  </xsd:restriction>
+ </xsd:simpleType>
+
+ <xsd:simpleType name='ids_type'>
+  <xsd:restriction base='xsd:string'>
+   <xsd:pattern value='([A-Za-z]+:)?[0-9]+([ ]([A-Za-z]+:)?[0-9]+)*'/>
+  </xsd:restriction>
+ </xsd:simpleType>
+
+ <xsd:element name='game'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='date' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='program' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='version' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='axis_seq' minOccurs='0' maxOccurs='1'/>
+    <xsd:choice minOccurs='0' maxOccurs='unbounded'>
+     <xsd:element ref='annotation'/>
+     <xsd:element ref='computational_analysis'/>
+     <xsd:element ref='feature_set'/>
+     <xsd:element ref='seq'/>
+    </xsd:choice>
+   </xsd:sequence>
+   <xsd:attribute name='version' type='xsd:string' use='optional'/>
+   <xsd:attribute name='assembly_version' type='xsd:nonNegativeInteger' use='optional'/>
+   <xsd:attribute name='taxon' type='words' use='optional'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='annotation'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='name'/>
+    <xsd:element ref='description' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='annotation_source' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='comments' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='feature_set' maxOccurs='unbounded'/>
+    <xsd:element ref='replaced' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='property' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='computational_analysis'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='date' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='program'/>
+    <xsd:element name='type' minOccurs='0' maxOccurs='1'>
+      <!-- Override of Type Tag For Computational Analysis
+           Type here is a subset that includes precompute entity type names only,
+           and only the subset of those that are valid at the level above spans.
+        -->
+      <xsd:simpleType>
+       <xsd:restriction base='xsd:string'>
+        <!-- Many different strings fit here, as well as numbers correlated directly to entity types. -->
+        <xsd:pattern value='BLASTX_HIT|blastx_hit|GENSCAN_TRANSCRIPT|genscan_transcript|REPEAT_MASKER_HIT|repeat_masker_hit|SIM4_HIT|sim4_hit|LAP_HIT|lap_hit|BLASTN_HIT|blastn_hit|EPCR|epcr|P_ELEMENT_INSERT|p_element_insert|STS|sts|MISC|misc|GENE_ONTOLOGY|gene_ontology|GENOMIC_SEGMENT|genomic_segment|GENIE|genie|TRNA_SCAN|trna_scan|RNA|rna|TBLASTN_HIT|tblastn_hit|F_GENES_H|f_genes_h|GRAIL|grail|GRAIL_EXP_REF_EST|grail_exp_ref_est|CPG_ISLAND|cpg_island|GENEWISE_PEPTIDE_HIT|genewise_peptide_hit|GENEWISE_HMMER_HIT|genewise_hmmer_hit|OTTO|Otto|otto|TIGRCOMBINER_FEATURE|tigrcombiner_feature|BAC_TRACKING|bac_tracking|GLIMMER|glimmer|CRITICA|critica|RRNA|rrna|SNP|snp|CONSERVED_SEGMENT|conserved_segment|CORE_PROMOTER_PREDICTION|core_promoter_prediction|TRANSCRIPT_FACTOR_SITE_P|transcript_factor_site_p|BlastX Hit|Genscan Transcript|Repeat Masker Hit|Sim4 Hit|Lap Hit|BlastN Hit|P Element Insertion|Misc|Gene Ontology|Genomic Segment|Genie|TRNA Scan|TblastN_Hot|F Genes H|Grail|Grail Exp Ref EST|CPG Island|Genewise Peptide Hit|Genewise HMMER Hit|TigrCombiner Feature|BAC Tracking|Glimmer|Critica|Conserved Segment|Core Promoter Prediction|Transcript Factor Site P|[0-9]+'/>
+       </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:element>
+    <xsd:element ref='version' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='parameter' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='database' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='result_set' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='xsd:string' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='feature_set'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='name'/>
+    <xsd:element ref='type'/>
+    <xsd:element ref='annotation_source' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='author' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='creation_date' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='version' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='replaced' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='comments' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='property' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='feature_span' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='seq'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='dbxref' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='description'/>
+    <xsd:element ref='residues' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='seq_alignment' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='length' type='xsd:string' use='optional'/>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+   <xsd:attribute name='type' type='xsd:string' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='axis_seq'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='dbxref' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='description'/>
+    <xsd:element ref='seq_alignment' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='length' type='xsd:string' use='optional'/>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+   <xsd:attribute name='fasta_path' type='xsd:string' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='name' type='xsd:string'/>
+
+ <xsd:element name='description' type='xsd:string'/>
+
+ <xsd:element name='date'>
+  <xsd:complexType>
+   <xsd:attribute name='day' type='xsd:positiveInteger' use='required'/>
+   <xsd:attribute name='year' type='xsd:nonNegativeInteger' use='required'/>
+   <xsd:attribute name='month' type='xsd:positiveInteger' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='program' type='xsd:string'/>
+
+ <xsd:element name='version' type='xsd:string'/>
+
+ <xsd:element name='parameter'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='type'/>
+    <xsd:element ref='value'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='database'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='name'/>
+    <xsd:element ref='date' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='version' minOccurs='0' maxOccurs='1'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='optional'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='result_set'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='description' minOccurs='0' maxOccurs='1'/>
+    <xsd:element name='type' minOccurs='0' maxOccurs='1'>
+      <!-- Override of Type Tag For Result Set (Just Like computational_analysis)
+           Type here is a subset that includes precompute entity type names only,
+           and only the subset of those that are valid at the level above spans.
+        -->
+      <xsd:simpleType>
+       <xsd:restriction base='xsd:string'>
+        <!-- Many different strings fit here, as well as numbers correlated directly to entity types. -->
+        <xsd:pattern value='BLASTX_HIT|GENSCAN_TRANSCRIPT|REPEAT_MASKER_HIT|SIM4_HIT|LAP_HIT|BLASTN_HIT|EPCR|P_ELEMENT_INSERT|STS|MISC|GENE_ONTOLOGY|GENOMIC_SEGMENT|GENIE|TRNA_SCAN|RNA|TBLASTN_HIT|F_GENES_H|GRAIL|GRAIL_EXP_REF_EST|CPG_ISLAND|GENEWISE_PEPTIDE_HIT|GENEWISE_PEPTIDE_HIT_PART|GENEWISE_HMMER_HIT|OTTO|TIGRCOMBINER_FEATURE|BAC_TRACKING|GLIMMER|CRITICA|RRNA|SNP|CONSERVED_SEGMENT|CORE_PROMOTER_PREDICTION|TRANSCRIPT_FACTOR_SITE_P|BlastX Hit|Genscan Transcript|Repeat Masker Hit|Sim4 Hit|Lap Hit|BlastN Hit|P Element Insertion|Misc|Gene Ontology|Genomic Segment|Genie|TRNA Scan|TblastN_Hot|F Genes H|Grail|Grail Exp Ref EST|CPG Island|Genewise Peptide Hit|Genewise HMMER Hit|TigrCombiner Feature|BAC Tracking|Glimmer|Critica|Conserved Segment|Core Promoter Prediction|Transcript Factor Site P|[0-9]+'/>
+       </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:element>
+    <xsd:element ref='score' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='dbxref' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='output' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='result_span' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='property' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='type' type='xsd:string'/>
+
+ <xsd:element name='author' type='xsd:string'/>
+
+ <xsd:element name='creation_date' type='xsd:string'/>
+
+ <xsd:element name='feature_span'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element name='type'>
+      <!-- Override of Type Tag For Feature Span
+           Type here is a subset that includes human curated entity type names only,
+           and only the subset of those that are valid at the level below transcripts.
+        -->
+      <xsd:simpleType>
+       <xsd:restriction base='xsd:string'>
+        <xsd:pattern value='EXON|Exon|Start Codon|StartCodon|START_CODON|Stop Codon|STOP_CODON|StopCodon|Translation Start Position|TranslationStart|TRANSLATION_START_POSITION'/>
+       </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:element>
+    <xsd:element ref='comments' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='annotation_source' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='seq_relationship'/>
+    <xsd:element ref='property' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='replaced' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='evidence' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='dbxref'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='xref_db'/>
+    <xsd:element ref='db_xref_id'/>
+    <xsd:element ref='version' minOccurs='0' maxOccurs='1'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='value' type='xsd:string'/>
+
+ <xsd:element name='score' type='xsd:float'/>
+
+ <xsd:element name='output'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='type'/>
+    <xsd:element ref='value'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='result_span'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='span_type' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='score' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='output' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='value' minOccurs='0' maxOccurs='1'/>
+    <xsd:element ref='seq_relationship' minOccurs='0' maxOccurs='unbounded'/>
+    <xsd:element ref='property' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='seq_relationship'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='span'/>
+    <xsd:element ref='alignment' minOccurs='0' maxOccurs='1'/>
+   </xsd:sequence>
+   <xsd:attribute name='id' type='id_type' use='required'/>
+   <xsd:attribute name='type' use='optional'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='Insertion'/>
+      <xsd:enumeration value='Deletion'/>
+      <xsd:enumeration value='Substitution'/>
+      <xsd:enumeration value='query'/>
+      <xsd:enumeration value='sbjct'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='evidence'>
+  <xsd:complexType>
+   <xsd:simpleContent>
+    <xsd:extension base='xsd:string'>
+     <xsd:attribute name='type' use='optional'>
+      <xsd:simpleType>
+       <xsd:restriction base='xsd:string'>
+        <xsd:enumeration value='homology'/>
+        <xsd:enumeration value='gene_prediction'/>
+       </xsd:restriction>
+      </xsd:simpleType>
+     </xsd:attribute>
+     <xsd:attribute name='result' type='id_type' use='optional'/>
+    </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='xref_db' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='db_xref_id' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='span_type'>
+  <!-- Override of Type Tag For Result Set (Just Like computational_analysis)
+       Type here is a subset that includes precompute entity type names only,
+       and only the subset of those that are valid at the level above spans.
+    -->
+  <xsd:simpleType>
+   <xsd:restriction base='xsd:string'>
+    <!-- Many different strings fit here, as well as numbers correlated directly to entity types. -->
+    <xsd:pattern value='HSP|Sim4 Feature Detail|SIM4_FEATURE_DETAIL|LAP_FEATURE_DETAIL|UTR5 Polymorphism|UTR_5|UTR3 Polymorphism|Intron Polymorphism|Intergenic Polymorphism|Silent Polymorphism|Missense Polymorphism|Nonsense Polymorphism|StopCodon Polymorphism|Unknown Polymorphism|Lap Feature Detail|GENIE_FEATURE_DETAIL|Genie Feature Detail|F_GENES_H_FEATURE_DETAIL|F Genes H Feature Detail|GRAIL_FEATURE_DETAIL|Grail Feature Detail|GENEWISE_PEPTIDE_HIT_PART|Genewise Peptide Hit Part|GENEWISE_HMMER_HIT_PART|Genewise Hmmer Hit Part|OTTO_DETAIL|Otto Detail|TIGRCOMBINER_FEATURE_DETAIL|TIGR Combiner Feature Detail|[0-9]+'/>
+   </xsd:restriction>
+  </xsd:simpleType>
+ </xsd:element>
+
+ <xsd:element name='span'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='start'/>
+    <xsd:element ref='end'/>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='alignment' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='start' type='xsd:nonNegativeInteger'/>
+
+ <xsd:element name='end' type='xsd:nonNegativeInteger'/>
+
+ <xsd:element name='replaced'>
+  <xsd:complexType>
+   <xsd:attribute name='type' use='required'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='unmodified'/>
+      <xsd:enumeration value='modified'/>
+      <xsd:enumeration value='obsolete'/>
+      <xsd:enumeration value='split'/>
+      <xsd:enumeration value='merge'/>
+      <xsd:enumeration value='deep-modified'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+   <xsd:attribute name='ids' type='ids_type' use='required'/>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='property'>
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element ref='property' minOccurs='0' maxOccurs='unbounded'/>
+   </xsd:sequence>
+   <xsd:attribute name='name' type='property_names' use='required'/>
+   <xsd:attribute name='value' type='xsd:string' use='required'/>
+   <xsd:attribute name='editable' use='optional'>
+    <xsd:simpleType>
+     <xsd:restriction base='xsd:string'>
+      <xsd:enumeration value='true'/>
+      <xsd:enumeration value='false'/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:attribute>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='seq_alignment'>
+  <xsd:complexType>
+   <xsd:simpleContent>
+    <xsd:extension base='xsd:string'>
+     <xsd:attribute name='start' type='xsd:string' use='optional'/>
+     <xsd:attribute name='end' type='xsd:string' use='optional'/>
+     <xsd:attribute name='entity_start' type='xsd:string' use='optional'/>
+     <xsd:attribute name='entity_end' type='xsd:string' use='optional'/>
+     <xsd:attribute name='file_path' type='xsd:string' use='optional'/>
+     <xsd:attribute name='seq_id' type='xsd:string' use='required'/>
+    </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:simpleType name="residues_type">
+  <xsd:restriction base="xsd:string">
+   <xsd:pattern value="[ACGTacgt\n]*"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+
+ <!-- xsd:element name='residues' type='residues_type'
+      NOTE: cannot use the residues_type, because the residues
+      exceed some implied limitation for match length.
+      If you plug in the line above, you will get a stack
+      overflow. LLF
+   -->
+ <xsd:element name='residues' type='xsd:string'>
+ </xsd:element>
+
+ <xsd:element name='comments'>
+  <xsd:complexType>
+   <xsd:simpleContent>
+    <xsd:extension base='xsd:string'>
+     <xsd:attribute name='author' type='xsd:string' use='optional'/>
+     <xsd:attribute name='date' type='xsd:string' use='optional'/>
+    </xsd:extension>
+   </xsd:simpleContent>
+  </xsd:complexType>
+ </xsd:element>
+
+ <xsd:element name='annotation_source' type='xsd:string'>
+ </xsd:element>
+</xsd:schema>

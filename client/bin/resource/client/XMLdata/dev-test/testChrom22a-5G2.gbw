@@ -1,0 +1,2724 @@
+<!--
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Copyright (c) 1999 - 2006 Applera Corporation.
+ 301 Merritt 7 
+ P.O. Box 5435 
+ Norwalk, CT 06856-5435 USA
+
+ This is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU Lesser General Public License as published by the 
+ Free Software Foundation; version 2.1 of the License.
+
+ This software is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License 
+ along with this software; if not, write to the Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<game version="1.001">
+ <annotation id="WORKSPACE:48"> 
+  <name>WG1</name>
+  <feature_set id= "WORKSPACE:1">
+   <name>WT1</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="1" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:2">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>51277</start>
+        <end>51477</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="2" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:5">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>50514</start>
+        <end>50594</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="5" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:4">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>34209</start>
+        <end>34827</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="4" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:6">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>34026</start>
+        <end>34181</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="6" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:3">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>74741</start>
+        <end>74899</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="3" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:64">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>34088</start>
+        <end>34091</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="3" editable="false">
+    </property>
+    <property name="startPosition" value="34088" editable="false">
+    </property>
+    <property name="id" value="64" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:65">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>34266</start>
+        <end>34269</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="65" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <feature_set id= "WORKSPACE:7">
+   <name>WT2</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="7" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:10">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>4681</start>
+        <end>4826</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="10" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:11">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>18578</start>
+        <end>18664</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="11" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:12">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>5998</start>
+        <end>6143</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="12" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:13">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>19783</start>
+        <end>19789</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="13" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:8">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>2993</start>
+        <end>3454</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="8" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:9">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>6485</start>
+        <end>6608</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="9" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:57">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>2993</start>
+        <end>2996</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="3" editable="false">
+    </property>
+    <property name="startPosition" value="2993" editable="false">
+    </property>
+    <property name="id" value="57" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:58">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>18661</start>
+        <end>18664</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="58" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <feature_set id= "WORKSPACE:14">
+   <name>WT3</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="14" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:15">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>67818</start>
+        <end>67858</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="15" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:18">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>72719</start>
+        <end>73315</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="18" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:16">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>73380</start>
+        <end>73768</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="16" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:17">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>75031</start>
+        <end>75037</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="17" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:72">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>72728</start>
+        <end>72731</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="3" editable="false">
+    </property>
+    <property name="startPosition" value="72728" editable="false">
+    </property>
+    <property name="id" value="72" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:73">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>73765</start>
+        <end>73768</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="73" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="assigned_by" value="TurnerRJ" editable="true">
+  </property>
+  <property name="assigned_date" value="" editable="true">
+  </property>
+  <property name="group_tag" value="" editable="true">
+  </property>
+  <property name="display_priority" value="" editable="true">
+  </property>
+  <property name="feature_status" value="" editable="true">
+  </property>
+  <property name="created_date" value="" editable="true">
+  </property>
+  <property name="is_alter_splice" value="" editable="true">
+  </property>
+  <property name="is_psuedo_gene" value="" editable="true">
+  </property>
+  <property name="approved_by" value="" editable="true">
+  </property>
+  <property name="approved_date" value="09/05/2000 20:00:01" editable="true">
+  </property>
+  <property name="status" value="" editable="true">
+  </property>
+  <property name="authority" value="" editable="true">
+  </property>
+  <property name="external_accession" value="" editable="true">
+  </property>
+  <property name="id" value="48" editable="false">
+  </property>
+ </annotation>
+ <annotation id="WORKSPACE:49"> 
+  <name>WG2</name>
+  <feature_set id= "WORKSPACE:19">
+   <name>WT4</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="19" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:24">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>93921</start>
+        <end>93951</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="24" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:23">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>106834</start>
+        <end>107110</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="23" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:20">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>107309</start>
+        <end>107942</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="20" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:26">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>121459</start>
+        <end>121607</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="26" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:25">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>128832</start>
+        <end>128838</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="25" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:21">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>128222</start>
+        <end>128335</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="21" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:22">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>84625</start>
+        <end>84665</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="22" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:74">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>107715</start>
+        <end>107718</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="1" editable="false">
+    </property>
+    <property name="startPosition" value="107715" editable="false">
+    </property>
+    <property name="id" value="74" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:75">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>121505</start>
+        <end>121508</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="75" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="assigned_by" value="TurnerRJ" editable="true">
+  </property>
+  <property name="assigned_date" value="" editable="true">
+  </property>
+  <property name="group_tag" value="" editable="true">
+  </property>
+  <property name="display_priority" value="" editable="true">
+  </property>
+  <property name="feature_status" value="" editable="true">
+  </property>
+  <property name="created_date" value="" editable="true">
+  </property>
+  <property name="is_alter_splice" value="" editable="true">
+  </property>
+  <property name="is_psuedo_gene" value="" editable="true">
+  </property>
+  <property name="approved_by" value="" editable="true">
+  </property>
+  <property name="approved_date" value="09/05/2000 20:00:42" editable="true">
+  </property>
+  <property name="status" value="" editable="true">
+  </property>
+  <property name="authority" value="" editable="true">
+  </property>
+  <property name="external_accession" value="" editable="true">
+  </property>
+  <property name="id" value="49" editable="false">
+  </property>
+ </annotation>
+ <annotation id="WORKSPACE:50"> 
+  <name>WG3</name>
+  <feature_set id= "WORKSPACE:35">
+   <name>WT7</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="35" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:38">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>162182</start>
+        <end>162276</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="38" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:37">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>153114</start>
+        <end>153251</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="37" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:36">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>149675</start>
+        <end>149953</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="36" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:81">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>149703</start>
+        <end>149706</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="1" editable="false">
+    </property>
+    <property name="startPosition" value="149703" editable="false">
+    </property>
+    <property name="id" value="81" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:82">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>149874</start>
+        <end>149877</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="82" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <feature_set id= "WORKSPACE:27">
+   <name>WT5</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="27" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:28">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>152031</start>
+        <end>152289</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="28" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:31">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>151472</start>
+        <end>151976</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="31" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:29">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>153053</start>
+        <end>153059</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="29" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:30">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>143263</start>
+        <end>143377</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="30" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:77">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>151557</start>
+        <end>151560</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="1" editable="false">
+    </property>
+    <property name="startPosition" value="151557" editable="false">
+    </property>
+    <property name="id" value="77" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:78">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>151665</start>
+        <end>151668</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="78" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="assigned_by" value="TurnerRJ" editable="true">
+  </property>
+  <property name="assigned_date" value="" editable="true">
+  </property>
+  <property name="group_tag" value="" editable="true">
+  </property>
+  <property name="display_priority" value="" editable="true">
+  </property>
+  <property name="feature_status" value="" editable="true">
+  </property>
+  <property name="created_date" value="" editable="true">
+  </property>
+  <property name="is_alter_splice" value="" editable="true">
+  </property>
+  <property name="is_psuedo_gene" value="" editable="true">
+  </property>
+  <property name="approved_by" value="" editable="true">
+  </property>
+  <property name="approved_date" value="09/05/2000 20:01:49" editable="true">
+  </property>
+  <property name="status" value="" editable="true">
+  </property>
+  <property name="authority" value="" editable="true">
+  </property>
+  <property name="external_accession" value="" editable="true">
+  </property>
+  <property name="id" value="50" editable="false">
+  </property>
+ </annotation>
+ <annotation id="WORKSPACE:51"> 
+  <name>WG4</name>
+  <feature_set id= "WORKSPACE:32">
+   <name>WT6</name>
+   <type>TRANSCRIPT</type>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="comments" value="0" editable="false"><property name="comments" value="0" editable="false">
+   </property>
+   <property name="aliases" value="0" editable="false">
+   </property>
+   <property name="flags" value="0" editable="false">
+   </property>
+   <property name="assigned_by" value="" editable="true">
+   </property>
+   <property name="assigned_date" value="" editable="true">
+   </property>
+   <property name="group_tag" value="" editable="true">
+   </property>
+   <property name="display_priority" value="" editable="true">
+   </property>
+   <property name="feature_status" value="" editable="true">
+   </property>
+   <property name="created_date" value="" editable="true">
+   </property>
+   <property name="has_multi_exon" value="" editable="true">
+   </property>
+   <property name="na_seq" value="" editable="true">
+   </property>
+   <property name="id" value="32" editable="false">
+   </property>
+   <feature_span id="WORKSPACE:34">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>186425</start>
+        <end>186501</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="34" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:33">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>180891</start>
+        <end>181155</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="33" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:40">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>187566</start>
+        <end>187841</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="40" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:39">
+    <type>EXON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>167021</start>
+        <end>167221</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="assembly_version" value="" editable="true">
+    </property>
+    <property name="confidence" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="obsolescence_date" value="" editable="true">
+    </property>
+    <property name="transcript_id" value="" editable="true">
+    </property>
+    <property name="transcript_name" value="" editable="true">
+    </property>
+    <property name="updated_date" value="" editable="true">
+    </property>
+    <property name="id" value="39" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:83">
+    <type>START_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>167024</start>
+        <end>167027</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="readingFrame" value="3" editable="false">
+    </property>
+    <property name="startPosition" value="167024" editable="false">
+    </property>
+    <property name="id" value="83" editable="false">
+    </property>
+   </feature_span>
+   <feature_span id="WORKSPACE:84">
+    <type>STOP_CODON</type>
+    <seq_relationship id="INTERNAL:335001033774513" type="query">
+      <span>
+        <start>167081</start>
+        <end>167084</end>
+      </span>
+    </seq_relationship>
+    <property name="comments" value="0" editable="false"> <property name="comments" value="0" editable="false">
+    </property>
+    <property name="aliases" value="0" editable="false">
+    </property>
+    <property name="flags" value="0" editable="false">
+    </property>
+    <property name="assigned_by" value="" editable="true">
+    </property>
+    <property name="assigned_date" value="" editable="true">
+    </property>
+    <property name="group_tag" value="" editable="true">
+    </property>
+    <property name="display_priority" value="" editable="true">
+    </property>
+    <property name="feature_status" value="" editable="true">
+    </property>
+    <property name="created_date" value="" editable="true">
+    </property>
+    <property name="id" value="84" editable="false">
+    </property>
+   </feature_span>
+  </feature_set>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="comments" value="0" editable="false">property name="comments" value="0" editable="false">
+  </property>
+  <property name="aliases" value="0" editable="false">
+  </property>
+  <property name="flags" value="0" editable="false">
+  </property>
+  <property name="assigned_by" value="TurnerRJ" editable="true">
+  </property>
+  <property name="assigned_date" value="" editable="true">
+  </property>
+  <property name="group_tag" value="" editable="true">
+  </property>
+  <property name="display_priority" value="" editable="true">
+  </property>
+  <property name="feature_status" value="" editable="true">
+  </property>
+  <property name="created_date" value="" editable="true">
+  </property>
+  <property name="is_alter_splice" value="" editable="true">
+  </property>
+  <property name="is_psuedo_gene" value="" editable="true">
+  </property>
+  <property name="approved_by" value="" editable="true">
+  </property>
+  <property name="approved_date" value="09/05/2000 20:02:46" editable="true">
+  </property>
+  <property name="status" value="" editable="true">
+  </property>
+  <property name="authority" value="" editable="true">
+  </property>
+  <property name="external_accession" value="" editable="true">
+  </property>
+  <property name="id" value="51" editable="false">
+  </property>
+ </annotation>
+</game>

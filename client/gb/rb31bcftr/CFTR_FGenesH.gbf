@@ -1,0 +1,3620 @@
+<game version="Celera 3.0" assembly_version="1" taxon="Rattus norvegicus CFTR Region">
+<computational_analysis id="CFTRFGSH:108">
+ <date day="6" month="4" year="2004"></date>
+ <program>CFTR_FGenesH</program>
+ <type>BLASTN_HIT</type>
+ <result_set id="CFTRFGSH:109">
+ <description>FGenesh_1</description>
+ <result_span id="CFTRFGSH:110">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>486</start><end>432</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:1" type="sbjct">
+   <span><start>207</start><end>261</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:111">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1538</start><end>1373</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:1" type="sbjct">
+   <span><start>42</start><end>207</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:112">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>4635</start><end>4593</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:1" type="sbjct">
+   <span><start>0</start><end>42</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:1"></property>
+ <property name="subject_seq_length"        value="261"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:113">
+ <description>FGenesh_2</description>
+ <result_span id="CFTRFGSH:114">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>5399</start><end>5452</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:2" type="sbjct">
+   <span><start>0</start><end>53</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:115">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>10624</start><end>10718</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:2" type="sbjct">
+   <span><start>53</start><end>147</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:116">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>13008</start><end>13058</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:2" type="sbjct">
+   <span><start>147</start><end>197</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:117">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>14032</start><end>14450</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:2" type="sbjct">
+   <span><start>197</start><end>615</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:118">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>14950</start><end>16132</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:2" type="sbjct">
+   <span><start>615</start><end>1797</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:119">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>17056</start><end>18175</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:2" type="sbjct">
+   <span><start>1797</start><end>2916</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:2"></property>
+ <property name="subject_seq_length"        value="2916"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:120">
+ <description>FGenesh_3</description>
+ <result_span id="CFTRFGSH:121">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>18234</start><end>19548</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:3" type="sbjct">
+   <span><start>0</start><end>1314</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:122">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>19940</start><end>21887</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:3" type="sbjct">
+   <span><start>1314</start><end>3261</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:3"></property>
+ <property name="subject_seq_length"        value="3261"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:123">
+ <description>FGenesh_4</description>
+ <result_span id="CFTRFGSH:124">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>23517</start><end>23680</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>0</start><end>163</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:125">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>24396</start><end>24543</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>163</start><end>310</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:126">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>25708</start><end>25801</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>310</start><end>403</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:127">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>27095</start><end>27147</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>403</start><end>455</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:128">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>27579</start><end>27735</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>455</start><end>611</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:129">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>31050</start><end>31129</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>611</start><end>690</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:130">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>42553</start><end>42672</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>690</start><end>809</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:131">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>48105</start><end>48235</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>809</start><end>939</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:132">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>48886</start><end>48990</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>939</start><end>1043</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:133">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>71504</start><end>71611</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>1043</start><end>1150</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:134">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>80481</start><end>80552</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:4" type="sbjct">
+   <span><start>1150</start><end>1221</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:4"></property>
+ <property name="subject_seq_length"        value="1221"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:135">
+ <description>FGenesh_5</description>
+ <result_span id="CFTRFGSH:136">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101162</start><end>101312</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:5" type="sbjct">
+   <span><start>0</start><end>150</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:137">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>101678</start><end>101866</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:5" type="sbjct">
+   <span><start>150</start><end>338</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:138">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>109710</start><end>109924</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:5" type="sbjct">
+   <span><start>338</start><end>552</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:5"></property>
+ <property name="subject_seq_length"        value="552"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:139">
+ <description>FGenesh_6</description>
+ <result_span id="CFTRFGSH:140">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>116040</start><end>116139</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:6" type="sbjct">
+   <span><start>0</start><end>99</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:141">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>126509</start><end>126674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:6" type="sbjct">
+   <span><start>99</start><end>264</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:142">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>144486</start><end>144597</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:6" type="sbjct">
+   <span><start>264</start><end>375</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:6"></property>
+ <property name="subject_seq_length"        value="375"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:143">
+ <description>FGenesh_7</description>
+ <result_span id="CFTRFGSH:144">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>151366</start><end>150185</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:7" type="sbjct">
+   <span><start>1135</start><end>2316</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:145">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>152626</start><end>151491</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:7" type="sbjct">
+   <span><start>0</start><end>1135</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:7"></property>
+ <property name="subject_seq_length"        value="2316"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:146">
+ <description>FGenesh_8</description>
+ <result_span id="CFTRFGSH:147">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>153900</start><end>153797</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:8" type="sbjct">
+   <span><start>494</start><end>597</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:148">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>157880</start><end>157386</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:8" type="sbjct">
+   <span><start>0</start><end>494</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:8"></property>
+ <property name="subject_seq_length"        value="597"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:149">
+ <description>FGenesh_9</description>
+ <result_span id="CFTRFGSH:150">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>169041</start><end>168936</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:9" type="sbjct">
+   <span><start>51</start><end>156</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:151">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>193149</start><end>193098</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:9" type="sbjct">
+   <span><start>0</start><end>51</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:9"></property>
+ <property name="subject_seq_length"        value="156"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:152">
+ <description>FGenesh_10</description>
+ <result_span id="CFTRFGSH:153">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>207551</start><end>207705</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:10" type="sbjct">
+   <span><start>0</start><end>154</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:154">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>238374</start><end>238715</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:10" type="sbjct">
+   <span><start>154</start><end>495</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:10"></property>
+ <property name="subject_seq_length"        value="495"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:155">
+ <description>FGenesh_11</description>
+ <result_span id="CFTRFGSH:156">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>246312</start><end>245982</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:11" type="sbjct">
+   <span><start>0</start><end>330</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:11"></property>
+ <property name="subject_seq_length"        value="330"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:157">
+ <description>FGenesh_12</description>
+ <result_span id="CFTRFGSH:158">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>247760</start><end>247588</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:12" type="sbjct">
+   <span><start>950</start><end>1122</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:159">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>248914</start><end>247964</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:12" type="sbjct">
+   <span><start>0</start><end>950</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:12"></property>
+ <property name="subject_seq_length"        value="1122"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:160">
+ <description>FGenesh_13</description>
+ <result_span id="CFTRFGSH:161">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>250071</start><end>249516</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:13" type="sbjct">
+   <span><start>0</start><end>555</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:13"></property>
+ <property name="subject_seq_length"        value="555"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:162">
+ <description>FGenesh_14</description>
+ <result_span id="CFTRFGSH:163">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>255649</start><end>255818</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>0</start><end>169</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:164">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>265929</start><end>266025</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>169</start><end>265</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:165">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>266441</start><end>266510</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>265</start><end>334</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:166">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>274326</start><end>274485</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>334</start><end>493</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:167">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>279569</start><end>279605</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>493</start><end>529</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:168">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>283609</start><end>283713</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>529</start><end>633</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:169">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>287300</start><end>287418</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>633</start><end>751</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:170">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>294071</start><end>294131</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>751</start><end>811</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:171">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>299060</start><end>299131</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>811</start><end>882</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:172">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>300782</start><end>300881</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>882</start><end>981</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:173">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>303973</start><end>304022</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>981</start><end>1030</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:174">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>305915</start><end>306037</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:14" type="sbjct">
+   <span><start>1030</start><end>1152</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:14"></property>
+ <property name="subject_seq_length"        value="1152"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:175">
+ <description>FGenesh_15</description>
+ <result_span id="CFTRFGSH:176">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>307405</start><end>308608</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>0</start><end>1203</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:177">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>328961</start><end>329153</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1203</start><end>1395</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:178">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>332691</start><end>332766</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1395</start><end>1470</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:179">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>340499</start><end>340634</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1470</start><end>1605</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:180">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>341610</start><end>341700</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1605</start><end>1695</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:181">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>346012</start><end>346173</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1695</start><end>1856</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:182">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>348277</start><end>348380</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1856</start><end>1959</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:183">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>348489</start><end>348626</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>1959</start><end>2096</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:184">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>349299</start><end>349461</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>2096</start><end>2258</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:185">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>350187</start><end>350287</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>2258</start><end>2358</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:186">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>354498</start><end>354717</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>2358</start><end>2577</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:187">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>356352</start><end>356529</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>2577</start><end>2754</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:188">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>361325</start><end>361475</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>2754</start><end>2904</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:189">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363031</start><end>363185</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>2904</start><end>3058</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:190">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>363377</start><end>363518</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3058</start><end>3199</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:191">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>367514</start><end>367745</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3199</start><end>3430</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:192">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>369906</start><end>369987</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3430</start><end>3511</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:193">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>373632</start><end>373814</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3511</start><end>3693</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:194">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>376265</start><end>376375</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3693</start><end>3803</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:195">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>377532</start><end>377698</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3803</start><end>3969</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:196">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>381240</start><end>381318</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>3969</start><end>4047</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:197">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>394144</start><end>394333</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:15" type="sbjct">
+   <span><start>4047</start><end>4236</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:15"></property>
+ <property name="subject_seq_length"        value="4236"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:198">
+ <description>FGenesh_16</description>
+ <result_span id="CFTRFGSH:199">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>405708</start><end>405015</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:16" type="sbjct">
+   <span><start>0</start><end>693</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:16"></property>
+ <property name="subject_seq_length"        value="693"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:200">
+ <description>FGenesh_17</description>
+ <result_span id="CFTRFGSH:201">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>410231</start><end>409067</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:17" type="sbjct">
+   <span><start>0</start><end>1164</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:17"></property>
+ <property name="subject_seq_length"        value="1164"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:202">
+ <description>FGenesh_18</description>
+ <result_span id="CFTRFGSH:203">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>411883</start><end>411110</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:18" type="sbjct">
+   <span><start>382</start><end>1155</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:204">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>412325</start><end>411943</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:18" type="sbjct">
+   <span><start>0</start><end>382</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:18"></property>
+ <property name="subject_seq_length"        value="1155"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:205">
+ <description>FGenesh_19</description>
+ <result_span id="CFTRFGSH:206">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>413955</start><end>413449</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:19" type="sbjct">
+   <span><start>274</start><end>780</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:207">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>414209</start><end>414159</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:19" type="sbjct">
+   <span><start>224</start><end>274</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:208">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>415519</start><end>415384</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:19" type="sbjct">
+   <span><start>89</start><end>224</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:209">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>422263</start><end>422227</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:19" type="sbjct">
+   <span><start>53</start><end>89</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:210">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>425540</start><end>425487</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:19" type="sbjct">
+   <span><start>0</start><end>53</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:19"></property>
+ <property name="subject_seq_length"        value="780"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:211">
+ <description>FGenesh_20</description>
+ <result_span id="CFTRFGSH:212">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>439022</start><end>438203</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:20" type="sbjct">
+   <span><start>75</start><end>894</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:213">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>442060</start><end>441985</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:20" type="sbjct">
+   <span><start>0</start><end>75</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:20"></property>
+ <property name="subject_seq_length"        value="894"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:214">
+ <description>FGenesh_21</description>
+ <result_span id="CFTRFGSH:215">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>449162</start><end>449249</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:21" type="sbjct">
+   <span><start>0</start><end>87</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:216">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>454903</start><end>455177</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:21" type="sbjct">
+   <span><start>87</start><end>361</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:217">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>455379</start><end>456623</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:21" type="sbjct">
+   <span><start>361</start><end>1605</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:21"></property>
+ <property name="subject_seq_length"        value="1605"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:218">
+ <description>FGenesh_22</description>
+ <result_span id="CFTRFGSH:219">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>458474</start><end>458936</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:22" type="sbjct">
+   <span><start>0</start><end>462</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:22"></property>
+ <property name="subject_seq_length"        value="462"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:220">
+ <description>FGenesh_23</description>
+ <result_span id="CFTRFGSH:221">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>460215</start><end>460824</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>0</start><end>609</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:222">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>479843</start><end>479907</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>609</start><end>673</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:223">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>481392</start><end>481444</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>673</start><end>725</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:224">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>485948</start><end>486012</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>725</start><end>789</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:225">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>488295</start><end>488502</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>789</start><end>996</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:226">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>489164</start><end>489313</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>996</start><end>1145</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:227">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>493362</start><end>493441</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>1145</start><end>1224</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:228">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>495820</start><end>495892</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>1224</start><end>1296</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:229">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505329</start><end>505392</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>1296</start><end>1359</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:230">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>505567</start><end>505708</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:23" type="sbjct">
+   <span><start>1359</start><end>1500</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:23"></property>
+ <property name="subject_seq_length"        value="1500"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:231">
+ <description>FGenesh_24</description>
+ <result_span id="CFTRFGSH:232">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>523093</start><end>522805</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:24" type="sbjct">
+   <span><start>0</start><end>288</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:24"></property>
+ <property name="subject_seq_length"        value="288"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:233">
+ <description>FGenesh_25</description>
+ <result_span id="CFTRFGSH:234">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>535455</start><end>535606</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:25" type="sbjct">
+   <span><start>0</start><end>151</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:235">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>544720</start><end>544818</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:25" type="sbjct">
+   <span><start>151</start><end>249</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:236">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>545845</start><end>545899</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:25" type="sbjct">
+   <span><start>249</start><end>303</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:237">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>546881</start><end>547190</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:25" type="sbjct">
+   <span><start>303</start><end>612</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:25"></property>
+ <property name="subject_seq_length"        value="612"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:238">
+ <description>FGenesh_26</description>
+ <result_span id="CFTRFGSH:239">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>548486</start><end>548319</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:26" type="sbjct">
+   <span><start>136</start><end>303</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:240">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>549195</start><end>549059</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:26" type="sbjct">
+   <span><start>0</start><end>136</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:26"></property>
+ <property name="subject_seq_length"        value="303"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:241">
+ <description>FGenesh_27</description>
+ <result_span id="CFTRFGSH:242">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>563429</start><end>563272</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:27" type="sbjct">
+   <span><start>2966</start><end>3123</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:243">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>570369</start><end>570220</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:27" type="sbjct">
+   <span><start>2817</start><end>2966</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:244">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>573982</start><end>573128</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:27" type="sbjct">
+   <span><start>1963</start><end>2817</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:245">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>575393</start><end>574328</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:27" type="sbjct">
+   <span><start>898</start><end>1963</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:246">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>576381</start><end>575483</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:27" type="sbjct">
+   <span><start>0</start><end>898</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:27"></property>
+ <property name="subject_seq_length"        value="3123"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:247">
+ <description>FGenesh_28</description>
+ <result_span id="CFTRFGSH:248">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>577833</start><end>576954</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:28" type="sbjct">
+   <span><start>1422</start><end>2301</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:249">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>579212</start><end>578320</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:28" type="sbjct">
+   <span><start>530</start><end>1422</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:250">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>579987</start><end>579457</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:28" type="sbjct">
+   <span><start>0</start><end>530</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:28"></property>
+ <property name="subject_seq_length"        value="2301"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:251">
+ <description>FGenesh_29</description>
+ <result_span id="CFTRFGSH:252">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>609290</start><end>606854</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:29" type="sbjct">
+   <span><start>0</start><end>2436</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:29"></property>
+ <property name="subject_seq_length"        value="2436"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:253">
+ <description>FGenesh_30</description>
+ <result_span id="CFTRFGSH:254">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>610119</start><end>609402</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:30" type="sbjct">
+   <span><start>0</start><end>717</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:30"></property>
+ <property name="subject_seq_length"        value="717"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:255">
+ <description>FGenesh_31</description>
+ <result_span id="CFTRFGSH:256">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>613230</start><end>611470</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:31" type="sbjct">
+   <span><start>1021</start><end>2781</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:257">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>614376</start><end>613355</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:31" type="sbjct">
+   <span><start>0</start><end>1021</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:31"></property>
+ <property name="subject_seq_length"        value="2781"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:258">
+ <description>FGenesh_32</description>
+ <result_span id="CFTRFGSH:259">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>616831</start><end>616360</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:32" type="sbjct">
+   <span><start>0</start><end>471</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:32"></property>
+ <property name="subject_seq_length"        value="471"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:260">
+ <description>FGenesh_33</description>
+ <result_span id="CFTRFGSH:261">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>633879</start><end>633414</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:33" type="sbjct">
+   <span><start>0</start><end>465</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:33"></property>
+ <property name="subject_seq_length"        value="465"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:262">
+ <description>FGenesh_34</description>
+ <result_span id="CFTRFGSH:263">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>637353</start><end>637428</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:34" type="sbjct">
+   <span><start>0</start><end>75</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:264">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>641830</start><end>641950</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:34" type="sbjct">
+   <span><start>75</start><end>195</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:265">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>643738</start><end>643838</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:34" type="sbjct">
+   <span><start>195</start><end>295</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:266">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>647019</start><end>647036</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:34" type="sbjct">
+   <span><start>295</start><end>312</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:34"></property>
+ <property name="subject_seq_length"        value="312"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:267">
+ <description>FGenesh_35</description>
+ <result_span id="CFTRFGSH:268">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>648320</start><end>647826</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:35" type="sbjct">
+   <span><start>52</start><end>546</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:269">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>666583</start><end>666531</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:35" type="sbjct">
+   <span><start>0</start><end>52</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:35"></property>
+ <property name="subject_seq_length"        value="546"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:270">
+ <description>FGenesh_36</description>
+ <result_span id="CFTRFGSH:271">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>669761</start><end>669503</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:36" type="sbjct">
+   <span><start>0</start><end>258</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:36"></property>
+ <property name="subject_seq_length"        value="258"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:272">
+ <description>FGenesh_37</description>
+ <result_span id="CFTRFGSH:273">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>671858</start><end>672029</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>0</start><end>171</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:274">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>682089</start><end>682249</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>171</start><end>331</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:275">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>686348</start><end>686423</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>331</start><end>406</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:276">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>692212</start><end>692267</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>406</start><end>461</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:277">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>692419</start><end>692537</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>461</start><end>579</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:278">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>693446</start><end>693612</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>579</start><end>745</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:279">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>695913</start><end>695989</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>745</start><end>821</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:280">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>698209</start><end>698278</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>821</start><end>890</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:281">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>700068</start><end>700223</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>890</start><end>1045</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:282">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>702420</start><end>702518</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1045</start><end>1143</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:283">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>731719</start><end>731834</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1143</start><end>1258</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:284">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>748306</start><end>748379</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1258</start><end>1331</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:285">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>749832</start><end>749935</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1331</start><end>1434</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:286">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>758162</start><end>758254</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1434</start><end>1526</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:287">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>759633</start><end>759714</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1526</start><end>1607</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:288">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>762492</start><end>762643</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:37" type="sbjct">
+   <span><start>1607</start><end>1758</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:37"></property>
+ <property name="subject_seq_length"        value="1758"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:289">
+ <description>FGenesh_38</description>
+ <result_span id="CFTRFGSH:290">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>766970</start><end>766640</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:38" type="sbjct">
+   <span><start>0</start><end>330</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:38"></property>
+ <property name="subject_seq_length"        value="330"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:291">
+ <description>FGenesh_39</description>
+ <result_span id="CFTRFGSH:292">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>769001</start><end>767616</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:39" type="sbjct">
+   <span><start>430</start><end>1815</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:293">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>770580</start><end>770495</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:39" type="sbjct">
+   <span><start>345</start><end>430</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:294">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>771887</start><end>771742</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:39" type="sbjct">
+   <span><start>200</start><end>345</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:295">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>774782</start><end>774582</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:39" type="sbjct">
+   <span><start>0</start><end>200</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:39"></property>
+ <property name="subject_seq_length"        value="1815"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:296">
+ <description>FGenesh_40</description>
+ <result_span id="CFTRFGSH:297">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>776906</start><end>776606</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:40" type="sbjct">
+   <span><start>0</start><end>300</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:40"></property>
+ <property name="subject_seq_length"        value="300"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:298">
+ <description>FGenesh_41</description>
+ <result_span id="CFTRFGSH:299">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>779929</start><end>779945</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:41" type="sbjct">
+   <span><start>0</start><end>16</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:300">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>780065</start><end>780158</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:41" type="sbjct">
+   <span><start>16</start><end>109</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:301">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790057</start><end>790233</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:41" type="sbjct">
+   <span><start>109</start><end>285</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:41"></property>
+ <property name="subject_seq_length"        value="285"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:302">
+ <description>FGenesh_42</description>
+ <result_span id="CFTRFGSH:303">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>790690</start><end>790535</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>871</start><end>1026</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:304">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>793717</start><end>793549</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>703</start><end>871</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:305">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>802399</start><end>802217</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>521</start><end>703</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:306">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>805622</start><end>805579</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>478</start><end>521</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:307">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>810644</start><end>810487</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>321</start><end>478</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:308">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>829400</start><end>829202</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>123</start><end>321</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:309">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>839747</start><end>839624</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:42" type="sbjct">
+   <span><start>0</start><end>123</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:42"></property>
+ <property name="subject_seq_length"        value="1026"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:310">
+ <description>FGenesh_43</description>
+ <result_span id="CFTRFGSH:311">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>846780</start><end>846550</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:43" type="sbjct">
+   <span><start>541</start><end>771</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:312">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>851979</start><end>851802</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:43" type="sbjct">
+   <span><start>364</start><end>541</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:313">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>863795</start><end>863530</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:43" type="sbjct">
+   <span><start>99</start><end>364</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:314">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>863980</start><end>863881</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:43" type="sbjct">
+   <span><start>0</start><end>99</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:43"></property>
+ <property name="subject_seq_length"        value="771"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:315">
+ <description>FGenesh_44</description>
+ <result_span id="CFTRFGSH:316">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>878735</start><end>878609</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:44" type="sbjct">
+   <span><start>588</start><end>714</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:317">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>879190</start><end>878912</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:44" type="sbjct">
+   <span><start>310</start><end>588</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:318">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>884105</start><end>883878</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:44" type="sbjct">
+   <span><start>83</start><end>310</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:319">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>886288</start><end>886205</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:44" type="sbjct">
+   <span><start>0</start><end>83</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:44"></property>
+ <property name="subject_seq_length"        value="714"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:320">
+ <description>FGenesh_45</description>
+ <result_span id="CFTRFGSH:321">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>895484</start><end>896438</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:45" type="sbjct">
+   <span><start>0</start><end>954</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:45"></property>
+ <property name="subject_seq_length"        value="954"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:322">
+ <description>FGenesh_46</description>
+ <result_span id="CFTRFGSH:323">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>896730</start><end>898044</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:46" type="sbjct">
+   <span><start>0</start><end>1314</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:324">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>898100</start><end>900557</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:46" type="sbjct">
+   <span><start>1314</start><end>3771</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:46"></property>
+ <property name="subject_seq_length"        value="3771"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:325">
+ <description>FGenesh_47</description>
+ <result_span id="CFTRFGSH:326">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>907974</start><end>907863</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>1182</start><end>1293</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:327">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>908553</start><end>908480</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>1109</start><end>1182</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:328">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>912876</start><end>912793</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>1026</start><end>1109</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:329">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>916007</start><end>915893</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>912</start><end>1026</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:330">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>917071</start><end>916965</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>806</start><end>912</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:331">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>925510</start><end>925400</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>696</start><end>806</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:332">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>926456</start><end>926399</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>639</start><end>696</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:333">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>927417</start><end>927341</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>563</start><end>639</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:334">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>928361</start><end>928236</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>438</start><end>563</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:335">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>929217</start><end>929082</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>303</start><end>438</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:336">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>929842</start><end>929730</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>191</start><end>303</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:337">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>930134</start><end>930077</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>134</start><end>191</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:338">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>935581</start><end>935447</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:47" type="sbjct">
+   <span><start>0</start><end>134</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:47"></property>
+ <property name="subject_seq_length"        value="1293"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:339">
+ <description>FGenesh_48</description>
+ <result_span id="CFTRFGSH:340">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>943763</start><end>942776</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:48" type="sbjct">
+   <span><start>0</start><end>987</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:48"></property>
+ <property name="subject_seq_length"        value="987"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:341">
+ <description>FGenesh_49</description>
+ <result_span id="CFTRFGSH:342">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>945951</start><end>946177</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:49" type="sbjct">
+   <span><start>0</start><end>226</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:343">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>946379</start><end>946765</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:49" type="sbjct">
+   <span><start>226</start><end>612</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:49"></property>
+ <property name="subject_seq_length"        value="612"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:344">
+ <description>FGenesh_50</description>
+ <result_span id="CFTRFGSH:345">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>947615</start><end>950507</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:50" type="sbjct">
+   <span><start>0</start><end>2892</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:50"></property>
+ <property name="subject_seq_length"        value="2892"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:346">
+ <description>FGenesh_51</description>
+ <result_span id="CFTRFGSH:347">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>950875</start><end>951442</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:51" type="sbjct">
+   <span><start>0</start><end>567</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:51"></property>
+ <property name="subject_seq_length"        value="567"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:348">
+ <description>FGenesh_52</description>
+ <result_span id="CFTRFGSH:349">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>956949</start><end>956858</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:52" type="sbjct">
+   <span><start>440</start><end>531</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:350">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>960786</start><end>960674</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:52" type="sbjct">
+   <span><start>328</start><end>440</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:351">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>964196</start><end>964073</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:52" type="sbjct">
+   <span><start>205</start><end>328</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:352">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>967496</start><end>967396</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:52" type="sbjct">
+   <span><start>105</start><end>205</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:353">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>968031</start><end>967926</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:52" type="sbjct">
+   <span><start>0</start><end>105</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:52"></property>
+ <property name="subject_seq_length"        value="531"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:354">
+ <description>FGenesh_53</description>
+ <result_span id="CFTRFGSH:355">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1032998</start><end>1033987</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:53" type="sbjct">
+   <span><start>0</start><end>989</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:356">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1034151</start><end>1034323</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:53" type="sbjct">
+   <span><start>989</start><end>1161</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:53"></property>
+ <property name="subject_seq_length"        value="1161"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:357">
+ <description>FGenesh_54</description>
+ <result_span id="CFTRFGSH:358">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1044286</start><end>1045048</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:54" type="sbjct">
+   <span><start>0</start><end>762</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:54"></property>
+ <property name="subject_seq_length"        value="762"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:359">
+ <description>FGenesh_55</description>
+ <result_span id="CFTRFGSH:360">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1046028</start><end>1046358</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:55" type="sbjct">
+   <span><start>0</start><end>330</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:55"></property>
+ <property name="subject_seq_length"        value="330"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:361">
+ <description>FGenesh_56</description>
+ <result_span id="CFTRFGSH:362">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1051140</start><end>1051013</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:56" type="sbjct">
+   <span><start>470</start><end>597</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:363">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1052711</start><end>1052241</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:56" type="sbjct">
+   <span><start>0</start><end>470</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:56"></property>
+ <property name="subject_seq_length"        value="597"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:364">
+ <description>FGenesh_57</description>
+ <result_span id="CFTRFGSH:365">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1054376</start><end>1053833</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:57" type="sbjct">
+   <span><start>0</start><end>543</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:57"></property>
+ <property name="subject_seq_length"        value="543"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:366">
+ <description>FGenesh_58</description>
+ <result_span id="CFTRFGSH:367">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1056681</start><end>1055894</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:58" type="sbjct">
+   <span><start>95</start><end>882</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:368">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1057197</start><end>1057102</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:58" type="sbjct">
+   <span><start>0</start><end>95</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:58"></property>
+ <property name="subject_seq_length"        value="882"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:369">
+ <description>FGenesh_59</description>
+ <result_span id="CFTRFGSH:370">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1062828</start><end>1062224</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:59" type="sbjct">
+   <span><start>131</start><end>735</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:371">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1064188</start><end>1064057</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:59" type="sbjct">
+   <span><start>0</start><end>131</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:59"></property>
+ <property name="subject_seq_length"        value="735"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:372">
+ <description>FGenesh_60</description>
+ <result_span id="CFTRFGSH:373">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1067822</start><end>1064834</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:60" type="sbjct">
+   <span><start>0</start><end>2988</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:60"></property>
+ <property name="subject_seq_length"        value="2988"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:374">
+ <description>FGenesh_61</description>
+ <result_span id="CFTRFGSH:375">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1068661</start><end>1067881</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:61" type="sbjct">
+   <span><start>0</start><end>780</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:61"></property>
+ <property name="subject_seq_length"        value="780"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:376">
+ <description>FGenesh_62</description>
+ <result_span id="CFTRFGSH:377">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1075160</start><end>1075233</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:62" type="sbjct">
+   <span><start>0</start><end>73</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:378">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1076334</start><end>1076438</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:62" type="sbjct">
+   <span><start>73</start><end>177</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:379">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1078095</start><end>1078232</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:62" type="sbjct">
+   <span><start>177</start><end>314</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:380">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1078728</start><end>1078824</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:62" type="sbjct">
+   <span><start>314</start><end>410</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:381">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1079284</start><end>1079918</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:62" type="sbjct">
+   <span><start>410</start><end>1044</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:62"></property>
+ <property name="subject_seq_length"        value="1044"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:382">
+ <description>FGenesh_63</description>
+ <result_span id="CFTRFGSH:383">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1081488</start><end>1081854</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:63" type="sbjct">
+   <span><start>0</start><end>366</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:63"></property>
+ <property name="subject_seq_length"        value="366"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:384">
+ <description>FGenesh_64</description>
+ <result_span id="CFTRFGSH:385">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1098492</start><end>1098949</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:64" type="sbjct">
+   <span><start>0</start><end>457</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:386">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1101555</start><end>1101644</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:64" type="sbjct">
+   <span><start>457</start><end>546</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:64"></property>
+ <property name="subject_seq_length"        value="546"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:387">
+ <description>FGenesh_65</description>
+ <result_span id="CFTRFGSH:388">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1102376</start><end>1102247</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:65" type="sbjct">
+   <span><start>561</start><end>690</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:389">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1103905</start><end>1103730</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:65" type="sbjct">
+   <span><start>386</start><end>561</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:390">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1104659</start><end>1104273</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:65" type="sbjct">
+   <span><start>0</start><end>386</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:65"></property>
+ <property name="subject_seq_length"        value="690"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:391">
+ <description>FGenesh_66</description>
+ <result_span id="CFTRFGSH:392">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1106192</start><end>1105622</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:66" type="sbjct">
+   <span><start>0</start><end>570</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:66"></property>
+ <property name="subject_seq_length"        value="570"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:393">
+ <description>FGenesh_67</description>
+ <result_span id="CFTRFGSH:394">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1106960</start><end>1106372</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:67" type="sbjct">
+   <span><start>0</start><end>588</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:67"></property>
+ <property name="subject_seq_length"        value="588"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:395">
+ <description>FGenesh_68</description>
+ <result_span id="CFTRFGSH:396">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1108559</start><end>1107530</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:68" type="sbjct">
+   <span><start>0</start><end>1029</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:68"></property>
+ <property name="subject_seq_length"        value="1029"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:397">
+ <description>FGenesh_69</description>
+ <result_span id="CFTRFGSH:398">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1133952</start><end>1134017</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>0</start><end>65</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:399">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1134135</start><end>1134246</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>65</start><end>176</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:400">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1143244</start><end>1143353</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>176</start><end>285</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:401">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1147152</start><end>1147281</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>285</start><end>414</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:402">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1150295</start><end>1150511</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>414</start><end>630</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:403">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1157744</start><end>1157834</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>630</start><end>720</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:404">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1158574</start><end>1158738</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>720</start><end>884</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:405">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1159617</start><end>1159743</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>884</start><end>1010</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:406">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1164004</start><end>1164146</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1010</start><end>1152</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:407">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1167047</start><end>1167140</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1152</start><end>1245</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:408">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1168971</start><end>1169154</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1245</start><end>1428</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:409">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1174037</start><end>1174229</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1428</start><end>1620</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:410">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1200299</start><end>1200394</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1620</start><end>1715</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:411">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1203045</start><end>1203132</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1715</start><end>1802</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:412">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1212623</start><end>1213332</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>1802</start><end>2511</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:413">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1215076</start><end>1215205</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>2511</start><end>2640</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:414">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1218569</start><end>1218607</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>2640</start><end>2678</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:415">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1219298</start><end>1219549</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>2678</start><end>2929</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:416">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1222693</start><end>1222773</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>2929</start><end>3009</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:417">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1224983</start><end>1225134</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>3009</start><end>3160</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:418">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1230117</start><end>1230218</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>3160</start><end>3261</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:419">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1231188</start><end>1231206</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:69" type="sbjct">
+   <span><start>3261</start><end>3279</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:69"></property>
+ <property name="subject_seq_length"        value="3279"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:420">
+ <description>FGenesh_70</description>
+ <result_span id="CFTRFGSH:421">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1236194</start><end>1235672</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:70" type="sbjct">
+   <span><start>39</start><end>561</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:422">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1238641</start><end>1238602</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:70" type="sbjct">
+   <span><start>0</start><end>39</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:70"></property>
+ <property name="subject_seq_length"        value="561"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:423">
+ <description>FGenesh_71</description>
+ <result_span id="CFTRFGSH:424">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1241157</start><end>1241193</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:71" type="sbjct">
+   <span><start>0</start><end>36</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:425">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1241787</start><end>1242039</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:71" type="sbjct">
+   <span><start>36</start><end>288</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:426">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1246842</start><end>1246998</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:71" type="sbjct">
+   <span><start>288</start><end>444</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:427">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1254521</start><end>1254611</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:71" type="sbjct">
+   <span><start>444</start><end>534</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:428">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1254747</start><end>1254804</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:71" type="sbjct">
+   <span><start>534</start><end>591</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:71"></property>
+ <property name="subject_seq_length"        value="591"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:429">
+ <description>FGenesh_72</description>
+ <result_span id="CFTRFGSH:430">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1257736</start><end>1257406</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:72" type="sbjct">
+   <span><start>0</start><end>330</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:72"></property>
+ <property name="subject_seq_length"        value="330"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:431">
+ <description>FGenesh_73</description>
+ <result_span id="CFTRFGSH:432">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1260492</start><end>1259571</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:73" type="sbjct">
+   <span><start>0</start><end>921</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:73"></property>
+ <property name="subject_seq_length"        value="921"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:433">
+ <description>FGenesh_74</description>
+ <result_span id="CFTRFGSH:434">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1262929</start><end>1262125</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:74" type="sbjct">
+   <span><start>0</start><end>804</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:74"></property>
+ <property name="subject_seq_length"        value="804"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:435">
+ <description>FGenesh_75</description>
+ <result_span id="CFTRFGSH:436">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1264382</start><end>1264388</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:75" type="sbjct">
+   <span><start>0</start><end>6</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:437">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1266177</start><end>1266350</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:75" type="sbjct">
+   <span><start>6</start><end>179</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:438">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1266918</start><end>1267024</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:75" type="sbjct">
+   <span><start>179</start><end>285</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:439">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1268086</start><end>1268287</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:75" type="sbjct">
+   <span><start>285</start><end>486</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:75"></property>
+ <property name="subject_seq_length"        value="486"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:440">
+ <description>FGenesh_76</description>
+ <result_span id="CFTRFGSH:441">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1274533</start><end>1273549</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:76" type="sbjct">
+   <span><start>0</start><end>984</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:76"></property>
+ <property name="subject_seq_length"        value="984"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:442">
+ <description>FGenesh_77</description>
+ <result_span id="CFTRFGSH:443">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1276913</start><end>1276130</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:77" type="sbjct">
+   <span><start>0</start><end>783</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:77"></property>
+ <property name="subject_seq_length"        value="783"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:444">
+ <description>FGenesh_78</description>
+ <result_span id="CFTRFGSH:445">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1278462</start><end>1278049</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:78" type="sbjct">
+   <span><start>538</start><end>951</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:446">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1285903</start><end>1285365</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:78" type="sbjct">
+   <span><start>0</start><end>538</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:78"></property>
+ <property name="subject_seq_length"        value="951"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:447">
+ <description>FGenesh_79</description>
+ <result_span id="CFTRFGSH:448">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1287876</start><end>1287183</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:79" type="sbjct">
+   <span><start>0</start><end>693</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:79"></property>
+ <property name="subject_seq_length"        value="693"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:449">
+ <description>FGenesh_80</description>
+ <result_span id="CFTRFGSH:450">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1288428</start><end>1288065</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:80" type="sbjct">
+   <span><start>0</start><end>363</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:80"></property>
+ <property name="subject_seq_length"        value="363"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:451">
+ <description>FGenesh_81</description>
+ <result_span id="CFTRFGSH:452">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1292350</start><end>1291063</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:81" type="sbjct">
+   <span><start>0</start><end>1287</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:81"></property>
+ <property name="subject_seq_length"        value="1287"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:453">
+ <description>FGenesh_82</description>
+ <result_span id="CFTRFGSH:454">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1293505</start><end>1292539</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:82" type="sbjct">
+   <span><start>6</start><end>972</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:455">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1298090</start><end>1298084</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:82" type="sbjct">
+   <span><start>0</start><end>6</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:82"></property>
+ <property name="subject_seq_length"        value="972"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:456">
+ <description>FGenesh_83</description>
+ <result_span id="CFTRFGSH:457">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1300927</start><end>1301623</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:83" type="sbjct">
+   <span><start>0</start><end>696</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:83"></property>
+ <property name="subject_seq_length"        value="696"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:458">
+ <description>FGenesh_84</description>
+ <result_span id="CFTRFGSH:459">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1303296</start><end>1303890</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:84" type="sbjct">
+   <span><start>0</start><end>594</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:84"></property>
+ <property name="subject_seq_length"        value="594"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:460">
+ <description>FGenesh_85</description>
+ <result_span id="CFTRFGSH:461">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1304486</start><end>1305394</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:85" type="sbjct">
+   <span><start>0</start><end>908</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:462">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1305597</start><end>1305829</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:85" type="sbjct">
+   <span><start>908</start><end>1140</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:85"></property>
+ <property name="subject_seq_length"        value="1140"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:463">
+ <description>FGenesh_86</description>
+ <result_span id="CFTRFGSH:464">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1318379</start><end>1318946</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:86" type="sbjct">
+   <span><start>0</start><end>567</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:86"></property>
+ <property name="subject_seq_length"        value="567"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:465">
+ <description>FGenesh_87</description>
+ <result_span id="CFTRFGSH:466">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1322488</start><end>1323562</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:87" type="sbjct">
+   <span><start>0</start><end>1074</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:87"></property>
+ <property name="subject_seq_length"        value="1074"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:467">
+ <description>FGenesh_88</description>
+ <result_span id="CFTRFGSH:468">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1324632</start><end>1324709</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:88" type="sbjct">
+   <span><start>0</start><end>77</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:469">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1324965</start><end>1325315</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:88" type="sbjct">
+   <span><start>77</start><end>427</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:470">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1325517</start><end>1326626</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:88" type="sbjct">
+   <span><start>427</start><end>1536</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:88"></property>
+ <property name="subject_seq_length"        value="1536"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:471">
+ <description>FGenesh_89</description>
+ <result_span id="CFTRFGSH:472">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1326685</start><end>1328575</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:89" type="sbjct">
+   <span><start>0</start><end>1890</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:473">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1339279</start><end>1341823</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:89" type="sbjct">
+   <span><start>1890</start><end>4434</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:89"></property>
+ <property name="subject_seq_length"        value="4434"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:474">
+ <description>FGenesh_90</description>
+ <result_span id="CFTRFGSH:475">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1361475</start><end>1361226</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>1431</start><end>1680</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:476">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1365741</start><end>1365617</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>1307</start><end>1431</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:477">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1368596</start><end>1368462</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>1173</start><end>1307</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:478">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1370006</start><end>1369873</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>1040</start><end>1173</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:479">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1372047</start><end>1371983</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>976</start><end>1040</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:480">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1374898</start><end>1374696</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>774</start><end>976</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:481">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1375409</start><end>1375270</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>635</start><end>774</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:482">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1378723</start><end>1378544</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>456</start><end>635</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:483">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1384933</start><end>1384745</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>268</start><end>456</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:484">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1385946</start><end>1385793</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>115</start><end>268</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:485">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1389327</start><end>1389212</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:90" type="sbjct">
+   <span><start>0</start><end>115</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:90"></property>
+ <property name="subject_seq_length"        value="1680"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:486">
+ <description>FGenesh_91</description>
+ <result_span id="CFTRFGSH:487">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1391229</start><end>1391213</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:91" type="sbjct">
+   <span><start>68</start><end>84</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:488">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1391706</start><end>1391638</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:91" type="sbjct">
+   <span><start>0</start><end>68</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:91"></property>
+ <property name="subject_seq_length"        value="84"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:489">
+ <description>FGenesh_92</description>
+ <result_span id="CFTRFGSH:490">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1394058</start><end>1394301</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:92" type="sbjct">
+   <span><start>0</start><end>243</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:92"></property>
+ <property name="subject_seq_length"        value="243"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:491">
+ <description>FGenesh_93</description>
+ <result_span id="CFTRFGSH:492">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1396028</start><end>1395963</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>4192</start><end>4257</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:493">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1396775</start><end>1396675</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>4092</start><end>4192</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:494">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1403604</start><end>1403524</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>4012</start><end>4092</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:495">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1404906</start><end>1404810</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>3916</start><end>4012</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:496">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1407076</start><end>1406800</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>3640</start><end>3916</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:497">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1423095</start><end>1423016</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>3561</start><end>3640</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:498">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1423434</start><end>1423182</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>3309</start><end>3561</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:499">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1426393</start><end>1426242</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>3158</start><end>3309</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:500">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1428355</start><end>1428255</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>3058</start><end>3158</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:501">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1429754</start><end>1429611</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>2915</start><end>3058</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:502">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1433334</start><end>1433219</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>2800</start><end>2915</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:503">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1437556</start><end>1435929</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>1173</start><end>2800</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:504">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1451287</start><end>1451065</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>951</start><end>1173</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:505">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1458333</start><end>1458217</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>835</start><end>951</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:506">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1486927</start><end>1486092</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:93" type="sbjct">
+   <span><start>0</start><end>835</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:93"></property>
+ <property name="subject_seq_length"        value="4257"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:507">
+ <description>FGenesh_94</description>
+ <result_span id="CFTRFGSH:508">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1489017</start><end>1487445</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:94" type="sbjct">
+   <span><start>0</start><end>1572</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:94"></property>
+ <property name="subject_seq_length"        value="1572"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:509">
+ <description>FGenesh_95</description>
+ <result_span id="CFTRFGSH:510">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1491070</start><end>1489948</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:95" type="sbjct">
+   <span><start>0</start><end>1122</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:95"></property>
+ <property name="subject_seq_length"        value="1122"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:511">
+ <description>FGenesh_96</description>
+ <result_span id="CFTRFGSH:512">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1492557</start><end>1492290</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>519</start><end>786</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:513">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1492758</start><end>1492696</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>457</start><end>519</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:514">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1496832</start><end>1496676</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>301</start><end>457</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:515">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1515292</start><end>1515195</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>204</start><end>301</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:516">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1520937</start><end>1520859</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>126</start><end>204</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:517">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1521887</start><end>1521779</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>18</start><end>126</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:518">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1522163</start><end>1522145</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:96" type="sbjct">
+   <span><start>0</start><end>18</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:96"></property>
+ <property name="subject_seq_length"        value="786"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:519">
+ <description>FGenesh_97</description>
+ <result_span id="CFTRFGSH:520">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1530046</start><end>1530153</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:97" type="sbjct">
+   <span><start>0</start><end>107</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:521">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1530396</start><end>1530580</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:97" type="sbjct">
+   <span><start>107</start><end>291</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:97"></property>
+ <property name="subject_seq_length"        value="291"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:522">
+ <description>FGenesh_98</description>
+ <result_span id="CFTRFGSH:523">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1533986</start><end>1534454</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:98" type="sbjct">
+   <span><start>0</start><end>468</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:98"></property>
+ <property name="subject_seq_length"        value="468"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:524">
+ <description>FGenesh_99</description>
+ <result_span id="CFTRFGSH:525">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1546031</start><end>1546046</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:99" type="sbjct">
+   <span><start>0</start><end>15</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:526">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1547464</start><end>1547665</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:99" type="sbjct">
+   <span><start>15</start><end>216</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:527">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1547757</start><end>1547807</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:99" type="sbjct">
+   <span><start>216</start><end>266</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:528">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1548363</start><end>1548413</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:99" type="sbjct">
+   <span><start>266</start><end>316</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:529">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1548615</start><end>1549127</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:99" type="sbjct">
+   <span><start>316</start><end>828</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:99"></property>
+ <property name="subject_seq_length"        value="828"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:530">
+ <description>FGenesh_100</description>
+ <result_span id="CFTRFGSH:531">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1550518</start><end>1551241</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:100" type="sbjct">
+   <span><start>0</start><end>723</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:100"></property>
+ <property name="subject_seq_length"        value="723"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:532">
+ <description>FGenesh_101</description>
+ <result_span id="CFTRFGSH:533">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1552227</start><end>1553610</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:101" type="sbjct">
+   <span><start>0</start><end>1383</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:101"></property>
+ <property name="subject_seq_length"        value="1383"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:534">
+ <description>FGenesh_102</description>
+ <result_span id="CFTRFGSH:535">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1555105</start><end>1555345</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:102" type="sbjct">
+   <span><start>0</start><end>240</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:102"></property>
+ <property name="subject_seq_length"        value="240"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:536">
+ <description>FGenesh_103</description>
+ <result_span id="CFTRFGSH:537">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1568133</start><end>1568281</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:103" type="sbjct">
+   <span><start>0</start><end>148</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:538">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1575839</start><end>1576498</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:103" type="sbjct">
+   <span><start>148</start><end>807</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:103"></property>
+ <property name="subject_seq_length"        value="807"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:539">
+ <description>FGenesh_104</description>
+ <result_span id="CFTRFGSH:540">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1576795</start><end>1578616</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:104" type="sbjct">
+   <span><start>0</start><end>1821</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:104"></property>
+ <property name="subject_seq_length"        value="1821"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:541">
+ <description>FGenesh_105</description>
+ <result_span id="CFTRFGSH:542">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1608796</start><end>1608896</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:105" type="sbjct">
+   <span><start>0</start><end>100</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:543">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1612777</start><end>1612812</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:105" type="sbjct">
+   <span><start>100</start><end>135</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:544">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1614754</start><end>1614871</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:105" type="sbjct">
+   <span><start>135</start><end>252</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:105"></property>
+ <property name="subject_seq_length"        value="252"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:545">
+ <description>FGenesh_106</description>
+ <result_span id="CFTRFGSH:546">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1622811</start><end>1622719</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>4813</start><end>4905</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:547">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1623367</start><end>1623323</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>4769</start><end>4813</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:548">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1627708</start><end>1627647</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>4708</start><end>4769</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:549">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1630939</start><end>1630839</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>4608</start><end>4708</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:550">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1645767</start><end>1645634</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>4475</start><end>4608</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:551">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1650234</start><end>1650101</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>4342</start><end>4475</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:552">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1672587</start><end>1669104</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>859</start><end>4342</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:553">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1673868</start><end>1673009</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:106" type="sbjct">
+   <span><start>0</start><end>859</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:106"></property>
+ <property name="subject_seq_length"        value="4905"></property>
+ </result_set>
+ <result_set id="CFTRFGSH:554">
+ <description>FGenesh_107</description>
+ <result_span id="CFTRFGSH:555">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1690450</start><end>1690117</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:107" type="sbjct">
+   <span><start>261</start><end>594</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:556">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1693622</start><end>1693448</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:107" type="sbjct">
+   <span><start>87</start><end>261</end></span>
+  </seq_relationship>
+ </result_span>
+ <result_span id="CFTRFGSH:557">
+  <span_type>HSP</span_type>
+  <seq_relationship id="RB31BCFTR:0" type="query">
+   <span><start>1694734</start><end>1694647</end></span>
+  </seq_relationship>
+  <seq_relationship id="CFTRFGSH:107" type="sbjct">
+   <span><start>0</start><end>87</end></span>
+  </seq_relationship>
+ </result_span>
+ <property name="subject_seq_uid"           value="CFTRFGSH:107"></property>
+ <property name="subject_seq_length"        value="594"></property>
+ </result_set>
+</computational_analysis>
+</game>
