@@ -1,0 +1,12 @@
+The genomic data in these directories were produced and released as supplementary
+material in support of a paper by Liliana Florea et. al:
+
+Florea L, Di Francesco V, Miller J, Turner R, Yao A, Harris M, Walenz B, Mobarry C,
+Merkulov GV, Charlab R, Dew I, Deng Z, Istrail S, Li P, Sutton G. (2005) Gene and
+alternative splicing annotation with AIR. Genome Res. 2005 Jan;15(1):54-66.
+
+The data are in the Celera Genome Browser's native file formats (.gbf and .gba), as
+well as FASTA format,  and can be viewed by setting the subdirectories as XML
+directories in the Edit->Preferences->System->Data Source Settings dialog box.
+
+-Russell Turner
