@@ -1,5 +1,5 @@
 <game version="Celera 3.0" assembly_version="1" taxon="Cow CFTR Region">
-<axis_seq id="COWT1:0" type="DNA" length="1877476" fasta_path="gb/cftr/COWT1.fasta">
+<axis_seq id="COWT1:0" type="DNA" length="1877476" fasta_path="data/cftr/COWT1.fasta">
 	<dbxref>
 		<xref_db>
 			nt

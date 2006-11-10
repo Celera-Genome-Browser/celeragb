@@ -1,5 +1,5 @@
 <game version="Celera 3.0" assembly_version="1" taxon="Chimpanzee CFTR Region">
-<axis_seq id="CHPT1:0" type="DNA" length="1877476" fasta_path="gb/cftr/CHPT1.fasta">
+<axis_seq id="CHPT1:0" type="DNA" length="1877476" fasta_path="data/cftr/CHPT1.fasta">
 	<dbxref>
 		<xref_db>
 			nt

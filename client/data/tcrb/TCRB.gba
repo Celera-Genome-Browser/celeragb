@@ -1,5 +1,5 @@
 <game version="Celera 3.0" assembly_version="1" taxon="Rattus norvegicus TCRB Region">
-<axis_seq id="RB31BTCRB:0" type="DNA" length="2716584" fasta_path="gb/tcrb/RB31BTCRB.fasta">
+<axis_seq id="RB31BTCRB:0" type="DNA" length="2716584" fasta_path="data/tcrb/RB31BTCRB.fasta">
 	<dbxref>
 		<xref_db>
 			nt
