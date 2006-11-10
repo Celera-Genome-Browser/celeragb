@@ -1,9 +1,0 @@
-<game version="Celera 3.0" assembly_version="1" taxon="Zebrafish CFTR Region">
-  <!-- Features converted from ATA format -->
-  <computational_analysis id="CELERA:30000103478493">
-    <date day="15" month="03" year="2004"></date>
-    <program>At:human_CFTR_anno</program>
-    <version>2.6</version>
-    <type>BLASTN_HIT</type>
-  </computational_analysis>
-</game>
