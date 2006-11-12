@@ -1,0 +1,119 @@
+<project name="Executable Jar for Genome Browser" default="dist" basedir=".">
+
+  <property name="app.name"      value="celera_genome_browser"/>
+  <property name="app.path"      value="/${app.name}"/>
+  <property name="app.version"   value="4.2-rlse"/>
+  <property name="build.home"    value="${basedir}/build"/>
+  <property name="dist.home"     value="${basedir}/dist"/>
+  <property name="src.home"      value="${basedir}/../src"/>
+  <property name="lib.home"      value="${basedir}/../lib"/>
+  <property name="bin.home"      value="${basedir}/../bin"/>
+  <property name="bin.build"     value="${build.home}/bin"/>
+	
+  <property name="j2ee.jar"		 value="${lib.home}/jboss-j2ee.jar"/>
+  <property name="xerces.jar"	 value="${lib.home}/xercesImpl.jar"/>
+  <property name="xercesSamples.jar" value="${lib.home}/xercesSamples.jar"/>
+  <property name="xml-apis.jar"  value="${lib.home}/xml-apis.jar"/>
+
+  <property name="minfest.file"  value="${basedir}/ant/runnable.mft"/>
+
+  <property name="compile.debug"       value="true"/>
+  <property name="compile.deprecation" value="false"/>
+  <property name="compile.optimize"    value="true"/>
+  <!-- Target and Source are 1.4 defaults.  Compile with 1.4 compat JDK -->
+  <property name="compile.target"      value="1.2"/>
+  <property name="compile.source"      value="1.3"/>
+
+  <path id="compile.classpath">
+	<pathelement location="${xerces.jar}"/>
+	<pathelement location="${xml-apis.jar}"/>
+  	<pathelement location="${xercesSamples.jar}"/>
+  	<pathelement location="${j2ee.jar}"/>
+  </path>
+
+
+  <target name="all" depends="clean,compile,dist"
+   description="Clean build and dist directories, then compile, then dist"/>
+
+  <target name="clean"
+   description="Delete old build and dist directories">
+    <delete dir="${build.home}"/>
+    <delete dir="${dist.home}"/>
+  </target>
+
+  <target name="compile" depends="prepare"
+   description="Compile Java sources">
+
+    <!-- Compile Java classes as necessary -->
+  	<mkdir    dir="${build.home}"/>
+    <javac srcdir="${src.home}"
+          destdir="${build.home}"
+            debug="${compile.debug}"
+      deprecation="${compile.deprecation}"
+         optimize="${compile.optimize}"
+    	   target="${compile.target}"
+    	   source="${compile.source}">
+        <classpath refid="compile.classpath"/>
+    </javac>
+
+    <!-- Copy application resources -->
+    <copy  todir="${build.home}">
+      <fileset dir="${src.home}" excludes="**/*.java"/>
+    </copy>
+  </target>
+	
+  <target name="unjar" depends="prepare"
+	   description="Unjar Other Jars">
+  	<unjar src="${xerces.jar}"       dest="${build.home}"/>
+  	<unjar src="${j2ee.jar}"         dest="${build.home}"/>
+ 	<unjar src="${xercesSamples.jar}" dest="${build.home}"/>
+ 	<unjar src="${xml-apis.jar}"     dest="${build.home}"/>
+  </target>
+
+  <!--,javadoc-->
+  <target name="dist" depends="compile,unjar"
+   description="Create Executable jar">
+
+    <!-- Create executable JAR file -->
+    <jar jarfile="${dist.home}/${app.name}-${app.version}.jar"
+         basedir="${build.home}">
+      <manifest>
+        <attribute name="Built-By" value="Celera-Genome-Browser Build Manager"/>
+        <attribute name="Main-Class" value="client.gui.application.genome_browser.GenomeBrowser"/>
+      	<attribute name="Class-Path" value="."/>
+      </manifest>
+
+  	</jar>
+
+    <!-- Copy additional files to ${dist.home} as necessary -->
+
+  </target>
+
+  <!-- javadoc is broken. Unknown reason.
+  <target name="javadoc" depends="compile"
+   description="Create Javadoc API documentation">
+
+    <mkdir          dir="${dist.home}/docs/api"/>
+    <javadoc sourcepath="${src.home}"
+                destdir="${dist.home}/docs/api"
+           packagenames="*">
+      <classpath refid="compile.classpath"/>
+    </javadoc>
+
+  </target>
+   -->
+
+  <target name="prepare">
+
+    <!-- Create build directories as needed -->
+    <mkdir  dir="${build.home}"/>
+  	<mkdir  dir="${bin.build}"/>
+
+    <copy todir="${bin.build}">
+      <fileset dir="${bin.home}"/>
+    </copy>
+
+  </target>
+
+</project>
+
