@@ -74,7 +74,9 @@
   <target name="dist" depends="compile,unjar"
    description="Create Executable jar">
 
-    <!-- Create executable JAR file -->
+  	<mkdir    dir="${dist.home}"/>
+
+  	<!-- Create executable JAR file -->
     <jar jarfile="${dist.home}/${app.name}-${app.version}.jar"
          basedir="${build.home}">
       <manifest>
