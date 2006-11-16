@@ -47,7 +47,7 @@ import javax.swing.*;
  */
 public final class GenomeBrowser {
 //    static private final String VERSION_NUMBER = "@@version@@";
-    static private final String VERSION_NUMBER = "4.2";
+    static private final String VERSION_NUMBER = "5.0";
 
     static {
         System.out.println("Java version: " +
@@ -80,8 +80,7 @@ public final class GenomeBrowser {
                     (versionString.toLowerCase().indexOf("internal") > -1);
 
             sessionMgr.setNewBrowserTitle(System.getProperty(
-                    "x.genomebrowser.Title") +
-                    " v" + VERSION_NUMBER);
+                    "x.genomebrowser.Title") + " " + VERSION_NUMBER);
             sessionMgr.setApplicationName(System.getProperty(
                     "x.genomebrowser.Title"));
             sessionMgr.setApplicationVersion(VERSION_NUMBER);

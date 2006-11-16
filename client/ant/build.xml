@@ -1,14 +1,14 @@
 <project name="Executable Jar for Genome Browser" default="dist" basedir=".">
 
-  <property name="app.name"      value="celera_genome_browser"/>
+  <property name="app.name"      value="celeragb"/>
   <property name="app.path"      value="/${app.name}"/>
-  <property name="app.version"   value="4.2-rlse"/>
+  <property name="app.version"   value=""/>
   <property name="build.home"    value="${basedir}/build"/>
   <property name="dist.home"     value="${basedir}/dist"/>
   <property name="src.home"      value="${basedir}/../src"/>
   <property name="lib.home"      value="${basedir}/../lib"/>
-  <property name="bin.home"      value="${basedir}/../bin"/>
-  <property name="bin.build"     value="${build.home}/bin"/>
+  <property name="bin.home"      value="${basedir}/../bin/resource"/>
+  <property name="bin.build"     value="${build.home}/resource"/>
 	
   <property name="j2ee.jar"		 value="${lib.home}/jboss-j2ee.jar"/>
   <property name="xerces.jar"	 value="${lib.home}/xercesImpl.jar"/>
@@ -77,7 +77,7 @@
   	<mkdir    dir="${dist.home}"/>
 
   	<!-- Create executable JAR file -->
-    <jar jarfile="${dist.home}/${app.name}-${app.version}.jar"
+    <jar jarfile="${dist.home}/${app.name}.jar"
          basedir="${build.home}">
       <manifest>
         <attribute name="Built-By" value="Celera-Genome-Browser Build Manager"/>
