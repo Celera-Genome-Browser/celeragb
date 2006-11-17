@@ -2,9 +2,11 @@
 
   <property name="app.name"      value="celeragb"/>
   <property name="app.path"      value="/${app.name}"/>
-  <property name="app.version"   value=""/>
+  <property name="app.version"   value="5.0"/>
   <property name="build.home"    value="${basedir}/build"/>
   <property name="dist.home"     value="${basedir}/dist"/>
+  <property name="release.home"  value="${basedir}/release"/>
+  <property name="release.name"  value="${app.name}-${app.version}"/>
   <property name="src.home"      value="${basedir}/../src"/>
   <property name="lib.home"      value="${basedir}/../lib"/>
   <property name="bin.home"      value="${basedir}/../bin/resource"/>
@@ -39,6 +41,7 @@
    description="Delete old build and dist directories">
     <delete dir="${build.home}"/>
     <delete dir="${dist.home}"/>
+    <delete dir="${release.home}"/>
   </target>
 
   <target name="compile" depends="prepare"
@@ -75,6 +78,7 @@
    description="Create Executable jar">
 
   	<mkdir    dir="${dist.home}"/>
+  	<mkdir    dir="${release.home}"/>
 
   	<!-- Create executable JAR file -->
     <jar jarfile="${dist.home}/${app.name}.jar"
@@ -82,10 +86,14 @@
       <manifest>
         <attribute name="Built-By" value="Celera-Genome-Browser Build Manager"/>
         <attribute name="Main-Class" value="client.gui.application.genome_browser.GenomeBrowser"/>
-      	<attribute name="Class-Path" value="."/>
+      	<attribute name="Class-Path" value="${jar.class.path}/bin"/>
       </manifest>
 
   	</jar>
+  	
+  	<zip destfile="${release.home}/${release.name}"
+  	     basedir="${dist.home}">
+  	</zip>
 
     <!-- Copy additional files to ${dist.home} as necessary -->
 
