@@ -9,6 +9,7 @@
   <property name="release.name"  value="${app.name}-${app.version}"/>
   <property name="src.home"      value="${basedir}/../src"/>
   <property name="lib.home"      value="${basedir}/../lib"/>
+  <property name="documents.home" value="${basedir}/../documents"/>
   <property name="bin.home"      value="${basedir}/../bin/resource"/>
   <property name="bin.build"     value="${build.home}/resource"/>
 	
@@ -79,9 +80,10 @@
 
   	<mkdir    dir="${dist.home}"/>
   	<mkdir    dir="${release.home}"/>
+  	<mkdir    dir="${dist.home}/${release.name}"/>
 
   	<!-- Create executable JAR file -->
-    <jar jarfile="${dist.home}/${app.name}.jar"
+    <jar jarfile="${dist.home}/${release.name}/${app.name}.jar"
          basedir="${build.home}">
       <manifest>
         <attribute name="Built-By" value="Celera-Genome-Browser Build Manager"/>
@@ -90,6 +92,7 @@
       </manifest>
 
   	</jar>
+  	<copydir dest="${dist.home}/${release.name}" src="${documents.home}"></copydir>
   	
   	<zip destfile="${release.home}/${release.name}"
   	     basedir="${dist.home}">
