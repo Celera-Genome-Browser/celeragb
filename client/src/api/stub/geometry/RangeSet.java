@@ -27,12 +27,7 @@
 
 package api.stub.geometry;
 
-import java.util.AbstractSet;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
 *  This class represents a set of ranges.  The set can be bounded by using the
@@ -397,6 +392,9 @@ public class RangeSet extends AbstractSet implements java.io.Serializable{
 
 /*
 $Log$
+Revision 1.1  2006/11/09 21:36:06  rjturner
+Initial upload of source
+
 Revision 1.18  2002/11/07 18:38:24  lblick
 Removed obsolete imports and unused local variables.
 

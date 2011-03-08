@@ -44,16 +44,16 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
 
    public GenomeVersionAlignmentReport generateAlignmentReportForEntity(OID entityOID) {
       Object[]  aggregates = getAggregates();
-      GenomeVersionAlignmentReport fpr = null;
+      GenomeVersionAlignmentReport fpr;
       GenomeVersionAlignmentReport retVal = new GenomeVersionAlignmentReport();
 
-      for ( int aggIdx = 0; aggIdx < aggregates.length; aggIdx++ ) {
-         fpr = ( ( GenomeVersionLoader )aggregates[ aggIdx ] ).generateAlignmentReportForEntity( entityOID );
+       for (Object aggregate : aggregates) {
+           fpr = ((GenomeVersionLoader) aggregate).generateAlignmentReportForEntity(entityOID);
 
-         if ( fpr != null ) {
-            retVal.addAllLineItems(fpr);
-         }
-      }
+           if (fpr != null) {
+               retVal.addAllLineItems(fpr);
+           }
+       }
 
       return ( retVal );
    }
@@ -64,10 +64,6 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
     * facades and aggregates the results into a single instance of
     * PropertyReport.
     *
-    * @param      assemblyVersion   The assembly version that contains the
-    *                               specified features.
-    * @param      featureOIDs       Array of OID instances containing the
-    *                               feature OIDs to retrieve properties for.
     * @param      propNames         Array of String instances containing the
     *                               name of the properties to retrieve.
     *
@@ -77,17 +73,17 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
    public PropertyReport generatePropertyReport( OID genomeVerOID, OID [] entityOIDs, String [] propNames ) {
 
       Object[]                                 aggregates  = this.getAggregates();
-      PropertyReport                           fpr         = null;
+      PropertyReport                           fpr;
       PropertyReport                           retVal      = new PropertyReport();
 
-      for ( int aggIdx = 0; aggIdx < aggregates.length; aggIdx++ ) {
+       for (Object aggregate : aggregates) {
 
-        fpr = ( ( GenomeVersionLoader )aggregates[ aggIdx ] ).generatePropertyReport( genomeVerOID, entityOIDs, propNames );
+           fpr = ((GenomeVersionLoader) aggregate).generatePropertyReport(genomeVerOID, entityOIDs, propNames);
 
-        if ( fpr != null ) {
-          retVal.addAllLineItems(fpr);
-        }
-      }
+           if (fpr != null) {
+               retVal.addAllLineItems(fpr);
+           }
+       }
       return ( retVal );
    }
 
@@ -98,27 +94,22 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
     *
     * @param      entityOID   The assembly version that contains the
     *                               specified features.
-    * @param      featureOIDs       Array of OID instances containing the
-    *                               feature OIDs to retrieve properties for.
-    * @param      propNames         Array of String instances containing the
-    *                               name of the properties to retrieve.
-    *
     * @return     Instance of PropertyReport containing the aggregate
     *             report from all GenomeVersion facades.
     */
    public SubjectSequenceReport generateSubjectSequenceReportForEntity( OID entityOID ) {
 
       Object[]                                 aggregates  = this.getAggregates();
-      SubjectSequenceReport                   fpr         = null;
+      SubjectSequenceReport                   fpr;
       SubjectSequenceReport                   retVal      = new SubjectSequenceReport();
 
-      for ( int aggIdx = 0; aggIdx < aggregates.length; aggIdx++ ) {
-        fpr = ( ( GenomeVersionLoader )aggregates[ aggIdx ] ).generateSubjectSequenceReportForEntity( entityOID );
+       for (Object aggregate : aggregates) {
+           fpr = ((GenomeVersionLoader) aggregate).generateSubjectSequenceReportForEntity(entityOID);
 
-         if ( fpr != null ) {
-            retVal.addAllLineItems(fpr);
-         }
-      }
+           if (fpr != null) {
+               retVal.addAllLineItems(fpr);
+           }
+       }
       return ( retVal );
    }
 
@@ -130,34 +121,38 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
     throws InvalidPropertyFormat {
 
         Object[] aggregates=getAggregates();
-        Vector navPathsVector= new Vector();
+        Vector<NavigationPath> navPathsVector= new Vector<NavigationPath>();
         NavigationPath[] partialArray = null;
         NavigationPath[] finalArray = null;
          // Search through all facades in the aggregate to find complete or partial paths.
         InvalidPropertyFormat ipf=null;
-         for (int i = 0; i < aggregates.length; i++) {
-           try {
-             partialArray=null;
-             partialArray=((GenomeVersionLoader)aggregates[i]).
-                  getNavigationPath(speciesOID, targetType,target);
-           }
-           catch (InvalidPropertyFormat ipfEx) {ipf = ipfEx;}
-           catch (Exception ex) {}
+      for (Object aggregate : aggregates) {
+          try {
+              partialArray = null;
+              partialArray = ((GenomeVersionLoader) aggregate).
+                      getNavigationPath(speciesOID, targetType, target);
+          }
+          catch (InvalidPropertyFormat ipfEx) {
+              ipf = ipfEx;
+          }
+          catch (Exception ex) {
+              // Do nothing
+          }
 
 
-           if (partialArray != null) {
-            if (partialArray.length > 0) {
-              for (int j=0; j < partialArray.length; j++) {
-                navPathsVector.addElement(partialArray[j]);
-              } // for
-            } // inner if
-           } // outer if
-         } // try
+          if (partialArray != null) {
+              if (partialArray.length > 0) {
+                  for (NavigationPath aPartialArray : partialArray) {
+                      navPathsVector.addElement(aPartialArray);
+                  } // for
+              } // inner if
+          } // outer if
+      } // try
          if (navPathsVector != null) {
           if (navPathsVector.size() > 0) {
             // Now format the Paths to a NavigationNode array.
             finalArray = new NavigationPath[navPathsVector.size()];
-            finalArray = (NavigationPath[])(navPathsVector.toArray(finalArray));
+            finalArray = (navPathsVector.toArray(finalArray));
           }
           else
           {
@@ -174,34 +169,38 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
     throws InvalidPropertyFormat {
 
         Object[] aggregates=getAggregates();
-        Vector navPathsVector= new Vector();
+        Vector<NavigationPath> navPathsVector= new Vector<NavigationPath>();
         NavigationPath[] partialArray = null;
         NavigationPath[] finalArray = null;
          // Search through all facades in the aggregate to find complete or partial paths.
         InvalidPropertyFormat ipf=null;
-         for (int i = 0; i < aggregates.length; i++) {
-           try {
-             partialArray=null;
-             partialArray=((GenomeVersionLoader)aggregates[i]).
-                  getNavigationPath(targetType,target);
-           }
-           catch (InvalidPropertyFormat ipfEx) {ipf = ipfEx;}
-           catch (Exception ex) {}
+      for (Object aggregate : aggregates) {
+          try {
+              partialArray = null;
+              partialArray = ((GenomeVersionLoader) aggregate).
+                      getNavigationPath(targetType, target);
+          }
+          catch (InvalidPropertyFormat ipfEx) {
+              ipf = ipfEx;
+          }
+          catch (Exception ex) {
+            // Do nothing
+          }
 
 
-           if (partialArray != null) {
-            if (partialArray.length > 0) {
-              for (int j=0; j < partialArray.length; j++) {
-                navPathsVector.addElement(partialArray[j]);
-              } // for
-            } // inner if
-           } // outer if
-         } // try
+          if (partialArray != null) {
+              if (partialArray.length > 0) {
+                  for (NavigationPath aPartialArray : partialArray) {
+                      navPathsVector.addElement(aPartialArray);
+                  } // for
+              } // inner if
+          } // outer if
+      } // try
          if (navPathsVector != null) {
           if (navPathsVector.size() > 0) {
             // Now format the Paths to a NavigationNode array.
             finalArray = new NavigationPath[navPathsVector.size()];
-            finalArray = (NavigationPath[])(navPathsVector.toArray(finalArray));
+            finalArray = navPathsVector.toArray(finalArray);
           }
           else
           {
@@ -215,14 +214,16 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
   public String getNavigationVocabIndex(){
         Object[] aggregates=getAggregates();
         String tmp = null;
-        for (int i = 0; i < aggregates.length; i++) {
-           try {
-             tmp=((GenomeVersionLoader)aggregates[i]).
-                  getNavigationVocabIndex();
-           }
-           catch (Exception ex) {}
-           if (tmp != null && !tmp.equals("")) return tmp;
-         }
+      for (Object aggregate : aggregates) {
+          try {
+              tmp = ((GenomeVersionLoader) aggregate).
+                      getNavigationVocabIndex();
+          }
+          catch (Exception ex) {
+              // Do nothing
+          }
+          if (tmp != null && !tmp.equals("")) return tmp;
+      }
          return "";
   }
 
@@ -233,7 +234,7 @@ public class AggregateGenomeVersionFacade extends AggregateGenomicFacade impleme
 
    protected Class[] getParameterTypesForAggregates() {
       return (new Class[0]);
-   };
+   }
 
    protected  Object[] getParametersForAggregates() {
       return (new Object[0]);

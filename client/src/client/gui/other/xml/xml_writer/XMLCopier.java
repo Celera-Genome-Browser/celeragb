@@ -30,26 +30,13 @@ package client.gui.other.xml.xml_writer;
 
 import api.entity_model.access.visitor.GenomicEntityVisitor;
 import api.entity_model.management.ModelMgr;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.Workspace;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.OID;
 import api.stub.data.ReservedNameSpaceMapping;
 import client.gui.framework.session_mgr.SessionMgr;
-
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
 import org.apache.xerces.parsers.DOMParser;
 import org.apache.xml.serialize.Method;
 import org.apache.xml.serialize.OutputFormat;
@@ -58,6 +45,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.*;
 /**
  * This class has the responsibility of copying any existing data from the open .gbw file that
  * has not either been modified in the client model or loaded into the client model and

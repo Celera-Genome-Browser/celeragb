@@ -21,32 +21,9 @@
 */
 package client.shared.swing;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JDialog;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.SwingConstants;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
 
 /**
@@ -397,7 +374,7 @@ public class GenomicOptionsChooser extends JPanel {
         dialog.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 Window w = e.getWindow();
-                w.hide();
+                w.setVisible(false);
             }
         });
         dialog.addComponentListener(new ComponentAdapter() {
@@ -406,7 +383,7 @@ public class GenomicOptionsChooser extends JPanel {
                 w.dispose();
             }
         });
-        dialog.show();
+        dialog.setVisible(true);
 
         return genOpTracker.getViewer();
     }
@@ -461,7 +438,7 @@ class GenomicOptionsChooserDialog extends JDialog {
 
         okButton.addActionListener(new ActionListener() { // Default Hide Action
             public void actionPerformed(ActionEvent e) {
-                hide();
+                setVisible(false);
             }
         });
         cancelButton = new JButton("Cancel");
@@ -473,7 +450,7 @@ class GenomicOptionsChooserDialog extends JDialog {
 
         cancelButton.addActionListener(new ActionListener() { // Default Hide Action
             public void actionPerformed(ActionEvent e) {
-                hide();
+                setVisible(false);
             }
         });
         box.add(Box.createHorizontalStrut(4));

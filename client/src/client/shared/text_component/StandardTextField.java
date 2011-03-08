@@ -21,7 +21,7 @@
 */
 package client.shared.text_component;
 
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.text.Document;
 
 

@@ -24,7 +24,7 @@ package vizard.component;
 import vizard.glyph.WorldViewTransformGlyph;
 import vizard.model.WorldViewModel;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

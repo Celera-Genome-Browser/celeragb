@@ -20,11 +20,7 @@
 package api.facade.concrete_facade.ejb;
 
 import api.facade.facade_mgr.FacadeManager;
-import api.stub.data.ControlledVocabElement;
-import api.stub.data.FatalCommError;
-import api.stub.data.GenomeVersionInfo;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 import api.stub.ejb.model.genetics.ControlledVocabService;
 
 public class EJBControlledVocabServiceAdapter implements api.facade.abstract_facade.genetics.ControlledVocabService

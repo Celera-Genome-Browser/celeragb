@@ -21,9 +21,13 @@
 */
 package client.shared.swing.table;
 
-import javax.swing.JTable;
-import javax.swing.table.*;
-import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 /**
  * <code>SortableTable</code> extends the functionality of the standard

@@ -33,11 +33,7 @@ import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Deals with compound features--those that may contain other features.

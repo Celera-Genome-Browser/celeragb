@@ -50,7 +50,7 @@ public class AggregateBlastHitFacade extends AggregateHitAlignmentFacade impleme
 
     protected String getMethodNameForAggregates() {
        return "getFacade";
-    };
+    }
 
     protected Class[] getParameterTypesForAggregates() {
        return new Class[]{EntityType.class};
@@ -58,6 +58,6 @@ public class AggregateBlastHitFacade extends AggregateHitAlignmentFacade impleme
 
     protected Object[] getParametersForAggregates() {
       return parameters;
-    };
+    }
 
 }

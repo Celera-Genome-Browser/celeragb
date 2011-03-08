@@ -29,12 +29,7 @@ package shared.tools.computation;
 import api.stub.sequence.DNA;
 import api.stub.sequence.Sequence;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-
+import java.io.*;
 import java.util.StringTokenizer;
 
 

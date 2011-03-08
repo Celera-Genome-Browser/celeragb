@@ -25,7 +25,7 @@
  *********************************************************************/
 package client.gui.framework.outline;
 
-import javax.swing.tree.*;
+import javax.swing.tree.TreeNode;
 
 public interface GenomicEntityTreeNodeListener {
 

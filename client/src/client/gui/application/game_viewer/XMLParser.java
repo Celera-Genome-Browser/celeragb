@@ -28,11 +28,11 @@ package client.gui.application.game_viewer;
  * @version $Id$
  */
 
-import java.io.File;
-import java.io.IOException;
-
 import org.apache.xerces.parsers.DOMParser;
 import org.w3c.dom.Document;
+
+import java.io.File;
+import java.io.IOException;
 
 public class XMLParser {
   private File file;

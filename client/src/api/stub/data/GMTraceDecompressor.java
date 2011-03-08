@@ -25,11 +25,7 @@
  */
 package api.stub.data;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.io.StringReader;
+import java.io.*;
 import java.math.BigInteger;
 
 /**

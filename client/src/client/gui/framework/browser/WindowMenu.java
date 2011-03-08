@@ -21,9 +21,11 @@
 */
 package client.gui.framework.browser;
 
+import client.gui.framework.session_mgr.SessionMgr;
+
 import javax.swing.*;
-import client.gui.framework.session_mgr.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Title:        Genome Browser Client

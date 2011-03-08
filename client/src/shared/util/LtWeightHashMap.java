@@ -27,14 +27,8 @@ package shared.util;
  * @author Peter Davies
  * @version $Id$
  */
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.RandomAccessFile;
-import java.io.Serializable;
 
+import java.io.*;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

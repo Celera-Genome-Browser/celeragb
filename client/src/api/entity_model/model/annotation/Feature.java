@@ -30,12 +30,7 @@ import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.AlignmentNotAllowedException;
 import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.assembly.GenomicAxis;
-import api.entity_model.model.fundtype.AlignableGenomicEntity;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.EntityType;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.MutableAlignment;
-import api.entity_model.model.fundtype.SingleAlignmentMultipleAxes;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
@@ -46,23 +41,9 @@ import api.stub.data.OID;
 import api.stub.data.ReplacementRelationship;
 import api.stub.geometry.MutableRange;
 import api.stub.geometry.Range;
-import api.stub.sequence.DNA;
-import api.stub.sequence.Sequence;
-import api.stub.sequence.SequenceList;
-import api.stub.sequence.SequenceUtil;
-import api.stub.sequence.SubSequence;
+import api.stub.sequence.*;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.ResourceBundle;
-import java.util.Set;
+import java.util.*;
 
 
 /**
@@ -102,14 +83,14 @@ public abstract class Feature extends AlignableGenomicEntity
                                             "resource.shared.DataLayerToFeatureGroup");
 
             if (bundle != null) {
-                Enumeration enum = bundle.getKeys();
+                Enumeration e = bundle.getKeys();
                 Short tmpNumber;
                 String tmpString;
                 String tmpEnv;
 
-                while (enum.hasMoreElements()) {
+                while (e.hasMoreElements()) {
                     try {
-                        tmpString = (String) enum.nextElement();
+                        tmpString = (String) e.nextElement();
                         tmpEnv = bundle.getString(tmpString);
                         tmpNumber = new Short(tmpString);
                         discoveryEnvironmentNumberToName.put(tmpNumber, tmpEnv);

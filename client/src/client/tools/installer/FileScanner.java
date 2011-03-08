@@ -28,9 +28,9 @@ package client.tools.installer;
  * @author
  * @version 1.0
  */
+
 import java.io.File;
 import java.io.FilenameFilter;
-
 import java.util.StringTokenizer;
 import java.util.Vector;
 

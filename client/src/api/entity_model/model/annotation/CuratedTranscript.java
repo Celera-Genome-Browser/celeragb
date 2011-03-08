@@ -34,13 +34,7 @@ import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.TranscriptFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.facade_mgr.FacadeManagerBase;
-import api.stub.data.FeatureDisplayPriority;
-import api.stub.data.GenomicProperty;
-import api.stub.data.InvalidPropertyFormat;
-import api.stub.data.OID;
-import api.stub.data.OIDGenerator;
-import api.stub.data.PromotionReport;
-import api.stub.data.ReplacementRelationship;
+import api.stub.data.*;
 import api.stub.geometry.MutableRange;
 import api.stub.geometry.Range;
 import api.stub.sequence.DNA;
@@ -48,13 +42,7 @@ import api.stub.sequence.DNA;
 import java.sql.CallableStatement;
 import java.sql.SQLException;
 import java.sql.Types;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 
 /**
@@ -67,15 +55,13 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
                                                                  SubFeature {
     private static boolean DEBUG_CLASS = false;
     static String[] STOP_STRINGS = {
-        new String("TAA"), new String("TGA"), new String("TAG")
+            "TAA", "TGA", "TAG"
     };
     static String START_STRING = "ATG";
     private static final String MOD_TYPE_INSERT = "I";
     private static final String MOD_TYPE_REPLACE = "R";
     private static final String MOD_TYPE_UPDATE = "U";
     private static final String MOD_TYPE_DELETE = "D";
-    private static final String WRONG_ACCESSION_NUMBER = "hCT0";
-    private static final String NULL_ACCESSION_NUMBER = "hCTnull";
     private static final String WORKSPACE_TRAN_PREFIX = "WT";
     CuratedCodon startCodon = null;
     CuratedCodon stopCodon = null;
@@ -649,14 +635,14 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
         // have an alignment to the axis that is withing the bounds of the alignment
         // of the transcript
         CuratedFeature currentChild = null;
-        GeometricAlignment currentChildAlignment = null;
+        GeometricAlignment currentChildAlignment;
         int numCuratedExons = 0;
         int numStartCodons = 0;
         GeometricAlignment startCodonAlignment = null;
         int numStopCodons = 0;
         GeometricAlignment stopCodonAlignment = null;
         List exonAlignments = new ArrayList();
-        String childReplacesType = null;
+        String childReplacesType;
         Iterator childIter = children.iterator();
 
         while (childIter.hasNext()) {
@@ -753,7 +739,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
             // alignment of one of the exons. While we are at it check that
             // no exons overlap
             Iterator alignIter = exonAlignments.iterator();
-            GeometricAlignment exonAlign = null;
+            GeometricAlignment exonAlign;
             boolean startCodonInExonBounds = false;
             boolean noOverlappingExonFound = true;
             GeometricAlignment previousExonAlign = null;
@@ -816,7 +802,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
 
             if (!replacesType.equals(ReplacementRelationship.TYPE_OBSOLETE)) {
                 Iterator alignIter = exonAlignments.iterator();
-                GeometricAlignment exonAlign = null;
+                GeometricAlignment exonAlign;
                 boolean codonInExonBounds = false;
 
                 while ((alignIter.hasNext()) && (!codonInExonBounds)) {
@@ -950,7 +936,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
 
         // Should not get this far if gene has no children because
         // checkPromotable would have failed so not checking again here
-        CuratedFeature currentCuration = null;
+        CuratedFeature currentCuration;
         Iterator childIter = children.iterator();
 
         while (childIter.hasNext()) {
@@ -1064,7 +1050,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
 
         // For all replacement types except insert need to use the replaced OIDS
         // not a new OID
-        OID[] entityOIDS = null;
+        OID[] entityOIDS;
         OID replacingOID = null;
 
         if ((action.equals(MOD_TYPE_INSERT)) || 
@@ -1261,9 +1247,9 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
         Set exonAlignments = new TreeSet(exonAlignmentComparator);
 
         Collection unorderedChildren = this.getSubStructure();
-        CuratedFeature currentChild = null;
+        CuratedFeature currentChild;
         GeometricAlignment currentAlignment;
-        String childReplaceType = null;
+        String childReplaceType;
         Iterator unorderChildIter = unorderedChildren.iterator();
 
         while (unorderChildIter.hasNext()) {
@@ -1334,7 +1320,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
         Collection children = this.getSubStructure();
         Iterator childIter = children.iterator();
         boolean isFirst = true;
-        String childReplacesType = null;
+        String childReplacesType;
 
         while (childIter.hasNext()) {
             CuratedFeature currentChild = (CuratedFeature) childIter.next();
@@ -1514,8 +1500,8 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
 
         CuratedExon exon;
         int pos = 0;
-        int offset = 0;
-        int axisPos = 0;
+        int offset;
+        int axisPos;
         int maxpos = 0;
         GeometricAlignment exonAlignment;
 
@@ -1574,7 +1560,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
      * Converts from a position on a genomic axis to a position on the spliced feature.
      * This really only makes biological since for a Transcript or a Gene Prediction,
      * but the algorithm can be supported on any Feature.
-     * @param the position on the axis of interest.
+     * @param axisPosition position on the axis of interest.
      * @return the position on the spliced transcript corresponding to the axisPosition.
      * Note that the return value is relative to the start of the transcript.
      */
@@ -1760,7 +1746,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
         }
 
         private int sortBasedOnStart(CuratedFeature feature, ArrayList starts) {
-            int j = 0;
+            int j;
             int k;
             int temp;
             Integer first;
@@ -1852,7 +1838,7 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
 
             Axis evidenceAxis = evidenceGeoAlign.getAxis();
             Feature evidenceFeature = (Feature) evidenceGeoAlign.getEntity();
-            CuratedExon exonForEvidence = null;
+            CuratedExon exonForEvidence;
 
             // Add evidence only once, but use all alignments to try to find the exon
             Collection intersectingExons = CuratedTranscript.this.getSubFeaturesInRangeOnAxis(
@@ -2430,8 +2416,8 @@ public class CuratedTranscript extends CuratedFeature implements SuperFeature,
     // so that they will get ordered geometrically
     static private class ExonAlignmentComparator implements java.util.Comparator {
         public int compare(Object o1, Object o2) {
-            GeometricAlignment align1 = null;
-            GeometricAlignment align2 = null;
+            GeometricAlignment align1;
+            GeometricAlignment align2;
 
             if ((o1 instanceof api.entity_model.model.alignment.GeometricAlignment) && 
                     (o2 instanceof api.entity_model.model.alignment.GeometricAlignment)) {

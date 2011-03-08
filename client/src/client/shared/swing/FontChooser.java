@@ -22,12 +22,19 @@
 package client.shared.swing;
 
 import javax.swing.*;
-import javax.swing.event.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Document;
+import javax.swing.text.PlainDocument;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
-import javax.swing.text.*;
 import java.security.InvalidParameterException;
+import java.util.Arrays;
+import java.util.Locale;
 
 /**
  * This class creates a font chooser panel which can be placed in dialogs for font
@@ -298,7 +305,7 @@ public class FontChooser extends JPanel {
     dialog.addWindowListener(new WindowAdapter(){
         public void windowClosing(WindowEvent e) {
             Window w = e.getWindow();
-            w.hide();
+            w.setVisible(false);
         }
       });
     dialog.addComponentListener(new ComponentAdapter(){
@@ -307,7 +314,7 @@ public class FontChooser extends JPanel {
             w.dispose();
         }
       });
-    dialog.show();
+    dialog.setVisible(true);
     return ft.getFont();
   }
 
@@ -430,7 +437,7 @@ class FontChooserDialog extends JDialog {
         okButton.addActionListener(okListener);
       okButton.addActionListener(new ActionListener(){// Default Hide Action
           public void actionPerformed(ActionEvent e){
-            hide();
+            setVisible(false);
           }
         });
       cancelButton = new JButton("Cancel");
@@ -439,7 +446,7 @@ class FontChooserDialog extends JDialog {
         cancelButton.addActionListener(cancelListener);
       cancelButton.addActionListener(new ActionListener(){// Default Hide Action
           public void actionPerformed(ActionEvent e){
-            hide();
+            setVisible(false);
           }
         });
       box.add(defaultButton);

@@ -24,7 +24,8 @@ package vizard;
 import vizard.util.ObjectWithPreferences;
 import vizard.util.Preferences;
 
-import java.awt.Component;
+import javax.swing.event.MouseInputListener;
+import java.awt.*;
 import java.awt.dnd.DropTargetDragEvent;
 import java.awt.dnd.DropTargetDropEvent;
 import java.awt.dnd.DropTargetEvent;
@@ -33,14 +34,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.geom.AffineTransform;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
-
-import javax.swing.event.MouseInputListener;
+import java.util.*;
 
 
 /**

@@ -26,10 +26,8 @@ import vizard.GlyphContainer;
 import vizard.RootGlyph;
 import vizard.util.Preferences;
 
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

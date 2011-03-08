@@ -23,11 +23,10 @@ package api.facade.concrete_facade.xml;
 
 import api.facade.concrete_facade.xml.sax_support.ElementContext;
 import api.facade.concrete_facade.xml.sax_support.FeatureHandlerBase;
-
-import java.util.Map;
-
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXParseException;
+
+import java.util.Map;
 
 /**
  * Title:        NonRefCheckingErrorHandler

@@ -26,15 +26,12 @@ package api.entity_model.access.command;
  * @author       Deepali Bhandari
  * @version $Id$
  */
+
 import api.entity_model.management.CommandPreconditionException;
 import api.entity_model.management.GenomicEntityFactory;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.management.PropertyMgr;
-import api.entity_model.model.annotation.CodonFeature;
-import api.entity_model.model.annotation.ComputedCodon;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedTranscript;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.fundtype.Axis;
 import api.entity_model.model.fundtype.EntityType;
 import api.entity_model.model.fundtype.MutableAlignment;

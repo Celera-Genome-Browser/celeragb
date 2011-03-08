@@ -49,11 +49,7 @@ import api.stub.sequence.Sequence;
 import api.stub.sequence.ShiftedSequence;
 import api.stub.sequence.UnknownSequence;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ResourceBundle;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Provides information about a genomic axis gathered from an XML file.

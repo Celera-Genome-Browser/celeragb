@@ -23,10 +23,9 @@ package api.facade.concrete_facade.ejb.jrun;
 
 import api.facade.concrete_facade.ejb.AbstractEJBFacadeManager;
 
-import java.util.Properties;
-
 import javax.naming.Context;
 import javax.naming.InitialContext;
+import java.util.Properties;
 
 
 /**

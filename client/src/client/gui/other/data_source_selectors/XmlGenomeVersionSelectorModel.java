@@ -22,9 +22,8 @@ package client.gui.other.data_source_selectors;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.genetics.GenomeVersion;
 
-import java.util.Collection;
-
 import javax.swing.table.AbstractTableModel;
+import java.util.Collection;
 
 class XmlGenomeVersionSelectorModel extends AbstractTableModel {
 

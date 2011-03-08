@@ -37,16 +37,10 @@ import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.GeneFacade;
 import api.facade.abstract_facade.annotations.TranscriptFacade;
 import api.facade.facade_mgr.FacadeManagerBase;
-import api.stub.data.FeatureDisplayPriority;
-import api.stub.data.GenomicProperty;
-import api.stub.data.InvalidPropertyFormat;
-import api.stub.data.OID;
-import api.stub.data.PromotionReport;
-import api.stub.data.ReplacementRelationship;
+import api.stub.data.*;
 
 import java.sql.CallableStatement;
 import java.sql.SQLException;
-
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Iterator;

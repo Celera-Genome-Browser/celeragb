@@ -26,7 +26,7 @@ import vizard.Glyph;
 import vizard.GraphicContext;
 import vizard.PickedList;
 
-import java.awt.Rectangle;
+import java.awt.*;
 
 /**
  * The purpose of the GlyphAdapter is to provide no-op implementation

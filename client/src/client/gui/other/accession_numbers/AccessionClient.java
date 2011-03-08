@@ -27,6 +27,9 @@ $Revision$
 $Date$
 $Author$
 $Log$
+Revision 1.1  2006/11/09 21:36:06  rjturner
+Initial upload of source
+
 Revision 1.4  2003/03/05 19:03:54  grahamkj
 No changes for now just a test GB-123456789
 
@@ -53,14 +56,10 @@ import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
 import java.lang.reflect.Array;
-
 import java.math.BigInteger;
-
 import java.net.Socket;
 import java.net.UnknownHostException;
-
 import java.util.Properties;
 
 

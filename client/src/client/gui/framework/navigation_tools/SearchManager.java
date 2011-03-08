@@ -27,6 +27,7 @@ package client.gui.framework.navigation_tools;
  * @author
  * @version $Id$
  */
+
 import api.entity_model.access.observer.ModelMgrObserverAdapter;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.fundtype.GenomicEntity;
@@ -41,41 +42,14 @@ import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.framework.session_mgr.SessionModelListener;
 import client.shared.text_component.StandardTextField;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.Vector;
-
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-import javax.swing.ListSelectionModel;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Keymap;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
 
 public class SearchManager {
   private String STATUS = "Status: ";
@@ -239,7 +213,7 @@ public class SearchManager {
     availableGVRadioButton.setText(allGenomeVersions.size()+
       " Available Genome Version(s)");
     if (autoSearch) search();
-    userDialog.show();
+    userDialog.setVisible(true);
     userDialog.toFront();
   }
 
@@ -485,7 +459,7 @@ public class SearchManager {
     ModelMgr.getModelMgr().removeModelMgrObserver(myModelMgrObserver);
     browser.getBrowserModel().removeBrowserModelListener(browserCurrentSelectionListener);
     listenersSet = false;
-    userDialog.hide();
+    userDialog.setVisible(false);
   }
 
 
@@ -558,7 +532,7 @@ public class SearchManager {
 
   private class MyWindowListener extends WindowAdapter {
     public void windowClosing(WindowEvent e) {
-      userDialog.hide();
+      userDialog.setVisible(false);
     }
   }
 

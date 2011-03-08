@@ -26,8 +26,7 @@ import vizard.PickedList;
 import vizard.genomics.model.ContigAdapter;
 import vizard.glyph.ShapeGlyph;
 
-import java.awt.Rectangle;
-import java.awt.Shape;
+import java.awt.*;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 

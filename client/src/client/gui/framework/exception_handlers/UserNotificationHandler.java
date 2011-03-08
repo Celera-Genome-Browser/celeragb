@@ -19,28 +19,29 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.exception_handlers;
 
+import api.entity_model.management.CommandExecutionException;
+import api.entity_model.management.CommandPostconditionException;
+import api.entity_model.management.CommandPreconditionException;
+import api.facade.concrete_facade.xml.InvalidXmlException;
+import api.facade.concrete_facade.xml.XMLSecurityException;
+import api.facade.facade_mgr.FacadeManager;
 import api.facade.roles.ExceptionHandler;
+import client.gui.framework.session_mgr.SessionMgr;
+import client.shared.text_component.StandardTextArea;
+import shared.util.FreeMemoryWatcher;
+
 import javax.swing.*;
-import java.net.*;
-import java.io.*;
-import java.util.*;
-import java.awt.Toolkit;
-import java.awt.event.ActionListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.Dimension;
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
+import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-
-import shared.util.FreeMemoryWatcher;
-import client.shared.text_component.*;
-import api.facade.facade_mgr.FacadeManager;
-import api.facade.concrete_facade.xml.XMLSecurityException;
-import api.facade.concrete_facade.xml.InvalidXmlException;
-import api.entity_model.management.*;
-
-import client.gui.framework.session_mgr.SessionMgr;
+import java.io.*;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.util.*;
+import java.util.List;
 
 public class UserNotificationHandler implements ExceptionHandler {
 
@@ -228,9 +229,9 @@ public class UserNotificationHandler implements ExceptionHandler {
        connection.setDoOutput(true);
        connection.setDoInput(true);
        PrintStream out = new PrintStream(connection.getOutputStream());
-       out.print("emailFrom="+URLEncoder.encode(emailFrom) +"&problemDescription="+
-          URLEncoder.encode(formMessage(exception,emailFrom,desc))+"&subject="+
-          URLEncoder.encode("Genome Browser Exception Report"));
+       out.print("emailFrom="+URLEncoder.encode(emailFrom,"UTF-8") +"&problemDescription="+
+          URLEncoder.encode(formMessage(exception,emailFrom,desc),"UTF-8")+"&subject="+
+          URLEncoder.encode("Genome Browser Exception Report","UTF-8"));
        out.close();
        connection.getInputStream();
        // Now we read the response
@@ -265,9 +266,9 @@ public class UserNotificationHandler implements ExceptionHandler {
        connection.setDoOutput(true);
        connection.setDoInput(true);
        PrintStream out = new PrintStream(connection.getOutputStream());
-       out.print("emailFrom="+URLEncoder.encode(emailFrom) +"&problemDescription="+
-          URLEncoder.encode(formMessage(exception,emailFrom,subject))+"&subject="+
-          URLEncoder.encode(subject));
+       out.print("emailFrom="+URLEncoder.encode(emailFrom,"UTF-8") +"&problemDescription="+
+          URLEncoder.encode(formMessage(exception,emailFrom,subject),"UTF-8")+"&subject="+
+          URLEncoder.encode(subject,"UTF-8"));
        out.close();
        connection.getInputStream();
        // Now we read the response

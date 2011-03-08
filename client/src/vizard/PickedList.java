@@ -21,8 +21,8 @@
 */
 package vizard;
 
-import java.util.*;
-import java.awt.geom.*;
+import java.awt.geom.AffineTransform;
+import java.util.ArrayList;
 
 
 public class PickedList

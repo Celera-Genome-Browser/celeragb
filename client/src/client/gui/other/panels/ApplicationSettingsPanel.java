@@ -21,14 +21,19 @@
 */
 package client.gui.other.panels;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
+import client.gui.framework.navigation_tools.AutoNavigationMgr;
 import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.roles.PrefEditor;
-import client.gui.framework.session_mgr.*;
-import client.gui.framework.navigation_tools.AutoNavigationMgr;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.SessionMgr;
+import client.gui.framework.session_mgr.SessionModelListener;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Title:        Genome Browser Client

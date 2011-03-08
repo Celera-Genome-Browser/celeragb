@@ -25,12 +25,15 @@
  *********************************************************************/
 package client.gui.framework.outline;
 
-import javax.swing.*;
-import javax.swing.tree.*;
-import java.util.*;
-import java.awt.event.MouseEvent;
-import java.awt.Color;
 import api.entity_model.model.fundtype.GenomicEntity;
+
+import javax.swing.*;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.TreeNode;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public abstract class GenomicEntityTreeNode extends DefaultMutableTreeNode {
 

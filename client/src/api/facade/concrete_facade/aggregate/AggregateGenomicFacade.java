@@ -28,11 +28,7 @@ package api.facade.concrete_facade.aggregate;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.fundtype.EntityType;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
-import api.stub.data.GenomicEntityAlias;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 
 import java.util.ArrayList;
 

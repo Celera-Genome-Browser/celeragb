@@ -21,11 +21,10 @@
 */
 package client.gui.application.game_viewer;
 
-import java.awt.Component;
-
-import javax.swing.JTree;
+import javax.swing.*;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreeCellRenderer;
+import java.awt.*;
 
 /**
  * Title:        Genome Browser

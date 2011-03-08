@@ -26,10 +26,9 @@
 //*============================================================================
 package api.stub.ejb.model.annotations;
 
-import java.rmi.RemoteException;
-
 import javax.ejb.CreateException;
 import javax.ejb.EJBHome;
+import java.rmi.RemoteException;
 
 /**
  * Home interface definition for all AtalantaDetailFacadeEJBHome objects.

@@ -21,10 +21,8 @@
 */
 package client.gui.application.game_viewer;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
-import javax.swing.UIManager;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

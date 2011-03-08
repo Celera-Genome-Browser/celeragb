@@ -29,29 +29,13 @@
  */
 package client.gui.other.accession_numbers;
 
-import java.awt.AlphaComposite;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Composite;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.MediaTracker;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
-
 import java.net.URL;
-
 import java.util.Vector;
-
-import javax.swing.JPanel;
 
 
 public class UserGuide extends JPanel implements Runnable {
@@ -90,7 +74,7 @@ public class UserGuide extends JPanel implements Runnable {
          int h = 500;
          f.setLocation(screenSize.width/2 - w/2, screenSize.height/2 - h/2);
          f.setSize(w, h);
-         f.show();
+         f.setVisible(true);
          //intro.start();
     }
     */
@@ -649,6 +633,9 @@ public class UserGuide extends JPanel implements Runnable {
 } // End Intro class
 /*
 $Log$
+Revision 1.1  2006/11/09 21:36:06  rjturner
+Initial upload of source
+
 Revision 1.4  2003/03/05 19:29:36  grahamkj
 No changes for now just a test GB-123456789
 

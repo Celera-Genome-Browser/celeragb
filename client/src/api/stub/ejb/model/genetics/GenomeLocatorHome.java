@@ -25,9 +25,8 @@ package api.stub.ejb.model.genetics;
    CVS_ID:  $Id$
  *********************************************************************/
 
-import java.rmi.RemoteException;
-
 import javax.ejb.CreateException;
+import java.rmi.RemoteException;
 
 /**
  * Home interface for the GenomeLocator bean. Clients make use of the
@@ -54,6 +53,9 @@ public interface GenomeLocatorHome extends javax.ejb.EJBHome
 
 /*
 $Log$
+Revision 1.1  2006/11/09 21:36:13  rjturner
+Initial upload of source
+
 Revision 1.6  2003/11/17 04:26:47  simpsomd
 Minor updates recomended by static code analysis tool
 

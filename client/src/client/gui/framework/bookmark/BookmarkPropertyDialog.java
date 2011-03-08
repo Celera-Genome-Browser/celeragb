@@ -21,13 +21,16 @@
 */
 package client.gui.framework.bookmark;
 
-import javax.swing.*;
-import java.awt.*;
-import javax.swing.border.*;
-import java.awt.event.*;
+import client.shared.text_component.StandardTextArea;
+import client.shared.text_component.StandardTextField;
 
-import client.gui.framework.bookmark.BookmarkInfo;
-import client.shared.text_component.*;
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.EtchedBorder;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 /**
  * Title:        Genome Browser Client
  * Description:  This project is for JBuilder 4.0
@@ -70,7 +73,7 @@ public class BookmarkPropertyDialog extends JDialog {
       e.printStackTrace();
     }
     setUpValues();
-    this.show();
+    this.setVisible(true);
   }
 
 

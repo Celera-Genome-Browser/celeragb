@@ -26,10 +26,7 @@ import vizard.PickedList;
 import vizard.util.Assert;
 import vizard.util.Preferences;
 
-import java.awt.Color;
-import java.awt.Paint;
-import java.awt.Rectangle;
-import java.awt.Shape;
+import java.awt.*;
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;

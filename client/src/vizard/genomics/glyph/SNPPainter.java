@@ -26,7 +26,7 @@ import vizard.GraphicContext;
 import vizard.genomics.model.SNPAdapter;
 import vizard.glyph.FastRectGlyph;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

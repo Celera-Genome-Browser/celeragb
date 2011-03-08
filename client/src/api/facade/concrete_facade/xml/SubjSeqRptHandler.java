@@ -37,20 +37,11 @@ import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
 import api.facade.concrete_facade.xml.model.FeatureModel;
 import api.facade.concrete_facade.xml.model.SimpleFeatureModel;
-import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
-import api.facade.concrete_facade.xml.sax_support.GenomicsExchangeHandler;
-import api.facade.concrete_facade.xml.sax_support.ElementContext;
-import api.facade.concrete_facade.xml.sax_support.FeatureHandlerBase;
-import api.facade.concrete_facade.xml.sax_support.OIDParser;
-import api.facade.concrete_facade.xml.sax_support.PropertySource;
+import api.facade.concrete_facade.xml.sax_support.*;
 import api.facade.facade_mgr.FacadeManager;
 import shared.util.DeflineParser;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Delegated class to handle SAX events.  It in turn delegates to handlers
@@ -408,6 +399,9 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
 
 /*
  $Log$
+ Revision 1.1  2006/11/09 21:35:56  rjturner
+ Initial upload of source
+
  Revision 1.30  2002/11/07 16:06:16  lblick
  Removed obsolete imports and unused local variables.
 

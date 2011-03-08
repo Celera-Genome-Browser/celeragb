@@ -21,12 +21,7 @@
 */
 package api.entity_model.management;
 
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.fundtype.GenomicEntity;
 
 

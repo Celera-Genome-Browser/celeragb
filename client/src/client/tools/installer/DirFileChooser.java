@@ -21,9 +21,8 @@
 */
 package client.tools.installer;
 
+import javax.swing.*;
 import java.io.File;
-
-import javax.swing.JFileChooser;
 
 public class DirFileChooser extends JFileChooser {
   private DirectoryFileFilter dirFileFilter=new DirectoryFileFilter();

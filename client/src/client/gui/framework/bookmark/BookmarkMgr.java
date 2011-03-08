@@ -19,16 +19,19 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.bookmark;
 
-import java.util.*;
-import java.io.*;
-import javax.swing.*;
-
+import api.stub.data.InvalidPropertyFormat;
+import api.stub.data.NavigationPath;
 import client.gui.framework.navigation_tools.AutoNavigationMgr;
-import client.gui.framework.session_mgr.*;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.SessionMgr;
+import client.gui.framework.session_mgr.SessionModelListener;
+import shared.preferences.InfoObject;
+import shared.preferences.PreferenceManager;
 
-import shared.preferences.*;
-
-import api.stub.data.*;
+import javax.swing.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.util.*;
 
 public class BookmarkMgr extends PreferenceManager{
 
@@ -208,8 +211,8 @@ public class BookmarkMgr extends PreferenceManager{
                                    String sourceFile) {
     Properties allBookmarkProperties=new Properties();
     //Separate all properties into the separate categories
-    for (Enumeration enum=allProperties.propertyNames();enum.hasMoreElements();) {
-      String tempKey = new String ((String)enum.nextElement());
+    for (Enumeration e=allProperties.propertyNames();e.hasMoreElements();) {
+      String tempKey = new String ((String)e.nextElement());
       StringTokenizer mainToken = new StringTokenizer(tempKey,".");
       if (tempKey!=null && mainToken!=null && tempKey!="") {
         String firstToken = new String (mainToken.nextToken());

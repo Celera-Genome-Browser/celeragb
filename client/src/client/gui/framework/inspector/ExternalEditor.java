@@ -26,17 +26,14 @@ import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.text_component.StandardTextField;
 
-import java.awt.Component;
-import java.awt.Window;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JTable;
 
 public class ExternalEditor extends DefaultCellEditor{
     ICSTabPane tabPane;

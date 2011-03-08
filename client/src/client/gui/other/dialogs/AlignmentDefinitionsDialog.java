@@ -42,7 +42,7 @@ public class AlignmentDefinitionsDialog extends AbstractTableDialog {
     public AlignmentDefinitionsDialog(BrowserModel browserModel, String propertyName) {
         super(browserModel, propertyName);
         this.setTitle("Alignment Definitions");
-        show();
+        setVisible(true);
     }
 
     public AlignmentDefinitionsDialog() {

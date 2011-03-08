@@ -29,13 +29,7 @@ import shared.preferences.PreferenceManager;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
+import java.util.*;
 
 public class SequenceAnalysisMgr extends PreferenceManager {
 
@@ -194,8 +188,8 @@ public class SequenceAnalysisMgr extends PreferenceManager {
     Properties allAnalysisTypeProperties = new Properties();
 
     //Separate all properties into the separate categories
-    for (Enumeration enum=allProperties.propertyNames();enum.hasMoreElements();) {
-      String tempKey = new String ((String)enum.nextElement());
+    for (Enumeration e=allProperties.propertyNames();e.hasMoreElements();) {
+      String tempKey = new String ((String)e.nextElement());
       StringTokenizer mainToken = new StringTokenizer(tempKey,".");
       if (tempKey!=null && mainToken!=null && tempKey!="") {
         String firstToken = new String (mainToken.nextToken());

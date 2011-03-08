@@ -26,11 +26,7 @@ import api.entity_model.access.report.PropertyReport;
 import api.entity_model.access.report.SubjectSequenceReport;
 import api.entity_model.model.genetics.Chromosome;
 import api.facade.abstract_facade.genetics.GenomeVersionLoader;
-import api.stub.data.FatalCommError;
-import api.stub.data.InvalidPropertyFormat;
-import api.stub.data.NavigationPath;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 
 
 public class EJBGenomeVersionAdapter extends EJBGenomicFacadeAdapter

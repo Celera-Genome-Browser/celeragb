@@ -33,12 +33,10 @@ import client.gui.components.other.report.BaseReportView;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.navigation_tools.SearchManager;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.ObjectOutputStream;
-
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
 
 public class SubjectSequenceReport extends BaseReportView {
 

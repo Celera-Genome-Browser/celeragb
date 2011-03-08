@@ -21,7 +21,7 @@
 */
 package vizard;
 
-import java.awt.geom.*;
+import java.awt.geom.Rectangle2D;
 
 
 /**

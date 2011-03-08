@@ -26,7 +26,7 @@ import api.stub.sequence.Sequence;
 import vizard.genomics.glyph.SequencePainter;
 import vizard.genomics.model.FeatureAdapter;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * Title:

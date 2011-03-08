@@ -19,17 +19,24 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.other.data_source_selectors;
 
-import javax.swing.*;
-import javax.swing.table.*;
-import javax.swing.event.*;
-import java.awt.*;
-import java.awt.event.*;
-import api.entity_model.model.genetics.GenomeVersion;
-import client.gui.framework.session_mgr.SessionMgr;
-import api.entity_model.management.ModelMgr;
-import api.stub.data.GenomeVersionInfo;
 import api.entity_model.access.filter.GenomeVersionCollectionFilter;
-import java.util.*;
+import api.entity_model.management.ModelMgr;
+import api.entity_model.model.genetics.GenomeVersion;
+import api.stub.data.GenomeVersionInfo;
+import client.gui.framework.session_mgr.SessionMgr;
+
+import javax.swing.*;
+import javax.swing.event.TableModelEvent;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 class GenomeVersionSelectorModel extends AbstractTableModel {
 

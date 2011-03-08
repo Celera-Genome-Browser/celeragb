@@ -30,12 +30,7 @@ package api.entity_model.management;
 
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.entity_model.model.fundtype.MutableAlignment;
 import api.entity_model.model.genetics.GenomeVersion;
@@ -43,11 +38,7 @@ import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
 import api.stub.data.OIDGenerator;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class ClientStandardEntityFactory extends StandardEntityFactory {
    private CuratedFeature.CuratedFeatureMutator curatedFeatMutator = null;

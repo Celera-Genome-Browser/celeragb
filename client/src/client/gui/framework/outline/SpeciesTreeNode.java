@@ -29,23 +29,17 @@ package client.gui.framework.outline;
 import api.entity_model.access.observer.AxisObserverAdapter;
 import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.model.alignment.Alignment;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.LoadRequest;
-import api.entity_model.model.fundtype.LoadRequestState;
-import api.entity_model.model.fundtype.LoadRequestStatus;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.Chromosome;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
 
-import java.awt.Color;
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
 
 public class SpeciesTreeNode extends GenomicEntityTreeNode {
     // JCVI LLF: 10/20/2006

@@ -21,15 +21,18 @@
 */
 package client.gui.framework.property_rules;
 
-import java.awt.*;
-import javax.swing.*;
-import client.gui.framework.session_mgr.BrowserModel;
+import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.data.GenomicProperty;
-import api.entity_model.management.PropertyMgr;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
+import client.gui.framework.session_mgr.BrowserModel;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeMap;
 
 /**
  * Title:        Genome Browser Client
@@ -123,12 +126,12 @@ public class PropertySelector extends JDialog {
   void btnOK_actionPerformed(ActionEvent e) {
     isOK=true;
     dispose();
-    hide();
+    setVisible(false);
   }
 
   void btnCancel_actionPerformed(ActionEvent e) {
     dispose();
-    hide();
+    setVisible(false);
   }
 
   void lstPropertySelector_valueChanged(ListSelectionEvent e) {

@@ -27,22 +27,17 @@ package client.gui.other.annotation_log;
  * @author Deepali Bhandari
  * @version $Id$
  */
+
 import api.entity_model.management.ModifyManager;
 import client.gui.framework.session_mgr.SessionMgr;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Date;
 import java.util.List;
 import java.util.StringTokenizer;
-
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
 
 public class AnnotationLogViewer extends JDialog{
   private static int COLUMNS_SIZE=3;
@@ -74,7 +69,7 @@ public class AnnotationLogViewer extends JDialog{
 
     addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                AnnotationLogViewer.this.hide();
+                AnnotationLogViewer.this.setVisible(false);
                 AnnotationLogViewer.this.dispose();
             }
         });

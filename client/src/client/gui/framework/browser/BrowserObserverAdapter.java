@@ -21,7 +21,7 @@
 */
 package client.gui.framework.browser;
 
-import javax.swing.JMenuItem;
+import javax.swing.*;
 
 /**
  * Title:        Genome Browser Client

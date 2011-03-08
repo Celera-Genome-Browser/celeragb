@@ -27,18 +27,13 @@
 package client.gui.components.annotation.axis_annotation;
 
 import api.stub.data.OID;
-
 import api.stub.geometry.Range;
-
 import vizard.Bounds;
 import vizard.GraphicContext;
-
 import vizard.genomics.glyph.AxisRulerGlyph;
-
 import vizard.glyph.FastRectGlyph;
 
-import java.awt.Color;
-import java.awt.Font;
+import java.awt.*;
 
 
 public class AxisSessionBookmarkGlyph extends FastRectGlyph {

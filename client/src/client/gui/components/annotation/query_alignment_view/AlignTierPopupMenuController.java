@@ -26,9 +26,8 @@ import vizard.genomics.glyph.TierGlyph;
 import vizard.genomics.glyph.TierNameGlyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
-
-import javax.swing.JPopupMenu;
+import javax.swing.*;
+import java.awt.*;
 
 
 public class AlignTierPopupMenuController implements ClickInteractor.Adapter

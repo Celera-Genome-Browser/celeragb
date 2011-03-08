@@ -33,12 +33,7 @@ import api.entity_model.model.annotation.CodonFeature;
 import api.entity_model.model.annotation.ComputedCodon;
 import api.entity_model.model.annotation.Feature;
 import api.entity_model.model.annotation.SpliceSite;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.EntityType;
-import api.entity_model.model.fundtype.EntityTypeSet;
-import api.entity_model.model.fundtype.LoadFilter;
-import api.entity_model.model.fundtype.LoadRequest;
-import api.entity_model.model.fundtype.RangeLoadFilterStatus;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.Chromosome;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
@@ -57,15 +52,8 @@ import api.stub.sequence.Sequence;
 import api.stub.sequence.SubSequence;
 import shared.tools.computation.StatisticalModel;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
 import javax.naming.Context;
+import java.util.*;
 /**
  * Title:        Genome Browser Client
  * Description:  This project is for JBuilder 4.0

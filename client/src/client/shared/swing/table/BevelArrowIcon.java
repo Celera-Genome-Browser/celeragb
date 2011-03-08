@@ -21,11 +21,8 @@
 */
 package client.shared.swing.table;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import javax.swing.Icon;
-import javax.swing.UIManager;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * Produces an Icon representation of an UP/DOWN arrow.

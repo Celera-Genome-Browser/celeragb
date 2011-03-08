@@ -19,14 +19,21 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.browser;
 
-import javax.swing.*;
-import javax.swing.event.*;
-import java.util.*;
-import java.awt.event.*;
-import java.awt.Component;
-import client.gui.framework.session_mgr.*;
-import client.gui.framework.roles.SubEditor;
 import api.entity_model.model.fundtype.GenomicEntity;
+import client.gui.framework.roles.SubEditor;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 public class SubBrowser extends JTabbedPane {
 

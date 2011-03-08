@@ -25,9 +25,8 @@ import vizard.genomics.glyph.TierGlyph;
 import vizard.genomics.glyph.TierNameGlyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
-
-import javax.swing.JComponent;
+import javax.swing.*;
+import java.awt.*;
 
 
 public class TierPopupMenuController extends Controller

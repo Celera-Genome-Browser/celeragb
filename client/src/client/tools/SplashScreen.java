@@ -27,15 +27,15 @@
 
 package client.tools;
 
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.border.*;
+import javax.swing.border.BevelBorder;
+import java.awt.*;
+import java.awt.event.WindowEvent;
 
 /**
 * This class gives a SplashScreen for the application.  *
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 *
 */
 

@@ -27,7 +27,9 @@ package client.gui.other.annotation_log;
  * @author Deepali Bhandari
  * @version $Id$
  */
-import java.awt.Dimension;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.BufferedReader;
@@ -35,14 +37,6 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
-
-import javax.swing.BoxLayout;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
 
 
 
@@ -109,7 +103,7 @@ public class GBWAnnotationLogViewer extends JDialog{
     getContentPane().add(yaxis);
     addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                GBWAnnotationLogViewer.this.hide();
+                GBWAnnotationLogViewer.this.setVisible(false);
                 GBWAnnotationLogViewer.this.dispose();
             }
         });

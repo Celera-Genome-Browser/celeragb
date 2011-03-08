@@ -27,20 +27,21 @@ package client.gui.components.annotation.axis_annotation;
  * @author JojicOn (derived from--?)
  * @version $Id$
  */
+
 import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.annotation.ComputedCodon;
 import api.entity_model.model.annotation.CuratedCodon;
 import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.fundtype.AlignableGenomicEntity;
+import api.entity_model.model.fundtype.EntityTypeSet;
 import api.stub.geometry.MutableRange;
 import api.stub.geometry.Range;
 import vizard.Glyph;
 import vizard.ParentGlyph;
 import vizard.genomics.glyph.FeaturePainter;
 import vizard.genomics.glyph.GenomicGlyph;
-import vizard.genomics.model.FeatureAdapter;
-import api.entity_model.model.fundtype.EntityTypeSet;
 import vizard.genomics.glyph.TranscriptPainter;
-import api.entity_model.model.fundtype.AlignableGenomicEntity;
+import vizard.genomics.model.FeatureAdapter;
 
 import java.util.Set;
 

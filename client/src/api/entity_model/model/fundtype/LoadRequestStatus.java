@@ -23,11 +23,10 @@ package api.entity_model.model.fundtype;
 
 import api.entity_model.access.observer.LoadRequestStatusObserver;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import javax.swing.SwingUtilities;
 
 /**
  * Title:        Genome Browser Client

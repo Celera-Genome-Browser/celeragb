@@ -31,28 +31,14 @@ package api.facade.concrete_facade.xml;
 import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
 import api.facade.concrete_facade.xml.model.FeatureModel;
 import api.facade.concrete_facade.xml.model.GeneFeatureModel;
-import api.facade.concrete_facade.xml.sax_support.ArrayListElementStacker;
-import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
-import api.facade.concrete_facade.xml.sax_support.GenomicsExchangeHandler;
-import api.facade.concrete_facade.xml.sax_support.ElementContext;
-import api.facade.concrete_facade.xml.sax_support.ElementStacker;
-import api.facade.concrete_facade.xml.sax_support.FeatureHandlerBase;
-import api.facade.concrete_facade.xml.sax_support.OIDParser;
-import api.facade.concrete_facade.xml.sax_support.ReplacedData;
+import api.facade.concrete_facade.xml.sax_support.*;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
 import api.stub.data.ReplacementRelationship;
 import api.stub.geometry.Range;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Delegated class to handle SAX events.  It in turn delegates to handlers
@@ -1046,6 +1032,9 @@ public class DrivingHandler extends FeatureHandlerBase {
 
 /*
  $Log$
+ Revision 1.1  2006/11/09 21:35:56  rjturner
+ Initial upload of source
+
  Revision 1.63  2002/11/07 16:06:20  lblick
  Removed obsolete imports and unused local variables.
 

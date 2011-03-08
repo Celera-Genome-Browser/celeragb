@@ -21,11 +21,7 @@
 */
 package vizard.genomics.glyph;
 
-import vizard.Bounds;
-import vizard.Glyph;
-import vizard.GraphicContext;
-import vizard.ParentGlyph;
-import vizard.PickedList;
+import vizard.*;
 import vizard.genomics.model.GenomicAxisViewModel;
 import vizard.glyph.BoundsGlyph;
 import vizard.glyph.Packer;
@@ -33,8 +29,7 @@ import vizard.glyph.PropertySortedPacker;
 import vizard.glyph.VerticalPacker;
 import vizard.model.WorldViewModel;
 
-import java.awt.Color;
-import java.awt.Rectangle;
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collection;

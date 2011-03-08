@@ -31,10 +31,10 @@ package api.facade.concrete_facade.xml.model;
 import api.entity_model.model.annotation.PolyMorphism;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.facade.concrete_facade.xml.XmlFacadeManager;
+import api.facade.concrete_facade.xml.sax_support.PropertySource;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.OID;
 import api.stub.geometry.Range;
-import api.facade.concrete_facade.xml.sax_support.PropertySource;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -34,24 +34,13 @@ import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.text_component.StandardTextArea;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Iterator;
 import java.util.Set;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.JTextArea;
-import javax.swing.border.TitledBorder;
 
 /**
  * @author Peter Davies
@@ -91,7 +80,7 @@ public class CommentsViewer extends JDialog {
          existingCommentTA.append(
             it.next().toString()+lineSep );
       }
-      this.show();
+      this.setVisible(true);
   }
 
 
@@ -168,13 +157,13 @@ public class CommentsViewer extends JDialog {
                 return;
               }
                ModifyManager.getModifyMgr().doCommand(compositeCommand);
-               CommentsViewer.this.hide();
+               CommentsViewer.this.setVisible(false);
                CommentsViewer.this.dispose();
             }
         });
         cancelBtn.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-               CommentsViewer.this.hide();
+               CommentsViewer.this.setVisible(false);
                CommentsViewer.this.dispose();
             }
         });
@@ -184,7 +173,7 @@ public class CommentsViewer extends JDialog {
         btnPanel.add(okBtn,null);
         okBtn.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-               CommentsViewer.this.hide();
+               CommentsViewer.this.setVisible(false);
                CommentsViewer.this.dispose();
             }
         });

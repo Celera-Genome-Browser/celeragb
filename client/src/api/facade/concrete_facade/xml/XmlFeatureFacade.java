@@ -32,12 +32,7 @@ import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.abstract_facade.annotations.HitAlignmentFacade;
 import api.facade.concrete_facade.xml.model.FeatureModel;
 import api.facade.concrete_facade.xml.sax_support.ReplacedData;
-import api.stub.data.ControlledVocabUtil;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
-import api.stub.data.ReplacementRelationship;
+import api.stub.data.*;
 import api.stub.geometry.Range;
 import shared.util.GANumericConverter;
 

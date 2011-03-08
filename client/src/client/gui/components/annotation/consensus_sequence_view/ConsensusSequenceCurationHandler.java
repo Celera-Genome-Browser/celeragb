@@ -47,17 +47,12 @@ import client.shared.swing.genomic.Adornment;
 import client.shared.swing.genomic.SequenceMouseEvent;
 import client.shared.swing.genomic.SequenceMouseListener;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
-
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
 
 public class ConsensusSequenceCurationHandler implements ActionListener {
     private static final boolean DEBUG_CLASS = false;

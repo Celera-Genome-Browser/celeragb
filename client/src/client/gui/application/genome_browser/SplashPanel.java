@@ -25,20 +25,14 @@
  *********************************************************************/
 package client.gui.application.genome_browser;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
-import javax.swing.BoxLayout;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**
 * This class gives a SplashScreen for this application.  *
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 *
 */
 public class SplashPanel extends JPanel {

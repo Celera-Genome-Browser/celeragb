@@ -21,9 +21,11 @@
 */
 package vizard;
 
-import java.awt.event.*;
-import java.awt.geom.*;
-import java.awt.dnd.*;
+import java.awt.dnd.DropTargetDragEvent;
+import java.awt.dnd.DropTargetDropEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.awt.geom.AffineTransform;
 
 
 /**

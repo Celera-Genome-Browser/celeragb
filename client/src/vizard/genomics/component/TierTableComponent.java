@@ -22,9 +22,9 @@
 package vizard.genomics.component;
 
 import vizard.genomics.model.GenomicAxisViewModel;
-import javax.swing.JPanel;
-import java.awt.BorderLayout;
-import java.awt.Dimension;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

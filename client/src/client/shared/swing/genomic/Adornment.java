@@ -21,7 +21,6 @@
 */
 package client.shared.swing.genomic;
 
-import java.awt.Color;
 import java.awt.*;
 
 /**

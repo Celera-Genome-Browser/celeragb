@@ -25,11 +25,9 @@ import vizard.Glyph;
 import vizard.genomics.glyph.AxisRulerGlyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.util.Iterator;
-
-import javax.swing.JComponent;
-import javax.swing.JPopupMenu;
 
 public class AxisPopupMenuController extends Controller
     implements ClickInteractor.Adapter

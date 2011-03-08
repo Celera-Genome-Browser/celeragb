@@ -28,13 +28,8 @@
  */
 package client.gui.framework.outline;
 
+import javax.swing.*;
 import java.awt.event.ActionListener;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.JSeparator;
 
 public class ChromosomePopUpMenu extends JPopupMenu {
 

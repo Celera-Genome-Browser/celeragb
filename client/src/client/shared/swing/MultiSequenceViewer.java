@@ -22,58 +22,13 @@
 package client.shared.swing;
 
 import api.stub.sequence.Sequence;
-import client.shared.swing.genomic.Adornment;
-import client.shared.swing.genomic.DefaultLocationRenderer;
-import client.shared.swing.genomic.DefaultSeqTableModel;
-import client.shared.swing.genomic.SeqTableModel;
-import client.shared.swing.genomic.SequenceAdjustmentEvent;
-import client.shared.swing.genomic.SequenceAdjustmentListener;
-import client.shared.swing.genomic.SequenceKeyEvent;
-import client.shared.swing.genomic.SequenceKeyListener;
-import client.shared.swing.genomic.SequenceMouseEvent;
-import client.shared.swing.genomic.SequenceMouseListener;
-import client.shared.swing.genomic.SequenceSelectionEvent;
-import client.shared.swing.genomic.SequenceSelectionListener;
-import client.shared.swing.genomic.SwingRange;
-import client.shared.swing.genomic.ViewerSequence;
+import client.shared.swing.genomic.*;
 
-import java.awt.Adjustable;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionAdapter;
+import javax.swing.*;
+import javax.swing.table.*;
+import java.awt.*;
+import java.awt.event.*;
 import java.util.Vector;
-
-import javax.swing.JComponent;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JViewport;
-import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
-import javax.swing.ToolTipManager;
-import javax.swing.UIManager;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
 
 /**
  * <code>MultiSequenceVeiwer</code> is a user-interface component that presents

@@ -34,27 +34,14 @@ import client.shared.text_component.StandardTextArea;
 import shared.io.ExtensionFileFilter;
 import shared.util.FreeMemoryWatcher;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.GridLayout;
-import java.awt.Insets;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.net.URL;
-
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JFileChooser;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
 
 /**
  * Base class for selecting XML data sources.
@@ -302,6 +289,9 @@ public abstract class XmlFileSelector extends Component {
 
 /*
  $Log$
+ Revision 1.1  2006/11/09 21:36:21  rjturner
+ Initial upload of source
+
  Revision 1.36  2002/11/08 14:13:36  lblick
  Moved from the package client.shared.file_chooser.
 

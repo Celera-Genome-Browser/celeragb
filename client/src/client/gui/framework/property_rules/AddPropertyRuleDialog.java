@@ -34,35 +34,11 @@ import client.gui.framework.view_pref_mgr.ViewPrefMgr;
 import client.shared.text_component.StandardTextArea;
 import client.shared.text_component.StandardTextField;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
-import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
+import java.util.*;
 
 /**
  * Title:        Genome Browser Client
@@ -251,13 +227,13 @@ public class AddPropertyRuleDialog extends JDialog {
       }
     });
     boolean selected=false;
-    for (int i=0;i<entityTypes.length;i++) {
-      selected=(currentEntityType!=null && currentEntityType.equals(entityTypes[i]));
-      checkBox=new JCheckBox(entityTypes[i].toString(),selected);
-      entityTypeCheckBoxes.add(checkBox);
-      checkBoxToEntityTypes.put(checkBox,entityTypes[i]);
-      lstEntityTypes.add(checkBox);
-    }
+      for (EntityType entityType : entityTypes) {
+          selected = (currentEntityType != null && currentEntityType.equals(entityType));
+          checkBox = new JCheckBox(entityType.toString(), selected);
+          entityTypeCheckBoxes.add(checkBox);
+          checkBoxToEntityTypes.put(checkBox, entityType);
+          lstEntityTypes.add(checkBox);
+      }
     if (currentEntity==null || currentEntity instanceof Feature) {
         rbAnd.setSelected(true);
         rbAnd.setText("And");
@@ -274,12 +250,12 @@ public class AddPropertyRuleDialog extends JDialog {
         lstDiscoveryEnvironments.setLayout(new BoxLayout(lstDiscoveryEnvironments,BoxLayout.Y_AXIS));
         if (currentEntity!=null) currentDiscoveryEnvironment=((Feature)currentEntity).getEnvironment();
         Object next;
-        for (Iterator it=discoveryEnvironments.iterator();it.hasNext(); ) {
-          next=it.next();
-          checkBox=new JCheckBox(next.toString(),
-            (currentDiscoveryEnvironment!=null && currentDiscoveryEnvironment.equals(next.toString())));
-          discoveryEnvCheckBoxes.add(checkBox);
-          lstDiscoveryEnvironments.add(checkBox);
+        for (Object discoveryEnvironment : discoveryEnvironments) {
+            next = discoveryEnvironment;
+            checkBox = new JCheckBox(next.toString(),
+                    (currentDiscoveryEnvironment != null && currentDiscoveryEnvironment.equals(next.toString())));
+            discoveryEnvCheckBoxes.add(checkBox);
+            lstDiscoveryEnvironments.add(checkBox);
         }
         jspEntityTypes.setBounds(new Rectangle(185, 79, 208, 122));
         jspDiscoveryEnvironments.setBorder(BorderFactory.createLoweredBevelBorder());
@@ -373,30 +349,30 @@ public class AddPropertyRuleDialog extends JDialog {
 
   void btnAddAllEntityTypes_actionPerformed(ActionEvent e) {
     Component[] components=lstEntityTypes.getComponents();
-    for (int i=0;i<components.length;i++){
-      if (components[i] instanceof JCheckBox) ((JCheckBox)components[i]).setSelected(true);
-    }
+      for (Component component1 : components) {
+          if (component1 instanceof JCheckBox) ((JCheckBox) component1).setSelected(true);
+      }
   }
 
   void btnRemoveAllEntityTypes_actionPerformed(ActionEvent e) {
     Component[] components=lstEntityTypes.getComponents();
-    for (int i=0;i<components.length;i++){
-      if (components[i] instanceof JCheckBox) ((JCheckBox)components[i]).setSelected(false);
-    }
+      for (Component component1 : components) {
+          if (component1 instanceof JCheckBox) ((JCheckBox) component1).setSelected(false);
+      }
   }
 
   void btnRemoveAllDiscoveryEnvs_actionPerformed(ActionEvent e) {
     Component[] components=lstDiscoveryEnvironments.getComponents();
-    for (int i=0;i<components.length;i++){
-      if (components[i] instanceof JCheckBox) ((JCheckBox)components[i]).setSelected(false);
-    }
+      for (Component component1 : components) {
+          if (component1 instanceof JCheckBox) ((JCheckBox) component1).setSelected(false);
+      }
   }
 
   void btnAddAllDiscoveryEnvs_actionPerformed(ActionEvent e) {
     Component[] components=lstDiscoveryEnvironments.getComponents();
-    for (int i=0;i<components.length;i++){
-      if (components[i] instanceof JCheckBox) ((JCheckBox)components[i]).setSelected(true);
-    }
+      for (Component component1 : components) {
+          if (component1 instanceof JCheckBox) ((JCheckBox) component1).setSelected(true);
+      }
   }
 
   void btnOK_actionPerformed(ActionEvent e) {
@@ -406,30 +382,30 @@ public class AddPropertyRuleDialog extends JDialog {
       return;
     }
     Set rules=SessionMgr.getSessionMgr().getPropertyCreationRules();
-    for (Iterator it=rules.iterator();it.hasNext();) {
-      if (((PropertyCreationRule)it.next()).getName().equals(txtRuleName.getText())) {
-        int ans=JOptionPane.showConfirmDialog(SessionMgr.getSessionMgr().getActiveBrowser(),
-          "The choosen rule name exists.  Choose OK to overwrite the old"+
-          " rule or Cancel to change this rule's name","Duplicate Rule Name",JOptionPane.OK_CANCEL_OPTION);
-        if (ans==JOptionPane.CANCEL_OPTION) return;
+      for (Object rule : rules) {
+          if (((PropertyCreationRule) rule).getName().equals(txtRuleName.getText())) {
+              int ans = JOptionPane.showConfirmDialog(SessionMgr.getSessionMgr().getActiveBrowser(),
+                      "The choosen rule name exists.  Choose OK to overwrite the old" +
+                              " rule or Cancel to change this rule's name", "Duplicate Rule Name", JOptionPane.OK_CANCEL_OPTION);
+              if (ans == JOptionPane.CANCEL_OPTION) return;
+          }
       }
-    }
     EntityTypeSet selectedEntityTypes=new EntityTypeSet();
     JCheckBox checkBox;
-    for (Iterator it=entityTypeCheckBoxes.iterator();it.hasNext();){
-      checkBox=(JCheckBox)it.next();
-      if (checkBox.isSelected()) {
-        selectedEntityTypes.add(checkBoxToEntityTypes.get(checkBox));
+      for (Object entityTypeCheckBoxe : entityTypeCheckBoxes) {
+          checkBox = (JCheckBox) entityTypeCheckBoxe;
+          if (checkBox.isSelected()) {
+              selectedEntityTypes.add(checkBoxToEntityTypes.get(checkBox));
+          }
       }
-    }
     java.util.List selectedDiscoveryEnvs=new ArrayList();
-    for (Iterator it=discoveryEnvCheckBoxes.iterator();it.hasNext();){
-      checkBox=(JCheckBox)it.next();
-      if (checkBox.isSelected()) {
-        selectedDiscoveryEnvs.add(checkBox.getText());
+      for (Object discoveryEnvCheckBoxe : discoveryEnvCheckBoxes) {
+          checkBox = (JCheckBox) discoveryEnvCheckBoxe;
+          if (checkBox.isSelected()) {
+              selectedDiscoveryEnvs.add(checkBox.getText());
+          }
       }
-    }
-    PropertyCreationRule newRule=null;
+    PropertyCreationRule newRule;
     if (selectedDiscoveryEnvs.isEmpty()) {
       newRule=new PropertyCreationRule(txtRuleName.getText(),selectedEntityTypes,txtPropertyName.getText(),
         new HTMLPropertyValueFormatter(txtPropertyValue.getText()));
@@ -441,18 +417,18 @@ public class AddPropertyRuleDialog extends JDialog {
     }
     SessionMgr.getSessionMgr().addPropertyCreationRule(newRule);
     dispose();
-    hide();
+    setVisible(false);
   }
 
   void btnCancel_actionPerformed(ActionEvent e) {
     dispose();
-    hide();
+    setVisible(false);
   }
 
   void btnInsertProperty_mousePressed(MouseEvent e) {
      PropertySelector selector=new PropertySelector(SessionMgr.getSessionMgr().getActiveBrowser(),
        new Point(getLocationOnScreen().x+getSize().width,e.getComponent().getLocationOnScreen().y),browserModel);
-     selector.show();
+     selector.setVisible(true);
      if (selector.wasOKPressed()) {
        txtPropertyValue.append("<"+selector.getSelectedPropertyName()+">");
      }
@@ -461,7 +437,7 @@ public class AddPropertyRuleDialog extends JDialog {
   void btnAddDiscoveryEnv_mouseClicked(MouseEvent e) {
      DiscoveryEnvironment env=new DiscoveryEnvironment(SessionMgr.getSessionMgr().getActiveBrowser(),
        new Point(getLocationOnScreen().x+getSize().width,e.getComponent().getLocationOnScreen().y));
-     env.show();
+     env.setVisible(true);
      if (env.wasOKPressed()) {
        JCheckBox checkBox=new JCheckBox(env.getSelectedName(),true);
        lstDiscoveryEnvironments.add(checkBox,0);
@@ -472,21 +448,21 @@ public class AddPropertyRuleDialog extends JDialog {
   public void show() {
     validateTree();
     JCheckBox checkBox;
-    for (Iterator it=entityTypeCheckBoxes.iterator();it.hasNext();){
-      checkBox=(JCheckBox)it.next();
-      if (checkBox.isSelected()) {
-        lstEntityTypes.scrollRectToVisible(checkBox.getBounds());
-        break;
+      for (Object entityTypeCheckBoxe : entityTypeCheckBoxes) {
+          checkBox = (JCheckBox) entityTypeCheckBoxe;
+          if (checkBox.isSelected()) {
+              lstEntityTypes.scrollRectToVisible(checkBox.getBounds());
+              break;
+          }
       }
-    }
-    for (Iterator it=discoveryEnvCheckBoxes.iterator();it.hasNext();){
-      checkBox=(JCheckBox)it.next();
-      if (checkBox.isSelected()) {
-        lstDiscoveryEnvironments.scrollRectToVisible(checkBox.getBounds());
-        break;
+      for (Object discoveryEnvCheckBoxe : discoveryEnvCheckBoxes) {
+          checkBox = (JCheckBox) discoveryEnvCheckBoxe;
+          if (checkBox.isSelected()) {
+              lstDiscoveryEnvironments.scrollRectToVisible(checkBox.getBounds());
+              break;
+          }
       }
-    }
-    super.show();
+    super.setVisible(true);
 
  }
 

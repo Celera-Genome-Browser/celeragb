@@ -28,27 +28,17 @@ package client.gui.application.genome_browser;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.text_component.StandardTextArea;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
+import javax.swing.*;
+import javax.swing.border.BevelBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.border.BevelBorder;
-
 
 /**
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 */
 public class AboutBox extends JDialog {
     static String lineSep = System.getProperty("line.separator");
@@ -174,7 +164,7 @@ public class AboutBox extends JDialog {
                 new BevelBorder(BevelBorder.RAISED, Color.lightGray, 
                                 Color.darkGray));
         this.getContentPane().add(outerPanel);
-        closeButton.requestDefaultFocus();
+        //closeButton.getFocusTraversalPolicy().getDefaultComponent(closeButton).requestFocus();
         closeButton.requestFocus();
         validate();
         pack();

@@ -21,17 +21,17 @@
 */
 package client.gui.components.annotation.axis_annotation;
 
-import java.awt.Color;
-
-import client.gui.framework.session_mgr.SessionMgr;
 import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.annotation.HSPFeature;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.stub.data.OID;
 import api.stub.geometry.MutableRange;
 import api.stub.geometry.Range;
+import client.gui.framework.session_mgr.SessionMgr;
 import vizard.Glyph;
 import vizard.genomics.model.FeatureAdapter;
+
+import java.awt.*;
 
 
 public class HSPGlyph extends FeatureGlyph {

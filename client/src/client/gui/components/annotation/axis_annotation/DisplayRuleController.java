@@ -29,11 +29,7 @@ package client.gui.components.annotation.axis_annotation;
  */
 
 import api.entity_model.access.observer.ReportObserver;
-import api.entity_model.access.report.LineItem;
-import api.entity_model.access.report.PropertyReport;
-import api.entity_model.access.report.PropertyReportRequest;
-import api.entity_model.access.report.Report;
-import api.entity_model.access.report.ReportRequest;
+import api.entity_model.access.report.*;
 import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.annotation.Feature;
@@ -54,16 +50,9 @@ import vizard.glyph.Packer;
 import vizard.glyph.PropertySortedPacker;
 import vizard.glyph.VerticalPacker;
 
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
+import java.awt.*;
+import java.util.*;
 import java.util.List;
-import java.util.Set;
 
 public class DisplayRuleController extends Controller implements BrowserModelListener {
 

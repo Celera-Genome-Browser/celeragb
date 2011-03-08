@@ -25,11 +25,11 @@
 *********************************************************************/
 package api.facade.concrete_facade.xml;
 
-import java.util.Iterator;
-import java.util.Map;
-
 import api.facade.abstract_facade.annotations.GeneFacade;
 import api.stub.data.OID;
+
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * XML Implementation of the GeneFacade.  Returns all gene information found

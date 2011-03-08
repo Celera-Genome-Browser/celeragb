@@ -25,7 +25,7 @@ import vizard.genomics.model.SequenceAdapter;
 import vizard.glyph.TranslationGlyph;
 import vizard.model.WorldViewModel;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 public class SequenceGlyph extends TranslationGlyph

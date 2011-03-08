@@ -27,7 +27,7 @@ import vizard.genomics.glyph.TierGlyph;
 import vizard.genomics.glyph.TierNameGlyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
+import java.awt.*;
 
 public class ClickExpandTierController extends Controller implements ClickInteractor.Adapter {
    private ClickInteractor interactor;

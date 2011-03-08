@@ -24,7 +24,7 @@ package vizard.glyph;
 import vizard.Bounds;
 import vizard.GraphicContext;
 
-import java.awt.Color;
+import java.awt.*;
 import java.awt.geom.Line2D;
 
 

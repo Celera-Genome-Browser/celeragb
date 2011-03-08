@@ -21,7 +21,8 @@
 */
 package client.shared.swing.genomic;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * This Class implements a K-d Tree for two-dimensional range searches.

@@ -19,7 +19,7 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.components.annotation.axis_annotation;
 
-import java.awt.EventQueue;
+import java.awt.*;
 
 
 //view.delete should ask PostponedAWTInvoker.timeToQuit = true

@@ -27,22 +27,13 @@ import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.framework.view_pref_mgr.ViewPrefMgr;
 import client.shared.file_chooser.FileChooser;
 
-import java.awt.Dimension;
-import java.awt.Rectangle;
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
-
-import javax.swing.JButton;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.border.TitledBorder;
 
 /**
  * Title:        Genome Browser Client

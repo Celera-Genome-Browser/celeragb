@@ -26,16 +26,10 @@ package api.entity_model.model.fundtype;
 *********************************************************************/
 
 //import java.lang.reflect.*;
+
 import api.facade.facade_mgr.FacadeManager;
 
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.ResourceBundle;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class EntityType implements java.io.Serializable {
    static private Map discoveryEnvToFeatureName = new HashMap();
@@ -57,8 +51,8 @@ public class EntityType implements java.io.Serializable {
       String displayName;
       StringTokenizer tokenizer;
       try {
-         for (Enumeration enum = bundle.getKeys(); enum.hasMoreElements();) {
-            key = (String) enum.nextElement();
+         for (Enumeration e = bundle.getKeys(); e.hasMoreElements();) {
+            key = (String) e.nextElement();
             resourceValue = bundle.getString(key);
             newValue = new Integer(key);
             if (resourceValue.indexOf("|") == -1) {

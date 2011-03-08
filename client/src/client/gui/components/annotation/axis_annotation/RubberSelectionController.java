@@ -27,8 +27,7 @@ import vizard.glyph.FastLineGlyph;
 import vizard.glyph.WorldViewTransformGlyph;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Color;
-import java.awt.Component;
+import java.awt.*;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
 

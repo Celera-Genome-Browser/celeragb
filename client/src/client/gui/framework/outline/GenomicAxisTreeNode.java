@@ -29,10 +29,8 @@ package client.gui.framework.outline;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.Axis;
 
+import javax.swing.*;
 import java.text.DecimalFormat;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
 
 public class GenomicAxisTreeNode extends GenomicEntityTreeNode {
 //	 JCVI LLF: 10/20/2006

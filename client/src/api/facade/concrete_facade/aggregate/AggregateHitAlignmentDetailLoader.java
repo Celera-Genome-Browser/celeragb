@@ -26,11 +26,7 @@
 package api.facade.concrete_facade.aggregate;
 
 import api.entity_model.model.fundtype.EntityType;
-import api.facade.abstract_facade.annotations.GenewiseDetailLoader;
-import api.facade.abstract_facade.annotations.HSPFacade;
-import api.facade.abstract_facade.annotations.HitAlignmentDetailLoader;
-import api.facade.abstract_facade.annotations.LapDetailFacade;
-import api.facade.abstract_facade.annotations.Sim4DetailFacade;
+import api.facade.abstract_facade.annotations.*;
 import api.stub.data.NoData;
 import api.stub.data.OID;
 import api.stub.data.SubjectDefinition;

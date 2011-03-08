@@ -24,11 +24,10 @@ package client.shared.swing.genomic;
 import api.stub.sequence.Sequence;
 import api.stub.sequence.SequenceHelper;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
+import java.io.Serializable;
+import java.util.ArrayList;
 
 /**
  * This class is the default implementation of a <code>SequenceTableModel</code>,

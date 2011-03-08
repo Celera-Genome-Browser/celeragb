@@ -21,10 +21,12 @@
 */
 package client.gui.components.other.report;
 
-import javax.swing.*;
-import java.awt.event.*;
 import api.entity_model.access.report.Report;
 import client.gui.framework.session_mgr.SessionMgr;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Title:        Genome Browser Client

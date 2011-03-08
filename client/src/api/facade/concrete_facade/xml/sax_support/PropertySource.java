@@ -30,16 +30,13 @@ package api.facade.concrete_facade.xml.sax_support;
  * @author Les Foster
  * @version
  */
+
 import api.stub.data.ControlledVocabUtil;
 import api.stub.data.FlaggedGenomicProperty;
 import api.stub.data.GenomicProperty;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Source for a genomic property.  Can supply expansions, etc.
@@ -275,6 +272,9 @@ public class PropertySource implements Serializable {
 
 /*
  $Log$
+ Revision 1.1  2006/11/09 21:36:16  rjturner
+ Initial upload of source
+
  Revision 1.4  2002/11/07 16:06:57  lblick
  Removed obsolete imports and unused local variables.
 

@@ -30,13 +30,7 @@ package api.entity_model.access.command;
 
 import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.alignment.Alignment;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.SuperFeature;
-import api.entity_model.model.annotation.Workspace;
+import api.entity_model.model.annotation.*;
 import api.stub.data.OID;
 
 import java.util.Date;

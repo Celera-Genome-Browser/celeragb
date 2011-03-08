@@ -27,8 +27,11 @@
 
 package client.gui.framework.session_mgr;
 
-import java.util.*;
 import shared.util.EmptyIterator;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.TreeMap;
 
 /**
 * The GenericModel is a generic observer model for the components of the browser.

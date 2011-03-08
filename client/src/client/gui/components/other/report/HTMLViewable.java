@@ -21,7 +21,7 @@
 */
 package client.gui.components.other.report;
 
-import api.entity_model.access.report.*;
+import api.entity_model.access.report.Report;
 
 /**
  * Title:        Genome Browser Client

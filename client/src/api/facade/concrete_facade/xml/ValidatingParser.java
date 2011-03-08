@@ -26,17 +26,12 @@ package api.facade.concrete_facade.xml;
    CVS_ID:  $Id$
 *********************************************************************/
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-
 import org.apache.xerces.parsers.SAXParser;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
+
+import java.io.*;
 
 /**
  * Runs validation against an XML file.  Must be given the file name, its DTD file name,

@@ -25,7 +25,7 @@ import vizard.genomics.glyph.TierGlyph;
 import vizard.genomics.glyph.TierNameGlyph;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 public class AlignDragTierController implements MotionInteractor.Adapter

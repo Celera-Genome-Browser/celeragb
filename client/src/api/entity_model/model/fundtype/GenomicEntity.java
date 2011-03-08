@@ -33,28 +33,12 @@ import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
 import api.facade.facade_mgr.FacadeManager;
 import api.facade.facade_mgr.FacadeManagerBase;
-import api.stub.data.GenomicEntityAlias;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.InvalidPropertyFormat;
-import api.stub.data.NavigationNode;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 import shared.util.ThreadQueue;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * Title:        Genome Browser Client

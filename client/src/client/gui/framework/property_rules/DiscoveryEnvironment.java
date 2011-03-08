@@ -23,22 +23,13 @@ package client.gui.framework.property_rules;
 
 import client.shared.text_component.StandardTextField;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.KeyStroke;
+import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Keymap;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
 
 /**
  * Title:        Genome Browser Client
@@ -138,12 +129,12 @@ public class DiscoveryEnvironment extends JDialog {
   void btnOK_actionPerformed(ActionEvent e) {
     isOK=true;
     dispose();
-    hide();
+    setVisible(false);
   }
 
   void btnCancel_actionPerformed(ActionEvent e) {
     dispose();
-    hide();
+    setVisible(false);
   }
 
 }

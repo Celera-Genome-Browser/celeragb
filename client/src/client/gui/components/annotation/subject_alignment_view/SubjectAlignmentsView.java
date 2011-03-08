@@ -56,20 +56,9 @@ import client.gui.components.other.report.HTMLReportMenuItem;
 import client.gui.components.other.report.HTMLViewable;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.roles.SubEditor;
-import client.gui.framework.session_mgr.BrowserModel;
-import client.gui.framework.session_mgr.BrowserModelListener;
-import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
-import client.gui.framework.session_mgr.SessionMgr;
-import client.gui.framework.session_mgr.SessionModelListener;
+import client.gui.framework.session_mgr.*;
 import client.gui.framework.view_pref_mgr.ViewPrefMgr;
-import client.shared.vizard.AlignSequenceAdapter;
-import client.shared.vizard.AlignmentDNAGlyph;
-import client.shared.vizard.DNAComparisonGlyph;
-import client.shared.vizard.MagnifyingGlassController;
-import client.shared.vizard.ProteinComparisonGlyph;
-import client.shared.vizard.ResizeTierNamesController;
-import client.shared.vizard.SubjectAndQueryComparisonAdapter;
-import client.shared.vizard.SubjectAndQueryComparisonGlyph;
+import client.shared.vizard.*;
 import vizard.Glyph;
 import vizard.genomics.component.ForwardAndReverseTiersComponent;
 import vizard.genomics.glyph.GenomicGlyph;
@@ -79,27 +68,13 @@ import vizard.genomics.model.GenomicAxisViewModel;
 import vizard.genomics.model.SequenceAdapter;
 import vizard.glyph.AdornmentGlyph;
 
-import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Hashtable;
-import java.util.Iterator;
+import java.util.*;
 import java.util.List;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
 
 public class SubjectAlignmentsView extends ForwardAndReverseTiersComponent
 implements SubEditor, ActionListener {

@@ -27,8 +27,11 @@ package client.gui.framework.view_pref_mgr;
  * @author
  * @version $Id$
  */
+
+import shared.preferences.InfoObject;
+import shared.preferences.PreferenceManager;
+
 import java.util.Properties;
-import shared.preferences.*;
 
 public class FeatureMapInfo extends InfoObject {
 

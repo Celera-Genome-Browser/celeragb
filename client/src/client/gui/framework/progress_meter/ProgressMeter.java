@@ -31,22 +31,9 @@ import api.entity_model.model.fundtype.ActiveThreadModel;
 import api.entity_model.model.fundtype.LoadRequestState;
 import api.entity_model.model.fundtype.LoadRequestStatus;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Frame;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Observable;
-import java.util.Observer;
-import java.util.TimerTask;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JProgressBar;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
 
 public class ProgressMeter extends JDialog {
   private MyObserver observer = new MyObserver();
@@ -194,11 +181,11 @@ public class ProgressMeter extends JDialog {
 
   private class UpdateTask extends TimerTask {
       public void run(){
-          Enumeration enum=meters.elements();
+          Enumeration e=meters.elements();
           Meter meter;
           int oldValue;
-          while (enum.hasMoreElements()) {
-             meter=((Meter)enum.nextElement());
+          while (e.hasMoreElements()) {
+             meter=((Meter)e.nextElement());
              oldValue=meter.getValue();
              if (oldValue<MAX_TIMER_PERCENT) meter.setValueFromTimer(oldValue+1);
           }

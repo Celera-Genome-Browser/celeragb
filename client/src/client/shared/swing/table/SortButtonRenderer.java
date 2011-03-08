@@ -21,10 +21,10 @@
 */
 package client.shared.swing.table;
 
-import java.util.*;
-import java.awt.*;
 import javax.swing.*;
-import javax.swing.table.*;
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.util.Hashtable;
 
 /**
  * Button used to represent the sort direction of a JTable column.

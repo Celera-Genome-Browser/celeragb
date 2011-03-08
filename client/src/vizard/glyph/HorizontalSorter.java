@@ -21,9 +21,9 @@
 */
 package vizard.glyph;
 
+import vizard.Bounds;
 import vizard.Glyph;
 import vizard.ParentGlyph;
-import vizard.Bounds;
 
 
 /**

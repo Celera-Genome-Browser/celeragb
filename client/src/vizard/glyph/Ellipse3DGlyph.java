@@ -23,9 +23,7 @@ package vizard.glyph;
 
 import vizard.GraphicContext;
 
-import java.awt.Color;
-import java.awt.GradientPaint;
-import java.awt.Paint;
+import java.awt.*;
 import java.awt.geom.Arc2D;
 
 

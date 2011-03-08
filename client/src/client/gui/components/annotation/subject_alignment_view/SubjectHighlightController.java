@@ -27,10 +27,8 @@ import vizard.Glyph;
 import vizard.glyph.AdornmentGlyph;
 import vizard.interactor.EnterLeaveInteractor;
 
-import java.awt.Color;
-import java.awt.Component;
-
-import javax.swing.JComponent;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * This class is the same as the AlignHighlighController except that it takes

@@ -21,9 +21,13 @@
 */
 package vizard.glyph;
 
-import vizard.*;
+import vizard.Bounds;
+import vizard.Glyph;
+import vizard.GraphicContext;
+import vizard.PickedList;
+
 import java.awt.*;
-import java.awt.geom.*;
+import java.awt.geom.Rectangle2D;
 
 
 /**

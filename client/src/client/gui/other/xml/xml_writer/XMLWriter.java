@@ -42,21 +42,14 @@ import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.file_chooser.FileChooser;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Enumeration;
-import java.util.GregorianCalendar;
-import java.util.Iterator;
+import java.util.*;
 import java.util.List;
-import java.util.Vector;
-
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
 //import client.gui.other.xml.xml_promotion.GBWPromotionValidator;
 /**
  * This class is a singleton that manages writing out the gbw workspace file.

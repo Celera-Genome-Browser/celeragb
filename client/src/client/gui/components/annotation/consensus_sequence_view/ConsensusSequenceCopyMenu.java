@@ -26,8 +26,8 @@
 
 package client.gui.components.annotation.consensus_sequence_view;
 
-import java.awt.event.ActionListener;
 import javax.swing.*;
+import java.awt.event.ActionListener;
 
 
 public class ConsensusSequenceCopyMenu extends JMenu

@@ -27,14 +27,7 @@ package api.entity_model.model.fundtype;
 
 import shared.util.MTObservable;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Observer;
-import java.util.Set;
+import java.util.*;
 
 /** This is a model of the threads that are actively loading in the system */
 public class ActiveThreadModel extends MTObservable {

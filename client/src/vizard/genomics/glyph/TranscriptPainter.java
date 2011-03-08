@@ -23,7 +23,8 @@ package vizard.genomics.glyph;
 
 import vizard.genomics.model.FeatureAdapter;
 import vizard.glyph.FastRectGlyph;
-import java.awt.Color;
+
+import java.awt.*;
 
 
 /**

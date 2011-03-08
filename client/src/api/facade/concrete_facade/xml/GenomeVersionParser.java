@@ -34,13 +34,12 @@ import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
 import api.stub.data.OIDGenerator;
-
-import java.io.File;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
+
+import java.io.File;
 
 /** This SAX parser will read the input, and only capture the first line. */
 public class GenomeVersionParser extends DefaultHandler {

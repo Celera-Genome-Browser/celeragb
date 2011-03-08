@@ -26,12 +26,14 @@
  *********************************************************************/
 package client.gui.framework.browser;
 
-import java.util.*;
-import javax.swing.*;
-import java.awt.Dimension;
-import java.awt.event.*;
-import java.awt.Color;
 import shared.util.FreeMemoryWatcher;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.Observable;
+import java.util.Observer;
 
 public class FreeMemoryViewer extends JPanel implements Observer {
   private BoxLayout boxLayout=new BoxLayout(this,BoxLayout.X_AXIS);
@@ -179,6 +181,9 @@ public class FreeMemoryViewer extends JPanel implements Observer {
 
 /*
 $Log$
+Revision 1.1  2006/11/09 21:36:13  rjturner
+Initial upload of source
+
 Revision 1.15  2003/08/13 02:14:11  masonda
 Fixed truncated font
 

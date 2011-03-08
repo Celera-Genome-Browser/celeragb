@@ -27,13 +27,7 @@ import api.entity_model.access.visitor.GenomicEntityVisitor;
 import api.entity_model.management.ModifyManager;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.HSPFeature;
-import api.entity_model.model.annotation.PolyMorphism;
-import api.entity_model.model.annotation.SpliceSite;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.assembly.Contig;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.AlignableGenomicEntity;
@@ -43,14 +37,7 @@ import vizard.genomics.glyph.TierGlyph;
 import vizard.util.Assert;
 import vizard.util.ObserverList;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 
 //Dock/Undock should be fast

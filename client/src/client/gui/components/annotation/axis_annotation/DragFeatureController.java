@@ -20,30 +20,18 @@
 package client.gui.components.annotation.axis_annotation;
 
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.annotation.*;
 import client.gui.framework.session_mgr.SessionMgr;
-import vizard.Bounds;
-import vizard.EventDispatcher;
-import vizard.Glyph;
-import vizard.GraphicContext;
-import vizard.PickedList;
+import vizard.*;
 import vizard.genomics.component.TiersComponent;
 import vizard.genomics.glyph.TierGlyph;
 import vizard.glyph.ProxyGlyph;
 import vizard.glyph.TranslationGlyph;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Component;
-import java.awt.Point;
-import java.awt.Rectangle;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.geom.AffineTransform;
-
-import javax.swing.SwingUtilities;
 
 public class DragFeatureController extends Controller
     implements MotionInteractor.Adapter

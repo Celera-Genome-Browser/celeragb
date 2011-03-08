@@ -28,40 +28,18 @@ package api.entity_model.access.command;
  * @version $Id$
  */
 
-import api.entity_model.management.CommandExecutionException;
-import api.entity_model.management.CommandPreconditionException;
-import api.entity_model.management.GenomicEntityFactory;
-import api.entity_model.management.ModelMgr;
-import api.entity_model.management.PropertyMgr;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.Workspace;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.EntityType;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.MutableAlignment;
-import api.entity_model.model.fundtype.SingleAlignmentSingleAxis;
+import api.entity_model.management.*;
+import api.entity_model.model.annotation.*;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.ExonFacade;
 import api.facade.abstract_facade.annotations.GeneFacade;
 import api.facade.abstract_facade.annotations.TranscriptFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
-import api.stub.data.AccessionGenerator;
-import api.stub.data.OID;
-import api.stub.data.OIDGenerator;
-import api.stub.data.ReplacementRelationship;
-import api.stub.data.Util;
+import api.stub.data.*;
 import api.stub.geometry.Range;
 
-import java.util.Collection;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Iterator;
+import java.util.*;
 
 
 public class DoMergeTranscripts extends FeatureStructureBoundedCommand {

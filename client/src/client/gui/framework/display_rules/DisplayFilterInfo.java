@@ -27,9 +27,17 @@ package client.gui.framework.display_rules;
  * @author
  * @version $Id$
  */
-import java.util.*;
-import shared.preferences.*;
-import api.facade.abstract_facade.annotations.*;
+
+import api.facade.abstract_facade.annotations.GenePredictionDetailFacade;
+import api.facade.abstract_facade.annotations.HSPFacade;
+import api.facade.abstract_facade.annotations.RegulatoryRegionFacade;
+import shared.preferences.InfoObject;
+import shared.preferences.PreferenceManager;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Properties;
+import java.util.StringTokenizer;
 
 /**
  * This class is intended to be the base class for the Display Rule Info objects.

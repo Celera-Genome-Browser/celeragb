@@ -23,25 +23,16 @@ package client.gui.other.annotation_log;
 
 import api.entity_model.management.ModifyManager;
 import api.facade.facade_mgr.FacadeManager;
-
 import client.gui.framework.session_mgr.SessionMgr;
 
-/**
- * Title:        Genome Browser Client
- * Description:  This project is for JBuilder 4.0
- * @author       Deepali Bhandari
- * @version $Id$
- */
+import javax.swing.*;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
-
-import javax.swing.JOptionPane;
 
 
 public class AnnotationLogWriter {

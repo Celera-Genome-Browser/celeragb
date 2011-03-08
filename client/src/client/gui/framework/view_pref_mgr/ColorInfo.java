@@ -28,9 +28,11 @@ package client.gui.framework.view_pref_mgr;
  * @version $Id$
  */
 
-import java.awt.Color;
+import shared.preferences.InfoObject;
+import shared.preferences.PreferenceManager;
+
+import java.awt.*;
 import java.util.Properties;
-import shared.preferences.*;
 
 public class ColorInfo extends InfoObject {
   private Color color;

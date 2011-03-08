@@ -40,6 +40,7 @@ import api.stub.data.OID;
 import api.stub.data.ReservedNameSpaceMapping;
 import shared.util.GANumericConverter;
 
+import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.Set;
 
@@ -267,20 +268,26 @@ public class RequestFormatter {
     */
    public String formatSearchFor( int searchType, String searchTarget, OID oidForGenomeVersionAndSpecies ) {
 
-      StringBuffer tmpString = new StringBuffer(mBaseLocation);
+       try {
+           StringBuffer tmpString = new StringBuffer(mBaseLocation);
 
-      tmpString.append(keywordForType(searchType)+"=");
-      tmpString.append(URLEncoder.encode(searchTarget));
-      tmpString.append(mSeparator);
+           tmpString.append(keywordForType(searchType)+"=");
+           tmpString.append(URLEncoder.encode(searchTarget, "UTF-8"));
+           tmpString.append(mSeparator);
 
-      tmpString.append("action=search");
-      tmpString.append(mSeparator);
+           tmpString.append("action=search");
+           tmpString.append(mSeparator);
 
-      appendStandardParameters(tmpString, oidForGenomeVersionAndSpecies);
+           appendStandardParameters(tmpString, oidForGenomeVersionAndSpecies);
 
-      if ( mDebug )
-         System.out.println("Running a search with "+tmpString.toString());
-      return (tmpString.toString());
+           if ( mDebug )
+              System.out.println("Running a search with "+tmpString.toString());
+           return (tmpString.toString());
+       }
+       catch (UnsupportedEncodingException e) {
+           // todo This needs better handling
+           return null;
+       }
    } // End method
 
    //-------------------------------------HELPER METHODS

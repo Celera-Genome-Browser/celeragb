@@ -27,16 +27,20 @@ package client.gui.other.panels;
  * @author
  * @version $Id$
  */
-import java.awt.*;
-import java.io.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.border.*;
 
-import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.roles.PrefEditor;
-import client.shared.file_chooser.*;
+import client.gui.framework.session_mgr.SessionMgr;
+import client.shared.file_chooser.FileChooser;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.EtchedBorder;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
 
 public class SequenceAnalysisResultsPanel extends JPanel implements PrefEditor{
   private static final String   DISABLE_CHUNK_WARNING   = "SequenceAnalysisDisableChunkWarning";

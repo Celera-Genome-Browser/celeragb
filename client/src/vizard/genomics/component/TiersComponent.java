@@ -29,7 +29,7 @@ import vizard.genomics.glyph.TiersColumnGlyph;
 import vizard.genomics.model.GenomicAxisViewModel;
 import vizard.model.WorldViewModel;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

@@ -35,18 +35,9 @@ import api.entity_model.management.ModelMgr;
 import api.entity_model.management.ModifyManager;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.SubFeature;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.assembly.GenomicAxis;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.EntityType;
-import api.entity_model.model.fundtype.EntityTypeSet;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.SingleAlignmentSingleAxis;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.abstract_facade.annotations.TranscriptFacade;
@@ -56,14 +47,7 @@ import api.stub.data.OID;
 import api.stub.data.SequenceAnalysisQueryParameters;
 import api.stub.geometry.MutableRange;
 import api.stub.geometry.Range;
-import api.stub.sequence.DNA;
-import api.stub.sequence.DNASequenceStorage;
-import api.stub.sequence.Protein;
-import api.stub.sequence.ProteinSequenceStorage;
-import api.stub.sequence.Sequence;
-import api.stub.sequence.SequenceHelper;
-import api.stub.sequence.SequenceUtil;
-import api.stub.sequence.SubSequence;
+import api.stub.sequence.*;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.navigation_tools.SequenceAnalysisDialog;
 import client.gui.framework.pref_controller.PrefController;
@@ -76,53 +60,18 @@ import client.gui.framework.view_pref_mgr.ViewPrefMgr;
 import client.gui.other.fasta.FastaObject;
 import client.gui.other.fasta.FastaWriter;
 import client.gui.other.menus.TranscriptTranslateTranslationMenu;
-import client.gui.other.util.ClipboardUtils;
 import client.gui.other.panels.TransTransPanel;
+import client.gui.other.util.ClipboardUtils;
 import client.shared.swing.FontChooser;
 import client.shared.swing.GenomicSequenceViewer;
-import client.shared.swing.genomic.Adornment;
-import client.shared.swing.genomic.SequenceAdjustmentEvent;
-import client.shared.swing.genomic.SequenceAdjustmentListener;
-import client.shared.swing.genomic.SequenceKeyEvent;
-import client.shared.swing.genomic.SequenceKeyListener;
-import client.shared.swing.genomic.SequenceMouseEvent;
-import client.shared.swing.genomic.SequenceMouseListener;
-import client.shared.swing.genomic.SequenceSearchDialog;
-import client.shared.swing.genomic.SequenceSearchListener;
-import client.shared.swing.genomic.SequenceSelectionEvent;
-import client.shared.swing.genomic.SequenceSelectionListener;
-import client.shared.swing.genomic.SwingRange;
+import client.shared.swing.genomic.*;
 import shared.util.GANumericConverter;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.Vector;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.KeyStroke;
+import java.util.*;
 
 
 /**
@@ -817,7 +766,7 @@ public class TranscriptTranslateView extends JPanel implements ActionListener, S
       fastaDeflineDialog.getContentPane().add(scrollPane, BorderLayout.CENTER);
       fastaDeflineDialog.setSize(500, 100);
       fastaDeflineDialog.setLocationRelativeTo(browser);
-      fastaDeflineDialog.show();
+      fastaDeflineDialog.setVisible(true);
       FastaObject f=new FastaObject(str,defline);
       FastaWriter.getFastaWriter().printFastaFile(f);
 
@@ -828,7 +777,7 @@ public class TranscriptTranslateView extends JPanel implements ActionListener, S
    private class MyWindowListener extends WindowAdapter {
       public void windowClosing(WindowEvent e) {
          if ( fastaDeflineDialog !=null ) {
-            fastaDeflineDialog.hide();
+            fastaDeflineDialog.setVisible(false);
          }
       }
    }
@@ -1415,7 +1364,7 @@ public class TranscriptTranslateView extends JPanel implements ActionListener, S
          if ( (keyCode != KeyEvent.VK_PAGE_DOWN) && (keyCode != KeyEvent.VK_PAGE_UP) )
             copySeqToBlastMenu.setEnabled(false);
          if ( p0.isControlDown() && keyCode==KeyEvent.VK_F )
-            sequenceSearchDialog.show();
+            sequenceSearchDialog.setVisible(true);
 
 
 

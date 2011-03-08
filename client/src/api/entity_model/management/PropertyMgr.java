@@ -44,29 +44,13 @@ import api.facade.abstract_facade.annotations.TranscriptFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.facade_mgr.FacadeManager;
 import api.facade.facade_mgr.FacadeManagerBase;
-import api.stub.data.AccessionGenerator;
-import api.stub.data.ControlledVocabUtil;
-import api.stub.data.FlaggedGenomicProperty;
-import api.stub.data.GenomicProperty;
-import api.stub.data.Util;
+import api.stub.data.*;
 import shared.util.PropertyConfigurator;
 
 import java.io.File;
 import java.io.InputStream;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
+import java.util.*;
 
 public class PropertyMgr {
 
@@ -130,8 +114,8 @@ public class PropertyMgr {
       System.out.println("problem with parsing property settings");
     }
     // Parse the file for the unique Properties.
-    for (Enumeration enum = allProperties.propertyNames() ; enum.hasMoreElements() ;) {
-      String tempKey = new String ((String)enum.nextElement());
+    for (Enumeration e = allProperties.propertyNames() ; e.hasMoreElements() ;) {
+      String tempKey = new String ((String)e.nextElement());
       StringTokenizer mainToken = new StringTokenizer(tempKey,".");
       if (tempKey!=null && mainToken!=null && tempKey!="") {
         String uniqueKey = mainToken.nextToken();
@@ -145,8 +129,8 @@ public class PropertyMgr {
     }
 
     // This loop populates the PropertyElements collection
-    for (Enumeration enum2 = uniqueProperties.propertyNames(); enum2.hasMoreElements();) {
-      String tempName = new String ((String)enum2.nextElement());
+    for (Enumeration e2 = uniqueProperties.propertyNames(); e2.hasMoreElements();) {
+      String tempName = new String ((String)e2.nextElement());
       String tempDisplayName = "";
       String tempNew = "";
       String tempNewEditable = "";
@@ -213,7 +197,7 @@ public class PropertyMgr {
     }
 
     // This is a debug loop.
-    /*for (Enumeration enum2 = uniqueProperties.propertyNames(); enum2.hasMoreElements();) {
+    /*for (Enumeration e2 = uniqueProperties.propertyNames(); enum2.hasMoreElements();) {
       System.out.println(((PropertyElement)propertyElements.get(enum2.nextElement())).toString());
     }*/
   }

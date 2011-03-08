@@ -26,8 +26,8 @@
 
 package client.gui.components.annotation.transcript_translate_view;
 
-import java.awt.event.ActionListener;
 import javax.swing.*;
+import java.awt.event.ActionListener;
 
 public class TranscriptTranslateCopyMenu extends JMenu
 {

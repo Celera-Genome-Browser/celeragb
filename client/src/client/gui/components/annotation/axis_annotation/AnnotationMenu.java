@@ -29,19 +29,14 @@ import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.management.LoadLimitor;
 import api.entity_model.management.ModifyManager;
 import api.entity_model.model.assembly.GenomicAxis;
-import api.entity_model.model.fundtype.ActiveThreadModel;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.LoadFilter;
-import api.entity_model.model.fundtype.LoadRequest;
-import api.entity_model.model.fundtype.LoadRequestState;
-import api.entity_model.model.fundtype.LoadRequestStatus;
+import api.entity_model.model.fundtype.*;
 import api.stub.geometry.Range;
 import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.other.xml.xml_writer.XMLWriter;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
@@ -49,13 +44,7 @@ import java.awt.event.KeyEvent;
 import java.util.Observable;
 import java.util.Observer;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JSeparator;
-import javax.swing.KeyStroke;
-
-/** This class provides an Annotation Menu Initially writted by: Peter Davies */
+/** This class provides an Annotation Menu Initially written by: Peter Davies */
 public class AnnotationMenu extends JMenu {
     private JMenuItem menuFrequentFeatures;
     private JMenuItem menuAxisHiPri;

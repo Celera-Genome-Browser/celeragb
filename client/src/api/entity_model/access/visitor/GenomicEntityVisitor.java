@@ -21,21 +21,7 @@
 */
 package api.entity_model.access.visitor;
 
-import api.entity_model.model.annotation.BlastHit;
-import api.entity_model.model.annotation.ComputedCodon;
-import api.entity_model.model.annotation.ComputedFeature;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.HSPFeature;
-import api.entity_model.model.annotation.HitAlignmentDetailFeature;
-import api.entity_model.model.annotation.HitAlignmentFeature;
-import api.entity_model.model.annotation.PolyMorphism;
-import api.entity_model.model.annotation.STSMarker;
-import api.entity_model.model.annotation.SpliceSite;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.assembly.Contig;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.AlignableGenomicEntity;

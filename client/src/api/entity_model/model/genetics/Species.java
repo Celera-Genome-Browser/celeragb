@@ -26,12 +26,7 @@ import api.entity_model.access.visitor.GenomicEntityVisitor;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.AlignmentNotAllowedException;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.EntityType;
-import api.entity_model.model.fundtype.EntityTypeSet;
-import api.entity_model.model.fundtype.LoadFilter;
-import api.entity_model.model.fundtype.LoadFilterStatus;
-import api.entity_model.model.fundtype.LoadRequest;
+import api.entity_model.model.fundtype.*;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
 import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.OID;
@@ -39,12 +34,7 @@ import shared.tools.computation.StatisticalModel;
 
 import java.io.File;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Properties;
-import java.util.ResourceBundle;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Title:        Genome Browser Client

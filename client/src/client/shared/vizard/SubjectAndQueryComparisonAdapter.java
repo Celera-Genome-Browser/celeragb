@@ -22,7 +22,8 @@
 package client.shared.vizard;
 
 import vizard.genomics.model.FeatureAdapter;
-import java.awt.Color;
+
+import java.awt.*;
 
 /**
  * Title:

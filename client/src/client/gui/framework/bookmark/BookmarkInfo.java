@@ -19,19 +19,26 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.bookmark;
 
-import java.util.Properties;
-
-import shared.preferences.*;
-
-import api.stub.data.*;
-import api.entity_model.model.genetics.GenomeVersion;
-import api.stub.data.OID;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.annotation.*;
 import api.entity_model.management.ModelMgr;
-import api.facade.abstract_facade.annotations.*;
-import api.entity_model.model.assembly.*;
-import api.entity_model.model.genetics.*;
+import api.entity_model.model.annotation.CuratedGene;
+import api.entity_model.model.annotation.CuratedTranscript;
+import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.assembly.Contig;
+import api.entity_model.model.assembly.GenomicAxis;
+import api.entity_model.model.fundtype.GenomicEntity;
+import api.entity_model.model.genetics.Chromosome;
+import api.entity_model.model.genetics.GenomeVersion;
+import api.entity_model.model.genetics.Species;
+import api.facade.abstract_facade.annotations.FeatureFacade;
+import api.facade.abstract_facade.annotations.GeneFacade;
+import api.facade.abstract_facade.annotations.TranscriptFacade;
+import api.stub.data.InvalidPropertyFormat;
+import api.stub.data.NavigationPath;
+import api.stub.data.OID;
+import shared.preferences.InfoObject;
+import shared.preferences.PreferenceManager;
+
+import java.util.Properties;
 
 
 public class BookmarkInfo extends InfoObject {

@@ -33,21 +33,13 @@ import api.entity_model.management.ModelMgr;
 import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.SuperFeature;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.fundtype.Axis;
 import api.entity_model.model.fundtype.SingleAlignmentSingleAxis;
 import api.facade.abstract_facade.annotations.TranscriptFacade;
 import api.stub.data.OID;
 
-import java.util.Collection;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * The DoAddEvidenceAndCreateExonIfNecessary is a CommandToken which (time of writing)

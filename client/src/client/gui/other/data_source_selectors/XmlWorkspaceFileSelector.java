@@ -32,10 +32,9 @@ import api.stub.data.GenomeVersionInfo;
 import client.gui.framework.session_mgr.SessionMgr;
 import shared.io.ExtensionFileFilter;
 
+import javax.swing.*;
 import java.io.File;
 import java.util.Comparator;
-
-import javax.swing.JOptionPane;
 
 /**
  * Allows user to select an XML feature file and pass it to an open handler.

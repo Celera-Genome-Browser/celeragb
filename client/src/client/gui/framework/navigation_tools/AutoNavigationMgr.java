@@ -27,13 +27,8 @@ import api.stub.data.NavigationPath;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.session_mgr.SessionMgr;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.util.*;
 
 public class AutoNavigationMgr {
 

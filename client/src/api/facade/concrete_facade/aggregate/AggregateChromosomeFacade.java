@@ -35,7 +35,7 @@ public class AggregateChromosomeFacade extends AggregateAxisFacade implements Ch
 
   protected Class[] getParameterTypesForAggregates(){
      return new Class[0];
-  };
+  }
 
   protected  Object[] getParametersForAggregates(){
      return new Object[0];

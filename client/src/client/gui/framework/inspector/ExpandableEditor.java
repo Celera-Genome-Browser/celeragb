@@ -23,17 +23,11 @@ package client.gui.framework.inspector;
 
 import client.shared.text_component.StandardTextField;
 
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Rectangle;
+import javax.swing.*;
+import javax.swing.table.TableCellEditor;
+import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JComboBox;
-import javax.swing.JTable;
-import javax.swing.table.TableCellEditor;
 
 public class ExpandableEditor extends DefaultCellEditor {
 

@@ -22,8 +22,8 @@
 package vizard.component;
 
 import vizard.model.WorldViewModel;
-import javax.swing.JScrollBar;
-import javax.swing.BoundedRangeModel;
+
+import javax.swing.*;
 
 
 /**

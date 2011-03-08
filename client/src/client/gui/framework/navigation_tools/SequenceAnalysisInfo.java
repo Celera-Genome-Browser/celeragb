@@ -27,10 +27,14 @@ package client.gui.framework.navigation_tools;
  * @author
  * @version $Id$
  */
-import java.util.Properties;
-import java.util.*;
 
-import shared.preferences.*;
+import shared.preferences.InfoObject;
+import shared.preferences.PreferenceManager;
+
+import java.util.Iterator;
+import java.util.Properties;
+import java.util.StringTokenizer;
+import java.util.TreeMap;
 
 public class SequenceAnalysisInfo extends InfoObject {
   private static final String NAME            = "Name";

@@ -25,34 +25,6 @@
  *********************************************************************/
 package client.gui.framework.browser;
 
-import java.awt.AWTEvent;
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics2D;
-import java.awt.Toolkit;
-import java.awt.event.WindowEvent;
-import java.awt.print.PageFormat;
-import java.awt.print.PrinterJob;
-import java.lang.reflect.Constructor;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.Vector;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JSplitPane;
-
 import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.model.annotation.Feature;
 import api.entity_model.model.fundtype.GenomicEntity;
@@ -69,6 +41,14 @@ import shared.util.FreeMemoryWatcher;
 import shared.util.MultiHash;
 import shared.util.PrintableComponent;
 import shared.util.PrintableImage;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.awt.print.PageFormat;
+import java.awt.print.PrinterJob;
+import java.lang.reflect.Constructor;
+import java.util.*;
 
 
 /**

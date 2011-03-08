@@ -22,42 +22,21 @@ package vizard.genomics.component;
 import vizard.GraphicContext;
 import vizard.component.GScrollBar;
 import vizard.component.GSlider;
-import vizard.genomics.glyph.AxisRulerGlyph;
-import vizard.genomics.glyph.AxisRulerSliderGlyph;
-import vizard.genomics.glyph.TierGlyph;
-import vizard.genomics.glyph.TiersColumnGlyph;
-import vizard.genomics.glyph.VerticalZoomBarGlyph;
+import vizard.genomics.glyph.*;
 import vizard.genomics.interactor.RulerController;
 import vizard.genomics.interactor.SliderController;
 import vizard.genomics.model.GenomicAxisViewModel;
 import vizard.model.WorldViewModel;
 import vizard.util.Assert;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.GridLayout;
-import java.awt.LayoutManager;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionAdapter;
-import java.util.ArrayList;
-import java.util.Iterator;
-
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JSlider;
+import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class ForwardAndReverseTiersComponent extends JPanel

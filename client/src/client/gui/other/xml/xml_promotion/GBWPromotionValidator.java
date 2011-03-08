@@ -27,10 +27,14 @@ package client.gui.other.xml.xml_promotion;
  * @author
  * @version $Id$
  */
+
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.concrete_facade.xml.GenomeVersionParser;
-import java.net.*;
+
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
 
 /**
  * This class takes in a .gbw file and gets PROMOTION validated by remotely executing the Promotion Utility
@@ -67,9 +71,9 @@ public class GBWPromotionValidator {
 
      try {
        connection = (HttpURLConnection)url.openConnection();
-       String encodedContent = "assembly="+URLEncoder.encode(assemblyVersion)+"&"+
-                               "species="+URLEncoder.encode(species)+"&"+
-                               "gbw="+URLEncoder.encode(gbw);
+       String encodedContent = "assembly="+URLEncoder.encode(assemblyVersion,"UTF-8")+"&"+
+                               "species="+URLEncoder.encode(species,"UTF-8")+"&"+
+                               "gbw="+URLEncoder.encode(gbw,"UTF-8");
        connection.setDoOutput(true);
 
        //Send the encoded content

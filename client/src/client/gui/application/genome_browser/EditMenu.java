@@ -30,7 +30,6 @@ import api.entity_model.management.ModifyManager;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.geometry.Range;
-
 import client.gui.framework.browser.Browser;
 import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.property_rules.PropertyRuleDialog;
@@ -38,28 +37,21 @@ import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.file_chooser.FileChooser;
 
+import javax.swing.*;
+import javax.swing.text.DefaultEditorKit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
-
-import javax.swing.Action;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JSeparator;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-import javax.swing.text.DefaultEditorKit;
 
 
 /**
 * This class provides a EditMenu specific to the FlyGraph application.
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 *
 */
 public class EditMenu extends JMenu {
@@ -339,7 +331,7 @@ public class EditMenu extends JMenu {
 
     private void establishRuleDialog() {
         browser.repaint();
-        new PropertyRuleDialog(browser).show();
+        new PropertyRuleDialog(browser).setVisible(true);
     }
 
     private void unDo_actionPerformed(ActionEvent e) {

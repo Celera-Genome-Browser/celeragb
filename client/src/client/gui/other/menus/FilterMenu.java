@@ -27,12 +27,16 @@ package client.gui.other.menus;
  * @author
  * @version $Id$
  */
-import javax.swing.*;
-import java.awt.event.*;
-import java.util.*;
 
 import client.gui.framework.browser.Browser;
 import client.gui.framework.display_rules.*;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.TreeMap;
 
 public class FilterMenu extends JMenu {
 

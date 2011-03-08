@@ -26,13 +26,8 @@
 
 package client.gui.other.menus;
 
+import javax.swing.*;
 import java.awt.event.ActionListener;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JMenu;
-import javax.swing.JRadioButton;
-import javax.swing.JSeparator;
 
 /** Transcription or Translation display menu, with Items */
 

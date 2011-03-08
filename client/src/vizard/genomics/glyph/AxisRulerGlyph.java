@@ -27,7 +27,7 @@ import vizard.genomics.model.GenomicAxisViewModel;
 import vizard.glyph.HRulerGlyph;
 import vizard.model.WorldViewModel;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

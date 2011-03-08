@@ -28,29 +28,22 @@
 
 package client.gui.other.menus;
 
-import api.entity_model.management.ModelMgr;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.geometry.Range;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.navigation_tools.AutoNavigationMgr;
 import client.gui.framework.navigation_tools.SequenceAnalysisDialog;
-import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
-import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.KeyStroke;
-
 /**
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 *
 */
 public class SearchMenu extends JMenu {

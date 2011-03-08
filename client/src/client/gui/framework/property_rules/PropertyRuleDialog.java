@@ -21,14 +21,18 @@
 */
 package client.gui.framework.property_rules;
 
-import javax.swing.*;
-import client.gui.framework.browser.Browser;
-import client.gui.framework.session_mgr.*;
 import api.entity_model.management.properties.PropertyCreationRule;
-import java.util.*;
+import client.gui.framework.browser.Browser;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.SessionMgr;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Iterator;
+import java.util.Set;
 
 /**
  * Title:        Genome Browser Client
@@ -111,7 +115,7 @@ public class PropertyRuleDialog extends JDialog {
 
     btnAdd.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e){
-          new AddPropertyRuleDialog(PropertyRuleDialog.this,browserModel).show();
+          new AddPropertyRuleDialog(PropertyRuleDialog.this,browserModel).setVisible(true);
           model.clear();
           Set rules=SessionMgr.getSessionMgr().getPropertyCreationRules();
           for (Iterator it=rules.iterator();it.hasNext();) {

@@ -28,8 +28,9 @@
 
 package client.gui.framework.roles;
 
-import javax.swing.*;
 import api.entity_model.model.fundtype.GenomicEntity;
+
+import javax.swing.*;
 
 /**
 * This interface must be implemented by all Editors that will be displayed
@@ -47,7 +48,7 @@ import api.entity_model.model.fundtype.GenomicEntity;
 * as an example.
 *
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 */
 public interface Editor {
 

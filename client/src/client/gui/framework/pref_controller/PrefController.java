@@ -27,14 +27,18 @@
  */
 package client.gui.framework.pref_controller;
 
-import javax.swing.*;
-import java.util.*;
-import javax.swing.event.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.lang.reflect.*;
 import client.gui.framework.roles.PrefEditor;
 import client.gui.framework.session_mgr.SessionMgr;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.lang.reflect.Constructor;
+import java.util.*;
+import java.util.List;
 
 /**
  * This is designed so that anyone who introduces a class and needs a user interface
@@ -50,10 +54,10 @@ public class PrefController {
 
   private static PrefController prefController = new PrefController();
   // This holds them pre-Construction.
-  private Hashtable prefEditorsMap = new Hashtable();
+  private Hashtable<Object, Constructor> prefEditorsMap = new Hashtable<Object, Constructor>();
   // This holds them ordered post-Construction.
-  private Map orderedEditorMap = new TreeMap(new MyComparator());
-  private HashMap classToNameMap = new HashMap();
+  private Map<String, Component> orderedEditorMap = new TreeMap<String, Component>(new MyComparator());
+  private HashMap<Object, String> classToNameMap = new HashMap<Object, String>();
 
   private static final String DEFAULT="Default";
   // List and offer the Panel Categories
@@ -92,8 +96,8 @@ public class PrefController {
    * Call to bring up the Preferences frame on a specific interface.
    */
   public void getPrefInterface(Object key, JFrame parentFrame) {
-    String keyName=new String("");
-    String prefLevel = new String("");
+    String keyName= "";
+    String prefLevel = "";
     this.parentFrame = parentFrame;
     tabPane.removeAll();
     if (mainDialog==null) {
@@ -106,28 +110,29 @@ public class PrefController {
       mainDialog.getContentPane().add(buttonPanel, BorderLayout.SOUTH);
     }
     Component component;
-    Constructor constructor=null;
+    Constructor constructor;
     try {
       if (!(key instanceof String)) {
         // Get the prefLevel of the panel requested.
-        constructor=(Constructor)prefEditorsMap.get(key);
+        constructor=prefEditorsMap.get(key);
         component=(Component)constructor.newInstance(new Object[]{parentFrame});
         prefLevel = ((PrefEditor)component).getPanelGroup();
-        keyName=((PrefEditor)component).getName();
+        keyName=component.getName();
       }
       else prefLevel = (String)key;
       // Go through the panels registered and pull out all those that belong
       // to the target prefLevel.
-      for (Iterator it=prefEditorsMap.keySet().iterator();it.hasNext();) {
-        Object handle = it.next();
-        constructor=(Constructor)prefEditorsMap.get(handle);
-        component=(Component)constructor.newInstance(new Object[]{parentFrame});
-        if (component.getName()==null) {component.setName(handle.toString());}
-        if (((PrefEditor)component).getPanelGroup().equals(prefLevel)) {
-          orderedEditorMap.put(((PrefEditor)component).getName(),component);
-          classToNameMap.put(handle, ((PrefEditor)component).getName());
+        for (Object handle : prefEditorsMap.keySet()) {
+            constructor = prefEditorsMap.get(handle);
+            component = (Component) constructor.newInstance(new Object[]{parentFrame});
+            if (component.getName() == null) {
+                component.setName(handle.toString());
+            }
+            if (((PrefEditor) component).getPanelGroup().equals(prefLevel)) {
+                orderedEditorMap.put((component).getName(), component);
+                classToNameMap.put(handle, component.getName());
+            }
         }
-      }
     }
     catch (Exception ex) {SessionMgr.getSessionMgr().handleException(ex);}
     if (keyName.equals("")) keyName = DEFAULT;
@@ -135,21 +140,21 @@ public class PrefController {
     mainDialog.pack();
     centerDialog();
     mainDialog.getRootPane().setDefaultButton(okButton);
-    mainDialog.show();
+    mainDialog.setVisible(true);
   }
 
   private void redrawTabs(String selectedKeyName,String selectedTabGroup) {
     String tmpName;
     Component tmpComponent;
     tabPane.removeAll();
-    for (Iterator it = orderedEditorMap.keySet().iterator();it.hasNext();) {
-      tmpName=(String)it.next();
-      tmpComponent=(Component)orderedEditorMap.get(tmpName);
-      if (((PrefEditor)tmpComponent).getPanelGroup().equals(selectedTabGroup)) {
-        tabPane.addTab(tmpName,null,tmpComponent,
-          ((PrefEditor)tmpComponent).getDescription());
+      for (Object o : orderedEditorMap.keySet()) {
+          tmpName = (String) o;
+          tmpComponent = orderedEditorMap.get(tmpName);
+          if (((PrefEditor) tmpComponent).getPanelGroup().equals(selectedTabGroup)) {
+              tabPane.addTab(tmpName, null, tmpComponent,
+                      ((PrefEditor) tmpComponent).getDescription());
+          }
       }
-    }
     if (!selectedKeyName.equals(DEFAULT)) {
       for (int x=0; x<tabPane.getTabCount(); x++) {
         if (tabPane.getTitleAt(x).equalsIgnoreCase(selectedKeyName)) {
@@ -180,12 +185,12 @@ public class PrefController {
   private boolean validatePrefEditorClass(Class prefEditor) {
     Class[] interfaces=prefEditor.getInterfaces();
     boolean editorSupported=false;
-    for (int i=0;i<interfaces.length;i++) {
-      if (interfaces[i]==client.gui.framework.roles.PrefEditor.class) {
-        editorSupported=true;
-        break;
+      for (Class anInterface : interfaces) {
+          if (anInterface == PrefEditor.class) {
+              editorSupported = true;
+              break;
+          }
       }
-    }
     if (!editorSupported) {
       System.out.println("ERROR! - PrefEditor passed ("+prefEditor+")is not a PrefController editor!");
       return false;
@@ -217,10 +222,10 @@ public class PrefController {
    */
   public void deregisterPreferenceInterface(Object interfaceKey) {
     prefEditorsMap.remove(interfaceKey);
-    String tmpString = (String)classToNameMap.get((Class)interfaceKey);
+    String tmpString = classToNameMap.get(interfaceKey);
     if (tmpString!=null) {
-      tabPane.remove((Component)orderedEditorMap.get(tmpString));
-      classToNameMap.remove((Class)interfaceKey);
+      tabPane.remove(orderedEditorMap.get(tmpString));
+      classToNameMap.remove(interfaceKey);
       orderedEditorMap.remove(tmpString);
     }
     tabPane.repaint();
@@ -237,18 +242,18 @@ public class PrefController {
     cancelButton.setText("Cancel");
     cancelButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        cancelButton_actionPerformed(e);
+        cancelButton_actionPerformed();
       }
     });
     applyButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        applyButton_actionPerformed(e);
+        applyButton_actionPerformed();
       }
     });
     applyButton.setText("Apply");
     okButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        okButton_actionPerformed(e);
+        okButton_actionPerformed();
       }
     });
     okButton.setText("OK");
@@ -279,7 +284,7 @@ public class PrefController {
    * Tell all interfaces that their possible changes were cancelled, remove the
    * tabs, and close the frame.
    */
-  private void cancelButton_actionPerformed(ActionEvent e) {
+  private void cancelButton_actionPerformed() {
     cancelDialog();
   }
 
@@ -288,7 +293,7 @@ public class PrefController {
    * Tell the interface that it's possible changes were applied
    * and keep the frame open.
    */
-  private void applyButton_actionPerformed(ActionEvent e) {
+  private void applyButton_actionPerformed() {
     propagateApplyChanges();
   }
 
@@ -296,15 +301,15 @@ public class PrefController {
    * Tell the interface that it's possible changes were applied, remove the tabs,
    * and close the frame.
    */
-  private void okButton_actionPerformed(ActionEvent e) {
+  private void okButton_actionPerformed() {
     propagateApplyChanges();
     tabPane.removeAll();
     // This will clear out the panels and nuke the listeners.
-    for (Iterator it = orderedEditorMap.values().iterator(); it.hasNext();) {
-      ((PrefEditor)it.next()).dispose();
-    }
-    orderedEditorMap = new TreeMap(new MyComparator());
-    mainDialog.hide();
+      for (Object o : orderedEditorMap.values()) {
+          ((PrefEditor) o).dispose();
+      }
+    orderedEditorMap = new TreeMap<String, Component>(new MyComparator());
+    mainDialog.setVisible(false);
     parentFrame.repaint();
   }
 
@@ -320,7 +325,7 @@ public class PrefController {
          if (((PrefEditor)tabPane.getComponentAt(x)).hasChanged()) {
            delayedApplication=((PrefEditor)tabPane.getComponentAt(x)).applyChanges();
            if (delayedApplication!=null && delayedApplication.length>0) {
-             java.util.List msgList=new ArrayList();
+             List<String> msgList=new ArrayList<String>();
              msgList.add("The following changes from "+
                tabPane.getComponentAt(x).getName()+
                " will not take effect until the next session:");
@@ -329,7 +334,7 @@ public class PrefController {
            }
         }
       }
-      catch (Exception ex) {SessionMgr.getSessionMgr().handleException(ex);};
+      catch (Exception ex) {SessionMgr.getSessionMgr().handleException(ex);}
     }
   }
 
@@ -345,11 +350,11 @@ public class PrefController {
     }
     tabPane.removeAll();
     // This will clear out the panels and nuke the listeners.
-    for (Iterator it = orderedEditorMap.values().iterator(); it.hasNext();) {
-      ((PrefEditor)it.next()).dispose();
-    }
-    orderedEditorMap = new TreeMap(new MyComparator());
-    mainDialog.hide();
+      for (Object o : orderedEditorMap.values()) {
+          ((PrefEditor) o).dispose();
+      }
+    orderedEditorMap = new TreeMap<String, Component>(new MyComparator());
+    mainDialog.setVisible(false);
     parentFrame.repaint();
   }
 

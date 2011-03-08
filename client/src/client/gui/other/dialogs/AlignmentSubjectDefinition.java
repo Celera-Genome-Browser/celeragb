@@ -33,11 +33,10 @@ import api.facade.abstract_facade.annotations.HitAlignmentDetailLoader;
 import api.stub.data.SubjectDefinition;
 import client.gui.framework.session_mgr.BrowserModel;
 
-import java.util.Collection;
-import java.util.Iterator;
-
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
+import java.util.Collection;
+import java.util.Iterator;
 
 public class AlignmentSubjectDefinition extends AbstractTableDialog {
     DefaultTableModel subjectTableModel;
@@ -45,7 +44,7 @@ public class AlignmentSubjectDefinition extends AbstractTableDialog {
     public AlignmentSubjectDefinition(BrowserModel browserModel, String propertyName) {
         super(browserModel, propertyName);
         this.setTitle(PropertyMgr.getPropertyMgr().getPropertyDisplayName(HitAlignmentDetailLoader.NUM_SUBJ_DEFNS_PROP));
-        show();
+        setVisible(true);
     }
 
     protected TableModel buildTableModel() {

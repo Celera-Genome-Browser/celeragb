@@ -37,7 +37,7 @@ import java.util.Vector;
 * class follows the Singleton pattern (Gamma, et al.).  As such, you
 * must get the instance using SessionModel.getSessionModel().
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 */
 
 public class SessionModel extends GenericModel {

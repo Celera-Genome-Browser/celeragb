@@ -30,7 +30,7 @@ package client.tools;
 /**
 * This class gives a SplashScreen for the application.  *
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 *
 */
 

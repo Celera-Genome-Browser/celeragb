@@ -21,8 +21,8 @@
 */
 package client.shared.swing.genomic;
 
+import java.awt.*;
 import java.awt.event.MouseEvent;
-import java.awt.Component;
 
 public class SequenceMouseEvent extends MouseEvent {
     private long beginLocation;

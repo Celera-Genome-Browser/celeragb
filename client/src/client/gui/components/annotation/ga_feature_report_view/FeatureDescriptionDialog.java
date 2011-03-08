@@ -24,18 +24,10 @@ package client.gui.components.annotation.ga_feature_report_view;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.text_component.StandardTextArea;
 
-import java.awt.BorderLayout;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Frame;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
 
 
 public class FeatureDescriptionDialog extends JDialog {

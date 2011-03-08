@@ -28,12 +28,9 @@ package client.launcher;
  * @author
  * @version 1.0
  */
+
 import java.applet.Applet;
-import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Image;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.File;
@@ -178,7 +175,7 @@ public class LauncherApplet extends Applet implements MouseListener {
         URL url = null;
 
         try {
-            url = userDir.startsWith("http")?new URL(userDir):(new File(userDir)).toURL();
+            url = userDir.startsWith("http")?new URL(userDir):(new File(userDir)).toURI().toURL();
         } catch (Exception me) {
             me.printStackTrace();
         }

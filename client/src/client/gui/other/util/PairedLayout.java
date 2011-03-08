@@ -26,7 +26,8 @@
 package client.gui.other.util;
 
 import java.awt.*;
-import java.util.*;
+import java.util.Enumeration;
+import java.util.Vector;
 
 public class PairedLayout implements LayoutManager {
 

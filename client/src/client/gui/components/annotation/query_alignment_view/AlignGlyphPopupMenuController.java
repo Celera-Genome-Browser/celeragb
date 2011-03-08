@@ -29,16 +29,12 @@ package client.gui.components.annotation.query_alignment_view;
 import client.shared.vizard.DNAComparisonGlyph;
 import client.shared.vizard.ProteinComparisonGlyph;
 import client.shared.vizard.SubjectAndQueryComparisonGlyph;
-
 import vizard.EventDispatcher;
 import vizard.Glyph;
-
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
-import java.awt.Point;
-
-import javax.swing.JComponent;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

@@ -19,35 +19,28 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package api.facade.concrete_facade.ejb;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.MissingResourceException;
-import java.util.Properties;
-import java.util.ResourceBundle;
+import api.entity_model.model.fundtype.EntityType;
+import api.facade.abstract_facade.annotations.AtalantaDetailFacade;
+import api.facade.abstract_facade.annotations.AtalantaHitFacade;
+import api.facade.abstract_facade.annotations.ESTMapperDetailFacade;
+import api.facade.abstract_facade.annotations.ESTMapperHitFacade;
+import api.facade.abstract_facade.fundtype.EntityTypeConstants;
+import api.facade.abstract_facade.genetics.GenomeVersionLoader;
+import api.facade.facade_mgr.ConnectionStatus;
+import api.facade.facade_mgr.FacadeManager;
+import api.stub.LoginProperties;
+import api.stub.data.FatalCommError;
+import api.stub.data.SystemError;
+import shared.util.PropertyConfigurator;
 
 import javax.ejb.EJBHome;
 import javax.naming.AuthenticationException;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-
-import api.entity_model.model.fundtype.EntityType;
-import api.facade.abstract_facade.annotations.AtalantaDetailFacade;
-import api.facade.abstract_facade.annotations.AtalantaHitFacade;
-import api.facade.abstract_facade.fundtype.EntityTypeConstants;
-import api.facade.abstract_facade.annotations.ESTMapperHitFacade;
-import api.facade.abstract_facade.annotations.ESTMapperDetailFacade;
-import api.facade.abstract_facade.genetics.GenomeVersionLoader;
-import api.facade.facade_mgr.ConnectionStatus;
-import api.facade.facade_mgr.FacadeManager;
-import api.stub.data.FatalCommError;
-import api.stub.data.SystemError;
-import api.stub.LoginProperties;
-import shared.util.PropertyConfigurator;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.*;
 
 public abstract class AbstractEJBFacadeManager extends api.facade.facade_mgr.FacadeManagerBase {
    public static final int SERVER_SELECTION_MODE_DATASOURCES = 0;

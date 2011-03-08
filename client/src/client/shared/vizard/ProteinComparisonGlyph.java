@@ -26,7 +26,7 @@ import shared.genetics.BlocksSubstitutionMatrix;
 import vizard.genomics.model.FeatureAdapter;
 import vizard.genomics.model.SequenceAdapter;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * Title:

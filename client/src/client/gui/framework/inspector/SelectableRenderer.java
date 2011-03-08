@@ -19,13 +19,13 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.inspector;
 
-import javax.swing.table.*;
-import java.awt.Component;
+import api.stub.data.FlaggedGenomicProperty;
+import client.shared.text_component.StandardTextField;
+
 import javax.swing.*;
-import javax.swing.border.*;
-import api.stub.data.*;
-import client.shared.text_component.*;
+import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
+import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
 
 public class SelectableRenderer extends DefaultTableCellRenderer  {

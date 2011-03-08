@@ -39,7 +39,6 @@ import api.stub.data.SubjectDefinition;
 import api.stub.sequence.Sequence;
 
 import java.io.Serializable;
-
 import java.util.ArrayList;
 import java.util.Collection;
 

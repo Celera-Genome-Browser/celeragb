@@ -23,17 +23,7 @@ package api.entity_model.model.fundtype;
 
 import api.facade.facade_mgr.FacadeManager;
 
-import java.util.AbstractSet;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.ResourceBundle;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.util.*;
 
 /**
  * Title:        Genome Browser Client
@@ -71,8 +61,8 @@ public class EntityTypeSet extends AbstractSet implements java.io.Serializable {
       EntityTypeSet newSet;
       List typeList=new ArrayList();
       try {
-        for (Enumeration enum=bundle.getKeys();enum.hasMoreElements();) {
-           setName=(String)enum.nextElement();
+        for (Enumeration e=bundle.getKeys();e.hasMoreElements();) {
+           setName=(String)e.nextElement();
            resourceValue=bundle.getString(setName);
            if (resourceValue.indexOf(",")==-1) {
              newSet=new EntityTypeSet(setName,new EntityType[] {EntityType.getEntityTypeForName(resourceValue)});

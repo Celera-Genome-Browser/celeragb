@@ -40,11 +40,7 @@ import api.stub.geometry.Range;
 import api.stub.sequence.DNA;
 import api.stub.sequence.Sequence;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Loads files originating from sequence alignments.  Takes care of
@@ -225,6 +221,9 @@ public class SequenceAlignmentLoader extends GenomicAxisXmlLoader {
 } // End class: SequenceAlignmentLoader
 /*
  $Log$
+ Revision 1.1  2006/11/09 21:35:56  rjturner
+ Initial upload of source
+
  Revision 1.29  2002/11/07 18:38:53  lblick
  Removed obsolete imports and unused local variables.
 

@@ -30,8 +30,7 @@ import vizard.glyph.TransformGlyph;
 import vizard.glyph.TranslationGlyph;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Color;
-import java.awt.Component;
+import java.awt.*;
 import java.awt.geom.AffineTransform;
 
 public class MagnifyingGlassController extends Controller

@@ -23,15 +23,8 @@ import api.stub.data.GenomicProperty;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.text_component.StandardTextField;
 
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Rectangle;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JOptionPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
+import javax.swing.*;
+import java.awt.*;
 
 public class GenomicPropertyEditor extends DefaultCellEditor  {
 

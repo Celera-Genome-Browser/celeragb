@@ -21,19 +21,19 @@
 */
 package client.gui.other.panels;
 
-import java.awt.*;
-import javax.swing.border.*;
-import java.awt.event.*;
-import javax.swing.*;
-import java.util.*;
-import java.io.*;
-
-import client.gui.framework.session_mgr.SessionMgr;
+import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.roles.PrefEditor;
-import client.gui.framework.pref_controller.*;
-
+import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.file_chooser.FileChooser;
 import shared.preferences.PreferenceManager;
+
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.ArrayList;
 
 /**
  * Title:        Genome Browser Client

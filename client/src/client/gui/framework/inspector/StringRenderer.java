@@ -21,11 +21,10 @@
 */
 package client.gui.framework.inspector;
 
-import javax.swing.table.*;
-import java.awt.Component;
 import javax.swing.*;
-import javax.swing.border.*;
+import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
+import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
 
 public class StringRenderer extends DefaultTableCellRenderer  {

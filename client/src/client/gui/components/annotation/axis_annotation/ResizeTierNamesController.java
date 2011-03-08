@@ -26,11 +26,8 @@ import vizard.glyph.FastLineGlyph;
 import vizard.interactor.EnterLeaveInteractor;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Cursor;
-
-import javax.swing.JComponent;
+import javax.swing.*;
+import java.awt.*;
 
 public class ResizeTierNamesController extends Controller implements MotionInteractor.Adapter, EnterLeaveInteractor.Adapter {
     private static Cursor cursor = Cursor.getPredefinedCursor(Cursor.W_RESIZE_CURSOR);

@@ -28,10 +28,14 @@ package client.gui.other.fasta;
  * @version $Id$
  */
 
-import java.io.*;
-import javax.swing.*;
-import client.shared.file_chooser.FileChooser;
 import client.gui.framework.session_mgr.SessionMgr;
+import client.shared.file_chooser.FileChooser;
+
+import javax.swing.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 
 

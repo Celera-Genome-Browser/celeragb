@@ -25,17 +25,13 @@
 
 package api.facade.concrete_facade.xml.sax_support;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
+
+import java.util.*;
 
 /**
  * SAX handler.  Keeps context information, and delegates real treatment of
@@ -263,6 +259,9 @@ public class GenomicsExchangeHandler extends DefaultHandler {
 
 /*
   $Log$
+  Revision 1.1  2006/11/09 21:36:16  rjturner
+  Initial upload of source
+
   Revision 1.3  2002/11/07 16:06:58  lblick
   Removed obsolete imports and unused local variables.
 

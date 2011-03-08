@@ -36,12 +36,7 @@ import api.stub.data.OID;
 import api.stub.data.SubjectDefinition;
 import api.stub.sequence.Sequence;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class XmlHitAlignmentFacade extends XmlFeatureFacade  implements HitAlignmentFacade {
 

@@ -21,13 +21,12 @@
 */
 package client.gui.application.game_viewer;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.table.AbstractTableModel;
-
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import javax.swing.table.AbstractTableModel;
+import java.util.ArrayList;
+import java.util.List;
 /**
  * Title:        Genome Browser Client
  * Description:  This project is for JBuilder 4.0

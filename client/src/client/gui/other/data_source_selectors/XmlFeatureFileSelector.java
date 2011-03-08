@@ -22,12 +22,13 @@
 
 package client.gui.other.data_source_selectors;
 
-import java.io.File;
-
-import api.facade.facade_mgr.DataSourceSelector;
 import api.facade.concrete_facade.xml.FeatureXmlFileOpenHandler;
+import api.facade.facade_mgr.DataSourceSelector;
+import api.facade.facade_mgr.FacadeManager;
+import api.facade.facade_mgr.FacadeManagerBase;
 import shared.io.ExtensionFileFilter;
-import api.facade.facade_mgr.*;
+
+import java.io.File;
 
 /**
  * Allows user to select an XML feature file and pass it to an open handler.

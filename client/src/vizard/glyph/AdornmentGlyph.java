@@ -25,7 +25,7 @@ import vizard.Bounds;
 import vizard.Glyph;
 import vizard.GraphicContext;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

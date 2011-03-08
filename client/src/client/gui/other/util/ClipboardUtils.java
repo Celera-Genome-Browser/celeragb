@@ -26,8 +26,9 @@
 
 package client.gui.other.util;
 
-import java.awt.datatransfer.*;
-import java.awt.Toolkit;
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 
 public class ClipboardUtils {
 

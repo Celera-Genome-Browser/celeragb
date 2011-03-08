@@ -21,7 +21,7 @@
 */
 package client.shared.swing.genomic;
 
-import java.awt.Component;
+import java.awt.*;
 
 public class SequenceSelectionEvent {
     private long beginLocation;

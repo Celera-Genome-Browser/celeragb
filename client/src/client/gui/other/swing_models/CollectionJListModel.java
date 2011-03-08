@@ -22,9 +22,9 @@
 package client.gui.other.swing_models;
 
 import javax.swing.*;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.ArrayList;
 
 /**
  * Title:        CollectionJListModel

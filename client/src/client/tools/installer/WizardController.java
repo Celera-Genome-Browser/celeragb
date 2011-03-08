@@ -21,14 +21,15 @@
 */
 package client.tools.installer;
 
-import java.awt.*;
-import javax.swing.*;
-import java.awt.event.*;
-import java.util.Vector;
-import java.util.Hashtable;
-import client.tools.ProgressDisplayer;
-import client.launcher.Launcher;
 import client.launcher.InstallException;
+import client.launcher.Launcher;
+import client.tools.ProgressDisplayer;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.util.Hashtable;
+import java.util.Vector;
 
 /**
  * Title:

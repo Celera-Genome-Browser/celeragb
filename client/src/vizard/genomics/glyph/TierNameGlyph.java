@@ -19,12 +19,13 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package vizard.genomics.glyph;
 
-import vizard.glyph.LabelGlyph;
+import vizard.Bounds;
+import vizard.GraphicContext;
+import vizard.PickedList;
 import vizard.glyph.Constants;
-import vizard.*;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Rectangle;
+import vizard.glyph.LabelGlyph;
+
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
 
 

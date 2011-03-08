@@ -25,8 +25,7 @@ import vizard.Glyph;
 import vizard.genomics.glyph.TierNameGlyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
-import java.awt.Point;
+import java.awt.*;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
 

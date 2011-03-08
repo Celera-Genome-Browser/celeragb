@@ -19,11 +19,14 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package vizard.genomics.glyph;
 
-import vizard.*;
-import vizard.model.WorldViewModel;
+import vizard.GraphicContext;
+import vizard.MultiplexerGlyph;
+import vizard.ParentGlyph;
+import vizard.PickedList;
 import vizard.glyph.FastLineGlyph;
-import java.awt.Color;
-import java.awt.Rectangle;
+import vizard.model.WorldViewModel;
+
+import java.awt.*;
 import java.util.ArrayList;
 
 

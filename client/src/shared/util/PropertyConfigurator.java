@@ -21,13 +21,7 @@
 */
 package shared.util;
 
-import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.MissingResourceException;
-import java.util.Properties;
-import java.util.ResourceBundle;
-import java.util.TimeZone;
+import java.util.*;
 
 
 /**
@@ -117,8 +111,8 @@ public class PropertyConfigurator {
     }
 
     public static void add(ResourceBundle rbundle) {
-        for (Enumeration enum = rbundle.getKeys(); enum.hasMoreElements();) {
-            String key = (String) enum.nextElement();
+        for (Enumeration e = rbundle.getKeys(); e.hasMoreElements();) {
+            String key = (String) e.nextElement();
             String val = rbundle.getString(key);
 
 

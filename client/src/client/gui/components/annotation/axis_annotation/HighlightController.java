@@ -19,19 +19,17 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.components.annotation.axis_annotation;
 
-import java.awt.*;
-import java.awt.event.MouseEvent;
-import javax.swing.*;
-import java.awt.Color;
-
-import api.entity_model.model.annotation.*;
-import api.entity_model.model.fundtype.AlignableGenomicEntity;
 import api.entity_model.management.PropertyMgr;
-
-import vizard.interactor.EnterLeaveInteractor;
-import vizard.glyph.AdornmentGlyph;
+import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.fundtype.AlignableGenomicEntity;
 import vizard.EventDispatcher;
 import vizard.Glyph;
+import vizard.glyph.AdornmentGlyph;
+import vizard.interactor.EnterLeaveInteractor;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
 
 public class HighlightController extends Controller
     implements EnterLeaveInteractor.Adapter

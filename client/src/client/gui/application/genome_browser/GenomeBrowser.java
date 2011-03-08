@@ -28,7 +28,6 @@ package client.gui.application.genome_browser;
 import api.entity_model.management.ModelMgr;
 import api.facade.facade_mgr.FacadeManager;
 import client.gui.framework.browser.Browser;
-import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.other.panels.DataSourceSettings;
 import client.gui.other.server_status.ServerStatusReportManager;
@@ -39,10 +38,10 @@ import javax.swing.*;
 
 /**
  * This class is a very lightweight class to kick off the application
- * by instanciating the first browser.  Once this is complete, the
+ * by instantiating the first browser.  Once this is complete, the
  * browser manages further instances internally.
  *
- * Initially writted by: Peter Davies
+ * Initially written by: Peter Davies
  *
  */
 public final class GenomeBrowser {
@@ -65,12 +64,16 @@ public final class GenomeBrowser {
         newBrowser();
     }
 
+    public static void main(final String[] args) {
+        new GenomeBrowser();
+    }
+
     private static void newBrowser() {
 
         // Show the Splash Screen
         final SplashScreen splash = new SplashScreen();
         splash.setStatusText("Initializing Application...");
-        splash.show();
+        splash.setVisible(true);
 
         final SessionMgr sessionMgr = SessionMgr.getSessionMgr();
         try {
@@ -85,7 +88,7 @@ public final class GenomeBrowser {
                     "x.genomebrowser.Title"));
             sessionMgr.setApplicationVersion(VERSION_NUMBER);
 // JCVI LLF, 10/19/06
-        	// RT 10/27/2006
+            // RT 10/27/2006
             sessionMgr.setNewBrowserImageIcon(
                     new ImageIcon(GenomeBrowser.class.getResource(
                             System.getProperty(
@@ -215,7 +218,7 @@ public final class GenomeBrowser {
 
             //Start First Browser
             final Browser mainBrowser = sessionMgr.newBrowser();
-            splash.hide();
+            splash.setVisible(false);
             mainBrowser.getBrowserModel()
                     .setModelProperty("DefaultSubViewName",
                             client.gui.components.annotation.consensus_sequence_view.ConsensusSequenceView.DEFAULT_NAME);
@@ -236,12 +239,8 @@ public final class GenomeBrowser {
         } catch (Exception ex) {
             SessionMgr.getSessionMgr().handleException(ex);
         } finally {
-            splash.hide();
+            splash.setVisible(false);
             splash.dispose();
         }
-    }
-
-    public static void main(final String[] args) {
-        new GenomeBrowser();
     }
 }

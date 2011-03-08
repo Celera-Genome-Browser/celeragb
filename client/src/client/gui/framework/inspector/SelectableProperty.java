@@ -21,9 +21,10 @@
 */
 package client.gui.framework.inspector;
 
-import api.stub.data.*;
-import java.util.*;
 import api.stub.data.ControlledVocabulary;
+import api.stub.data.GenomicProperty;
+
+import java.util.Collection;
 
 public class SelectableProperty {
 

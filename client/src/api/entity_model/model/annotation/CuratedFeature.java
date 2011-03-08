@@ -36,31 +36,17 @@ import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.abstract_facade.annotations.TranscriptFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.facade_mgr.FacadeManagerBase;
-import api.stub.data.FeatureDisplayPriority;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
-import api.stub.data.PromotionReport;
-import api.stub.data.ReplacementRelationship;
-import api.stub.data.Util;
+import api.stub.data.*;
 import api.stub.geometry.Range;
-
 import shared.db.rdbms.RdbmsAccess;
 import shared.util.AccessionClient;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-
 import java.sql.CallableStatement;
 import java.sql.SQLException;
 import java.sql.Types;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 
 /**

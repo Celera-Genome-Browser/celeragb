@@ -24,13 +24,10 @@ package client.gui.components.annotation.axis_annotation;
 import client.gui.framework.pref_controller.PrefController;
 import vizard.genomics.glyph.TierGlyph;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.JSeparator;
 
 
 public class TierPopupMenu extends JPopupMenu

@@ -27,25 +27,23 @@
 
 package client.gui.framework.inspector;
 
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.ClipboardOwner;
-import java.awt.datatransfer.Transferable;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.event.TableModelEvent;
-import javax.swing.table.TableCellEditor;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-
 import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.data.GenomicProperty;
 import client.gui.framework.ics_tabpane.ICSTabPane;
 import client.gui.framework.roles.PropertyViewer;
 import client.gui.other.util.ClipboardUtils;
+
+import javax.swing.*;
+import javax.swing.event.TableModelEvent;
+import javax.swing.table.TableCellEditor;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.ClipboardOwner;
+import java.awt.datatransfer.Transferable;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 /**
 * This class has 1 key behavioural difference from the JTable.  The

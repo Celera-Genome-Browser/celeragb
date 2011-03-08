@@ -21,12 +21,13 @@
 */
 package vizard.glyph;
 
-import vizard.util.Assert;
-import vizard.ParentGlyph;
 import vizard.Glyph;
-import java.util.HashMap;
+import vizard.ParentGlyph;
+import vizard.util.Assert;
+
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 
 /**
  * Title:        Genome Browser Client

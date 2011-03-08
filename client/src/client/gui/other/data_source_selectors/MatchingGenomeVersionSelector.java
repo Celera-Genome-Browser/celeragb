@@ -29,17 +29,12 @@ import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.GenomeVersionInfo;
 import client.gui.framework.session_mgr.SessionMgr;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Collection;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.table.AbstractTableModel;
 
 /**
  * Allows user to select an XML feature file and pass it to an open handler.

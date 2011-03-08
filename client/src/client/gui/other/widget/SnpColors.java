@@ -27,8 +27,10 @@ package client.gui.other.widget;
  * @author       Deepali Bhandari
  * @version $Id$
  */
-import java.awt.*;
+
 import api.entity_model.model.annotation.PolyMorphism;
+
+import java.awt.*;
 
 /**
  * Class external to the peferences mechanism. This class retrieves Colors

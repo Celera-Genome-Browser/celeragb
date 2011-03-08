@@ -26,25 +26,8 @@
 
 package api.facade.concrete_facade.xml;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 import api.entity_model.model.fundtype.EntityType;
-import api.facade.abstract_facade.annotations.AtalantaDetailFacade;
-import api.facade.abstract_facade.annotations.AtalantaHitFacade;
-import api.facade.abstract_facade.annotations.BlastHitFacade;
-import api.facade.abstract_facade.annotations.ESTMapperHitFacade;
-import api.facade.abstract_facade.annotations.ESTMapperDetailFacade;
-import api.facade.abstract_facade.annotations.ExonFacade;
-import api.facade.abstract_facade.annotations.FeatureFacade;
-import api.facade.abstract_facade.annotations.GeneFacade;
-import api.facade.abstract_facade.annotations.GenePredictionFacade;
-import api.facade.abstract_facade.annotations.HSPFacade;
-import api.facade.abstract_facade.annotations.HitAlignmentDetailLoader;
-import api.facade.abstract_facade.annotations.HitAlignmentFacade;
-import api.facade.abstract_facade.annotations.TranscriptFacade;
+import api.facade.abstract_facade.annotations.*;
 import api.facade.abstract_facade.assembly.ContigFacade;
 import api.facade.abstract_facade.assembly.GenomicAxisLoader;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
@@ -53,6 +36,11 @@ import api.facade.abstract_facade.genetics.GenomeVersionLoader;
 import api.facade.abstract_facade.genetics.SpeciesLoader;
 import api.facade.concrete_facade.xml.sax_support.PropertySource;
 import api.facade.facade_mgr.FacadeManagerBase;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Base class for all XML-file facade managers.  Returns all types of API facades
@@ -90,7 +78,7 @@ public abstract class XmlFacadeManager extends FacadeManagerBase {
       // Property source class needs mappings.
 
       try {
-         Map controlledMap = new HashMap();
+         Map<String,String> controlledMap = new HashMap<String, String>();
 
          // The curation flags...
          controlledMap.put(MATCH_PUB_CURATION_FLAG, "CURATION_FLAG");
@@ -126,22 +114,23 @@ public abstract class XmlFacadeManager extends FacadeManagerBase {
          controlledMap.put(GenePredictionFacade.IS_COMPLETE_GENE_PROP, "BOOLEAN");
          controlledMap.put(FeatureFacade.ORIENTATION_PROP, "ORIENTATION");
 
-         Map editingClassMap = new HashMap();
+         Map<String, String> editingClassMap = new HashMap<String, String>();
          editingClassMap.put(HitAlignmentFacade.NUM_SUBJ_DEFNS_PROP, "client.gui.other.dialogs.AlignmentSubjectDefinition");
          editingClassMap.put(FeatureFacade.NUM_COMMENTS_PROP, "client.gui.other.dialogs.CommentsViewer");
          editingClassMap.put(FeatureFacade.NUM_ALIGNMENTS_PROP, "client.gui.other.dialogs.AlignmentDefinitionsDialog");
 
-         Map forcedValueMap = new HashMap();
+         Map<String, String> forcedValueMap = new HashMap<String, String>();
          forcedValueMap.put(FeatureFacade.NUM_COMMENTS_PROP, "0");
 
          PropertySource.setPropertyMaps(controlledMap, editingClassMap, forcedValueMap);
 
-         Set flaggedPropertySet = new HashSet();
+         Set<String> flaggedPropertySet = new HashSet<String>();
          flaggedPropertySet.add(TranscriptFacade.CURATION_FLAGS_PROP);
          PropertySource.setFlaggedPropertyTriggers(flaggedPropertySet);
       }
       catch (Exception ex) {
-      } // Do nothing: prevent hard-to-find load failure
+        // Do nothing: prevent hard-to-find load failure
+      }
    } // End static initializer.
 
    private GenomeVersionLoader genomeVersion = null;
@@ -149,7 +138,6 @@ public abstract class XmlFacadeManager extends FacadeManagerBase {
    private GenomeVersionSpace genomeVersionSpace = null;
 
    private GenomicAxisLoader genomicAxisFacade = null;
-   private api.entity_model.model.genetics.GenomeVersion genomeVersionEntityModel;
 
    private ContigFacade contigFacade = null;
 
@@ -247,10 +235,6 @@ public abstract class XmlFacadeManager extends FacadeManagerBase {
    }
 
    public api.facade.abstract_facade.genetics.ChromosomeLoader getChromosome() throws Exception {
-      return null;
-   }
-
-   private api.facade.abstract_facade.annotations.STSFacade getSTSFacade() throws Exception {
       return null;
    }
 

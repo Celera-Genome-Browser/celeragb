@@ -26,10 +26,7 @@ import vizard.GraphicContext;
 import vizard.ParentGlyph;
 import vizard.PickedList;
 
-import java.awt.Color;
-import java.awt.Paint;
-import java.awt.Rectangle;
-import java.awt.Shape;
+import java.awt.*;
 import java.awt.geom.Ellipse2D;
 
 /**

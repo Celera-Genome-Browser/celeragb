@@ -25,19 +25,7 @@ package api.entity_model.management;
    CVS_ID:  $Id$
 *********************************************************************/
 
-import api.entity_model.model.annotation.BlastHit;
-import api.entity_model.model.annotation.ComputedCodon;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.HSPFeature;
-import api.entity_model.model.annotation.HitAlignmentFeature;
-import api.entity_model.model.annotation.InvalidFeatureStructureException;
-import api.entity_model.model.annotation.MiscComputedFeature;
-import api.entity_model.model.annotation.PolyMorphism;
-import api.entity_model.model.annotation.SpliceSite;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.fundtype.EntityType;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;

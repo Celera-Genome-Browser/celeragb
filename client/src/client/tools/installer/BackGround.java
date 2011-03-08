@@ -21,17 +21,12 @@
 */
 package client.tools.installer;
 
-import java.awt.Color;
-import java.awt.Dimension;
-
+import javax.swing.*;
+import java.awt.*;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
 import java.net.URL;
-
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
 
 
 /**

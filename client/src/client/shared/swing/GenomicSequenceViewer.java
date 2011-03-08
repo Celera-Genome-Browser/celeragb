@@ -25,12 +25,7 @@ import api.stub.sequence.DNA;
 import api.stub.sequence.Protein;
 import api.stub.sequence.Sequence;
 import api.stub.sequence.ShiftedSequence;
-import client.shared.swing.genomic.DefaultSeqTableModel;
-import client.shared.swing.genomic.SeqTableModel;
-import client.shared.swing.genomic.SequenceKeyEvent;
-import client.shared.swing.genomic.SequenceKeyListener;
-import client.shared.swing.genomic.SwingRange;
-import client.shared.swing.genomic.ViewerSequence;
+import client.shared.swing.genomic.*;
 
 import java.util.Iterator;
 import java.util.TreeMap;

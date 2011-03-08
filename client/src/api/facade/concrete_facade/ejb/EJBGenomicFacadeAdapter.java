@@ -25,13 +25,7 @@ import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.fundtype.EntityType;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
 import api.facade.facade_mgr.FacadeManager;
-import api.stub.data.FatalCommError;
-import api.stub.data.GenomeVersionInfo;
-import api.stub.data.GenomicEntityAlias;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 import api.stub.ejb.model.fundtype.GenomicFacade;
 
 public abstract class EJBGenomicFacadeAdapter implements GenomicEntityLoader {

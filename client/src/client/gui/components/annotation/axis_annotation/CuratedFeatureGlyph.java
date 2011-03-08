@@ -21,16 +21,13 @@ package client.gui.components.annotation.axis_annotation;
 
 import api.entity_model.access.observer.FeatureObserverAdapter;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedTranscript;
+import api.entity_model.model.annotation.*;
 import api.stub.data.ReplacementRelationship;
 import api.stub.geometry.Range;
 import client.gui.framework.view_pref_mgr.ViewPrefMgr;
 import vizard.util.Assert;
-import java.awt.Color;
+
+import java.awt.*;
 
 
 public class CuratedFeatureGlyph extends FeatureGlyph

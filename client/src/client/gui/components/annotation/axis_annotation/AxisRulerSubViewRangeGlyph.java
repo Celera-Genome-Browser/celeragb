@@ -26,7 +26,7 @@ import vizard.genomics.glyph.AxisRulerGlyph;
 import vizard.glyph.FastRectGlyph;
 import vizard.glyph.HRulerGlyph;
 
-import java.awt.Color;
+import java.awt.*;
 
 public class AxisRulerSubViewRangeGlyph extends FastRectGlyph
 {

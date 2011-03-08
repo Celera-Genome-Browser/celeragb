@@ -26,11 +26,10 @@
 
 package shared.util;
 
+import javax.swing.*;
 import java.util.Enumeration;
 import java.util.LinkedList;
 import java.util.Vector;
-
-import javax.swing.SwingUtilities;
 
 
 /**
@@ -161,6 +160,9 @@ public class ThreadQueue {
 
 /*
 $Log$
+Revision 1.1  2006/11/09 21:36:18  rjturner
+Initial upload of source
+
 Revision 1.11  2002/11/07 18:38:37  lblick
 Removed obsolete imports and unused local variables.
 

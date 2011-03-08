@@ -28,16 +28,15 @@ package client.gui.application.game_viewer;
  * @version $Id$
  */
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
-import javax.swing.tree.DefaultMutableTreeNode;
-
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Text;
+
+import javax.swing.tree.DefaultMutableTreeNode;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class XMLTreeNodeFactory {
 

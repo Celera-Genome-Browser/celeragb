@@ -27,6 +27,7 @@ package client.gui.other.panels;
  * @author
  * @version $Id$
  */
+
 import api.entity_model.access.observer.ModelMgrObserverAdapter;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.genetics.GenomeVersion;
@@ -36,23 +37,16 @@ import client.gui.framework.roles.PrefEditor;
 import client.shared.file_chooser.FileChooser;
 import client.shared.text_component.StandardTextField;
 
-import java.awt.Rectangle;
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.Iterator;
 import java.util.Set;
-
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.border.TitledBorder;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 
 public class SpliceFilePanel extends JPanel implements PrefEditor {
 

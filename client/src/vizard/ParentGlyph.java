@@ -24,7 +24,7 @@ package vizard;
 import vizard.util.Assert;
 import vizard.util.Preferences;
 
-import java.awt.Rectangle;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 

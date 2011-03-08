@@ -30,8 +30,7 @@ import vizard.glyph.HRulerGlyph;
 import vizard.interactor.EnterLeaveInteractor;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Color;
-import java.awt.Component;
+import java.awt.*;
 
 public class ShadowBoxController extends Controller
     implements MotionInteractor.Adapter,

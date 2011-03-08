@@ -27,6 +27,7 @@ package api.facade.concrete_facade.xml;
  * @author Les Foster
  * @version $Id$
  */
+
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
@@ -37,15 +38,7 @@ import shared.util.FileUtilities;
 
 import java.io.File;
 import java.io.FilenameFilter;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Create this with a directory path, and then use it to find all the

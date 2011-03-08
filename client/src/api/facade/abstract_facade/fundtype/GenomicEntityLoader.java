@@ -22,11 +22,7 @@
 package api.facade.abstract_facade.fundtype;
 
 import api.entity_model.model.fundtype.EntityType;
-import api.stub.data.GenomicEntityAlias;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 
 /**
  * Title:        GBAPI

@@ -32,17 +32,20 @@
  */
 package client.xml_promoter;
 
-import java.io.*;
-import javax.ejb.*;
-import javax.naming.*;
-import java.util.Properties;
-import java.util.Hashtable;
-import java.util.Enumeration;
-
+import api.stub.data.OID;
 import api.stub.data.PromotionReport;
 import api.stub.ejb.model.genomicservice.XMLPromoter;
 import api.stub.ejb.model.genomicservice.XMLPromoterHome;
-import api.stub.data.OID;
+
+import javax.ejb.EJBHome;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileWriter;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Properties;
 //import api.entity_model.model.genetics.GenomeVersion;
 
 public class Promoter {
@@ -253,7 +256,7 @@ public class Promoter {
      long fileLength=file.length();
      byte[] fileBytes=new byte[(int)fileLength];
      try {
-         DataInputStream iStream = new DataInputStream(file.toURL().openStream());
+         DataInputStream iStream = new DataInputStream(file.toURI().toURL().openStream());
          iStream.readFully(fileBytes);
          return new StringBuffer(new String(fileBytes));
      }

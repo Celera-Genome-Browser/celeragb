@@ -21,10 +21,10 @@
 */
 package client.gui.components.other.evidence_report;
 
-import api.entity_model.access.report.PropertyReport.ReportLineItem;
 import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.access.observer.ReportObserver;
 import api.entity_model.access.report.LineItem;
+import api.entity_model.access.report.PropertyReport.ReportLineItem;
 import api.entity_model.access.report.PropertyReportRequest;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.alignment.GeometricAlignment;
@@ -32,12 +32,7 @@ import api.entity_model.model.annotation.CuratedCodon;
 import api.entity_model.model.annotation.CuratedFeature;
 import api.entity_model.model.annotation.Feature;
 import api.entity_model.model.assembly.GenomicAxis;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.LoadFilter;
-import api.entity_model.model.fundtype.LoadRequest;
-import api.entity_model.model.fundtype.LoadRequestState;
-import api.entity_model.model.fundtype.LoadRequestStatus;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.stub.geometry.Range;
@@ -47,12 +42,11 @@ import client.gui.framework.navigation_tools.SearchManager;
 import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-
-import javax.swing.JMenuItem;
 
 
 public class EvidenceReport extends BaseReportView {

@@ -24,22 +24,25 @@
  */
 package api.facade.concrete_facade.xml;
 
-import org.xml.sax.helpers.*;
-import org.xml.sax.*;
-
-import java.io.IOException;
-
-import java.util.*;
-
-import api.facade.concrete_facade.xml.sax_support.*;
-
-import api.facade.facade_mgr.*;
-import api.entity_model.model.genetics.*;
+import api.entity_model.model.genetics.GenomeVersion;
+import api.entity_model.model.genetics.Species;
+import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
+import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
 import api.stub.data.OIDGenerator;
-import api.stub.data.*;
+import api.stub.data.ReservedNameSpaceMapping;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.DefaultHandler;
+import org.xml.sax.helpers.XMLReaderFactory;
 import shared.util.GANumericConverter;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Parser for high-level genomic objects encountered from "axis-sourcing" XML service

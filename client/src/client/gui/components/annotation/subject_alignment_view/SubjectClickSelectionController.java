@@ -33,7 +33,7 @@ import vizard.EventDispatcher;
 import vizard.Glyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

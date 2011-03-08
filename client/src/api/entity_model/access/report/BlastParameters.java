@@ -22,11 +22,7 @@
 package api.entity_model.access.report;
 
 
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Title:        Bag of Data for Blast Parameters For Interactive blast

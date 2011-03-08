@@ -19,10 +19,11 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.inspector;
 
+import client.gui.framework.session_mgr.SessionMgr;
+
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
-import client.gui.framework.session_mgr.SessionMgr;
+import java.util.Iterator;
 
 public class ComboEditor extends DefaultCellEditor{
   static JComboBox comboBox=new JComboBox();

@@ -32,21 +32,13 @@ import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.BrowserModelListener;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JLabel;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.ListSelectionModel;
+import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public abstract class BaseReportView extends JPanel implements
     Editor,SubEditor,HTMLViewable {

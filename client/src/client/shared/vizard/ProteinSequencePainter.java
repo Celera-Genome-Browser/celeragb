@@ -27,10 +27,12 @@ package client.shared.vizard;
  * @author
  * @version $Id$
  */
-  import java.awt.geom.Rectangle2D;
-  import vizard.genomics.glyph.SequencePainter;
-  import vizard.genomics.model.SequenceAdapter;
-  import java.util.*;
+
+import vizard.genomics.glyph.SequencePainter;
+import vizard.genomics.model.SequenceAdapter;
+
+import java.awt.geom.Rectangle2D;
+import java.util.Arrays;
 
   /**
    * This class is designed to show Protein sequence in nucleotide space; therefore,

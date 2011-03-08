@@ -21,15 +21,19 @@
 */
 package client.shared.vizard;
 
-import vizard.glyph.*;
-import vizard.genomics.glyph.*;
-import vizard.genomics.model.*;
-import api.stub.sequence.*;
-import java.util.Arrays;
-import java.awt.Color;
-import java.util.ArrayList;
-import vizard.GraphicContext;
+import api.stub.sequence.Sequence;
 import shared.util.WhiteSpaceUtils;
+import vizard.GraphicContext;
+import vizard.genomics.glyph.GenomicGlyph;
+import vizard.genomics.glyph.SequencePainter;
+import vizard.genomics.model.FeatureAdapter;
+import vizard.genomics.model.SequenceAdapter;
+import vizard.glyph.FastRectGlyph;
+import vizard.glyph.VerticalPacker;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Title:

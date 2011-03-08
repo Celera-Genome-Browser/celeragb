@@ -19,12 +19,12 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package vizard.genomics.glyph;
 
-import vizard.model.WorldViewModel;
-import vizard.glyph.FastLineGlyph;
 import vizard.GraphicContext;
 import vizard.PickedList;
-import java.awt.Color;
-import java.awt.Rectangle;
+import vizard.glyph.FastLineGlyph;
+import vizard.model.WorldViewModel;
+
+import java.awt.*;
 
 
 public class TierSeparationBarGlyph extends FastLineGlyph

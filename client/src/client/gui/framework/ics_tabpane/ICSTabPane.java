@@ -33,11 +33,9 @@ import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.JScrollPane;
-import javax.swing.JTabbedPane;
 
 public class ICSTabPane extends JTabbedPane {
 

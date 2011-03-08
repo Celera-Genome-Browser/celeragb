@@ -27,20 +27,10 @@
  */
 package api.facade.concrete_facade.xml;
 
-import java.io.File;
-import java.io.PipedReader;
-import java.io.PipedWriter;
-import java.io.PrintWriter;
-import java.io.Reader;
-import java.io.Writer;
-
-import org.xml.sax.Attributes;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.XMLReader;
+import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
+
+import java.io.*;
 
 /**
  * Will strip intervening tabs out of text content, and will

@@ -27,7 +27,7 @@ import vizard.genomics.glyph.TierNameGlyph;
 import vizard.genomics.glyph.TiersColumnGlyph;
 import vizard.interactor.MotionInteractor;
 
-import java.awt.Component;
+import java.awt.*;
 
 public class DragTierController extends Controller implements MotionInteractor.Adapter {
    private MotionInteractor interactor;

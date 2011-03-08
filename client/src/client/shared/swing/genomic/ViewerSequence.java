@@ -21,7 +21,9 @@
 */
 package client.shared.swing.genomic;
 
-import api.stub.sequence.*;
+import api.stub.sequence.BitStorageSequence;
+import api.stub.sequence.Sequence;
+import api.stub.sequence.SequenceHelper;
 
 /**
  * ViewerSequence is a Wrapper class used internally by the SeqTableModel to return the visual

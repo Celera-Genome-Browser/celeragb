@@ -24,8 +24,7 @@ package vizard.genomics.component;
 import vizard.component.WorldViewGlyphComponent;
 import vizard.genomics.glyph.TierNamesColumnGlyph;
 
-import java.awt.Color;
-import java.awt.Dimension;
+import java.awt.*;
 
 
 /**

@@ -24,38 +24,13 @@
  */
 package client.gui.components.annotation.axis_annotation;
 
-import api.entity_model.access.command.DoAddEvidenceAndCreateExonIfNecessary;
-import api.entity_model.access.command.DoAddStartSite;
-import api.entity_model.access.command.DoAddStopSite;
-import api.entity_model.access.command.DoAttachTranscriptToGene;
-import api.entity_model.access.command.DoCreateNewCurationAndAlign;
-import api.entity_model.access.command.DoCreateNewGene;
-import api.entity_model.access.command.DoDeleteCuration;
-import api.entity_model.access.command.DoDetachTranscriptFromGene;
-import api.entity_model.access.command.DoMakeNewGeneFromPromoted;
-import api.entity_model.access.command.DoMergeTranscripts;
-import api.entity_model.access.command.DoModifyEntityEdges;
-import api.entity_model.access.command.DoModifyProperty;
-import api.entity_model.access.command.DoRemoveEvidenceFromCuratedFeature;
-import api.entity_model.access.command.DoSplitCurationAt;
-import api.entity_model.access.command.DoSwapFeaturesForTranscript;
+import api.entity_model.access.command.*;
 import api.entity_model.access.observer.ModifyManagerObserver;
 import api.entity_model.access.observer.ModifyManagerObserverAdapter;
-import api.entity_model.management.Command;
-import api.entity_model.management.CommandException;
-import api.entity_model.management.CommandPreconditionException;
-import api.entity_model.management.CompositeCommand;
-import api.entity_model.management.ModifyManager;
+import api.entity_model.management.*;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.ComputedCodon;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.SuperFeature;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.AlignableGenomicEntity;
 import api.entity_model.model.fundtype.EntityType;
@@ -76,19 +51,13 @@ import vizard.ParentGlyph;
 import vizard.genomics.glyph.TierGlyph;
 import vizard.util.Assert;
 
-import java.awt.Component;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JSeparator;
 
 
 /**

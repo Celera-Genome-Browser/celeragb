@@ -30,7 +30,8 @@ package client.gui.other.menus;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 /**
  *  Subtype of Translation for TranscriptTranslateView only for toggling off/on
  *  of starts and stops

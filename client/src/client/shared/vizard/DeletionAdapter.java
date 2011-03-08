@@ -27,8 +27,10 @@ package client.shared.vizard;
  * @author
  * @version $Id$
  */
+
 import vizard.genomics.model.FeatureAdapter;
-import java.awt.Color;
+
+import java.awt.*;
 
 public class DeletionAdapter implements FeatureAdapter {
 

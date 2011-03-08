@@ -20,8 +20,10 @@
 package client.gui.framework.browser;
 
 import javax.swing.*;
-import java.awt.event.*;
-import java.util.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 public class EditorMenuFactory {
 
@@ -64,8 +66,8 @@ class EditorMenu extends JMenu implements ActionListener {
   }
 
   void setDisabled(String menuItem) {
-     for (Enumeration enum=menuItems.elements();enum.hasMoreElements();)
-        {((JMenuItem)enum.nextElement()).setEnabled(true);}
+     for (Enumeration e=menuItems.elements();e.hasMoreElements();)
+        {((JMenuItem)e.nextElement()).setEnabled(true);}
      ((JMenuItem)menuItems.get(menuItem)).setEnabled(false);
   }
 

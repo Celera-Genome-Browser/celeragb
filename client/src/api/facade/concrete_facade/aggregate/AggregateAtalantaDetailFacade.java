@@ -49,14 +49,14 @@ public class AggregateAtalantaDetailFacade extends AggregateHitAlignmentDetailLo
 
    protected String getMethodNameForAggregates() {
       return ("getFacade");
-   };
+   }
 
    protected Class[] getParameterTypesForAggregates() {
       return new Class [] { EntityType.class };
    }
 
    protected Object [] getParametersForAggregates() {
-      return (this.parameters);
-   };
+      return (parameters);
+   }
 
 }

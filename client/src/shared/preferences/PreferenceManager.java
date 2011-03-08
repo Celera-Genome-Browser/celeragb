@@ -28,21 +28,8 @@ package shared.preferences;
  * @version $Id$
  */
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.FilenameFilter;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
+import java.io.*;
+import java.util.*;
 
 
 /**
@@ -259,8 +246,8 @@ public abstract class PreferenceManager {
    */
   public static Set getUniqueKeys (Properties inputProperties) {
     Set uniqueKeys = new HashSet();
-    for (Enumeration enum = inputProperties.propertyNames() ; enum.hasMoreElements() ;) {
-      String tempKey = new String ((String)enum.nextElement());
+    for (Enumeration e = inputProperties.propertyNames() ; e.hasMoreElements() ;) {
+      String tempKey = new String ((String)e.nextElement());
       StringTokenizer mainToken = new StringTokenizer(tempKey,".");
       if (tempKey!=null && mainToken!=null && tempKey!="") {
         String value = new String (mainToken.nextToken());

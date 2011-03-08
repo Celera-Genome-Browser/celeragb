@@ -27,15 +27,14 @@ package client.gui.components.annotation.ga_feature_report_view;
 
 import client.gui.framework.session_mgr.SessionMgr;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 
 //public class TableSorter implements TableModel, TableModelListener {

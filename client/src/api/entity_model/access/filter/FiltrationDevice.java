@@ -49,17 +49,17 @@ public class FiltrationDevice {
   }
 
   public List executeAlignmentFilter(Collection collection, AlignmentCollectionFilter filter) {
-      ArrayList rtnCollection=null;
+      ArrayList rtnCollection;
       if (!filter.requestFilteredCollection()) {
         rtnCollection=new ArrayList(collection);
       }
       else {
         rtnCollection=new ArrayList(collection.size());
         Alignment[] alignments=getAlignmentCollectionArray(collection);
-        for (int i=0;i<alignments.length;i++) {
-          if (filter.addAlignmentToReturnCollection(alignments[i]))
-             rtnCollection.add(alignments[i]);
-        }
+          for (Alignment alignment : alignments) {
+              if (filter.addAlignmentToReturnCollection(alignment))
+                  rtnCollection.add(alignment);
+          }
         rtnCollection.trimToSize();
       }
       if (filter.requestSortedCollection())
@@ -68,17 +68,17 @@ public class FiltrationDevice {
   }
 
   public List executeFeatureFilter( Collection collection, FeatureCollectionFilter filter) {
-      ArrayList rtnCollection=null;
+      ArrayList rtnCollection;
       if (!filter.requestFilteredCollection()) {
         rtnCollection=new ArrayList(collection);
       }
       else {
         rtnCollection=new ArrayList(collection.size());
         Feature[] features=(Feature[])getFeatureCollectionArray(collection);
-        for (int i=0;i<features.length;i++) {
-          if (filter.addFeatureToReturnCollection(features[i]))
-             rtnCollection.add(features[i]);
-        }
+          for (Feature feature : features) {
+              if (filter.addFeatureToReturnCollection(feature))
+                  rtnCollection.add(feature);
+          }
         rtnCollection.trimToSize();
       }
       if (filter.requestSortedCollection())
@@ -86,20 +86,20 @@ public class FiltrationDevice {
       return rtnCollection;
   }
 
-  public List executeGenomeVersionFilter( Collection collection,
+  public List<GenomeVersion> executeGenomeVersionFilter( Collection collection,
       GenomeVersionCollectionFilter filter) {
 
-      ArrayList rtnCollection=null;
+      ArrayList<GenomeVersion> rtnCollection;
       if (!filter.requestFilteredCollection()) {
-        rtnCollection=new ArrayList(collection);
+        rtnCollection=new ArrayList<GenomeVersion>(collection);
       }
       else {
-        rtnCollection=new ArrayList(collection.size());
-        GenomeVersion[] versions=(GenomeVersion[])getGenomeVersionCollectionArray(collection);
-        for (int i=0;i<versions.length;i++) {
-          if (filter.addGenomeVersionToReturnCollection(versions[i]))
-             rtnCollection.add(versions[i]);
-        }
+        rtnCollection=new ArrayList<GenomeVersion>(collection.size());
+        GenomeVersion[] versions=getGenomeVersionCollectionArray(collection);
+          for (GenomeVersion version : versions) {
+              if (filter.addGenomeVersionToReturnCollection(version))
+                  rtnCollection.add(version);
+          }
         rtnCollection.trimToSize();
       }
       if (filter.requestSortedCollection())

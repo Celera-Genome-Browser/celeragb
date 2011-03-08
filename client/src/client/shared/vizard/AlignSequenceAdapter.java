@@ -23,7 +23,7 @@ package client.shared.vizard;
 
 import vizard.genomics.model.SequenceAdapter;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * Title:

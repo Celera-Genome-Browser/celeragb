@@ -26,14 +26,19 @@
 
 package client.gui.other.dialogs;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.event.*;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.SessionMgr;
+import client.shared.text_component.StandardTextArea;
 
-import java.awt.event.*;
-import javax.swing.table.*;
-import client.gui.framework.session_mgr.*;
-import client.shared.text_component.*;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
 
 public abstract class AbstractTableDialog extends PropertyDialogBase {
   private TableModel tableModel;

@@ -22,13 +22,7 @@ package client.gui.framework.view_pref_mgr;
 import shared.preferences.InfoObject;
 import shared.preferences.PreferenceManager;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Properties;
-import java.util.TreeMap;
+import java.util.*;
 
 public class ViewInfo extends InfoObject{
   private TreeMap viewTierOrderInfos=new TreeMap(new MyStringComparator());

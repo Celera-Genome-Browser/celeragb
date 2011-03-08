@@ -26,35 +26,18 @@
 package client.gui.components.annotation.ga_feature_report_view;
 
 import api.entity_model.access.observer.ReportObserver;
-import api.entity_model.access.report.LineItem;
-import api.entity_model.access.report.PropertyReport;
-import api.entity_model.access.report.PropertyReportRequest;
-import api.entity_model.access.report.Report;
-import api.entity_model.access.report.ReportRequest;
+import api.entity_model.access.report.*;
 import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.annotation.Feature;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
-import api.facade.abstract_facade.annotations.AtalantaHitFacade;
-import api.facade.abstract_facade.annotations.ESTMapperHitFacade;
-import api.facade.abstract_facade.annotations.GenewiseFacade;
-import api.facade.abstract_facade.annotations.HSPFacade;
-import api.facade.abstract_facade.annotations.Sim4DetailFacade;
-import api.facade.abstract_facade.annotations.Sim4HitFacade;
+import api.facade.abstract_facade.annotations.*;
 import api.stub.data.GenomicProperty;
 import api.stub.data.OID;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
 import javax.swing.table.AbstractTableModel;
+import java.util.*;
 
 public class FeaturePropertyDataModel extends AbstractTableModel {
      private boolean DEBUG = false;

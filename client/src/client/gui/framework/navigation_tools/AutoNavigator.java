@@ -30,12 +30,7 @@ package client.gui.framework.navigation_tools;
 import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.assembly.GenomicAxis;
-import api.entity_model.model.fundtype.Axis;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.model.fundtype.LoadFilter;
-import api.entity_model.model.fundtype.LoadRequest;
-import api.entity_model.model.fundtype.LoadRequestState;
-import api.entity_model.model.fundtype.LoadRequestStatus;
+import api.entity_model.model.fundtype.*;
 import api.entity_model.model.genetics.Chromosome;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
@@ -45,12 +40,11 @@ import api.stub.geometry.Range;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.session_mgr.SessionMgr;
 
-import java.awt.EventQueue;
+import javax.swing.*;
+import java.awt.*;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Set;
-
-import javax.swing.JOptionPane;
 
 /**
  * Autonavigator handles placing the entire client into the state dictated

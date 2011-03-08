@@ -28,7 +28,7 @@ import vizard.Bounds;
 import vizard.genomics.glyph.GenomicGlyph;
 import vizard.util.Assert;
 
-import java.awt.Color;
+import java.awt.*;
 
 public class GBGenomicGlyph extends GenomicGlyph {
    //@todo preferences

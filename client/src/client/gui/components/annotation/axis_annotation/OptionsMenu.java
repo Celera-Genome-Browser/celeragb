@@ -28,17 +28,25 @@
  */
 package client.gui.components.annotation.axis_annotation;
 
-import javax.swing.*;
-import java.util.*;
-import java.awt.event.*;
-import client.gui.framework.session_mgr.*;
-import api.stub.geometry.Range;
-import api.entity_model.model.fundtype.*;
-import api.entity_model.model.assembly.GenomicAxis;
-import api.entity_model.model.annotation.*;
+import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.fundtype.GenomicEntity;
-import api.entity_model.access.observer.*;
+import api.entity_model.model.annotation.CuratedCodon;
+import api.entity_model.model.annotation.CuratedFeature;
+import api.entity_model.model.annotation.Feature;
+import api.entity_model.model.assembly.GenomicAxis;
+import api.entity_model.model.fundtype.*;
+import api.stub.geometry.Range;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
+import client.gui.framework.session_mgr.SessionMgr;
+import client.gui.framework.session_mgr.SessionModelListener;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.util.Comparator;
 
 public class OptionsMenu extends JMenu {
   private GenomicAxisAnnotationView gaView;

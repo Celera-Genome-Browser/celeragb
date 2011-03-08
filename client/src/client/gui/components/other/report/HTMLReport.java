@@ -28,10 +28,14 @@ package client.gui.components.other.report;
  * @version      $Id$
  */
 
-import client.gui.framework.session_mgr.SessionMgr;
 import api.entity_model.access.report.Report;
+import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.other.util.URLLauncher;
-import java.io.*;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Date;
 
 public class HTMLReport {

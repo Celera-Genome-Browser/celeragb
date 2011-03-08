@@ -22,8 +22,8 @@
 package vizard.component;
 
 import vizard.model.WorldViewModel;
-import javax.swing.JSlider;
-import javax.swing.BoundedRangeModel;
+
+import javax.swing.*;
 import java.awt.*;
 
 

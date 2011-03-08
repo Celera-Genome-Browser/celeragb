@@ -28,21 +28,17 @@ import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.geometry.Range;
 import api.stub.sequence.DNA;
 import api.stub.sequence.Sequence;
-
 import client.gui.framework.browser.Browser;
 import client.gui.framework.session_mgr.BrowserModel;
 
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.ClipboardOwner;
 import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
 
 
 /**

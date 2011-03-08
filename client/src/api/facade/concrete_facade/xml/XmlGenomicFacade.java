@@ -34,22 +34,11 @@ import api.facade.abstract_facade.annotations.HitAlignmentFacade;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
 import api.facade.concrete_facade.xml.sax_support.PropertySource;
 import api.facade.facade_mgr.FacadeManager;
-import api.stub.data.ControlledVocabUtil;
-import api.stub.data.GenomeVersionInfo;
-import api.stub.data.GenomicEntityAlias;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
-import api.stub.data.SubjectDefinition;
+import api.stub.data.*;
 import shared.util.DeflineParser;
 import shared.util.GANumericConverter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * This facade is the base for several other "API Facades" used by the XML

@@ -34,9 +34,8 @@ import client.shared.vizard.SubjectAndQueryComparisonGlyph;
 import vizard.EventDispatcher;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Point;
-
-import javax.swing.JComponent;
+import javax.swing.*;
+import java.awt.*;
 
 public class MoveFramePopupController implements ClickInteractor.Adapter
 {

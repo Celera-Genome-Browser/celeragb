@@ -49,12 +49,10 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
   /**
    * Returns the set of paths which can be used to retrieve/focus on
    * locations matching the criteria given.
-   *
-   * @param String targetType the type of object for which to find locator.
-   * @param String target the value to match on the type of lookup given.
+   * @param targetType the type of object for which to find locator.
+   * @param target the value to match on the type of lookup given.
    */
-  public NavigationPath[] getNavigationPath
-    (OID speciesOid,
+  public NavigationPath[] getNavigationPath(OID speciesOid,
      String targetType,
      String target)
     throws InvalidPropertyFormat {
@@ -62,7 +60,7 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
     // Must decode the input.
     int targetTypeNumber = NavigationConstants.getNumberFromShortName(targetType);
 
-    List pathList = new ArrayList();
+    List<NavigationPath> pathList = new ArrayList<NavigationPath>();
     if ( ( targetTypeNumber == NavigationConstants.STS_NAME_INDEX )             ||
          ( targetTypeNumber == NavigationConstants.HIT_ALIGN_ACCESSION_INDEX )  ||
          ( targetTypeNumber == NavigationConstants.REG_REGION_ACCESSION_INDEX ) ||
@@ -78,7 +76,9 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
       try {
         pathList = searchFeature( targetTypeNumber, target, speciesOid );
       } // End try
-      catch (Exception ex) {}
+      catch (Exception ex) {
+          // DO nothing
+      }
 
     } // Requires feature search.
 
@@ -96,12 +96,12 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
   /**
    * Method build a path for features, found in loaders.
    */
-  private List searchFeature(int targetTypeNumber, String target, OID speciesOid) {
-    List returnList = new ArrayList();
+  private List<NavigationPath> searchFeature(int targetTypeNumber, String target, OID speciesOid) {
+    List<NavigationPath> returnList = new ArrayList<NavigationPath>();
 
-    XmlLoader loader = null;
-    String[] foundItems = null;
-    ServiceXmlLoader serviceLoader = null;
+    XmlLoader loader;
+    String[] foundItems;
+    ServiceXmlLoader serviceLoader;
 
     // Since no genome version or assembly version info is available,
     // must search ALL.
@@ -124,39 +124,40 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
   } // End method: searchFeature
 
   /** Make a list of navigation paths from the array of found items. */
-  private List packIntoPathList(String[] foundItems, ServiceXmlLoader serviceLoader) {
-    List returnList = new ArrayList();
-    NavigationNode[] nodeArray = null;
-    String[] csvFields = null;
+  private List<NavigationPath> packIntoPathList(String[] foundItems, ServiceXmlLoader serviceLoader) {
+    List<NavigationPath> returnList = new ArrayList<NavigationPath>();
+    NavigationNode[] nodeArray;
+    String[] csvFields;
 
     // Format/example of a found item:
     //  'INTERNAL:17000017770305','Amgen:8000001247836','clustered BlastX nr.aa precomputes','5509','6316','0'
     //  'axis oid             ','feature oid        ','display name                      ','strt','end' ,'human=1/precompute=0'
-    for (int i = 0; i < foundItems.length; i++) {
-      csvFields = parseCSV(foundItems[i], 6);
-      try {
-        nodeArray = new NavigationNode[2];
-        nodeArray[0] = new NavigationNode(
-            serviceLoader.parseContigOIDTemplateMethod(csvFields[0]),
-            NavigationConstants.GENOMIC_AXIS_NAME_INDEX,
-            "",
-            new Range(0,0)
-        );
+      for (String foundItem : foundItems) {
+          csvFields = parseCSV(foundItem, 6);
+          try {
+              nodeArray = new NavigationNode[2];
+              nodeArray[0] = new NavigationNode(
+                      serviceLoader.parseContigOIDTemplateMethod(csvFields[0]),
+                      NavigationConstants.GENOMIC_AXIS_NAME_INDEX,
+                      "",
+                      new Range(0, 0)
+              );
 
-        nodeArray[1] = new NavigationNode(
-            serviceLoader.parseFeatureOIDTemplateMethod(csvFields[1]),
-            csvFields[5].equals("1") ? NavigationNode.CURATED : NavigationNode.NON_CURATED,
-            csvFields[2],
-            new Range(Integer.parseInt(csvFields[3]),
-                      Integer.parseInt(csvFields[4]))
-        );
+              nodeArray[1] = new NavigationNode(
+                      serviceLoader.parseFeatureOIDTemplateMethod(csvFields[1]),
+                      csvFields[5].equals("1") ? NavigationNode.CURATED : NavigationNode.NON_CURATED,
+                      csvFields[2],
+                      new Range(Integer.parseInt(csvFields[3]),
+                              Integer.parseInt(csvFields[4]))
+              );
 
-        returnList.add(new NavigationPath(nodeArray[1].getDisplayname(), nodeArray));
+              returnList.add(new NavigationPath(nodeArray[1].getDisplayname(), nodeArray));
 
-      } catch (Exception ex) {
-        FacadeManager.handleException(ex);
-      } // End catch block.
-    } // For all found items.
+          }
+          catch (Exception ex) {
+              FacadeManager.handleException(ex);
+          } // End catch block.
+      } // For all found items.
 
     return returnList;
   } // End method
@@ -166,8 +167,8 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
     String[] returnFields = new String[numFields];
 
     int nextPos = 0;
-    int startPos = 0;
-    int endPos = 0;
+    int startPos;
+    int endPos;
     for (int i = 0; i < numFields; i++) {
       startPos = inputLine.indexOf('\'', nextPos);
       endPos = inputLine.indexOf('\'', startPos+1);

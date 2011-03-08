@@ -21,10 +21,8 @@
 */
 package client.shared.swing.table;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import javax.swing.Icon;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * Produces an Blank Icon representation.  This is used to "blank" out the arrow

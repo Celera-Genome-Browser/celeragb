@@ -26,7 +26,7 @@ import vizard.RootGlyph;
 import vizard.glyph.MagnifyingGlassGlyph;
 import vizard.glyph.TranslationGlyph;
 
-import java.awt.Color;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 
 

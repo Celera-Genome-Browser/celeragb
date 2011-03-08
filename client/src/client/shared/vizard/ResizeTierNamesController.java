@@ -19,17 +19,16 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.shared.vizard;
 
-import vizard.genomics.component.ForwardAndReverseTiersComponent;
-import vizard.interactor.MotionInteractor;
-import vizard.interactor.EnterLeaveInteractor;
-import vizard.glyph.FastLineGlyph;
-import vizard.Glyph;
-import java.awt.Component;
 import vizard.EventDispatcher;
+import vizard.Glyph;
 import vizard.GraphicContext;
-import javax.swing.JComponent;
-import java.awt.Color;
-import java.awt.Cursor;
+import vizard.genomics.component.ForwardAndReverseTiersComponent;
+import vizard.glyph.FastLineGlyph;
+import vizard.interactor.EnterLeaveInteractor;
+import vizard.interactor.MotionInteractor;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 public class ResizeTierNamesController

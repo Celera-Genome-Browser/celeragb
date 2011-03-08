@@ -29,12 +29,15 @@ package client.gui.other.util;
  */
 
 
-import java.util.*;
-import java.io.File;
 import client.gui.framework.session_mgr.SessionMgr;
-import java.awt.event.*;
-import java.awt.*;
+
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 public class URLLauncher {
    static int os;
@@ -100,14 +103,14 @@ public class URLLauncher {
       fileChooser.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e){
           if (e.getActionCommand().equals("CancelSelection")) {
-            dialog.hide();
+            dialog.setVisible(false);
             dialog.dispose();
           }
           if (e.getActionCommand().equals("ApproveSelection")) {
             File file=fileChooser.getSelectedFile();
             browser=file.getAbsolutePath();
             launchURL(url);
-            dialog.hide();
+            dialog.setVisible(false);
             dialog.dispose();
             int ans=JOptionPane.showConfirmDialog(SessionMgr.getSessionMgr().getActiveBrowser(),
                 "Shall I make your Web Browser Selection for this Operating System permanent?","Store Preference",
@@ -131,7 +134,7 @@ public class URLLauncher {
         frameSize.width = screenSize.width;
       dialog.setLocation((screenSize.width - frameSize.width) / 2, (screenSize.height - frameSize.height) / 2);
 
-      dialog.show();
+      dialog.setVisible(true);
    }
 
    static private Map getBrowserProps() {

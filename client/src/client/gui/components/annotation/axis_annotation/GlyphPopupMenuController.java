@@ -27,20 +27,14 @@ import vizard.EventDispatcher;
 import vizard.Glyph;
 import vizard.interactor.ClickInteractor;
 
-import java.awt.Component;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.JSeparator;
 
 public class GlyphPopupMenuController extends Controller
     implements ClickInteractor.Adapter

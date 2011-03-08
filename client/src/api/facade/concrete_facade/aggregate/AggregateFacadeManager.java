@@ -25,23 +25,14 @@
 
 package api.facade.concrete_facade.aggregate;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import api.entity_model.model.fundtype.EntityType;
-import api.facade.abstract_facade.annotations.AtalantaDetailFacade;
-import api.facade.abstract_facade.annotations.AtalantaHitFacade;
-import api.facade.abstract_facade.annotations.BlastHitFacade;
-import api.facade.abstract_facade.annotations.ESTMapperHitFacade;
-import api.facade.abstract_facade.annotations.ESTMapperDetailFacade;
-import api.facade.abstract_facade.annotations.FeatureFacade;
-import api.facade.abstract_facade.annotations.GeneFacade;
+import api.facade.abstract_facade.annotations.*;
 import api.facade.abstract_facade.assembly.ContigFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.abstract_facade.genetics.ControlledVocabService;
 import api.facade.facade_mgr.FacadeManager;
+
+import java.util.*;
 
 /** This class provides the concrete implementation of FacadeManagerBase for the Aggregate Protocol */
 public class AggregateFacadeManager extends api.facade.facade_mgr.FacadeManagerBase {
@@ -62,7 +53,6 @@ public class AggregateFacadeManager extends api.facade.facade_mgr.FacadeManagerB
    private AggregateGenomeLocatorFacade genomeLocator;
    private api.entity_model.model.genetics.Species speciesForCurrentLocator;
    private AggregateControlledVocabService vocabService;
-   private List inUseProtocols = new ArrayList();
 
    public AggregateFacadeManager() {
    }
@@ -77,12 +67,10 @@ public class AggregateFacadeManager extends api.facade.facade_mgr.FacadeManagerB
       inUseProtocols.toArray(inUseProtocolArray);
       List dataSources = new ArrayList();
       Object[] tmpArray;
-      for (int i = 0; i < inUseProtocolArray.length; i++) {
-         tmpArray = FacadeManager.getFacadeManager(inUseProtocolArray[i]).getOpenDataSources();
-         for (int j = 0; j < tmpArray.length; j++) {
-            dataSources.add(tmpArray[j]);
-         }
-      }
+       for (String anInUseProtocolArray : inUseProtocolArray) {
+           tmpArray = FacadeManager.getFacadeManager(anInUseProtocolArray).getOpenDataSources();
+           dataSources.addAll(Arrays.asList(tmpArray));
+       }
       return dataSources.toArray();
    }
 

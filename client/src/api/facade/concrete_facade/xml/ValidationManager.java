@@ -29,19 +29,15 @@ package api.facade.concrete_facade.xml;
  * @author Les Foster
  * @version $Id$
  */
+
 import api.facade.concrete_facade.xml.sax_support.ArrayListElementStacker;
-import api.facade.concrete_facade.xml.sax_support.GenomicsExchangeHandler;
 import api.facade.concrete_facade.xml.sax_support.ElementStacker;
 import api.facade.concrete_facade.xml.sax_support.FeatureHandlerBase;
+import api.facade.concrete_facade.xml.sax_support.GenomicsExchangeHandler;
 import api.facade.facade_mgr.FacadeManager;
 import shared.util.FileUtilities;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FilenameFilter;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -178,7 +174,7 @@ public class ValidationManager {
 
   /** Convert validateion setting from byte code to menu item. */
   public String convertValidationSettingFromByteToString(byte setting) {
-    String returnVal = DO_NOT_VALIDATE;
+    String returnVal;
     switch (setting) {
       case NO_VALIDATION:
         returnVal = DO_NOT_VALIDATE;

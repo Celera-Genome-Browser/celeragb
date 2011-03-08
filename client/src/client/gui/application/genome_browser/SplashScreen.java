@@ -25,27 +25,18 @@
  *********************************************************************/
 package client.gui.application.genome_browser;
 
-import java.awt.AWTEvent;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.event.WindowEvent;
-import java.util.Date;
-import java.text.SimpleDateFormat;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JWindow;
+import javax.swing.*;
 import javax.swing.border.BevelBorder;
+import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 /**
 * This class gives a SplashScreen for the Browser application.
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 *
 */
 public final class SplashScreen extends JWindow {

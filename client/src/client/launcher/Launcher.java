@@ -25,29 +25,11 @@ import client.tools.FileUpdater;
 import client.tools.ProgressDisplayer;
 import client.tools.installer.FileScanner;
 
-/**
- * Title:
- * Description:
- * Company:
- * @author
- * @version 1.0
- */
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.Socket;
 import java.net.URL;
 import java.net.URLConnection;
-
 import java.util.Hashtable;
 import java.util.Properties;
 

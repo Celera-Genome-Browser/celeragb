@@ -28,45 +28,6 @@
  */
 package client.gui.framework.navigation_tools;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.Transferable;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.EventObject;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
-import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.DefaultCellEditor;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.ListSelectionModel;
-import javax.swing.border.Border;
-import javax.swing.border.TitledBorder;
-import javax.swing.table.AbstractTableModel;
-
 import api.entity_model.access.observer.SequenceAnalysisObserver;
 import api.entity_model.access.report.BlastParameters;
 import api.entity_model.access.report.PropertyReport;
@@ -91,6 +52,20 @@ import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.other.panels.SequenceAnalysisResultsPanel;
 import client.shared.text_component.StandardTextArea;
 import shared.util.WhiteSpaceUtils;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.TitledBorder;
+import javax.swing.table.AbstractTableModel;
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.Transferable;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.util.*;
+import java.util.List;
 
 public class SequenceAnalysisDialog {
    private static final int      DATA_CHUNK_SIZE         = 350000;
@@ -169,7 +144,7 @@ public class SequenceAnalysisDialog {
 
    public static SequenceAnalysisDialog getSequenceAnalysisDialog() { return (userDialog);}
    public void showSearchDialog() {
-      mainDialog.show();
+      mainDialog.setVisible(true);
       mainDialog.toFront();
    }
 
@@ -486,7 +461,7 @@ public class SequenceAnalysisDialog {
          table.getCellEditor().stopCellEditing();
       }
 
-      mainDialog.hide();
+      mainDialog.setVisible(false);
    }
 
    private void saveChanges() {
@@ -949,7 +924,7 @@ public class SequenceAnalysisDialog {
 
       /** Respond to shutdown of browser. */
       public void browserClosing() {
-         mainDialog.hide();
+         mainDialog.setVisible(false);
          browser.repaint();
       }
 

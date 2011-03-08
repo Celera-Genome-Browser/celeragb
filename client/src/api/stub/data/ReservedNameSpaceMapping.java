@@ -25,11 +25,8 @@ package api.stub.data;
  *********************************************************************
    CVS_ID:  $Id$
  *********************************************************************/
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.MissingResourceException;
-import java.util.ResourceBundle;
+
+import java.util.*;
 
 /**
  * Creates a mapping of reserved name space internal to external names.  Maps

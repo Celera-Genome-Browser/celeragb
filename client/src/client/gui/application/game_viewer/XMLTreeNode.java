@@ -21,9 +21,9 @@
 */
 package client.gui.application.game_viewer;
 
-import javax.swing.tree.DefaultMutableTreeNode;
-
 import org.w3c.dom.Node;
+
+import javax.swing.tree.DefaultMutableTreeNode;
 
 /**
  * Title:        Genome Browser Client

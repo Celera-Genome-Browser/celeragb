@@ -21,27 +21,6 @@
 */
 package api.entity_model.model.fundtype;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.net.HttpURLConnection;
-import java.util.*;
-
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageListener;
-import javax.jms.ObjectMessage;
-import javax.jms.Session;
-import javax.jms.Topic;
-import javax.jms.TopicConnection;
-import javax.jms.TopicConnectionFactory;
-import javax.jms.TopicSession;
-import javax.jms.TopicSubscriber;
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-
 import api.entity_model.access.filter.AlignmentCollectionFilter;
 import api.entity_model.access.filter.FiltrationDevice;
 import api.entity_model.access.observer.AxisObserver;
@@ -76,6 +55,17 @@ import api.stub.sequence.SubSequence;
 import shared.util.Assert;
 import shared.util.FreeMemoryWatcher;
 import shared.util.PropertyConfigurator;
+
+import javax.jms.*;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.net.HttpURLConnection;
+import java.util.*;
 
 /**
  * Title:        Genome Browser Client

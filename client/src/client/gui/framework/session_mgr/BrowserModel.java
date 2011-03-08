@@ -42,7 +42,7 @@ import java.util.List;
 * Changes to any of these elements will broadcast events notifing all listeners of
 * the change.
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 */
 
 public class BrowserModel extends GenericModel implements Cloneable {

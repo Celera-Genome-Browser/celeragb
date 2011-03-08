@@ -19,14 +19,19 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.framework.external_listener;
 
-import java.net.*;
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import javax.swing.SwingUtilities;
+import api.stub.data.ControlledVocabulary;
 import client.gui.framework.navigation_tools.AutoNavigationMgr;
 import client.gui.framework.navigation_tools.SearchManager;
-import api.stub.data.ControlledVocabulary;
+
+import javax.swing.*;
+import java.io.*;
+import java.net.BindException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.URLDecoder;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 public class ExternalListener {
@@ -140,7 +145,7 @@ public class ExternalListener {
      HashMap hash=new HashMap();
      // This try/catch block is only necessary for execution under jdk1.2.2
      try {
-      inString = URLDecoder.decode(inString);
+      inString = URLDecoder.decode(inString, "UTF-8");
      }
      catch (Exception ex) {
       normalizeHexCodedString(inString);

@@ -28,38 +28,11 @@ package client.gui.framework.bookmark;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.shared.swing.table.SortButtonRenderer;
 
-import java.awt.AWTEvent;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.WindowEvent;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.TreeMap;
-import java.util.Vector;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.InputMap;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.KeyStroke;
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
+import javax.swing.*;
+import javax.swing.table.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
 
 
 public class BookmarkTableDialog extends JDialog {
@@ -141,7 +114,7 @@ public class BookmarkTableDialog extends JDialog {
     this.pack();
     this.setSize(600, 200);
     this.setLocationRelativeTo(parentFrame);
-    this.show();
+    this.setVisible(true);
   }
 
   private JScrollPane createTable() {

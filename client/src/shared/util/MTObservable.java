@@ -26,11 +26,10 @@ package shared.util;
    CVS_ID:  $Id$
  *********************************************************************/
 
+import javax.swing.*;
 import java.util.Observable;
 import java.util.Observer;
 import java.util.Vector;
-
-import javax.swing.SwingUtilities;
 
 /**
 * This class was created to have similar behavior to the java.util.Observable
@@ -146,6 +145,9 @@ public class MTObservable extends Observable {
 
 /*
 $Log$
+Revision 1.1  2006/11/09 21:36:18  rjturner
+Initial upload of source
+
 Revision 1.6  2002/11/07 18:38:36  lblick
 Removed obsolete imports and unused local variables.
 

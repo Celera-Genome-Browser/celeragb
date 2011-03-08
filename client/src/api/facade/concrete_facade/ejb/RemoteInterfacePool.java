@@ -18,15 +18,15 @@
 // 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package api.facade.concrete_facade.ejb;
+
 import api.stub.data.FatalCommError;
 import api.stub.data.SystemError;
 import shared.util.MultiHash;
 
-import java.lang.reflect.Method;
-import java.util.Vector;
-
 import javax.ejb.EJBHome;
 import javax.ejb.EJBObject;
+import java.lang.reflect.Method;
+import java.util.Vector;
 
 public class RemoteInterfacePool {
   private Vector availStandardInterfaces;

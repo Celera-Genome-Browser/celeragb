@@ -23,36 +23,13 @@ package client.shared.swing;
 
 import client.shared.swing.border.HandleBorder;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.InputEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
+import javax.swing.*;
+import javax.swing.event.MouseInputAdapter;
+import java.awt.*;
+import java.awt.event.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
-
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.MenuElement;
-import javax.swing.UIManager;
-import javax.swing.event.MouseInputAdapter;
 
 
 public class ComponentPanel extends JPanel {
@@ -285,7 +262,7 @@ public class ComponentPanel extends JPanel {
         }
 
         app.setSize(400, 100);
-        app.show();
+        app.setVisible(true);
     }
 
     /**

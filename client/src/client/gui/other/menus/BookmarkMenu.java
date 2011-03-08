@@ -36,14 +36,11 @@ import client.gui.framework.bookmark.BookmarkTableDialog;
 import client.gui.framework.browser.Browser;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.KeyStroke;
 
 
 public class BookmarkMenu extends JMenu implements BookmarkListener {

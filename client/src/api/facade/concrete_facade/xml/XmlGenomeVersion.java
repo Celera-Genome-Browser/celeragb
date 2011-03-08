@@ -50,24 +50,10 @@ import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.abstract_facade.fundtype.NavigationConstants;
 import api.facade.abstract_facade.genetics.GenomeVersionLoader;
 import api.facade.facade_mgr.FacadeManager;
-import api.stub.data.GenomeVersionInfo;
-import api.stub.data.GenomicProperty;
-import api.stub.data.InvalidPropertyFormat;
-import api.stub.data.NavigationNode;
-import api.stub.data.NavigationPath;
-import api.stub.data.NoData;
-import api.stub.data.OID;
-import api.stub.data.ReservedNameSpaceMapping;
+import api.stub.data.*;
 import api.stub.geometry.Range;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 
 /**

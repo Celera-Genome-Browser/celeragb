@@ -25,8 +25,9 @@ import vizard.Glyph;
 import vizard.ParentGlyph;
 import vizard.genomics.model.EntityAdapter;
 import vizard.glyph.BoundsGlyph;
-import java.util.List;
+
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**

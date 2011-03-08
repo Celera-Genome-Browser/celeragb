@@ -28,11 +28,7 @@
 
 package client.gui.framework.browser;
 
-import api.entity_model.access.observer.AxisObserver;
-import api.entity_model.access.observer.AxisObserverAdapter;
-import api.entity_model.access.observer.ModelMgrObserverAdapter;
-import api.entity_model.access.observer.ModifyManagerObserverAdapter;
-import api.entity_model.access.observer.WorkspaceObserverAdapter;
+import api.entity_model.access.observer.*;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.management.ModifyManager;
 import api.entity_model.model.alignment.Alignment;
@@ -56,33 +52,14 @@ import client.gui.other.annotation_log.AnnotationLogWriter;
 import client.gui.other.annotation_log.GBWAnnotationLogViewer;
 import client.gui.other.xml.xml_writer.XMLWriter;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.StringTokenizer;
-import java.util.Vector;
-
-import javax.swing.BoxLayout;
-import javax.swing.DefaultListModel;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JList;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSeparator;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
+import java.util.*;
 /**
 * This class provides the File menu for the Browser.  It has been
 * externalized here to allow subclassing and overridding for modification.
@@ -105,7 +82,7 @@ public class FileMenu extends JMenu {
    JMenuItem menuOpenGenomeVersion;
    JMenuItem menuCEFViewer;
    JMenuItem menuOpenWorkSpace, menuCloseWorkSpace, menuOpenFeatureFile, setLoginMI, menuOpenAnnotationLog, menuOpenGBWAnnotationLog;
-   Vector addedMenus = new Vector();
+   ArrayList<JMenuItem> addedMenus = new ArrayList<JMenuItem>();
    private boolean workSpaceHasBeenSaved = false;
    private boolean isworkspaceDirty = false;
    private JDialog openDataSourceDialog = new JDialog();
@@ -238,7 +215,7 @@ public class FileMenu extends JMenu {
       menuFileExit = new JMenuItem("Exit", 'x');
       menuFileExit.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            fileExit_actionPerformed(e);
+            fileExit_actionPerformed();
          }
       });
 
@@ -252,7 +229,7 @@ public class FileMenu extends JMenu {
       menuListOpen = new JMenuItem("List Open Data Sources...", 'L');
       menuListOpen.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            menuListOpen_actionPerformed(e);
+            menuListOpen_actionPerformed();
          }
       });
 
@@ -266,7 +243,7 @@ public class FileMenu extends JMenu {
       menuFilePrint = new JMenuItem("Print Screen...", 'P');
       menuFilePrint.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            filePrint_actionPerformed(e);
+            filePrint_actionPerformed();
          }
       });
       addMenuItems();
@@ -312,19 +289,6 @@ public class FileMenu extends JMenu {
       addMenuItems();
    }
 
-   /**
-   * If there is a file Extension already present then dont do anything.
-   * Otherwise add the "default" extension ".gbw"
-   */
-   private String addFileExtension(String existingFpath) {
-      if (existingFpath.lastIndexOf(".") == -1) {
-         return (existingFpath.concat(".gbw"));
-      }
-      else {
-         return existingFpath;
-      }
-   }
-
    private void addMenuItems() {
       removeAll();
 
@@ -347,9 +311,9 @@ public class FileMenu extends JMenu {
       add(menuFilePrint);
       if (addedMenus.size() > 0)
          add(new JSeparator());
-      for (int i = 0; i < addedMenus.size(); i++) {
-         add((JMenuItem) addedMenus.elementAt(i));
-      }
+       for (JMenuItem addedMenu : addedMenus) {
+           add(addedMenu);
+       }
       add(new JSeparator());
       add(menuFileExit);
 
@@ -357,7 +321,7 @@ public class FileMenu extends JMenu {
 
    //File | Exit action performed
 
-   private void fileExit_actionPerformed(ActionEvent e) {
+   private void fileExit_actionPerformed() {
       SessionMgr.getSessionMgr().systemExit();
    }
 
@@ -394,7 +358,7 @@ public class FileMenu extends JMenu {
    private void gbwFileClose_actionPerformed() {
 
       if (workspaceGenomeVersion != null && !workspaceGenomeVersion.getWorkspace().getWorkspaceOids().isEmpty()) {
-         int ans = JOptionPane.YES_OPTION;
+         int ans;
          ans =
             JOptionPane.showConfirmDialog(
                FileMenu.this.browser,
@@ -432,11 +396,11 @@ public class FileMenu extends JMenu {
       menuViewWorkspaceFile.setEnabled(false);
    }
 
-   private void filePrint_actionPerformed(ActionEvent e) {
+   private void filePrint_actionPerformed() {
       browser.printBrowser();
    }
 
-   private void menuListOpen_actionPerformed(ActionEvent e) {
+   private void menuListOpen_actionPerformed() {
       /**
        * There is no good way to get this information so I need to "splice" together
        * open genome versions and available GBW, GBF's.  No pun intended.
@@ -444,25 +408,25 @@ public class FileMenu extends JMenu {
        * and going through each feature in the data model is probably the most accurate
        * but not the best way to get this information.
        */
-      ArrayList openGenomeVersions = new ArrayList(ModelMgr.getModelMgr().getSelectedGenomeVersions());
+      ArrayList<GenomeVersion> openGenomeVersions = new ArrayList<GenomeVersion>(ModelMgr.getModelMgr().getSelectedGenomeVersions());
       ArrayList allDataSources = new ArrayList(Arrays.asList(FacadeManager.getFacadeManager().getOpenDataSources()));
-      ArrayList finalDataSources = new ArrayList();
-      for (Iterator it = openGenomeVersions.iterator(); it.hasNext();) {
-         finalDataSources.add(((GenomeVersion) it.next()).getDescription());
-      }
+      ArrayList<String> finalDataSources = new ArrayList<String>();
+      for (Object openGenomeVersion : openGenomeVersions) {
+           finalDataSources.add(((GenomeVersion) openGenomeVersion).getDescription());
+       }
       Collections.sort(finalDataSources);
-      for (Iterator it = allDataSources.iterator(); it.hasNext();) {
-         String tmpSource = ((String) it.next()).trim();
-         if (tmpSource.toLowerCase().endsWith(".gbf") || tmpSource.toLowerCase().endsWith(".gbw")) {
-            StringTokenizer tok = new StringTokenizer(tmpSource, File.separator);
-            while (tok.hasMoreTokens()) {
-               tmpSource = tok.nextToken();
-            }
-            finalDataSources.add(tmpSource);
-         }
-      }
+      for (Object allDataSource : allDataSources) {
+           String tmpSource = ((String) allDataSource).trim();
+           if (tmpSource.toLowerCase().endsWith(".gbf") || tmpSource.toLowerCase().endsWith(".gbw")) {
+               StringTokenizer tok = new StringTokenizer(tmpSource, File.separator);
+               while (tok.hasMoreTokens()) {
+                   tmpSource = tok.nextToken();
+               }
+               finalDataSources.add(tmpSource);
+           }
+       }
 
-      if (finalDataSources == null || finalDataSources.size() == 0) {
+      if (finalDataSources.size() == 0) {
          finalDataSources.add("No Sources Opened.");
       }
       openDataSourceDialog = new JDialog(browser, "Open Data Sources", true);
@@ -478,9 +442,9 @@ public class FileMenu extends JMenu {
       DefaultListModel listModel = new DefaultListModel();
       JList sources = new JList(listModel);
       sources.setRequestFocusEnabled(false);
-      for (Iterator it = finalDataSources.iterator(); it.hasNext();) {
-         listModel.addElement((String) it.next());
-      }
+       for (Object finalDataSource : finalDataSources) {
+           listModel.addElement((String) finalDataSource);
+       }
       JScrollPane sp = new JScrollPane();
       sp.setSize(380, 140);
       sp.getViewport().setView(sources);
@@ -504,7 +468,7 @@ public class FileMenu extends JMenu {
          frameSize.width = screenSize.width;
       openDataSourceDialog.setLocation((screenSize.width - frameSize.width) / 2, (screenSize.height - frameSize.height) / 2);
       mainPanel.getRootPane().setDefaultButton(okButton);
-      openDataSourceDialog.show();
+      openDataSourceDialog.setVisible(true);
    }
 
    private void menuCloseDataSources_actionPerformed(ActionEvent e) {
@@ -523,10 +487,10 @@ public class FileMenu extends JMenu {
 
    private String findGBWFileName() {
       Object[] dataSources = FacadeManager.getFacadeManager().getOpenDataSources();
-      for (int i = 0; i < dataSources.length; i++) {
-         if (dataSources[i].toString().toLowerCase().endsWith(".gbw"))
-            return dataSources[i].toString();
-      }
+       for (Object dataSource : dataSources) {
+           if (dataSource.toString().toLowerCase().endsWith(".gbw"))
+               return dataSource.toString();
+       }
       return null;
    }
 
@@ -643,13 +607,13 @@ public class FileMenu extends JMenu {
 
          //Donot enable the menu item if the Workspace has been already cr
          Workspace workspace = null;
-         for (Iterator i = ModelMgr.getModelMgr().getSelectedGenomeVersions().iterator(); i.hasNext();) {
-            GenomeVersion model = (GenomeVersion) i.next();
-            if (model.hasWorkspace()) {
-               workspace = model.getWorkspace();
-               break;
-            }
-         }
+          for (Object o : ModelMgr.getModelMgr().getSelectedGenomeVersions()) {
+              GenomeVersion model = (GenomeVersion) o;
+              if (model.hasWorkspace()) {
+                  workspace = model.getWorkspace();
+                  break;
+              }
+          }
          if (workspace == null) {
             menuOpenWorkSpace.setEnabled(true);
             menuCloseWorkSpace.setEnabled(false);

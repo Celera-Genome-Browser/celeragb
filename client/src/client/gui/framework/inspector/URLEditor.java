@@ -24,15 +24,10 @@ package client.gui.framework.inspector;
 import client.gui.other.util.URLLauncher;
 import client.shared.text_component.StandardTextField;
 
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Rectangle;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JTable;
 
 public class URLEditor extends DefaultCellEditor{
   StringRenderer gpr=new StringRenderer();

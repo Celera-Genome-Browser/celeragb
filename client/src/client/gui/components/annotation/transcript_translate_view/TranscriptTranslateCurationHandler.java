@@ -24,6 +24,7 @@ package client.gui.components.annotation.transcript_translate_view;
  *********************************************************************
    CVS_ID:  $Id$
  *********************************************************************/
+
 import api.entity_model.access.command.DoAddStartSite;
 import api.entity_model.access.command.DoAddStopSite;
 import api.entity_model.access.command.DoDeleteCuration;
@@ -48,17 +49,12 @@ import client.shared.swing.GenomicSequenceViewer;
 import client.shared.swing.genomic.SequenceMouseEvent;
 import client.shared.swing.genomic.SequenceMouseListener;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.util.Collection;
-
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
 
 public class TranscriptTranslateCurationHandler {
 

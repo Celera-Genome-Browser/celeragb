@@ -26,8 +26,7 @@ import client.gui.framework.browser.BrowserMenuBar;
 import client.gui.other.menus.BookmarkMenu;
 import client.gui.other.menus.SearchMenu;
 
-import javax.swing.ImageIcon;
-import javax.swing.JMenu;
+import javax.swing.*;
 
 
 public class GenomeBrowserMenuBar extends BrowserMenuBar {

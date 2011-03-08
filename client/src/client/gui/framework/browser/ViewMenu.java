@@ -33,6 +33,8 @@ import api.entity_model.model.genetics.Chromosome;
 import api.entity_model.model.genetics.Species;
 import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
+import javax.swing.event.MenuEvent;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
@@ -41,9 +43,6 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
-
-import javax.swing.*;
-import javax.swing.event.MenuEvent;
 
 /**
 * This class provides the File menu for the Browser.  It has been

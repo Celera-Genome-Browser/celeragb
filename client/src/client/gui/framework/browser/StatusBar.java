@@ -23,15 +23,10 @@ package client.gui.framework.browser;
 
 import shared.util.FreeMemoryWatcher;
 
-import java.awt.Component;
-import java.awt.Dimension;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
 
 public class StatusBar  extends JPanel {
    private FreeMemoryViewer freeMemoryViewer;

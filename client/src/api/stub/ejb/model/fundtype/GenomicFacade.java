@@ -23,11 +23,7 @@ package api.stub.ejb.model.fundtype;
 
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.fundtype.EntityType;
-import api.stub.data.GenomicEntityAlias;
-import api.stub.data.GenomicEntityComment;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
+import api.stub.data.*;
 
 public interface GenomicFacade extends javax.ejb.EJBObject
 {

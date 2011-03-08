@@ -26,13 +26,7 @@
 package api.facade.concrete_facade.aggregate;
 
 import api.entity_model.model.fundtype.EntityType;
-import api.facade.abstract_facade.annotations.ExonFacade;
-import api.facade.abstract_facade.annotations.GenePredictionDetailFacade;
-import api.facade.abstract_facade.annotations.GenePredictionFacade;
-import api.facade.abstract_facade.annotations.RepeatMaskerHitFacade;
-import api.facade.abstract_facade.annotations.STSFacade;
-import api.facade.abstract_facade.annotations.TranscriptFacade;
-import api.facade.abstract_facade.annotations.TrnaScanFacade;
+import api.facade.abstract_facade.annotations.*;
 
 /**
  * Note: You MUST add to the implements list ANY Facade you intend this to represent.

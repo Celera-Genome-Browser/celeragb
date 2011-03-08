@@ -44,23 +44,14 @@ import shared.util.PropertyConfigurator;
 import shared.util.ThreadQueue;
 
 import java.lang.reflect.Constructor;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ResourceBundle;
-import java.util.Set;
-import java.util.Vector;
+import java.util.*;
 
 public class ModelMgr {
   private static ModelMgr modelManager=new ModelMgr();
-  private Vector exceptionHandlers;
   private boolean readOnly;
-  private List modelMgrObservers;
+  private List<ModelMgrObserver> modelMgrObservers;
   private boolean modelAvailable;
-  private Set genomeVersions=new HashSet();
+  private Set<GenomeVersion> genomeVersions=new HashSet<GenomeVersion>();
   private ThreadQueue threadQueue;
   private ThreadQueue notificationQueue;
   private ResourceBundle modelMgrResourceBundle;
@@ -68,7 +59,7 @@ public class ModelMgr {
   private MutatorAccessController mutatorAccessController;
   private MutatorAccessController defaultMutatorAccessController=
      new DefaultMutatorAccessController();
-  private HashSet selectedGenomeVersions=new HashSet();
+  private HashSet<GenomeVersion> selectedGenomeVersions=new HashSet<GenomeVersion>();
   private Class factoryClass;
   private MyGenomeVersionObserver genomeVersionObserver = new MyGenomeVersionObserver();
   private boolean genomeVersionLookupNeeded=true;
@@ -90,7 +81,9 @@ public class ModelMgr {
           Class controllerClass=Class.forName(accessController);
           mutatorAccessController=(MutatorAccessController)controllerClass.newInstance();
          }
-         catch (Exception ex) {} //if this fails, use teh default
+         catch (Exception ex) {
+            //if this fails, use the default
+         }
        }
        String factory=modelMgrResourceBundle.getString("Factory");
        factoryClass=Class.forName(factory);
@@ -113,7 +106,7 @@ public class ModelMgr {
     FacadeManager.addInUseProtocolListener(new MyInUseProtocolListener());
   } //Singleton enforcement
 
-  static final public ModelMgr getModelMgr() {return modelManager;}
+  static public ModelMgr getModelMgr() {return modelManager;}
 
   public MutatorAccessController getMutatorAccessController() {
      if (mutatorAccessController==null) return defaultMutatorAccessController;
@@ -129,7 +122,7 @@ public class ModelMgr {
   }
 
   public void addModelMgrObserver(ModelMgrObserver mml){
-     if (modelMgrObservers==null) modelMgrObservers=new ArrayList();
+     if (modelMgrObservers==null) modelMgrObservers=new ArrayList<ModelMgrObserver>();
      modelMgrObservers.add(mml);
   }
 
@@ -156,10 +149,10 @@ public class ModelMgr {
      if (genomeVersions!=null) {
         Set genomeVersions=getGenomeVersions();
         GenomeVersion gv;
-        for (Iterator it=genomeVersions.iterator();it.hasNext();) {
-           gv=(GenomeVersion)it.next();
-           gv.makeReadOnly();
-        }
+         for (Object genomeVersion : genomeVersions) {
+             gv = (GenomeVersion) genomeVersion;
+             gv.makeReadOnly();
+         }
      }
   }
 
@@ -178,8 +171,7 @@ public class ModelMgr {
 
   public boolean isMultiThreaded() {
     String mt = modelMgrResourceBundle.getString("MultiThreadedServerCalls");
-    if (mt !=null && mt.equalsIgnoreCase("TRUE")) return true;
-    else return false;
+      return mt != null && mt.equalsIgnoreCase("TRUE");
   }
 
 
@@ -215,48 +207,48 @@ public class ModelMgr {
      genomeVersions=null;
   }
 
-  public Set getGenomeVersions() {
+  public Set<GenomeVersion> getGenomeVersions() {
      if (genomeVersionLookupNeeded) {
-       GenomeLocatorFacade locator=null;
+       GenomeLocatorFacade locator;
        try{
          locator=
           FacadeManager.getFacadeManager().getGenomeLocator();
        }
        catch (Exception ex) {
           handleException(ex);
-          return new HashSet(0);
+          return new HashSet<GenomeVersion>(0);
        }
        GenomeVersion[] versions=locator.getAvailableGenomeVersions();
-       Set localGenomeVersions=new HashSet(versions.length);
-       for (int i=0;i<versions.length;i++) {
-          if (readOnly && !versions[i].isReadOnly())versions[i].makeReadOnly();
-          localGenomeVersions.add(versions[i]);
-          genomeVersionObserver.addGenomeVersionToObserve(versions[i]);
-          FacadeManager.addAvailableGenomeVersionInfo(versions[i].getGenomeVersionInfo());
-          if (modelMgrObservers!=null) {
-             Object[] listeners=modelMgrObservers.toArray();
-             for (int j=0;j<listeners.length;j++) {
-               ((ModelMgrObserver)listeners[j]).genomeVersionAdded(versions[i]);
+       Set<GenomeVersion> localGenomeVersions=new HashSet<GenomeVersion>(versions.length);
+         for (GenomeVersion version : versions) {
+             if (readOnly && !version.isReadOnly()) version.makeReadOnly();
+             localGenomeVersions.add(version);
+             genomeVersionObserver.addGenomeVersionToObserve(version);
+             FacadeManager.addAvailableGenomeVersionInfo(version.getGenomeVersionInfo());
+             if (modelMgrObservers != null) {
+                 Object[] listeners = modelMgrObservers.toArray();
+                 for (Object listener : listeners) {
+                     ((ModelMgrObserver) listener).genomeVersionAdded(version);
+                 }
              }
-          }
-       }
+         }
        genomeVersions.addAll(localGenomeVersions);
        genomeVersionLookupNeeded=false;
      }
-     return new HashSet(genomeVersions);
+     return new HashSet<GenomeVersion>(genomeVersions);
   }
 
   /**
    * Returns all GenomeVersions that are marked isAvailable
    */
   public Set getAvailableGenomeVersions() {
-    Set versions=getGenomeVersions();
-    Set rtnVersions=new HashSet();
+    Set<GenomeVersion> versions=getGenomeVersions();
+    Set<GenomeVersion> rtnVersions=new HashSet<GenomeVersion>();
     GenomeVersion version;
-    for (Iterator it=versions.iterator();it.hasNext(); ){
-      version=(GenomeVersion)it.next();
-      if (version.isAvailable()) rtnVersions.add(version);
-    }
+      for (Object version1 : versions) {
+          version = (GenomeVersion) version1;
+          if (version.isAvailable()) rtnVersions.add(version);
+      }
     return rtnVersions;
   }
 
@@ -269,7 +261,7 @@ public class ModelMgr {
   }
 
 
-  public List getGenomeVersions(GenomeVersionCollectionFilter filter) {
+  public List<GenomeVersion> getGenomeVersions(GenomeVersionCollectionFilter filter) {
      Collection versions=getGenomeVersions();
      return Collections.unmodifiableList(FiltrationDevice.getDevice().
         executeGenomeVersionFilter(versions,filter));
@@ -278,8 +270,8 @@ public class ModelMgr {
   public GenomeVersion getGenomeVersionById(int genomeVersionId) {
       Collection gvCollection=getGenomeVersions();
       GenomeVersion[] gvArray=(GenomeVersion[])gvCollection.toArray(new GenomeVersion[0]);
-      for (int i=0;i<gvArray.length;i++) {
-         if (gvArray[i].getID()==genomeVersionId) return gvArray[i];
+      for (GenomeVersion aGvArray : gvArray) {
+          if (aGvArray.getID() == genomeVersionId) return aGvArray;
       }
       return null;  //none found
   }
@@ -295,8 +287,8 @@ public class ModelMgr {
       Collection gvCollection=getGenomeVersions();
       GenomeVersion[] gvArray=(GenomeVersion[])gvCollection.toArray(new GenomeVersion[0]);
       int genomeVersionID=nodeInModel.getOid().getGenomeVersionId();
-      for (int i=0;i<gvArray.length;i++) {
-         if ( ( ( GenomeVersion )gvArray[i] ).getID()==genomeVersionID) return gvArray[i];
+      for (GenomeVersion aGvArray : gvArray) {
+          if (((GenomeVersion) aGvArray).getID() == genomeVersionID) return aGvArray;
       }
       return null;  //none found
   }
@@ -304,8 +296,8 @@ public class ModelMgr {
   /**
    * @return Set of genomeVersions
    */
-  public Set getSelectedGenomeVersions() {
-     return (Set)selectedGenomeVersions.clone();
+  public Set<GenomeVersion> getSelectedGenomeVersions() {
+     return (Set<GenomeVersion>)selectedGenomeVersions.clone();
   }
 
   public void addSelectedGenomeVersion(GenomeVersion version) {
@@ -313,9 +305,9 @@ public class ModelMgr {
        modelAvailable=true;
        if (modelMgrObservers!=null) {
          Object[] listeners=modelMgrObservers.toArray();
-         for (int i=0;i<listeners.length;i++) {
-           ((ModelMgrObserver)listeners[i]).genomeVersionSelected(version);
-         }
+           for (Object listener : listeners) {
+               ((ModelMgrObserver) listener).genomeVersionSelected(version);
+           }
        }
      }
   }
@@ -324,9 +316,9 @@ public class ModelMgr {
     if (selectedGenomeVersions.remove(genomeVersion)){
        if (modelMgrObservers!=null) {
          Object[] listeners=modelMgrObservers.toArray();
-         for (int i=0;i<listeners.length;i++) {
-           ((ModelMgrObserver)listeners[i]).genomeVersionUnselected(genomeVersion);
-         }
+           for (Object listener : listeners) {
+               ((ModelMgrObserver) listener).genomeVersionUnselected(genomeVersion);
+           }
        }
      }
     if (selectedGenomeVersions.size()==0) modelAvailable=false;
@@ -350,16 +342,16 @@ public class ModelMgr {
   private void workSpaceWasCreated(GenomeVersion genomeVersion) {
     Set genomeVersions=getGenomeVersions();
     GenomeVersion gv;
-    for (Iterator it=genomeVersions.iterator();it.hasNext();) {
-       gv=(GenomeVersion)it.next();
-       if (!genomeVersion.equals(gv)) gv.makeReadOnly();
-    }
+      for (Object genomeVersion1 : genomeVersions) {
+          gv = (GenomeVersion) genomeVersion1;
+          if (!genomeVersion.equals(gv)) gv.makeReadOnly();
+      }
     FacadeManager.setGenomeVersionWithWorkSpaceId(genomeVersion.getID());
     if (modelMgrObservers!=null) {
        Object[] listeners=modelMgrObservers.toArray();
-       for (int j=0;j<listeners.length;j++) {
-         ((ModelMgrObserver)listeners[j]).workSpaceCreated(genomeVersion);
-       }
+        for (Object listener : listeners) {
+            ((ModelMgrObserver) listener).workSpaceCreated(genomeVersion);
+        }
     }
   }
 
@@ -367,9 +359,9 @@ public class ModelMgr {
     FacadeManager.setGenomeVersionWithWorkSpaceId(0);
     if (modelMgrObservers!=null) {
        Object[] listeners=modelMgrObservers.toArray();
-       for (int j=0;j<listeners.length;j++) {
-         ((ModelMgrObserver)listeners[j]).workSpaceRemoved(genomeVersion,workspace);
-       }
+        for (Object listener : listeners) {
+            ((ModelMgrObserver) listener).workSpaceRemoved(genomeVersion, workspace);
+        }
     }
   }
 

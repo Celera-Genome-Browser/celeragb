@@ -42,21 +42,14 @@ import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
+import javax.swing.event.TreeExpansionEvent;
+import javax.swing.event.TreeExpansionListener;
+import javax.swing.tree.*;
 import java.awt.event.MouseEvent;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.Set;
-
-import javax.swing.JScrollPane;
-import javax.swing.JTree;
-import javax.swing.event.TreeExpansionEvent;
-import javax.swing.event.TreeExpansionListener;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.MutableTreeNode;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
-import javax.swing.tree.TreeSelectionModel;
 
 public class Outline extends JScrollPane implements Cloneable{
 

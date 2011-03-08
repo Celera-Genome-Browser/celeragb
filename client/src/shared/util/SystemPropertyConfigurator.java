@@ -28,13 +28,17 @@
  */
 package shared.util;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Enumeration;
 import java.util.MissingResourceException;
+import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
 
 /**
  * This class will read a properties file and add all key,value pairs to
- * the system properties if the individual property to be added foes not already
+ * the system properties if the individual property to be added does not already
  * exist.  This allows the application to specify a set of defaults and override
  * them at the command line.
  *
@@ -75,7 +79,7 @@ public class SystemPropertyConfigurator {
            }
            catch (MissingResourceException mrEx) {
               System.out.println("ERROR: -D"+CONFIG_RESOURCE_NAME+"=<config file relative to classpath>"+
-                 " must be specified as a command line argument, or resource.client.ClientConfig.properties"+
+                 " must be specified as a command line argument, or resource.client.DeveloperClientConfig.properties"+
                  " must be present!!");
               System.exit(1);
            }

@@ -25,17 +25,25 @@
  *********************************************************************/
 package client.shared.swing.genomic;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import java.awt.event.*;
-import java.util.*;
-import javax.swing.event.*;
-import javax.swing.table.*;
-
-import api.stub.sequence.*;
-import client.shared.text_component.*;
+import api.stub.sequence.DNA;
+import api.stub.sequence.Protein;
+import api.stub.sequence.Sequence;
+import api.stub.sequence.SequenceHelper;
 import client.gui.other.util.PairedLayout;
+import client.shared.text_component.StandardTextArea;
+
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Vector;
 
 public class SequenceSearchDialog extends JDialog implements ActionListener, DocumentListener {
   public static final String NUCLEOTIDE = "Nucleotide";
@@ -372,7 +380,7 @@ public class SequenceSearchDialog extends JDialog implements ActionListener, Doc
     findWhatTextArea.requestFocus();
     findWhatTextArea.setCaretPosition(0);
     findWhatTextArea.setEditable(true);
-    show();
+    setVisible(true);
   }
 
 
@@ -588,7 +596,7 @@ public class SequenceSearchDialog extends JDialog implements ActionListener, Doc
 
 
   private void cancelFindActions() {
-    this.hide();
+    this.setVisible(false);
   }
 
   private void storeFramesForLocations(Vector targets, int frame){

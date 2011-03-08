@@ -27,10 +27,13 @@ package client.gui.framework.navigation_tools;
  * @author
  * @version $Id$
  */
-import java.util.Properties;
-import java.util.*;
 
 import shared.preferences.PreferenceManager;
+
+import java.util.Iterator;
+import java.util.Properties;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class AnalysisType {
   public static final String TEXT_FIELD_EDITOR      = "Text Field";

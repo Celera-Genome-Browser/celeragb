@@ -26,13 +26,14 @@
 
 package client.gui.components.annotation.axis_annotation;
 
-import java.awt.*;
-import javax.swing.*;
-import client.gui.framework.roles.Editor;
-import client.gui.framework.browser.*;
-import client.gui.framework.session_mgr.*;
-import api.entity_model.model.fundtype.GenomicEntity;
 import api.entity_model.model.assembly.GenomicAxis;
+import api.entity_model.model.fundtype.GenomicEntity;
+import client.gui.framework.browser.Browser;
+import client.gui.framework.roles.Editor;
+import client.gui.framework.session_mgr.BrowserModel;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class GenomicAxisAnnotationEditor extends JPanel implements Editor {
 

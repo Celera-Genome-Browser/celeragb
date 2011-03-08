@@ -19,42 +19,26 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.other.panels;
 
-  import client.gui.framework.pref_controller.PrefController;
+import client.gui.framework.pref_controller.PrefController;
 import client.gui.framework.roles.PrefEditor;
 import client.gui.framework.view_pref_mgr.ColorInfo;
 import client.gui.framework.view_pref_mgr.ViewPrefListenerAdapter;
 import client.gui.framework.view_pref_mgr.ViewPrefMgr;
 import client.gui.framework.view_pref_mgr.ViewPrefMgrListener;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Iterator;
-import java.util.TreeMap;
-import java.util.Vector;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.DefaultCellEditor;
-import javax.swing.JButton;
-import javax.swing.JColorChooser;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.ListCellRenderer;
+import javax.swing.*;
 import javax.swing.event.CellEditorListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Iterator;
+import java.util.TreeMap;
+import java.util.Vector;
 
   public class ColorPanel extends JPanel implements PrefEditor {
     private static final String COLOR_NAME=new String("Name");

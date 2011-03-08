@@ -21,9 +21,8 @@
 */
 package client.tools.installer;
 
+import javax.swing.*;
 import java.util.Hashtable;
-
-import javax.swing.JPanel;
 
 
 /**

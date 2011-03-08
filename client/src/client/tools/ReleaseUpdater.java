@@ -25,8 +25,9 @@
 //Modifications:  LLF, 3/1/2000 -- Moved to "client.tools package
 package client.tools;
 
-import java.io.*;
-import java.util.*;
+import java.io.File;
+import java.io.RandomAccessFile;
+import java.util.Date;
 
 public class ReleaseUpdater {
 

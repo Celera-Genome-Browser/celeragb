@@ -27,8 +27,10 @@ package client.gui.framework.display_rules;
  * @author
  * @version $Id$
  */
-import java.util.*;
-import java.lang.StrictMath;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Properties;
 
 
 public class ColorIntensityInfo extends DisplayFilterInfo {

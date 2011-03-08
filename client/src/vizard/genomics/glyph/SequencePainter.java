@@ -28,8 +28,7 @@ import vizard.genomics.model.SequenceAdapter;
 import vizard.glyph.Constants;
 import vizard.glyph.GlyphAdapter;
 
-import java.awt.Font;
-import java.awt.Rectangle;
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
 
 

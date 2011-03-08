@@ -27,14 +27,6 @@ package client.gui.components.annotation.axis_annotation;
  * @author
  * @version $Id$
  */
-import java.awt.event.ActionEvent;
-import java.awt.event.InputEvent;
-import java.util.HashMap;
-import java.util.Iterator;
-
-import javax.swing.AbstractAction;
-import javax.swing.JComponent;
-import javax.swing.KeyStroke;
 
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.data.OID;
@@ -43,6 +35,12 @@ import client.gui.framework.browser.Browser;
 import client.gui.framework.session_mgr.BrowserModelListener;
 import vizard.genomics.glyph.AxisRulerGlyph;
 import vizard.glyph.FastRectGlyph;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.InputEvent;
+import java.util.HashMap;
+import java.util.Iterator;
 
 public class AxisSessionBookMarkGlyphController extends Controller implements BrowserModelListener{
 

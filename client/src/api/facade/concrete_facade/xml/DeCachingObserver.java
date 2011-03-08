@@ -28,6 +28,7 @@ package api.facade.concrete_facade.xml;
  * @author Les Foster
  * @version $Id$
  */
+
 import api.entity_model.access.observer.GenomeVersionObserver;
 import api.entity_model.access.observer.GenomeVersionObserverAdapter;
 import api.entity_model.access.observer.ModelMgrObserverAdapter;
@@ -36,11 +37,7 @@ import api.entity_model.model.annotation.Feature;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.entity_model.model.genetics.GenomeVersion;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Observer for addition/deletion of Genome Versions.

@@ -21,11 +21,10 @@
 */
 package client.shared.swing.table;
 
-import java.util.Date;
-
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
+import java.util.Date;
 
 /**
  *  The <code>SortableTableModel</code> implements the <code>TableModel</code>

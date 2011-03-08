@@ -19,14 +19,7 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package api.stub.data;
 
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.ResourceBundle;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
+import java.util.*;
 
 public class ControlledVocabUtil
 {
@@ -35,15 +28,15 @@ public class ControlledVocabUtil
 
   public static void main(String[] args) {
     Map htbl = ControlledVocabUtil.getControlledVocabulariesFromResource();
-    for (Iterator mapIter = htbl.keySet().iterator(); mapIter.hasNext(); ) {
-      String index  = (String)mapIter.next();
-      System.out.println("---------" + index + "---------");
-      List mappings = (List)htbl.get(index);
-      for (Iterator listIter = mappings.iterator(); listIter.hasNext(); ) {
-        ControlledVocabElement element = (ControlledVocabElement)listIter.next();
-        System.out.println(element.value + "=" + element.name);
+      for (Object o : htbl.keySet()) {
+          String index = (String) o;
+          System.out.println("---------" + index + "---------");
+          List mappings = (List) htbl.get(index);
+          for (Object mapping : mappings) {
+              ControlledVocabElement element = (ControlledVocabElement) mapping;
+              System.out.println(element.value + "=" + element.name);
+          }
       }
-    }
   }
 
   public static Map getControlledVocabulariesFromResource() {
@@ -55,8 +48,8 @@ public class ControlledVocabUtil
     ResourceBundle vocabBundle = ResourceBundle.getBundle(resourceName);
 
     // For each Vocab
-    for (Enumeration enum = vocabBundle.getKeys(); enum.hasMoreElements(); ) {
-      String index = (String)enum.nextElement();
+    for (Enumeration e = vocabBundle.getKeys(); e.hasMoreElements(); ) {
+      String index = (String)e.nextElement();
       String mapValues = vocabBundle.getString(index);
       List newVocab = new ArrayList();
       // For each element in the Vocab

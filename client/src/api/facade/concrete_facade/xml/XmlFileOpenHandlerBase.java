@@ -30,7 +30,7 @@ import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
 import shared.io.ExtensionFileFilter;
 
-import java.awt.Component;
+import java.awt.*;
 import java.io.File;
 /**
  *  Provides action handler to open a GAME XML file.

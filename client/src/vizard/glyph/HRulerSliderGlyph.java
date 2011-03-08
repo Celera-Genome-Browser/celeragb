@@ -26,8 +26,7 @@ import vizard.Glyph;
 import vizard.GraphicContext;
 import vizard.PickedList;
 
-import java.awt.Color;
-import java.awt.Rectangle;
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
 
 

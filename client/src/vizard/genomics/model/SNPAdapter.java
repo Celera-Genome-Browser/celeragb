@@ -21,7 +21,7 @@
 */
 package vizard.genomics.model;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

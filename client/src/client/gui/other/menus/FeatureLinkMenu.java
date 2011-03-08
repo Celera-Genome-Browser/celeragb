@@ -27,16 +27,15 @@ package client.gui.other.menus;
  * @author
  * @version $Id$
  */
+
 import api.entity_model.management.PropertyMgr;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.stub.data.GenomicProperty;
 import client.gui.other.util.URLLauncher;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
 
 public class FeatureLinkMenu extends JMenu {
   private GenomicProperty currentLinksProperty;

@@ -23,10 +23,7 @@ package vizard;
 
 import vizard.util.Preferences;
 
-import java.awt.Component;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.Shape;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashSet;
 

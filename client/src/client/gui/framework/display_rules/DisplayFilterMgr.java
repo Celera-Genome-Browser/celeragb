@@ -27,6 +27,7 @@ package client.gui.framework.display_rules;
  * @author
  * @version $Id$
  */
+
 import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.SessionMgr;
 import client.gui.framework.session_mgr.SessionModelListener;
@@ -35,14 +36,7 @@ import shared.preferences.PreferenceManager;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
+import java.util.*;
 
 
 public class DisplayFilterMgr extends PreferenceManager {
@@ -226,8 +220,8 @@ public class DisplayFilterMgr extends PreferenceManager {
     Properties allIntensityProperties=new Properties();
     Properties allPropertySortProperties=new Properties();
     //Separate all properties into the separate categories
-    for (Enumeration enum=allProperties.propertyNames();enum.hasMoreElements();) {
-      String tempKey = new String ((String)enum.nextElement());
+    for (Enumeration e=allProperties.propertyNames();e.hasMoreElements();) {
+      String tempKey = new String ((String)e.nextElement());
       StringTokenizer mainToken = new StringTokenizer(tempKey,".");
       if (tempKey!=null && mainToken!=null && tempKey!="") {
         String firstToken = new String (mainToken.nextToken());

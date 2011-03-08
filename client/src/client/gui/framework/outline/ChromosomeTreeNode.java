@@ -26,18 +26,25 @@
 
 package client.gui.framework.outline;
 
-import api.entity_model.model.genetics.*;
-import api.entity_model.model.assembly.*;
-import api.entity_model.model.fundtype.*;
-import api.entity_model.access.observer.*;
+import api.entity_model.access.observer.AxisObserverAdapter;
+import api.entity_model.access.observer.LoadRequestStatusObserverAdapter;
 import api.entity_model.model.alignment.Alignment;
-import javax.swing.tree.*;
+import api.entity_model.model.assembly.GenomicAxis;
+import api.entity_model.model.fundtype.*;
+import api.entity_model.model.genetics.Chromosome;
+
 import javax.swing.*;
-import java.text.*;
-import java.util.*;
-import java.awt.event.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
-import javax.swing.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 
 public class ChromosomeTreeNode extends GenomicEntityTreeNode {
@@ -197,7 +204,7 @@ public class ChromosomeTreeNode extends GenomicEntityTreeNode {
                      displayChildren();
                   }
               });
-              limitor.show();
+              limitor.setVisible(true);
            }
         });
 

@@ -19,22 +19,11 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.tools;
 
-import java.awt.AWTEvent;
-import java.awt.Button;
-import java.awt.Dialog;
-import java.awt.Dimension;
-import java.awt.Frame;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Label;
-import java.awt.Panel;
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
-
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 
 public class VersionChecker {
 
@@ -56,7 +45,7 @@ public class VersionChecker {
              System.exit(0);
          }
          else {  //really bad not 1.2
-             new Dialog1(version).show();
+             new Dialog1(version).setVisible(true);
          }
     }
   }

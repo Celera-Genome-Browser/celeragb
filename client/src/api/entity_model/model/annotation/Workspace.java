@@ -21,12 +21,7 @@
 */
 package api.entity_model.model.annotation;
 
-import api.entity_model.access.observer.FeatureObserver;
-import api.entity_model.access.observer.FeatureObserverAdapter;
-import api.entity_model.access.observer.GenomeVersionObserver;
-import api.entity_model.access.observer.GenomeVersionObserverAdapter;
-import api.entity_model.access.observer.ModelSynchronizationObserver;
-import api.entity_model.access.observer.WorkspaceObserver;
+import api.entity_model.access.observer.*;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.assembly.GenomicAxis;
@@ -37,21 +32,13 @@ import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.concrete_facade.xml.XmlWorkspaceFacade;
 import api.stub.data.OID;
 import api.stub.data.ReplacementRelationship;
-
 import shared.util.ThreadQueue;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 
 /**

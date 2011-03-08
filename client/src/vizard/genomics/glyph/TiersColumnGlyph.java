@@ -27,7 +27,7 @@ import vizard.glyph.IndexedParentGlyph;
 import vizard.glyph.TranslationGlyph;
 import vizard.model.WorldViewModel;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 public class TiersColumnGlyph extends ParentGlyph

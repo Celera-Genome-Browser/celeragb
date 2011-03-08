@@ -19,8 +19,8 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.shared.swing;
 
-import javax.swing.table.*;
-import javax.swing.JTable;
+import javax.swing.*;
+import javax.swing.table.TableModel;
 //import shared.gui.table;
 
 /**

@@ -28,6 +28,7 @@ package api.facade.concrete_facade.xml;
  * @author Les Foster
  * @version
  */
+
 import api.facade.abstract_facade.genetics.GenomeVersionLoader;
 import api.facade.facade_mgr.ConnectionStatus;
 import api.facade.facade_mgr.FacadeManager;
@@ -36,12 +37,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * This facade manager provides all facades to field requests for data
@@ -85,8 +81,8 @@ public class XmlServiceFacadeManager extends XmlFacadeManager {
         // NOTE: assumption here that the properties file has only props of the
         // name of interest plus .*  If large numbers of properties wind up
         // in this property file, this method will become inefficient.
-        for (Enumeration enum = urlProperties.propertyNames(); enum.hasMoreElements(); ) {
-          String nextName = (String)enum.nextElement();
+        for (Enumeration e = urlProperties.propertyNames(); e.hasMoreElements(); ) {
+          String nextName = (String)e.nextElement();
           if (nextName.startsWith(URL_SETTING_PREFIX)) {
             returnList.add(((String)urlProperties.get(nextName)).trim());
           } // Got a url setting.

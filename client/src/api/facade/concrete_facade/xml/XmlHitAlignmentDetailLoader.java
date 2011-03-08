@@ -29,11 +29,7 @@ import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.fundtype.AlignableGenomicEntity;
 import api.facade.abstract_facade.annotations.HSPFacade;
 import api.facade.abstract_facade.annotations.HitAlignmentDetailLoader;
-import api.stub.data.ControlledVocabUtil;
-import api.stub.data.GenomicProperty;
-import api.stub.data.NoData;
-import api.stub.data.OID;
-import api.stub.data.SubjectDefinition;
+import api.stub.data.*;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;

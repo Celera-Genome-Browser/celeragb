@@ -30,24 +30,14 @@ package api.facade.concrete_facade.xml;
 
 import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
 import api.facade.facade_mgr.FacadeManager;
-import api.stub.sequence.DNASequenceParser;
-import api.stub.sequence.DNASequenceStorage;
-import api.stub.sequence.Sequence;
-import api.stub.sequence.SequenceBuilder;
-import api.stub.sequence.SequenceFromFastaBuilder;
-import api.stub.sequence.SequenceList;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
+import api.stub.sequence.*;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
+
+import java.util.*;
 
 /**
  * A handler for XML events from a SAX parser, this class picks up all info

@@ -27,11 +27,12 @@ package client.shared.vizard;
  * @author
  * @version $Id$
  */
+
 import api.stub.sequence.Protein;
 import shared.genetics.BlocksSubstitutionMatrix;
 import shared.genetics.SubstitutionScoreMatrix;
 
-import java.awt.Color;
+import java.awt.*;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;

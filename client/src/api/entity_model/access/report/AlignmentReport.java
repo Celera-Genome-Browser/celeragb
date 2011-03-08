@@ -28,6 +28,7 @@ package api.entity_model.access.report;
  * @author Les Foster
  * @version $Id$
  */
+
 import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.annotation.HSPFeature;
 import api.entity_model.model.annotation.HitAlignmentFeature;
@@ -37,12 +38,7 @@ import api.stub.data.GenomicProperty;
 import api.stub.data.OID;
 import shared.util.WhiteSpaceUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Report object with items for subject and query.

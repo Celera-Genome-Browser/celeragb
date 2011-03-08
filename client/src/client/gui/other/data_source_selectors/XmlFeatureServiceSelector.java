@@ -37,13 +37,12 @@ import api.facade.facade_mgr.FacadeManager;
 import api.facade.facade_mgr.FacadeManagerBase;
 import client.gui.framework.session_mgr.SessionMgr;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collection;
 import java.util.Set;
-
-import javax.swing.JOptionPane;
 
 /**
  * GUI, callable via dynamic instantiation, that will let user enter a

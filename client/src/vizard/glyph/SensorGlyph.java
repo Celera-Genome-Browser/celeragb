@@ -24,7 +24,7 @@ package vizard.glyph;
 import vizard.GraphicContext;
 import vizard.PickedList;
 
-import java.awt.Rectangle;
+import java.awt.*;
 
 
 /**

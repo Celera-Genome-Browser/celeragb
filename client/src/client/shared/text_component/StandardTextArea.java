@@ -21,7 +21,7 @@
 */
 package client.shared.text_component;
 
-import javax.swing.JTextArea;
+import javax.swing.*;
 import javax.swing.text.Document;
 
 /**
@@ -47,7 +47,7 @@ public class StandardTextArea extends JTextArea {
     lFrame.setSize(400, 400);
     lFrame.setLocation(100, 100);
     lFrame.getContentPane().add(lArea);
-    lFrame.show();
+    lFrame.setVisible(true);
     lFrame.addWindowListener(new java.awt.event.WindowAdapter() {
       public void windowClosing(java.awt.event.WindowEvent we) {
         System.exit(0);

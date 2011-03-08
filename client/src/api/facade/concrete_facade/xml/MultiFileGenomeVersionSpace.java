@@ -27,13 +27,7 @@ import api.entity_model.model.genetics.Species;
 import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Title:        MultiFileGenomeVersionSpace

@@ -21,7 +21,7 @@
 */
 package vizard.util;
 
-import java.util.*;
+import java.util.ArrayList;
 
 /**
  * ObserverList is used to implement the "observable" part of

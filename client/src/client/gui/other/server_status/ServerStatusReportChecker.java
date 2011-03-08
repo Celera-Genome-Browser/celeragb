@@ -27,17 +27,15 @@ package client.gui.other.server_status;
  * @author Peter Davies
  * @version
  */
+
 import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-
 import java.net.HttpURLConnection;
 import java.net.URL;
-
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 
 
 public class ServerStatusReportChecker implements Runnable {

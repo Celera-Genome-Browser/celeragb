@@ -27,7 +27,7 @@ import vizard.genomics.model.SpliceSiteAdapter;
 import vizard.glyph.FastLineGlyph;
 import vizard.glyph.FastRectGlyph;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

@@ -30,12 +30,11 @@ import api.entity_model.model.fundtype.GenomicEntity;
 import client.gui.framework.session_mgr.BrowserModel;
 import client.gui.framework.session_mgr.BrowserModelListenerAdapter;
 
-import java.awt.Component;
-
-import javax.swing.JTree;
+import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreeCellRenderer;
+import java.awt.*;
 
 public class Renderer extends BrowserModelListenerAdapter implements TreeCellRenderer {
 

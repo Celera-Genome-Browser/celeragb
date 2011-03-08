@@ -33,7 +33,7 @@ package client.gui.framework.session_mgr;
 * Interface for objects which want to track the addition and
 *   destruction of browser windows.
 *
-* Initially writted by: Peter Davies
+* Initially written by: Peter Davies
 */
 public interface SessionModelListener extends GenericModelListener {
     /**

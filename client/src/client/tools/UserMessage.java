@@ -20,7 +20,7 @@
 package client.tools;
 
 import javax.swing.*;
-import java.util.*;
+import java.util.ResourceBundle;
 
 public class UserMessage {
 

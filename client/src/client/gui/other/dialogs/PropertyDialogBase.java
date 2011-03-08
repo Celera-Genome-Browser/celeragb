@@ -19,10 +19,12 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 package client.gui.other.dialogs;
 
-import client.gui.framework.session_mgr.*;
+import client.gui.framework.session_mgr.BrowserModel;
+import client.gui.framework.session_mgr.SessionMgr;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.WindowEvent;
 
 public class PropertyDialogBase extends JDialog {
 
@@ -63,7 +65,7 @@ public class PropertyDialogBase extends JDialog {
 
   public void dismissDialog()
   {
-    hide();
+    setVisible(false);
     dispose();
   }
 }

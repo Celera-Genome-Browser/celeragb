@@ -27,7 +27,7 @@ import client.gui.other.widget.SnpColors;
 import vizard.genomics.glyph.SNPPainter;
 import vizard.genomics.model.SNPAdapter;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 public class SNPGlyph extends GBGenomicGlyph

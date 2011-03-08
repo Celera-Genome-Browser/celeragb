@@ -29,13 +29,7 @@ package client.gui.other.xml.xml_writer;
 import api.entity_model.access.visitor.GenomicEntityVisitor;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.CuratedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.CuratedFeature;
-import api.entity_model.model.annotation.CuratedGene;
-import api.entity_model.model.annotation.CuratedTranscript;
-import api.entity_model.model.annotation.Feature;
-import api.entity_model.model.annotation.Workspace;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.GenomicEntity;
 import api.entity_model.model.fundtype.SingleAlignmentSingleAxis;
@@ -51,18 +45,11 @@ import api.stub.sequence.DNA;
 import api.stub.sequence.Sequence;
 import client.gui.framework.session_mgr.SessionMgr;
 
+import javax.swing.*;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.Vector;
-
-import javax.swing.JOptionPane;
+import java.util.*;
 
 
 public class XMLdumper {
