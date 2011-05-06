@@ -29,6 +29,7 @@ package client.gui.other.xml.xml_promotion;
  */
 
 import api.entity_model.model.genetics.GenomeVersion;
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
 import api.facade.concrete_facade.xml.GenomeVersionParser;
 
 import java.io.*;
@@ -54,8 +55,8 @@ public class GBWPromotionValidator {
     }
 
     public GenomeVersion getGenomeVersion(String gbwfilename){
-        GenomeVersionParser gp=new GenomeVersionParser();
-        GenomeVersion gv=gp.parseForGenomeVersion(gbwfilename);
+        GenomeVersionFactory gp=new GenomeVersionParser();
+        GenomeVersion gv=gp.getGenomeVersions(gbwfilename).get( 0 );
         System.out.println(gv.getAssemblyVersion());
         System.out.println(gv.getSpecies().toString());
         return gv;

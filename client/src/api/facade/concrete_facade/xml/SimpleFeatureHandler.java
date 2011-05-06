@@ -25,10 +25,10 @@
 
 package api.facade.concrete_facade.xml;
 
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.NonHierarchicalFeatureModel;
-import api.facade.concrete_facade.xml.model.SimpleFeatureModel;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.NonHierarchicalFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.SimpleFeatureBean;
 import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
 import api.facade.concrete_facade.xml.sax_support.ElementContext;
 import api.facade.concrete_facade.xml.sax_support.FeatureHandlerBase;
@@ -109,7 +109,7 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
     /**
      * Builds the model representing the current span.
      */
-    public FeatureModel createModel() {
+    public FeatureBean createModel() {
       if (isHierarchicalFeature())
         return createSimpleFeatureModel();
       else
@@ -145,7 +145,7 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
 
           lIDStr = (String)lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE);
           if (lIDStr != null)
-            mOIDOfSubjectSequence = getOIDParser().parseFeatureOIDTemplateMethod(lIDStr);
+            mOIDOfSubjectSequence = getOIDParser().parseFeatureOID(lIDStr);
 
         } // The subject sequence.
         else if (mSeqRelType != null) {
@@ -153,9 +153,9 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
           // will be construed as a relationship to an Axis-of-alignment.
           lIDStr = (String)lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE);
           if (mSequenceAlignment != null)
-            mOIDOfAlignment = getOIDParser().parseContigOIDTemplateMethod(mSequenceAlignment.adjustID(lIDStr));
+            mOIDOfAlignment = getOIDParser().parseContigOID(mSequenceAlignment.adjustID(lIDStr));
           else
-            mOIDOfAlignment = getOIDParser().parseContigOIDTemplateMethod(lIDStr);
+            mOIDOfAlignment = getOIDParser().parseContigOID(lIDStr);
 
         } // The query IS the axis sequence.
 
@@ -163,14 +163,14 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
       else if (foundCode == CEFParseHelper.EVIDENCE_CODE) {
         String evidenceIDStr = (String)lContext.ancestorAttributesNumber(0).get(RESULT_ATTRIBUTE);
         if (evidenceIDStr != null) {
-          OID evidenceOID = getOIDParser().parseEvidenceOIDTemplateMethod(evidenceIDStr);
+          OID evidenceOID = getOIDParser().parseEvidenceOID(evidenceIDStr);
           mEvidenceOIDList.add(evidenceOID);
         } // Got evidence id.
       } // Got an evidence.
       else if (foundCode == CEFParseHelper.FEATURE_SPAN_CODE || foundCode == CEFParseHelper.RESULT_SPAN_CODE) {
         lIDStr = (String)lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE);
         if (lIDStr != null)
-          mFeatureOID = getOIDParser().parseFeatureOIDTemplateMethod(lIDStr);
+          mFeatureOID = getOIDParser().parseFeatureOID(lIDStr);
 
         if (foundCode == CEFParseHelper.FEATURE_SPAN_CODE)
           mIsHumanCurated = true;
@@ -339,8 +339,8 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
     /**
      * Creates a simple feature, or a feature which belongs in a hierarchy.
      */
-    private SimpleFeatureModel createSimpleFeatureModel() {
-        SimpleFeatureModel model = new SimpleFeatureModel(mFeatureOID, mOIDOfAlignment, mReadFacadeManager);
+    private SimpleFeatureBean createSimpleFeatureModel() {
+        SimpleFeatureBean model = new SimpleFeatureBean(mFeatureOID, mOIDOfAlignment, mReadFacadeManager);
         model.setScore(mScore);
         mScore = null;
         model.setSubjectSequenceOid(mOIDOfSubjectSequence);
@@ -426,8 +426,8 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
      * Creates a non-hierarchical feature, or a feature which can stand alone
      * with no parent, but also has no children.
      */
-    private CompoundFeatureModel createCompoundFeatureModel() {
-        NonHierarchicalFeatureModel model = new NonHierarchicalFeatureModel(mFeatureOID, mOIDOfAlignment, mReadFacadeManager);
+    private CompoundFeatureBean createCompoundFeatureModel() {
+        NonHierarchicalFeatureBean model = new NonHierarchicalFeatureBean(mFeatureOID, mOIDOfAlignment, mReadFacadeManager);
         model.setScore(mScore);
         mScore = null;
 
@@ -562,6 +562,9 @@ public class SimpleFeatureHandler extends FeatureHandlerBase {
 
 /*
   $Log$
+  Revision 1.1  2006/11/09 21:35:56  rjturner
+  Initial upload of source
+
   Revision 1.56  2002/11/07 16:06:14  lblick
   Removed obsolete imports and unused local variables.
 

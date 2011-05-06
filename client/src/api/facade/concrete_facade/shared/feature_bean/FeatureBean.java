@@ -27,7 +27,7 @@
  * @author Les Foster
  * @version $Id$
  */
-package api.facade.concrete_facade.xml.model;
+package api.facade.concrete_facade.shared.feature_bean;
 
 import api.entity_model.management.ModelMgr;
 import api.entity_model.management.StandardEntityFactory;
@@ -35,10 +35,10 @@ import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.fundtype.*;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
-import api.facade.concrete_facade.xml.XmlFacadeManager;
-import api.facade.concrete_facade.xml.sax_support.PropertySource;
+import api.facade.concrete_facade.shared.PropertySource;
 import api.facade.concrete_facade.xml.sax_support.ReplacedData;
 import api.facade.facade_mgr.FacadeManager;
+import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.FeatureDisplayPriority;
 import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
@@ -54,7 +54,7 @@ import java.util.List;
  * Holds all data to model a feature, and acts as a base class for
  * other features.  Includes some abstract methods.
  */
-public abstract class FeatureModel implements Serializable, Comparable {
+public abstract class FeatureBean implements Serializable, Comparable {
 
   //-------------------------------------CONSTANTS
   private static String BAD_CURATED_TYPE = "Invalid Human Curated span type.  Please refer to the Genomics Exchange Format document for a list of designated Human Curated types.  Type Given Was ";
@@ -78,8 +78,8 @@ public abstract class FeatureModel implements Serializable, Comparable {
   private List replacedList = new ArrayList();
   private String individualExpectValue;
   private String summaryExpectValue;
-  private XmlFacadeManager readFacadeManager;
-  private FeatureModel parentModel;
+  private FacadeManagerBase readFacadeManager;
+  private FeatureBean parentModel;
   private boolean curated;
   private GenomicEntityComment[] featureComments;
 
@@ -91,7 +91,7 @@ public abstract class FeatureModel implements Serializable, Comparable {
   /**
    * Simple constructor takes the OID of the axis to which this will align.
    */
-  public FeatureModel(OID featureOID, OID axisOID, XmlFacadeManager readFacadeManager) {
+  public FeatureBean(OID featureOID, OID axisOID, FacadeManagerBase readFacadeManager) {
 
       this.readFacadeManager = readFacadeManager;
       this.featureOID = featureOID;
@@ -151,7 +151,7 @@ public abstract class FeatureModel implements Serializable, Comparable {
   /**
    * Set the parent.  Parent must be set, even if just to null.
    */
-  public void setParent(FeatureModel parentModel) {
+  public void setParent(FeatureBean parentModel) {
       this.parentModel = parentModel;
       parentHasBeenSet = true;
   } // End method: setParent
@@ -231,7 +231,7 @@ public abstract class FeatureModel implements Serializable, Comparable {
   public abstract Range calculateFeatureRange();
 
   /** Access the parent. */
-  public FeatureModel getParent() { return this.parentModel; }
+  public FeatureBean getParent() { return this.parentModel; }
 
   public class LocalEntityFactory extends StandardEntityFactory {
     public LocalEntityFactory () {
@@ -426,10 +426,10 @@ public abstract class FeatureModel implements Serializable, Comparable {
   public int compareTo(Object other) {
 
     // Set less than if wrong type.
-    if (! (other instanceof FeatureModel))
+    if (! (other instanceof FeatureBean))
       return -1;
 
-    FeatureModel otherModel = (FeatureModel)other;
+    FeatureBean otherModel = (FeatureBean)other;
 
     int retval = 0;
 

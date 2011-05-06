@@ -28,9 +28,13 @@
  */
 package api.facade.concrete_facade.xml;
 
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.GeneFeatureModel;
+import api.facade.concrete_facade.shared.ConcreteFacadeConstants;
+import api.facade.concrete_facade.shared.ContainsOidCriterion;
+import api.facade.concrete_facade.shared.FeatureCriterion;
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.GeneFeatureBean;
 import api.facade.concrete_facade.xml.sax_support.*;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomicEntityComment;
@@ -90,13 +94,13 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
     public static void main(String[] lArgs) {
       OIDParser lOidParser = (OIDParser)new FeatureXmlLoader();
       SingleFeatureHandler lHandler = new SingleFeatureHandler("c:/gbtestfiles/test_standalone_feature_workspace/all_features_305.gbf", null, lOidParser);
-      List lMatchList = lHandler.getModelsForCriterion(new ContainsOidCriterion(lOidParser.parseFeatureOIDTemplateMethod("INTERNAL:8000001247834")));
+      List lMatchList = lHandler.getModelsForCriterion(new ContainsOidCriterion(lOidParser.parseFeatureOID("INTERNAL:8000001247834")));
       if (lMatchList.size() == 0)
         System.out.println("No model found for oid INTERNAL:8000001247834");
       else {
-        FeatureModel lModel = null;
+        FeatureBean lModel = null;
         for (Iterator it = lMatchList.iterator(); it.hasNext(); ) {
-          lModel = (FeatureModel)it.next();
+          lModel = (FeatureBean)it.next();
           System.out.println("Analysis type "+lModel.getAnalysisType()+" for "+lModel.getClass().getName());
         } // For all models returned.
       } // Got something
@@ -187,7 +191,7 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
         return;
 
       if (lFoundCode == CEFParseHelper.ANNOTATION_CODE) {
-        mGeneOID = mOIDParser.parseFeatureOIDTemplateMethod(
+        mGeneOID = mOIDParser.parseFeatureOID(
             (String)(lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE)));
         mCompoundModels.clear();
         mInGene = true;
@@ -217,7 +221,7 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
           ((CompoundFeatureHandler)getDelegate()).setAnalysisSource(mAnalysisSource);
           ((CompoundFeatureHandler)getDelegate()).setResultSetType(mResultSetType);
         } // Got a result set.
-        CompoundFeatureModel model = ((CompoundFeatureHandler)getDelegate()).createModel();
+        CompoundFeatureBean model = ((CompoundFeatureHandler)getDelegate()).createModel();
 
         if (mInGene)
           mCompoundModels.add(model);
@@ -239,7 +243,7 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
 
         // Time to build the annotation model.
         OID lGenomicAxisOID = ((CompoundFeatureHandler)getDelegate()).getOIDOfAlignment();
-        GeneFeatureModel model = new GeneFeatureModel(mGeneOID, lGenomicAxisOID, mReadFacadeManager);
+        GeneFeatureBean model = new GeneFeatureBean(mGeneOID, lGenomicAxisOID, mReadFacadeManager);
 
         model.setAnnotationName(mAnnotationName);
         mAnnotationName = null;
@@ -250,7 +254,7 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
           model.setDiscoveryEnvironment(mAnnotationSource);
         else {
           if (model.getOID().isScratchOID()){
-            model.setDiscoveryEnvironment("Curation");
+            model.setDiscoveryEnvironment(ConcreteFacadeConstants.CURATION_DISCOVERY_ENVIRONMENT);
           } else{
             model.setDiscoveryEnvironment("Promoted");
           } // Not scratch.
@@ -258,9 +262,9 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
         mAnnotationSource = null;
 
         // Add all children to the model which have been encountered here.
-        CompoundFeatureModel childModel = null;
+        CompoundFeatureBean childModel = null;
         for (Iterator it = mCompoundModels.iterator(); it.hasNext(); ) {
-          childModel = (CompoundFeatureModel)it.next();
+          childModel = (CompoundFeatureBean)it.next();
           model.addChild(childModel);
           childModel.setParent(model);
         } // For all contained models.
@@ -376,7 +380,7 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
      * Find list of features that match the "fit" criteria.  This
      * could include the model itself, or any of its descendants.
      */
-    private List listOfMatchingFeaturesIn(FeatureModel model) {
+    private List listOfMatchingFeaturesIn(FeatureBean model) {
       List returnList = new ArrayList();
 
       List candidateList = mFeatureCriterion.allMatchingIn(model);
@@ -385,9 +389,9 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
           returnList.addAll(candidateList);
         } // No alignemnt.
         else {
-          FeatureModel nextModel = null;
+          FeatureBean nextModel = null;
           for (Iterator it = candidateList.iterator(); it.hasNext(); ) {
-            nextModel = (FeatureModel)it.next();
+            nextModel = (FeatureBean)it.next();
             if (mSequenceAlignmentRange.contains(nextModel.calculateFeatureRange())) {
               returnList.add(nextModel);
             } // Agrees with alignment.
@@ -402,6 +406,9 @@ public class SingleFeatureHandler extends FeatureHandlerBase {
 
 /*
  $Log$
+ Revision 1.2  2011/03/08 16:16:39  saffordt
+ Java 1.6 changes
+
  Revision 1.1  2006/11/09 21:35:56  rjturner
  Initial upload of source
 

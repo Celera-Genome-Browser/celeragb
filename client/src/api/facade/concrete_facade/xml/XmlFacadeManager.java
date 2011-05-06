@@ -34,7 +34,7 @@ import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.abstract_facade.genetics.ControlledVocabService;
 import api.facade.abstract_facade.genetics.GenomeVersionLoader;
 import api.facade.abstract_facade.genetics.SpeciesLoader;
-import api.facade.concrete_facade.xml.sax_support.PropertySource;
+import api.facade.concrete_facade.shared.PropertySource;
 import api.facade.facade_mgr.FacadeManagerBase;
 
 import java.util.HashMap;

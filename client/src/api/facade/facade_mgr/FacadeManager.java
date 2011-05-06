@@ -208,7 +208,8 @@ public class FacadeManager {
     try {
        // If this protocol does not have a corresponding concrete facade in the list create it.
        if (concreteFacade==null) {
-        concreteFacade = (FacadeManagerBase)((Class)concreteFacadesClasses.get(protocol)).newInstance();
+    	Class fmbc = (Class)concreteFacadesClasses.get(protocol);
+        concreteFacade = (FacadeManagerBase)fmbc.newInstance();
         concreteFacades.put(protocol,concreteFacade);
        }
     }

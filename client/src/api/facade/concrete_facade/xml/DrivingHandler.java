@@ -28,9 +28,13 @@
  */
 package api.facade.concrete_facade.xml;
 
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.GeneFeatureModel;
+import api.facade.concrete_facade.shared.ConcreteFacadeConstants;
+import api.facade.concrete_facade.shared.ContainsInDescriptionCriterion;
+import api.facade.concrete_facade.shared.ContainsOidCriterion;
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.GeneFeatureBean;
 import api.facade.concrete_facade.xml.sax_support.*;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomicEntityComment;
@@ -166,7 +170,7 @@ public class DrivingHandler extends FeatureHandlerBase {
     } // End constructor
 
     /**
-     * Overridding constructor allows load of contents of a string buffer
+     * Overriding constructor allows load of contents of a string buffer
      * containing XML.
      */
     public DrivingHandler(StringBuffer lContents, XmlFacadeManager readFacadeManager, OIDParser lOIDParser) {
@@ -296,21 +300,21 @@ public class DrivingHandler extends FeatureHandlerBase {
     /**
      * Returns a feature model, given the OID.
      */
-    public FeatureModel getOrLoadModelForOid(OID featureOID) {
-      FeatureModel returnModel = null;
+    public FeatureBean getOrLoadModelForOid(OID featureOID) {
+      FeatureBean returnModel = null;
       if (mFeatureOIDRegistry.containsKey(featureOID)) {
-        returnModel = (FeatureModel)mFeatureOIDRegistry.get(featureOID);
+        returnModel = (FeatureBean)mFeatureOIDRegistry.get(featureOID);
         if ((returnModel == null) && (mSource != null)) {
 
           SingleFeatureHandler singleFeatureHandler = new SingleFeatureHandler(mSource, mSequenceAlignment, getOIDParser());
           List lFeatureList = singleFeatureHandler.getModelsForCriterion(new ContainsOidCriterion(featureOID));
-          FeatureModel rootModel = null;
+          FeatureBean rootModel = null;
           for (Iterator it = lFeatureList.iterator(); it.hasNext(); ) {
-            rootModel = (FeatureModel)it.next();
+            rootModel = (FeatureBean)it.next();
             while (rootModel.getParent() != null)
               rootModel = rootModel.getParent();
-            this.recursivelyRegisterFeatures((CompoundFeatureModel)rootModel, true); // Only do this once per root hierarchy!
-            returnModel = (FeatureModel)mFeatureOIDRegistry.get(featureOID); // Try again!
+            this.recursivelyRegisterFeatures((CompoundFeatureBean)rootModel, true); // Only do this once per root hierarchy!
+            returnModel = (FeatureBean)mFeatureOIDRegistry.get(featureOID); // Try again!
           } // For all found feature models.
         } // Need to load the model.
       } // Loader knows about feature
@@ -322,8 +326,8 @@ public class DrivingHandler extends FeatureHandlerBase {
      * the OID is for a root feature.  So call with root's OID!
      */
     public void removeFeatureFromCache(OID oid) {
-      CompoundFeatureModel model;
-      if (null != (model = (CompoundFeatureModel)mFeatureOIDRegistry.get(oid))) {
+      CompoundFeatureBean model;
+      if (null != (model = (CompoundFeatureBean)mFeatureOIDRegistry.get(oid))) {
         eliminateFromFeatureOidRegistry(model);
       } // Got it
     } // End method
@@ -343,11 +347,11 @@ public class DrivingHandler extends FeatureHandlerBase {
     /**
      * Returns a gene feature model, given an accession number.
      */
-    public GeneFeatureModel getModelForGeneAccession(String geneAccession) {
+    public GeneFeatureBean getModelForGeneAccession(String geneAccession) {
       try {
         OID geneOID = (OID)mGeneAccessionRegistry.get(geneAccession);
         if (geneOID != null)
-          return (GeneFeatureModel)getOrLoadModelForOid(geneOID);
+          return (GeneFeatureBean)getOrLoadModelForOid(geneOID);
         else
           return null;
       } catch (ClassCastException cce) {
@@ -365,7 +369,7 @@ public class DrivingHandler extends FeatureHandlerBase {
       String returnGeneName = null;
       OID geneOID = (OID)mTranscriptToGeneRegistry.get(oid);
       if (geneOID != null) {
-        GeneFeatureModel model = (GeneFeatureModel)getOrLoadModelForOid(geneOID);
+        GeneFeatureBean model = (GeneFeatureBean)getOrLoadModelForOid(geneOID);
         if (model != null)
           returnGeneName = model.getAnnotationName();
       } // Found a gene for the transcript.
@@ -376,11 +380,11 @@ public class DrivingHandler extends FeatureHandlerBase {
     /**
      * Returns a transcript model, given accession number.
      */
-    public CompoundFeatureModel getModelForInternalAccession(String accession) {
+    public CompoundFeatureBean getModelForInternalAccession(String accession) {
       try {
         OID featureOID = (OID)mInternalAccessionRegistry.get(accession);
         if (featureOID != null)
-          return (CompoundFeatureModel)getOrLoadModelForOid(featureOID);
+          return (CompoundFeatureBean)getOrLoadModelForOid(featureOID);
         else
           return null;
       } catch (ClassCastException cce) {
@@ -437,7 +441,7 @@ public class DrivingHandler extends FeatureHandlerBase {
         return;
 
       if (lFoundCode == CEFParseHelper.ANNOTATION_CODE) {
-        mGeneOID = mOIDParser.parseFeatureOIDTemplateMethod(
+        mGeneOID = mOIDParser.parseFeatureOID(
             (String)(lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE)));
         mCompoundModels.clear();
         mInGene = true;
@@ -457,20 +461,20 @@ public class DrivingHandler extends FeatureHandlerBase {
         } // IDs not given.
 
         // id="the workspace thing that obsoletes something NOT in ws."
-        OID lObsoletingOid = mOIDParser.parseFeatureOIDTemplateMethod(lIdStr);
+        OID lObsoletingOid = mOIDParser.parseFeatureOID(lIdStr);
 
         // obsoleted_id="the non-workspace thing (promoted) that gets obsoleted"
         //   That makes this OID an evidence.
-        OID lObsoletedOid = mOIDParser.parseEvidenceOIDTemplateMethod(lObsoletedIdStr);
+        OID lObsoletedOid = mOIDParser.parseEvidenceOID(lObsoletedIdStr);
 
         // query_seq_relationship_id="the axis to which obsoleting and obsoleted should align"
         //   That makes this an axis OID (previously: contig OID).
-        OID lGenomicAxisOid = mOIDParser.parseContigOIDTemplateMethod(lQuerySeqRelIdStr);
+        OID lGenomicAxisOid = mOIDParser.parseContigOID(lQuerySeqRelIdStr);
 
         if (lObsoletingOid.isScratchOID() && (! lObsoletedOid.isScratchOID())) {
-          GeneFeatureModel model = new GeneFeatureModel(lObsoletingOid, lGenomicAxisOid, mReadFacadeManager);
+          GeneFeatureBean model = new GeneFeatureBean(lObsoletingOid, lGenomicAxisOid, mReadFacadeManager);
           model.setDescription("GENE WITH NO TRANSCRIPTS");
-          model.setDiscoveryEnvironment("Curation");
+          model.setDiscoveryEnvironment(ConcreteFacadeConstants.CURATION_DISCOVERY_ENVIRONMENT);
           model.setCurated(true);
 //BIG ASSUMPTION HERE>
           // Range is 0-10.
@@ -504,7 +508,7 @@ public class DrivingHandler extends FeatureHandlerBase {
         String seqLength = (String)(lContext.ancestorAttributesNumber(0).get(LENGTH_ATTRIBUTE));
         String seqId = (String)(lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE));
         if (seqId != null && seqLength != null) {
-          OID seqOid = mOIDParser.parseFeatureOIDTemplateMethod(seqId);
+          OID seqOid = mOIDParser.parseFeatureOID(seqId);
           try {
             Integer lengthOfSeq = new Integer(seqLength);
             mSequenceLengthMap.put(seqOid, lengthOfSeq);
@@ -516,7 +520,7 @@ public class DrivingHandler extends FeatureHandlerBase {
       else if (lFoundCode == CEFParseHelper.RESIDUES_CODE) {
         String seqId = (String)(lContext.ancestorAttributesNumber(1).get(ID_ATTRIBUTE));
         if (seqId != null) {
-          OID seqOid = mOIDParser.parseFeatureOIDTemplateMethod(seqId);
+          OID seqOid = mOIDParser.parseFeatureOID(seqId);
           mSubjectSeqOids.add(seqOid);
         } // Got seq id.
       } // Pickup sequence oid.
@@ -545,7 +549,7 @@ public class DrivingHandler extends FeatureHandlerBase {
           ((CompoundFeatureHandler)getDelegate()).setAnalysisSource(mAnalysisSource);
           ((CompoundFeatureHandler)getDelegate()).setResultSetType(mResultSetType);
         } // Got a result set.
-        CompoundFeatureModel model = ((CompoundFeatureHandler)getDelegate()).createModel();
+        CompoundFeatureBean model = ((CompoundFeatureHandler)getDelegate()).createModel();
 
         if (withinRequiredRange(model)) {
           recursivelyRegisterFeatures(model, meetsCacheCriteria(model));
@@ -576,7 +580,7 @@ public class DrivingHandler extends FeatureHandlerBase {
 
         // Time to build the annotation model.
         OID lGenomicAxisOID = ((CompoundFeatureHandler)getDelegate()).getOIDOfAlignment();
-        GeneFeatureModel model = new GeneFeatureModel(mGeneOID, lGenomicAxisOID, mReadFacadeManager);
+        GeneFeatureBean model = new GeneFeatureBean(mGeneOID, lGenomicAxisOID, mReadFacadeManager);
 
         model.setAnnotationName(mAnnotationName);
         mAnnotationName = null;
@@ -587,7 +591,7 @@ public class DrivingHandler extends FeatureHandlerBase {
           model.setDiscoveryEnvironment(mAnnotationSource);
         else {
           if (model.getOID().isScratchOID()){
-            model.setDiscoveryEnvironment("Curation");
+            model.setDiscoveryEnvironment(ConcreteFacadeConstants.CURATION_DISCOVERY_ENVIRONMENT);
           } else{
             model.setDiscoveryEnvironment("Promoted");
           } // Not scratch.
@@ -595,9 +599,9 @@ public class DrivingHandler extends FeatureHandlerBase {
         mAnnotationSource = null;
 
         // Add all children to the model which have been encountered here.
-        CompoundFeatureModel childModel = null;
+        CompoundFeatureBean childModel = null;
         for (Iterator it = mCompoundModels.iterator(); it.hasNext(); ) {
-          childModel = (CompoundFeatureModel)it.next();
+          childModel = (CompoundFeatureBean)it.next();
           model.addChild(childModel);
           childModel.setParent(model);
           mTranscriptToGeneRegistry.put(childModel.getOID(), mGeneOID);
@@ -723,7 +727,7 @@ public class DrivingHandler extends FeatureHandlerBase {
       List features = new ArrayList();
       OID featureAxisOID = null;
       OID featureOID = null;
-      FeatureModel validFeature = null;
+      FeatureBean validFeature = null;
 
       // looking for only those axis alignments that have the same axis oid as the input
       // axisOID
@@ -766,11 +770,11 @@ public class DrivingHandler extends FeatureHandlerBase {
 
       mPreviousAxisOidToCache = mAxisOidToCache;
 
-      FeatureModel lNextModel = null;
+      FeatureBean lNextModel = null;
       List lJetisonList = new ArrayList();
       lJetisonList.addAll(mFeatureOIDRegistry.values());
       for (Iterator it = lJetisonList.iterator(); it.hasNext(); ) {
-        lNextModel = (FeatureModel)it.next();
+        lNextModel = (FeatureBean)it.next();
         eliminateFromFeatureOidRegistry(lNextModel);
       } // For all root features currently loaded.
 
@@ -784,7 +788,7 @@ public class DrivingHandler extends FeatureHandlerBase {
       List features = new ArrayList();
       OID featureAxisOID = null;
       OID featureOID = null;
-      FeatureModel validFeature = null;
+      FeatureBean validFeature = null;
       Range nextRange = null;
       boolean featureAdded = false;
 
@@ -841,11 +845,11 @@ public class DrivingHandler extends FeatureHandlerBase {
     private void buildModelRegistry() {
       // First, look at root human curated features.
       OID featureOID = null;
-      CompoundFeatureModel compoundModel = null;
+      CompoundFeatureBean compoundModel = null;
       boolean registerModels = false;
       for (Iterator it = mRootCuratedFeatures.iterator(); it.hasNext(); ) {
         featureOID = (OID)it.next();
-        compoundModel = (CompoundFeatureModel)mFeatureOIDRegistry.get(featureOID);
+        compoundModel = (CompoundFeatureBean)mFeatureOIDRegistry.get(featureOID);
         if (compoundModel != null) {
           registerModels = meetsCacheCriteria(compoundModel);
           recursivelyRegisterFeatures(compoundModel, registerModels);
@@ -856,7 +860,7 @@ public class DrivingHandler extends FeatureHandlerBase {
       // to deal with here.
       for (Iterator it = mRootPrecomputedFeatures.iterator(); it.hasNext(); ) {
         featureOID = (OID)it.next();
-        compoundModel = (CompoundFeatureModel)mFeatureOIDRegistry.get(featureOID);
+        compoundModel = (CompoundFeatureBean)mFeatureOIDRegistry.get(featureOID);
         if (compoundModel != null) {
           registerModels = meetsCacheCriteria(compoundModel);
           recursivelyRegisterFeatures(compoundModel, registerModels);
@@ -870,14 +874,14 @@ public class DrivingHandler extends FeatureHandlerBase {
      * lookup by their oids.  It also keeps track of OIDs referenced BY these
      * features.
      */
-    private void recursivelyRegisterFeatures(CompoundFeatureModel compoundModel, boolean registerModels) {
+    private void recursivelyRegisterFeatures(CompoundFeatureBean compoundModel, boolean registerModels) {
 
       String annotationName = compoundModel.getAnnotationName();
-      if (compoundModel instanceof GeneFeatureModel) {
+      if (compoundModel instanceof GeneFeatureBean) {
         if (! mGeneAccessionRegistry.containsKey(annotationName))
           mGeneAccessionRegistry.put(annotationName, compoundModel.getOID());
       } // Got a gene.
-      else if (compoundModel instanceof CompoundFeatureModel) {
+      else if (compoundModel instanceof CompoundFeatureBean) {
         if (! mInternalAccessionRegistry.containsKey(annotationName))
           mInternalAccessionRegistry.put(annotationName, compoundModel.getOID());
       } // Got a transcript
@@ -888,14 +892,14 @@ public class DrivingHandler extends FeatureHandlerBase {
       // Register OID of reference.
       mReferencedOIDSet.add(compoundModel.getAxisOfAlignment());
 
-      FeatureModel model = null;
+      FeatureBean model = null;
 
       for (Iterator it = compoundModel.getChildren().iterator(); it.hasNext(); ) {
-        model = (FeatureModel)it.next();
+        model = (FeatureBean)it.next();
         registerOidAndOrModel(model, registerModels);
 
-        if (model instanceof CompoundFeatureModel)
-          recursivelyRegisterFeatures((CompoundFeatureModel)model, registerModels);
+        if (model instanceof CompoundFeatureBean)
+          recursivelyRegisterFeatures((CompoundFeatureBean)model, registerModels);
         else
           // Register referenced OID, so that all applicable axes may be tracked.
           mReferencedOIDSet.add(model.getAxisOfAlignment());
@@ -909,7 +913,7 @@ public class DrivingHandler extends FeatureHandlerBase {
      * this handle applies.  That range could be the entire axis, or
      * it could be just an aligned portion.
      */
-    private boolean withinRequiredRange(FeatureModel model) {
+    private boolean withinRequiredRange(FeatureBean model) {
       // No sequence alignment implies that entire axis of features is required.
       if (mSequenceAlignmentRange == null) {
         return true;
@@ -924,7 +928,7 @@ public class DrivingHandler extends FeatureHandlerBase {
      * Places the OID of the model in the registry.  If it meets caching criteria,
      * place the model into the registry as the OID's value.
      */
-    private void registerOidAndOrModel(FeatureModel lModel, boolean lRegisterModels) {
+    private void registerOidAndOrModel(FeatureBean lModel, boolean lRegisterModels) {
       OID lKey = lModel.getOID();
       if (lRegisterModels) {
         if (mFeatureOIDRegistry.containsKey(lKey))
@@ -942,12 +946,12 @@ public class DrivingHandler extends FeatureHandlerBase {
     } // End method
 
     /** If the model was in the registry, return it.  Otherwise, do not force load. */
-    private FeatureModel getModelForOidIfPreviouslyLoaded(OID featureOID) {
-      return (FeatureModel)mFeatureOIDRegistry.get(featureOID);
+    private FeatureBean getModelForOidIfPreviouslyLoaded(OID featureOID) {
+      return (FeatureBean)mFeatureOIDRegistry.get(featureOID);
     } // End method
 
     /** Tests input model.  Is it one to cache this time through load? */
-    private boolean meetsCacheCriteria(FeatureModel lModel) {
+    private boolean meetsCacheCriteria(FeatureBean lModel) {
 
       // Keep all models, regardless of range in which they appear.
       if (mKeepAllFeaturesFromParse)
@@ -993,10 +997,10 @@ public class DrivingHandler extends FeatureHandlerBase {
      * from feature OID registry.  This override avoids costly casting and
      * instance-of tests.
      */
-    private void eliminateFromFeatureOidRegistry(CompoundFeatureModel lModel) {
+    private void eliminateFromFeatureOidRegistry(CompoundFeatureBean lModel) {
       // Recurse for child objects.
       for (Iterator it = lModel.getChildren().iterator(); it.hasNext(); ) {
-        eliminateFromFeatureOidRegistry((FeatureModel)it.next());
+        eliminateFromFeatureOidRegistry((FeatureBean)it.next());
       } // For all children.
 
       // Remove the old model ref, but keep the key in the registry.
@@ -1010,14 +1014,14 @@ public class DrivingHandler extends FeatureHandlerBase {
      * Takes the model given and all its descendants and eliminates ref
      * from feature OID registry.
      */
-    private void eliminateFromFeatureOidRegistry(FeatureModel lModel) {
+    private void eliminateFromFeatureOidRegistry(FeatureBean lModel) {
       if (lModel == null)
         return;
 
       // Recurse for child objects.
-      if (lModel instanceof CompoundFeatureModel) {
-        for (Iterator it = ((CompoundFeatureModel)lModel).getChildren().iterator(); it.hasNext(); ) {
-          eliminateFromFeatureOidRegistry((FeatureModel)it.next());
+      if (lModel instanceof CompoundFeatureBean) {
+        for (Iterator it = ((CompoundFeatureBean)lModel).getChildren().iterator(); it.hasNext(); ) {
+          eliminateFromFeatureOidRegistry((FeatureBean)it.next());
         } // For all children.
       } // May have children
 
@@ -1032,6 +1036,9 @@ public class DrivingHandler extends FeatureHandlerBase {
 
 /*
  $Log$
+ Revision 1.2  2011/03/08 16:16:39  saffordt
+ Java 1.6 changes
+
  Revision 1.1  2006/11/09 21:35:56  rjturner
  Initial upload of source
 

@@ -30,7 +30,7 @@ import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.fundtype.AlignableGenomicEntity;
 import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.abstract_facade.annotations.HitAlignmentFacade;
-import api.facade.concrete_facade.xml.model.FeatureModel;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
 import api.facade.concrete_facade.xml.sax_support.ReplacedData;
 import api.stub.data.*;
 import api.stub.geometry.Range;
@@ -178,7 +178,7 @@ public class XmlFeatureFacade extends XmlGenomicFacade
           returnMap.put(FeatureFacade.FEATURE_TYPE_PROP,
             createWithPropsMgr( FeatureFacade.FEATURE_TYPE_PROP,
                                 entity,
-                                FeatureModel.decodeEntityType(analysisType).getEntityName()));
+                                FeatureBean.decodeEntityType(analysisType).getEntityName()));
 
       } // No analysis type prev.
 

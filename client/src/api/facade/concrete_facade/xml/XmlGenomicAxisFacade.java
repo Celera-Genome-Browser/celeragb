@@ -38,8 +38,8 @@ import api.entity_model.model.fundtype.LoadRequest;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.assembly.GenomicAxisLoader;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
 import api.stub.data.FeatureDisplayPriority;
 import api.stub.data.GenomicProperty;
 import api.stub.data.OID;
@@ -70,6 +70,7 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
    * @param LoadRequest loadRequest the 'criteria' for what to return from here.
    * @return AxisAlignment[] the alignments to the features fitting criteria.
    */
+  @Override
   public Alignment[] loadAlignmentsToEntities(OID entityOID, LoadRequest loadRequest) {
 
     // Rule out irrelevant requests.
@@ -130,6 +131,7 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
 
   } // End method: loadAlignmentsToEntities
 
+  @Override
   public Alignment[] getAlignmentsToAxes(OID entityOID)
   {
     throw new RuntimeException("XmlGenomicAxisFacade::getAlignmentsToAxes not " +
@@ -148,6 +150,7 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
    * @param boolean gappedSequence (ignored) true->use gapped seq./false->use ungapped.
    *    Does not interpret one way or the other.  Implication is that the gapped sequence HAS no gaps.
    */
+  @Override
   public Sequence getNucleotideSeq
     (OID axisOID,
      Range nucleotideRange,
@@ -233,6 +236,7 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
    * @param genomicOID the OID of the object for which to get properties.
    * @param deepLoad flag: should expansion be done on server? Ignored here.
    */
+  @Override
   public GenomicProperty[] getProperties(OID genomicOID, EntityType dynamicType, boolean deepLoad) {
     return generatePropertiesForGenomicAxisOID(genomicOID);
   } // End method: getProperties
@@ -332,12 +336,12 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
     List returnList = new ArrayList();
 
     // Traverse the input array, keeping only those features which fall within the specified range.
-    FeatureModel rootFeature = null;
+    FeatureBean rootFeature = null;
     for (Iterator it = allFeatures.iterator(); it.hasNext(); ) {
 
-      rootFeature = (FeatureModel)it.next();
+      rootFeature = (FeatureBean)it.next();
       if (rootFeature != null) {
-        recursivelyAdd(returnList, (FeatureModel)rootFeature);
+        recursivelyAdd(returnList, (FeatureBean)rootFeature);
       } // Found it.
 
     } // For all alignments
@@ -361,9 +365,9 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
     GenomeVersion version = api.entity_model.management.ModelMgr.getModelMgr().getGenomeVersionById(genomeVersionId);
 
     List returnList = new ArrayList();
-    FeatureModel model = null;
+    FeatureBean model = null;
     for (Iterator it = inputList.iterator(); it.hasNext(); ) {
-      model = (FeatureModel)it.next();
+      model = (FeatureBean)it.next();
       // Check: does the genome version have an entity for this OID already?
       if (null == version.getLoadedGenomicEntityForOid(model.getOID()))
         returnList.add(model);
@@ -377,16 +381,16 @@ public class XmlGenomicAxisFacade extends XmlGenomicFacade implements GenomicAxi
    * Excludes all features which have been obsoleted.
    *
    * @param List outputList where to add the alignments.
-   * @param FeatureModel feature a feature to be aligned and added to the output list, and which may have subfeatures to be added as well.
+   * @param FeatureBean feature a feature to be aligned and added to the output list, and which may have subfeatures to be added as well.
    */
-  private void recursivelyAdd(List outputList, FeatureModel feature) {
+  private void recursivelyAdd(List outputList, FeatureBean feature) {
     // Do not keep obsolete features.
     if (feature.isObsolete())
       return;
 
-    if (feature instanceof CompoundFeatureModel) {
-      for (Iterator it = ((CompoundFeatureModel)feature).getChildren().iterator(); it.hasNext(); ) {
-        recursivelyAdd(outputList, (FeatureModel)it.next());
+    if (feature instanceof CompoundFeatureBean) {
+      for (Iterator it = ((CompoundFeatureBean)feature).getChildren().iterator(); it.hasNext(); ) {
+        recursivelyAdd(outputList, (FeatureBean)it.next());
       } // For all iterations
     } // Must descend still further.
 

@@ -38,10 +38,6 @@ import java.util.Set;
  */
 public interface XmlLoader {
 
-  // Define types for use with the "getAlignmentForAccession" call.
-  public static final int GENE_ACCESSION_TYPE = 1;
-  public static final int NONPUBLIC_ACCESSION_TYPE = 2;
-
   /**
    * Returns the gene annotation name for the OID given.
    */

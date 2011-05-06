@@ -34,13 +34,13 @@ import java.util.List;
  */
 public class CollectionJListModel extends AbstractListModel {
 
-  private List delegate;
+  private List<String> delegate;
   private boolean dirtyFlag = false;
 
   //----------------------------------IMPLEMENTATION of AbstractListModel
   /** Constructor to seed with whole collection. */
-  public CollectionJListModel(Collection seedCollection) {
-    delegate = new ArrayList();
+  public CollectionJListModel(Collection<String> seedCollection) {
+    delegate = new ArrayList<String>();
     delegate.addAll(seedCollection);
   } // End method
 
@@ -96,7 +96,7 @@ public class CollectionJListModel extends AbstractListModel {
    */
   public synchronized void add(Object value) {
     int index = delegate.size();
-    delegate.add(value);
+    delegate.add((String)value);
     fireIntervalAdded(this, index, index);
     dirtyFlag = true;
   } // End method
@@ -104,7 +104,7 @@ public class CollectionJListModel extends AbstractListModel {
   /**
    * Retrieves whole collection from here.
    */
-  public synchronized Collection getCollection() {
+  public synchronized Collection<String> getCollection() {
     return delegate;
   } // End method
 
@@ -112,7 +112,7 @@ public class CollectionJListModel extends AbstractListModel {
    * Retrieves collection, but lets user assume it is a list, and lets
    * them treat it as an ordered collection.
    */
-  public synchronized List getList() {
+  public synchronized List<String> getList() {
     return delegate;
   } // End method
 

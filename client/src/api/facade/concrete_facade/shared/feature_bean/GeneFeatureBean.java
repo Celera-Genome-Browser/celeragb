@@ -27,11 +27,11 @@
  * @author Les Foster
  * @version
  */
-package api.facade.concrete_facade.xml.model;
+package api.facade.concrete_facade.shared.feature_bean;
 
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.annotation.CuratedGene;
-import api.facade.concrete_facade.xml.XmlFacadeManager;
+import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.OID;
 import api.stub.geometry.Range;
 
@@ -41,14 +41,14 @@ import java.util.Iterator;
 /**
  * Simple model class to represent a Gene or annotation.
  */
-public class GeneFeatureModel extends CompoundFeatureModel implements Serializable {
+public class GeneFeatureBean extends CompoundFeatureBean implements Serializable {
 
   /**
    * Constructor sets up all identifiers to resolve what this model
    * "is" and what it is referring to (the axis against which it will align).
    */
-  public GeneFeatureModel(OID geneOID, OID genomicAxisOID,
-    XmlFacadeManager readFacadeManager) {
+  public GeneFeatureBean(OID geneOID, OID genomicAxisOID,
+    FacadeManagerBase readFacadeManager) {
 
     super(geneOID, genomicAxisOID, readFacadeManager);
     super.setParent(null);    // Must set the parent, but it WILL be null, so set it here.
@@ -78,9 +78,9 @@ public class GeneFeatureModel extends CompoundFeatureModel implements Serializab
       getAxisOfAlignment(), startOnEntity, geneRange.getMagnitude(), geneEntity);
 
     // Align all children.
-    FeatureModel nextChild = null;
+    FeatureBean nextChild = null;
     for (Iterator it = getChildren().iterator(); it.hasNext(); ) {
-      nextChild = (FeatureModel)it.next();
+      nextChild = (FeatureBean)it.next();
       nextChild.alignFeature();
     } // Do sub-features.
 
@@ -94,7 +94,7 @@ public class GeneFeatureModel extends CompoundFeatureModel implements Serializab
     StringBuffer returnVal = new StringBuffer(400);
     if (this.getChildren() != null) {
       for (Iterator it = this.getChildren().iterator(); it.hasNext(); ) {
-        returnVal.append("   "+((FeatureModel)it.next()).toString());
+        returnVal.append("   "+((FeatureBean)it.next()).toString());
       } // For all iterations
     } // Has children.
 

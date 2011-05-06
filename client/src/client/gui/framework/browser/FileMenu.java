@@ -80,6 +80,7 @@ public class FileMenu extends JMenu {
    JMenuItem menuCloseDataSources;
    JMenuItem menuViewWorkspaceFile;
    JMenuItem menuOpenGenomeVersion;
+   JMenuItem menuOpenGff3;
    JMenuItem menuCEFViewer;
    JMenuItem menuOpenWorkSpace, menuCloseWorkSpace, menuOpenFeatureFile, setLoginMI, menuOpenAnnotationLog, menuOpenGBWAnnotationLog;
    ArrayList<JMenuItem> addedMenus = new ArrayList<JMenuItem>();
@@ -100,7 +101,15 @@ public class FileMenu extends JMenu {
       browser.getBrowserModel().setModelProperty("LOGIN", SessionMgr.getSessionMgr().getModelProperty("LOGIN"));
       browser.getBrowserModel().setModelProperty("PASSWORD", SessionMgr.getSessionMgr().getModelProperty("PASSWORD"));
 
-      menuOpenGenomeVersion = new JMenuItem("Open Genome Version...", 'G');
+      menuOpenGff3 = new JMenuItem("Open Genome Version from GFF3 File...", 'g');
+      menuOpenGff3.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_G, InputEvent.CTRL_MASK, false));
+      menuOpenGff3.addActionListener(new ActionListener() {
+         public void actionPerformed(ActionEvent e) {
+            fileOpen_actionPerformed(e, "gff", null);
+         }
+      });
+
+      menuOpenGenomeVersion = new JMenuItem("Open Genome Version from XML File...", 'G');
       menuOpenGenomeVersion.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_G, InputEvent.CTRL_MASK, false));
       menuOpenGenomeVersion.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
@@ -292,6 +301,7 @@ public class FileMenu extends JMenu {
    private void addMenuItems() {
       removeAll();
 
+      add(menuOpenGff3);
       add(menuOpenGenomeVersion);
 
       add(menuOpenWorkSpace);

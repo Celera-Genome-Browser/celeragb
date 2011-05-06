@@ -37,11 +37,12 @@ import api.entity_model.model.assembly.Contig;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.EntityType;
 import api.entity_model.model.genetics.Species;
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.GeneFeatureModel;
-import api.facade.concrete_facade.xml.model.SimpleFeatureModel;
-import api.facade.concrete_facade.xml.sax_support.OIDParser;
+import api.facade.concrete_facade.shared.LoaderConstants;
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.GeneFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.SimpleFeatureBean;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
@@ -209,7 +210,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
                               taxon);
 
       axisLength = initialLoader.getAxisLength();
-      genomicAxisOid = this.parseContigOIDTemplateMethod(initialLoader.getGenomicAxisID());
+      genomicAxisOid = this.parseContigOID(initialLoader.getGenomicAxisID());
       sequenceBuilder = initialLoader.getSequenceBuilder();
       if (sequenceBuilder == null)
         residues = initialLoader.getSequence();
@@ -336,7 +337,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns accession string for the gene whose OID is given. */
   public String getGeneacc(OID oid) {
     loadFeaturesIfNeeded();
-    GeneFeatureModel model = (GeneFeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    GeneFeatureBean model = (GeneFeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getAnnotationName();
     return null;
@@ -345,7 +346,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns the transcript accession name. */
   public String getTrscptacc(OID oid) {
     loadFeaturesIfNeeded();
-    CompoundFeatureModel model = (CompoundFeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    CompoundFeatureBean model = (CompoundFeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getAnnotationName();
     return null;
@@ -357,9 +358,9 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
    */
   public int getSiblingPosition(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = mFeatureHandler.getOrLoadModelForOid(oid);
-    FeatureModel nextChild = null;
-    CompoundFeatureModel parentModel = (CompoundFeatureModel)model.getParent();
+    FeatureBean model = mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean nextChild = null;
+    CompoundFeatureBean parentModel = (CompoundFeatureBean)model.getParent();
 
     // Decode the annotation type string into a feature type instance.
     EntityType entityType = model.decodeEntityType(model.getAnalysisType());
@@ -373,7 +374,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
       Collections.sort(children);
       if (children != null) {
         for (int i = 0; (returnValue == -1) && (i < children.size()); i++) {
-          nextChild = (FeatureModel)children.get(i);
+          nextChild = (FeatureBean)children.get(i);
           if (nextChild == null)
             continue;
 
@@ -396,7 +397,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns output associated with string, for feature whose OID was given. */
   public String getOutput(OID oid, String outputName) {
     loadFeaturesIfNeeded();
-    SimpleFeatureModel model = (SimpleFeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    SimpleFeatureBean model = (SimpleFeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getOutput(outputName);
     return null;
@@ -405,7 +406,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Return either query or subject aligned residues for simple feature. */
   public String getQueryAlignedResidues(OID oid) {
     loadFeaturesIfNeeded();
-    SimpleFeatureModel model = (SimpleFeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    SimpleFeatureBean model = (SimpleFeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getQueryAlignment();
     return null;
@@ -413,7 +414,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
 
   public String getSubjectAlignedResidues(OID oid) {
     loadFeaturesIfNeeded();
-    SimpleFeatureModel model = (SimpleFeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    SimpleFeatureBean model = (SimpleFeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getSubjectAlignment();
     return null;
@@ -444,7 +445,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
     loadFeaturesIfNeeded();
 
     Set returnSet = new HashSet();
-    FeatureModel model = mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null) {
       recursivelyFindSubject(model, returnSet);
     } // Found feature.
@@ -459,7 +460,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
       if (subjectSeqId.indexOf(":") == -1)
         subjectSeqId = "INTERNAL:" + subjectSeqId;
 
-      OID subjectSeqOid = parseFeatureOIDTemplateMethod(subjectSeqId);
+      OID subjectSeqOid = parseFeatureOID(subjectSeqId);
       SubjSeqRptHandler handler = new SubjSeqRptHandler(  getLoadedFileNames()[0],
                                                           mSequenceAlignment,
                                                           (OIDParser)this);
@@ -480,10 +481,10 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
     loadFeaturesIfNeeded();
     List featureList = mFeatureHandler.getModelsForDescriptionsWith(searchTarget);
 
-    FeatureModel nextFeature = null;
+    FeatureBean nextFeature = null;
     List returnList = new ArrayList();
     for (Iterator it = featureList.iterator(); it.hasNext(); ) {
-      nextFeature = (FeatureModel)it.next();
+      nextFeature = (FeatureBean)it.next();
       returnList.add(nextFeature.alignFeature());
     } // For all models found.
 
@@ -494,7 +495,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns description associated with model whose OID is given. */
   public String getFeatureDescription(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getDescription();
     return null;
@@ -503,7 +504,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns description associated with model whose OID is given. */
   public String getFeatureDescriptionForParent(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null) {
       if (model.getParent() != null) {
         return model.getParent().getDescription();
@@ -515,7 +516,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns score string for model whose oid was given. */
   public String getScore(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getScore();
     return null;
@@ -524,7 +525,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Return either individual or summary expect value for model whose oid was given. */
   public String getIndividualExpect(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getIndividualExpect();
     return null;
@@ -532,7 +533,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
 
   public String getSummaryExpect(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getSummaryExpect();
     return null;
@@ -541,7 +542,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Return either subject start or end value associated with OID given. */
   public int getSubjectStart(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getSubjectStart();
     return 0;
@@ -549,7 +550,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
 
   public int getSubjectEnd(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getSubjectEnd();
     return 0;
@@ -605,17 +606,17 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
     //  models at next lower level that are obsolete.
     loadFeaturesIfNeeded();
     List returnList = new ArrayList();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(parentOID);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(parentOID);
     if ((model != null) && (model.getAxisOfAlignment().equals(axisOID))) {
 
       boolean parentIsObsolete = false;
       if (model.getParent() != null)
         parentIsObsolete = model.getParent().isObsolete();
 
-      FeatureModel subModel = null;
-      if (model instanceof CompoundFeatureModel) {
-        for (Iterator it = ((CompoundFeatureModel)model).getChildren().iterator(); it.hasNext(); ) {
-          subModel = (FeatureModel)it.next();
+      FeatureBean subModel = null;
+      if (model instanceof CompoundFeatureBean) {
+        for (Iterator it = ((CompoundFeatureBean)model).getChildren().iterator(); it.hasNext(); ) {
+          subModel = (FeatureBean)it.next();
           if (subModel.isObsolete())
             returnList.add(subModel.createFeatureEntity());
           else if (parentIsObsolete)
@@ -632,7 +633,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns flag of whether the feature whose OID was given is known to this loader. */
   public boolean featureExists(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     return (model != null);
   } // End method: featureExists
 
@@ -646,7 +647,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns flag of whether the OID in question is human curated. */
   public boolean isCurated(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.isCurated();
 
@@ -660,7 +661,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
    */
   public String getAnalysisTypeOfFeature(OID featureOid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(featureOid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(featureOid);
     if (model == null)
       return null;
     return model.getAnalysisType();
@@ -671,7 +672,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
    */
   public String getDiscoveryEnvironmentOfFeature(OID featureOid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(featureOid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(featureOid);
     if (model == null)
       return null;
     return model.getDiscoveryEnvironment();
@@ -682,7 +683,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
    */
   public Range getRangeOnAxisOfFeature(OID featureOid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(featureOid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(featureOid);
     if (model == null)
       return null;
     return model.calculateFeatureRange();
@@ -691,7 +692,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns OID of alignment for feature given. */
   public OID getAxisOidOfAlignment(OID featureOid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(featureOid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(featureOid);
     if (model == null)
       return null;
     return model.getAxisOfAlignment();
@@ -700,7 +701,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns alignment for the feature whose OID was given. */
   public Alignment getAlignmentForFeature(OID featureOID) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(featureOID);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(featureOID);
     if (model != null)
       return model.alignFeature();
     return null;
@@ -709,12 +710,12 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns alignment for the feature whose accession string was given. */
   public Alignment getAlignmentForAccession(String accnum, int accessionType) {
     loadFeaturesIfNeeded();
-    FeatureModel model = null;
-    if (accessionType == XmlLoader.GENE_ACCESSION_TYPE) {
-      model = (GeneFeatureModel)mFeatureHandler.getModelForGeneAccession(accnum);
+    FeatureBean model = null;
+    if (accessionType == LoaderConstants.GENE_ACCESSION_TYPE) {
+      model = (GeneFeatureBean)mFeatureHandler.getModelForGeneAccession(accnum);
     } // Return a gene.
-    else if (accessionType == XmlLoader.NONPUBLIC_ACCESSION_TYPE) {
-      model = (FeatureModel)mFeatureHandler.getModelForInternalAccession(accnum);
+    else if (accessionType == LoaderConstants.NONPUBLIC_ACCESSION_TYPE) {
+      model = (FeatureBean)mFeatureHandler.getModelForInternalAccession(accnum);
     } // Return a transcript.
 
     // Work out what to return.
@@ -734,7 +735,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns the comments associated with a gene. */
   public GenomicEntityComment[] getComments(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getComments();
     return new GenomicEntityComment[0];
@@ -746,7 +747,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
    */
   public List getPropertySources(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getPropertySources();
     return new ArrayList();
@@ -758,7 +759,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
    */
   public List getReplacedData(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getReplacedList();
     return new ArrayList();
@@ -767,7 +768,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   /** Returns OIDs of evidence of a curation. */
   public OID[] getEvidence(OID oid) {
     loadFeaturesIfNeeded();
-    FeatureModel model = (FeatureModel)mFeatureHandler.getOrLoadModelForOid(oid);
+    FeatureBean model = (FeatureBean)mFeatureHandler.getOrLoadModelForOid(oid);
     if (model != null)
       return model.getEvidence();
     return new OID[0];
@@ -950,28 +951,28 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
   } // End method
 
   /** Finds all subject sequence oids from all children, descending, of given model. */
-  protected void recursivelyFindSubject(FeatureModel model, Set returnSet) {
+  protected void recursivelyFindSubject(FeatureBean model, Set returnSet) {
     // Check non-null params
     if ((returnSet == null) || (model == null))
       return;
 
-    if (model instanceof SimpleFeatureModel) {
+    if (model instanceof SimpleFeatureBean) {
       OID subjectSequenceOid = null;
-      subjectSequenceOid = ((SimpleFeatureModel)model).getSubjectSequenceOid();
+      subjectSequenceOid = ((SimpleFeatureBean)model).getSubjectSequenceOid();
       if (subjectSequenceOid != null)
         returnSet.add(subjectSequenceOid);
       return;
     } // Got simple model.
 
     // Get child list for model.
-    List childrenOfModel = ((CompoundFeatureModel)model).getChildren();
+    List childrenOfModel = ((CompoundFeatureBean)model).getChildren();
     if (model == null)
       return;
 
     // Iterate over all children.
-    FeatureModel childModel = null;
+    FeatureBean childModel = null;
     for (Iterator it = childrenOfModel.iterator(); it.hasNext(); ) {
-      childModel = (FeatureModel)it.next();
+      childModel = (FeatureBean)it.next();
       if (childModel != null)
         recursivelyFindSubject(childModel, returnSet);
     } // For all children.
@@ -1008,7 +1009,7 @@ public abstract class SAXLoaderBase implements XmlLoader, OIDParser {
                                                               taxon);
 
     axisLength = initialLoader.getAxisLength();
-    genomicAxisOid = this.parseContigOIDTemplateMethod(initialLoader.getGenomicAxisID());
+    genomicAxisOid = this.parseContigOID(initialLoader.getGenomicAxisID());
 
     sequenceBuilder = initialLoader.getSequenceBuilder();
     if (sequenceBuilder == null)

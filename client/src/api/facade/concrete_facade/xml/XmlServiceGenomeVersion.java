@@ -137,14 +137,14 @@ public class XmlServiceGenomeVersion extends XmlGenomeVersion {
           try {
               nodeArray = new NavigationNode[2];
               nodeArray[0] = new NavigationNode(
-                      serviceLoader.parseContigOIDTemplateMethod(csvFields[0]),
+                      serviceLoader.parseContigOID(csvFields[0]),
                       NavigationConstants.GENOMIC_AXIS_NAME_INDEX,
                       "",
                       new Range(0, 0)
               );
 
               nodeArray[1] = new NavigationNode(
-                      serviceLoader.parseFeatureOIDTemplateMethod(csvFields[1]),
+                      serviceLoader.parseFeatureOID(csvFields[1]),
                       csvFields[5].equals("1") ? NavigationNode.CURATED : NavigationNode.NON_CURATED,
                       csvFields[2],
                       new Range(Integer.parseInt(csvFields[3]),

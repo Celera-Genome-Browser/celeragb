@@ -24,6 +24,7 @@ package api.facade.concrete_facade.xml;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
 import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
 
@@ -249,7 +250,7 @@ public class MultiFileGenomeVersionSpace implements GenomeVersionSpace {
   /** Given a set of files found in the directory, find vers. info for each such file. */
   private GenomeVersionInfo[] getGenomeVersionInfosOf(String[] files) {
     // Look at each file.
-    GenomeVersionParser parser = new GenomeVersionParser(this, "UTTER NONSENSE--SHOULD REMOVE");
+    GenomeVersionFactory parser = new GenomeVersionParser(this, "UTTER NONSENSE--SHOULD REMOVE");
     List infoList = new ArrayList();
 
     GenomeVersionInfo nextInfo = null;
@@ -257,7 +258,7 @@ public class MultiFileGenomeVersionSpace implements GenomeVersionSpace {
     for (int i = 0; i < files.length; i++) {
       // Run a SAX parse that will bail as soon as it has its required info.
       //
-      nextInfo = parser.parseForGenomeVersionInfo(files[i]);
+      nextInfo = parser.getGenomeVersionInfos(files[i]).get( 0 );
 
       infoList.add(nextInfo);
     } // For all files in directory

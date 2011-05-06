@@ -125,6 +125,9 @@ public final class GenomeBrowser {
             modelMgr.registerFacadeManagerForProtocol("xmlservice",
                     api.facade.concrete_facade.xml.XmlServiceFacadeManager.class,
                     "XML Service URL");
+            modelMgr.registerFacadeManagerForProtocol("gff", 
+            		api.facade.concrete_facade.gff3.Gff3GenomicAxisFacadeManager.class,
+            		"Generic Feature Format, Version 3 (.gff3) File");
 
             // Editor Registration
             //      sessionMgr.registerEditorForType(api.entity_model.model.genetics.Species.class,
@@ -137,6 +140,9 @@ public final class GenomeBrowser {
             sessionMgr.registerEditorForType(
                     api.entity_model.model.assembly.GenomicAxis.class,
                     vizardEditor, "Genomic Axis Annotation", "xmlgenomicaxis", true);
+            sessionMgr.registerEditorForType(
+                    api.entity_model.model.assembly.GenomicAxis.class,
+                    vizardEditor, "Genomic Axis Annotation", "gff", false);
 
             final Class[] editorClasses = new Class[]{vizardEditor};
             Class editorClass;
@@ -215,6 +221,7 @@ public final class GenomeBrowser {
             FacadeManager.addProtocolToUseList("xmlgenomicaxis");
             FacadeManager.addProtocolToUseList("xmlservice");
             FacadeManager.addProtocolToUseList("xmlfeature");
+            FacadeManager.addProtocolToUseList("gff");
 
             //Start First Browser
             final Browser mainBrowser = sessionMgr.newBrowser();

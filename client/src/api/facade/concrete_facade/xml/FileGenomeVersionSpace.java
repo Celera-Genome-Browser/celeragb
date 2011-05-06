@@ -23,6 +23,7 @@ package api.facade.concrete_facade.xml;
 
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
 import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
 
@@ -206,8 +207,8 @@ public class FileGenomeVersionSpace implements GenomeVersionSpace {
     String fileName = getWorkspaceFileName();
     if (fileName == null)
       return null;
-    GenomeVersionParser parser = new GenomeVersionParser(this, fileName);
-    return parser.parseForGenomeVersionInfo(fileName);
+    GenomeVersionFactory parser = new GenomeVersionParser(this, fileName);
+    return parser.getGenomeVersionInfos(fileName).get( 0 );
   } // End method
 
 } // End class

@@ -33,7 +33,7 @@ import api.entity_model.model.alignment.GeometricAlignment;
 import api.entity_model.model.assembly.Contig;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.genetics.Species;
-import api.facade.concrete_facade.xml.model.FeatureModel;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
 import api.stub.data.OID;
 import api.stub.data.OIDGenerator;
 import api.stub.geometry.Range;
@@ -97,7 +97,7 @@ public class SequenceAlignmentLoader extends GenomicAxisXmlLoader {
    */
   public Set getReferencedOIDSet() {
       Set referencedOidSet = super.getReferencedOIDSet();
-      OID aligningAxisOid = parseContigOIDTemplateMethod(sequenceAlignment.getGenomicAxisID());
+      OID aligningAxisOid = parseContigOID(sequenceAlignment.getGenomicAxisID());
       referencedOidSet.add(aligningAxisOid);
       return referencedOidSet;
   } // End method
@@ -171,7 +171,7 @@ public class SequenceAlignmentLoader extends GenomicAxisXmlLoader {
       Math.abs(sequenceAlignment.getAxisEnd() - sequenceAlignment.getAxisStart())
     );
 
-    parseContigOIDTemplateMethod(sequenceAlignment.getGenomicAxisID());
+    parseContigOID(sequenceAlignment.getGenomicAxisID());
 
     // Getting the axis alignment
     contigAlignment = new GeometricAlignment(
@@ -191,7 +191,7 @@ public class SequenceAlignmentLoader extends GenomicAxisXmlLoader {
   /** Returns alignment for the feature whose OID was given. */
   public Alignment getAlignmentForFeature(OID featureOid) {
     super.loadFeaturesIfNeeded();
-    FeatureModel model = super.getFeatureHandler().getOrLoadModelForOid(featureOid);
+    FeatureBean model = super.getFeatureHandler().getOrLoadModelForOid(featureOid);
     if (model == null)
       return null;
     Range featureRange = model.calculateFeatureRange();
@@ -206,7 +206,7 @@ public class SequenceAlignmentLoader extends GenomicAxisXmlLoader {
   /** Returns flag of whether the feature whose OID was given is known to this loader. */
   public boolean featureExists(OID featureOid) {
     super.loadFeaturesIfNeeded();
-    FeatureModel model = super.getFeatureHandler().getOrLoadModelForOid(featureOid);
+    FeatureBean model = super.getFeatureHandler().getOrLoadModelForOid(featureOid);
     Range featureRange = super.getRangeOnAxisOfFeature(featureOid);
     Range sequenceAlignmentRange = new Range(sequenceAlignment.getAxisStart(), sequenceAlignment.getAxisEnd());
     return (model != null) && (sequenceAlignmentRange.contains(featureRange));
@@ -221,6 +221,9 @@ public class SequenceAlignmentLoader extends GenomicAxisXmlLoader {
 } // End class: SequenceAlignmentLoader
 /*
  $Log$
+ Revision 1.2  2011/03/08 16:16:39  saffordt
+ Java 1.6 changes
+
  Revision 1.1  2006/11/09 21:35:56  rjturner
  Initial upload of source
 

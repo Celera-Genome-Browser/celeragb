@@ -28,6 +28,7 @@ package api.facade.concrete_facade.xml;
  * @version $Id$
  */
 import api.entity_model.model.genetics.GenomeVersion;
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
 import api.facade.facade_mgr.FacadeManager;
 import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.OID;
@@ -42,8 +43,8 @@ import api.stub.data.OID;
 
 
    private GenomeVersion getGenomeVersion(String gbwfilename){
-        GenomeVersionParser gp=new GenomeVersionParser();
-        GenomeVersion gv=gp.parseForGenomeVersion(gbwfilename);
+        GenomeVersionFactory gp=new GenomeVersionParser();
+        GenomeVersion gv=gp.getGenomeVersions(gbwfilename).get( 0 );
         return gv;
    }
 

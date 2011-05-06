@@ -26,6 +26,7 @@ package api.facade.concrete_facade.xml;
 import api.facade.abstract_facade.assembly.GenomicAxisLoader;
 import api.facade.abstract_facade.genetics.ChromosomeLoader;
 import api.facade.abstract_facade.genetics.SpeciesLoader;
+import api.facade.concrete_facade.shared.LoaderConstants;
 import api.facade.facade_mgr.ConnectionStatus;
 import shared.util.FileUtilities;
 
@@ -96,7 +97,8 @@ public class XmlGenomicAxisFacadeManager extends XmlFacadeManager implements Rec
         nextFileName = (String)it.next();
         nextFile = new File(nextFileName);
         if (nextFile.exists() && nextFile.canRead()
-            && XmlPermission.getXmlPermission().canReadFile(nextFile)) {
+            && XmlPermission.getXmlPermission().canReadFile(nextFile)
+            && nextFile.getName().endsWith( LoaderConstants.XML_ASSEMBLY_FILE_EXTENSION )) {
 
           returnList.add(nextFileName);
 

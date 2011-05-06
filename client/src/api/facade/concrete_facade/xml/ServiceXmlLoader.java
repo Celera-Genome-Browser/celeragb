@@ -31,10 +31,11 @@ package api.facade.concrete_facade.xml;
 
 import api.entity_model.access.report.SubjectSequenceReport;
 import api.entity_model.model.alignment.Alignment;
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.SimpleFeatureModel;
-import api.facade.concrete_facade.xml.sax_support.OIDParser;
+import api.facade.concrete_facade.shared.FeatureCriterion;
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.SimpleFeatureBean;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.OID;
 import api.stub.geometry.Range;
@@ -144,7 +145,7 @@ public class ServiceXmlLoader extends SAXLoaderBase {
 
     String returnString = super.getQueryAlignedResidues(oid);
     if (returnString == null) {
-      SimpleFeatureModel model = (SimpleFeatureModel)getFeatureHandler().getOrLoadModelForOid(oid);
+      SimpleFeatureBean model = (SimpleFeatureBean)getFeatureHandler().getOrLoadModelForOid(oid);
       if (model != null) {
         if (protocolSupports(ELABORATE)) {
           cacheAlignmentTextsForHierarchyOf(model);
@@ -163,7 +164,7 @@ public class ServiceXmlLoader extends SAXLoaderBase {
 
     String returnString = super.getSubjectAlignedResidues(oid);
     if (returnString == null || returnString.length() == 0) {
-      SimpleFeatureModel model = (SimpleFeatureModel)getFeatureHandler().getOrLoadModelForOid(oid);
+      SimpleFeatureBean model = (SimpleFeatureBean)getFeatureHandler().getOrLoadModelForOid(oid);
       if (model != null) {
         if (protocolSupports(ELABORATE)) {
           cacheAlignmentTextsForHierarchyOf(model);
@@ -242,7 +243,7 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
       SubjSeqRptHandler handler = new SubjSeqRptHandler(  finalURL,
                                                           null,
                                                           (OIDParser)this);
-      OID subjSeqOid = parseFeatureOIDTemplateMethod(subjSeqId);
+      OID subjSeqOid = parseFeatureOID(subjSeqId);
       Set subjSeqOids = new HashSet();
       subjSeqOids.add(subjSeqOid);
       handler.getRptLines(subjSeqOids, report);
@@ -270,7 +271,7 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
    * so that all objects in the feature hierarchy containing the OID in
    * question can get alignment texts, if they exists remotely.
    */
-  private void cacheAlignmentTextsForHierarchyOf(SimpleFeatureModel model) {
+  private void cacheAlignmentTextsForHierarchyOf(SimpleFeatureBean model) {
     OID oid = model.getOID();
 
     String finalURL = new RequestFormatter(urlString).formatAlignmentRequestFor(oid, model.getAxisOfAlignment());
@@ -285,8 +286,8 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
     // Add the subject and query alignment text to all siblings, including
     // the one in question.
     for (Iterator it = featureList.iterator(); it.hasNext(); ) {
-      SimpleFeatureModel nextModel = (SimpleFeatureModel)it.next();
-      SimpleFeatureModel cachedModel = (SimpleFeatureModel)getFeatureHandler().getOrLoadModelForOid(nextModel.getOID());
+      SimpleFeatureBean nextModel = (SimpleFeatureBean)it.next();
+      SimpleFeatureBean cachedModel = (SimpleFeatureBean)getFeatureHandler().getOrLoadModelForOid(nextModel.getOID());
 
       cachedModel.setSubjectAlignment(nextModel.getSubjectAlignment());
       cachedModel.setQueryAlignment(nextModel.getQueryAlignment());
@@ -391,7 +392,7 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
    *   where the d's represent a decimal (long) number.
    * @return OID a Contig OID.
    */
-  public OID parseContigOIDTemplateMethod(String idstr) {
+  public OID parseContigOID(String idstr) {
 
     OID returnOID = parseOIDorGA(idstr);
 
@@ -418,7 +419,7 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
    *   where the d's represent a decimal (long) number.
    * @return OID a Contig OID.
    */
-  public OID parseFeatureOIDTemplateMethod(String idstr) {
+  public OID parseFeatureOID(String idstr) {
 
     OID returnOID = parseOIDGeneric(idstr);
 
@@ -445,7 +446,7 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
    *   where the d's represent a decimal (long) number.
    * @return OID a Contig OID.
    */
-  public OID parseEvidenceOIDTemplateMethod(String idstr) {
+  public OID parseEvidenceOID(String idstr) {
 
     OID returnOID = parseOIDGeneric(idstr);
 
@@ -466,15 +467,15 @@ System.out.println("Loading subj seq rpt lines via "+finalURL);
     /**
      * Return all the children of the model given.
      */
-    public List allMatchingIn(FeatureModel model) {
+    public List allMatchingIn(FeatureBean model) {
       if (model == null)
         return java.util.Collections.EMPTY_LIST;
 
       List returnList = new ArrayList();
-      if (model instanceof SimpleFeatureModel)
+      if (model instanceof SimpleFeatureBean)
         returnList.add(model);
       else
-        returnList.addAll(((CompoundFeatureModel)model).getChildren());
+        returnList.addAll(((CompoundFeatureBean)model).getChildren());
       return returnList;
     } // End method
 

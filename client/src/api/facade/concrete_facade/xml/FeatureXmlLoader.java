@@ -86,7 +86,7 @@ public class FeatureXmlLoader extends SAXLoaderBase {
    *   where the d's represent a decimal (long) number.
    * @return OID a Contig OID.
    */
-  public OID parseContigOIDTemplateMethod(String idstr) {
+  public OID parseContigOID(String idstr) {
 
     OID returnOID = parseOIDorGA(idstr);
 
@@ -113,7 +113,7 @@ public class FeatureXmlLoader extends SAXLoaderBase {
    *   where the d's represent a decimal (long) number.
    * @return OID a Contig OID.
    */
-  public OID parseFeatureOIDTemplateMethod(String idstr) {
+  public OID parseFeatureOID(String idstr) {
 
     OID returnOID = parseOIDGeneric(idstr);
 
@@ -140,7 +140,7 @@ public class FeatureXmlLoader extends SAXLoaderBase {
    *   where the d's represent a decimal (long) number.
    * @return OID a Contig OID.
    */
-  public OID parseEvidenceOIDTemplateMethod(String idstr) {
+  public OID parseEvidenceOID(String idstr) {
 
     OID returnOID = parseOIDGeneric(idstr);
 

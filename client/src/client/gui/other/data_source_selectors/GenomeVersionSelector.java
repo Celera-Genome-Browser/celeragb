@@ -48,7 +48,7 @@ public class GenomeVersionSelector extends JFrame implements DataSourceSelector{
   JPanel panel1 = new JPanel();
   BorderLayout borderLayout1 = new BorderLayout();
   JPanel buttonPanel = new JPanel();
-  GenomeVersionSelectorModel model=new GenomeVersionSelectorModel();
+  AbstractGenomeVersionSelectorModel model=new GenomeVersionSelectorModel();
   JTable table=new JTable();
   JLabel label=new JLabel("Please select a Species/Assembly combination");
   JButton ok;

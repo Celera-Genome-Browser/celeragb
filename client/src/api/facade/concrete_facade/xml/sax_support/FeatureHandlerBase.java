@@ -25,6 +25,8 @@
 
 package api.facade.concrete_facade.xml.sax_support;
 
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.PropertySource;
 import api.stub.data.GenomicEntityComment;
 
 import java.util.ArrayList;
@@ -118,7 +120,7 @@ public abstract class FeatureHandlerBase implements ExceptionHandler {
      * Allows retrieval of the list of bases of property hierarchies.
      * Destroys the list on retrieval.
      * CAUTION: call this when all properties in scope have been
-     * collected.  Usually at end of a tag containing propeties.
+     * collected.  Usually at end of a tag containing properties.
      */
     public List destructivelyRetrievePropertySources() {
         List lSources = new ArrayList();
@@ -391,7 +393,7 @@ public abstract class FeatureHandlerBase implements ExceptionHandler {
 
                 List lAllOIDs = new ArrayList();
                 while (stk.hasMoreTokens()) {
-                    lAllOIDs.add(getOIDParser().parseEvidenceOIDTemplateMethod(stk.nextToken()));
+                    lAllOIDs.add(getOIDParser().parseEvidenceOID(stk.nextToken()));
                 } // For all tokens.
 
                 String lType = (String)lAttributesMap.get(TYPE_ATTRIBUTE);
@@ -433,6 +435,9 @@ public abstract class FeatureHandlerBase implements ExceptionHandler {
 
 /*
   $Log$
+  Revision 1.1  2006/11/09 21:36:16  rjturner
+  Initial upload of source
+
   Revision 1.5  2002/11/07 16:06:58  lblick
   Removed obsolete imports and unused local variables.
 

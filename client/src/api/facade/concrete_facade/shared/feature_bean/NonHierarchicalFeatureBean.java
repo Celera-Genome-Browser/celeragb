@@ -19,7 +19,7 @@
  59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
-package api.facade.concrete_facade.xml.model;
+package api.facade.concrete_facade.shared.feature_bean;
 
 /**
  * Title:        NonHierarchicalFeatureModel
@@ -30,9 +30,10 @@ package api.facade.concrete_facade.xml.model;
 
 import api.entity_model.model.annotation.PolyMorphism;
 import api.entity_model.model.fundtype.GenomicEntity;
+import api.facade.concrete_facade.shared.PropertySource;
 import api.facade.concrete_facade.xml.XmlFacadeManager;
-import api.facade.concrete_facade.xml.sax_support.PropertySource;
 import api.facade.facade_mgr.FacadeManager;
+import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.OID;
 import api.stub.geometry.Range;
 
@@ -47,7 +48,7 @@ import java.util.List;
  * having child entities.  Rather the entity created would be more of a
  * single-span-is-always-all.
  */
-public class NonHierarchicalFeatureModel extends CompoundFeatureModel {
+public class NonHierarchicalFeatureBean extends CompoundFeatureBean {
 
   //-----------------------------------MEMBER VARIABLES
   private String mSelectedPolyType = null;
@@ -62,8 +63,8 @@ public class NonHierarchicalFeatureModel extends CompoundFeatureModel {
    * Constructor which takes the oid of this model as well as the OID agains
    * which it will be aligned.
    */
-  public NonHierarchicalFeatureModel(OID lCompoundFeatureOID, OID lOidOfAlignment,
-    XmlFacadeManager lReadFacadeManager) {
+  public NonHierarchicalFeatureBean(OID lCompoundFeatureOID, OID lOidOfAlignment,
+    FacadeManagerBase lReadFacadeManager) {
 
     super(lCompoundFeatureOID, lOidOfAlignment, lReadFacadeManager);
 

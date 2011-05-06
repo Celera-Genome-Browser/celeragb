@@ -21,14 +21,15 @@
 */
 package api.facade.concrete_facade.xml;
 
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.NonHierarchicalFeatureModel;
-import api.facade.concrete_facade.xml.model.SimpleFeatureModel;
+import api.facade.concrete_facade.shared.ConcreteFacadeConstants;
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.NonHierarchicalFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.SimpleFeatureBean;
 import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
 import api.facade.concrete_facade.xml.sax_support.ElementContext;
 import api.facade.concrete_facade.xml.sax_support.FeatureHandlerBase;
-import api.facade.concrete_facade.xml.sax_support.OIDParser;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
@@ -111,7 +112,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
     /**
      * Builds the feature model from the "parts" available.
      */
-    public CompoundFeatureModel createModel() {
+    public CompoundFeatureBean createModel() {
 
         if (isHierarchyImpliedBySubmodels())
             return createHierarchicalModel();
@@ -177,7 +178,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
             mIncompleteCompoundFeature = false;
             String idStr = (String)(lContext.ancestorAttributesNumber(0).get(ID_ATTRIBUTE));
             if (idStr != null)
-                mFeatureOID = getOIDParser().parseFeatureOIDTemplateMethod(idStr);
+                mFeatureOID = getOIDParser().parseFeatureOID(idStr);
         } // Found start of a set.
 
     } // End method: startElementTemplateMethod
@@ -198,7 +199,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
 
         if ((foundCode == CEFParseHelper.FEATURE_SPAN_CODE) || (foundCode == CEFParseHelper.RESULT_SPAN_CODE)) {
             // Collect span model.
-            FeatureModel lModel = ((SimpleFeatureHandler)getDelegate()).createModel();
+            FeatureBean lModel = ((SimpleFeatureHandler)getDelegate()).createModel();
             if (lModel != null)
                 mSubmodels.add(lModel);
         } // Found end of a span.
@@ -293,10 +294,10 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
         boolean returnValue = true;
 
         // Iterate over submodels, looking for any that are non-hierarchical.
-        FeatureModel nextModel = null;
+        FeatureBean nextModel = null;
         for (Iterator it = this.mSubmodels.iterator(); it.hasNext(); ) {
-            nextModel = (FeatureModel)it.next();
-            if (nextModel instanceof NonHierarchicalFeatureModel) {
+            nextModel = (FeatureBean)it.next();
+            if (nextModel instanceof NonHierarchicalFeatureBean) {
                 returnValue = false;
             } // Not a hierarchy.
             else if (returnValue == false) {
@@ -313,7 +314,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
     /**
      * Builds an XML model object based on assumed parent/child hierarchy.
      */
-    private CompoundFeatureModel createHierarchicalModel() {
+    private CompoundFeatureBean createHierarchicalModel() {
         // If any child feature was not complete, this one is not either.
         if (mIncompleteCompoundFeature)
             return null;
@@ -324,7 +325,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
           } // Different OID.
 */
 
-        CompoundFeatureModel model = new CompoundFeatureModel(mFeatureOID, getOIDOfAlignment(), mReadFacadeManager);
+        CompoundFeatureBean model = new CompoundFeatureBean(mFeatureOID, getOIDOfAlignment(), mReadFacadeManager);
         model.setAnnotationName(mAnnotationName);
         mAnnotationName = null; // Avoid concatenation multiple instances.
         model.setDescription(mDescription);
@@ -337,7 +338,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
                 model.setDiscoveryEnvironment(mAnnotationSource);
             else {
                 if (model.getOID().isScratchOID()){
-                    model.setDiscoveryEnvironment("Curation");
+                    model.setDiscoveryEnvironment(ConcreteFacadeConstants.CURATION_DISCOVERY_ENVIRONMENT);
                } else{
                     model.setDiscoveryEnvironment("Promoted");
                } // Not scratch.
@@ -372,10 +373,10 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
         model.setScore(mScore);
         mScore = null;
 
-        SimpleFeatureModel subModel = null;
+        SimpleFeatureBean subModel = null;
         OID previousAxis = null;
         for (Iterator it = mSubmodels.iterator(); it.hasNext(); ) {
-            subModel = (SimpleFeatureModel)it.next();
+            subModel = (SimpleFeatureBean)it.next();
             if (previousAxis != null && (! subModel.getAxisOfAlignment().equals(previousAxis))) {
                 handleException(new IllegalArgumentException("ERROR: seq relationship id "+
                     subModel.getAxisOfAlignment()+" differs from previous one of "+previousAxis+
@@ -391,7 +392,7 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
             // is vital to set them them same at compound and simple level.
             if (subModel.isCurated()) {
                 if (subModel.getOID().isScratchOID())
-                    subModel.setDiscoveryEnvironment("Curation");
+                    subModel.setDiscoveryEnvironment(ConcreteFacadeConstants.CURATION_DISCOVERY_ENVIRONMENT);
                 else
                     subModel.setDiscoveryEnvironment("Promoted");
             } // Got curated.
@@ -413,16 +414,16 @@ public class CompoundFeatureHandler extends FeatureHandlerBase {
     /**
      * Builds an XML model object based on assumed parent/child hierarchy.
      */
-    private CompoundFeatureModel createNonHierarchicalModel() {
+    private CompoundFeatureBean createNonHierarchicalModel() {
         // If any child feature was not complete, this one is not either.
         if (mIncompleteCompoundFeature)
             return null;
 
-        NonHierarchicalFeatureModel subModel = (NonHierarchicalFeatureModel)mSubmodels.get(0);
+        NonHierarchicalFeatureBean subModel = (NonHierarchicalFeatureBean)mSubmodels.get(0);
 
         if (subModel.isCurated()) {
             if (subModel.getOID().isScratchOID())
-                subModel.setDiscoveryEnvironment("Curation");
+                subModel.setDiscoveryEnvironment(ConcreteFacadeConstants.CURATION_DISCOVERY_ENVIRONMENT);
             else
                 subModel.setDiscoveryEnvironment("Promoted");
         } // Got curated.

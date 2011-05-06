@@ -29,6 +29,7 @@ package api.facade.concrete_facade.xml;
 
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
 import api.facade.concrete_facade.xml.sax_support.CEFParseHelper;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomeVersionInfo;
@@ -40,12 +41,13 @@ import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /** This SAX parser will read the input, and only capture the first line. */
-public class GenomeVersionParser extends DefaultHandler {
-
-  //------------------------------------------CONSTANTS
-  private static final boolean READ_ONLY_STATUS = false;
+public class GenomeVersionParser extends DefaultHandler implements GenomeVersionFactory {
 
   //------------------------------------------MEMBER VARIABLES
   private XMLReader reader = null;
@@ -65,7 +67,7 @@ public class GenomeVersionParser extends DefaultHandler {
     this(null, null);
   } // End constructor
 
-  /** Builds a parser for use across multple files. */
+  /** Builds a parser for use across multiple files. */
   public GenomeVersionParser(GenomeVersionSpace genomeVersionSpace, String datasourceName) {
     try {
       // Setup the parse.
@@ -78,32 +80,35 @@ public class GenomeVersionParser extends DefaultHandler {
     } // End catch block for parse.
   } // End constructor.
 
-  /** Scans the input file and finds its genome version data. */
-  public GenomeVersion parseForGenomeVersion(String filename) {
+  /* (non-Javadoc)
+   * @see api.facade.concrete_facade.xml.GenomeVersionFactory#parseForGenomeVersion(java.lang.String)
+   */
+  @Override
+  public List<GenomeVersion> getGenomeVersions(String filename) {
 
-    openAndParse(filename);
-    Species latestSpecies = new Species(latestSpeciesOID,taxonString);
-    if (genomeVersionSpace != null)
-      genomeVersionSpace.registerSpecies(fileName, latestSpecies);
+	  openAndParse(filename);
+	  Species latestSpecies = new Species(latestSpeciesOID,taxonString);
+	  if (genomeVersionSpace != null)
+		  genomeVersionSpace.registerSpecies(fileName, latestSpecies);
 
-    return createGenomeVersion(latestSpecies);
+	  List<GenomeVersion> rtnCollection = new ArrayList<GenomeVersion>();
+	  rtnCollection.add(createGenomeVersion(latestSpecies));
+	  return rtnCollection;
   } // End method: parseForGenomeVersion
 
-  /** Scans the input file and finds its genome version info data. */
-  public GenomeVersionInfo parseForGenomeVersionInfo(String filename) {
+  /* (non-Javadoc)
+   * @see api.facade.concrete_facade.xml.GenomeVersionFactory#parseForGenomeVersionInfo(java.lang.String)
+   */
+  @Override
+  public List<GenomeVersionInfo> getGenomeVersionInfos(String filename) {
 
-    openAndParse(filename);
-    return createGenomeVersionInfo();
+	  openAndParse(filename);
+	  List<GenomeVersionInfo> rtnList = new ArrayList<GenomeVersionInfo>();
+	  GenomeVersionInfo info = createGenomeVersionInfo();
+	  rtnList.add( info );
+	  return rtnList;
 
   } // End method: parseForGenomeVersion
-
-  /** Scans the input file, finds header and keeps version id. */
-  public int parseForGenomeVersionId(String filename) {
-
-    openAndParse(filename);
-    return genomeVersionId;
-
-  } // End method: parseForGenomeVersionId
 
   /**
    * Called by parser when element start tag encountered.

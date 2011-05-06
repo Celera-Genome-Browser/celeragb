@@ -27,11 +27,11 @@
  * @author Les Foster
  * @version
  */
-package api.facade.concrete_facade.xml.model;
+package api.facade.concrete_facade.shared.feature_bean;
 
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.fundtype.GenomicEntity;
-import api.facade.concrete_facade.xml.XmlFacadeManager;
+import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.OID;
 import api.stub.geometry.Range;
 
@@ -45,7 +45,7 @@ import java.util.Map;
  * Holds all data to model a simple feature, and can create its alignment
  * and its entity.
  */
-public class SimpleFeatureModel extends FeatureModel implements Serializable {
+public class SimpleFeatureBean extends FeatureBean implements Serializable {
 
   //-------------------------------------INSTANCE VARIABLES
   private byte[] subjectAlignment;
@@ -58,8 +58,8 @@ public class SimpleFeatureModel extends FeatureModel implements Serializable {
   /**
    * Simple constructor takes the OID of the axis to which this will align.
    */
-  public SimpleFeatureModel(OID simpleFeatureOID, OID axisOID,
-      XmlFacadeManager readFacadeManager) {
+  public SimpleFeatureBean(OID simpleFeatureOID, OID axisOID,
+      FacadeManagerBase readFacadeManager) {
 
       super(simpleFeatureOID, axisOID, readFacadeManager);
 
@@ -78,7 +78,7 @@ public class SimpleFeatureModel extends FeatureModel implements Serializable {
    * Set the parent.  Parent must be set, but simple features must have
    * a non-null parent.
    */
-  public void setParent(FeatureModel parentModel) {
+  public void setParent(FeatureBean parentModel) {
       // Enforces an additional restriction required for this type of model.
       if (parentModel == null)
           throw new IllegalArgumentException("May not set parent of simple feature to null");

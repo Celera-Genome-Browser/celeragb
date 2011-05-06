@@ -27,13 +27,13 @@
  * @author Les Foster
  * @version
  */
-package api.facade.concrete_facade.xml.model;
+package api.facade.concrete_facade.shared.feature_bean;
 
 import api.entity_model.model.alignment.Alignment;
 import api.entity_model.model.annotation.CuratedCodon;
 import api.entity_model.model.annotation.CuratedTranscript;
 import api.entity_model.model.fundtype.GenomicEntity;
-import api.facade.concrete_facade.xml.XmlFacadeManager;
+import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.OID;
 import api.stub.geometry.Range;
 
@@ -46,7 +46,7 @@ import java.util.List;
  * Simple model class for a compound feature.  Bridges the disconnect
  * between XML file and internal browser model.
  */
-public class CompoundFeatureModel extends FeatureModel implements Serializable {
+public class CompoundFeatureBean extends FeatureBean implements Serializable {
 
   //-------------------------------------INSTANCE VARIABLES
   private List children = new ArrayList(); // Simple model instances.
@@ -57,8 +57,8 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
    * Constructor which takes the oid of this model as well as the OID agains
    * which it will be aligned.
    */
-  public CompoundFeatureModel(OID compoundFeatureOID, OID oidOfAlignment,
-      XmlFacadeManager readFacadeManager) {
+  public CompoundFeatureBean(OID compoundFeatureOID, OID oidOfAlignment,
+      FacadeManagerBase readFacadeManager) {
 
       super(compoundFeatureOID, oidOfAlignment, readFacadeManager);
 
@@ -75,7 +75,7 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
    * Allows external add of a simple feature.  Compound features are
    * "made up of" simple features.
    */
-  public void addChild(FeatureModel featureChild) {
+  public void addChild(FeatureBean featureChild) {
       children.add(featureChild);
   } // End method: addChild
 
@@ -130,11 +130,11 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
     int rangeMin = Integer.MAX_VALUE;   // Must be changed.
     boolean isReversed = false;
     boolean compoundFeatureIsObsolete = isObsolete();
-    FeatureModel childFeature = null;
+    FeatureBean childFeature = null;
 
     for (Iterator it = children.iterator(); it.hasNext(); ) {
       // Getting range of child.
-      childFeature = (FeatureModel)it.next();
+      childFeature = (FeatureBean)it.next();
 
       // Look at maxima and minima.  Once both are found, backfit
       // the values to start and end based on directionality.
@@ -178,7 +178,7 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
       OID[] childEvidence = null;
       int totalSize = 0;
       for (Iterator it = children.iterator(); it.hasNext(); ) {
-        childEvidence = ((FeatureModel)it.next()).getEvidence();
+        childEvidence = ((FeatureBean)it.next()).getEvidence();
         evidenceList.add(childEvidence);
         totalSize += childEvidence.length;
       } // For all iterations
@@ -213,9 +213,9 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
    * @parameter List children features to be aligned.
    */
   protected void alignChildren(List children) {
-    FeatureModel nextChild = null;
+    FeatureBean nextChild = null;
     for (Iterator it = children.iterator(); it.hasNext(); ) {
-      nextChild = (FeatureModel)it.next();
+      nextChild = (FeatureBean)it.next();
       nextChild.alignFeature();
 
     } // Do sub-features.
@@ -227,7 +227,7 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
    * @parameter List children features to be aligned.
    */
   protected void alignChildrenOfTranscript(List children) {
-    FeatureModel nextChild = null;
+    FeatureBean nextChild = null;
     List codonList = null;
 
     // This method simply adds the codons AFTER all the EXONs.  This
@@ -237,7 +237,7 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
 
     // Scan features: if any are codons, save them for subsequent addition.
     for (int i = 0; i < children.size(); i++) {
-      nextChild = (FeatureModel)children.get(i);
+      nextChild = (FeatureBean)children.get(i);
       // NOTE: will trigger caching of the entity!
       if (nextChild.createFeatureEntity() instanceof CuratedCodon) {
         if (codonList == null)
@@ -253,7 +253,7 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
     // Simply adds the codons last.
     if (codonList != null) {
       for (Iterator it = codonList.iterator(); it.hasNext(); ) {
-        nextChild = (FeatureModel)it.next();
+        nextChild = (FeatureBean)it.next();
         nextChild.alignFeature();
       } // Do sub-features.
     } // Found codons.
@@ -268,8 +268,8 @@ public class CompoundFeatureModel extends FeatureModel implements Serializable {
     int numberOfHsps = getChildren().size();
     for (int i = 0; i < numberOfHsps; i++) {
       for (int j = i+1; j < numberOfHsps; j++) {
-        SimpleFeatureModel outerDetail = (SimpleFeatureModel)getChildren().get(i);
-        SimpleFeatureModel innerDetail = (SimpleFeatureModel)getChildren().get(j);
+        SimpleFeatureBean outerDetail = (SimpleFeatureBean)getChildren().get(i);
+        SimpleFeatureBean innerDetail = (SimpleFeatureBean)getChildren().get(j);
 
         if ((outerDetail.getSubjectStart() == innerDetail.getSubjectEnd()) ||
             (outerDetail.getSubjectEnd() == innerDetail.getSubjectStart())) {

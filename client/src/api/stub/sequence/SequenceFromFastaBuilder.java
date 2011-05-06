@@ -38,6 +38,7 @@ import java.io.RandomAccessFile;
  */
 public class SequenceFromFastaBuilder implements SequenceBuilder {
   //----------------------------------------CONSTANTS
+  public static final String NCBI_CHROMO_FASTA_EXTENSION = ".fna";
   private String CR_LF = "\r\n";
   private String LF = "\n";
   private String READ_ONLY_MODE = "r";

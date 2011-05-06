@@ -31,6 +31,8 @@ package api.facade.concrete_facade.xml;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.model.genetics.GenomeVersion;
 import api.entity_model.model.genetics.Species;
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
+import api.facade.concrete_facade.shared.LoaderConstants;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.GenomeVersionInfo;
 import api.stub.data.OID;
@@ -45,10 +47,6 @@ import java.util.*;
  * genome versions from files in that directory.
  */
 public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, SequenceAlignmentListener {
-
-    //---------------------------------CONSTANTS
-    private static final String ASSEMBLY_FILE_EXTENSION = ".gba";
-    private static final String FEATURE_FILE_EXTENSION = ".gbf";
 
     //---------------------------------MEMBER VARIABLES
     private Map oidToSpecies = new HashMap();
@@ -367,7 +365,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
     private List getFileNamesForRecentGenomeVersions(Iterator baseGenomeVersionFiles) {
         List returnList = new ArrayList();
         String nextPath = null;
-        GenomeVersionParser parser = new GenomeVersionParser(this, datasourceName);
+        GenomeVersionFactory parser = new GenomeVersionParser(this, datasourceName);
         GenomeVersionInfo nextAxisVersionInfo = null;
         File nextFile = null;
         String nextDirectory = null;
@@ -384,7 +382,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
             nextFile = new File(nextPath);
             if (nextFile.exists() && nextFile.canRead()) {
                 returnList.add(nextPath);
-                nextAxisVersionInfo = parser.parseForGenomeVersionInfo(nextPath);
+                nextAxisVersionInfo = parser.getGenomeVersionInfos(nextPath).get( 0 );
                 if (nextFile != null) {
                     nextDirectory = nextFile.getParent();
                     if (nextDirectory != null) {
@@ -392,7 +390,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
                         nextDirectoryListing = nextDirectoryFile.list(new FilenameFilter() {
                             public boolean accept(File parentFile, String justName) {
                                 String fullPath = new File(parentFile, justName).getAbsolutePath();
-                                if (fullPath != null  &&  fullPath.endsWith(DirectoryGenomeVersionSpace.FEATURE_FILE_EXTENSION))
+                                if (fullPath != null  &&  fullPath.endsWith(LoaderConstants.XML_FEATURE_FILE_EXTENSION))
                                     return true;
                                 else
                                     return false;
@@ -404,7 +402,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
                     if (nextDirectoryListing != null) {
                         for (int i = 0; i < nextDirectoryListing.length; i++) {
                             nextParseablePath = new File(nextFile.getParent(), nextDirectoryListing[i]).getAbsolutePath();
-                            nextFeatureGVInfo = parser.parseForGenomeVersionInfo(nextParseablePath);
+                            nextFeatureGVInfo = parser.getGenomeVersionInfos(nextParseablePath).get( 0 );
                             if ((nextFeatureGVInfo.getAssemblyVersion() == nextAxisVersionInfo.getAssemblyVersion()) &&
                                 (nextFeatureGVInfo.getSpeciesName().equals(nextAxisVersionInfo.getSpeciesName()))) {
                                 returnList.add(nextParseablePath);
@@ -438,7 +436,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
             // Get list of appropriately-named files.
             String[] filesInDirectory = directoryFile.list(new FilenameFilter() {
                 public boolean accept(File dir, String name) {
-                    if (name.endsWith(ASSEMBLY_FILE_EXTENSION)) {
+                    if (name.endsWith(LoaderConstants.XML_ASSEMBLY_FILE_EXTENSION)) {
                         if (XmlPermission.getXmlPermission().canReadFile(new File(dir.getAbsolutePath(), name)))
                             return true;
                         else
@@ -467,7 +465,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
         String nextPath = null;
         File nextFile = null;
         String nextLocation = null;
-        GenomeVersionParser parser = new GenomeVersionParser(this, datasourceName);
+        GenomeVersionFactory parser = new GenomeVersionParser(this, datasourceName);
         GenomeVersion nextVersion = null;
 
         for (Iterator it = pathsToRead.iterator(); it.hasNext(); ) {
@@ -476,7 +474,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
             nextFile = new File(nextPath);
             nextLocation = nextFile.getParent();
             if ((directoryNames == null) || (! directoryNames.contains(nextLocation))) {
-               nextVersion = parser.parseForGenomeVersion(nextPath);
+               nextVersion = parser.getGenomeVersions(nextPath).get( 0 );
                 if (! isGenomeVersionPreviouslyRegistered(nextVersion, returnList))
                    returnList.add(nextVersion);
 
@@ -519,8 +517,8 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
     /** Builds unique collection of file extension of value here. */
     private Set createExtensionSet() {
         Set extensionSet = new HashSet();
-        extensionSet.add(ASSEMBLY_FILE_EXTENSION);
-        extensionSet.add(FEATURE_FILE_EXTENSION);
+        extensionSet.add(LoaderConstants.XML_ASSEMBLY_FILE_EXTENSION);
+        extensionSet.add(LoaderConstants.XML_FEATURE_FILE_EXTENSION);
         return extensionSet;
     } // End method
 
@@ -556,7 +554,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
     /** Given a set of files found in the directory, produce genome versions for each such file. */
     private Collection getGenomeVersionsOf(String[] files, String directoryName) {
         // Look at each file.
-        GenomeVersionParser parser = new GenomeVersionParser(this, datasourceName);
+        GenomeVersionFactory parser = new GenomeVersionParser(this, datasourceName);
         List versionList = new ArrayList();
 
         File directoryFile = FileUtilities.openDirectoryFile(directoryName);
@@ -570,7 +568,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
             //System.out.println("Parsing file "+files[i]+" for genome version");
             tmpFile= new File(directoryFile, files[i]);
             nextFile = tmpFile.getAbsolutePath();
-            nextVersion = parser.parseForGenomeVersion(nextFile);
+            nextVersion = parser.getGenomeVersions(nextFile).get( 0 );
 
             if (! isGenomeVersionPreviouslyRegistered(nextVersion, versionList)) {
                 versionList.add(nextVersion);
@@ -602,7 +600,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
     /** Given a set of files found in the directory, find vers. info for each such file. */
     private GenomeVersionInfo[] getGenomeVersionInfosOf(String[] files, String directoryName) {
         // Look at each file.
-        GenomeVersionParser parser = new GenomeVersionParser(this, datasourceName);
+        GenomeVersionFactory parser = new GenomeVersionParser(this, datasourceName);
         List infoList = new ArrayList();
 
         // Should not happen once we get to here, but just as a precaution...
@@ -618,7 +616,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
             //
             //System.out.println("Parsing file "+files[i]+" for genome version");
             nextFile = new File(directoryFile, files[i]).getAbsolutePath();
-            nextInfo = parser.parseForGenomeVersionInfo(nextFile);
+            nextInfo = parser.getGenomeVersionInfos(nextFile).get( 0 );
 
             //System.out.println("next version is "+nextVersion);
             infoList.add(nextInfo);
@@ -654,7 +652,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
     private void buildGenomeVersionNumberVsFeatureSource(int genomeVersionId) {
         buildGenomeVersionNumberVsFeatureSource(genomeVersionId, new FilenameFilter() {
             public boolean accept(File dir, String name) {
-                if (name.endsWith(FEATURE_FILE_EXTENSION)) {
+                if (name.endsWith(LoaderConstants.XML_FEATURE_FILE_EXTENSION)) {
                     return true;
                 } // Got extension.
                 else
@@ -675,7 +673,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
 
             public boolean accept(File dir, String name) {
                 boolean returnValue = false;
-                if (name.endsWith(FEATURE_FILE_EXTENSION)) {
+                if (name.endsWith(LoaderConstants.XML_FEATURE_FILE_EXTENSION)) {
                     if (genomeVersionNumberVsFeatureSource == null)
                         returnValue = true;
                     else if (genomeVersionNumberVsFeatureSource.size() == 0)

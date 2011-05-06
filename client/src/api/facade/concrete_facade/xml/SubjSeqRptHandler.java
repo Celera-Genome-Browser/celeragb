@@ -34,9 +34,11 @@ import api.facade.abstract_facade.annotations.BlastHitFacade;
 import api.facade.abstract_facade.annotations.GenewiseLoader;
 import api.facade.abstract_facade.annotations.HSPFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
-import api.facade.concrete_facade.xml.model.CompoundFeatureModel;
-import api.facade.concrete_facade.xml.model.FeatureModel;
-import api.facade.concrete_facade.xml.model.SimpleFeatureModel;
+import api.facade.concrete_facade.shared.OIDParser;
+import api.facade.concrete_facade.shared.PropertySource;
+import api.facade.concrete_facade.shared.feature_bean.CompoundFeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.FeatureBean;
+import api.facade.concrete_facade.shared.feature_bean.SimpleFeatureBean;
 import api.facade.concrete_facade.xml.sax_support.*;
 import api.facade.facade_mgr.FacadeManager;
 import shared.util.DeflineParser;
@@ -172,7 +174,7 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
         ((CompoundFeatureHandler)getDelegate()).setAnalysisSource(mAnalysisSource);
         ((CompoundFeatureHandler)getDelegate()).setResultSetType(mResultSetType);
 
-        CompoundFeatureModel model = ((CompoundFeatureHandler)getDelegate()).createModel();
+        CompoundFeatureBean model = ((CompoundFeatureHandler)getDelegate()).createModel();
         testForReportLine(model);
         model.setParent(null);
       } // End of a set element in the delegate.
@@ -219,7 +221,7 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
      * Checks the model against criteria.  If it matches, adds to the
      * report as another line.
      */
-    private void testForReportLine(CompoundFeatureModel lModel) {
+    private void testForReportLine(CompoundFeatureBean lModel) {
       if (lModel == null)
         return;
 
@@ -300,7 +302,7 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
 
     //-------------------------------------------HELPERS
     /** Pulling in a num similar or positive. */
-    private int getNumSimilar(CompoundFeatureModel lModel) {
+    private int getNumSimilar(CompoundFeatureBean lModel) {
       String lPropVal = findInSources(lModel, GenewiseLoader.NUM_SIMILAR_PROP);
       int lReturnVal = 0;
       try {
@@ -315,13 +317,13 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
     /**
      * GO through child models looking for highest bit score.
      */
-    private double getMaxBitScore(CompoundFeatureModel lModel) {
+    private double getMaxBitScore(CompoundFeatureBean lModel) {
       double highestBitScore = Double.MIN_VALUE;
-      SimpleFeatureModel lChildModel = null;
+      SimpleFeatureBean lChildModel = null;
       String score = null;
       double nextScore = 0;
       for (Iterator it = lModel.getChildren().iterator(); it.hasNext(); ) {
-        lChildModel = (SimpleFeatureModel)it.next();
+        lChildModel = (SimpleFeatureBean)it.next();
         if (null != (score = getBitScore(lChildModel))) {
           try {
             nextScore = Double.parseDouble(score);
@@ -343,7 +345,7 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
     } // End method
 
     /** Method to find value for name from the model's prop sources. */
-    private String findInSources(FeatureModel lModel, String lName) {
+    private String findInSources(FeatureBean lModel, String lName) {
       List lPropertySources = lModel.getPropertySources();
       PropertySource lNextSource = null;
       for (Iterator it = lPropertySources.iterator(); it.hasNext(); ) {
@@ -355,7 +357,7 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
     } // End method
 
     /** Method to find the bit score from among all different possible locs. */
-    private String getBitScore(SimpleFeatureModel lChildModel) {
+    private String getBitScore(SimpleFeatureBean lChildModel) {
       String bitScoreStr = findInSources(lChildModel, HSPFacade.BIT_SCORE_PROP);
       if (bitScoreStr == null)
         bitScoreStr = lChildModel.getScore();
@@ -366,15 +368,15 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
      * Check whether any child of the model has a subjects sequence oid
      * that appears in the set of oids of interest.
      */
-    private boolean hasChildWithSubjectSequenceOidOfInterest(CompoundFeatureModel lModel) {
+    private boolean hasChildWithSubjectSequenceOidOfInterest(CompoundFeatureBean lModel) {
 
       boolean returnFlag = false;
-      SimpleFeatureModel lChildModel = null;
+      SimpleFeatureBean lChildModel = null;
 
       // Look for containment of child's subj-seq-oid in the collection of
       // interesting subj-seq-oids.
       for (Iterator it = lModel.getChildren().iterator(); (!returnFlag) && it.hasNext(); ) {
-        lChildModel = (SimpleFeatureModel)it.next();
+        lChildModel = (SimpleFeatureBean)it.next();
         if (mSubjectSequenceOids.contains(lChildModel.getSubjectSequenceOid()))
           returnFlag = true;
       } // For all iterations
@@ -399,6 +401,9 @@ public class SubjSeqRptHandler extends FeatureHandlerBase {
 
 /*
  $Log$
+ Revision 1.2  2011/03/08 16:16:39  saffordt
+ Java 1.6 changes
+
  Revision 1.1  2006/11/09 21:35:56  rjturner
  Initial upload of source
 

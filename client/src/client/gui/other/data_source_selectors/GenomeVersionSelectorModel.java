@@ -38,7 +38,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-class GenomeVersionSelectorModel extends AbstractTableModel {
+class GenomeVersionSelectorModel extends AbstractGenomeVersionSelectorModel {
 
   final static String DEFAULT_NAME_DATABASE_DATA_SOURCE  = "Internal Database";
   final static String DEFAULT_NAME_FILE_DATA_SOURCE      = "Local XML File";

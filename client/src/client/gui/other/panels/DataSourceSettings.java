@@ -65,24 +65,35 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
    JTextField loginTextField = new StandardTextField();
    TitledBorder titledBorder2;
 
-   private static final String LOCATION_PROP_NAME = "XmlGenomeVersionLocation";
+   private static final String GFF3_LOCATION_PROP_NAME = "Gff3GenomeVersionLocation";
+   private static final String XML_LOCATION_PROP_NAME = "XmlGenomeVersionLocation";
    private static final int PREFERRED_JLIST_HEIGHT = 165;
 
-   private JButton addDirectoryButton;
    private JComboBox validationComboBox;
    private static String fileSep = File.separator;
-   protected File directoryPrefFile =
-      new File(System.getProperty("user.home") + fileSep + "x" + fileSep + "GenomeBrowser" + fileSep + "userPrefs." + LOCATION_PROP_NAME);
 
-   private JList currentDirectoryJList;
-   private CollectionJListModel directoryLocationModel;
+   // GFF3 specific widgets.
+   protected File gffDirectoryPrefFile =
+	      new File(System.getProperty("user.home") + fileSep + "x" + fileSep + "GenomeBrowser" + fileSep + "userPrefs." + GFF3_LOCATION_PROP_NAME);
+   private JList currentGffDirectoryJList;
+   private CollectionJListModel gffDirectoryLocationModel;
+   private JButton removeGffDirectoryButton = new JButton("Remove Selected Directory");
+   private JButton addGffDirectoryButton;
+
+   // XML Specific widgets.
+   protected File xmlDirectoryPrefFile =
+	      new File(System.getProperty("user.home") + fileSep + "x" + fileSep + "GenomeBrowser" + fileSep + "userPrefs." + XML_LOCATION_PROP_NAME);
+   private JList currentXmlDirectoryJList;
+   private CollectionJListModel xmlDirectoryLocationModel;
+   private JButton removeXmlDirectoryButton = new JButton("Remove Selected Directory");
+   private JButton addXmlDirectoryButton;
+
    private static final int VERY_WIDE = 800;
    private JList urlJList = null;
    private CollectionJListModel urlLocationModel;
    private JButton removeUrlButton = new JButton("Remove Selected URL");
    private JButton addUrlButton = new JButton("Add to Current URLs");
    private JTextField addUrlField = new StandardTextField();
-   private JButton removeDirectoryButton = new JButton("Remove Selected Directory");
    private static final int MAX_DIR_LENGTH = 60;
 
    public DataSourceSettings(JFrame parentFrame) {
@@ -137,7 +148,7 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
     * pressed in the Controller frame.
     */
    public String[] applyChanges() {
-      List delayedChanges = new ArrayList();
+      List<String> delayedChanges = new ArrayList<String>();
       userLogin = loginTextField.getText().trim();
       userPassword = new String(passwordTextField.getPassword());
 // JCVI LLF, 10/19/2006
@@ -160,14 +171,8 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
 //         FacadeManager.addProtocolToUseList(FacadeManager.getEJBProtocolString());
 //      }
       try {
-         if (directoryLocationModel.isModified()) {
-            if (ModelMgr.getModelMgr().getNumberOfLoadedGenomeVersions() > 0)
-               delayedChanges.add("Changing the XML Directories");
-            setNewDirectoryLocations(directoryLocationModel.getList());
-            // This places the gen-ax back in contention until/unless
-            // its "initiate" call returns no-go value.
-            FacadeManager.addProtocolToUseList("xmlgenomicaxis");
-         } // Change required.
+         applyDirLocChanges(delayedChanges, xmlDirectoryLocationModel, "XML", "xmlgenomicaxis", xmlDirectoryPrefFile);
+         applyDirLocChanges(delayedChanges, gffDirectoryLocationModel, "GFF", "gff", gffDirectoryPrefFile);
 
          String userChosenValidation = (String) validationComboBox.getSelectedItem();
          if (!userChosenValidation.equals(ValidationManager.getInstance().getDisplayableValidationSetting())) {
@@ -187,6 +192,19 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
       setNewUrlLocations(urlLocationModel.getList());
       settingsChanged = false;
       return (String[]) delayedChanges.toArray(new String[delayedChanges.size()]);
+   }
+
+   /** Generalized directory location save back, for any file type/protocol. */
+   private void applyDirLocChanges(
+		   List<String> delayedChanges, CollectionJListModel directoryLocationModel, String fileType, String protocol, File directoryPrefFile ) {
+	  if (directoryLocationModel.isModified()) {
+	     if (ModelMgr.getModelMgr().getNumberOfLoadedGenomeVersions() > 0)
+	       delayedChanges.add("Changing the " + fileType + " Directories");
+	     setNewDirectoryLocations(directoryLocationModel.getList(), fileType, directoryPrefFile);
+	     // This places the gen-ax back in contention until/unless
+	     // its "initiate" call returns no-go value.
+	     FacadeManager.addProtocolToUseList(protocol);
+	  } // Change required.
    }
 
    /**
@@ -247,21 +265,37 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
       add(ejbPanel);
       add(Box.createVerticalStrut(10));
 
-      addDirectoryButton = new JButton("Add to Current Directories");
-      addDirectoryButton.addActionListener(new ActionListener() {
+      addXmlDirectoryButton = new JButton("Add to Current XML Directories");
+      addXmlDirectoryButton.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent ae) {
             showNewXmlDirectoryChooser();
          } // End method
       });
-      addDirectoryButton.setRequestFocusEnabled(false);
+      addXmlDirectoryButton.setRequestFocusEnabled(false);
 
-      List directoryLocationCollection = getExistingDirectoryLocations();
-      directoryLocationModel = new CollectionJListModel(directoryLocationCollection);
-      currentDirectoryJList = new JList(directoryLocationModel);
-      ActionListener rdListener = new ModelRemovalListener(currentDirectoryJList);
-      removeDirectoryButton.addActionListener(rdListener);
-      removeDirectoryButton.setEnabled(directoryLocationModel.getSize() > 0);
-      removeDirectoryButton.setRequestFocusEnabled(false);
+      addGffDirectoryButton = new JButton("Add to Current GFF Directories");
+      addGffDirectoryButton.addActionListener(new ActionListener() {
+         public void actionPerformed(ActionEvent ae) {
+            showNewGffDirectoryChooser();
+         } // End method
+      });
+      addGffDirectoryButton.setRequestFocusEnabled(false);
+
+      List<String> directoryLocationCollectionForXml = getExistingDirectoryLocations( xmlDirectoryPrefFile );
+      xmlDirectoryLocationModel = new CollectionJListModel(directoryLocationCollectionForXml);
+      currentXmlDirectoryJList = new JList(xmlDirectoryLocationModel);
+      ActionListener rdListener = new ModelRemovalListener(currentXmlDirectoryJList);
+      removeXmlDirectoryButton.addActionListener(rdListener);
+      removeXmlDirectoryButton.setEnabled(xmlDirectoryLocationModel.getSize() > 0);
+      removeXmlDirectoryButton.setRequestFocusEnabled(false);
+
+      List<String> directoryLocationCollectionForGff = getExistingDirectoryLocations( gffDirectoryPrefFile );
+      gffDirectoryLocationModel = new CollectionJListModel(directoryLocationCollectionForGff);
+      currentGffDirectoryJList = new JList(gffDirectoryLocationModel);
+      rdListener = new ModelRemovalListener(currentGffDirectoryJList);
+      removeGffDirectoryButton.addActionListener(rdListener);
+      removeGffDirectoryButton.setEnabled(gffDirectoryLocationModel.getSize() > 0);
+      removeGffDirectoryButton.setRequestFocusEnabled(false);
 
       String[] choices = ValidationManager.getInstance().getDisplayableValidationChoices();
       validationComboBox = new JComboBox(choices);
@@ -274,14 +308,7 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
          }
       });
 
-      JPanel internalButtonPanel = new JPanel();
-      internalButtonPanel.setLayout(new BoxLayout(internalButtonPanel, BoxLayout.X_AXIS));
-      internalButtonPanel.add(Box.createHorizontalStrut(5));
-      internalButtonPanel.add(addDirectoryButton);
-      internalButtonPanel.add(Box.createHorizontalStrut(10));
-      internalButtonPanel.add(removeDirectoryButton);
-      internalButtonPanel.add(Box.createHorizontalGlue());
-
+      JPanel internalXmlButtonPanel = createInternalButtonPanel( addXmlDirectoryButton,removeXmlDirectoryButton );
       JPanel internalComboBoxPanel = new JPanel();
       internalComboBoxPanel.setLayout(new BoxLayout(internalComboBoxPanel, BoxLayout.X_AXIS));
       internalComboBoxPanel.add(Box.createHorizontalStrut(5));
@@ -293,23 +320,22 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
       internalValidationPanel.add(new JLabel("Validation Options"));
       internalValidationPanel.add(internalComboBoxPanel);
 
-      JPanel xmlDirectoryPanel = new JPanel();
-      xmlDirectoryPanel.setLayout(new BoxLayout(xmlDirectoryPanel, BoxLayout.Y_AXIS));
-      xmlDirectoryPanel.setBorder(new TitledBorder("XML Directory"));
-      JPanel currentDirPanel = new JPanel();
-      currentDirPanel.setLayout(new BoxLayout(currentDirPanel, BoxLayout.X_AXIS));
-      JScrollPane directoryScroll = new JScrollPane(currentDirectoryJList);
-      directoryScroll.setViewportBorder(new BevelBorder(BevelBorder.LOWERED));
-      currentDirPanel.add(directoryScroll);
-      xmlDirectoryPanel.add(currentDirPanel);
-      xmlDirectoryPanel.add(Box.createVerticalStrut(5));
-      xmlDirectoryPanel.add(internalButtonPanel);
-      xmlDirectoryPanel.add(Box.createVerticalStrut(5));
-      xmlDirectoryPanel.add(internalValidationPanel);
-      int preferredWidthOfDirPanel = xmlDirectoryPanel.getWidth();
-      xmlDirectoryPanel.setPreferredSize(new Dimension(preferredWidthOfDirPanel, PREFERRED_JLIST_HEIGHT));
+      JPanel xmlDirectoryPanel = createDirectoryPanel(
+    		  internalXmlButtonPanel,
+			  internalValidationPanel,
+			  "XML Directory", 
+			  currentXmlDirectoryJList);
 
       add(xmlDirectoryPanel);
+
+      JPanel internalGffButtonPanel = createInternalButtonPanel( addGffDirectoryButton, removeGffDirectoryButton );
+      JPanel gffDirectoryPanel = createDirectoryPanel(
+    		  internalGffButtonPanel,
+			  null,  // No validation options required, as yet.
+			  "GFF3 Directory", 
+			  currentGffDirectoryJList);
+
+      add(gffDirectoryPanel);
 
       add(Box.createVerticalStrut(10));
 
@@ -378,6 +404,39 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
       add(Box.createVerticalStrut(10));
    }
 
+   private JPanel createInternalButtonPanel( JButton addDirectoryButton, JButton removeDirectoryButton ) {
+	  JPanel internalXmlButtonPanel = new JPanel();
+      internalXmlButtonPanel.setLayout(new BoxLayout(internalXmlButtonPanel, BoxLayout.X_AXIS));
+      internalXmlButtonPanel.add(Box.createHorizontalStrut(5));
+      internalXmlButtonPanel.add(addDirectoryButton);
+      internalXmlButtonPanel.add(Box.createHorizontalStrut(10));
+      internalXmlButtonPanel.add(removeDirectoryButton);
+      internalXmlButtonPanel.add(Box.createHorizontalGlue());
+	  return internalXmlButtonPanel;
+   }
+
+   // Creates a panel to show a list of directories.
+   private JPanel createDirectoryPanel(JPanel internalButtonPanel, JPanel internalValidationPanel, String title, JList directoryJList ) {
+	  JPanel directoryPanel = new JPanel();
+      directoryPanel.setLayout(new BoxLayout(directoryPanel, BoxLayout.Y_AXIS));
+      directoryPanel.setBorder(new TitledBorder(title));
+      JPanel currentDirPanel = new JPanel();
+      currentDirPanel.setLayout(new BoxLayout(currentDirPanel, BoxLayout.X_AXIS));
+      JScrollPane directoryScroll = new JScrollPane( directoryJList );
+      directoryScroll.setViewportBorder(new BevelBorder(BevelBorder.LOWERED));
+      currentDirPanel.add(directoryScroll);
+      directoryPanel.add(currentDirPanel);
+      directoryPanel.add(Box.createVerticalStrut(5));
+      directoryPanel.add(internalButtonPanel);
+      if ( internalValidationPanel != null ) {
+          directoryPanel.add(Box.createVerticalStrut(5));
+          directoryPanel.add(internalValidationPanel);    	  
+      }
+      int preferredWidthOfDirPanel = directoryPanel.getWidth();
+      directoryPanel.setPreferredSize(new Dimension(preferredWidthOfDirPanel, PREFERRED_JLIST_HEIGHT));
+	  return directoryPanel;
+   }
+
    private void addUrlButtonActionPerformed(ActionEvent ae) {
       try {
          URL url = new URL(addUrlField.getText());
@@ -398,10 +457,10 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
    private void showNewXmlDirectoryChooser() {
       JFileChooser chooser = null;
 
-      if (directoryLocationModel.getSize() == 0)
+      if (xmlDirectoryLocationModel.getSize() == 0)
          chooser = new FileChooser();
       else
-         chooser = new FileChooser(new File((String) directoryLocationModel.findLast()));
+         chooser = new FileChooser(new File((String) xmlDirectoryLocationModel.findLast()));
       chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
       chooser.setMultiSelectionEnabled(true);
       int returnVal = chooser.showOpenDialog(parentFrame);
@@ -409,17 +468,39 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
          settingsChanged = true;
          File[] files = chooser.getSelectedFiles();
          for (int i = 0; i < files.length; i++) {
-            directoryLocationModel.add(files[i].getAbsolutePath());
+            xmlDirectoryLocationModel.add(files[i].getAbsolutePath());
          } // For all files.
-         currentDirectoryJList.updateUI();
-         removeDirectoryButton.setEnabled(true);
+         currentXmlDirectoryJList.updateUI();
+         removeXmlDirectoryButton.setEnabled(true);
       } // Got approved.
 
    } // End method
 
+   private void showNewGffDirectoryChooser() {
+	      JFileChooser chooser = null;
+
+	      if (gffDirectoryLocationModel.getSize() == 0)
+	         chooser = new FileChooser();
+	      else
+	         chooser = new FileChooser(new File((String) gffDirectoryLocationModel.findLast()));
+	      chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+	      chooser.setMultiSelectionEnabled(true);
+	      int returnVal = chooser.showOpenDialog(parentFrame);
+	      if (returnVal == JFileChooser.APPROVE_OPTION) {
+	         settingsChanged = true;
+	         File[] files = chooser.getSelectedFiles();
+	         for (int i = 0; i < files.length; i++) {
+	            gffDirectoryLocationModel.add(files[i].getAbsolutePath());
+	         } // For all files.
+	         currentGffDirectoryJList.updateUI();
+	         removeGffDirectoryButton.setEnabled(true);
+	      } // Got approved.
+
+	   } // End method
+
    /** Gets the old location settings. */
-   private List getExistingDirectoryLocations() {
-      List returnCollection = new ArrayList();
+   private List<String> getExistingDirectoryLocations( File directoryPrefFile ) {
+      List<String> returnCollection = new ArrayList<String>();
 
       /** @todo when possible change this to use Model Property implementation. */
       // Set the default directory from a preset preference if possible.
@@ -429,7 +510,7 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
 
          String nextDirectory = null;
          if (directoryPrefFile.canRead() && directoryPrefFile.exists()) {
-            FileInputStream fis = new FileInputStream(directoryPrefFile);
+            FileInputStream fis = new FileInputStream(xmlDirectoryPrefFile);
             istream = new ObjectInputStream(fis);
             while (null != (nextDirectory = (String) istream.readObject())) {
                returnCollection.add(nextDirectory);
@@ -453,28 +534,28 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
    } // End method
 
    /** Sets the user's new pref. */
-   private void setNewDirectoryLocations(List locationList) {
+   private void setNewDirectoryLocations(List<String> locationList, String type, File directoryPrefFile) {
       /** @todo when possible change this to use Model Property implementation. */
 
       // Now attempt to writeback the user's currently-selected directory as the
-      // new preference for reading XML files.
+      // new preference for reading files.
       //
       try {
          if (locationList != null) {
             ObjectOutputStream ostream = new ObjectOutputStream(new FileOutputStream(directoryPrefFile));
-            for (Iterator it = locationList.iterator(); it.hasNext();) {
-               ostream.writeObject(it.next());
+            for ( String nextLoc: locationList ) {
+               ostream.writeObject(nextLoc);
             } // For all directories.
             ostream.close();
          } // Permission granted.
          else {
             SessionMgr.getSessionMgr().handleException(
-               new IllegalArgumentException("XML Directory List is null or Cannot Write " + directoryPrefFile.getAbsoluteFile()));
+               new IllegalArgumentException(type + " Directory List is null or Cannot Write " + directoryPrefFile.getAbsoluteFile()));
          } // Not granted
       } // End try block.
       catch (Exception ex) {
          SessionMgr.getSessionMgr().handleException(
-            new IllegalArgumentException("XML Directory Prefs " + directoryPrefFile.getAbsoluteFile() + " File Cannot be Written"));
+            new IllegalArgumentException(type + " Directory Prefs " + directoryPrefFile.getAbsoluteFile() + " File Cannot be Written"));
       } // End catch block for writeback of preferred directory.
 
    } // End method

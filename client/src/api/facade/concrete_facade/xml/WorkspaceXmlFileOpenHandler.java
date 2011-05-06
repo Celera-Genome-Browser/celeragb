@@ -25,6 +25,7 @@
   *********************************************************************/
 package api.facade.concrete_facade.xml;
 
+import api.facade.concrete_facade.shared.GenomeVersionFactory;
 import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.GenomeVersionInfo;
 
@@ -48,8 +49,8 @@ public class WorkspaceXmlFileOpenHandler extends XmlFileOpenHandlerBase  {
    * Finds the loader (there should be only one) assembly version.
    */
   public GenomeVersionInfo findGenomeVersionInfo(String source) {
-    GenomeVersionParser parser = new GenomeVersionParser();
-    return parser.parseForGenomeVersionInfo(source);
+    GenomeVersionFactory parser = new GenomeVersionParser();
+    return parser.getGenomeVersionInfos(source).get( 0 );
   } // End method
 
   //----------------------------OVERRIDES TO XmlFileOpenHandlerBase

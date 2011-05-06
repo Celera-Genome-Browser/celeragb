@@ -32,7 +32,7 @@ import api.entity_model.model.genetics.GenomeVersion;
 import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.abstract_facade.annotations.HitAlignmentFacade;
 import api.facade.abstract_facade.fundtype.GenomicEntityLoader;
-import api.facade.concrete_facade.xml.sax_support.PropertySource;
+import api.facade.concrete_facade.shared.PropertySource;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.*;
 import shared.util.DeflineParser;

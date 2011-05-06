@@ -49,6 +49,7 @@ import api.facade.abstract_facade.annotations.HitAlignmentFacade;
 import api.facade.abstract_facade.fundtype.EntityTypeConstants;
 import api.facade.abstract_facade.fundtype.NavigationConstants;
 import api.facade.abstract_facade.genetics.GenomeVersionLoader;
+import api.facade.concrete_facade.shared.LoaderConstants;
 import api.facade.facade_mgr.FacadeManager;
 import api.stub.data.*;
 import api.stub.geometry.Range;
@@ -581,10 +582,10 @@ public class XmlGenomeVersion  extends XmlGenomicFacade implements GenomeVersion
 
          Alignment alignment = null;
          if ( targetTypeNumber == NavigationConstants.GENE_ACCESSION_INDEX ) {
-            alignment = loader.getAlignmentForAccession(target, XmlLoader.GENE_ACCESSION_TYPE);
+            alignment = loader.getAlignmentForAccession(target, LoaderConstants.GENE_ACCESSION_TYPE);
          } // Looking for the accession of gene
          else if ( targetTypeNumber == NavigationConstants.TRANSCRIPT_ACCESSION_INDEX ) {
-            alignment = loader.getAlignmentForAccession(target, XmlLoader.NONPUBLIC_ACCESSION_TYPE);
+            alignment = loader.getAlignmentForAccession(target, LoaderConstants.NONPUBLIC_ACCESSION_TYPE);
          } // Looking for the accession of transcript
          else if ( targetTypeNumber == NavigationConstants.FEATURE_OID_INDEX ) {
             OID featureOID = ((SAXLoaderBase)loader).parseOIDGeneric(convertToOID(target));
