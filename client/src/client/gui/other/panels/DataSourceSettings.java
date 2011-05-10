@@ -510,7 +510,7 @@ public class DataSourceSettings extends JPanel implements PrefEditor {
 
          String nextDirectory = null;
          if (directoryPrefFile.canRead() && directoryPrefFile.exists()) {
-            FileInputStream fis = new FileInputStream(xmlDirectoryPrefFile);
+            FileInputStream fis = new FileInputStream(directoryPrefFile);
             istream = new ObjectInputStream(fis);
             while (null != (nextDirectory = (String) istream.readObject())) {
                returnCollection.add(nextDirectory);
