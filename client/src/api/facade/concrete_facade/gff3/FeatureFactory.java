@@ -34,6 +34,7 @@ public class FeatureFactory {
 	private static final String GENE_TYPE_GB = "_GENE";
 	private static final String TRANSCRIPT_TYPE_GFF = "transcript";
 	private static final String TRANSCRIPT_TYPE_GB = "_TRANSCRIPT";
+	private static final String MRNA_TYPE_GFF = "mRNA";
 	private static final String PROTEIN_TYPE_GFF = "protein";
 	private static final String PROTEIN_TYPE_GB = "_PROTEIN";
 	private static final String EXON_TYPE_GFF = "exon";
@@ -62,6 +63,7 @@ public class FeatureFactory {
 		curatedGffToGBTypeMapping.put(GENE_TYPE_GFF,                  GENE_TYPE_GB);
 		curatedGffToGBTypeMapping.put(TRANSCRIPT_TYPE_GFF,            TRANSCRIPT_TYPE_GB);
 		curatedGffToGBTypeMapping.put(CDS_TYPE_GFF,                   TRANSCRIPT_TYPE_GB);
+		curatedGffToGBTypeMapping.put(MRNA_TYPE_GFF,                  TRANSCRIPT_TYPE_GB);
 		curatedGffToGBTypeMapping.put(PROTEIN_TYPE_GFF,               PROTEIN_TYPE_GB);
 		curatedGffToGBTypeMapping.put(EXON_TYPE_GFF,                  EXON_TYPE_GB);
 		curatedGffToGBTypeMapping.put(TRANSLATION_POSITION_TYPE_GFF,  TRANSLATION_POSITION_TYPE_GB);
@@ -143,7 +145,12 @@ public class FeatureFactory {
 			for ( ModelTreeNode node: topLevelNodes ) {
 				Gff3GenericModel model = node.getModel();
 				if ( node.getChildren() != null  &&  node.getChildren().size() > 0 ) {
-					buildFeatureHierarchy( node, null, fileName, axisModel, gv );	        		
+					if ( model != null ) {
+						buildFeatureHierarchy( node, null, fileName, axisModel, gv );
+					}
+					else {
+						System.out.println("Node " + node.getId() + " has null model." );
+					}
 				}
 				else {
 					// Make a non-hierarchical model.
@@ -169,12 +176,18 @@ public class FeatureFactory {
 		boolean isGene = isCuratedType( model, GENE_TYPE_GB );
 		if ( isGene  &&  hasNoChildren( node ) ) {
 			// Must establish a Gene/Transcript/Exon hierarchy out of what is found.
-			ModelTreeNode childNode = createGeneChildNode(node, model, "transcript");
-			createGeneChildNode(childNode, childNode.getModel(), "exon");
+			ModelTreeNode childNode = createGeneChildNode(node, model, TRANSCRIPT_TYPE_GFF);
+			createGeneChildNode(childNode, childNode.getModel(), EXON_TYPE_GFF);
 		}
-		else if ( isCuratedType( model, TRANSCRIPT_TYPE_GB)  &&  hasNoChildren( node ) ) {
+		else if ( isCuratedType( model, TRANSCRIPT_TYPE_GB )  &&  hasNoChildren( node ) ) {
 			// Must establish a Transcript/Exon hierarchy out of what is found.
-			createGeneChildNode(node, model, "exon");
+			createGeneChildNode(node, model, EXON_TYPE_GFF);
+		}
+		else if ( isCuratedType( model, EXON_TYPE_GB )  &&  parentBean.getAnalysisType().equals( GENE_TYPE_GB ) ) {
+			// Must ensure that parent is not directly a gene, but has a transcript intermediate.
+			ModelTreeNode interParentNode = createGeneChildNode(node, model, TRANSCRIPT_TYPE_GFF );
+			interParentNode.addChild( node );
+			model.setParent( new String[] { interParentNode.getId() } );
 		}
 
 		if ( ! hasNoChildren( node ) ) {
@@ -418,7 +431,15 @@ public class FeatureFactory {
 	}
 
 	private boolean isCuratedType( Gff3GenericModel model, String type ) {
-		return curatedGffToGBTypeMapping.get( model.getType().trim() ).equalsIgnoreCase( type );
+		String modelType = model.getType();
+		if ( modelType != null ) {
+			modelType = modelType.trim();
+		}
+		else {
+			System.out.println("ERROR: null model type for " + model.getId() );
+		}
+		String curatedTypeMapping = curatedGffToGBTypeMapping.get( modelType );
+		return curatedTypeMapping != null  &&  curatedTypeMapping.equalsIgnoreCase( type );
 	}
 	
 	private boolean hasNoChildren( ModelTreeNode node ) {

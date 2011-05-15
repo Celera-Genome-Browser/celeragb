@@ -132,6 +132,7 @@ public class Gff3GenomicAxisFacadeManager extends Gff3FacadeManager implements R
 			List<String> returnList = new ArrayList<String>();
 			String[] loadersFileNames = null;
 			while ( allLoaders.hasNext() ) {
+				nextLoader = allLoaders.next();
 				loadersFileNames = nextLoader.getLoadedFileNames();
 				for (int i = 0; (loadersFileNames != null) && (i < loadersFileNames.length); i++) {
 					returnList.add(loadersFileNames[i]);
