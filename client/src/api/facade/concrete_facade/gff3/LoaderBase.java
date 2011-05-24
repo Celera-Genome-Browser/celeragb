@@ -56,9 +56,6 @@ import api.stub.sequence.SequenceBuilder;
 import api.stub.sequence.SubSequence;
 import shared.util.GANumericConverter;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.*;
 
 /**
@@ -281,9 +278,15 @@ public abstract class LoaderBase implements DataLoader, OIDParser {
 	@Override
 	public String getTrscptacc(OID oid) {
 		loadFeaturesIfNeeded();
-		CompoundFeatureBean model = (CompoundFeatureBean)dataSource.getOrLoadBeanForOid(oid);
-		if (model != null)
-			return model.getAnnotationName();
+		FeatureBean genericModel = dataSource.getOrLoadBeanForOid(oid);
+		if ( genericModel instanceof CompoundFeatureBean ) {
+			CompoundFeatureBean model = (CompoundFeatureBean)dataSource.getOrLoadBeanForOid(oid);
+			if (model != null)
+				return model.getAnnotationName();			
+		}
+		else {
+			System.out.println("WARNING: seeing non-compound model, when searching for transcript.  Got: " + genericModel.getAnalysisType() + " " + genericModel.getDescription() + " " + genericModel.getDiscoveryEnvironment() );
+		}
 		return null;
 	} // End metod: getTrscptacc
 

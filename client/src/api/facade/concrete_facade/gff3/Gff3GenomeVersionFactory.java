@@ -51,13 +51,16 @@ public class Gff3GenomeVersionFactory implements GenomeVersionFactory {
 
 		List<GenomeVersion> rtnList = new ArrayList<GenomeVersion>();
 		
-		List<Gff3GenericModel> axisModels = Gff3DataAssemblerCache.getAxesFor( filename );
-		for ( Gff3GenericModel model : axisModels ) {
-			GenomeVersion genomeVersion = createGenomeVersion( model, filename );
-			rtnList.add( genomeVersion );
-			if (genomeVersionSpace != null) {
-				genomeVersionSpace.registerSpecies(filename, genomeVersion.getSpecies() );
+		if ( new File( filename ).exists() ) {
+			List<Gff3GenericModel> axisModels = Gff3DataAssemblerCache.getAxesFor( filename );
+			for ( Gff3GenericModel model : axisModels ) {
+				GenomeVersion genomeVersion = createGenomeVersion( model, filename );
+				rtnList.add( genomeVersion );
+				if (genomeVersionSpace != null) {
+					genomeVersionSpace.registerSpecies(filename, genomeVersion.getSpecies() );
+				}
 			}
+			
 		}
 		
 		return rtnList;

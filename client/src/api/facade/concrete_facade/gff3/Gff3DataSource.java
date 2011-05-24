@@ -48,15 +48,14 @@ import java.util.*;
  * @See DrivingHandler
  */
 public class Gff3DataSource implements FeatureListener {
-	//------------------------------MEMBER VARIABLES
-	// These collections are temporary and reflect the state during the
-	// construction of a particular model.
-	private Map mSequenceLengthMap = new HashMap();
-
 	private boolean mRetainAllFeatures = false;
 
+	//------------------------------MEMBER VARIABLES
+	// These variables are temporary and reflect the state during the
+	// construction of a particular model.
+
 	// Feature caching criteria
-	private Set mRangesToCache;
+	private Set<Range> mRangesToCache;
 	private OID mAxisOidToCache;
 	private boolean mCacheCurations;
 	private boolean mCacheObsoleted;
@@ -137,13 +136,15 @@ public class Gff3DataSource implements FeatureListener {
 
 	//------------------------------FeatureListener IMPLEMENTATION
 	public void feature( CompoundFeatureBean feature ) {
-		recursivelyRegisterFeatures( feature, true );
+		if ( meetsCacheCriteria( feature ) ) {
+			recursivelyRegisterFeatures( feature, true );
+		}
 	}
 	
 	//------------------------------PUBLIC INTERFACE
 	/** Adds features over a given range, aligning to a given axis. */
 	public synchronized void accumulateFeatures( String lSource, OID lAxisOidOfInterest,
-			Set lRangesOfInterest, boolean lHumanCurated) {
+			Set<Range> lRangesOfInterest, boolean lHumanCurated) {
 
 		// Setup criteria for this load.
 		mRangesToCache = lRangesOfInterest;
@@ -171,20 +172,8 @@ public class Gff3DataSource implements FeatureListener {
 	 *  Hands back the set of all seq oids. It is assumed ok to have the
 	 *  axis oid remain in this collection
 	 */
-	public Collection getSubjectSeqOids() {
+	public Collection<OID> getSubjectSeqOids() {
 		return mSubjectSeqOids;
-	} // End method
-
-	/**
-	 * Returns length, as string, of sequence, if that seq is known to this
-	 * loader.  If not known, returns null;
-	 */
-	public String getSubjectSequenceLength(OID sequenceOID) {
-		Integer sequenceLengthInt = (Integer)mSequenceLengthMap.get(sequenceOID);
-		if (sequenceLengthInt != null)
-			return sequenceLengthInt.toString();
-		else
-			return null;
 	} // End method
 
 	/**
@@ -324,6 +313,7 @@ public class Gff3DataSource implements FeatureListener {
 	 * axis whose oid is given.
 	 */
 	List<FeatureBean> findPrecomputedFeaturesOnAxis(OID axisOID, Set<Range> rangesOfInterest) {
+		//  Tracking exception.  Dnew Exception().printStackTrace();
 		return findFeaturesOnAxis(mRootPrecomputedFeatures, axisOID, rangesOfInterest);
 	} // End method: findPrecomputedFeaturesOnAxis
 
@@ -386,6 +376,8 @@ public class Gff3DataSource implements FeatureListener {
 		}
 
 		try {
+			//System.out.println("Loading file.");
+			//new Exception().printStackTrace();
 			mFeatureFactory.loadFile( source, axisOID, mReadFacadeManager );
 
 		} catch ( Exception ex ) {
@@ -469,8 +461,11 @@ public class Gff3DataSource implements FeatureListener {
 			}
 			mRootCuratedFeatures.add( compoundModel.getOID() );
 		}
-		else {
-			// Ignore contigs and chromosomes, here.
+		else if (compoundModel.isCurated()) {
+			// May be a transcript.
+			mRootCuratedFeatures.add( compoundModel.getOID() );
+		}
+		else if ( ! compoundModel.isCurated() ) {
 			String analysisType = compoundModel.getAnalysisType();
 			if ( analysisType.equalsIgnoreCase( FeatureFactory.CONTIG_GFF ) ) {
 				mContigFeatures.add( compoundModel.getOID() );

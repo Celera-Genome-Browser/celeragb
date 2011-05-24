@@ -281,6 +281,8 @@ public abstract class FeatureBean implements Serializable, Comparable {
     else
       parentEntity = null;
 
+    try { // TEMPORARY
+    	
     GenomicEntity featureEntity = entityFactory.create(
         featureOID,                           // Feature's OID
         getAnalysisType(),                    // Display Name
@@ -297,6 +299,13 @@ public abstract class FeatureBean implements Serializable, Comparable {
 
     return featureEntity;
 
+    } catch ( Exception ex ) {
+    	if ( parentEntity != null ) {
+    		System.out.println( "PARENT: " + parentEntity.getDisplayName() + " " + parentEntity.getEntityType() + " " + parentEntity.toString());
+    		System.out.println( "THIS: " + getAnalysisType() + " " + getDiscoveryEnvironment() + " " + annotationType );
+    	}
+    	return null;
+    }
   } // End method: createFeatureEntity
 
   /**

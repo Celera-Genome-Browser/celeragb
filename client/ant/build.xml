@@ -17,6 +17,7 @@
   <property name="xerces.jar"	 value="${lib.home}/xercesImpl.jar"/>
   <property name="xercesSamples.jar" value="${lib.home}/xercesSamples.jar"/>
   <property name="xml-apis.jar"  value="${lib.home}/xml-apis.jar"/>
+  <property name="gff3.jar"      value="${lib.home}/gff3-to-model-1.0.jar"/>
 
   <property name="minfest.file"  value="${basedir}/ant/runnable.mft"/>
 
@@ -32,6 +33,7 @@
 	<pathelement location="${xml-apis.jar}"/>
   	<pathelement location="${xercesSamples.jar}"/>
   	<pathelement location="${j2ee.jar}"/>
+  	<pathelement location="${gff3.jar}"/>
   </path>
 
 
