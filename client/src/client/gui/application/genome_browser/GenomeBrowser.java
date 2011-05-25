@@ -127,7 +127,7 @@ public final class GenomeBrowser {
                     "XML Service URL");
             modelMgr.registerFacadeManagerForProtocol("gff", 
             		api.facade.concrete_facade.gff3.Gff3GenomicAxisFacadeManager.class,
-            		"Generic Feature Format, Version 3 (.gff3) File");
+            		"Generic Feature Format, Version 3 (.gff) File");
 
             // Editor Registration
             //      sessionMgr.registerEditorForType(api.entity_model.model.genetics.Species.class,

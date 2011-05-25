@@ -243,6 +243,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
 		// Registry of species against various things, including the
 		// loader, will be carried out by the time "getGenomeVersions"
 		// returns.
+		/*
 		GenomeVersion[] genomeVersions = getGenomeVersions();
 		int loaderGenomeVersionId = 0;
 		GenomicAxisGff3Loader axisLoader = null;
@@ -256,7 +257,7 @@ public class DirectoryGenomeVersionSpace implements GenomeVersionSpace, Sequence
 				break;
 			} // Found one.
 		} // For all gvs found in input directory.
-
+		*/
 		// Find the list corresponding to the genome version ID.
 		returnList.addAll(featureSourcesInGenomeVersion(genomeVersionId, true));
 

@@ -255,21 +255,21 @@ public class FeatureFactory {
 	/**
 	 * There are varying standards as to representation of the gene - to - exon hierarchy in a GFF file.  This
 	 * method will normalize to gene - transcript - exons.
-	 * @param node base node of all.
+	 * @param rootNode base node of all.
 	 */
-	private ModelTreeNode normalizeNodeHierarchy( ModelTreeNode node ) {
-		Gff3GenericModel model = node.getModel();
+	private ModelTreeNode normalizeNodeHierarchy( ModelTreeNode rootNode ) {
+		Gff3GenericModel model = rootNode.getModel();
 		boolean isGene = isCuratedType( model, GENE_TYPE_GB );
 		boolean isTranscript = isCuratedType( model, TRANSCRIPT_TYPE_GB ) || model.getType().endsWith("RNA");
 		
-		if ( isGene  &&  hasNoChildren( node ) ) {
+		if ( isGene  &&  hasNoChildren( rootNode ) ) {
 			// Must establish a Gene/Transcript/Exon hierarchy out of what is found.
-			ModelTreeNode childNode = createGeneChildNode(node, model, TRANSCRIPT_TYPE_GFF);
+			ModelTreeNode childNode = createGeneChildNode(rootNode, model, TRANSCRIPT_TYPE_GFF);
 			createGeneChildNode(childNode, childNode.getModel(), EXON_TYPE_GFF);
 		}
 		else if ( isGene ) {
 			// Top level is a gene, with children.  Do not expect mixture of different types as gene-children.
-			List<ModelTreeNode> children = node.getChildren();
+			List<ModelTreeNode> children = rootNode.getChildren();
 			ModelTreeNode transcriptNode = null;
 			for ( ModelTreeNode childNode: children ) {
 				Gff3GenericModel childModel = childNode.getModel();
@@ -290,9 +290,9 @@ public class FeatureFactory {
 				boolean childIsPseudogene = childModel.getType().equals( PSEUDOGENE_TYPE_GFF );
 				if ( childIsExon  ||  childIsStopCodon  ||  childIsStartCodon ) {
 					// No transcript.
-					node.removeChild( childNode );  // Take away old child.
+					rootNode.removeChild( childNode );  // Take away old child.
 					if ( transcriptNode == null ) {
-						transcriptNode = this.createGeneChildNode( node, model, TRANSCRIPT_TYPE_GFF );
+						transcriptNode = this.createGeneChildNode( rootNode, model, TRANSCRIPT_TYPE_GFF );
 					}
 					transcriptNode.addChild( childNode );
 					childNode.setParents( new ModelTreeNode[] { transcriptNode } );
@@ -319,14 +319,14 @@ public class FeatureFactory {
 		}
 		else if ( isTranscript ) {
 			// Top level is transcript.  Need to make a gene overhead.
-			ModelTreeNode newGeneNode = createNewGeneParentNode(node, model, GENE_TYPE_GFF );
-			node = newGeneNode;
-			if ( hasNoChildren( node ) ) {
-				createGeneChildNode(node, model, EXON_TYPE_GFF);
+			ModelTreeNode newGeneNode = createNewGeneParentNode(rootNode, model, GENE_TYPE_GFF );
+			rootNode = newGeneNode;
+			if ( hasNoChildren( rootNode ) ) {
+				createGeneChildNode(rootNode, model, EXON_TYPE_GFF);
 			}
 		}
 
-		return node;
+		return rootNode;
 	}
 	
 	/** Special handling for genes.  */
