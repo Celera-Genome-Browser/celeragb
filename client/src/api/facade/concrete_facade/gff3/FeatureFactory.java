@@ -258,13 +258,13 @@ public class FeatureFactory {
 	 * @param rootNode base node of all.
 	 */
 	private ModelTreeNode normalizeNodeHierarchy( ModelTreeNode rootNode ) {
-		Gff3GenericModel model = rootNode.getModel();
-		boolean isGene = isCuratedType( model, GENE_TYPE_GB );
-		boolean isTranscript = isCuratedType( model, TRANSCRIPT_TYPE_GB ) || model.getType().endsWith("RNA");
+		Gff3GenericModel rootModel = rootNode.getModel();
+		boolean isGene = isCuratedType( rootModel, GENE_TYPE_GB );
+		boolean isTranscript = isCuratedType( rootModel, TRANSCRIPT_TYPE_GB ) || rootModel.getType().endsWith("RNA");
 		
 		if ( isGene  &&  hasNoChildren( rootNode ) ) {
 			// Must establish a Gene/Transcript/Exon hierarchy out of what is found.
-			ModelTreeNode childNode = createGeneChildNode(rootNode, model, TRANSCRIPT_TYPE_GFF);
+			ModelTreeNode childNode = createGeneChildNode(rootNode, rootModel, TRANSCRIPT_TYPE_GFF);
 			createGeneChildNode(childNode, childNode.getModel(), EXON_TYPE_GFF);
 		}
 		else if ( isGene ) {
@@ -292,7 +292,7 @@ public class FeatureFactory {
 					// No transcript.
 					rootNode.removeChild( childNode );  // Take away old child.
 					if ( transcriptNode == null ) {
-						transcriptNode = this.createGeneChildNode( rootNode, model, TRANSCRIPT_TYPE_GFF );
+						transcriptNode = createGeneChildNode( rootNode, rootModel, TRANSCRIPT_TYPE_GFF );
 					}
 					transcriptNode.addChild( childNode );
 					childNode.setParents( new ModelTreeNode[] { transcriptNode } );
@@ -308,7 +308,7 @@ public class FeatureFactory {
 			}
 			
 			if ( transcriptNode == null ) {
-				
+				transcriptNode =  createGeneChildNode( rootNode, rootModel, TRANSCRIPT_TYPE_GFF );
 			}
 			if ( hasNoChildren( transcriptNode ) ) {
 				// No exons.
@@ -319,10 +319,10 @@ public class FeatureFactory {
 		}
 		else if ( isTranscript ) {
 			// Top level is transcript.  Need to make a gene overhead.
-			ModelTreeNode newGeneNode = createNewGeneParentNode(rootNode, model, GENE_TYPE_GFF );
+			ModelTreeNode newGeneNode = createNewGeneParentNode(rootNode, rootModel, GENE_TYPE_GFF );
 			rootNode = newGeneNode;
 			if ( hasNoChildren( rootNode ) ) {
-				createGeneChildNode(rootNode, model, EXON_TYPE_GFF);
+				createGeneChildNode(rootNode, rootModel, EXON_TYPE_GFF);
 			}
 		}
 
