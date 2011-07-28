@@ -74,6 +74,7 @@
   	<unjar src="${j2ee.jar}"         dest="${build.home}"/>
  	<unjar src="${xercesSamples.jar}" dest="${build.home}"/>
  	<unjar src="${xml-apis.jar}"     dest="${build.home}"/>
+  	<unjar src="${gff3.jar}"         dest="${build.home}"/>
   </target>
 
   <!--,javadoc-->
@@ -92,11 +93,11 @@
         <attribute name="Main-Class" value="client.gui.application.genome_browser.GenomeBrowser"/>
       	<attribute name="Class-Path" value="${jar.class.path}/bin"/>
       </manifest>
-
+    	
   	</jar>
   	<copydir dest="${dist.home}/${release.name}" src="${documents.home}"></copydir>
   	
-  	<zip destfile="${release.home}/${release.name}"
+  	<zip destfile="${release.home}/${release.name}.zip"
   	     basedir="${dist.home}">
   	</zip>
 
