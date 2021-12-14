@@ -21,10 +21,7 @@
 */
 package client.shared.swing;
 
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGEncodeParam;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
-
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.OutputStream;
@@ -52,10 +49,7 @@ public class ImageWriterUtilities {
         comp.paint(g);
 
         try {
-            JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(out);
-            JPEGEncodeParam param = encoder.getDefaultJPEGEncodeParam(compImage);
-            param.setQuality(0.9f, true);
-            encoder.encode(compImage, param);
+            ImageIO.write(compImage, "jpg", out);
         } catch (Exception e) {
             e.printStackTrace();
         }
