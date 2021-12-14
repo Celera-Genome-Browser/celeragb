@@ -21,7 +21,7 @@
 */
 package api.stub.http;
 
-import sun.misc.BASE64Encoder;
+import java.util.Base64;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -86,7 +86,7 @@ public final class HttpConnectionFactory
         sbuf.append(':');
         sbuf.append(pPassword);
         final String userPassword = sbuf.toString();
-        final String authEncoding = BASIC_AUTH + new BASE64Encoder().encode(userPassword.getBytes());
+        final String authEncoding = BASIC_AUTH + Base64.getEncoder().encode(userPassword.getBytes());
         return authEncoding;
     }
 
