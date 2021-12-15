@@ -14,8 +14,8 @@ The author of _this_ readme document is humbly submitting the work of over a doz
 developers.  Much of the value of this code--venerable though it is--is derived from the input of the scientific teams who guided its development
 through those years.
 
-## Software Leads included
-Peter Davies
-Olivier Jojic
-Russell J Turner
-Rick Wise
+### Software Leads included
+* Peter Davies
+* Olivier Jojic
+* Russell J Turner
+* Rick Wise
