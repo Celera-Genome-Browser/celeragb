@@ -5,6 +5,7 @@
 plugins {
     java
     `maven-publish`
+    `jacoco`
 }
 
 repositories {
@@ -45,6 +46,12 @@ tasks {
         archiveBaseName.set("${project.name}-with-dependencies")
     }
 }
+
+/*
+test {
+  useJUnitPlatform()
+}
+*/
 
 publishing {
     publications.create<MavenPublication>("maven") {
