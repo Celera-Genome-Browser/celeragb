@@ -13,11 +13,14 @@ repositories {
 }
 
 dependencies {
-	implementation("xml-apis:xml-apis:2.0.2")
+	implementation("xml-apis:xml-apis:1.4.01")
 	implementation("xerces:xercesImpl:2.12.1")
 	implementation("org.jboss.javaee:jboss-jms-api:1.1.0.GA")
 	implementation("org.jboss.javaee:jboss-ejb-api-3.0_spec:5.0.2.GA")
     testImplementation("junit:junit:4.13.2")
+    testImplementation("org.powermock:powermock-module-junit4:2.0.9")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+    testImplementation("org.mockito:mockito-inline:3.12.4")
     testImplementation("org.mockito:mockito-core:3.12.4")
 }
 

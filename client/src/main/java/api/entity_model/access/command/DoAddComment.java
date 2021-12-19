@@ -21,7 +21,6 @@
 */
 package api.entity_model.access.command;
 
-
 import api.entity_model.model.annotation.Feature;
 import api.entity_model.model.fundtype.Axis;
 import api.stub.data.GenomicEntityComment;
@@ -29,8 +28,6 @@ import api.stub.data.OID;
 
 import java.util.Date;
 import java.util.HashSet;
-
-
 
 /**
  * Title:        Genome Browser Client
@@ -62,79 +59,79 @@ public class DoAddComment extends FeatureStructureBoundedCommand {
   }
 
 
-    /**
-     * Constuctor used when acting as an Undo...
-     */
-    public DoAddComment(Axis anAxis, Feature aFeature, GenomicEntityComment aComment,
-                        String undoCommandName, String undoToScratchState) {
-      super(anAxis);
-      this.feature = aFeature;
-      this.comment = aComment;
-      this.setIsActingAsUndoAndUndoName(true, undoCommandName);
-      this.undoToScratchState = undoToScratchState;
-    }
+  /**
+   * Constuctor used when acting as an Undo...
+   */
+  public DoAddComment(Axis anAxis, Feature aFeature, GenomicEntityComment aComment,
+                      String undoCommandName, String undoToScratchState) {
+    super(anAxis);
+    this.feature = aFeature;
+    this.comment = aComment;
+    this.setIsActingAsUndoAndUndoName(true, undoCommandName);
+    this.undoToScratchState = undoToScratchState;
+  }
 
 
-    /**
-     * Invoked BEFORE the command is executed.
-     * @returns the set of pre-existing root features that will be affected.
-     */
-    public HashSet getCommandSourceRootFeatures() {
-      HashSet rootFeatureSet = new HashSet();
-      rootFeatureSet.add(this.feature.getRootFeature());
-      return rootFeatureSet;
-    }
+  /**
+   * Invoked BEFORE the command is executed.
+   * @returns the set of pre-existing root features that will be affected.
+   */
+  public HashSet getCommandSourceRootFeatures() {
+    HashSet rootFeatureSet = new HashSet();
+    rootFeatureSet.add(this.feature.getRootFeature());
+    return rootFeatureSet;
+  }
 
 
-    /**
-     * Invoked AFTER the command is executed.
-     * @returns the set of root features that display changes "after" the command has executed.
-     */
-    public HashSet getCommandResultsRootFeatures() {
-      HashSet rootFeatureSet = new HashSet();
-      rootFeatureSet.add(this.feature.getRootFeature());
-      return rootFeatureSet;
-    }
+  /**
+   * Invoked AFTER the command is executed.
+   * @returns the set of root features that display changes "after" the command has executed.
+   */
+  public HashSet getCommandResultsRootFeatures() {
+    HashSet rootFeatureSet = new HashSet();
+    rootFeatureSet.add(this.feature.getRootFeature());
+    return rootFeatureSet;
+  }
 
 
-    /**
-     * Execute the command with out returning the undo.
-     * The undo will be created for us by the GeneBoundaryCommand super-class.
-     */
-    public void executeWithNoUndo() throws Exception {
-      if (DEBUG_CLASS) System.out.println("DoAddComment: Executing!");
-        Feature.FeatureMutator featureMutator = null;
-        featureMutator = mutatorAcceptor.getFeatureMutatorFor(feature);
-        featureMutator.addComment(comment);
-        this.timeofCommandExecution=new Date().toString();
-        setFocusEntity(feature);
-    }
+  /**
+   * Execute the command with out returning the undo.
+   * The undo will be created for us by the GeneBoundaryCommand super-class.
+   */
+  public void executeWithNoUndo() throws Exception {
+    if (DEBUG_CLASS) System.out.println("DoAddComment: Executing!");
+    Feature.FeatureMutator featureMutator = null;
+    featureMutator = mutatorAcceptor.getFeatureMutatorFor(feature);
+    featureMutator.addComment(comment);
+    this.timeofCommandExecution=new Date().toString();
+    setFocusEntity(feature);
+  }
 
 
-    protected OID getUndoFocusOID() {
-      return feature.getOid();
-    }
+  protected OID getUndoFocusOID() {
+    return feature.getOid();
+  }
 
-    protected OID getRedoFocusOID() {
-      return feature.getOid();
-    }
+  protected OID getRedoFocusOID() {
+    return feature.getOid();
+  }
 
-    public String toString() {
-        return cmdName;
-    }
+  public String toString() {
+    return cmdName;
+  }
 
 
 
-    /** This returns the Log message with the time stamp expalaning which entities
-    * underewent change, of what kind
-    *
-    */
-   public String getCommandLogMessage() {
+  /** This returns the Log message with the time stamp expalaning which entities
+   * underewent change, of what kind
+   *
+   */
+  public String getCommandLogMessage() {
 
-     String featureType=feature.getEntityType().toString();
-     String featureId=feature.getOid().toString();
-     this.actionStr="Added Comment ="+comment.toString()+" on Entity "+featureType+" id "+featureId+"" ;
-     return(super.getCommandLogMessage());
+    String featureType=feature.getEntityType().toString();
+    String featureId=feature.getOid().toString();
+    this.actionStr="Added Comment ="+comment.toString()+" on Entity "+featureType+" id "+featureId+"" ;
+    return(super.getCommandLogMessage());
 
-   }
+  }
 }
