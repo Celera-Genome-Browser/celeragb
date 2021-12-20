@@ -8,9 +8,7 @@ import api.stub.data.GenomicEntityComment;
 import api.stub.data.OID;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
 import shared.util.PropertyConfigurator;
 
 import java.util.Properties;
@@ -24,7 +22,6 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-@RunWith(MockitoJUnitRunner.class)
 public class TestDoAddComment {
 
     private static final String TEST_COMMENT_STR = "test-comment";

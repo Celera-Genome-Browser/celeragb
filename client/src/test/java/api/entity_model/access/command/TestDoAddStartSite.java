@@ -16,10 +16,8 @@ import api.stub.data.OIDGenerator;
 import api.stub.geometry.Range;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
 import shared.util.PropertyConfigurator;
 
 import java.util.Arrays;
@@ -33,7 +31,6 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-@RunWith(MockitoJUnitRunner.class)
 public class TestDoAddStartSite {
 
     private static final int CODON_START = 10;
