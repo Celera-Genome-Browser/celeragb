@@ -11,18 +11,20 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.powermock.core.classloader.annotations.PrepareForTest;
 import shared.util.PropertyConfigurator;
 
 import java.util.Properties;
 import java.util.Set;
 
 import static api.entity_model.access.command.CommandTestEnvironment.mockAxis;
+import static api.entity_model.access.command.CommandTestEnvironment.throwsToFalse;
 import static org.junit.Assert.*;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 
 @RunWith(MockitoJUnitRunner.class)
-@PrepareForTest({DoAddComment.class})
 public class TestDoAddComment {
 
     private static final String TEST_COMMENT_STR = "test-comment";
@@ -68,6 +70,7 @@ public class TestDoAddComment {
             // Finally:  Did the change actually happen?
             assertTrue("Added comment not found in feature comments",
                     loadedComments.stream().anyMatch(lc -> lc.getComment().equals(TEST_COMMENT_STR)));
+            verify(cte.getModelMgr(), times(0)).handleException(any());
 
         } catch (InvalidFeatureStructureException ifse) {
             ifse.printStackTrace();
@@ -77,20 +80,6 @@ public class TestDoAddComment {
 
     private Object getCmdRoot(DoAddComment cmd) {
         return cmd.getCommandSourceRootFeatures().stream().findFirst().get();
-    }
-
-    private boolean throwsToFalse(Exceptable r) {
-        try {
-            r.exec();
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
-    }
-
-    private interface Exceptable {
-        void exec() throws Exception;
     }
 
 }
