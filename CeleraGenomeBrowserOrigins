@@ -8,7 +8,7 @@ Over the course of sometime in early 1999 to 2006, roughly, the Celera Genome Br
 Those companies are no longer what they were.  Celera was split off years later, and AB was bought up to eventually become part of Life Sciences Corporation.
 
 However, during that time period, the Celera GB was developed-during-use (for lack of a better term) to help Genomics scientists complete the sequencing and first assembly
-of a Human Genome.  This effort was the "private sector" side of process, which began as at NIH.  Eventually, the barriers to cooperation fell away and the two efforts were
+of a Human Genome.  This effort was the "private sector" side of the process, which began earlier at NIH.  Eventually, the barriers to cooperation fell away and the two efforts were
 joined--for the good of Biological Science.
 
 The code was written in Java and required close cooperation between developers and scientists, who prompted the software team with the requirements often even as they realized
@@ -20,10 +20,10 @@ Eventually, some time after the genome was sequenced, the process changed a bit 
 In late 2006, fearing the code would be lost to obscurity, as things were moving along and changing at the parent company, the author of this file worked with one of the former
 technical leads to migrate the code into open source.
 ### Data Sources
-The GB originally had both an relational database and an XML-file data source.  It had "promotion"--or move-to-database, of evidence and curated genes.  Things which became
-"accepted" were allowed into the backing database.  However, when taken to open source, the database and server backing were not included.
+The GB originally had both a relational database and an XML-file data source.  It had "promotion"--or move-to-database, of evidence and curated genes.  Things which became
+accepted were allowed into the backing database.  However, when taken to open source, the database and server backing were not included.
 
-In 2011, the author added a GFF3 backing to pair with the XML backing.  The GFF3 was not used during the Celera effort.
+In 2011, the author added a GFF3 backing to pair with the XML backing.  The GFF3 was not used during the earlier Celera effort.
 
 This form of the Celera GB can still be found at Source Forge at https://sourceforge.net/projects/celeragb/ .
 
@@ -32,7 +32,7 @@ The Celera GB's code was nearly all Java except for any XML for ant builds and e
 The build systems was Apache Ant, with some help from DOS CMD files.  Its original backing (as above) was relational, employing at various times Oracle and Sybase.  Its XML
 backing was a proprietary "GAME" (Genome Annotation Markup Elements) format.  This format is described here http://xml.coverpages.org/game.html , but the format used by Celera
 may have, of necessity, diverged from that.  The relational schema and associated database were developed by teams of developers at Celera and allowed a considerable volume
-of information to be accumulated over time.
+of information to be accumulated over time.  Source code was stored in the CVS source code control system.
 
 # Other Efforts Since
 At least one lab has contacted former developer(s) to adapt the Celera GB for their needs in the years shortly after 2006.
