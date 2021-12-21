@@ -19,3 +19,7 @@ through those years.
 * Olivier Jojic
 * Russell J Turner
 * Rick Wise
+
+## Other Acknowledgements
+This presentation https://www.csee.umbc.edu/~turner/presentations/bvw2002/tsld026.htm has more details about the Genome Browser and acknowledgements to the team(s) who
+made it what it is.
