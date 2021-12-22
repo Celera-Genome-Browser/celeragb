@@ -18,7 +18,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    env:
+      HOME: ./client
+      
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 11
@@ -29,6 +31,5 @@ jobs:
     - name: Build with Gradle
       uses: gradle/gradle-build-action@4137be6a8bf7d7133955359dbd952c0ca73b1021
       with:
-        arguments: -b client/build.gradle -p ./client build
-        gradle-executable: ./client/gradlew        
+        arguments: build
 
