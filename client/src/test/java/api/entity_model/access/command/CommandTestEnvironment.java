@@ -1,16 +1,15 @@
 package api.entity_model.access.command;
 
+import api.entity_model.management.GenomicEntityFactory;
 import api.entity_model.management.ModelMgr;
 import api.entity_model.management.MutatorAccessController;
 import api.entity_model.model.alignment.GeometricAlignment;
-import api.entity_model.model.annotation.ComputedCodon;
-import api.entity_model.model.annotation.CuratedExon;
-import api.entity_model.model.annotation.InvalidFeatureStructureException;
-import api.entity_model.model.annotation.Workspace;
+import api.entity_model.model.annotation.*;
 import api.entity_model.model.assembly.GenomicAxis;
 import api.entity_model.model.fundtype.Axis;
 import api.entity_model.model.fundtype.EntityType;
 import api.entity_model.model.genetics.GenomeVersion;
+import api.facade.abstract_facade.annotations.FeatureFacade;
 import api.facade.facade_mgr.FacadeManager;
 import api.facade.facade_mgr.FacadeManagerBase;
 import api.stub.data.FeatureDisplayPriority;
@@ -19,9 +18,7 @@ import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 import shared.util.ThreadQueue;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.ResourceBundle;
+import java.util.*;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
@@ -34,6 +31,7 @@ public class CommandTestEnvironment implements AutoCloseable {
     private MockedStatic<ModelMgr> modelMgrStatic;
 
     private ModelMgr modelMgrInstance;
+    private GenomicEntityFactory entityFactory;
 
     CommandTestEnvironment() {
         initResourceBundle();
@@ -43,6 +41,10 @@ public class CommandTestEnvironment implements AutoCloseable {
 
     ModelMgr getModelMgr() {
         return modelMgrInstance;
+    }
+
+    public GenomicEntityFactory getEntityFactory() {
+        return entityFactory;
     }
 
     @Override
@@ -85,7 +87,21 @@ public class CommandTestEnvironment implements AutoCloseable {
         };
     }
 
-    static ComputedCodon makeComputedCodon(EntityType entityTypeInstance, GeometricAlignment computedCodonAlignment) throws InvalidFeatureStructureException {
+    static CuratedExon makeCuratedExon(GeometricAlignment exonAlignment, FeatureFacade featureFacade) throws InvalidFeatureStructureException {
+        return new CuratedExon(Mockito.mock(OID.class), "CuratedExon", Mockito.mock(EntityType.class), CURATION_DISC_ENV) {
+            @Override
+            public GeometricAlignment getOnlyGeometricAlignmentToOnlyAxis() {
+                return exonAlignment;
+            }
+            @Override
+            public FeatureFacade getFeatureFacade() {
+                return featureFacade;
+            }
+        };
+    }
+
+    static ComputedCodon makeComputedCodon(EntityType entityTypeInstance, GeometricAlignment computedCodonAlignment)
+            throws InvalidFeatureStructureException {
         return new ComputedCodon(
                 Mockito.mock(OID.class), "test-site", entityTypeInstance, CURATION_DISC_ENV, null,
                 FeatureDisplayPriority.DEFAULT_PRIORITY
@@ -95,6 +111,85 @@ public class CommandTestEnvironment implements AutoCloseable {
                 return computedCodonAlignment;
             }
         };
+    }
+
+    static CuratedGene makeCuratedGene(EntityType entityTypeInstance, GeometricAlignment geneAlignment)
+            throws InvalidFeatureStructureException {
+        return new CuratedGene(Mockito.mock(OID.class), "test-curated-gene", entityTypeInstance, CURATION_DISC_ENV) {
+            @Override
+            public GeometricAlignment getOnlyGeometricAlignmentToOnlyAxis() {
+                return geneAlignment;
+            }
+
+            @Override
+            public String toString() {
+                return "Test Curated Gene";
+            }
+        };
+    }
+
+    static CuratedTranscript makeCuratedTranscript(
+            EntityType entityTypeInstance, GeometricAlignment transcriptAlignment
+    ) throws InvalidFeatureStructureException {
+        return new CuratedTranscript(
+                Mockito.mock(OID.class), "test-curated-transcript", entityTypeInstance, CURATION_DISC_ENV
+        ) {
+            @Override
+            public GeometricAlignment getOnlyAlignmentToOnlyAxis() {
+                return transcriptAlignment;
+            }
+            @Override
+            public GeometricAlignment getOnlyGeometricAlignmentToOnlyAxis() {
+                return transcriptAlignment;
+            }
+
+            @Override
+            public Set getAlignmentsToAxis(Axis axis) {
+                Set<GeometricAlignment> alignments = new HashSet<>();
+                alignments.add(transcriptAlignment);
+                return alignments;
+            }
+        };
+    }
+
+    /** Overload required for creating and aligning. */
+    static CuratedTranscript makeCuratedTranscript(
+            EntityType entityTypeInstance, GeometricAlignment transcriptAlignment, GenomeVersion genomeVersion
+    ) throws InvalidFeatureStructureException {
+        return new CuratedTranscript(
+                Mockito.mock(OID.class), "test-curated-transcript", entityTypeInstance, CURATION_DISC_ENV
+        ) {
+            @Override
+            public GeometricAlignment getOnlyAlignmentToOnlyAxis() {
+                return transcriptAlignment;
+            }
+            @Override
+            public GeometricAlignment getOnlyGeometricAlignmentToOnlyAxis() {
+                return transcriptAlignment;
+            }
+
+            @Override
+            public Set getAlignmentsToAxis(Axis axis) {
+                Set<GeometricAlignment> alignments = new HashSet<>();
+                alignments.add(transcriptAlignment);
+                return alignments;
+            }
+
+            @Override
+            public GenomeVersion getGenomeVersion() {
+                return genomeVersion;
+            }
+        };
+    }
+
+    /** If exception thrown, return the exception. Expected behavior. */
+    static boolean throwsToException(Exceptable r, Class clazz) {
+        try {
+            r.exec();
+            return false;
+        } catch (Exception e) {
+            return clazz.isInstance(e);
+        }
     }
 
     static boolean throwsToFalse(Exceptable r) {
@@ -130,13 +225,15 @@ public class CommandTestEnvironment implements AutoCloseable {
         ResourceBundle modelMgrResourceBundle = Mockito.mock(ResourceBundle.class);
         given(modelMgrResourceBundle.getString("Factory")).willReturn("api.entity_model.management.StandardEntityFactory");
         resourceBundleStatic.when(() -> ResourceBundle.getBundle("testprop")).thenReturn(modelMgrResourceBundle);
-        ResourceBundle serverConResourceBundle = Mockito.mock(ResourceBundle.class);
-        given(serverConResourceBundle.getString("HttpServer")).willReturn("localhost");
-        resourceBundleStatic.when(() -> ResourceBundle.getBundle("testserverconprop")).thenReturn(serverConResourceBundle);
 
         ResourceBundle annotationResourceBundle = Mockito.mock(ResourceBundle.class);
         given(annotationResourceBundle.getKeys()).willReturn(Collections.enumeration(Arrays.asList()));
         resourceBundleStatic.when(() -> ResourceBundle.getBundle("resource.shared.DataLayerToFeatureGroup")).thenReturn(annotationResourceBundle);
+
+        ResourceBundle serverConResourceBundle = Mockito.mock(ResourceBundle.class);
+        given(serverConResourceBundle.getString("HttpServer")).willReturn("localhost");
+        resourceBundleStatic.when(() -> ResourceBundle.getBundle("testserverconprop")).thenReturn(serverConResourceBundle);
+
     }
 
     private final void initFacadeManager() {
@@ -150,6 +247,9 @@ public class CommandTestEnvironment implements AutoCloseable {
 
         modelMgrInstance = Mockito.mock(ModelMgr.class);
         modelMgrStatic.when(() -> ModelMgr.getModelMgr()).thenReturn(modelMgrInstance);
+
+        entityFactory = Mockito.mock(GenomicEntityFactory.class);
+        given(modelMgrInstance.getEntityFactory()).willReturn(entityFactory);
 
         MutatorAccessController accessController = Mockito.mock(MutatorAccessController.class);
         given(modelMgrInstance.getMutatorAccessController()).willReturn(accessController);

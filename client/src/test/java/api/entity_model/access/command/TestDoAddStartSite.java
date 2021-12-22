@@ -16,7 +16,6 @@ import api.stub.data.OIDGenerator;
 import api.stub.geometry.Range;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 import shared.util.PropertyConfigurator;
 
@@ -47,13 +46,11 @@ public class TestDoAddStartSite {
     @SuppressWarnings("unchecked")
     @Test
     public void testExecuteNoUndo() {
-        try (CommandTestEnvironment cte = new CommandTestEnvironment();
-             MockedStatic<EntityType> entityTypeStatic = Mockito.mockStatic(EntityType.class);
-             MockedStatic<OIDGenerator> oidGeneratorMockedStatic = Mockito.mockStatic(OIDGenerator.class);
-             MockedStatic<PropertyMgr> propertyMgrMockedStatic = Mockito.mockStatic(PropertyMgr.class)) {
+        try (ExtendedStaticCommandTestEnvironment testEnvironment = new ExtendedStaticCommandTestEnvironment()) {
 
             final EntityType entityTypeInstance = Mockito.mock(EntityType.class);
-            entityTypeStatic.when(() -> EntityType.getEntityTypeForName(any())).thenReturn(entityTypeInstance);
+            testEnvironment.getEntityType()
+                    .when(() -> EntityType.getEntityTypeForName(any())).thenReturn(entityTypeInstance);
             final GeometricAlignment computedCodonAlignment = Mockito.mock(GeometricAlignment.class);
 
             Axis.AxisMutator axisMutator = Mockito.mock(Axis.AxisMutator.class);
@@ -72,12 +69,12 @@ public class TestDoAddStartSite {
             given(exonRange.contains(CODON_START)).willReturn(true);
 
             given(transcript.getSubFeatures()).willReturn(Arrays.asList(makeCuratedExon(exonAlignment)));
-            GenomicEntityFactory entityFactory = Mockito.mock(GenomicEntityFactory.class);
+            GenomicEntityFactory entityFactory = testEnvironment.getEntityFactory();
 
             CuratedCodon curatedCodon = new CuratedCodon(Mockito.mock(OID.class), "StartCodon", Mockito.mock(EntityType.class), CURATION_DISC_ENV);
 
             OIDGenerator oidGeneratorInstance = Mockito.mock(OIDGenerator.class);
-            oidGeneratorMockedStatic.when(OIDGenerator::getOIDGenerator).thenReturn(oidGeneratorInstance);
+            testEnvironment.getOIDGenerator().when(OIDGenerator::getOIDGenerator).thenReturn(oidGeneratorInstance);
 
             final GenomeVersion genomeVersion = anAxis.getGenomeVersion();
             given(transcript.getGenomeVersion()).willReturn(genomeVersion);
@@ -86,9 +83,9 @@ public class TestDoAddStartSite {
             given(oidGeneratorInstance.generateScratchOIDForGenomeVersion(genomeVersion.hashCode())).willReturn(generatedOID);
             given(entityFactory.create(generatedOID, "StartCodon", null, CURATION_DISC_ENV, null, transcript, FeatureDisplayPriority.DEFAULT_PRIORITY)).willReturn(curatedCodon);
 
-            given(cte.getModelMgr().getEntityFactory()).willReturn(entityFactory);
+            given(testEnvironment.getModelMgr().getEntityFactory()).willReturn(entityFactory);
             PropertyMgr propMgrInstance = Mockito.mock(PropertyMgr.class);
-            propertyMgrMockedStatic.when(PropertyMgr::getPropertyMgr).thenReturn(propMgrInstance);
+            testEnvironment.getPropertyMgr().when(PropertyMgr::getPropertyMgr).thenReturn(propMgrInstance);
 
             // Preconditions are that there is an exon whose range overlaps the start codon target location.
             DoAddStartSite cmd = new DoAddStartSite(anAxis, makeComputedCodon(entityTypeInstance, computedCodonAlignment), transcript);
@@ -96,7 +93,7 @@ public class TestDoAddStartSite {
             assertTrue("Exception thrown by the command", throwsToFalse(cmd::executeWithNoUndo));
 
             // Doing post-checks: did the command have the effect?
-            verify(cte.getModelMgr(), times(0)).handleException(any());
+            verify(testEnvironment.getModelMgr(), times(0)).handleException(any());
             verify(propMgrInstance, times(1)).handleProperties(PropertyMgr.NEW_ENTITY, curatedCodon, false);
             verify(axisMutator, times(1)).addAlignmentToEntity(any());
         } catch (AlignmentNotAllowedException | InvalidFeatureStructureException ex) {
