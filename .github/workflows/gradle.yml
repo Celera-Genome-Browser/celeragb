@@ -27,4 +27,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Run the Gradle package task
-      run: bash -c ./client/gradlew build
+      run: bash -c ./client/gradlew -b client/build.gradle build
